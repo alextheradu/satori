@@ -1,0 +1,449 @@
+{
+  "provenance": "48 newly authored SAT-style questions, one per distinct public-domain literary excerpt; sourced passages are not claimed as original writing. No numerical or name-swapping variants.",
+  "total": 48,
+  "skills": {
+    "Text Structure and Purpose": 12,
+    "Words in Context": 12,
+    "Central Ideas and Details": 12,
+    "Inferences": 12
+  },
+  "passageWords": {
+    "minimum": 53,
+    "maximum": 114
+  },
+  "sourceVerification": "verify-public-domain.py compares complete normalized source paragraphs, hashes, and edition rights notices. Question interpretations and distractors were reviewed editorially; source matching alone does not establish their correctness.",
+  "items": [
+    {
+      "questionId": "rw-original-structure-101",
+      "excerptId": "pd-persuasion-01",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-2",
+      "paragraphIndex": 0,
+      "excerptSha256": "751c62f7fa33596dad48ed2343186cfd53070696337912de464cfe90a013f6f0"
+    },
+    {
+      "questionId": "rw-original-vocab-121",
+      "excerptId": "pd-persuasion-02",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-2",
+      "paragraphIndex": 5,
+      "excerptSha256": "2abdce262813d75ed0817298ff7130db9ea2c5ab85e864cf243173673416f2a2"
+    },
+    {
+      "questionId": "rw-original-central-093",
+      "excerptId": "pd-persuasion-03",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-2",
+      "paragraphIndex": 11,
+      "excerptSha256": "238b81b3ce8024864d9ebed23976217d957d52c853d4354f964102d8b3e1b774"
+    },
+    {
+      "questionId": "rw-original-inference-097",
+      "excerptId": "pd-persuasion-04",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-3",
+      "paragraphIndex": 0,
+      "excerptSha256": "b08a25287f23afc6095c3037ff715a70e13b7daac75e3031ee513ada0e6c7b37"
+    },
+    {
+      "questionId": "rw-original-vocab-122",
+      "excerptId": "pd-persuasion-05",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-3",
+      "paragraphIndex": 1,
+      "excerptSha256": "c532f271bc23077510906f5f1097b540bde1dc3da1fa36e1d146adcfda2ef05c"
+    },
+    {
+      "questionId": "rw-original-structure-102",
+      "excerptId": "pd-persuasion-06",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-3",
+      "paragraphIndex": 11,
+      "excerptSha256": "57d3a7e29ffb400232166c0ef3524d5dcaf44aa7e2193b96027644483419812f"
+    },
+    {
+      "questionId": "rw-original-inference-098",
+      "excerptId": "pd-persuasion-07",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-4",
+      "paragraphIndex": 1,
+      "excerptSha256": "6096026ff42f943c530e1c533bd490700799120d45472963f7a86c6ab1950962"
+    },
+    {
+      "questionId": "rw-original-central-094",
+      "excerptId": "pd-persuasion-08",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-4",
+      "paragraphIndex": 8,
+      "excerptSha256": "06d064064172904ecc012f451a32e79dd568b9cc7eaac203bc4e4e896d8aaf5a"
+    },
+    {
+      "questionId": "rw-original-central-095",
+      "excerptId": "pd-expectations-01",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-1",
+      "paragraphIndex": 0,
+      "excerptSha256": "b02b717554e64b2c6add1430c83c57c76f20161d2a285c87e1297143a2c57bd9"
+    },
+    {
+      "questionId": "rw-original-structure-103",
+      "excerptId": "pd-expectations-02",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-1",
+      "paragraphIndex": 4,
+      "excerptSha256": "02a1c8944c5a439c4f53c9f88fbc1fcf2a8f29910b04fa2f68dca889cca3ae5f"
+    },
+    {
+      "questionId": "rw-original-inference-099",
+      "excerptId": "pd-expectations-03",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-1",
+      "paragraphIndex": 12,
+      "excerptSha256": "34f4c2de0586e172e379f7a57412593d5b9277c833de2b48b942a240867abec1"
+    },
+    {
+      "questionId": "rw-original-vocab-123",
+      "excerptId": "pd-expectations-04",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-2",
+      "paragraphIndex": 1,
+      "excerptSha256": "3bb90e7e228710b994883b774018dd34e18818efca4aa1e31864b1ba6c47720e"
+    },
+    {
+      "questionId": "rw-original-inference-100",
+      "excerptId": "pd-expectations-05",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-2",
+      "paragraphIndex": 3,
+      "excerptSha256": "d68361d8985f37e3a2d27bec287b80416c7a2ae0711b2001cd7e3a4b77159c47"
+    },
+    {
+      "questionId": "rw-original-structure-104",
+      "excerptId": "pd-expectations-06",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-3",
+      "paragraphIndex": 3,
+      "excerptSha256": "fa109a1717decf516b1f63518e4d12d0bfc73fdba6291541b53b0ff98bba6c92"
+    },
+    {
+      "questionId": "rw-original-vocab-124",
+      "excerptId": "pd-expectations-07",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-3",
+      "paragraphIndex": 14,
+      "excerptSha256": "c0d8bb6a879852cb47785732c660c55fbe9391fbaf5721ed77ac5a4a7fe013e3"
+    },
+    {
+      "questionId": "rw-original-central-096",
+      "excerptId": "pd-expectations-08",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-4",
+      "paragraphIndex": 5,
+      "excerptSha256": "dd019fe904066a79cec679c822393da46c9087c61171111cdf8d6c9406c0ad89"
+    },
+    {
+      "questionId": "rw-original-vocab-125",
+      "excerptId": "pd-antonia-01",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-1",
+      "paragraphIndex": 5,
+      "excerptSha256": "637422055423933f71672b2f26ad3671aa51f541cab7bff03d8e9d98fd683cb9"
+    },
+    {
+      "questionId": "rw-original-inference-101",
+      "excerptId": "pd-antonia-02",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-2",
+      "paragraphIndex": 1,
+      "excerptSha256": "73d45a5ca79a1d08d2aa87b724ba8e523600666bc0c72f14d2c37f139bf28a12"
+    },
+    {
+      "questionId": "rw-original-structure-105",
+      "excerptId": "pd-antonia-03",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-2",
+      "paragraphIndex": 3,
+      "excerptSha256": "f059125fea9c5f3539dfb10f1feffb8e22e06ca21d30153ec95ece8eab829be7"
+    },
+    {
+      "questionId": "rw-original-vocab-126",
+      "excerptId": "pd-antonia-04",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-2",
+      "paragraphIndex": 5,
+      "excerptSha256": "01e6205e0da8f8d765306b7cda4c76f9569f52495dbc14f00eb5c21f767d7606"
+    },
+    {
+      "questionId": "rw-original-central-097",
+      "excerptId": "pd-antonia-05",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-2",
+      "paragraphIndex": 7,
+      "excerptSha256": "5c7408a2309e18ed1632ef6d94fc99c995892aedf1daafeea61bc4a83fb6802d"
+    },
+    {
+      "questionId": "rw-original-inference-102",
+      "excerptId": "pd-antonia-06",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-3",
+      "paragraphIndex": 4,
+      "excerptSha256": "3df77276be7348d120eb088069d5c1eae07b96b48d046a5afad1d6d9159cbae2"
+    },
+    {
+      "questionId": "rw-original-structure-106",
+      "excerptId": "pd-antonia-07",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-3",
+      "paragraphIndex": 11,
+      "excerptSha256": "a77f06872be7bf7702755bc7c10d4c40b0d5ff68366c3523d9ad00d1ec9bc44e"
+    },
+    {
+      "questionId": "rw-original-central-098",
+      "excerptId": "pd-antonia-08",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-4",
+      "paragraphIndex": 0,
+      "excerptSha256": "24eb9caf63804bca4f9e37bbc3c7268ca74b5f3dc37a5fb19cda7d681cd214bd"
+    },
+    {
+      "questionId": "rw-original-vocab-127",
+      "excerptId": "pd-innocence-01",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-1",
+      "paragraphIndex": 18,
+      "excerptSha256": "d2c0192d5d389ba8f5a77fc48baaff16076581c1afbc5da77f56bea508236cf7"
+    },
+    {
+      "questionId": "rw-original-inference-103",
+      "excerptId": "pd-innocence-02",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-2",
+      "paragraphIndex": 8,
+      "excerptSha256": "71a82b6e76194c43c5f8b3eb67a0dcb43a581b279dec5bd94932bb01d708a364"
+    },
+    {
+      "questionId": "rw-original-structure-107",
+      "excerptId": "pd-innocence-03",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-3",
+      "paragraphIndex": 1,
+      "excerptSha256": "d570ebfbd2bb21546166562ed67f8bd2618a6c7ec59a0dd2e22b389b4eacf365"
+    },
+    {
+      "questionId": "rw-original-central-099",
+      "excerptId": "pd-innocence-04",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-3",
+      "paragraphIndex": 4,
+      "excerptSha256": "71fdad84f9246f789454be23a53fafb6e500c8b9ff2d5b76484dbef0382b2367"
+    },
+    {
+      "questionId": "rw-original-vocab-128",
+      "excerptId": "pd-innocence-05",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-3",
+      "paragraphIndex": 7,
+      "excerptSha256": "9234ffece16b5f0ef62c0edf3179e3e6e6c87b92b197cc67327b21595404b4a0"
+    },
+    {
+      "questionId": "rw-original-structure-108",
+      "excerptId": "pd-innocence-06",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-3",
+      "paragraphIndex": 9,
+      "excerptSha256": "994a9939735fb018acdad5c7dba23fd229f732135c8bfc08cc02ae7d3a35572b"
+    },
+    {
+      "questionId": "rw-original-central-100",
+      "excerptId": "pd-innocence-07",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-4",
+      "paragraphIndex": 0,
+      "excerptSha256": "6a67bf6c69cdfb676945dc35253f71fb6cbc251c4eeb2778f9d31554e0683205"
+    },
+    {
+      "questionId": "rw-original-inference-104",
+      "excerptId": "pd-innocence-08",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-4",
+      "paragraphIndex": 9,
+      "excerptSha256": "a7ae27fdfffbb8072c3853565390e8942b946edb751151a437c5e55503f32188"
+    },
+    {
+      "questionId": "rw-original-structure-109",
+      "excerptId": "pd-persuasion-09",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-5",
+      "paragraphIndex": 0,
+      "excerptSha256": "795eafefb798cd55aac3032d6e73795f18f488ebdb5697f2e0867783de889ac3"
+    },
+    {
+      "questionId": "rw-original-central-101",
+      "excerptId": "pd-persuasion-10",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-6",
+      "paragraphIndex": 3,
+      "excerptSha256": "729d2d2d73a89f4a81515786be258bd11ba4c0cd7e64e3712125659810865d72"
+    },
+    {
+      "questionId": "rw-original-inference-105",
+      "excerptId": "pd-persuasion-11",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-7",
+      "paragraphIndex": 5,
+      "excerptSha256": "c11534f33099e5977af32dcb2d4f65c7fdb2ec81b2da3ce708786e2ecc50dd25"
+    },
+    {
+      "questionId": "rw-original-vocab-129",
+      "excerptId": "pd-persuasion-12",
+      "author": "Jane Austen",
+      "title": "Persuasion",
+      "sourceUrl": "https://standardebooks.org/ebooks/jane-austen/persuasion/text/single-page#chapter-8",
+      "paragraphIndex": 0,
+      "excerptSha256": "f309ce5a3fac858f713d8b946462bc455320d26e73c3ac5cfe90d8393e161032"
+    },
+    {
+      "questionId": "rw-original-vocab-130",
+      "excerptId": "pd-expectations-09",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-5",
+      "paragraphIndex": 0,
+      "excerptSha256": "11b1dceee03bd4183c84051da18381001aaa06c77779d9bf129e6bedeb901995"
+    },
+    {
+      "questionId": "rw-original-inference-106",
+      "excerptId": "pd-expectations-10",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-6",
+      "paragraphIndex": 0,
+      "excerptSha256": "6ca07fb7be1f9671b8b66391d7c4c99bb3eebb74cbab3379a62fd133d1cfef6f"
+    },
+    {
+      "questionId": "rw-original-central-102",
+      "excerptId": "pd-expectations-11",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-7",
+      "paragraphIndex": 4,
+      "excerptSha256": "0733a478e9de3835a217e19431ba06c08954e7f29d57a28b9d1af3ababff64a3"
+    },
+    {
+      "questionId": "rw-original-structure-110",
+      "excerptId": "pd-expectations-12",
+      "author": "Charles Dickens",
+      "title": "Great Expectations",
+      "sourceUrl": "https://standardebooks.org/ebooks/charles-dickens/great-expectations/text/single-page#chapter-8",
+      "paragraphIndex": 11,
+      "excerptSha256": "530bd0feaab48f06fa2ae1751de133c20d7ade7f6a515589b1bc55c0bcaaadbe"
+    },
+    {
+      "questionId": "rw-original-central-103",
+      "excerptId": "pd-antonia-09",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-5",
+      "paragraphIndex": 0,
+      "excerptSha256": "298c4f294f2d03b4f5b5fc9dd1439f60445b6a96d00890e3a0feb8162150ac1f"
+    },
+    {
+      "questionId": "rw-original-structure-111",
+      "excerptId": "pd-antonia-10",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-6",
+      "paragraphIndex": 0,
+      "excerptSha256": "7b3a03768776464015a5dde244645f651a5ddf0a7de72d9fe6a76681e221a4e5"
+    },
+    {
+      "questionId": "rw-original-inference-107",
+      "excerptId": "pd-antonia-11",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-7",
+      "paragraphIndex": 0,
+      "excerptSha256": "4e973ed01041ee18dbf0ce7fc0e63906c3f4ed96c256e9818395390412fb18a9"
+    },
+    {
+      "questionId": "rw-original-vocab-131",
+      "excerptId": "pd-antonia-12",
+      "author": "Willa Cather",
+      "title": "My Ántonia",
+      "sourceUrl": "https://standardebooks.org/ebooks/willa-cather/my-antonia/text/single-page#chapter-1-8",
+      "paragraphIndex": 7,
+      "excerptSha256": "511d9e65019acaada2c9c0327e4f7328a6e5815bc416e764364a1dd16081d404"
+    },
+    {
+      "questionId": "rw-original-structure-112",
+      "excerptId": "pd-innocence-09",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-5",
+      "paragraphIndex": 1,
+      "excerptSha256": "57cab6722d08bbf79d517b3f44350398267a786c671875f8f18474ccea03ef8a"
+    },
+    {
+      "questionId": "rw-original-central-104",
+      "excerptId": "pd-innocence-10",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-6",
+      "paragraphIndex": 0,
+      "excerptSha256": "6c2c5083e51c2a076639ee8cc5ae3866af72a75723c0ef9ca545db07063f582d"
+    },
+    {
+      "questionId": "rw-original-vocab-132",
+      "excerptId": "pd-innocence-11",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-7",
+      "paragraphIndex": 4,
+      "excerptSha256": "2e2234a8645d61a53e78e93830191cd371999d298ef84088ab23740c3962f175"
+    },
+    {
+      "questionId": "rw-original-inference-108",
+      "excerptId": "pd-innocence-12",
+      "author": "Edith Wharton",
+      "title": "The Age of Innocence",
+      "sourceUrl": "https://standardebooks.org/ebooks/edith-wharton/the-age-of-innocence/text/single-page#chapter-8",
+      "paragraphIndex": 6,
+      "excerptSha256": "6d8a7ec05834165ec4d277bd16bd69c7feb1fab568993639d3cc002af8b21729"
+    }
+  ]
+}

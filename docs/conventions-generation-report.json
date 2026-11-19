@@ -1,159 +1,202 @@
 {
-  "provenance": "Original controlled grammar practice: 24 authored rule patterns and 64 original contexts. Construction tags and controlled subject numbers are checked; these checks are not independent natural-language certification.",
+  "provenance": "One active item per controlled grammar rule pattern; contextual siblings are historical only. Construction tags are checked, not independently inferred from natural language.",
+  "maximumActivePerFamily": 1,
+  "candidatesPerFamily": 64,
   "contexts": 64,
-  "total": 1536,
+  "archivedTotal": 1512,
+  "total": 24,
   "families": [
     {
       "family": "singular-subject-attractor",
       "skill": "Form, Structure, and Sense",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-singular-subject-attractor-001",
+      "archived": 63
     },
     {
       "family": "plural-subject-attractor",
       "skill": "Form, Structure, and Sense",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-plural-subject-attractor-003",
+      "archived": 63
     },
     {
       "family": "singular-perfect-auxiliary",
       "skill": "Form, Structure, and Sense",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-singular-perfect-auxiliary-005",
+      "archived": 63
     },
     {
       "family": "past-before-past",
       "skill": "Form, Structure, and Sense",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-past-before-past-007",
+      "archived": 63
     },
     {
       "family": "introductory-modifier-agent",
       "skill": "Form, Structure, and Sense",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-introductory-modifier-agent-009",
+      "archived": 63
     },
     {
       "family": "parallel-infinitive-actions",
       "skill": "Form, Structure, and Sense",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-parallel-infinitive-actions-011",
+      "archived": 63
     },
     {
       "family": "regular-plural-possessive",
       "skill": "Form, Structure, and Sense",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-regular-plural-possessive-013",
+      "archived": 63
     },
     {
       "family": "possessive-its",
       "skill": "Form, Structure, and Sense",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-possessive-its-015",
+      "archived": 63
     },
     {
       "family": "introductory-dependent-boundary",
       "skill": "Boundaries",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-introductory-dependent-boundary-017",
+      "archived": 63
     },
     {
       "family": "paired-nonessential-commas",
       "skill": "Boundaries",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-paired-nonessential-commas-019",
+      "archived": 63
     },
     {
       "family": "semicolon-before-however",
       "skill": "Boundaries",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-semicolon-before-however-021",
+      "archived": 63
     },
     {
       "family": "colon-introducing-explanation",
       "skill": "Boundaries",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-colon-introducing-explanation-023",
+      "archived": 63
     },
     {
       "family": "compound-predicate-object",
       "skill": "Boundaries",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-compound-predicate-object-025",
+      "archived": 63
     },
     {
       "family": "paired-parenthetical-dashes",
       "skill": "Boundaries",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-paired-parenthetical-dashes-027",
+      "archived": 63
     },
     {
       "family": "independent-clause-period",
       "skill": "Boundaries",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-independent-clause-period-029",
+      "archived": 63
     },
     {
       "family": "complex-list-separators",
       "skill": "Boundaries",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-complex-list-separators-031",
+      "archived": 63
     },
     {
       "family": "relative-clause-plural-verb",
       "skill": "Form, Structure, and Sense",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-relative-clause-plural-verb-033",
+      "archived": 63
     },
     {
       "family": "one-of-plural-subject",
       "skill": "Form, Structure, and Sense",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-one-of-plural-subject-035",
+      "archived": 63
     },
     {
       "family": "passive-participle-after-was",
       "skill": "Form, Structure, and Sense",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-passive-participle-after-was-037",
+      "archived": 63
     },
     {
       "family": "parallel-gerunds-after-by",
       "skill": "Form, Structure, and Sense",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-parallel-gerunds-after-by-039",
+      "archived": 63
     },
     {
       "family": "plural-possessive-their",
       "skill": "Form, Structure, and Sense",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-plural-possessive-their-041",
+      "archived": 63
     },
     {
       "family": "subject-who-relative-clause",
       "skill": "Form, Structure, and Sense",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-subject-who-relative-clause-043",
+      "archived": 63
     },
     {
       "family": "closing-parenthesis",
       "skill": "Boundaries",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-closing-parenthesis-045",
+      "archived": 63
     },
     {
       "family": "comma-coordinating-conjunction",
       "skill": "Boundaries",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "rw-gen-conventions-comma-coordinating-conjunction-047",
+      "archived": 63
     }
-  ],
-  "expandedBatch": {
-    "families": 8,
-    "questions": 512,
-    "passageWords": {
-      "minimum": 25,
-      "maximum": 35
-    }
-  }
+  ]
 }

@@ -5,7 +5,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The archive acquired three new ______ a map, a ledger, and a set of letters.",
+    "passage": "The archivists had reserved a display case for a small group of recent donations from local families.\n\nThe archive acquired three new ______ a map, a ledger, and a set of letters.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "items:",
@@ -22,7 +22,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The bridge reopened in ______ repairs had taken nearly two years.",
+    "passage": "Local drivers had used a temporary detour while engineers strengthened the crossing and replaced its damaged supports.\n\nThe bridge reopened in ______ repairs had taken nearly two years.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "June,",
@@ -39,7 +39,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The survey included residents of Millhaven, a coastal ______ Pineford, an inland town; and Westmere, a mountain village.",
+    "passage": "The planners wanted to compare communities with different landscapes rather than survey only one type of settlement.\n\nThe survey included residents of Millhaven, a coastal ______ Pineford, an inland town; and Westmere, a mountain village.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "city,",
@@ -56,7 +56,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The newly restored painting, unlike the two sketches beside ______ attracted a steady crowd.",
+    "passage": "Visitors entered a gallery displaying several works that conservators had recently prepared for public viewing.\n\nThe newly restored painting, unlike the two sketches beside ______ attracted a steady crowd.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "it;",
@@ -73,7 +73,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "easy",
-    "passage": "Although the first rehearsal ran ______ the musicians finished the full program.",
+    "passage": "The orchestra was preparing a concert that included several unfamiliar pieces and required a long evening of practice.\n\nAlthough the first rehearsal ran ______ the musicians finished the full program.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "late,",
@@ -90,7 +90,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The clock’s mechanism had one obvious ______ a missing gear.",
+    "passage": "A repairer opened the case to determine why the hands no longer advanced when the spring was wound.\n\nThe clock’s mechanism had one obvious ______ a missing gear.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "defect;",
@@ -107,7 +107,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The team had expected a uniform ______ instead, readings varied sharply between sites.",
+    "passage": "The hypothetical experiment used the same equipment at several locations so that the team could compare its measurements.\n\nThe team had expected a uniform ______ instead, readings varied sharply between sites.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "response,",
@@ -124,7 +124,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The revised map shows the old canal, which no longer carries ______ and the new pedestrian route.",
+    "passage": "A fictional town commissioned an updated guide to help visitors distinguish historical transport features from current walking paths.\n\nThe revised map shows the old canal, which no longer carries ______ and the new pedestrian route.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "freight;",
@@ -141,7 +141,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "easy",
-    "passage": "Because the hall was ______ the choir rehearsed outdoors.",
+    "passage": "The singers needed a place to practice together before their performance at the fictional town’s summer festival.\n\nBecause the hall was ______ the choir rehearsed outdoors.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "closed,",
@@ -158,7 +158,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The editor reviewed the manuscript and ______ the illustrations before sending both to the printer.",
+    "passage": "The fictional publishing project required careful attention to both the written text and the images that would accompany it.\n\nThe editor reviewed the manuscript and ______ the illustrations before sending both to the printer.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "checked,",
@@ -175,7 +175,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The manuscript’s final page contains a surprising ______ the narrator has been addressing her future self.",
+    "passage": "A fictional reviewer notices a detail near the end of the novel that changes the meaning of its earlier passages.\n\nThe manuscript’s final page contains a surprising ______ the narrator has been addressing her future self.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "revelation,",
@@ -192,7 +192,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The river rose ______ the morning market opened on schedule.",
+    "passage": "Residents of the fictional town were concerned that changing water levels might disrupt the usual activities near the square.\n\nThe river rose ______ the morning market opened on schedule.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "overnight, however,",
@@ -209,7 +209,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The two winning designs—one made of timber and the other of recycled ______ will be displayed in the foyer.",
+    "passage": "The fictional architecture competition invited proposals that used different materials to solve the same structural problem.\n\nThe two winning designs—one made of timber and the other of recycled ______ will be displayed in the foyer.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "steel—",
@@ -226,7 +226,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The committee approved the revised plan, which included wider paths and clearer ______ it postponed the lighting proposal until next month.",
+    "passage": "The fictional park project contained several separate proposals, and the members considered each part before setting priorities.\n\nThe committee approved the revised plan, which included wider paths and clearer ______ it postponed the lighting proposal until next month.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "signs,",
@@ -243,7 +243,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "easy",
-    "passage": "Before the exhibition ______ the curator checked every label.",
+    "passage": "The fictional gallery had borrowed works from several collections, and the staff wanted visitors to find accurate information beside each one.\n\nBefore the exhibition ______ the curator checked every label.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "opened;",
@@ -260,7 +260,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "One question remained after the final ______ who would maintain the garden?",
+    "passage": "The fictional neighborhood group had agreed on a planting layout but still needed a workable arrangement for ongoing care.\n\nOne question remained after the final ______ who would maintain the garden?",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "meeting, although",
@@ -277,7 +277,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The collection of maps and travel journals ______ researchers a detailed view of the region’s trade routes.",
+    "passage": "The fictional archive’s documents were produced by travelers who visited the region during several periods of commercial activity.\n\nThe collection of maps and travel journals ______ researchers a detailed view of the region’s trade routes.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "offers",
@@ -294,7 +294,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "Each of the newly installed sensors ______ temperature and humidity every ten minutes.",
+    "passage": "The hypothetical monitoring project needs repeated environmental observations from several rooms throughout the day and night.\n\nEach of the newly installed sensors ______ temperature and humidity every ten minutes.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "record",
@@ -311,7 +311,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "easy",
-    "passage": "The ceramicist arranged the tools ______ she would use during the demonstration.",
+    "passage": "The fictional workshop audience would watch each stage of a bowl being shaped, trimmed, and prepared for firing.\n\nThe ceramicist arranged the tools ______ she would use during the demonstration.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "whose",
@@ -328,7 +328,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "After comparing the two drafts, ______ several passages that had been moved from the opening to the final chapter.",
+    "passage": "The fictional novel underwent extensive revision before publication, and the publisher wanted a clear account of its structural changes.\n\nAfter comparing the two drafts, ______ several passages that had been moved from the opening to the final chapter.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "several passages were identified by the editor as",
@@ -345,7 +345,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The two ______ proposals were evaluated separately before the committee requested a joint design.",
+    "passage": "A fictional civic project attracted independent submissions from designers who had initially worked without consulting one another.\n\nThe two ______ proposals were evaluated separately before the committee requested a joint design.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "architects’",
@@ -362,7 +362,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The archive preserves photographs of the harbor as ______ appeared before the seawall was built.",
+    "passage": "Researchers studying the fictional town’s waterfront consult images made during different periods of construction along the shore.\n\nThe archive preserves photographs of the harbor as ______ appeared before the seawall was built.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "they",
@@ -379,7 +379,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "easy",
-    "passage": "Last year, volunteers ______ the garden’s damaged fence and repainted its gate.",
+    "passage": "The fictional neighborhood association organized a weekend of maintenance so that residents could use the growing space again.\n\nLast year, volunteers ______ the garden’s damaged fence and repainted its gate.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "repair",
@@ -396,7 +396,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "The laboratory’s procedures require technicians to label every sample, record its collection time, and ______ it at the specified temperature.",
+    "passage": "The hypothetical experiment depends on preserving each specimen’s identity and condition throughout the interval before testing.\n\nThe laboratory’s procedures require technicians to label every sample, record its collection time, and ______ it at the specified temperature.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "storing",
@@ -413,7 +413,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "Neither the printed guide nor the online maps ______ the temporary closure.",
+    "passage": "A temporary barrier now blocks the footpath that visitors to the fictional reserve usually take toward the north entrance.\n\nNeither the printed guide nor the online maps ______ the temporary closure.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "mention",
@@ -430,7 +430,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The museum opened in 2010. By the time its second wing opened in 2018, it ______ more than a million visitors.",
+    "passage": "The fictional institution expanded its public galleries after several years of planning, fundraising, and construction beside the original building.\n\nThe museum opened in 2010. By the time its second wing opened in 2018, it ______ more than a million visitors.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "will welcome",
@@ -447,7 +447,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "To compare the panels fairly, ______ in the same room under identical lighting.",
+    "passage": "The hypothetical study examined differences between two painted surfaces, so the team needed photographs that would allow a reliable visual comparison.\n\nTo compare the panels fairly, ______ in the same room under identical lighting.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "both panels were photographed",
@@ -464,7 +464,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "easy",
-    "passage": "The new route is shorter ______ the route shown on the old map.",
+    "passage": "The fictional town added a direct footpath between the station and the square, replacing a winding walk around several buildings.\n\nThe new route is shorter ______ the route shown on the old map.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "then",
@@ -481,7 +481,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The design’s success depended on ______ ability to remain stable in strong winds.",
+    "passage": "The hypothetical engineering team tested a prototype intended for outdoor use, where changing weather could put pressure on the structure.\n\nThe design’s success depended on ______ ability to remain stable in strong winds.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "its",
@@ -498,7 +498,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "The revised display allows visitors not only to examine the sculpture’s surface but also ______ its hollow interior.",
+    "passage": "The fictional museum installed mirrors and lighting around an object that had previously been visible from only one side.\n\nThe revised display allows visitors not only to examine the sculpture’s surface but also ______ its hollow interior.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "viewing",
@@ -515,7 +515,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "A series of workshops on bookbinding ______ scheduled for the spring term.",
+    "passage": "The fictional college is expanding opportunities for students to learn practical skills from craftspeople working in the surrounding community.\n\nA series of workshops on bookbinding ______ scheduled for the spring term.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "are",
@@ -532,7 +532,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "The researcher compared the first device’s measurements with ______ to assess consistency.",
+    "passage": "The hypothetical experiment used two instruments to measure the same samples, with agreement between their results as a central concern.\n\nThe researcher compared the first device’s measurements with ______ to assess consistency.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "the second device",
@@ -549,7 +549,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "While the early drawings emphasized the building’s ______ the later drawings focused on its interior routes.",
+    "passage": "The fictional architect’s surviving sketches document several stages of planning, allowing researchers to trace changes in the project’s priorities.\n\nWhile the early drawings emphasized the building’s ______ the later drawings focused on its interior routes.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "façade,",
@@ -566,7 +566,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The display includes a diary from Norwick, a fishing ______ a ledger from Halden, a market town; and a map from Stowe, a mountain village.",
+    "passage": "The fictional exhibition brings together records from communities with different economies so that visitors can compare their daily activities.\n\nThe display includes a diary from Norwick, a fishing ______ a ledger from Halden, a market town; and a map from Stowe, a mountain village.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "port,",
@@ -583,7 +583,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The replacement part, which the engineer had ordered weeks ______ arrived just before the test.",
+    "passage": "The hypothetical test depended on a specialized component that was not available from the workshop’s ordinary supply cabinet.\n\nThe replacement part, which the engineer had ordered weeks ______ arrived just before the test.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "earlier;",
@@ -600,7 +600,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The evidence did not settle the ______ nevertheless, it narrowed the range of plausible explanations.",
+    "passage": "The fictional investigation compared several accounts of the same event, looking for details that might distinguish competing interpretations.\n\nThe evidence did not settle the ______ nevertheless, it narrowed the range of plausible explanations.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "question,",
@@ -617,7 +617,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "easy",
-    "passage": "After the final visitor ______ the attendants checked the gallery doors.",
+    "passage": "The fictional museum followed a closing procedure designed to protect objects and ensure that every public room was secure.\n\nAfter the final visitor ______ the attendants checked the gallery doors.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "left,",
@@ -634,7 +634,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The archive purchased one particularly unusual ______ a notebook containing both recipes and weather observations.",
+    "passage": "The fictional collection had previously separated household records from environmental observations, making this acquisition difficult to classify.\n\nThe archive purchased one particularly unusual ______ a notebook containing both recipes and weather observations.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "item;",
@@ -651,7 +651,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The two longest routes—one through the forest and one along the ______ were closed during the storm.",
+    "passage": "The fictional reserve’s staff checked which trails could still be used safely after heavy rain affected the surrounding landscape.\n\nThe two longest routes—one through the forest and one along the ______ were closed during the storm.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "ridge,",
@@ -668,7 +668,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The team inspected the frames and ______ every loose joint before moving the paintings.",
+    "passage": "The fictional gallery needed to transport several fragile works, and its conservators inspected the supporting structures before packing them.\n\nThe team inspected the frames and ______ every loose joint before moving the paintings.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "reinforced,",
@@ -685,7 +685,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "One practical issue remained after the ______ where could the oversized model be stored?",
+    "passage": "The fictional workshop had produced a display piece much larger than its previous models, creating a problem once the event ended.\n\nOne practical issue remained after the ______ where could the oversized model be stored?",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "demonstration:",
@@ -702,7 +702,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The second sensor was more ______ it remained accurate after repeated exposure to moisture.",
+    "passage": "The hypothetical engineering team compared instruments intended for outdoor monitoring, where they would repeatedly encounter changing weather.\n\nThe second sensor was more ______ it remained accurate after repeated exposure to moisture.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "durable,",
@@ -719,7 +719,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "easy",
-    "passage": "Because several paths were ______ the guides chose a different route.",
+    "passage": "The fictional walking tour normally crossed low ground near the river, but recent weather made parts of that itinerary unsafe.\n\nBecause several paths were ______ the guides chose a different route.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "flooded.",
@@ -736,7 +736,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The committee approved the proposal, which retained the older ______ it requested a separate report on maintenance costs.",
+    "passage": "The fictional building project aimed to improve access while preserving some historical features, and the members considered its costs separately.\n\nThe committee approved the proposal, which retained the older ______ it requested a separate report on maintenance costs.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "entrance,",
@@ -753,7 +753,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The pattern of cracks along the two walls ______ that the building settled unevenly.",
+    "passage": "The fictional conservation team documented damage in several rooms before recommending how to support the older structure.\n\nThe pattern of cracks along the two walls ______ that the building settled unevenly.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "suggests",
@@ -770,7 +770,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "By the time the new catalog appeared in 2024, the archivists ______ the unsigned letters for several years.",
+    "passage": "The fictional archive organized a long investigation of correspondence whose writers were not identified on the surviving pages.\n\nBy the time the new catalog appeared in 2024, the archivists ______ the unsigned letters for several years.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "will study",
@@ -787,7 +787,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The three ______ notes describe different stages of the excavation.",
+    "passage": "Each member of a fictional field team kept a separate account of observations made as different layers of the site were uncovered.\n\nThe three ______ notes describe different stages of the excavation.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "researcher’s",
@@ -804,7 +804,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "Having examined the receipts, ______ a recurring payment to local interpreters.",
+    "passage": "The fictional investigation examined how travelers arranged communication with people whose language they did not speak.\n\nHaving examined the receipts, ______ a recurring payment to local interpreters.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "a recurring payment was identified by the historian as",
@@ -821,7 +821,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "easy",
-    "passage": "The revised entrance is wider ______ the original doorway.",
+    "passage": "The fictional renovation aimed to make access easier while retaining the building’s older walls and much of its existing layout.\n\nThe revised entrance is wider ______ the original doorway.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "than",
@@ -838,7 +838,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "Neither the earlier letters nor the surviving diary ______ the exact departure date.",
+    "passage": "The fictional expedition’s chronology remains uncertain because some records omit dates and others describe events without naming the day.\n\nNeither the earlier letters nor the surviving diary ______ the exact departure date.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "give",
@@ -855,7 +855,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "The protocol asks volunteers to record the location, photograph the object, and ______ its condition before moving it.",
+    "passage": "The hypothetical survey relies on consistent documentation so that later researchers can understand the circumstances of each recorded observation.\n\nThe protocol asks volunteers to record the location, photograph the object, and ______ its condition before moving it.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "describing",
@@ -872,7 +872,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The violin had lost ______ original bridge before the museum acquired it.",
+    "passage": "The fictional museum’s conservators examined an instrument that had undergone several undocumented changes while it was privately owned.\n\nThe violin had lost ______ original bridge before the museum acquired it.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "it’s",
@@ -889,7 +889,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "The study compared the newer filter’s absorption rate with ______ under identical conditions.",
+    "passage": "The hypothetical comparison evaluated two materials intended for the same purpose, with measurement conditions kept consistent across the tests.\n\nThe study compared the newer filter’s absorption rate with ______ under identical conditions.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "that of the older filter",
@@ -906,7 +906,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "easy",
-    "passage": "Yesterday, the technicians ______ the sensors and recorded the calibration results.",
+    "passage": "A hypothetical laboratory checks its equipment regularly so that differences in later measurements are not confused with unnoticed instrument problems.\n\nYesterday, the technicians ______ the sensors and recorded the calibration results.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "test",
@@ -923,7 +923,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "Each of the revised labels ______ a short explanation of how the object was used.",
+    "passage": "The fictional exhibition team wants visitors unfamiliar with the collection to understand the practical purpose of each displayed object.\n\nEach of the revised labels ______ a short explanation of how the object was used.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "include",
@@ -940,7 +940,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "The new exhibit encourages visitors not only to observe the tools but also ______ the processes they made possible.",
+    "passage": "The fictional museum combines physical objects with demonstrations that connect the collection to the work people performed with it.\n\nThe new exhibit encourages visitors not only to observe the tools but also ______ the processes they made possible.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "considering",
@@ -957,7 +957,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "Although the earlier catalog named no ______ the new catalog identifies several possible makers.",
+    "passage": "The fictional collection’s documentation changed after researchers found new correspondence and compared the objects with records from nearby workshops.\n\nAlthough the earlier catalog named no ______ the new catalog identifies several possible makers.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "artists,",
@@ -974,7 +974,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The report discusses a bridge in Harrow, a coastal ______ a tunnel in Elwick, an inland town; and a path in Rowan, a mountain village.",
+    "passage": "The fictional transport study brings together structures from several different settlements rather than examining only one community’s infrastructure.\n\nThe report discusses a bridge in Harrow, a coastal ______ a tunnel in Elwick, an inland town; and a path in Rowan, a mountain village.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "city,",
@@ -991,7 +991,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The new label, which the curator had revised several ______ included a description of the object’s later use.",
+    "passage": "The fictional display follows an object through several owners, showing how its function changed after the period when it was first made.\n\nThe new label, which the curator had revised several ______ included a description of the object’s later use.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "times;",
@@ -1008,7 +1008,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The second trial produced fewer ______ however, it required substantially more time.",
+    "passage": "The hypothetical experiment compared two procedures and recorded both the accuracy of their results and the time required to obtain them.\n\nThe second trial produced fewer ______ however, it required substantially more time.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "errors,",
@@ -1025,7 +1025,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "easy",
-    "passage": "Before the rain ______ the volunteers covered the exposed equipment.",
+    "passage": "The fictional outdoor project depended on sensitive instruments, so the group watched the weather while working at the site.\n\nBefore the rain ______ the volunteers covered the exposed equipment.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "began,",
@@ -1042,7 +1042,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The restored cabinet contained one unexpected ______ a bundle of letters hidden behind a drawer.",
+    "passage": "The fictional conservator examined the piece of furniture carefully before placing it in a gallery devoted to domestic life.\n\nThe restored cabinet contained one unexpected ______ a bundle of letters hidden behind a drawer.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "discovery;",
@@ -1059,7 +1059,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "hard",
-    "passage": "The two shortest paths—one beside the canal and one through the ______ remained open during repairs.",
+    "passage": "The fictional reserve needed to maintain some access while workers repaired damaged sections of its network of walking routes.\n\nThe two shortest paths—one beside the canal and one through the ______ remained open during repairs.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "orchard,",
@@ -1076,7 +1076,7 @@
     "domain": "Standard English Conventions",
     "skill": "Boundaries",
     "difficulty": "medium",
-    "passage": "The technicians cleaned the lenses and ______ each sensor before recording the results.",
+    "passage": "The hypothetical laboratory followed a preparation routine to reduce the chance that dirty equipment or incorrect settings would affect its measurements.\n\nThe technicians cleaned the lenses and ______ each sensor before recording the results.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "calibrated,",
@@ -1093,7 +1093,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The arrangement of signs near the two entrances ______ visitors choose a route.",
+    "passage": "The fictional building receives visitors unfamiliar with its layout, and the entrance area is designed to help them navigate independently.\n\nThe arrangement of signs near the two entrances ______ visitors choose a route.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "helps",
@@ -1110,7 +1110,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "By the time the exhibit closed in 2023, the museum ______ the collection for almost a decade.",
+    "passage": "The fictional institution borrowed objects for a long exhibition that occupied several rooms and required regular conservation checks.\n\nBy the time the exhibit closed in 2023, the museum ______ the collection for almost a decade.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "will display",
@@ -1127,7 +1127,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The four ______ schedules were combined into one rehearsal plan.",
+    "passage": "The fictional ensemble had to find common practice times despite the performers’ separate teaching commitments and other scheduled engagements.\n\nThe four ______ schedules were combined into one rehearsal plan.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "musician’s",
@@ -1144,7 +1144,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "After studying the route maps, ______ an unmarked connection between the two paths.",
+    "passage": "The fictional walking tour usually followed a published itinerary, but the leader also checked older records before selecting the day’s route.\n\nAfter studying the route maps, ______ an unmarked connection between the two paths.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "an unmarked connection was noticed by the guide near",
@@ -1161,7 +1161,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "easy",
-    "passage": "The repaired hinge was stronger ______ the original one.",
+    "passage": "The fictional workshop restored a cabinet whose moving parts had been weakened by years of use and several earlier repairs.\n\nThe repaired hinge was stronger ______ the original one.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "than",
@@ -1178,7 +1178,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "Each of the recorded interviews ______ a description of the old marketplace.",
+    "passage": "The fictional oral-history project asks longtime residents to describe places that have changed substantially since their childhood.\n\nEach of the recorded interviews ______ a description of the old marketplace.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "contain",
@@ -1195,7 +1195,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "hard",
-    "passage": "The instructions ask readers to inspect the frame, measure its width, and ______ the result in the table.",
+    "passage": "The hypothetical survey uses a shared recording sheet so that measurements made by different people can be compared afterward.\n\nThe instructions ask readers to inspect the frame, measure its width, and ______ the result in the table.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "entering",
@@ -1212,7 +1212,7 @@
     "domain": "Standard English Conventions",
     "skill": "Form, Structure, and Sense",
     "difficulty": "medium",
-    "passage": "The archive compared the original map’s measurements with ______ to identify changes in the coastline.",
+    "passage": "The fictional mapping project examines documents produced before and after substantial construction along the shore near the town.\n\nThe archive compared the original map’s measurements with ______ to identify changes in the coastline.",
     "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
     "choices": [
       "the revised map",
@@ -1222,5 +1222,141 @@
     ],
     "answer": 3,
     "explanation": "Measurements must be compared with measurements. Those of supplies the parallel category; the other choices compare unlike things."
+  },
+  {
+    "id": "rw-original-boundary-037",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "During a fictional conservation project, volunteers completed forms on site and mailed them to the central office. The forms that they completed ______ the archive’s only firsthand records of the objects’ condition before transport.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "during the field trip remain",
+      "during the field trip, remain",
+      "during the field trip; remain",
+      "during the field trip: remain"
+    ],
+    "answer": 0,
+    "explanation": "The restrictive clause that they completed during the field trip identifies the forms. No punctuation should separate that subject, including its restrictive modifier, from the main verb remain."
+  },
+  {
+    "id": "rw-original-boundary-038",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "In a fictional workshop, three makers submitted proposals for a replacement clock face. Although the panel admired the most elaborate ______ it selected the simplest because that design could be read clearly from the far end of the hall.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "proposal;",
+      "proposal,",
+      "proposal.",
+      "proposal:"
+    ],
+    "answer": 1,
+    "explanation": "Although introduces a dependent clause, which takes a comma before the main clause beginning it selected. A semicolon, period, or colon would incorrectly treat the opening dependent clause as a complete statement."
+  },
+  {
+    "id": "rw-original-boundary-039",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "A fictional excavation team recorded the position of every fragment before lifting it. The initial sketch was too rough to show the smallest ______ however, the numbered photographs preserved enough detail to reconstruct their locations later.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "pieces,",
+      "pieces",
+      "pieces;",
+      "pieces; and;"
+    ],
+    "answer": 2,
+    "explanation": "The clauses on either side of however are independent. A semicolon provides the necessary boundary, with the existing comma after however. A comma alone or no boundary would create a run-on; the extra semicolon after and is invalid."
+  },
+  {
+    "id": "rw-original-boundary-040",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "The fictional courier service expected all packages by Friday, but rough seas interrupted its schedule. The final three parcels—two from the mainland and one from the ______ arrived after the exhibition had already opened to visitors.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "island,",
+      "island;",
+      "island:",
+      "island—"
+    ],
+    "answer": 3,
+    "explanation": "The supplementary phrase opens with an em dash and needs a matching closing dash before arrived. The other marks do not close that parenthetical construction correctly."
+  },
+  {
+    "id": "rw-original-form-037",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "In a hypothetical design competition, the reviewers agreed on several ______ for ranking the entries: readability at a distance, resistance to rain, and ease of repair. They applied the same standards to every submitted design.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "criteria",
+      "criterion",
+      "criterion’s",
+      "criteria’s"
+    ],
+    "answer": 0,
+    "explanation": "Criteria is the plural noun required after several. Criterion is singular. Criterion’s and criteria’s are possessive forms, which cannot supply the required plural noun head in this construction."
+  },
+  {
+    "id": "rw-original-form-038",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "In an original story, the narrator describes arranging a community performance: Responsibility for finding a rehearsal room was divided between Lena and ______; neither of us could reserve a suitable space without consulting the other first.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "mine"
+    ],
+    "answer": 1,
+    "explanation": "The preposition between takes the objective pronoun me. I is a subject form; my requires a following noun, and mine is possessive rather than the required reference to the narrator as a person."
+  },
+  {
+    "id": "rw-original-form-039",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "In a hypothetical seminar, several competing models describe the same movement of a pendulum. The mathematics underlying these models ______ presented before the instructor discusses the different physical assumptions used to interpret the equations.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "are",
+      "have been",
+      "is",
+      "were"
+    ],
+    "answer": 2,
+    "explanation": "Mathematics names a singular field and controls the verb. The plural models is inside a modifying phrase. Is is the only singular finite verb among the choices."
+  },
+  {
+    "id": "rw-original-form-040",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "During a fictional field exercise, a blurred sign prevented a survey team from reading a route marker. Peering through the scope at the distant sign, ______",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "the tripod was lowered slightly by the surveyor.",
+      "the tripod’s height needed a slight reduction.",
+      "a slight adjustment of the tripod proved necessary.",
+      "the surveyor lowered the tripod slightly."
+    ],
+    "answer": 3,
+    "explanation": "The introductory participial phrase describes the person doing the peering. The surveyor is therefore the appropriate grammatical subject; a tripod, its height, or an adjustment cannot peer through a scope."
   }
 ]

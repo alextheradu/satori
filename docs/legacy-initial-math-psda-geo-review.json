@@ -1,0 +1,391 @@
+{
+  "scope": "32 original math questions in math-psda-geo.json only.",
+  "method": "Fresh manually transcribed givens, exact arithmetic and symbolic comparisons of every mathematical option and typed answer. English interpretations, geometry and study-design implications are specified editorially; the program does not automatically understand all natural-language givens.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "29a20e72c956017803a0224118114195638e99eb6afda0e90ffd378a2075e4ee",
+  "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "questionsReviewed": 32,
+  "items": [
+    {
+      "id": "m-psda-001",
+      "sourceSha256": "db73849cea796a3e56c7a0bb11071af76ef75c783194f9b0b9a595c011b76fe6",
+      "model": "Convert the travel rate to miles/gallon before finding gallons.",
+      "derivedResult": "9",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-002",
+      "sourceSha256": "8d3a22c5f790fcf98fd1ccc50d7f3cdc0a1b1745655461013be0667377ea6486",
+      "model": "Convert required printing minutes to hours.",
+      "derivedResult": "5/2",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-003",
+      "sourceSha256": "d8d62a93962246baccf92c426d8422b19828d15ce6f21e9f47ae79695da00b6c",
+      "model": "Adding only concentrate leaves water fixed. Solve the target 1:2 concentrate-to-water ratio for the added amount.",
+      "derivedResult": "15/2",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-004",
+      "sourceSha256": "6acd56540973ffc343ce165aec2b19805aaf670440c3e06e6160c337a572137f",
+      "model": "Apply the discount to the original price.",
+      "derivedResult": "68",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-005",
+      "sourceSha256": "459decb2503f434e651f2874e1df0c381285757dea55a11aaf74c72e522376aa",
+      "model": "Reverse both population growth factors multiplicatively.",
+      "derivedResult": "500",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-006",
+      "sourceSha256": "4c06bed96b5290877f4da13ddb1d37f780ceace24c78a653741c1773eecf4bb3",
+      "model": "Compose the two proportions with q as the positive reference quantity.",
+      "derivedResult": "98",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-007",
+      "sourceSha256": "555b73842a3bf5604727a7a03de794aa842bf6aa0d5984e0d77ee0f1135bc071",
+      "model": "Average the third and fourth values of the ordered even-sized data set.",
+      "derivedResult": "8",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-008",
+      "sourceSha256": "e4f93ebc61f02fa896b8f1c4664252d0a77d4c84ce6c40ad10a4bc4fa63f6acc",
+      "model": "Recover the added observation as the difference of the two sums.",
+      "derivedResult": "40",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-009",
+      "sourceSha256": "9490e3d39d10b97c231e6d727bd9f4634f4e56749b9be31a06866ca2b272bb25",
+      "model": "Expand the frequency table and compute both centers before and after the additional student.",
+      "derivedResult": "(1, 0)",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-010",
+      "sourceSha256": "9c677a31f93399a482e4a449009491ec05393be348d89ecefe36b4c8b2824702",
+      "model": "Slope has output units per input unit over the stated age range 8-20 weeks; birth and one-week extrapolations are outside the supported range.",
+      "derivedResult": "('kg_per_week', 3/4)",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": [
+        "Clarified the model domain: an algebraic intercept is not an established birth weight when the model applies only from 8 to 20 weeks."
+      ]
+    },
+    {
+      "id": "m-psda-011",
+      "sourceSha256": "80558f23a27f74a0f021225507848f49dd0a3d1419d0c4407a0d55d9b57d0a83",
+      "model": "Construct the stated best-fit line and return actual minus predicted.",
+      "derivedResult": "3",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-012",
+      "sourceSha256": "770d5437141a58db324d8524fbedacace4c69bedde071211968f91cfa9514960",
+      "model": "Check table totals and condition on playing an instrument.",
+      "derivedResult": "3/5",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-013",
+      "sourceSha256": "04c6c991b42a884b5340db6e3108a4b196320b3feae632a528f2aadc23ce72b4",
+      "model": "Keep the two different conditioning denominators before taking p/q.",
+      "derivedResult": "9/10",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-014",
+      "sourceSha256": "8286f22dca827beec65313f65f0a3d42d2e8c6c16597575d5b39e82be5475722",
+      "model": "The sample proportion is known: 248/400=62%. The reported margin concerns the town population proportion, not a different population or unknown sample fraction.",
+      "derivedResult": "('population_interval', 'town', 58, 66)",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": [
+        "Replaced a logically true distractor: 62% is itself between 58% and 66%. The replacement incorrectly treats the known sample proportion as unknown."
+      ]
+    },
+    {
+      "id": "m-psda-015",
+      "sourceSha256": "beb17282096bb2f0bc6589e8b34004ea4743aa14bb923ed9a32885a62a85d47b",
+      "model": "Scale the sample dog-household fraction to the town count.",
+      "derivedResult": "1080",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-016",
+      "sourceSha256": "e3740b95337b4083a45b3666480d8bd68df48878dad0ef4b14d430546f902ced",
+      "model": "Random assignment supports the treatment comparison; random selection supports inference to the stated City X sampling frame of adults reporting sleep difficulty.",
+      "derivedResult": "('causal', 'city_sleep_difficulty')",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-001",
+      "sourceSha256": "f74d0b39c29103177902695b83312d4d0b46377da2bd4a0ff7f73716fe3dc4a7",
+      "model": "Recover rectangle width from half-perimeter, then multiply by length.",
+      "derivedResult": "120",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-002",
+      "sourceSha256": "589eec15cec73e2b2a4474908e4d27d61ca9b49d4c45fd8296e477e45dab2628",
+      "model": "Divide cylinder volume by its circular base area.",
+      "derivedResult": "8",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-003",
+      "sourceSha256": "2ebb75671518b164c46b3c64d63728db81cd62a031388142147f303bf234183b",
+      "model": "Cancel the common base area in cone volume = 2 times cylinder volume; retain the one-third factor.",
+      "derivedResult": "6",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-004",
+      "sourceSha256": "692f7c9d7addab024f87ae6297c246c198a7d6e69d0bed12f47bdd1b871d3676",
+      "model": "An inscribed rectangle diagonal is the diameter. Recover its other side with Pythagoras.",
+      "derivedResult": "240",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-005",
+      "sourceSha256": "43d184a2458e9a69b9902deea01c24cf4285428c1580d806e6d37b1317709db6",
+      "model": "Use the stated angle ratio and triangle sum.",
+      "derivedResult": "36",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-006",
+      "sourceSha256": "58c46b727b85e36836e835fd4e0d9338720f1580c732976ca150dcf3fdc6cee8",
+      "model": "Same-side interior angles between parallel lines are supplementary.",
+      "derivedResult": "22",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-007",
+      "sourceSha256": "6ce696f997f621e6ee73bc29cf91624e0e8bde6b229486c756ce6e6696f5a883",
+      "model": "Expand the small triangle area by the square of the side scale, then subtract its area.",
+      "derivedResult": "63",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-008",
+      "sourceSha256": "95b0bace16ac29368fd7ca36496d5190422622e17c6b3acd80bf8f10d2fff907",
+      "model": "An isosceles triangle with sides 4 and 9 must repeat one of those lengths; apply the strict triangle inequality.",
+      "derivedResult": "22",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-009",
+      "sourceSha256": "1182b285d791df3cc327312861e05a5039a0f7e41a64b35bfa0168c720a7256a",
+      "model": "For angle B, the opposite leg is AC and adjacent leg is BC.",
+      "derivedResult": "5/12",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-010",
+      "sourceSha256": "6e4621c22786aa42eb9ac0c2c321d9ac24519de981dba1cbe664cbda483ed8fc",
+      "model": "The two acute angles of a right triangle are complementary.",
+      "derivedResult": "11",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-011",
+      "sourceSha256": "52a26b75dcf3bf13f12ba169d8626d6e126209a48b3b38d945bc4d355e493aab",
+      "model": "The tangent ratio gives proportional legs 8t and 15t; use the known hypotenuse to find scale and perimeter.",
+      "derivedResult": "120",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-012",
+      "sourceSha256": "39dbaf5765948802fcfb1977b5712d2a166d59a1027e2930ca5fd8a27c2bd089",
+      "model": "Bisect the isosceles vertex angle and base. Twice the opposite leg in each 60-degree right triangle is BC.",
+      "derivedResult": "10*sqrt(3)",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-013",
+      "sourceSha256": "91e556c1cbf35b58caeb91b6fc8feebd9bd43e3e39d6ceeea600ccbc1d64a605",
+      "model": "Read signed center coordinates and take the positive square root of the right side.",
+      "derivedResult": "(3, -5, 7)",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-014",
+      "sourceSha256": "3ab755b0f44b99b294889570f595276117f31b725382d0b952a935eb01a6b1e4",
+      "model": "Completing both squares adds 16+9 to the right side.",
+      "derivedResult": "6",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-015",
+      "sourceSha256": "647104d9e02279e60517556f70821bb07808e6feca3eb904bdc315d0ba5292e5",
+      "model": "For radians, arc length equals radius times angle.",
+      "derivedResult": "6*pi",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-016",
+      "sourceSha256": "25e66280bc4d1f79e03c7ae9c9a802d3f4fb40353b5c2e985cef302c3d80735e",
+      "model": "The sector area is r^2*theta/2; return the coefficient of pi in theta.",
+      "derivedResult": "3/4",
+      "validChoices": null,
+      "editorialNotes": []
+    }
+  ]
+}

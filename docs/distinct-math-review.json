@@ -1,0 +1,256 @@
+{
+  "scope": "20 active individually authored math questions and one retired question preserved for historical attempts.",
+  "method": "Fresh exact models of all prompt constraints, symbolic solutions and comparison of every option. English choices and geometric descriptions are translated into mathematical statements editorially; the program does not infer diagrams or natural language automatically.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "bb519ff572b3d65fb9b9de071b84ce91cf258ce3970aebbda5e68445e6b6f599",
+  "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "questionsReviewed": 21,
+  "activeQuestionsReviewed": 20,
+  "archivedQuestionsReviewed": 1,
+  "items": [
+    {
+      "id": "m-original-distinct-001",
+      "sourceSha256": "5a29eec7ebaa3bb40feb60bdc319f7f913b4be21271cf29e3791f3d56b8013fe",
+      "model": "A remainder of degree below 2 is ax+b. At both divisor roots its value equals the given polynomial value.",
+      "derivedResult": "5",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-002",
+      "sourceSha256": "9c905cc5fd27054506ba1b996cf131701b37cb9dfe188e8a9279de9cb178daf0",
+      "model": "Solve the original quartic exactly and count distinct real roots, not multiplicities.",
+      "derivedResult": "3",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-003",
+      "sourceSha256": "a7c69540f3e2417ea8c0f9322c36a35c1b7acde7a14166c3dd53815a7824eb7b",
+      "model": "The simplified line is x-2 with input -3 excluded. For each candidate output, solve on the original domain.",
+      "derivedResult": "{-5}",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-004",
+      "sourceSha256": "54a5c6900d3b2a6658fe33874b78221753f463afbcc9abc76c1211a019bd1558",
+      "model": "Solve the two difference constraints and the zero-input value for all quadratic coefficients, then evaluate at 3.",
+      "derivedResult": "18",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-005",
+      "sourceSha256": "a2d6471d3da66e2e00add790f5154c9df508d4cc192f4ef12943764733bcc297",
+      "model": "Both principal square roots are real exactly on the intersection of their nonnegative-radicand domains; count its integers.",
+      "derivedResult": "7",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-006",
+      "sourceSha256": "95486bc07e29e025bcbc1246bc6bd3641c68623f4c6f1195c339344cb09e0954",
+      "model": "A point is forced by f(7)=9 when its transformed input is 7 and its output is 9-4. Other distinct f inputs are unconstrained.",
+      "derivedResult": "(-2, 5)",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-007",
+      "sourceSha256": "18d263966b0fc426c3b8aad56f5fe26064b9d59558fe7c457f75c1b06eb5ca77",
+      "model": "Solve both circle equations simultaneously and compute the Euclidean distance between the two intersection points.",
+      "derivedResult": "16",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-008",
+      "sourceSha256": "5ecd07eb7417984c166834eb793ccb2ce07d34aa15e1305dce0814bacbea2f0e",
+      "model": "The external boundary consists of two length-12 sides and two diameter-6 semicircular arcs. The attachment diameters are internal.",
+      "derivedResult": "6*pi + 24",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-009",
+      "sourceSha256": "19dc5987f5f95007315789fe4de24deeae43ae580dcb7ab0695c153eea523d36",
+      "model": "Parallel sides give similarity scale AD/AB=3/4. Subtract the small triangle area, which scales quadratically, from the whole triangle.",
+      "derivedResult": "42",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-010",
+      "sourceSha256": "a9f22f1b993173deab2123ec99bd73c583eabb553df68cfc835dcc363001a4b9",
+      "model": "The sector arc becomes the cone base circumference and its radius becomes slant height. Use height^2=slant^2-radius^2.",
+      "derivedResult": "375",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-011",
+      "sourceSha256": "fa0045a1c648417e9429372d1b838d8ec70f37fb332f93a9ac0881dd58a9a64e",
+      "model": "Apply the given intersecting-chords product and require positive segment length.",
+      "derivedResult": "4",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-012",
+      "sourceSha256": "7c21cbfd2322cca5fd0db1e99b2d991f3ec7431e9da01bedbe5cc5eb239fbf46",
+      "model": "Combine the sine ratio, positive Pythagorean leg and total perimeter, then compute half the leg product.",
+      "derivedResult": "96",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-013",
+      "sourceSha256": "0ca36f22c7e82594f22c833e8e7c226fc670f3759ba537c0c83c082d800e85fe",
+      "model": "The x-axis intercepts form the base; solve the line system for the third vertex and perpendicular height.",
+      "derivedResult": "12",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-014",
+      "sourceSha256": "7232556b92afe0d69d90766c6574ddf8fa8382d77512da30275643fef1d50211",
+      "model": "Positive slope makes endpoint values the minimum and maximum on the entire real input interval. Intersect both coefficient bounds and take the largest integer.",
+      "derivedResult": "5",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-015",
+      "sourceSha256": "6af59e4b85ae5be954bd63623492d88fbbb861e28b2310b0286e353d6cc2a7d1",
+      "model": "Match both coefficients of f(f(x)); use the negative-slope condition to choose the admissible branch.",
+      "derivedResult": "-4",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-016",
+      "sourceSha256": "3a688b80389c99cefc11f5b58daad3a03f78180ad6bbe8831d1dbf7459086a25",
+      "model": "A common point for every parameter value requires both the parameter coefficient and constant term to match.",
+      "derivedResult": "5",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-017",
+      "sourceSha256": "0cf37ef5e0cc75d379cc57a28eecdcf68ef65f66aeb56675c53f60128d72d274",
+      "model": "With fixed group counts, each value is at most its group upper endpoint. All endpoints can be attained simultaneously.",
+      "derivedResult": "179/6",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-018",
+      "sourceSha256": "1e4a93c7bfc0b4d4198a8abdb150f621755fa1a94802a287f5d8157d62888eef",
+      "model": "Compare the two conditional rates and the count-weighted aggregate rates. The total counts are both 110 and total successes are 39 versus 82.",
+      "derivedResult": "(True, False)",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-019",
+      "sourceSha256": "f1934a544fa1d7c7bbf998734712dbd40cb7b2642090d4585137557bc13e890d",
+      "model": "Construct each smaller positive-count candidate and the first data set with median exactly 5.",
+      "derivedResult": "4",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-020",
+      "sourceSha256": "2327932a2304c8653701b11029cd3d9df9f8fae3e83be147c183a75ebffb0cc8",
+      "model": "The mean remains 20; the sum of squared deviations remains 8*36. Divide by the new total count before the square root.",
+      "derivedResult": "4",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-021",
+      "sourceSha256": "8dc479144cc154bcbd36c7623e5278369ea7b208762df0dca3c5e40a0ba93d59",
+      "model": "Recover C from the given midpoint and A, then compute the coordinate triangle area.",
+      "derivedResult": "24",
+      "validChoices": null,
+      "editorialNotes": []
+    }
+  ]
+}

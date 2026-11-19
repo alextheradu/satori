@@ -1,0 +1,14 @@
+{
+  "provenance": "16 individually authored questions with original passages; eight exact-quotation evidence questions and eight paired-text comparisons. No numerical or name-swapping variants.",
+  "total": 16,
+  "skills": {
+    "Command of Evidence (Textual)": 8,
+    "Cross-Text Connections": 8
+  },
+  "passageWords": {
+    "minimum": 65,
+    "maximum": 103
+  },
+  "originalPoemPassages": 2,
+  "verification": "Every quotation option is checked against its passage during generation; all interpretations and distractors were reviewed editorially. Quotation matching and structural checks do not automatically establish the correct interpretation."
+}

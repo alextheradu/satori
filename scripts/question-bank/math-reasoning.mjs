@@ -44,7 +44,7 @@ export function registerMathReasoning({f,A,N,D,G,int,pick,numeric,near,fmt,term,
  f('quadratic-tangent-intercept',N,'nonlinear','hard',()=>{
   const a=int(2,9),h=int(-10,10),k=int(-20,25),d=int(2,9),m=2*a*d,b=k-m*h-a*d*d
   return numeric(`The line $y=${m}x+b$ intersects the parabola $y=${a}(x${term(-h)})^2${term(k)}$ at exactly one point. What is $b$?`,b,
-   `Equating the expressions produces a quadratic. In $u=x-${h}$ it is $${a}u^2-${m}u+(${k}-${m*h}-b)=0$. One intersection requires discriminant zero, giving $b=${k}-${m*h}-${a*d*d}=${b}$. A tangent corresponds to a repeated root.`,v=>near(m*m-4*a*(k-m*h-v),0),[k-m*h+a*d*d,k-m*h,k+a*d*d])
+   `Equating the expressions produces a quadratic. In $u=x-(${h})$ it is $${a}u^2-${m}u+((${k})-(${m*h})-b)=0$. One intersection requires discriminant zero, giving $b=${k}-(${m*h})-${a*d*d}=${b}$. A tangent corresponds to a repeated root.`,v=>near(m*m-4*a*(k-m*h-v),0),[k-m*h+a*d*d,k-m*h,k+a*d*d])
  })
  f('exponential-vertical-offset',N,'function','hard',()=>{
   const a=int(2,25),b=int(2,6),c=int(-25,30),y0=a+c,y1=a*b+c,y2=a*b*b+c

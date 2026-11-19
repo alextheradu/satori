@@ -1,0 +1,302 @@
+[
+  {
+    "id": "m-original-distinct-001",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "hard",
+    "prompt": "A polynomial $p$ satisfies $p(2)=11$ and $p(-3)=-4$. When $p(x)$ is divided by $(x-2)(x+3)$, the remainder is $ax+b$, where $a$ and $b$ are constants. What is the value of $b$?",
+    "explanation": "Write $p(x)=(x-2)(x+3)q(x)+ax+b$. At $x=2$ and $x=-3$, the product vanishes, so $2a+b=11$ and $-3a+b=-4$. Subtracting gives $5a=15$, or $a=3$, and then $b=11-6=5$. The requested constant is not either of the given polynomial values.",
+    "answer": [
+      "5"
+    ]
+  },
+  {
+    "id": "m-original-distinct-002",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "hard",
+    "prompt": "How many distinct real solutions does the equation $(x^2-6x+5)^2=16$ have?",
+    "explanation": "The expression inside the square equals $4$ or $-4$. The first case gives $x^2-6x+1=0$, with two real roots $3\\pm2\\sqrt{2}$. The second gives $x^2-6x+9=0$, with the single distinct root $3$. The cases cannot share a root, so there are three distinct real solutions. Counting a repeated root twice would give four.",
+    "choices": [
+      "$0$",
+      "$3$",
+      "$2$",
+      "$4$"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "m-original-distinct-003",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "hard",
+    "prompt": "The function $f$ is defined by $f(x)=\\frac{x^2+x-6}{x+3}$ for all real numbers $x$ other than $-3$. Which of the following cannot be a value of $f(x)$?",
+    "explanation": "Factor the numerator: $(x+3)(x-2)$. Thus $f(x)=x-2$ on the original domain $x\\ne-3$. An output of $-5$ would require $x=-3$, which is excluded. The other outputs occur at $x=0$, $x=2$, and $x=5$, respectively. Canceling a factor does not restore the excluded input.",
+    "choices": [
+      "$-2$",
+      "$0$",
+      "$-5$",
+      "$3$"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "m-original-distinct-004",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "hard",
+    "prompt": "For the quadratic function $f(x)=ax^2+bx+c$, $f(2)-f(1)=5$, $f(5)-f(4)=17$, and $f(0)=3$. What is the value of $f(3)$?",
+    "explanation": "The two differences give $3a+b=5$ and $9a+b=17$. Subtraction gives $6a=12$, so $a=2$ and $b=-1$. Also, $c=f(0)=3$. Therefore $f(3)=2(9)-3+3=18$. A difference between consecutive outputs is not itself the leading coefficient or an output of the function.",
+    "choices": [
+      "$12$",
+      "$15$",
+      "$21$",
+      "$18$"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "m-original-distinct-005",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "medium",
+    "prompt": "The functions $f$ and $g$ are defined by $f(x)=\\sqrt{3x-5}$ and $g(x)=\\sqrt{17-2x}$. For how many integer values of $x$ are both $f(x)$ and $g(x)$ real numbers?",
+    "explanation": "Both radicands must be nonnegative: $x\\ge\\frac{5}{3}$ and $x\\le\\frac{17}{2}$. The integers in the intersection are $2,3,4,5,6,7,8$, a total of seven. Each restriction must hold at the same input; taking the union of the two domains would be incorrect.",
+    "choices": [
+      "$7$",
+      "$6$",
+      "$8$",
+      "$9$"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "m-original-distinct-006",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "medium",
+    "prompt": "For a function $f$, $f(7)=9$. The function $g$ is defined by $g(x)=f(3-2x)-4$. Which of the following points must lie on the graph of $y=g(x)$ in the $xy$-plane?",
+    "explanation": "To use the known value $f(7)$, set $3-2x=7$, which gives $x=-2$. Then $g(-2)=f(7)-4=5$. Adding $4$ produces the wrong output, and the other listed inputs do not make the inner argument equal $7$, so their outputs are not determined by the given information.",
+    "choices": [
+      "$(-2,13)$",
+      "$(-2,5)$",
+      "$(-1,5)$",
+      "$(7,5)$"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "m-original-distinct-007",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "hard",
+    "prompt": "In the $xy$-plane, two circles have equations $x^2+y^2=100$ and $(x-12)^2+y^2=100$. The circles intersect at points $A$ and $B$. What is the length of $\\overline{AB}$?",
+    "explanation": "Subtract the circle equations to obtain $-24x+144=0$, so both intersection points have $x=6$. Then $y^2=100-36=64$, giving $y=8$ and $y=-8$. Their separation is $16$. The value $8$ is half the common chord, $12$ is the distance between the centers, and $20$ is either circle’s diameter.",
+    "choices": [
+      "$8$",
+      "$12$",
+      "$16$",
+      "$20$"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "m-original-distinct-008",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "medium",
+    "prompt": "A figure consists of a rectangle that is $12$ centimeters long and $6$ centimeters wide, together with a semicircle attached externally to each of the two shorter sides. Each semicircle has diameter $6$ centimeters. What is the perimeter, in centimeters, of the entire figure?",
+    "explanation": "The two exposed straight sides contribute $12+12=24$ centimeters. The two semicircular arcs together have the circumference of one circle of diameter $6$, which is $6\\pi$. The attachment diameters are inside the figure and do not belong to its perimeter. Doubling the curved contribution or counting only one long side also gives an incorrect result.",
+    "choices": [
+      "$36+6\\pi$",
+      "$24+12\\pi$",
+      "$12+6\\pi$",
+      "$24+6\\pi$"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "m-original-distinct-010",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "hard",
+    "prompt": "A sector with central angle $90^\\circ$ is cut from a circle of radius $20$ centimeters. The sector is rolled without stretching or overlap so that its two straight edges meet, forming the lateral surface of a right circular cone. If the cone has height $h$ centimeters, what is the value of $h^2$?",
+    "explanation": "The sector’s arc length is $(90/360)(2\\pi\\cdot20)=10\\pi$. It becomes the cone’s base circumference, so $2\\pi r=10\\pi$ and $r=5$. The sector radius becomes the cone’s slant height, $20$. A right triangle through the cone’s axis gives $h^2=20^2-5^2=375$. The slant height is not the vertical height.",
+    "answer": [
+      "375"
+    ]
+  },
+  {
+    "id": "m-original-distinct-011",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "Chords $\\overline{AB}$ and $\\overline{CD}$ of a circle intersect at an interior point $P$. Their segment lengths, in centimeters, are $AP=3$, $PB=12$, $CP=x$, and $PD=x+5$, where $x>0$. The intersecting-chords relation is $(AP)(PB)=(CP)(PD)$. What is the value of $x$?",
+    "explanation": "The supplied relation gives $3(12)=x(x+5)$, so $x^2+5x-36=0$. Factoring gives $(x+9)(x-4)=0$. Segment lengths are positive, so $x=4$; the root $-9$ is inadmissible. The other listed values do not produce a product of $36$.",
+    "choices": [
+      "$3$",
+      "$6$",
+      "$4$",
+      "$9$"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "m-original-distinct-012",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "In right triangle $ABC$, angle $A$ is the right angle, $\\sin B=\\frac{3}{5}$, and the perimeter is $48$ units. What is the area, in square units, of triangle $ABC$?",
+    "explanation": "The side opposite $B$ and the hypotenuse have ratio $3:5$. The Pythagorean theorem makes the other leg proportional to $4$, so the sides are $3k,4k,5k$. Their perimeter is $12k=48$, giving $k=4$ and legs $12$ and $16$. The area is $\\frac12(12)(16)=96$. Using the product of the legs without the one-half factor gives $192$.",
+    "choices": [
+      "$48$",
+      "$144$",
+      "$192$",
+      "$96$"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "m-original-distinct-013",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "In the $xy$-plane, the lines $y=2x-4$ and $y=-x+8$, together with the $x$-axis, form a triangle. What is the area of this triangle, in square units?",
+    "explanation": "The two lines meet the x-axis at $x=2$ and $x=8$, giving a base of length $6$. Solving $2x-4=-x+8$ gives their intersection $(4,4)$, whose perpendicular height above the x-axis is $4$. The area is $\\frac12(6)(4)=12$. The distance between intercepts is the base, not a side length to multiply without the one-half factor.",
+    "answer": [
+      "12"
+    ]
+  },
+  {
+    "id": "m-original-distinct-014",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "hard",
+    "prompt": "The positive integer $k$ has the property that $-8\\le kx+4\\le19$ for every real number $x$ with $-2\\le x\\le3$. What is the greatest possible value of $k$?",
+    "explanation": "Because $k>0$, $kx+4$ increases with $x$. Its minimum on the interval is $-2k+4$ and its maximum is $3k+4$. The requirements give $k\\le6$ and $k\\le5$, respectively. Hence the greatest integer satisfying both is $5$. At $k=6$, the right endpoint produces $22$, exceeding $19$.",
+    "choices": [
+      "$4$",
+      "$5$",
+      "$6$",
+      "$7$"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "m-original-distinct-015",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "The linear function $f$ is defined by $f(x)=ax+b$, where $a<0$. If $f(f(x))=9x+8$ for every real number $x$, what is the value of $f(0)$?",
+    "explanation": "Composition gives $f(f(x))=a^2x+(a+1)b$. Matching coefficients yields $a^2=9$ and $(a+1)b=8$. Since $a<0$, $a=-3$, so $-2b=8$ and $b=-4$. Thus $f(0)=-4$. Choosing the positive root for $a$ would give the inadmissible alternative $b=2$.",
+    "choices": [
+      "$-3$",
+      "$2$",
+      "$-4$",
+      "$4$"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "m-original-distinct-016",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "For every real number $k$, the point $(a,b)$ lies on the line $(k+2)x+(3k-1)y=9k+4$. What is the value of $a+b$?",
+    "explanation": "Substitution gives $k(a+3b)+(2a-b)=9k+4$. Because this is true for every $k$, the coefficient and constant terms agree: $a+3b=9$ and $2a-b=4$. Solving gives $a=3$ and $b=2$, so $a+b=5$. Satisfying just one line in the family would not be sufficient.",
+    "answer": [
+      "5"
+    ]
+  },
+  {
+    "id": "m-original-distinct-017",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "A data set contains $12$ integer values. Three values are between $10$ and $19$, inclusive; five are between $20$ and $29$, inclusive; and four are between $30$ and $39$, inclusive. What is the greatest possible mean of the data set?",
+    "explanation": "To maximize the mean, use the upper endpoint in every group. The greatest sum is $3(19)+5(29)+4(39)=358$, so the greatest mean is $358/12=179/6$. Lower endpoints give the minimum, interval midpoints do not give the maximum, and not all twelve values can equal $39$.",
+    "choices": [
+      "$\\frac{179}{6}$",
+      "$\\frac{125}{6}$",
+      "$\\frac{76}{3}$",
+      "$39$"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "m-original-distinct-018",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "hard",
+    "prompt": "Two machines process easy and difficult items. Each entry shows successfully processed items divided by all items of that type.\n\n| Item type | Machine A | Machine B |\n|---|---|---|\n| Easy | $9/10$ | $80/100$ |\n| Difficult | $30/100$ | $2/10$ |\n\nWhich statement correctly compares their success rates?",
+    "explanation": "Within the types, A’s rates are $0.9$ and $0.3$, exceeding B’s $0.8$ and $0.2$. Overall, A succeeds on $39$ of $110$ items and B on $82$ of $110$, so B has the higher overall rate. The proportions of easy and difficult work differ substantially between machines; averaging the two type rates without weighting by counts would be incorrect.",
+    "choices": [
+      "Machine A has a higher success rate for each item type and overall.",
+      "Machine A has a higher success rate for each item type, but Machine B has a higher overall success rate.",
+      "Machine B has a higher success rate for each item type and overall.",
+      "The two machines have equal overall success rates."
+    ],
+    "answer": 1
+  },
+  {
+    "id": "m-original-distinct-019",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "A data set contains four occurrences of $2$, $k$ occurrences of $5$, and seven occurrences of $9$, with no other values, where $k$ is a positive integer. If the median is $5$, what is the least possible value of $k$?",
+    "explanation": "For $k=1$ or $k=2$, the middle value or values are $9$. For $k=3$, the set has $14$ values and the two middle values are $5$ and $9$, giving median $7$. For $k=4$, the set has $15$ values, and its eighth value is the last of the four $5$s. The median is then $5$, making $4$ the least possible count.",
+    "choices": [
+      "$2$",
+      "$3$",
+      "$4$",
+      "$7$"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "m-original-distinct-020",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "For this question, the standard deviation is the square root of the average squared distance of the values from their mean. A data set has $8$ values, mean $20$, and standard deviation $6$. Ten more values, each equal to $20$, are added. What is the standard deviation of the resulting $18$ values?",
+    "explanation": "Adding values equal to the old mean keeps the mean at $20$ and adds zero to the sum of squared distances. That sum was $8(6^2)=288$. The new average squared distance is $288/18=16$, so the new standard deviation is $4$. The variance is divided by the new count before taking its square root; the standard deviation itself is not multiplied directly by $8/18$.",
+    "choices": [
+      "$0$",
+      "$6$",
+      "$\\frac{8}{3}$",
+      "$4$"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "m-original-distinct-021",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "medium",
+    "prompt": "In the $xy$-plane, triangle $ABC$ has vertices $A=(-2,1)$ and $B=(6,1)$. The midpoint of side $AC$ is $M=(1,4)$. What is the area of triangle $ABC$, in square units?",
+    "explanation": "The midpoint relations give $C=(2(1)-(-2),2(4)-1)=(4,7)$. The horizontal base $AB$ has length $8$, and the height from $C$ to the line $y=1$ is $7-1=6$. Therefore the area is $\\frac12(8)(6)=24$. The distance from $M$ to the base is only half the triangle’s height.",
+    "answer": [
+      "24"
+    ]
+  }
+]

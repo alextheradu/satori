@@ -6,6 +6,10 @@ import { fileURLToPath } from 'node:url'
 import { join } from 'node:path'
 import { registerMathExpansion } from './math-expansion.mjs'
 import { registerMathReasoning } from './math-reasoning.mjs'
+import { registerMathApplications } from './math-applications.mjs'
+import { questionFingerprint } from './question-fingerprint.mjs'
+import { partitionFamily } from './partition-family.mjs'
+import { createHash } from 'node:crypto'
 
 const root = fileURLToPath(new URL('../../', import.meta.url))
 const out = join(root, 'src/data/questions')
@@ -95,7 +99,7 @@ f('service-fee', A, 'linear', 'easy', () => {
 f('linear-from-values', A, 'linear', 'medium', () => {
   const m=int(-9,12), b=int(1,40), x=int(2,9), dx=int(2,8)
   return numeric(`For a linear function $f$, $f(${x})=${m*x+b}$ and $f(${x+dx})=${m*(x+dx)+b}$. What is $f(0)$?`,b,
-    `The slope is $${frac(m*dx,dx)}=${m}$. Thus $f(x)=${m}x+b$. Using the first value gives $b=${m*x+b}-${m}(${x})=${b}$. The value at zero is the intercept, not the slope.`,v=>near(((m*x+b)-v)/x,((m*(x+dx)+b)-v)/(x+dx)),[m,m*x+b,b+m])
+    `The slope is $${frac(m*dx,dx)}=${m}$. Thus $f(x)=${m}x+b$. Using the first value gives $b=${m*x+b}-(${m})(${x})=${b}$. The value at zero is the intercept, not the slope.`,v=>near(((m*x+b)-v)/x,((m*(x+dx)+b)-v)/(x+dx)),[m,m*x+b,b+m])
 })
 f('break-even', A, 'linear', 'medium', () => {
   const a=int(8,30), d=int(2,8), b=int(5,40), x=int(3,25), c=b+d*x
@@ -140,7 +144,7 @@ f('negative-inequality', A, 'inequality', 'medium', () => {
 f('two-resource-bound', A, 'inequality', 'hard', () => {
   const a=int(2,8), b=int(2,8), x=int(3,20), y=int(5,30), slack=int(0,b-1), budget=a*x+b*y+slack
   return numeric(`A workshop has $${budget}$ units of material. Each small item uses $${a}$ units and each large item uses $${b}$ units. After making $${x}$ small items, what is the greatest number of large items it can make?`,y,
-    `The small items use $${a}(${x})=${a*x}$ units, leaving $${budget-a*x}$. Dividing by $${b}$ and taking the greatest whole number gives $${y}$. Counting both products without their different material requirements is invalid.`,v=>Number.isInteger(v)&&a*x+b*v<=budget&&a*x+b*(v+1)>budget,[y+1,y-1,Math.floor(budget/b)])
+    `The small items use $${a}(${x})=${a*x}$ units, leaving $${budget-a*x}$. Dividing by $${b}$ and taking the greatest whole number gives $${y}$. The requested count is the remaining large items, not the total number of items of both sizes.`,v=>Number.isInteger(v)&&a*x+b*v<=budget&&a*x+b*(v+1)>budget,[y+1,y-1,Math.floor(budget/b)])
 })
 f('binomial-middle', N, 'equivalent', 'medium', () => {
   const a=int(2,12), b=int(2,20)
@@ -481,6 +485,7 @@ f('radians', G, 'circles', 'easy', () => {
 
 registerMathExpansion({f,A,N,D,G,int,pick,numeric,near,fmt,term,frac,table})
 registerMathReasoning({f,A,N,D,G,int,pick,numeric,near,fmt,term,frac,table})
+registerMathApplications({f,A,N,D,G,int,pick,numeric,near,fmt,term,frac})
 
 // Exact fractions keep repeating-decimal answers usable in student-produced responses.
 const gcd = (a,b) => { a=Math.abs(a); b=Math.abs(b); while(b) [a,b]=[b,a%b]; return a }
@@ -492,9 +497,14 @@ const answerText = (value) => {
   }
   throw Error(`No exact rational representation for ${value}`)
 }
-const outputs = new Map(), counts = [], seen = new Set()
+const canonical=value=>Array.isArray(value)?value.map(canonical):value&&typeof value==='object'?Object.fromEntries(Object.keys(value).sort().map(key=>[key,canonical(value[key])])):value
+const digest=value=>createHash('sha256').update(JSON.stringify(canonical(value))).digest('hex')
+const overlapRows=JSON.parse(readFileSync(join(root,'scripts/question-bank/family-overlaps.json'),'utf8'))
+const overlaps=new Map(overlapRows.map(row=>[row.family,row]))
+assert.equal(overlaps.size,overlapRows.length)
+const outputs = new Map(), retiredOutputs = new Map(), counts = [], seen = new Set(), uniqueStimuli = new Set(), sourceById = new Map()
 for (const file of readdirSync(out).filter(f=>f.endsWith('.json')&&!f.startsWith('generated-math-'))) {
-  for(const q of JSON.parse(readFileSync(join(out,file),'utf8'))) seen.add(`${q.passage??''}\n${q.prompt}`)
+  for(const q of JSON.parse(readFileSync(join(out,file),'utf8'))) {seen.add(`${q.passage??''}\n${q.prompt}`);uniqueStimuli.add(questionFingerprint(q));sourceById.set(q.id,q)}
 }
 for (const [familyIndex, family] of families.entries()) {
   // A separate deterministic stream per family preserves earlier families when adding more.
@@ -534,17 +544,40 @@ for (const [familyIndex, family] of families.entries()) {
     questions.push(q); seen.add(key)
   }
   assert.equal(questions.length,64,`${family.key}: not enough unique variants`)
+  // Filter after construction to preserve IDs and choice order for retained items.
+  const uniqueQuestions=questions.filter(q=>{const fingerprint=questionFingerprint(q);if(uniqueStimuli.has(fingerprint))return false;uniqueStimuli.add(fingerprint);return true})
+  const wantsSpr=familyIndex%13<3
+  const representative=uniqueQuestions.find(q=>Array.isArray(q.answer)===wantsSpr)??uniqueQuestions[0]
+  assert(representative,`${family.key}: no nonduplicate representative`)
+  const overlap=overlaps.get(family.key)
+  if(overlap){
+   assert.equal(representative.id,overlap.candidateQuestionId,`${family.key}: recheck the overlap after changing its candidate`)
+   assert.equal(digest(representative),overlap.candidateSha256,`${family.key}: candidate changed since overlap review`)
+   const retained=sourceById.get(overlap.retainedQuestionId)
+   assert(retained,`${family.key}: retained question must remain active`)
+   assert.equal(digest(retained),overlap.retainedSha256,`${family.key}: retained question changed since overlap review`)
+  }
+  const partition=overlap?{active:[],retired:questions}:partitionFamily(questions,representative.id)
   const slug=family.domain===A?'algebra':family.domain===N?'advanced':family.domain===D?'data':'geometry'
   const name=`generated-math-${slug}.json`
-  outputs.set(name,[...(outputs.get(name)??[]),...questions])
-  counts.push({family:family.key,domain:family.domain,skill:family.skill,difficulty:family.difficulty,questions:questions.length})
+  outputs.set(name,[...(outputs.get(name)??[]),...partition.active])
+  retiredOutputs.set(name,[...(retiredOutputs.get(name)??[]),...partition.retired])
+  counts.push({family:family.key,domain:family.domain,skill:family.skill,difficulty:family.difficulty,questions:partition.active.length,representative:overlap?.retainedQuestionId??representative.id,reviewCandidate:representative.id,archived:partition.retired.length,equivalentRepeats:questions.length-uniqueQuestions.length,...(overlap?{overlap}: {})})
 }
+assert.equal(counts.filter(row=>row.overlap).length,overlaps.size,'Every recorded family overlap must resolve to a generated family')
 for(const [file,questions] of outputs) {
   const content=JSON.stringify(questions,null,2)+'\n'
   if(check) assert.equal(readFileSync(join(out,file),'utf8'),content,`${file} differs from the validated generator`)
   else writeFileSync(join(out,file),content)
 }
-const report=JSON.stringify({provenance:'Original seeded SAT-style numerical variants; not official College Board questions.',variantsPerFamily:64,total:counts.reduce((n,f)=>n+f.questions,0),families:counts},null,2)+'\n'
+for(const [file,questions] of retiredOutputs) {
+ const content=JSON.stringify(questions,null,2)+'\n',path=join(root,'src/data/retired',file)
+ if(check)assert.equal(readFileSync(path,'utf8'),content,`${file}: historical variants changed`)
+ else writeFileSync(path,content)
+}
+const duplicatesRemoved=counts.reduce((n,f)=>n+f.equivalentRepeats,0)
+const archivedTotal=counts.reduce((n,f)=>n+f.archived,0)
+const report=JSON.stringify({provenance:'One active representative per original math family; numerical siblings and equivalent repeats are retained only for historical attempts. Not official College Board questions.',maximumActivePerFamily:1,candidatesPerFamily:64,duplicatesRemoved,archivedTotal,total:counts.reduce((n,f)=>n+f.questions,0),families:counts},null,2)+'\n'
 if(check) assert.equal(readFileSync(join(root,'docs/math-generation-report.json'),'utf8'),report)
 else writeFileSync(join(root,'docs/math-generation-report.json'),report)
-console.log(`${check?'Verified':'Generated'} ${counts.reduce((n,f)=>n+f.questions,0)} math questions from ${families.length} families, including forward-model checks and single-correct-option checks.`)
+console.log(`${check?'Verified':'Generated'} ${counts.reduce((n,f)=>n+f.questions,0)} active math representatives; ${overlaps.size} patterns covered by existing questions; ${archivedTotal} historical variants, including ${duplicatesRemoved} equivalent repeats; forward-model and single-correct-option checks passed.`)

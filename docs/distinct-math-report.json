@@ -1,0 +1,20 @@
+{
+  "provenance": "Individually authored SAT-style math questions; one question per authored structure, with no numerical or context-swapping variants. Skill reuse is not a claim of entirely new mathematical concepts.",
+  "total": 20,
+  "domains": {
+    "Algebra": 4,
+    "Advanced Math": 6,
+    "Problem-Solving and Data Analysis": 4,
+    "Geometry and Trigonometry": 6
+  },
+  "studentProducedResponses": 5,
+  "independentReview": "docs/distinct-math-review.json; scripts/question-bank/review-distinct-math.py",
+  "retirements": [
+    {
+      "id": "m-original-distinct-009",
+      "overlaps": "m-geo-007",
+      "replacement": "m-original-distinct-021",
+      "reason": "Both tasks ask for the area left by a parallel cut of a triangle using squared similarity and subtraction. Preserve the old item for historical attempts; use a different coordinate-geometry task in new practice."
+    }
+  ]
+}

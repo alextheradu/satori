@@ -2,12 +2,15 @@ import type { Difficulty, Domain, Question, Section } from './types'
 import { MATH_DOMAINS, RW_DOMAINS } from './types'
 
 const modules = import.meta.glob<{ default: Question[] }>('./questions/*.json', { eager: true })
+const retiredModules = import.meta.glob<{ default: Question[] }>('./retired/*.json', { eager: true })
 
 export const QUESTIONS: Question[] = Object.keys(modules)
   .sort()
   .flatMap((k) => modules[k].default)
 
-export const BY_ID = new Map(QUESTIONS.map((q) => [q.id, q]))
+// Historical attempts keep their original question and key after a repeat is retired.
+const retiredQuestions = Object.keys(retiredModules).sort().flatMap((key) => retiredModules[key].default)
+export const BY_ID = new Map([...retiredQuestions, ...QUESTIONS].map((q) => [q.id, q]))
 
 export const DOMAINS: Record<Section, readonly Domain[]> = {
   rw: RW_DOMAINS,

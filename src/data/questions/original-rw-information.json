@@ -311,7 +311,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "hard",
-    "passage": "A hypothetical team proposes that a coastal plant survives salt exposure partly by moving salt into older leaves, which it later sheds.",
+    "passage": "The proposed explanation concerns how the plant handles salt internally, rather than only how much salt is present in the surrounding water.\n\nA hypothetical team proposes that a coastal plant survives salt exposure partly by moving salt into older leaves, which it later sheds.",
     "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
     "choices": [
       "The plant has older and younger leaves at the same time.",
@@ -362,7 +362,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "medium",
-    "passage": "An imagined ecologist hypothesizes that foot traffic, rather than shade, explains why seedlings survive poorly near a path.",
+    "passage": "The study compares possible explanations for the same pattern, so the proposed mechanism must be distinguished from conditions that occur nearby.\n\nAn imagined ecologist hypothesizes that foot traffic, rather than shade, explains why seedlings survive poorly near a path.",
     "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
     "choices": [
       "The path is shaded during part of the afternoon.",
@@ -379,7 +379,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "hard",
-    "passage": "In a hypothetical language study, researchers propose that listeners use a speaker’s hand gestures to resolve ambiguous spatial descriptions.",
+    "passage": "The hypothesis concerns the information listeners take from visible movement while they interpret words that allow more than one spatial reading.\n\nIn a hypothetical language study, researchers propose that listeners use a speaker’s hand gestures to resolve ambiguous spatial descriptions.",
     "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
     "choices": [
       "Speakers sometimes gesture even when talking alone.",
@@ -1042,7 +1042,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "hard",
-    "passage": "A fictional historian proposes that merchants chose a particular harbor mainly because its storage fees were lower than those of nearby harbors.",
+    "passage": "The explanation makes the difference in fees central to the merchants’ decisions, rather than treating storage cost as an incidental feature.\n\nA fictional historian proposes that merchants chose a particular harbor mainly because its storage fees were lower than those of nearby harbors.",
     "prompt": "Which finding, if true, would most directly weaken the historian’s explanation?",
     "choices": [
       "The harbor maintained written records of storage payments.",
@@ -1059,7 +1059,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "medium",
-    "passage": "In a hypothetical experiment, a team claims that brighter labels make a display easier to navigate because they are more visible.",
+    "passage": "The proposed mechanism concerns the ease of seeing the labels, which must be distinguished from differences in the information they contain.\n\nIn a hypothetical experiment, a team claims that brighter labels make a display easier to navigate because they are more visible.",
     "prompt": "Which finding, if true, would most directly weaken the team’s explanation?",
     "choices": [
       "Visitors differ in how often they attend museums.",
@@ -1110,7 +1110,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "medium",
-    "passage": "In a hypothetical reading study, researchers propose that a new font improves comprehension rather than merely reading speed.",
+    "passage": "The researchers distinguish understanding what a passage means from completing the physical act of reading its words more quickly.\n\nIn a hypothetical reading study, researchers propose that a new font improves comprehension rather than merely reading speed.",
     "prompt": "Which finding, if true, would most directly weaken the proposed comprehension benefit?",
     "choices": [
       "The new font has wider letters.",
@@ -1144,7 +1144,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "hard",
-    "passage": "A fictional researcher claims that a decline in recorded workshop injuries shows that workshops became safer after a reporting form changed.",
+    "passage": "The records cover comparable workshops in consecutive years, and the researcher is comparing the totals listed in the two sets of records.\n\nA fictional researcher claims that a decline in recorded workshop injuries shows that workshops became safer after a reporting form changed.",
     "prompt": "Which finding, if true, would most directly weaken the safety conclusion?",
     "choices": [
       "The new form uses less paper than the old form.",
@@ -1161,7 +1161,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "medium",
-    "passage": "In a hypothetical study, researchers suggest that arranging tasks by dependency helps teams notice which delays will affect later work.",
+    "passage": "The proposed benefit concerns understanding connections among different assignments, rather than simply remembering which individual assignments exist.\n\nIn a hypothetical study, researchers suggest that arranging tasks by dependency helps teams notice which delays will affect later work.",
     "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
     "choices": [
       "Teams using dependency diagrams more accurately identify which missed deadlines would postpone other tasks than teams using unordered lists.",
@@ -1178,7 +1178,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "hard",
-    "passage": "A fictional archaeologist proposes that a path served everyday local movement rather than exclusively ceremonial processions.",
+    "passage": "The interpretation concerns the range of activities associated with the route and would affect how the surrounding settlement is understood.\n\nA fictional archaeologist proposes that a path served everyday local movement rather than exclusively ceremonial processions.",
     "prompt": "Which finding, if true, would most directly support the archaeologist’s interpretation?",
     "choices": [
       "The path has an unusual ceremonial monument at one end.",
@@ -1195,7 +1195,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "medium",
-    "passage": "In an imagined experiment, a team proposes that a pause before answering helps participants check an initially tempting but incorrect response.",
+    "passage": "The proposed explanation distinguishes the first response that comes to mind from the response a participant ultimately chooses to submit.\n\nIn an imagined experiment, a team proposes that a pause before answering helps participants check an initially tempting but incorrect response.",
     "prompt": "Which finding, if true, would most directly support the proposed checking mechanism?",
     "choices": [
       "Participants in both groups understand the instructions.",
@@ -1212,7 +1212,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Textual)",
     "difficulty": "hard",
-    "passage": "A fictional historian argues that a craft technique spread through traveling apprentices rather than through printed manuals alone.",
+    "passage": "The argument concerns the means by which practical knowledge reached new places, rather than merely the dates when objects using the technique survive.\n\nA fictional historian argues that a craft technique spread through traveling apprentices rather than through printed manuals alone.",
     "prompt": "Which finding, if true, would most directly support the historian’s argument?",
     "choices": [
       "Several manuals describe other craft techniques.",
@@ -1382,7 +1382,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Quantitative)",
     "difficulty": "hard",
-    "passage": "A hypothetical ecologist claims that site A showed greater proportional recovery than site B.\n\n| Site | Initial count | Later count |\n|---|---|---|\n| A | 20 | 50 |\n| B | 100 | 160 |",
+    "passage": "The two sites began with different population sizes, so the claim concerns change relative to each site’s own starting population.\n\nA hypothetical ecologist claims that site A showed greater proportional recovery than site B.\n\n| Site | Initial count | Later count |\n|---|---|---|\n| A | 20 | 50 |\n| B | 100 | 160 |",
     "prompt": "Which choice most effectively supports the claim?",
     "choices": [
       "B gained 60 individuals while A gained 30.",
@@ -1433,7 +1433,7 @@
     "domain": "Information and Ideas",
     "skill": "Command of Evidence (Quantitative)",
     "difficulty": "medium",
-    "passage": "A hypothetical researcher claims that method X is faster but less accurate than method Y.\n\n| Method | Mean time (min) | Accuracy (%) |\n|---|---|---|\n| X | 12 | 81 |\n| Y | 17 | 94 |",
+    "passage": "The study evaluates two features of performance separately, since completing a task quickly does not by itself show that the result is accurate.\n\nA hypothetical researcher claims that method X is faster but less accurate than method Y.\n\n| Method | Mean time (min) | Accuracy (%) |\n|---|---|---|\n| X | 12 | 81 |\n| Y | 17 | 94 |",
     "prompt": "Which choice most effectively supports the claim?",
     "choices": [
       "X required 5 fewer minutes but had accuracy 13 percentage points lower than Y.",
@@ -4758,5 +4758,957 @@
     ],
     "answer": 3,
     "explanation": "The obsolete key retains relational value through the gift. The other quotations show ordinary function, replacement, or impersonal storage."
+  },
+  {
+    "id": "rw-original-central-085",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "A fictional essayist describes a neighborhood in which one square has three commonly used names. Children use the name of a playground, vendors the name of a former market, and officials the name on the street sign. The essayist treats these names as evidence of different relationships to the same place rather than as mistakes awaiting correction.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Different names for one place can express different histories and uses of it.",
+      "Only the official name can convey meaningful information.",
+      "The three groups are referring to three physically separate squares.",
+      "The essayist proposes replacing every name with a number."
+    ],
+    "answer": 0,
+    "explanation": "The names correspond to social relationships and remembered uses. The essay does not treat the groups as confused about the location."
+  },
+  {
+    "id": "rw-original-central-086",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "In this original story, a witness begins an account with the words “I am certain.” As neighbors ask which details she actually saw, she replaces several assertions with careful distinctions between seeing, hearing, and guessing. By the end she speaks less confidently but can explain the basis of each remaining claim. The narrator presents the revision as a gain in precision.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The witness becomes more accurate by insisting that every guess was directly observed.",
+      "Greater care about the basis of a claim can improve an account while reducing its apparent certainty.",
+      "The neighbors persuade the witness to forget everything she saw.",
+      "The narrator equates confidence with complete knowledge."
+    ],
+    "answer": 1,
+    "explanation": "The account becomes more qualified and more precise. Reduced certainty is presented as part of improvement rather than as wholesale loss of memory."
+  },
+  {
+    "id": "rw-original-central-087",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "In a hypothetical study of a shared task, individuals follow a simple rule: each begins when two nearby participants begin. Changing where the first few participants stand produces large differences in how widely the activity spreads. The researchers argue that the arrangement of contacts matters in addition to the rule followed by each person.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The participants change their rule every time someone moves.",
+      "The study shows that group arrangement has no effect.",
+      "A shared individual rule can produce different group outcomes when patterns of contact differ.",
+      "Every participant receives instructions describing the entire group’s final behavior."
+    ],
+    "answer": 2,
+    "explanation": "The rule stays fixed while initial arrangement changes spread. This supports the role of interaction structure, not individualized central instructions."
+  },
+  {
+    "id": "rw-original-central-088",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "A fictional critic describes a silent comedy in which a character proudly displays a letter to the audience while hiding it from another character. The viewers already know that the letter contains the opposite of what he claims. Their knowledge turns his confident gestures into a source of humor, although the other character remains impressed.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The audience and every character interpret the letter identically.",
+      "The comedy requires the letter’s contents to be unknown to viewers.",
+      "The proud character reads the letter aloud to explain its meaning.",
+      "The humor depends on a difference between what the audience knows and what a character believes."
+    ],
+    "answer": 3,
+    "explanation": "The audience’s advance knowledge makes the confident display ironic. The impressed character’s limited knowledge sustains the contrast."
+  },
+  {
+    "id": "rw-original-central-089",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "In this original poem, a speaker walks along the shore.\n\nThe weed lies higher than the foam.\nIt marks a reach the water made,\nnot where the next wave means to stop.\nI follow what the sea has left\nand keep my footprints farther back.\n\nThe speaker uses traces of earlier water levels while recognizing that they do not determine the next wave.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Evidence of a past event can guide caution without fixing exactly what will happen next.",
+      "Recognizing a past pattern allows the speaker to predict precisely where each new wave will stop.",
+      "The speaker chooses intuition over physical evidence when deciding where to walk.",
+      "Caution requires permanently avoiding every place that water has ever reached."
+    ],
+    "answer": 0,
+    "explanation": "The weed marks a previous reach, while the speaker explicitly separates that trace from a prediction of the next wave. The other choices add precision, reject the evidence used, or turn local caution into an absolute rule."
+  },
+  {
+    "id": "rw-original-central-090",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "A hypothetical experiment compares the shape of a thin sheet before and after it is cut. The cut releases internal tension and the sheet curls. Researchers had previously measured the original flat sheet without noticing the tension. They argue that the response to an intervention can reveal a property not apparent from an undisturbed object’s appearance.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The sheet had no internal tension until after it curled.",
+      "Changing an object’s condition can reveal a hidden property of its earlier state.",
+      "A flat appearance always proves that no forces are present.",
+      "The cut allows the researchers to recover the sheet’s manufacturing date."
+    ],
+    "answer": 1,
+    "explanation": "Curling after release supplies evidence of prior tension. The main idea concerns information gained through intervention, not appearance alone or historical dating."
+  },
+  {
+    "id": "rw-original-central-091",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "A fictional researcher studies an informal exchange network in which people lend items without assigning each loan a price. Participants remember who has helped them but often return help in a different form. The researcher argues that the absence of prices does not mean the absence of accounting; obligations are tracked through relationships rather than through a single numerical ledger.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Participants forget every loan as soon as it is made.",
+      "Only a numerical price can create any expectation of return.",
+      "An exchange system can track obligations through social relationships without pricing every transaction.",
+      "Every favor is repaid with an identical object immediately."
+    ],
+    "answer": 2,
+    "explanation": "The reported memory of help supports relational accounting. The passage distinguishes a method of tracking from the presence or absence of all obligation."
+  },
+  {
+    "id": "rw-original-central-092",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "In an original story, a young actor prepares a scene by memorizing where each object stands. During rehearsal, the director removes one chair. The actor initially stops, then discovers a different movement that preserves the character’s intention. The director praises the adaptation, explaining that the arrangement was a means of expressing the scene rather than its ultimate purpose.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The actor succeeds only by returning the missing chair to its original place.",
+      "The director believes objects can never contribute to a performance.",
+      "Memorizing positions guarantees successful adaptation without interpretation.",
+      "Understanding a purpose can help a performer adapt when a familiar arrangement changes."
+    ],
+    "answer": 3,
+    "explanation": "The actor preserves intention through changed movement. The arrangement has a role but is not treated as the goal itself."
+  },
+  {
+    "id": "rw-original-inference-089",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "In a hypothetical study, a group member can see every other participant’s final choice but not the reasons behind it. Many participants choose the same unfamiliar option because they each assume the others know something they do not. Interviews later reveal that none had independent information favoring it.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Agreement among the participants need not indicate multiple independent sources of support for the option.",
+      "Every participant independently verified that the option was best.",
+      "The shared choice proves that the option was objectively the worst.",
+      "Participants had direct access to one another’s private reasons."
+    ],
+    "answer": 0,
+    "explanation": "The agreement arose through assumptions about others’ knowledge. It does not establish the option’s quality or independent corroboration."
+  },
+  {
+    "id": "rw-original-inference-090",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In this original story, Ivo rehearses a joke before visiting an old friend. When they meet, the friend quietly mentions a difficult week. Ivo puts away the card on which he wrote the joke and asks about her journey instead. Later, walking home, he finds that he still remembers every word he had prepared.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Ivo is unable to remember the joke at the meeting or afterward.",
+      "Ivo’s decision not to tell the joke is more consistent with adjusting to the encounter than with forgetting it.",
+      "The friend explicitly asks Ivo to read from his card.",
+      "Ivo decides never to speak humorously to anyone again."
+    ],
+    "answer": 1,
+    "explanation": "The changed conversation and retained memory support adaptation rather than forgetting. The story does not establish a permanent rejection of humor."
+  },
+  {
+    "id": "rw-original-inference-091",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher records that one rare action follows another rare event in a small set of observations. She then searches a much larger record and finds many instances of the event without the action. She retains the original observations but narrows her proposed rule from “the event always produces the action” to a conditional claim requiring further investigation.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The original event-action pairs must have been fabricated.",
+      "The event is proven never to influence the action under any conditions.",
+      "The larger record supplies counterexamples to the universal rule without making the original co-occurrences impossible.",
+      "The larger record confirms that every event is followed by the action."
+    ],
+    "answer": 2,
+    "explanation": "Exceptions disprove the always formulation, while particular co-occurrences can remain real. The effect under other conditions is still unresolved."
+  },
+  {
+    "id": "rw-original-inference-092",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In a fictional discussion, a student correctly follows a sequence of instructions but cannot explain why changing their order would alter the result. A second student works more slowly yet predicts which rearrangements will fail. The instructor evaluates successful execution and understanding of dependencies separately.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The first student failed to follow the original sequence.",
+      "The slower student cannot perform any part of the task.",
+      "The instructor considers successful execution irrelevant.",
+      "Completing one prescribed sequence does not by itself establish the same understanding shown by predicting the effects of rearrangement."
+    ],
+    "answer": 3,
+    "explanation": "The two observations concern different capacities. Evaluating them separately does not deny the first student’s demonstrated success."
+  },
+  {
+    "id": "rw-original-inference-093",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "A hypothetical survey finds that almost everyone recognizes a symbol when it appears beside its usual label. When the same symbol is shown alone, recognition is much lower. The original report had used the labeled condition to claim that the symbol could guide users even when words were unavailable.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The labeled result does not directly demonstrate the symbol’s effectiveness without verbal support.",
+      "The symbol’s appearance necessarily changes when its label is removed.",
+      "No participant recognizes the symbol in either condition.",
+      "Verbal labels reduce recognition in the reported study."
+    ],
+    "answer": 0,
+    "explanation": "The weaker isolated result exposes reliance on the combined display. It does not imply zero recognition or a changed symbol."
+  },
+  {
+    "id": "rw-original-inference-094",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In this original poem, the speaker addresses a distant friend.\n\nI tell you where the swallows turn,\nthe color of the morning bread.\nThe thing I meant to write stays out;\nits edges gather in the words\nI choose to send instead.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The speaker has written no words at all.",
+      "The speaker may communicate something indirectly through the details selected while withholding a direct statement.",
+      "Every detail explicitly names the withheld subject.",
+      "The friend is physically present beside the speaker."
+    ],
+    "answer": 1,
+    "explanation": "The withheld thought shapes the surrounding words. The poem suggests indirect expression without revealing the exact subject or the friend’s location beyond distance."
+  },
+  {
+    "id": "rw-original-inference-095",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "A hypothetical team trains a classifier using examples labeled by one group of reviewers. On new examples, the classifier agrees with that group but differs systematically from another group using a different definition of the categories. The team notes that agreement with training labels does not settle which definition is appropriate for the intended use.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Both reviewer groups necessarily use identical definitions.",
+      "The classifier has been shown to agree equally with both groups.",
+      "A high agreement score can depend on the category definition chosen as the reference.",
+      "The first group’s definition is proven appropriate for every purpose."
+    ],
+    "answer": 2,
+    "explanation": "The reference definition affects evaluation. Agreement with one labeling convention does not independently justify choosing it."
+  },
+  {
+    "id": "rw-original-inference-096",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In an original story, a teacher invites a student to teach a familiar game to younger children. The student begins with a strategy but stops when the children ask what counts as a legal move. She rewrites her explanation to begin with rules she had long stopped noticing.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The student had never played the game before.",
+      "The children already understand every legal move.",
+      "The student abandons all explanation after the first question.",
+      "Explaining the game to newcomers makes some assumed knowledge visible to the student."
+    ],
+    "answer": 3,
+    "explanation": "The children’s question reveals a prerequisite omitted from the initial explanation. Revising the order is consistent with recognizing an assumption."
+  },
+  {
+    "id": "rw-original-textual-089",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "In a hypothetical study, a researcher proposes that a bird identifies a call by the relative timing of its notes rather than by their absolute pitch. Recordings can be altered to shift every note upward together while preserving the timing, or to change timing while keeping the original pitches.",
+    "prompt": "Which finding, if true, would most directly support the proposal?",
+    "choices": [
+      "Birds respond similarly after the uniform pitch shift but respond differently when the relative timing changes.",
+      "Birds can hear the original recording at close range.",
+      "Both altered recordings contain the same number of notes.",
+      "Some recordings are louder than others before standardization."
+    ],
+    "answer": 0,
+    "explanation": "The contrasting manipulations distinguish the proposed timing cue from absolute pitch. Audibility and note count alone do not show which cue controls identification."
+  },
+  {
+    "id": "rw-original-textual-090",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A fictional researcher claims that a discussion method helps participants notice disagreements they previously expressed in different words. She distinguishes identifying a genuine difference in claims from simply counting how often people interrupt. Groups receive the same discussion time with or without the method.",
+    "prompt": "Which finding, if true, would most directly support the claim?",
+    "choices": [
+      "Participants using the method speak for more total minutes.",
+      "Participants using the method more accurately identify incompatible claims in a later transcript analysis.",
+      "The discussion room contains the same number of chairs.",
+      "Some participants prefer written invitations to spoken ones."
+    ],
+    "answer": 1,
+    "explanation": "Identifying incompatible claims directly addresses the stated outcome. Speaking time and physical arrangements do not demonstrate recognition of disagreement."
+  },
+  {
+    "id": "rw-original-textual-091",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher argues that a pattern in a sequence helps people predict its next element because they learn the relation between neighboring elements. An alternative explanation is that they memorize the particular sequence. She tests new sequences that preserve the relation but use different elements.",
+    "prompt": "Which finding, if true, would most directly support the relational-learning explanation?",
+    "choices": [
+      "Participants can recognize the first sequence’s exact printed appearance.",
+      "The new elements are displayed in the same font size.",
+      "Participants predict new sequences following the relation more accurately than equally unfamiliar sequences that violate it.",
+      "Some participants recall having seen patterns in other tasks."
+    ],
+    "answer": 2,
+    "explanation": "Successful transfer specific to the preserved relation goes beyond memorizing the original elements. Recognition of the original alone would fit the alternative."
+  },
+  {
+    "id": "rw-original-textual-092",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A fictional researcher proposes that a play’s recurring knock at a door changes meaning as the audience learns more about the visitor. She seeks a quotation from a fictional performance review that connects an unchanged sound to a changed audience interpretation, rather than to a louder or faster performance.",
+    "prompt": "Which quotation would most directly support the proposal?",
+    "choices": [
+      "“The actor struck the door so loudly in the final scene that the audience covered its ears.”",
+      "“The door had been painted a different color before the company’s second performance.”",
+      "“Several spectators remembered the theater’s entrance rather than the door on the stage.”",
+      "“The same three taps that first promised rescue now announced the person the audience had learned to fear.”"
+    ],
+    "answer": 3,
+    "explanation": "The identical taps acquire a different significance through knowledge of the visitor. A changed sound or unrelated physical detail would not show the proposed effect."
+  },
+  {
+    "id": "rw-original-textual-093",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher attributes a change in a liquid’s measured clarity entirely to the removal of suspended particles. The treatment also changes the liquid’s color, which may influence the instrument. Another team uses an independent particle count and tests colored liquids with unchanged particle concentrations.",
+    "prompt": "Which finding, if true, would most directly weaken the explanation?",
+    "choices": [
+      "Particle counts remain stable, while the instrument reports greater clarity when only the color is changed.",
+      "The instrument displays a number for each tested sample.",
+      "The team stores untreated samples in identical containers.",
+      "Some particles are visible under a microscope before treatment."
+    ],
+    "answer": 0,
+    "explanation": "The independent count and color-only manipulation challenge the exclusive particle-removal account. Basic measurability and initial particle presence do not distinguish it."
+  },
+  {
+    "id": "rw-original-textual-094",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A fictional researcher claims that longer turns in a group conversation show that more participants are contributing ideas. She measures turn duration but has not counted distinct speakers. A follow-up records both measures using the same definition of a turn as the original study.",
+    "prompt": "Which finding, if true, would most directly weaken the claim?",
+    "choices": [
+      "The conversations are recorded with the same equipment.",
+      "Average turn length increases because one speaker talks longer, while fewer distinct participants contribute.",
+      "Some turns contain questions instead of statements.",
+      "The researcher can measure every turn’s duration in seconds."
+    ],
+    "answer": 1,
+    "explanation": "Longer turns can accompany less participation, directly challenging the inference from duration to broader contribution. The other facts do not address breadth."
+  },
+  {
+    "id": "rw-original-textual-095",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher proposes that a species chooses nesting sites solely according to entrance size. In the observed sample, larger entrances also face away from prevailing winds. A follow-up varies entrance size and orientation separately while keeping other relevant features similar.",
+    "prompt": "Which finding, if true, would most directly weaken the proposal?",
+    "choices": [
+      "The researchers measure each entrance before recording its orientation.",
+      "The species uses more than one nesting site.",
+      "Site choice follows orientation when it conflicts with entrance size, and size alone produces no consistent preference.",
+      "Some entrances are larger than others in the original sample."
+    ],
+    "answer": 2,
+    "explanation": "The separate manipulation supports an alternative cue over the proposed sole determinant. Variation in the original sample does not isolate either feature."
+  },
+  {
+    "id": "rw-original-textual-096",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A fictional scholar argues that an original novel presents apology as requiring attention to the injured person rather than merely a polished speech. She seeks a quotation showing a character changing what he does in response to another person’s account, rather than repeating a prepared explanation.",
+    "prompt": "Which quotation would most directly support the interpretation?",
+    "choices": [
+      "“He repeated the speech more loudly when she asked him to explain the first sentence.”",
+      "“He admired the careful handwriting of the apology after she had left the room.”",
+      "“He had chosen the paper for the apology several days before their meeting.”",
+      "“He folded the speech he had practiced and asked which promise she needed him to keep now.”"
+    ],
+    "answer": 3,
+    "explanation": "The character sets aside a prepared performance and attends to the other person’s present need. The alternatives emphasize delivery or presentation without that response."
+  },
+  {
+    "id": "rw-original-central-093",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion.\n\nLady Russell was fond of Bath, in short, and disposed to think it must suit them all; and as to her young friend’s health, by passing all the warm months with her at Kellynch Lodge, every danger would be avoided; and it was in fact, a change which must do both health and spirits good. Anne had been too little from home, too little seen. Her spirits were not high. A larger society would improve them. She wanted her to be more known.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Lady Russell thinks that her young friend should avoid society and remain permanently at Kellynch Lodge.",
+      "Lady Russell fears that Bath would worsen her young friend’s spirits even if it improved her health.",
+      "Lady Russell believes that spending time in Bath would benefit her young friend, with summer visits elsewhere addressing concerns about health.",
+      "Lady Russell plans to abandon Bath because it offers too few opportunities to meet people."
+    ],
+    "answer": 2,
+    "explanation": "Lady Russell favors Bath, thinks a larger society would improve Anne’s spirits, and sees warm-month visits to Kellynch Lodge as a way to avoid health risks. None of the alternatives reflects that combined plan."
+  },
+  {
+    "id": "rw-original-inference-097",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion. Mr. Shepherd is discussing the possibility of renting Sir Walter Elliot’s home.\n\n“I must take leave to observe, Sir Walter,” said Mr. Shepherd one morning at Kellynch Hall, as he laid down the newspaper, “that the present juncture is much in our favour. This peace will be turning all our rich naval officers ashore. They will be all wanting a home. Could not be a better time, Sir Walter, for having a choice of tenants, very responsible tenants. Many a noble fortune has been made during the war. If a rich admiral were to come in our way, Sir Walter—”",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Mr. Shepherd believes that naval officers will be unable to afford homes after the war.",
+      "Mr. Shepherd expects Sir Walter to join the navy in order to increase his income.",
+      "Mr. Shepherd thinks that peace will eliminate the demand for rented homes.",
+      "Mr. Shepherd regards the arrival of peace as an opportunity to find a financially suitable tenant."
+    ],
+    "answer": 3,
+    "explanation": "Shepherd connects peace with wealthy officers coming ashore and needing homes. His description of responsible tenants and fortunes made during the war supports a favorable rental opportunity."
+  },
+  {
+    "id": "rw-original-inference-098",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion. Sir Walter Elliot is responding to the prospect of his daughter’s marriage.\n\nA short period of exquisite felicity followed, and but a short one. Troubles soon arose. Sir Walter, on being applied to, without actually withholding his consent, or saying it should never be, gave it all the negative of great astonishment, great coldness, great silence, and a professed resolution of doing nothing for his daughter. He thought it a very degrading alliance; and Lady Russell, though with more tempered and pardonable pride, received it as a most unfortunate one.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Sir Walter enthusiastically supports the marriage but conceals that support from Lady Russell.",
+      "Sir Walter formally forbids the marriage while promising substantial financial help.",
+      "Sir Walter communicates strong disapproval without explicitly refusing to allow the marriage.",
+      "Sir Walter remains undecided because he has not yet formed an opinion of the alliance."
+    ],
+    "answer": 2,
+    "explanation": "Although he does not withhold consent or say the marriage can never occur, his coldness, silence, and refusal to do anything for his daughter convey opposition. His stated view that the alliance is degrading rules out indecision or hidden enthusiasm."
+  },
+  {
+    "id": "rw-original-central-094",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion.\n\nHow eloquent could Anne Elliot have been! how eloquent, at least, were her wishes on the side of early warm attachment, and a cheerful confidence in futurity, against that overanxious caution which seems to insult exertion and distrust Providence! She had been forced into prudence in her youth, she learned romance as she grew older: the natural sequel of an unnatural beginning.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Anne’s increasing age causes her to distrust the romantic hopes she freely pursued in her youth.",
+      "Anne concludes that both prudence and romance are equally impossible at every stage of life.",
+      "Anne wishes that others would exercise stricter control over her future choices.",
+      "As Anne grows older, she comes to favor hopeful attachment over the excessive caution imposed on her when she was young."
+    ],
+    "answer": 3,
+    "explanation": "The text places Anne’s wishes on the side of warm attachment and confidence, against overanxious caution. Its final sentence explicitly contrasts enforced youthful prudence with the romance she learns later."
+  },
+  {
+    "id": "rw-original-central-095",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "easy",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. The narrator recalls his early childhood.\n\nMy father’s family name being Pirrip, and my Christian name Philip, my infant tongue could make of both names nothing longer or more explicit than Pip. So, I called myself Pip, and came to be called Pip.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The narrator’s childhood difficulty pronouncing his names produced the nickname by which he became known.",
+      "The narrator adopted a nickname to conceal his family’s identity from strangers.",
+      "The narrator’s family chose his names to honor a relative called Pip.",
+      "The narrator abandoned his nickname once he learned to pronounce his full name."
+    ],
+    "answer": 0,
+    "explanation": "The narrator says his infant speech could produce only Pip from Pirrip and Philip, so he called himself Pip and others did too. There is no secrecy, namesake, or later abandonment of the name."
+  },
+  {
+    "id": "rw-original-inference-099",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. Pip, the narrator, recalls an encounter with a man in a churchyard.\n\nThe man, after looking at me for a moment, turned me upside down, and emptied my pockets. There was nothing in them but a piece of bread. When the church came to itself—for he was so sudden and strong that he made it go head over heels before me, and I saw the steeple under my feet—when the church came to itself, I say, I was seated on a high tombstone, trembling while he ate the bread ravenously.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The man knocks the church building over before seating Pip on a tombstone.",
+      "Pip imagines the church moving because he has fallen asleep in the churchyard.",
+      "The apparent movement of the church reflects Pip’s disorientation as the man turns him upside down.",
+      "The church’s steeple has been removed and placed at Pip’s feet."
+    ],
+    "answer": 2,
+    "explanation": "The man turns Pip upside down, and Pip immediately describes seeing the steeple beneath his feet. The apparent motion describes the change in his viewpoint, rather than literal movement of the building or a dream."
+  },
+  {
+    "id": "rw-original-inference-100",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. Pip is the narrator; Joe is his sister’s husband.\n\nJoe’s forge adjoined our house, which was a wooden house, as many of the dwellings in our country were—most of them, at that time. When I ran home from the churchyard, the forge was shut up, and Joe was sitting alone in the kitchen. Joe and I being fellow-sufferers, and having confidences as such, Joe imparted a confidence to me, the moment I raised the latch of the door and peeped in at him opposite to it, sitting in the chimney corner.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Pip views Joe as an ally with whom shared difficulties encourage private communication.",
+      "Pip regards Joe as a stranger whose intentions he has no reason to trust.",
+      "Pip thinks Joe’s work prevents him from ever spending time inside the house.",
+      "Pip believes Joe shares secrets primarily to display his authority over him."
+    ],
+    "answer": 0,
+    "explanation": "Calling themselves fellow-sufferers and describing confidences arising from that relationship supports mutual trust. Joe is inside the kitchen and shares a confidence, without any suggestion of an assertion of power."
+  },
+  {
+    "id": "rw-original-central-096",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. The narrator describes preparations for a holiday meal.\n\nWe were to have a superb dinner, consisting of a leg of pickled pork and greens, and a pair of roast stuffed fowls. A handsome mince pie had been made yesterday morning (which accounted for the mincemeat not being missed), and the pudding was already on the boil. These extensive arrangements occasioned us to be cut off unceremoniously in respect of breakfast; “for I ain’t,” said Mrs. Joe—“I ain’t a going to have no formal cramming and busting and washing up now, with what I’ve got before me, I promise you!”",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Mrs. Joe prepares an unusually elaborate breakfast to make up for a canceled dinner.",
+      "A shortage of food forces the household to postpone all meals until the next day.",
+      "The narrator volunteers to cook dinner because Mrs. Joe has completed no preparations.",
+      "Extensive preparations for a large dinner lead Mrs. Joe to dispense with a formal breakfast."
+    ],
+    "answer": 3,
+    "explanation": "The planned dinner includes meat, fowls, pie, and pudding. The narrator explicitly links these extensive arrangements with the curtailed breakfast, and Mrs. Joe complains about the work still before her."
+  },
+  {
+    "id": "rw-original-inference-101",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia. The narrator, Jimmy, has recently arrived at his grandparents’ home.\n\n“Had a good sleep, Jimmy?” she asked briskly. Then in a very different tone she said, as if to herself, “My, how you do look like your father!” I remembered that my father had been her little boy; she must often have come to wake him like this when he overslept. “Here are your clean clothes,” she went on, stroking my coverlid with her brown hand as she talked. “But first you come down to the kitchen with me, and have a nice warm bath behind the stove. Bring your things; there’s nobody about.”",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Jimmy’s grandmother mistakes him for his father throughout their conversation.",
+      "Waking Jimmy reminds his grandmother of caring for his father when he was a child.",
+      "Jimmy’s grandmother has never before noticed any resemblance between Jimmy and his father.",
+      "Jimmy believes that his father has just arrived and is waiting in the kitchen."
+    ],
+    "answer": 1,
+    "explanation": "His grandmother remarks that Jimmy looks like his father, and Jimmy reflects that she must have awakened her own son similarly. She addresses Jimmy by name, so the passage suggests remembered similarity rather than mistaken identity."
+  },
+  {
+    "id": "rw-original-central-097",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia.\n\nMy grandfather said little. When he first came in he kissed me and spoke kindly to me, but he was not demonstrative. I felt at once his deliberateness and personal dignity, and was a little in awe of him. The thing one immediately noticed about him was his beautiful, crinkly, snow-white beard. I once heard a missionary say it was like the beard of an Arabian sheik. His bald crown only made it more impressive.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The narrator’s grandfather combines restrained affection with an impressive dignity that inspires the narrator’s respect.",
+      "The narrator’s grandfather is openly hostile and refuses to acknowledge his arrival.",
+      "The narrator admires his grandfather primarily for his ability to tell entertaining stories.",
+      "The narrator finds that his grandfather’s informal manner eliminates any feeling of awe."
+    ],
+    "answer": 0,
+    "explanation": "The grandfather kisses the narrator and speaks kindly while remaining undemonstrative. The narrator explicitly feels his dignity and is in awe; the striking beard reinforces the impression rather than replacing that central characterization."
+  },
+  {
+    "id": "rw-original-inference-102",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia. Otto is discussing purchases made by a newly arrived Bohemian family.\n\n“Yes’m,” said Otto; “and he’s sold ’em his oxen and his two bony old horses for the price of good workteams. I’d have interfered about the horses—the old man can understand some German—if I’d ’a’ thought it would do any good. But Bohemians has a natural distrust of Austrians.”",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Otto considers the prices fair and sees no reason anyone would wish to intervene.",
+      "Otto thinks distrust would limit the usefulness of his intervention, despite some possibility of communicating with the family.",
+      "Otto believes the family is unable to understand any language that he can speak.",
+      "Otto has already forced the seller to replace the animals with better ones."
+    ],
+    "answer": 1,
+    "explanation": "Otto says the animals were overpriced and notes that the old man understands some German. His conditional statement that he would have interfered if it would help, followed by his comment about distrust, indicates why he refrained. It does not establish a universal fact about the groups he names."
+  },
+  {
+    "id": "rw-original-central-098",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia. The narrator has recently begun riding a pony named Dude.\n\nOn the afternoon of that same Sunday I took my first long ride on my pony, under Otto’s direction. After that Dude and I went twice a week to the post-office, six miles east of us, and I saved the men a good deal of time by riding on errands to our neighbors. When we had to borrow anything, or to send about word that there would be preaching at the sod schoolhouse, I was always the messenger. Formerly Fuchs attended to such things after working hours.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The narrator’s rides prevent him from contributing to the work of the household.",
+      "Otto continues to carry every message because the narrator cannot ride independently.",
+      "The narrator travels to the post office only when there is a service at the schoolhouse.",
+      "Learning to ride enables the narrator to perform errands that save the working men time."
+    ],
+    "answer": 3,
+    "explanation": "After the first supervised ride, the narrator regularly visits the post office and carries messages. The text explicitly says he saves the men time and that Fuchs formerly did such tasks after work; the preaching notice is one example, not the condition for every ride."
+  },
+  {
+    "id": "rw-original-inference-103",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence.\n\nFew things seemed to Newland Archer more awful than an offence against “Taste,” that far-off divinity of whom “Form” was the mere visible representative and vicegerent. Madame Olenska’s pale and serious face appealed to his fancy as suited to the occasion and to her unhappy situation; but the way her dress (which had no tucker) sloped away from her thin shoulders shocked and troubled him. He hated to think of May Welland’s being exposed to the influence of a young woman so careless of the dictates of Taste.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Archer pays little attention to clothing because he considers taste irrelevant.",
+      "A breach of social standards in someone’s clothing can disturb Archer even when he finds that person’s face appealing.",
+      "Archer concludes that Madame Olenska’s dress is entirely appropriate to the occasion.",
+      "Archer believes May Welland’s influence is responsible for Madame Olenska’s clothing."
+    ],
+    "answer": 1,
+    "explanation": "The text contrasts the appeal of Madame Olenska’s face with Archer’s shock at her dress. His concern about May being exposed to her influence shows the importance he assigns to social standards; it does not attribute her dress to May."
+  },
+  {
+    "id": "rw-original-central-099",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence.\n\nThe question was: who was Beaufort? He passed for an Englishman, was agreeable, handsome, ill-tempered, hospitable and witty. He had come to America with letters of recommendation from old Mrs. Manson Mingott’s English son-in-law, the banker, and had speedily made himself an important position in the world of affairs; but his habits were dissipated, his tongue was bitter, his antecedents were mysterious; and when Medora Manson announced her cousin’s engagement to him it was felt to be one more act of folly in poor Medora’s long record of imprudences.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Beaufort’s inability to obtain introductions prevents him from entering society or business.",
+      "Everyone regards Beaufort’s impeccable behavior as proof that his background requires no scrutiny.",
+      "Beaufort’s only obstacle to acceptance is that his English relatives refuse to recommend him.",
+      "Despite Beaufort’s social and professional success, uncertainty about his background and concern about his character cause misgivings."
+    ],
+    "answer": 3,
+    "explanation": "Recommendations help Beaufort become important in business, and he is agreeable and hospitable. The passage then contrasts those advantages with dissipated habits, a bitter tongue, and mysterious antecedents, culminating in concern about the engagement."
+  },
+  {
+    "id": "rw-original-central-100",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence. Newland Archer and May Welland have become engaged.\n\nIn the course of the next day the first of the usual betrothal visits were exchanged. The New York ritual was precise and inflexible in such matters; and in conformity with it Newland Archer first went with his mother and sister to call on Mrs. Welland, after which he and Mrs. Welland and May drove out to old Mrs. Manson Mingott’s to receive that venerable ancestress’s blessing.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Newland and May invent a sequence of visits in order to reject New York conventions.",
+      "Newland refuses to visit May’s family until they have visited his home first.",
+      "A precise social ritual determines the sequence of visits following the engagement.",
+      "The relatives leave all arrangements to chance because betrothal visits are considered unimportant."
+    ],
+    "answer": 2,
+    "explanation": "The narrator calls the ritual precise and inflexible and says that Newland follows it in making the visits. The ordered calls illustrate conformity, rather than improvisation, refusal, or indifference."
+  },
+  {
+    "id": "rw-original-inference-104",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence. Mrs. Welland suggests delaying a wedding; the older Mrs. Mingott responds.\n\n“We must give them time to get to know each other a little better, mamma,” Mrs. Welland interposed, with the proper affectation of reluctance; to which the ancestress rejoined: “Know each other? Fiddlesticks! Everybody in New York has always known everybody. Let the young man have his way, my dear; don’t wait till the bubble’s off the wine. Marry them before Lent; I may catch pneumonia any winter now, and I want to give the wedding-breakfast.”",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Mrs. Mingott favors postponement until the couple has lived outside New York.",
+      "Mrs. Mingott believes the couple has met too recently for their families to approve a marriage.",
+      "Mrs. Mingott agrees with Mrs. Welland that there is no reason to arrange the wedding soon.",
+      "Mrs. Mingott considers further acquaintance an unnecessary reason for delaying the wedding because the families already know one another."
+    ],
+    "answer": 3,
+    "explanation": "Mrs. Mingott answers the appeal for more time by saying everyone in New York has always known everyone. Her requests to marry before Lent and hold the wedding breakfast while she is well reinforce her preference for proceeding promptly."
+  },
+  {
+    "id": "rw-original-textual-097",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "The following text is from an original short story.\n\nMiri listened while the visiting violinist described a roughness in her final phrase. She said nothing until he had put the score away. Outside, her friends complained that he had praised almost no one. She copied his comment beside the next morning’s practice plan. The tram arrived, and she closed the notebook carefully before stepping aboard.",
+    "prompt": "Which quotation from the text most effectively supports the idea that Miri treats the violinist’s criticism as useful guidance?",
+    "choices": [
+      "“She copied his comment beside the next morning’s practice plan.”",
+      "“She said nothing until he had put the score away.”",
+      "“Outside, her friends complained that he had praised almost no one.”",
+      "“The tram arrived, and she closed the notebook carefully before stepping aboard.”"
+    ],
+    "answer": 0,
+    "explanation": "Placing the comment in her practice plan shows that Miri intends to use it in further work. Her silence alone does not reveal her response, and the friends’ complaint describes their attitude rather than hers."
+  },
+  {
+    "id": "rw-original-textual-098",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "The following text is from an original short story.\n\nTomas reached the footbridge just after the repair crew had left. Fresh boards shone among the older planks. Several walkers crossed without slowing, and a bicycle rattled over the far end. Before taking the loaded cart across, he asked whether the old weight limit still applied. Only after reading the inspector’s notice did he turn the cart toward the bridge.",
+    "prompt": "Which quotation from the text most effectively supports the idea that Tomas checks whether the bridge is suitable for his intended use instead of relying only on appearances?",
+    "choices": [
+      "“Fresh boards shone among the older planks.”",
+      "“Before taking the loaded cart across, he asked whether the old weight limit still applied.”",
+      "“Several walkers crossed without slowing, and a bicycle rattled over the far end.”",
+      "“Tomas reached the footbridge just after the repair crew had left.”"
+    ],
+    "answer": 1,
+    "explanation": "The question about a weight limit concerns the loaded cart, his particular use of the bridge. New boards and other people crossing provide visual impressions, but do not establish that the cart’s load is permitted."
+  },
+  {
+    "id": "rw-original-textual-099",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "The following text is from an original short story.\n\nOrla’s grandmother said the cup had belonged to a queen. The museum’s purchase book named only a local dealer, and no earlier record had survived. Orla did not remove the family story from the display. She placed it on a separate card headed Family Tradition, beside the card describing the documented purchase. Visitors could read both without being asked to mistake one kind of account for the other.",
+    "prompt": "Which quotation from the text most effectively supports the idea that Orla preserves an inherited account while distinguishing it from documented history?",
+    "choices": [
+      "“Orla’s grandmother said the cup had belonged to a queen.”",
+      "“The museum’s purchase book named only a local dealer, and no earlier record had survived.”",
+      "“She placed it on a separate card headed Family Tradition, beside the card describing the documented purchase.”",
+      "“Orla did not remove the family story from the display.”"
+    ],
+    "answer": 2,
+    "explanation": "The separate, differently identified cards establish both preservation and a distinction in evidentiary status. Merely retaining the story supports preservation but does not by itself show how Orla distinguishes it from the purchase record."
+  },
+  {
+    "id": "rw-original-textual-100",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "The following text is from an original short story.\n\nSami had insisted that he could pack the parcel himself. Twice the cord slipped while he pressed the springing lid with one elbow. Inez waited by the doorway without offering advice. He finally asked Inez to hold the box while he tied the cord. Once the knot was secure, he carried the parcel out with a newly careful expression.",
+    "prompt": "Which quotation from the text most effectively supports the idea that Sami eventually accepts assistance with a task he initially intended to complete alone?",
+    "choices": [
+      "“Sami had insisted that he could pack the parcel himself.”",
+      "“Twice the cord slipped while he pressed the springing lid with one elbow.”",
+      "“Inez waited by the doorway without offering advice.”",
+      "“He finally asked Inez to hold the box while he tied the cord.”"
+    ],
+    "answer": 3,
+    "explanation": "Sami’s request directly shows his change from insisting on doing everything himself to accepting a specific form of help. The other quotations establish the earlier intention, the difficulty, and Inez’s restraint."
+  },
+  {
+    "id": "rw-original-textual-101",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "The following text is an original poem.\n\nThe ferry bell has ceased beyond the rain.\nThe notice says no boats will come tonight.\nI fold the empty cloth beside the door\nand draw the curtain from the harbor light.\nStill I set a lamp against the pane.\nIts small reflection trembles on the floor.\nI cannot hear a footstep on the quay;\nthe lamp keeps room for one arrival more.",
+    "prompt": "Which quotation from the text most effectively supports the idea that the speaker maintains an act of welcome despite the absence of an expected arrival?",
+    "choices": [
+      "“Still I set a lamp against the pane.”",
+      "“The notice says no boats will come tonight.”",
+      "“I fold the empty cloth beside the door”",
+      "“I cannot hear a footstep on the quay;”"
+    ],
+    "answer": 0,
+    "explanation": "Setting the lamp is an action that continues despite the cancellation and lack of footsteps. The final image links it to room for an arrival. The notice and silence establish the absence rather than the continuing welcome."
+  },
+  {
+    "id": "rw-original-textual-102",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "The following text is an original poem.\n\nAt dawn I wrote: the garden has turned white.\nThe frost had made a country of the glass.\nAt noon the pane is clear; the grass is green.\nI cross the sentence out and let it pass.\nI leave the first crossed sentence where it lies.\nThe page need not pretend I always knew\nwhich white belonged to window, which to field:\nmy later words can keep the earlier view.",
+    "prompt": "Which quotation from the text most effectively supports the idea that the speaker preserves a record of an interpretation that has been revised?",
+    "choices": [
+      "“The frost had made a country of the glass.”",
+      "“I leave the first crossed sentence where it lies.”",
+      "“At noon the pane is clear; the grass is green.”",
+      "“At dawn I wrote: the garden has turned white.”"
+    ],
+    "answer": 1,
+    "explanation": "Leaving the crossed sentence on the page preserves evidence of the earlier interpretation after correction. The other lines describe either the misleading appearance, the new observation, or the initial statement without indicating its retention."
+  },
+  {
+    "id": "rw-original-textual-103",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "The following text is from an original short story.\n\nThe audience began applauding before Ren had reached the last slide. The chair thanked her for designing the entire exhibit. Ren reopened the slide naming Lu and Mateo and explained which sections each had built. The chair leaned forward to read the names. Only then did Ren switch off the projector and gather the loose pages from the lectern.",
+    "prompt": "Which quotation from the text most effectively supports the idea that Ren actively corrects an impression that she alone deserves credit for the exhibit?",
+    "choices": [
+      "“The audience began applauding before Ren had reached the last slide.”",
+      "“The chair thanked her for designing the entire exhibit.”",
+      "“Ren reopened the slide naming Lu and Mateo and explained which sections each had built.”",
+      "“The chair leaned forward to read the names.”"
+    ],
+    "answer": 2,
+    "explanation": "Ren identifies the others and specifies their contributions, correcting the chair’s attribution of the entire exhibit to her. The chair’s thanks creates the mistaken impression, while the other quotations describe the audience’s or chair’s actions."
+  },
+  {
+    "id": "rw-original-textual-104",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "The following text is from an original short story.\n\nThe traveler gave Bina no answer when she offered supper. She set down the tray more sharply than she intended. Later she found him asleep on the bench, still wearing his wet coat, with the untouched letter open in his hand. By morning she understood his silence as weariness rather than contempt. She warmed the bread again before he woke.",
+    "prompt": "Which quotation from the text most effectively supports the idea that Bina revises her interpretation of the traveler’s earlier behavior?",
+    "choices": [
+      "“The traveler gave Bina no answer when she offered supper.”",
+      "“She set down the tray more sharply than she intended.”",
+      "“She warmed the bread again before he woke.”",
+      "“By morning she understood his silence as weariness rather than contempt.”"
+    ],
+    "answer": 3,
+    "explanation": "The contrast between weariness and contempt explicitly states the change in Bina’s interpretation. Warming the bread is consistent with a kinder response, but does not alone identify what she has reconsidered."
+  },
+  {
+    "id": "rw-original-central-101",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion. Anne Elliot considers a stay with her sister Mary and Mary’s family.\n\nShe had no dread of these two months. Mary was not so repulsive and unsisterly as Elizabeth, nor so inaccessible to all influence of hers; neither was there anything among the other component parts of the cottage inimical to comfort. She was always on friendly terms with her brother-in-law; and in the children, who loved her nearly as well, and respected her a great deal more than their mother, she had an object of interest, amusement, and wholesome exertion.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Anne fears that every member of Mary’s household will prevent her from enjoying the stay.",
+      "Anne expects sources of companionship and useful activity to make the stay comfortable despite Mary’s shortcomings.",
+      "Anne regards the children as an obstacle to any worthwhile activity.",
+      "Anne prefers Elizabeth’s company because Elizabeth is more receptive to her influence."
+    ],
+    "answer": 1,
+    "explanation": "The text explicitly says Anne has no dread of the stay, notes friendly relations with her brother-in-law, and identifies interest and useful exertion in caring for the children. It presents Mary as less difficult than Elizabeth, not the reverse."
+  },
+  {
+    "id": "rw-original-inference-105",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion. Charles Musgrove and his wife, Mary, have a child who is recovering.\n\nCharles Musgrove, indeed, afterwards, showed more of inclination; “the child was going on so well, and he wished so much to be introduced to Captain Wentworth, that, perhaps, he might join them in the evening; he would not dine from home, but he might walk in for half an hour.” But in this he was eagerly opposed by his wife, with “Oh! no, indeed, Charles, I cannot bear to have you go away. Only think if anything should happen?”",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Mary encourages Charles to leave as soon as he describes the child’s recovery.",
+      "Charles intends to stay away for several days without returning home.",
+      "The child’s apparent improvement does not remove Mary’s objection to Charles leaving.",
+      "Charles says that he has no interest in meeting Captain Wentworth."
+    ],
+    "answer": 2,
+    "explanation": "Charles cites the child’s progress and proposes a limited visit, but his wife eagerly opposes it and worries that something might happen. Her objection persists despite the favorable report."
+  },
+  {
+    "id": "rw-original-inference-106",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. The narrator reflects on his response after being cleared of blame for a theft.\n\nMy state of mind regarding the pilfering from which I had been so unexpectedly exonerated did not impel me to frank disclosure; but I hope it had some dregs of good at the bottom of it.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "He claims to have given a complete and candid account as soon as he was cleared.",
+      "He admits failing to speak openly but hopes his state of mind was not entirely without good.",
+      "He insists that nothing about his response deserves moral reflection.",
+      "He states that he expected to be cleared and had planned every detail of that outcome."
+    ],
+    "answer": 1,
+    "explanation": "The narrator acknowledges that his state of mind did not lead to frank disclosure, then qualifies that admission with a hope that some good remained. Neither a full confession nor certainty about his own innocence or planning is asserted."
+  },
+  {
+    "id": "rw-original-central-102",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. The narrator recalls learning basic literacy and arithmetic.\n\nMuch of my unassisted self, and more by the help of Biddy than of Mr. Wopsle’s great-aunt, I struggled through the alphabet as if it had been a bramble-bush; getting considerably worried and scratched by every letter. After that I fell among those thieves, the nine figures, who seemed every evening to do something new to disguise themselves and baffle recognition. But, at last I began, in a purblind groping way, to read, write, and cipher, on the very smallest scale.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The narrator finds letters and numbers immediately easy to recognize.",
+      "Mr. Wopsle’s great-aunt supplies all the help the narrator needs.",
+      "With effort and some help, the narrator makes limited progress in skills he initially finds difficult.",
+      "The narrator gives up every attempt to learn after finding the alphabet difficult."
+    ],
+    "answer": 2,
+    "explanation": "The bramble-bush and disguised-thieves comparisons convey difficulty, while the final sentence records eventual, modest progress. Biddy contributes more help than the great-aunt, and the narrator does not abandon the work."
+  },
+  {
+    "id": "rw-original-central-103",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia.\n\nWe knew that things were hard for our Bohemian neighbors, but the two girls were lighthearted and never complained. They were always ready to forget their troubles at home, and to run away with me over the prairie, scaring rabbits or starting up flocks of quail.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The girls retain their cheerfulness and readiness for recreation despite difficulties at home.",
+      "The girls refuse to leave home because the prairie frightens them.",
+      "The narrator believes the neighbors’ lives are easy and free of trouble.",
+      "The girls complain continuously during every outing with the narrator."
+    ],
+    "answer": 0,
+    "explanation": "The text contrasts known hardship with the girls’ lightheartedness, lack of complaints, and willingness to join the narrator outside. It neither denies the hardship nor portrays the outings as unwelcome."
+  },
+  {
+    "id": "rw-original-inference-107",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia.\n\nMuch as I liked Ántonia, I hated a superior tone that she sometimes took with me. She was four years older than I, to be sure, and had seen more of the world; but I was a boy and she was a girl, and I resented her protecting manner. Before the autumn was over, she began to treat me more like an equal and to defer to me in other things than reading lessons. This change came about from an adventure we had together.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The narrator refuses to acknowledge any difference in their ages or experience.",
+      "The narrator’s dislike of every aspect of Ántonia prevents them from having adventures together.",
+      "The narrator can like Ántonia while resenting the unequal standing he feels in their relationship.",
+      "Ántonia becomes steadily more protective and less willing to defer to the narrator."
+    ],
+    "answer": 2,
+    "explanation": "He begins by affirming his liking while objecting to her superior, protecting manner. His account of her later treating him more like an equal supports concern about their relative standing, not complete dislike or increasing subordination."
+  },
+  {
+    "id": "rw-original-central-104",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence.\n\nThat evening, after Mr. Jackson had taken himself away, and the ladies had retired to their chintz-curtained bedroom, Newland Archer mounted thoughtfully to his own study. A vigilant hand had, as usual, kept the fire alive and the lamp trimmed; and the room, with its rows and rows of books, its bronze and steel statuettes of “The Fencers” on the mantelpiece and its many photographs of famous pictures, looked singularly homelike and welcoming.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Archer finds that his study has been abandoned and its books removed.",
+      "Archer returns to a familiar, carefully maintained study that feels welcoming.",
+      "Archer reluctantly enters a room whose unfamiliar contents alarm him.",
+      "The household has extinguished the study’s fire and lamp to discourage his return."
+    ],
+    "answer": 1,
+    "explanation": "The maintained fire and lamp, familiar decorative objects, and explicit description of the room as homelike and welcoming support the main idea. Nothing suggests abandonment, unfamiliarity, or a hostile preparation."
+  },
+  {
+    "id": "rw-original-inference-108",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence.\n\nThese things passed through Newland Archer’s mind a week later as he watched the Countess Olenska enter the van der Luyden drawing-room on the evening of the momentous dinner. The occasion was a solemn one, and he wondered a little nervously how she would carry it off. She came rather late, one hand still ungloved, and fastening a bracelet about her wrist; yet she entered without any appearance of haste or embarrassment the drawing-room in which New York’s most chosen company was somewhat awfully assembled.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Archer has no concern about how the Countess will behave at the dinner.",
+      "The Countess rushes in before any of the other guests have arrived.",
+      "The Countess’s visible embarrassment confirms Archer’s worst expectations.",
+      "The Countess appears composed in a setting about which Archer feels anxious on her behalf."
+    ],
+    "answer": 3,
+    "explanation": "Archer wonders nervously how she will manage the occasion, but she enters without haste or embarrassment. The contrast supports outward composure rather than an assertion about her private feelings."
   }
 ]

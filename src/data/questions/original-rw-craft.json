@@ -1399,7 +1399,7 @@
     "domain": "Craft and Structure",
     "skill": "Words in Context",
     "difficulty": "medium",
-    "passage": "The fictional archive’s early records are ______: some months contain daily entries, while long stretches contain no entries at all.",
+    "passage": "The uneven documentation makes it difficult for researchers to compare activity consistently across the full period covered by the collection.\n\nThe fictional archive’s early records are ______: some months contain daily entries, while long stretches contain no entries at all.",
     "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
     "choices": [
       "continuous",
@@ -5030,5 +5030,957 @@
     ],
     "answer": 3,
     "explanation": "Thermal expansion supplies a reason for designed clearance. The response is condition-specific, not a universal demand for maximum gaps."
+  },
+  {
+    "id": "rw-original-vocab-113",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "In an original story, the arrival of a second messenger does little to _diminish_ Rina’s uncertainty. Although his account agrees with the first messenger’s in several details, he admits that he heard it from her rather than witnessing the event himself. Rina therefore still has only one independent account.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Reduce",
+      "Explain",
+      "Publicize",
+      "Prolong"
+    ],
+    "answer": 0,
+    "explanation": "The second account does not reduce uncertainty because it depends on the first. Prolong would mean extend its duration, which is not the stated function of diminish."
+  },
+  {
+    "id": "rw-original-vocab-114",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "A fictional study describes the relationship between two neighborhood repair groups as _reciprocal_. Each lends tools that the other lacks, and each occasionally provides a workspace when the other’s room is unavailable. The arrangement is not a service delivered permanently in only one direction.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Mathematically inverted",
+      "Mutual",
+      "Unplanned",
+      "Competitive"
+    ],
+    "answer": 1,
+    "explanation": "The examples show assistance in both directions. Reciprocal describes mutual exchange rather than a numerical inverse or competition."
+  },
+  {
+    "id": "rw-original-vocab-115",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "In a hypothetical planning exercise, a drainage problem initially appears _intractable_: every proposed channel would flood another part of the site. The planners make progress only after changing the assumption that all water must leave through one outlet. The description concerns difficulty under the original constraints.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Impossible to observe",
+      "Already resolved",
+      "Difficult to solve",
+      "Insignificant"
+    ],
+    "answer": 2,
+    "explanation": "The problem resists the initial attempts at a solution. Later progress does not contradict calling it difficult under the original assumptions."
+  },
+  {
+    "id": "rw-original-vocab-116",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "A fictional critic writes that the first notes of a film’s closing music _evoke_ the opening scene. The tune is not an exact repetition, but its rhythm brings that earlier encounter to mind before any image from the scene reappears. The connection depends on the listener’s memory.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Copy exactly",
+      "Provide proof of",
+      "Erase",
+      "Call to mind"
+    ],
+    "answer": 3,
+    "explanation": "The music recalls an earlier scene without reproducing it exactly. Evoke concerns an association in memory, not proof that the scenes are identical."
+  },
+  {
+    "id": "rw-original-vocab-117",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "In this original story, a theater manager makes a _provision_ for sudden rain by reserving an indoor room near the outdoor stage. The reservation may never be used, but it allows the performance to continue if the weather changes. The word names an arrangement rather than a supply of food.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Preparatory arrangement",
+      "Formal prediction",
+      "Purchase of equipment",
+      "Public announcement"
+    ],
+    "answer": 0,
+    "explanation": "Reserving a room is an arrangement for a possible need. It does not predict that rain will occur or imply that new equipment is bought."
+  },
+  {
+    "id": "rw-original-vocab-118",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "In a hypothetical agreement, the team’s permission to enter a cave is _contingent_ on completing a safety course. Approval is not automatic: members who do not finish the course cannot enter, even if they have already paid for transport. The requirement connects access to a stated condition.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Accidental",
+      "Dependent",
+      "Immediate",
+      "Permanent"
+    ],
+    "answer": 1,
+    "explanation": "The safety course is a condition of entry. Contingent on therefore means dependent on, not accidental in this context."
+  },
+  {
+    "id": "rw-original-vocab-119",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "In a fictional listening exercise, a conductor asks students to _discern_ a second melody beneath a louder one. At first they hear only a dense mass of sound. After several repetitions, they can follow the quieter line separately without changing the recording’s volume.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Invent",
+      "Perform aloud",
+      "Perceive distinctly",
+      "Make louder"
+    ],
+    "answer": 2,
+    "explanation": "The students come to distinguish an existing musical line. They neither create it nor change the recording."
+  },
+  {
+    "id": "rw-original-vocab-120",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "A fictional editor shortens an essay but _retains_ a brief exchange between two speakers. Removing that exchange would make the narrator’s later response seem unmotivated. The editor changes several surrounding paragraphs while deciding that this particular passage must remain.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Memorizes",
+      "Pays for",
+      "Reconstructs",
+      "Keeps"
+    ],
+    "answer": 3,
+    "explanation": "The exchange stays in the edited text. Retains concerns keeping it, not committing it to memory or recreating missing wording."
+  },
+  {
+    "id": "rw-original-structure-093",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher argues that a flock’s coordinated turn need not be planned by a leader. She describes a model in which each simulated bird adjusts to a few nearby birds. _The model produces an organized turn even though no individual receives a map of the flock’s overall motion._ She proposes testing which local signals real birds use.",
+    "prompt": "What is the main function of the underlined sentence?",
+    "choices": [
+      "It shows how the model demonstrates the possibility introduced in the first sentence.",
+      "It proves that real birds use exactly the modeled signals.",
+      "It identifies the bird that planned the turn.",
+      "It establishes that local adjustments prevent coordination."
+    ],
+    "answer": 0,
+    "explanation": "The model supplies an example of coordination without central planning. It motivates, rather than replaces, empirical testing of real signals."
+  },
+  {
+    "id": "rw-original-structure-094",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "In an original story, a village council asks a child to name a new lane. She suggests the name of the stream it replaced. Adults debate names honoring people who paid for construction, but walkers soon begin using the child’s suggestion without an official decision. The narrator ends by showing the stream’s name on a handwritten delivery label.",
+    "prompt": "What is the main effect of the final detail?",
+    "choices": [
+      "It establishes that the council unanimously approved the name.",
+      "It shows the suggested name acquiring a practical life beyond the formal debate.",
+      "It explains who financed every part of construction.",
+      "It demonstrates that the lane remains unusable for deliveries."
+    ],
+    "answer": 1,
+    "explanation": "The delivery label shows actual use despite the unresolved official discussion. It does not supply a formal vote or a financing history."
+  },
+  {
+    "id": "rw-original-structure-095",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "A fictional essay begins by describing a dictionary as a record of established usage. It then discusses a new word used consistently within a small group but absent from the dictionary’s latest edition. The author concludes that publication is a delayed record of usage, not the event that first makes usage possible.",
+    "prompt": "Which choice best describes the structure of the text?",
+    "choices": [
+      "It presents a dictionary entry and proves no one has used the word.",
+      "It traces every edition of one dictionary in chronological order.",
+      "It introduces a description, considers a case that clarifies its limits, and distinguishes recording a practice from creating it.",
+      "It rejects all records of language because they are printed."
+    ],
+    "answer": 2,
+    "explanation": "The unlisted but used word separates social use from later documentation. The argument qualifies the role of dictionaries without rejecting them entirely."
+  },
+  {
+    "id": "rw-original-structure-096",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "A hypothetical study tests a flexible joint under repeated bending at a constant rate. The joint survives the trial. _In use, however, the joint would alternate between long rests and sudden bends._ The researchers recommend a second test reflecting those cycles before estimating its working lifetime.",
+    "prompt": "What is the function of the underlined sentence?",
+    "choices": [
+      "It shows that the original joint broke during the trial.",
+      "It explains why flexibility cannot be measured.",
+      "It confirms that the first test reproduced every intended condition.",
+      "It identifies a relevant difference between the trial and the intended operating pattern."
+    ],
+    "answer": 3,
+    "explanation": "The sentence introduces a different pattern of stress, motivating additional testing without negating the original survival result."
+  },
+  {
+    "id": "rw-original-structure-097",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "In this original poem, a speaker watches laundry in a courtyard.\n\nThe shirts all pull toward the street;\nthe ropes insist that they remain.\nI see the wind in what it moves,\nthe boundary in what comes back.\n\nThe poem describes invisible forces through the different effects they have on familiar objects.",
+    "prompt": "What is the main purpose of the text?",
+    "choices": [
+      "To make opposing forces perceptible through the movement and restraint of ordinary objects",
+      "To explain the procedure for washing a shirt",
+      "To suggest that the ropes are moving freely down the street",
+      "To establish that the courtyard contains no wind"
+    ],
+    "answer": 0,
+    "explanation": "The shirts reveal wind through motion and the ropes through restraint. The poem presents observation, not laundering instructions or a literal escape."
+  },
+  {
+    "id": "rw-original-structure-098",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "A fictional critic notes that a comic strip gives readers the same sentence in two successive panels. In the first, the speaker confidently predicts an event. In the second, the event has happened in the opposite way, and another character repeats the words. The critic argues that the repeated wording becomes a reply rather than a prediction.",
+    "prompt": "How does the comparison of the two panels develop the text’s claim?",
+    "choices": [
+      "It demonstrates that every panel contains identical events.",
+      "It shows the same wording performing a different function after circumstances change.",
+      "It identifies a spelling error that causes the prediction to fail.",
+      "It argues that comic strips cannot convey replies without changing words."
+    ],
+    "answer": 1,
+    "explanation": "Context changes the sentence’s role from prediction to a response to its failure. No spelling error or universal limitation is described."
+  },
+  {
+    "id": "rw-original-structure-099",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "A hypothetical report describes a voting method that selects the option receiving the most first-place rankings. It then considers a case in which that option is ranked last by most remaining voters. The report uses the case to distinguish having the largest first-choice group from being broadly acceptable across the whole group.",
+    "prompt": "What is the role of the case described in the text?",
+    "choices": [
+      "It proves that first-place rankings cannot be counted.",
+      "It establishes that the winning option received no first-place votes.",
+      "It illustrates why one measure of preference need not capture a different kind of support.",
+      "It shows that all preference measures necessarily select the same option."
+    ],
+    "answer": 2,
+    "explanation": "The case separates plurality of first choices from broad acceptability. It does not make counting impossible or claim the measures always agree."
+  },
+  {
+    "id": "rw-original-structure-100",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "In an original story, a new apprentice is embarrassed when her first woven border is uneven. The instructor places it beside a much older cloth with a similar irregularity, then asks her to identify where each weaver changed direction. He postpones judging which cloth is better until they have examined what the irregularities reveal.",
+    "prompt": "What is the main purpose of the instructor’s comparison?",
+    "choices": [
+      "To prove the apprentice deliberately copied the older cloth",
+      "To show that direction changes are impossible in weaving",
+      "To declare that every uneven border is superior to an even one",
+      "To turn an apparent flaw into something that can be examined for information about the making process"
+    ],
+    "answer": 3,
+    "explanation": "The comparison invites investigation before evaluation. It does not establish copying or a universal aesthetic ranking."
+  },
+  {
+    "id": "rw-original-cross-093",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nA fictional researcher interprets a group’s unanimous public vote as evidence that every member privately prefers the selected option.\n\nText 2\nAnother researcher observes that members hear earlier votes before announcing their own. Some may follow an apparent consensus despite private doubts. She recommends collecting initial preferences independently before treating unanimity as evidence of identical private views.",
+    "prompt": "What assumption in Text 1 does Text 2 most directly question?",
+    "choices": [
+      "That agreement in publicly expressed choices necessarily reflects agreement in private preferences",
+      "That a public vote can be counted",
+      "That the group selected an option",
+      "That members can hear spoken responses"
+    ],
+    "answer": 0,
+    "explanation": "Sequential influence can align public votes without aligning initial private views. Text 2 questions interpretation of unanimity, not the vote’s existence."
+  },
+  {
+    "id": "rw-original-cross-094",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional poet values a translation that preserves a poem’s abrupt ending, even if the final sentence sounds unusual in the new language.\n\nText 2\nAnother poet also considers the abrupt ending important but uses different syntax to make it sound intentionally unfinished rather than accidentally ungrammatical. She distinguishes preserving an effect from preserving the exact order of words.",
+    "prompt": "On which point would both poets most likely agree?",
+    "choices": [
+      "The original word order must always remain unchanged.",
+      "The ending’s abruptness is a feature worth considering in translation.",
+      "An unfinished effect is necessarily an accidental error.",
+      "Every unusual sentence should be removed from a translation."
+    ],
+    "answer": 1,
+    "explanation": "Both value the ending’s effect. They differ over how to recreate it in another language, not whether it matters."
+  },
+  {
+    "id": "rw-original-cross-095",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nA hypothetical analyst says that a prediction system is useful whenever it correctly identifies most of the events it flags.\n\nText 2\nAnother analyst notes that such a system could flag only a small fraction of the events that actually occur. She recommends also reporting how many real events are missed, especially when missing one is costly.",
+    "prompt": "What does Text 2 add to the evaluation proposed in Text 1?",
+    "choices": [
+      "Only the percentage of flags that are correct",
+      "The number of words in the system’s title",
+      "The proportion of actual events that the system fails to flag",
+      "The requirement that the system issue no flags at all"
+    ],
+    "answer": 2,
+    "explanation": "The second analyst adds missed-event coverage to correctness among flags. These are different conditional outcomes."
+  },
+  {
+    "id": "rw-original-cross-096",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional critic admires a documentary for presenting speakers’ statements without an audible narrator, which she describes as removing the filmmaker’s interpretation.\n\nText 2\nAnother critic notes that the filmmaker still chooses which statements to include and where to place them. The absence of narration, he argues, changes how interpretation is conveyed without eliminating those editorial choices.",
+    "prompt": "How does Text 2 qualify Text 1’s assessment?",
+    "choices": [
+      "It proves that none of the speakers made the recorded statements.",
+      "It claims that every documentary must include an audible narrator.",
+      "It establishes that the statements appear in a randomly chosen order.",
+      "It identifies forms of selection and arrangement that can convey interpretation without narration."
+    ],
+    "answer": 3,
+    "explanation": "Editorial selection can remain influential without an added voice. Text 2 does not deny authenticity or demand a particular technique."
+  },
+  {
+    "id": "rw-original-cross-097",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nA hypothetical researcher concludes that a group has no knowledge of a route because its members cannot describe it verbally.\n\nText 2\nAnother researcher asks the members to travel the route. They reach the destination reliably but struggle to name the turns. She distinguishes successful navigation from an explicit verbal description of it.",
+    "prompt": "Which distinction is central to Text 2’s response?",
+    "choices": [
+      "Knowing how to perform an activity can differ from being able to explain it in words.",
+      "A verbal description always guarantees successful navigation.",
+      "The members reach different destinations on every attempt.",
+      "Route knowledge can exist only as a list of street names."
+    ],
+    "answer": 0,
+    "explanation": "Performance supplies evidence of practical knowledge absent from the verbal test. It does not establish that either ability always implies the other."
+  },
+  {
+    "id": "rw-original-cross-098",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional designer wants a board game to reward players who plan several moves ahead. She proposes testing whether outcomes depend on those plans.\n\nText 2\nAnother designer agrees but notes that an occasional random event can make a strong plan fail. He recommends evaluating performance across many games rather than treating a single loss as proof that planning has no value.",
+    "prompt": "On which point would both designers most likely agree?",
+    "choices": [
+      "One random event proves all planning is useless.",
+      "The role of planning in outcomes is relevant to evaluating the game.",
+      "The game must produce identical outcomes on every play.",
+      "A player’s final result should never be examined."
+    ],
+    "answer": 1,
+    "explanation": "Both consider planning relevant; the second qualifies how much evidence a single game provides."
+  },
+  {
+    "id": "rw-original-cross-099",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nA fictional historian treats the first surviving written mention of a custom as the date when the custom began.\n\nText 2\nAnother historian notes that the document describes the custom as already familiar and gives no account of its introduction. She treats the document as evidence that the custom existed by that date, while leaving its beginning unresolved.",
+    "prompt": "How does Text 2 revise the inference in Text 1?",
+    "choices": [
+      "It proves that the custom began after the document was written.",
+      "It identifies an exact earlier starting date.",
+      "It treats the date as an upper bound on the custom’s possible starting date rather than its exact starting date.",
+      "It denies that the document provides evidence of the custom’s existence."
+    ],
+    "answer": 2,
+    "explanation": "The mention establishes presence by that date, not necessarily origin on that date. Familiarity suggests prior use without fixing its exact duration."
+  },
+  {
+    "id": "rw-original-cross-100",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA hypothetical researcher evaluates a communication system by whether messages arrive intact. She treats successful delivery as successful communication.\n\nText 2\nAnother researcher observes that recipients may interpret an intact message differently when they lack the sender’s background knowledge. She recommends testing what recipients understand as well as whether the text arrives unchanged.",
+    "prompt": "What limitation of Text 1’s measure does Text 2 identify?",
+    "choices": [
+      "An intact message necessarily has no meaning.",
+      "Recipients always possess identical background knowledge.",
+      "Transmission accuracy cannot be tested.",
+      "Preserving a message’s form does not by itself establish that its intended meaning is understood."
+    ],
+    "answer": 3,
+    "explanation": "Text 2 separates delivery fidelity from understanding. It retains the relevance of intact transmission but adds an outcome it does not guarantee."
+  },
+  {
+    "id": "rw-original-structure-101",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion.\n\nMr. Shepherd, a civil, cautious lawyer, who, whatever might be his hold or his views on Sir Walter, would rather have the disagreeable prompted by anybody else, excused himself from offering the slightest hint, and only begged leave to recommend an implicit reference to the excellent judgement of Lady Russell, from whose known good sense he fully expected to have just such resolute measures advised as he meant to see finally adopted.",
+    "prompt": "Which choice best describes Mr. Shepherd’s behavior as presented in the text?",
+    "choices": [
+      "He leaves difficult advice to someone whose recommendations he expects to support his own aims.",
+      "He challenges Lady Russell’s judgment because her advice conflicts with his plans.",
+      "He volunteers to deliver unwelcome advice so that Lady Russell can avoid doing so.",
+      "He withholds advice because he believes that no practical measures are available."
+    ],
+    "answer": 0,
+    "explanation": "Shepherd would rather have someone else introduce the disagreeable subject, yet expects Lady Russell to advise the resolute measures he wants adopted. He delegates the uncomfortable task rather than opposing her judgment or abandoning a solution."
+  },
+  {
+    "id": "rw-original-vocab-121",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion. Sir Walter Elliot is reacting to proposed reductions in his household expenses.\n\nHow Anne’s more rigid requisitions might have been taken is of little consequence. Lady Russell’s had no success at all: could not be put up with, were not to be borne. “What! every comfort of life knocked off! Journeys, London, servants, horses, table—_contractions_ and restrictions everywhere! To live no longer with the decencies even of a private gentleman! No, he would sooner quit Kellynch Hall at once, than remain in it on such disgraceful terms.”",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Agreements",
+      "Reductions",
+      "Recoveries",
+      "Concealments"
+    ],
+    "answer": 1,
+    "explanation": "The surrounding complaints concern comforts being removed and restrictions on spending. Contractions therefore means reductions, rather than agreements or improvements in finances."
+  },
+  {
+    "id": "rw-original-vocab-122",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion. Sir Walter Elliot is considering the possibility of renting his home, Kellynch Hall, to a wealthy admiral.\n\n“He would be a very lucky man, Shepherd,” replied Sir Walter; “that’s all I have to remark. A _prize_ indeed would Kellynch Hall be to him; rather the greatest prize of all, let him have taken ever so many before; hey, Shepherd?”",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Valued acquisition",
+      "Monetary fine",
+      "Official rank",
+      "Contest participant"
+    ],
+    "answer": 0,
+    "explanation": "Calling Kellynch Hall a prize praises it as something desirable for the admiral to obtain. The reference to prizes taken earlier also plays on naval captures, but the house is neither a rank nor a participant in a contest."
+  },
+  {
+    "id": "rw-original-structure-102",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion. Anne Elliot is speaking about whether naval officers deserve comfortable homes.\n\n“The navy, I think, who have done so much for us, have at least an equal claim with any other set of men, for all the comforts and all the privileges which any home can give. Sailors work hard enough for their comforts, we must all allow.”",
+    "prompt": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To explain why sailors should receive fewer comforts than people in other occupations",
+      "To argue that sailors’ service and labor entitle them to the same domestic comforts as other people",
+      "To describe the design features that distinguish naval housing from other homes",
+      "To claim that sailors work only when they are promised unusually luxurious homes"
+    ],
+    "answer": 1,
+    "explanation": "The speaker explicitly asserts an equal claim to comforts and privileges, citing the navy’s service and sailors’ hard work. No house design or special condition for working is discussed."
+  },
+  {
+    "id": "rw-original-structure-103",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations.\n\nA fearful man, all in coarse gray, with a great iron on his leg. A man with no hat, and with broken shoes, and with an old rag tied round his head. A man who had been soaked in water, and smothered in mud, and lamed by stones, and cut by flints, and stung by nettles, and torn by briars; who limped, and shivered, and glared, and growled; and whose teeth chattered in his head as he seized me by the chin.",
+    "prompt": "Which choice best describes how the text presents the man?",
+    "choices": [
+      "It contrasts the man’s elegant clothing with his unusually polite conversation.",
+      "It accumulates physical details that suggest both the man’s harsh experiences and his threatening presence.",
+      "It provides a chronological account explaining why the man first entered the area.",
+      "It argues that the man’s alarming appearance is entirely a deliberate disguise."
+    ],
+    "answer": 1,
+    "explanation": "Broken shoes, wounds, mud, and shivering indicate hardship, while glaring, growling, and seizing the narrator’s chin convey menace. The text does not explain the man’s arrival or establish a disguise."
+  },
+  {
+    "id": "rw-original-vocab-123",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. The narrator describes his sister and her husband, Joe.\n\nShe was not a good-looking woman, my sister; and I had a general impression that she must have made Joe Gargery marry her by hand. Joe was a fair man, with curls of flaxen hair on each side of his smooth face, and with eyes of such a very undecided blue that they seemed to have somehow got mixed with their own whites. He was a _mild_, good-natured, sweet-tempered, easygoing, foolish, dear fellow—a sort of Hercules in strength, and also in weakness.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Uncertain",
+      "Unimportant",
+      "Unhealthy",
+      "Gentle"
+    ],
+    "answer": 3,
+    "explanation": "Mild appears beside good-natured, sweet-tempered, and easygoing, all describing Joe’s disposition. The uncertainty mentioned earlier concerns the color of his eyes, not the meaning of mild."
+  },
+  {
+    "id": "rw-original-structure-104",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. The narrator approaches someone whom he believes he recognizes.\n\nI thought he would be more glad if I came upon him with his breakfast, in that unexpected manner, so I went forward softly and touched him on the shoulder. He instantly jumped up, and it was not the same man, but another man!",
+    "prompt": "Which choice best describes the function of the final sentence in the text?",
+    "choices": [
+      "It confirms that the narrator’s surprise pleased the person exactly as intended.",
+      "It overturns the narrator’s expectation that he has approached a particular person.",
+      "It explains why the narrator decided to bring breakfast on a different day.",
+      "It describes the narrator’s gradual recognition that the person has changed his clothing."
+    ],
+    "answer": 1,
+    "explanation": "The narrator expects to please a particular man with breakfast, but the final sentence reveals that the person is another man. That reverses the assumption motivating his approach; it does not confirm a welcome or describe a clothing change."
+  },
+  {
+    "id": "rw-original-vocab-124",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. The narrator is watching a man eat on a marsh.\n\nHe was gobbling mincemeat, meatbone, bread, cheese, and pork pie, all at once: staring distrustfully while he did so at the mist all round us, and often stopping—even stopping his jaws—to listen. Some real or fancied sound, some clink upon the river or breathing of beast upon the marsh, now gave him a _start_, and he said, suddenly—",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "New beginning",
+      "Head start",
+      "Sudden fright",
+      "Signal to depart"
+    ],
+    "answer": 2,
+    "explanation": "The man repeatedly stops to listen, and a possible sound gives him a start. In this setting the word denotes a sudden alarm, consistent with his distrustful watchfulness, rather than the beginning of an activity."
+  },
+  {
+    "id": "rw-original-vocab-125",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia. The narrator recalls a long journey west through the United States.\n\nI do not remember crossing the Missouri River, or anything about the long day’s journey through Nebraska. Probably by that time I had crossed so many rivers that I was _dull_ to them. The only thing very noticeable about Nebraska was that it was still, all day long, Nebraska.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Unresponsive",
+      "Poorly illuminated",
+      "Sharp-edged",
+      "Morally objectionable"
+    ],
+    "answer": 0,
+    "explanation": "After crossing many rivers, the narrator no longer registers another crossing in memory. Being dull to the rivers means being insufficiently responsive to notice them distinctly, rather than being dimly lit."
+  },
+  {
+    "id": "rw-original-structure-105",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia. The narrator describes a morning in his grandmother’s kitchen.\n\nIt was pleasant there in the kitchen. The sun shone into my bath-water through the west half-window, and a big Maltese cat came up and rubbed himself against the tub, watching me curiously. While I scrubbed, my grandmother busied herself in the dining-room until I called anxiously, “Grandmother, I’m afraid the cakes are burning!” Then she came laughing, waving her apron before her as if she were shooing chickens.",
+    "prompt": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To argue that a kitchen is an unsuitable place for a child to bathe",
+      "To explain the technical steps required to repair a damaged stove",
+      "To evoke a comfortable domestic scene through small observations and a playful interaction",
+      "To portray a lasting conflict between the narrator and his grandmother"
+    ],
+    "answer": 2,
+    "explanation": "Sunlight, the curious cat, and the grandmother’s laughing response develop a pleasant atmosphere. The narrator’s momentary anxiety about the cakes does not become a serious dispute, and the text gives no repair instructions."
+  },
+  {
+    "id": "rw-original-vocab-126",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia. The narrator is describing part of his grandparents’ house.\n\nAfter I was dressed, I explored the long cellar next the kitchen. It was dug out under the _wing_ of the house, was plastered and cemented, with a stairway and an outside door by which the men came and went. Under one of the windows there was a place for them to wash when they came in from work.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Roof",
+      "Staircase",
+      "Entrance",
+      "Section"
+    ],
+    "answer": 3,
+    "explanation": "The cellar is under a wing of the house, meaning a section of the building. The text separately mentions a stairway and a door, but neither is what wing denotes."
+  },
+  {
+    "id": "rw-original-structure-106",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia. The narrator’s grandmother is visiting Mrs. Shimerda, who speaks little English.\n\nMy grandmother always spoke in a very loud tone to foreigners, as if they were deaf. She made Mrs. Shimerda understand the friendly intention of our visit, and the Bohemian woman handled the loaves of bread and even smelled them, and examined the pies with lively curiosity, exclaiming, “Much good, much thank!”—and again she wrung grandmother’s hand.",
+    "prompt": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To explain why the grandmother refuses to share the food she has brought",
+      "To show that Mrs. Shimerda rejects the visitors’ intentions as hostile",
+      "To describe a friendly attempt at communication despite a language difference",
+      "To establish that speaking loudly is necessary whenever people use different languages"
+    ],
+    "answer": 2,
+    "explanation": "The grandmother conveys the visit’s friendly intention, and Mrs. Shimerda responds with interest, thanks, and a handshake. The narrator’s comparison to deafness makes the grandmother’s loudness an assumption, not a demonstrated requirement for understanding."
+  },
+  {
+    "id": "rw-original-vocab-127",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence. A group at the opera awaits Mr. Sillerton Jackson’s reaction to something they have observed.\n\nThe club box, therefore, waited in visible suspense while Mr. Sillerton Jackson handed back Lawrence Lefferts’s opera-glass. For a moment he silently _scrutinised_ the attentive group out of his filmy blue eyes overhung by old veined lids; then he gave his moustache a thoughtful twist, and said simply: “I didn’t think the Mingotts would have tried it on.”",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Examined closely",
+      "Greeted noisily",
+      "Dismissed hastily",
+      "Praised extravagantly"
+    ],
+    "answer": 0,
+    "explanation": "Jackson silently studies the attentive group before giving a considered response. Scrutinised refers to close observation, rather than a loud greeting, an immediate dismissal, or praise."
+  },
+  {
+    "id": "rw-original-structure-107",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence.\n\nMrs. Julius Beaufort, on the night of her annual ball, never failed to appear at the Opera; indeed, she always gave her ball on an Opera night in order to emphasise her complete superiority to household cares, and her possession of a staff of servants competent to organise every detail of the entertainment in her absence.",
+    "prompt": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To show that Mrs. Beaufort’s servants are incapable of preparing a ball without her supervision",
+      "To explain why Mrs. Beaufort has decided to stop giving an annual ball",
+      "To explain how Mrs. Beaufort’s opera attendance displays her freedom from the practical demands of hosting",
+      "To contrast Mrs. Beaufort’s dislike of the opera with her guests’ enthusiasm for it"
+    ],
+    "answer": 2,
+    "explanation": "The text explicitly states that scheduling the ball on an opera night emphasizes her superiority to household cares and her competent servants. It does not suggest that she supervises them from home, cancels the ball, or dislikes opera."
+  },
+  {
+    "id": "rw-original-vocab-128",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence. Mrs. Beaufort holds an annual ball after attending the opera.\n\nMrs. Beaufort, then, had as usual appeared in her box just before the “Jewel Song;” and when, again as usual, she rose at the end of the third act, drew her opera cloak about her lovely shoulders, and disappeared, New York knew that _meant_ that half an hour later the ball would begin.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Signaled",
+      "Intended",
+      "Required",
+      "Caused"
+    ],
+    "answer": 0,
+    "explanation": "Mrs. Beaufort’s departure tells observers that the ball will begin in half an hour. Here meant concerns what her departure signifies to New York society, rather than a personal intention or a rule requiring the event."
+  },
+  {
+    "id": "rw-original-structure-108",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence. The narrator describes the approach to a ballroom.\n\nThen the house had been boldly planned with a ballroom, so that, instead of squeezing through a narrow passage to get to it (as at the Chiverses’) one marched solemnly down a vista of enfiladed drawing-rooms (the sea-green, the crimson and the bouton d’or), seeing from afar the many-candled lustres reflected in the polished parquetry, and beyond that the depths of a conservatory where camellias and tree-ferns arched their costly foliage over seats of black and gold bamboo.",
+    "prompt": "Which choice best describes the function of the room-by-room description in the text?",
+    "choices": [
+      "It suggests that guests cannot distinguish the ballroom from a cramped passageway.",
+      "It emphasizes the house’s grand arrangement and the lavish view available to arriving guests.",
+      "It traces the household’s gradual decision to replace expensive decoration with plain furniture.",
+      "It explains how each room was converted from a place of work into a living space."
+    ],
+    "answer": 1,
+    "explanation": "The extended view through colored drawing rooms, reflected lights, and costly foliage presents a deliberately impressive approach. The narrow passage belongs to the contrasting example at the Chiverses, not to this house."
+  },
+  {
+    "id": "rw-original-cross-101",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "The following texts describe a hypothetical archaeological investigation.\n\n**Text 1**\nAn ash layer directly beneath a paved courtyard has the chemical signature of a known volcanic eruption. Because the ash is below the paving, an archaeologist concludes that the courtyard was built within a year or two of that eruption.\n\n**Text 2**\nThe ash grains beneath the courtyard are rounded and sorted into channels. These features indicate that water transported them there after their initial fall. Ash from an eruption can be carried to a new location many years later, so its origin does not by itself closely date the paving.",
+    "prompt": "Based on the texts, the author of Text 2 would most directly question which assumption in Text 1?",
+    "choices": [
+      "The ash reached the courtyard site at approximately the time of the eruption.",
+      "The ash lies beneath the courtyard paving.",
+      "An eruption can produce ash with an identifiable chemical signature.",
+      "Water can transport material that was originally deposited elsewhere."
+    ],
+    "answer": 0,
+    "explanation": "Text 2 distinguishes the eruption date from the later arrival of reworked ash at the site. That distinction challenges the tight construction date, while leaving the ash’s chemical identification and position beneath the paving intact."
+  },
+  {
+    "id": "rw-original-cross-102",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "The following texts describe a hypothetical manuscript study.\n\n**Text 1**\nTwo unsigned manuscripts use many of the same uncommon technical terms. A scholar takes that similarity as strong evidence that a single person wrote both works. The terms, the scholar argues, are too unusual to have been shared by unrelated writers.\n\n**Text 2**\nA survey of manuscripts from the same workshop finds those technical terms throughout texts written by several identified authors. The two unsigned works also differ consistently in small grammatical preferences, including their use of conjunctions. Workshop vocabulary may therefore be less useful for distinguishing authors than the first scholar assumes.",
+    "prompt": "Which choice best describes the relationship between the texts?",
+    "choices": [
+      "Text 2 confirms that technical vocabulary must uniquely identify an individual writer.",
+      "Text 2 challenges the distinctiveness of the evidence on which Text 1 relies.",
+      "Text 2 rejects the claim that the two unsigned manuscripts contain similar terms.",
+      "Text 2 establishes that no writer can use more than one grammatical construction."
+    ],
+    "answer": 1,
+    "explanation": "Text 2 accepts the vocabulary similarity but shows that it is shared by multiple workshop authors. It thereby weakens the claim that the terms are distinctive evidence of one author; it does not prove a universal rule about grammatical variation."
+  },
+  {
+    "id": "rw-original-cross-103",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "The following texts describe a hypothetical study of a historical theater.\n\n**Text 1**\nTickets for the upper side boxes cost more than seats near the stage. A historian argues that the boxes must have offered the best sound: high prices, she reasons, reveal which seats audiences considered acoustically superior.\n\n**Text 2**\nLetters from regular patrons praise the expensive boxes for their view of the royal box and their visibility to other guests. Several complain that words sung onstage were difficult to distinguish there. These accounts suggest that social visibility could outweigh acoustic quality in determining a seat’s desirability.",
+    "prompt": "How would the author of Text 2 most likely respond to the argument in Text 1?",
+    "choices": [
+      "The letters demonstrate that the expensive boxes always had the clearest sound.",
+      "A seat’s social visibility can matter only when every seat has identical acoustics.",
+      "Ticket prices may reflect advantages other than sound quality, so they are insufficient evidence for the proposed acoustic ranking.",
+      "The location of the royal box makes information about historical ticket prices irrelevant to every question."
+    ],
+    "answer": 2,
+    "explanation": "The letters identify a competing reason to pay more and even describe poor sound in the boxes. They challenge the inference from price to acoustic superiority without rendering prices irrelevant to all historical questions."
+  },
+  {
+    "id": "rw-original-cross-104",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "The following texts describe a hypothetical flower-choice experiment.\n\n**Text 1**\nResearchers photograph two flower varieties with an ordinary camera. Their visible petal colors look nearly identical, but bees visit one variety more frequently. A researcher concludes that the bees’ preference cannot depend on differences in the petals’ appearance.\n\n**Text 2**\nImages made with equipment sensitive to ultraviolet light reveal different petal patterns in the two varieties. In a controlled test, bees change their choices when those patterns are masked, even though the visible colors remain unchanged.",
+    "prompt": "Based on the texts, what would the author of Text 2 most likely point out about the conclusion in Text 1?",
+    "choices": [
+      "The bees must be unable to perceive any difference between the varieties.",
+      "Masking ultraviolet patterns necessarily changes the visible petal colors.",
+      "Identical visible colors prove that all other features of the flowers are identical.",
+      "The camera images omit an aspect of the petals’ appearance that can influence the bees’ choices."
+    ],
+    "answer": 3,
+    "explanation": "The ultraviolet images and masking test identify a visually relevant feature that the ordinary camera did not capture. Visible similarity alone therefore does not exclude appearance as a contributor to preference."
+  },
+  {
+    "id": "rw-original-cross-105",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "The following texts describe a hypothetical investigation of historical reed instruments.\n\n**Text 1**\nInstruments found in two settlements have different arrangements of finger holes. A researcher argues that the communities probably used different sets of musical pitches, since hole placement helps determine which pitches an instrument can produce.\n\n**Text 2**\nReplicas with identical finger-hole arrangements produce different pitch ranges when fitted with reeds of different stiffness. The experiment does not show that hole placement is unimportant, but it indicates that another component must be considered when reconstructing how the original instruments sounded.",
+    "prompt": "Which choice best describes what Text 2 contributes to the discussion in Text 1?",
+    "choices": [
+      "It identifies an additional factor that could complicate the proposed reconstruction.",
+      "It demonstrates that finger-hole placement has no influence on any instrument’s sound.",
+      "It establishes that the two settlements used identical reeds and identical pitches.",
+      "It proves that experiments with replicas cannot provide any relevant evidence."
+    ],
+    "answer": 0,
+    "explanation": "Text 2 explicitly retains a role for hole placement while adding reed stiffness as a factor affecting pitch. Its experiment qualifies the reconstruction rather than eliminating hole placement or experimental evidence."
+  },
+  {
+    "id": "rw-original-cross-106",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "The following texts describe a hypothetical study of pottery exchange.\n\n**Text 1**\nPottery recovered in one district contains minerals characteristic of clay beds in a distant district. An archaeologist concludes that the finished vessels were made near those beds and then traded to the place where they were found.\n\n**Text 2**\nKilns in the recovery district contain unfinished vessels and discarded clay with the same distant mineral signature. Tool marks on the finished vessels also match those on the local unfinished pieces. Raw clay may have traveled between the districts, rather than every vessel being imported after manufacture.",
+    "prompt": "The author of Text 2 would most likely object to which aspect of the conclusion in Text 1?",
+    "choices": [
+      "It allows that minerals can be used to investigate a clay’s geographic origin.",
+      "It treats evidence about the origin of clay as sufficient evidence about where finished vessels were manufactured.",
+      "It acknowledges that pottery was found outside the district containing the clay beds.",
+      "It assumes that unfinished vessels can occur at a kiln site."
+    ],
+    "answer": 1,
+    "explanation": "The local production evidence separates raw-material origin from manufacturing location. The mineral signature may support movement of clay without establishing that all finished vessels were made near the original clay beds."
+  },
+  {
+    "id": "rw-original-cross-107",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "The following texts describe a hypothetical fish-behavior study.\n\n**Text 1**\nFish in a fast stream respond to food more quickly than fish in a nearby pond. A researcher proposes that a fixed inherited difference between the populations accounts for the entire difference in feeding response.\n\n**Text 2**\nYoung fish from both populations are raised under the same laboratory conditions. Their feeding responses do not differ consistently. Changing the water movement during rearing changes the response in fish from both populations, suggesting that the conditions in which they develop can affect the behavior.",
+    "prompt": "Which conclusion is best supported by considering both texts?",
+    "choices": [
+      "Inherited traits can never influence feeding behavior in any fish.",
+      "Fish from the stream always respond faster under every rearing condition.",
+      "The original behavioral difference need not be entirely explained by a fixed inherited difference.",
+      "The laboratory results establish that water movement has no effect on the response."
+    ],
+    "answer": 2,
+    "explanation": "The shared-rearing and changed-condition results provide an environmental explanation that challenges an entirely fixed inherited account. They do not rule out every possible genetic influence or support an unchanging population difference."
+  },
+  {
+    "id": "rw-original-cross-108",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "The following texts describe a hypothetical coastal measurement study.\n\n**Text 1**\nA gauge records a rise in water level relative to a marsh surface over several years. Assuming that the marsh surface has remained at a fixed elevation, a researcher attributes the entire relative rise to an increase in the elevation of the water itself.\n\n**Text 2**\nIndependent measurements tied to a stable reference show that the marsh surface has been sinking during the same period. A gauge attached to that surface can record a relative water-level rise even when part of the change results from the land’s downward movement.",
+    "prompt": "Which choice best describes how Text 2 bears on Text 1?",
+    "choices": [
+      "It shows that the gauge could not have recorded any relative change.",
+      "It demonstrates that sinking land necessarily makes relative water levels fall.",
+      "It confirms that the marsh surface remained fixed throughout the measurements.",
+      "It provides evidence against an assumption needed to attribute the entire recorded change to rising water."
+    ],
+    "answer": 3,
+    "explanation": "The fixed-land assumption is explicit in Text 1, and the independent evidence in Text 2 contradicts it. Relative rise can combine water movement and land movement, so the gauge alone does not isolate the former."
+  },
+  {
+    "id": "rw-original-structure-109",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion.\n\nOn the morning appointed for Admiral and Mrs. Croft’s seeing Kellynch Hall, Anne found it most natural to take her almost daily walk to Lady Russell’s, and keep out of the way till all was over; when she found it most natural to be sorry that she had missed the opportunity of seeing them.",
+    "prompt": "Which choice best describes the effect of repeating “most natural” in the text?",
+    "choices": [
+      "It draws attention to Anne’s opposing responses before and after the visit.",
+      "It establishes that Anne has consistently wanted to meet the visitors immediately.",
+      "It explains why Lady Russell has forbidden Anne to walk outside.",
+      "It indicates that the narrator considers the visitors’ conduct unusually rude."
+    ],
+    "answer": 0,
+    "explanation": "Anne first finds avoiding the visit natural and then finds regretting that avoidance natural. Repetition places those contradictory impulses together; it does not describe an unchanging wish or anyone else’s prohibition."
+  },
+  {
+    "id": "rw-original-vocab-129",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Jane Austen’s Persuasion. Anne Elliot is the aunt mentioned in the text.\n\nFrom this time Captain Wentworth and Anne Elliot were repeatedly in the same circle. They were soon dining in company together at Mr. Musgrove’s, for the little boy’s state could no longer supply his aunt with a _pretence_ for absenting herself; and this was but the beginning of other dinings and other meetings.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Treatment",
+      "Prediction",
+      "Announcement",
+      "Excuse"
+    ],
+    "answer": 3,
+    "explanation": "The child’s condition had supplied a reason Anne could use to absent herself from gatherings. Once that reason no longer applies, the repeated meetings begin. Pretence therefore means an excuse or pretext for avoiding them."
+  },
+  {
+    "id": "rw-original-vocab-130",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. The narrator recalls soldiers arriving at his family’s home.\n\nThe _apparition_ of a file of soldiers ringing down the but-ends of their loaded muskets on our doorstep, caused the dinner party to rise from table in confusion, and caused Mrs. Joe reentering the kitchen empty-handed, to stop short and stare, in her wondering lament of “Gracious goodness gracious me, what’s gone—with the—pie!”",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Sudden appearance",
+      "Formal complaint",
+      "Official instruction",
+      "Concealed identity"
+    ],
+    "answer": 0,
+    "explanation": "The soldiers physically arrive on the doorstep, surprising the dinner party. Apparition describes their unexpected appearance here; it does not turn the sergeant’s arrival into a written order or identify a disguise."
+  },
+  {
+    "id": "rw-original-structure-110",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Charles Dickens’s Great Expectations. Pip, the narrator, describes Mr. Pumblechook’s departure after a young lady refuses to admit him.\n\nShe said it so finally, and in such an undiscussible way, that Mr. Pumblechook, though in a condition of ruffled dignity, could not protest. But he eyed me severely—as if I had done anything to him!—and departed with the words reproachfully delivered: “Boy! Let your behavior here be a credit unto them which brought you up by hand!” I was not free from apprehension that he would come back to propound through the gate, “And sixteen?” But he didn’t.",
+    "prompt": "What is the main effect of the narrator’s imagining that Mr. Pumblechook might return?",
+    "choices": [
+      "It confirms that Mr. Pumblechook actually returns and questions the narrator again.",
+      "It shows that the narrator is eager to invite Mr. Pumblechook back.",
+      "It explains how Mr. Pumblechook repairs the gate before leaving.",
+      "It conveys anxiety that lingers even after Mr. Pumblechook has departed."
+    ],
+    "answer": 3,
+    "explanation": "The narrator explicitly describes apprehension about a possible return, then says it did not occur. The imagined question extends the sense of unease without reporting a real return or a wish for one."
+  },
+  {
+    "id": "rw-original-structure-111",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia.\n\nOne afternoon we were having our reading lesson on the warm, grassy bank where the badger lived. It was a day of amber sunlight, but there was a shiver of coming winter in the air. I had seen ice on the little horsepond that morning, and as we went through the garden we found the tall asparagus, with its red berries, lying on the ground, a mass of slimy green.",
+    "prompt": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To explain why the narrator has stopped all reading lessons",
+      "To establish a pleasant setting while drawing attention to signs of approaching winter",
+      "To argue that winter has already destroyed every plant on the prairie",
+      "To describe a badger’s method of storing food"
+    ],
+    "answer": 1,
+    "explanation": "Warm grass and amber sunlight establish an appealing afternoon, while the shiver of winter, morning ice, and collapsed asparagus mark seasonal change. The passage does not cancel the lesson or discuss the badger’s behavior."
+  },
+  {
+    "id": "rw-original-vocab-131",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is adapted from Willa Cather’s My Ántonia. The narrator is visiting a sick neighbor.\n\nI could not take my eyes off the man in the bed. His shirt was hanging open, and his _emaciated_ chest, covered with yellow bristle, rose and fell horribly. He began to cough. Peter shuffled to his feet, caught up the teakettle and mixed him some hot water and whiskey. The sharp smell of spirits went through the room.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Unusually broad",
+      "Well protected",
+      "Brightly illuminated",
+      "Very thin"
+    ],
+    "answer": 3,
+    "explanation": "Emaciated describes the man’s wasted physical condition. His difficult breathing and coughing reinforce the portrayal of illness; the word concerns thinness rather than lighting, protection, or breadth."
+  },
+  {
+    "id": "rw-original-structure-112",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence.\n\nMrs. Archer was a shy woman and shrank from society; but she liked to be well-informed as to its doings. Her old friend Mr. Sillerton Jackson applied to the investigation of his friends’ affairs the patience of a collector and the science of a naturalist; and his sister, Miss Sophy Jackson, who lived with him, and was entertained by all the people who could not secure her much-sought-after brother, brought home bits of minor gossip that filled out usefully the gaps in his picture.",
+    "prompt": "What is the main purpose of comparing Mr. Jackson to a collector and a naturalist?",
+    "choices": [
+      "To characterize his gathering of social information as patient and systematic",
+      "To establish that he studies plants professionally and avoids other people",
+      "To explain why he refuses all information supplied by his sister",
+      "To show that Mrs. Archer has no interest in learning about society"
+    ],
+    "answer": 0,
+    "explanation": "The comparison applies a collector’s patience and a naturalist’s method to investigating friends’ affairs. His sister fills gaps in that social picture, and Mrs. Archer wants to be informed despite avoiding society herself."
+  },
+  {
+    "id": "rw-original-vocab-132",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The following text is adapted from Edith Wharton’s The Age of Innocence.\n\nMrs. van der Luyden’s attitude said neither yes nor no, but always appeared to incline to _clemency_ till her thin lips, wavering into the shadow of a smile, made the almost invariable reply: “I shall first have to talk this over with my husband.”",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Secrecy",
+      "Indifference",
+      "Leniency",
+      "Severity"
+    ],
+    "answer": 2,
+    "explanation": "Mrs. van der Luyden initially appears inclined toward a favorable, merciful response rather than an outright refusal. Clemency names that apparent leniency, although her habitual reply defers the decision to consultation with her husband."
   }
 ]

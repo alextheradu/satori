@@ -150,7 +150,7 @@
       "The estimated weight, in kilograms, of a puppy that is 1 week old"
     ],
     "answer": 0,
-    "explanation": "In a linear model $y = mx + b$, the slope $m$ is the change in $y$ for each increase of 1 in $x$. So 0.75 is the estimated weight gain, in kilograms, per additional week. Choice B describes the $y$-intercept, choice C describes $\\frac{1}{0.75}$, and choice D would be $0.75(1) + 4.2$."
+    "explanation": "The coefficient 0.75 is the estimated change in kilograms for each additional week of age, within the stated range of 8 to 20 weeks. The formula’s intercept is 4.2, but birth is outside that range, so the model does not establish a puppy’s birth weight. Time per kilogram would be the reciprocal of the slope. An age of 1 week is also outside the model’s stated range."
   },
   {
     "id": "m-psda-011",
@@ -203,12 +203,12 @@
     "prompt": "A researcher selected a random sample of 400 adults from a town and asked whether they support building a new public park. Of those surveyed, 62% said they support building the park. The margin of error for this estimate is 4 percentage points. Which of the following is the most appropriate conclusion?",
     "choices": [
       "Exactly 62% of all adults in the town support building the park.",
-      "Between 58% and 66% of the 400 adults in the sample support building the park.",
+      "The proportion of the 400 adults in the sample who support the park is unknown and could be any value from 58% to 66%.",
       "It is plausible that between 58% and 66% of all adults in the state support building the park.",
       "It is plausible that between 58% and 66% of all adults in the town support building the park."
     ],
     "answer": 3,
-    "explanation": "A margin of error gives a plausible range for the population value: $62\\% \\pm 4\\%$, or 58% to 66%, of all adults in the town. Choice A ignores sampling variability. Choice B is wrong because exactly 62% of the sample said yes. Choice C generalizes beyond the population that was sampled (the town)."
+    "explanation": "A margin of error gives a plausible range for the population value: $62\\% \\pm 4\\%$, or 58% to 66%, of all adults in the town. Choice A ignores sampling variability. Choice B incorrectly treats the sample proportion as unknown, although exactly 62% of the sample said yes. The margin of error concerns the unknown town-wide proportion. Choice C generalizes beyond the population that was sampled (the town)."
   },
   {
     "id": "m-psda-015",

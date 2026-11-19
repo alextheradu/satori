@@ -1,0 +1,579 @@
+{
+  "scope": "48 original Geometry and Trigonometry questions in m-geo-2.json only.",
+  "method": "Independent manually transcribed geometric relationships and exact arithmetic; every mathematical option and typed answer checked. Positional interpretations and applicable geometric theorems are editorially specified, not automatically inferred from natural language.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "f6c19a4e9e19e8ac9299ca506fdcee3d4580e5863ba215ed81be342e55deed95",
+  "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "questionsReviewed": 48,
+  "items": [
+    {
+      "id": "m-geo-101",
+      "sourceSha256": "0166972f8f2d1642c0c1696990623741ef9bf7f0c0cc6a2449f83a4914ff69dd",
+      "model": "Divide rectangular-prism volume by the base area.",
+      "derivedResult": "7",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-102",
+      "sourceSha256": "124f6c9db9de963c1905cd72cde2ea653d47b15547c37b729a891d57712f5ee7",
+      "model": "Solve triangle area = base times height / 2 for height.",
+      "derivedResult": "9",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-103",
+      "sourceSha256": "bed5f50f008d447cc5f087bdedbac64a486e42eec6a4b722746454709c650815",
+      "model": "A cube has six faces of area edge^2; take the positive edge length.",
+      "derivedResult": "5",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-104",
+      "sourceSha256": "8c8d3387691f6f6f61378445c2599aa447e4252c39168d7711a32e4350728d90",
+      "model": "Use sphere volume 4*pi*r^3/3.",
+      "derivedResult": "36*pi",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-105",
+      "sourceSha256": "e2a715037dad71000901bd4b23eba0658cd1c047bf8a8b2b670e42ac882fadf6",
+      "model": "Area scales by the product of the separate dimension factors; convert the net factor to percent change.",
+      "derivedResult": "-4",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": [
+        "Replaced an incorrect verbal rationale comparing percentages of different lengths; the relevant operation is the product 1.2*0.8."
+      ]
+    },
+    {
+      "id": "m-geo-106",
+      "sourceSha256": "0df925b53e6f155e25106de066a51d07127fb2411dfedf3c963362aa726ac513",
+      "model": "Invert cone volume with the one-third factor and squared radius.",
+      "derivedResult": "8",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-107",
+      "sourceSha256": "6abf95379853dca7fe67484088b6e94f2f6a3f456160a8eee761ff38e8960e16",
+      "model": "In the isosceles trapezoid, half the base difference is the horizontal offset of each leg. Find height by Pythagoras, then use average base times height.",
+      "derivedResult": "48",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-108",
+      "sourceSha256": "c021472b389ab1b7d1c28015bb4e895e0b060c5efa631d3fb0abbcdbdbd17d9f",
+      "model": "Uniform edge scaling multiplies rectangular-prism volume by the cube of scale.",
+      "derivedResult": "135",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-109",
+      "sourceSha256": "04106d3b895d148aecd3f1c56cc4171c9cc4605291f493a19a3c6ca4b1a92cb0",
+      "model": "Cylinder radius scaling contributes its square; height contributes its linear factor.",
+      "derivedResult": "9/2",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-110",
+      "sourceSha256": "e2736e4c196f79e4b57b8a1f51bc055c895e705aab77a7b7d24157526af0d80b",
+      "model": "Divide the equilateral perimeter by three, derive the altitude with Pythagoras, and compute triangle area.",
+      "derivedResult": "27*sqrt(3)",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-111",
+      "sourceSha256": "86b769aeb7ec2e2b0e705341915b9ad833241b25230ed70342983c0a1aa7622f",
+      "model": "Conserve the material volume from the cube to the cylinder.",
+      "derivedResult": "24/pi",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-112",
+      "sourceSha256": "dadff6a597785c20ac2308322a06679d334ce40dab23062f121cb5543292534e",
+      "model": "The product of the three adjacent face areas is the square of the positive prism volume.",
+      "derivedResult": "192",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-113",
+      "sourceSha256": "0dcc17e9b32c5120fa6f786b15169702ec3d275179886c6fa37a5ddcb2c6babe",
+      "model": "Adjacent angles from intersecting lines form a supplementary linear pair.",
+      "derivedResult": "133",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-114",
+      "sourceSha256": "887816314419276c654c71c8dbd279d5fcf6a07088f37256d3f45fd388e45b14",
+      "model": "Equate alternate interior angles of parallel lines.",
+      "derivedResult": "23",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-115",
+      "sourceSha256": "f499caf13c261c54050e27500c7389bbd633453f1a6de46093adfdd1a41d7d93",
+      "model": "Subtract the known remote interior angle from the exterior angle.",
+      "derivedResult": "55",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-116",
+      "sourceSha256": "da1fa40116244721be15b0381a25dcf2428195636b7312928de486ec8339fd32",
+      "model": "Respect the stated vertex correspondence when scaling BC to EF.",
+      "derivedResult": "20",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-117",
+      "sourceSha256": "0afeeb5ea1bc00600c727d4d4f5e3c414a78f3cf24d7f29a6ee81de624203d5f",
+      "model": "Use the triangle angle sum, then return the vertex angle 2x, not x.",
+      "derivedResult": "75",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-118",
+      "sourceSha256": "fc77307c1be17b6cede3f833d58220f3d69941d861897283c1689340dc3f17dd",
+      "model": "A regular polygon has equal exterior angles summing to 360 degrees.",
+      "derivedResult": "12",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-119",
+      "sourceSha256": "067248072f68831fa58dbad15a789f9529ade33e94892e522c8d8df7e4751b9a",
+      "model": "Equate corresponding congruent sides and evaluate XY, not the parameter.",
+      "derivedResult": "11",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-120",
+      "sourceSha256": "5771b916e75157b317d8f0a6362ccff1005bed0590ef6abe19b71c33e9a2ce84",
+      "model": "The same sun angle and vertical objects on level ground give similar right triangles.",
+      "derivedResult": "39",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-121",
+      "sourceSha256": "8e3d8b745639df49bdbfa9795fff16ce29f2cdd7ec99b8c15f262fa7cdcde6c6",
+      "model": "Use the parallel-side proportional segments AD/DB=AE/EC and return the whole AC.",
+      "derivedResult": "18",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-122",
+      "sourceSha256": "5042cda9a54f4c56dd3d4e724d36cc850ab7c222fdbf86e5055f482eb3f04139",
+      "model": "With D strictly inside AC, angle BCD is the original base angle. BD=BC gives two equal 70-degree angles in BDC; subtract its B angle from ABC.",
+      "derivedResult": "30",
+      "validChoices": null,
+      "editorialNotes": [
+        "Clarified that D is between A and C. Previously D=C satisfied the stated conditions and would give angle ABD=70 degrees instead of the intended 30."
+      ]
+    },
+    {
+      "id": "m-geo-123",
+      "sourceSha256": "81ecc122d027dd7a3bb6082a49215d5010e813e0e2cc4e34a791b453b2ef556f",
+      "model": "Right-triangle altitude similarity gives AC^2=AD*AB; AC is positive.",
+      "derivedResult": "2*sqrt(13)",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-124",
+      "sourceSha256": "8507e7e521cc7871066fab32532ff8c1486bf613514efefccaed670a39abccb5",
+      "model": "The parallel lines and stated same-side condition give angle PRQ=SPR=35 degrees; use the triangle angle sum.",
+      "derivedResult": "35",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-125",
+      "sourceSha256": "1bae0157910b72e2dca80b19215319621700f79e6d72295c214637b11198906b",
+      "model": "On the acute-angle interval cosine is one-to-one; sin(32)=cos(90-32).",
+      "derivedResult": "58",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-126",
+      "sourceSha256": "a2cbf11f8c2aca06c06c42310c0e91891d8ffc1a3746f7ac6ee900d1d2e2ca27",
+      "model": "The positive hypotenuse follows the Pythagorean theorem.",
+      "derivedResult": "15",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-127",
+      "sourceSha256": "584a6a01c52965c5625964dd3e83dc5fc8ba12c9f992a46f5079032553810fa9",
+      "model": "Equal legs in a 45-45-90 triangle are hypotenuse/sqrt(2).",
+      "derivedResult": "10",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-128",
+      "sourceSha256": "da213485bda27240ad4f33865a89ffc057f694b3dc3135ac368647ee3d9e1042",
+      "model": "YZ is opposite angle X; XY is the hypotenuse.",
+      "derivedResult": "7/25",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-129",
+      "sourceSha256": "1d2284f56bec7de8e937166729bff7a20ed8d0e8a38cb32786edbb99d4468457",
+      "model": "Convert radians to degrees by multiplying by 180/pi.",
+      "derivedResult": "150",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-130",
+      "sourceSha256": "112bcfe0dc3831690915536a6934c8f99f759fee9847f988ee4341f3fc08e7fd",
+      "model": "Cosine gives the adjacent leg AC; find the opposite leg BC with Pythagoras.",
+      "derivedResult": "16",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-131",
+      "sourceSha256": "67b9817d4b0be15e8b1d7e124ba2fbc805a93bac426b77e1efaa47ecdfd08a20",
+      "model": "The longest side is the hypotenuse; the side opposite 60 degrees is sqrt(3)/2 times it.",
+      "derivedResult": "7*sqrt(3)",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-132",
+      "sourceSha256": "512ea140c2594819795cdfdad3c98e9191381a280bb83ee8fd7ba7e3bd193043",
+      "model": "Keep ladder length fixed, add 8 to its horizontal distance, and return the change in vertical height.",
+      "derivedResult": "4",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-133",
+      "sourceSha256": "ea045fdf13c96a46b5413b4bbcc1c26265789bbe978f8a25ed7bb764d45c49cb",
+      "model": "The altitude of the isosceles triangle bisects its length-12 base; the base-angle sine is height/10.",
+      "derivedResult": "4/5",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-134",
+      "sourceSha256": "0119f616389ac9c415a5951cddc131f2912a7b1962d10e8bb759842501ea5beb",
+      "model": "The legs have product 48 and square sum 100; derive their positive sum, then add the hypotenuse.",
+      "derivedResult": "24",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-135",
+      "sourceSha256": "9b576066de16de0c05415b3ecbc7c7c638ed2bff571263b781d4be2491a98e5b",
+      "model": "The y-coordinate on the unit circle is sine of the counterclockwise angle.",
+      "derivedResult": "-sqrt(3)/2",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-136",
+      "sourceSha256": "d153c2066a270b50fb9c705356d6c131499dff0e787b712d103ea49baf83ec98",
+      "model": "S complements R, so sin(S)=cos(R)=1/sqrt(1+tan(R)^2) for acute R.",
+      "derivedResult": "5/13",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-137",
+      "sourceSha256": "e10b638d397947fe5a106b1210405b0e7a84dfc0e765a1561840cbd02cffd21d",
+      "model": "Use squared distances from center (-2,4) equal to radius squared.",
+      "derivedResult": "x**2 + 4*x + y**2 - 8*y - 5",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-138",
+      "sourceSha256": "6eccc9d4a38af944d298bd03761b664c6a762e372e9f0f37e22a875e3d4b6c65",
+      "model": "Recover radius from circumference, then compute area.",
+      "derivedResult": "81*pi",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-139",
+      "sourceSha256": "f9c8471d01084d472532b74ae9cba216fb92a5e917a96879e7ee4da97b5123a4",
+      "model": "Compute the arc fraction of circumference and return the coefficient of pi.",
+      "derivedResult": "4",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-140",
+      "sourceSha256": "510986b3d80a6ae61250f90398eda1176afad1bd0c9dd7e5652d28c8a615237e",
+      "model": "An inscribed angle is half the measure of its intercepted arc.",
+      "derivedResult": "55",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-141",
+      "sourceSha256": "52541af62a919e136e30b2b59c81e776927b22968aa74d470750a0f5c1b97b42",
+      "model": "For x^2+y^2+Dx+Ey+F=0 the center is (-D/2,-E/2).",
+      "derivedResult": "(-5, 2)",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-142",
+      "sourceSha256": "e959c1d3dbf9cfffe78f4efbe7cef2a1e83c73cc92830bc7f0323eaa50d00cfb",
+      "model": "Apply the central-angle fraction to the full circle area.",
+      "derivedResult": "10*pi",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-143",
+      "sourceSha256": "c5aa959be556327a4699ad98411b86283198956e696b1e7e82c570ad97b78fb6",
+      "model": "Radius is the positive distance from center (1,-3) to the given point.",
+      "derivedResult": "5",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-144",
+      "sourceSha256": "d96579dad9653bed3d39127abad156d04c133e42f48af05e1f658805a67d3f16",
+      "model": "The radian angle is arc length divided by radius.",
+      "derivedResult": "5*pi/12",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-145",
+      "sourceSha256": "8ca7fcb06c9b54f5dd06164bf6579bd5a6acedb26672caea6d64f0287f9dadde",
+      "model": "Completing the square gives radius squared 3^2+7^2-c; solve for c.",
+      "derivedResult": "42",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-146",
+      "sourceSha256": "939eaef46896c8896351cfbc7e25fb97d9b78c23da077c42baac85e39c03ce14",
+      "model": "Use the diameter midpoint as center and one-quarter diameter squared as radius squared.",
+      "derivedResult": "x**2 - 6*x + y**2 - 4*y - 12",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-147",
+      "sourceSha256": "604767398c16c52cf1b3a81b89f1027d66d73d1d883006c4d414dfc035d357b4",
+      "model": "The perpendicular bisects the chord. Its half-length and the center distance are perpendicular legs.",
+      "derivedResult": "17",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-geo-148",
+      "sourceSha256": "78680383cb3eab888b28a6a7b7d5c677f8b7345001c846037dac381e8d6f608d",
+      "model": "C lies outside the minor arc, so the inscribed angle intercepts the stated minor central arc; convert and halve.",
+      "derivedResult": "36",
+      "validChoices": null,
+      "editorialNotes": []
+    }
+  ]
+}

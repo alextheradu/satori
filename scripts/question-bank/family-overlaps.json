@@ -1,0 +1,162 @@
+[
+  {
+    "family": "distribute",
+    "candidateQuestionId": "m-gen-distribute-001",
+    "candidateSha256": "813f3fccd594e9799a1821bfe22280eb111a999d10c2f936dc265d8bf1cd8dc5",
+    "retainedQuestionId": "m-alg-103",
+    "retainedSha256": "1f691c0a5c1b878903502d6573984eed0969e3e1aacf377c96b73765e287aced",
+    "reason": "Both distribute a binomial, combine a separate constant, and solve a one-variable linear equation; changing numbers or term order does not create a new task."
+  },
+  {
+    "family": "fraction-linear",
+    "candidateQuestionId": "m-gen-fraction-linear-001",
+    "candidateSha256": "ff410a662e1cd43d8b54718ff4ae1343ed0b618cd0a8a42b87412b3b7b641613",
+    "retainedQuestionId": "m-alg-101",
+    "retainedSha256": "c54e5573fbe7cceeb62ca8ead0f1fd8480324199dbca5ec7cdfe1f3d796b3e31",
+    "reason": "Both subtract an offset and undo a rational coefficient to solve for x."
+  },
+  {
+    "family": "intercept-standard",
+    "candidateQuestionId": "m-gen-intercept-standard-004",
+    "candidateSha256": "fc9f40f8742cb5060d9aa6bce3753d14dfd40b5c7230ea36f733067f8a5e1503",
+    "retainedQuestionId": "m-alg-005",
+    "retainedSha256": "9d7e3c66c8a944c2212da61a9ef7e977485747fd0187fed23e9e736145505e26",
+    "reason": "Both set x=0 in a standard-form line and solve for its y-intercept; reporting the ordered pair adds only the fixed zero coordinate."
+  },
+  {
+    "family": "parallel-intercept",
+    "candidateQuestionId": "m-gen-parallel-intercept-004",
+    "candidateSha256": "ab514948a2517ebd0dbbde3521eb04dd625bf4d418dfac38f5b5262f8218fa92",
+    "retainedQuestionId": "m-alg-116",
+    "retainedSha256": "39780c34c1add05c75f0513ddb2c09fe4b3fb534ac79ededc983909bffdce19d",
+    "reason": "Both use a parallel line slope and a given point to determine the new line’s vertical intercept."
+  },
+  {
+    "family": "system-eliminate",
+    "candidateQuestionId": "m-gen-system-eliminate-001",
+    "candidateSha256": "877a009f7e25d2cdda5dfa4d47baa4ed2f85b63b67310394c997fde3d06773b6",
+    "retainedQuestionId": "m-alg-010",
+    "retainedSha256": "29f1c1dad154c5c32cb8b7a58fb599ed378ae91230a077782c1f5ba216b5c1bc",
+    "reason": "Both add two linear equations with opposite y coefficients and return x."
+  },
+  {
+    "family": "ticket-system",
+    "candidateQuestionId": "m-gen-ticket-system-001",
+    "candidateSha256": "7407597f238bfa3eef18a6aa7ebbb51fcedf685453cf70fb2b47490ad64c1535",
+    "retainedQuestionId": "m-alg-011",
+    "retainedSha256": "c6dfa7c8f319e8c92bf1fe2f26d7ce96cbb5df44cdb80380eb8b8257b6ad5539",
+    "reason": "Both use a total item count and two prices to recover one item count; object names and numbers do not change the template."
+  },
+  {
+    "family": "compound-integer-count",
+    "candidateQuestionId": "m-gen-compound-integer-count-004",
+    "candidateSha256": "17fd2635d511eb6cb46fd0b35a82f12f3e6ff58a4e0459098214cf933f8617d1",
+    "retainedQuestionId": "m-alg-144",
+    "retainedSha256": "61f9f72f8ff11b47f1bacbae134f6d0f5e3b01adfce02d48ecacd5e8f235f3de",
+    "reason": "Both invert an affine compound inequality and count its integer solutions; the retained item additionally uses a fractional expression."
+  },
+  {
+    "family": "unique-system-exception",
+    "candidateQuestionId": "m-gen-unique-system-exception-004",
+    "candidateSha256": "5369c71a46215347c3d5beb2120fc0864376de0462723d3fc2e358631410a3f4",
+    "retainedQuestionId": "m-alg-012",
+    "retainedSha256": "b0d40a1f1f726e534a3128ffdbce99180ee0128290ef874d866f7e8292fa0e1b",
+    "reason": "Both find the coefficient parameter that makes two lines parallel and distinct; identifying the sole exception to uniqueness is the same task here as requiring no solution."
+  },
+  {
+    "family": "binomial-middle",
+    "candidateQuestionId": "m-gen-binomial-middle-004",
+    "candidateSha256": "0a996f4b878830556fae872852e87351ad28b6242a220d685e3c32610a5a1bb8",
+    "retainedQuestionId": "m-adv-103",
+    "retainedSha256": "7653c60547b6a30b670422717446d5abe43b722a2a7cc509a231a1f54ffe312c",
+    "reason": "Both expand a squared linear binomial and identify its middle coefficient."
+  },
+  {
+    "family": "quadratic-roots",
+    "candidateQuestionId": "m-gen-quadratic-roots-001",
+    "candidateSha256": "dca6ffacb8be2f127e3d046323e0ddb215893eed330088c62f4f8886a3064bf0",
+    "retainedQuestionId": "m-adv-117",
+    "retainedSha256": "7a21e0eb67a320b0a1201c44bc417957f70381165f55a527e9ebb64794aeed78",
+    "reason": "Both recover roots from a factored quadratic using the zero-product rule; returning the greater root is a subset of the retained full-root task."
+  },
+  {
+    "family": "radical-equation",
+    "candidateQuestionId": "m-gen-radical-equation-004",
+    "candidateSha256": "8cfc15e49a0664a03ee4b3c2229351ce425b030d8ec34a9b57cf7db421c12b61",
+    "retainedQuestionId": "m-adv-119",
+    "retainedSha256": "ca885fa58ee0f5e1f0f53374fc2c1a2f78e7baf753ef21d5cc7da45217609441",
+    "reason": "Both square a principal-root equation with a nonnegative constant right side and solve the remaining linear equation."
+  },
+  {
+    "family": "vertex-minimum",
+    "candidateQuestionId": "m-gen-vertex-minimum-004",
+    "candidateSha256": "90b788e594f78013b109dd520b0342b9aea2995555cb822419d79023fb04e5b7",
+    "retainedQuestionId": "m-adv-136",
+    "retainedSha256": "45fc4b68e4e7955bd202fd3f87008c190f66ac10a1901c2daddd0bcaf1ecda8f",
+    "reason": "Both read the minimum output of an upward quadratic already written in vertex form."
+  },
+  {
+    "family": "growth-percent",
+    "candidateQuestionId": "m-gen-growth-percent-004",
+    "candidateSha256": "ff06a032d278ed9ee5d43406fb7c43726b1f384a82ee6f9615f3b43e55fdf9a4",
+    "retainedQuestionId": "m-adv-012",
+    "retainedSha256": "d16ce271c9c21f737672f6125ec179b954779cea8853deccc4015e7b2cea1cac",
+    "reason": "Both interpret the multiplicative exponential base as a percent increase per stated period."
+  },
+  {
+    "family": "radical-extraneous-root",
+    "candidateQuestionId": "m-gen-radical-extraneous-root-004",
+    "candidateSha256": "2b94ad0917713b60eff9116ff815346484a09130ae067152b7205b3eb0fb4614",
+    "retainedQuestionId": "m-adv-007",
+    "retainedSha256": "3d417f328703396ea6c1defe59a7509f3c671f3c8720e108c3bd0aa6942e4ba5",
+    "reason": "Both square a linear-radicand equation with a linear right side, solve the quadratic, and reject the root with a negative right side."
+  },
+  {
+    "family": "quadratic-input-translation",
+    "candidateQuestionId": "m-gen-quadratic-input-translation-004",
+    "candidateSha256": "4574b63436ec44e63a4598f6295967f59d240470751b65ffe8b8abb58d082603",
+    "retainedQuestionId": "m-adv-140",
+    "retainedSha256": "b85a2fa9f6cd8e441cb8ca33a204cb15dbf574fa732b2d1f09e1c583bd81c06f",
+    "reason": "Both expand a quadratic after an input translation; asking for one resulting coefficient does not add a new method."
+  },
+  {
+    "family": "vertex-parameter-from-point",
+    "candidateQuestionId": "m-gen-vertex-parameter-from-point-004",
+    "candidateSha256": "7595e7568750bc7ecad35edf1e2cf8b9807a469b28699c228bd2ecb1f5856144",
+    "retainedQuestionId": "m-adv-143",
+    "retainedSha256": "bb4a3e2f7f721eaf69a69de6896af7c4043386f883ca03e186f4f238c75ca2f7",
+    "reason": "Both use a vertex and another point to recover the vertex-form scale; the retained item additionally evaluates the resulting function."
+  },
+  {
+    "family": "exponential-nonzero-inputs",
+    "candidateQuestionId": "m-gen-exponential-nonzero-inputs-004",
+    "candidateSha256": "960f7cbd8944384d10ccc8013fbcd30bc9544dd87ee8c3b531cfc2e7cd7d2493",
+    "retainedQuestionId": "m-adv-148",
+    "retainedSha256": "730139c58aeca4d87fd50ad824c5784022b6b288cf38dbe0708bb53e3221c4aa",
+    "reason": "Both recover the initial value of a positive exponential from values at two nonzero inputs."
+  },
+  {
+    "family": "quadratic-tangent-intercept",
+    "candidateQuestionId": "m-gen-quadratic-tangent-intercept-004",
+    "candidateSha256": "cddda975acc57256430a14b026172aab16cfd16c52566b6a8a4d1c35c4028216",
+    "retainedQuestionId": "m-adv-009",
+    "retainedSha256": "207fedea8307b4e8bb8bc4ea47e07bbd81fc69932b46052cca42ad2768847186",
+    "reason": "Both equate a line and a parabola and set the discriminant to zero to recover the line intercept parameter."
+  },
+  {
+    "family": "biquadratic-positive-root",
+    "candidateQuestionId": "m-gen-biquadratic-positive-root-001",
+    "candidateSha256": "10ce291e8825a49256622967af0f4194763bb7b8e6df0537839420a11d4a3dbd",
+    "retainedQuestionId": "m-adv-127",
+    "retainedSha256": "f9d9525b1dfad858d81f1d108cafdc52215902aabfc067b8cf3e950f11fff874",
+    "reason": "Both solve a quadratic in x squared, recover the positive and negative roots, and select a specified ordered root."
+  },
+  {
+    "family": "parabola-line-intersection-count",
+    "candidateQuestionId": "m-gen-parabola-line-intersection-count-004",
+    "candidateSha256": "3d409feb7361e6358bf5e871edd812c92fb7c19068d609a3ad6cc5453e1265a0",
+    "retainedQuestionId": "m-adv-128",
+    "retainedSha256": "96b48503258983715e5269e95aacfcf133c9084534b112919c2b94b650a4b9ef",
+    "reason": "Both equate a line and parabola and count their distinct real intersection points."
+  }
+]

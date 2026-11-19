@@ -1,8 +1,10 @@
-// Validates every question file in src/data/questions. Run: npm run validate
+// Validate active and retired questions; duplicate stimuli are barred in the active bank.
 import { readdirSync, readFileSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import katex from 'katex'
+import { sprEntries } from '../src/lib/spr.mjs'
+import { questionFingerprint } from './question-bank/question-fingerprint.mjs'
 
 const dir = join(dirname(fileURLToPath(import.meta.url)), '../src/data/questions')
 const DOMAINS = {
@@ -21,12 +23,14 @@ const errors = []
 const ids = new Set()
 const stimuli = new Map()
 let total = 0
+let retiredTotal = 0
 const stats = {}
 
-for (const f of readdirSync(dir).filter((f) => f.endsWith('.json')).sort()) {
+const files=[{directory:dir,active:true},{directory:join(dir,'../retired'),active:false}].flatMap(({directory,active})=>readdirSync(directory).filter(f=>f.endsWith('.json')).sort().map(f=>({directory,active,f})))
+for (const {directory,active,f} of files) {
   let list
   try {
-    list = JSON.parse(readFileSync(join(dir, f), 'utf8'))
+    list = JSON.parse(readFileSync(join(directory, f), 'utf8'))
   } catch (e) {
     errors.push(`${f}: invalid JSON (${e.message})`)
     continue
@@ -40,7 +44,8 @@ for (const f of readdirSync(dir).filter((f) => f.endsWith('.json')).sort()) {
       errors.push(`${f}: question must be an object`)
       continue
     }
-    total++
+    if(active)total++
+    else retiredTotal++
     const at = `${f}#${q.id}`
     const err = (m) => errors.push(`${at}: ${m}`)
     if (typeof q.id !== 'string' || !q.id.trim() || ids.has(q.id)) err('missing or duplicate id')
@@ -49,9 +54,11 @@ for (const f of readdirSync(dir).filter((f) => f.endsWith('.json')).sort()) {
     else if (!DOMAINS[q.section].includes(q.domain)) err(`bad domain ${q.domain}`)
     if (!['easy', 'medium', 'hard'].includes(q.difficulty)) err('bad difficulty')
     for (const k of ['skill', 'prompt', 'explanation']) if (typeof q[k] !== 'string' || !q[k].trim()) err(`missing ${k}`)
-    const fingerprint = `${q.passage ?? ''} ${q.prompt ?? ''}`.replace(/\s+/g, ' ').trim()
-    if (stimuli.has(fingerprint)) err(`duplicate stimulus and prompt: ${stimuli.get(fingerprint)}`)
-    stimuli.set(fingerprint, q.id)
+    const fingerprint = questionFingerprint(q)
+    if(active){
+      if (stimuli.has(fingerprint)) err(`duplicate stimulus and prompt: ${stimuli.get(fingerprint)}`)
+      stimuli.set(fingerprint, q.id)
+    }
     if (q.section === 'rw' && !q.choices) err('Reading and Writing requires choices')
     if (q.passage !== undefined && (typeof q.passage !== 'string' || !q.passage.trim())) err('passage must be nonempty text')
     if (q.choices) {
@@ -62,15 +69,16 @@ for (const f of readdirSync(dir).filter((f) => f.endsWith('.json')).sort()) {
       if (q.choices.length !== 4) err('needs exactly 4 choices')
       if (new Set(q.choices).size !== q.choices.length) err('duplicate choices')
       if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 3) err('MC answer must be 0-3')
-      else (stats[`${q.section}:idx${q.answer}`] = (stats[`${q.section}:idx${q.answer}`] ?? 0) + 1)
+      else if(active)(stats[`${q.section}:idx${q.answer}`] = (stats[`${q.section}:idx${q.answer}`] ?? 0) + 1)
     } else {
       if (!Array.isArray(q.answer) || !q.answer.length) err('SPR needs answer array')
       else if (q.answer.some((a) => typeof a !== 'string' || num(a) === null || !Number.isFinite(num(a)))) err(`SPR answer not numeric: ${q.answer}`)
       else {
         const vals = q.answer.map(num)
         if (vals.some((v) => Math.abs(v - vals[0]) > 0.0015)) err(`SPR answers disagree: ${q.answer}`)
+        if (q.answer.some((a) => sprEntries(a).length === 0)) err('SPR has no permitted SAT entry')
       }
-      stats[`${q.section}:spr`] = (stats[`${q.section}:spr`] ?? 0) + 1
+      if(active)stats[`${q.section}:spr`] = (stats[`${q.section}:spr`] ?? 0) + 1
     }
     const texts = [q.passage, q.prompt, q.explanation, ...(q.choices ?? [])].filter(Boolean)
     for (const t of texts) {
@@ -85,11 +93,11 @@ for (const f of readdirSync(dir).filter((f) => f.endsWith('.json')).sort()) {
         }
       }
     }
-    stats[`${q.section}:${q.difficulty}`] = (stats[`${q.section}:${q.difficulty}`] ?? 0) + 1
+    if(active)stats[`${q.section}:${q.difficulty}`] = (stats[`${q.section}:${q.difficulty}`] ?? 0) + 1
   }
 }
 
-console.log(`${total} questions checked`)
+console.log(`${total} active questions and ${retiredTotal} retired questions checked`)
 console.log(Object.entries(stats).sort().map(([k, v]) => `  ${k}: ${v}`).join('\n'))
 if (errors.length) {
   console.error(`\n${errors.length} problem(s):\n` + errors.join('\n'))

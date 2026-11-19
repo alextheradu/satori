@@ -1,0 +1,15 @@
+{
+  "provenance": "16 individually authored writing questions with distinct passages and note sets; no numerical or name-swapping variants. Grammar rules and rhetorical skills naturally recur.",
+  "total": 16,
+  "skills": {
+    "Transitions": 4,
+    "Boundaries": 4,
+    "Form, Structure, and Sense": 4,
+    "Rhetorical Synthesis": 4
+  },
+  "passageWords": {
+    "minimum": 26,
+    "maximum": 64
+  },
+  "verification": "One blank per completion item; exactly four distinct choices; interpretations, grammatical completions, and distractors reviewed editorially. Arithmetic in synthesis notes checked directly."
+}

@@ -1,87 +1,121 @@
 {
-  "provenance": "Original table-evidence question families with seeded numerical variants. Arithmetic and answer-relevance classifications are checked; this is not independent editorial certification.",
-  "variantsPerFamily": 32,
-  "total": 512,
+  "provenance": "One active representative per table-evidence family; numerical siblings are historical only. Arithmetic and answer-relevance tags are checked; not independent editorial certification.",
+  "maximumActivePerFamily": 1,
+  "candidatesPerFamily": 32,
+  "archivedTotal": 496,
+  "total": 16,
   "families": [
     {
       "family": "gain-comparison",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-gain-comparison-001",
+      "archived": 31
     },
     {
       "family": "proportional-recovery",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-proportional-recovery-001",
+      "archived": 31
     },
     {
       "family": "total-versus-rate",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-total-versus-rate-001",
+      "archived": 31
     },
     {
       "family": "opposite-treatment-effects",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-opposite-treatment-effects-001",
+      "archived": 31
     },
     {
       "family": "dose-plateau",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-dose-plateau-001",
+      "archived": 31
     },
     {
       "family": "partial-rebound",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-partial-rebound-001",
+      "archived": 31
     },
     {
       "family": "narrowing-group-gap",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-narrowing-group-gap-001",
+      "archived": 31
     },
     {
       "family": "adoption-versus-intensity",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-adoption-versus-intensity-001",
+      "archived": 31
     },
     {
       "family": "same-center-different-range",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-same-center-different-range-001",
+      "archived": 31
     },
     {
       "family": "count-versus-share",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-count-versus-share-001",
+      "archived": 31
     },
     {
       "family": "preference-versus-performance",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-preference-versus-performance-001",
+      "archived": 31
     },
     {
       "family": "relative-cost-burden",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-relative-cost-burden-001",
+      "archived": 31
     },
     {
       "family": "nonmonotonic-growth",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-nonmonotonic-growth-001",
+      "archived": 31
     },
     {
       "family": "universal-claim-exception",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-universal-claim-exception-001",
+      "archived": 31
     },
     {
       "family": "aggregate-reversal",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-aggregate-reversal-001",
+      "archived": 31
     },
     {
       "family": "accuracy-without-delay",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-quant-accuracy-without-delay-001",
+      "archived": 31
     }
   ]
 }

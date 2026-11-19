@@ -1,0 +1,591 @@
+{
+  "scope": "48 original Problem-Solving and Data Analysis questions in m-psda-2.json only.",
+  "method": "Independent manually transcribed givens with exact arithmetic, weighted data, probability, model comparisons and reported uncertainty intervals. English choices and study-design features have explicit editorial interpretations; these are not automatically inferred from natural language.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "608a10bd2749f991181906a472358e08dbc754c32e1de43c5e29391b4103dc95",
+  "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "questionsReviewed": 48,
+  "items": [
+    {
+      "id": "m-psda-101",
+      "sourceSha256": "0c70cbc9de52e728895807afe77426e0806f7c5287c258f468e7c3c2fca634a4",
+      "model": "Scale dried-fruit cups by the 2/3 fruit-to-oats ratio.",
+      "derivedResult": "8",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-102",
+      "sourceSha256": "1c70abbb333d86d5180fd4bf64661b0a2144ebb3d22dcda5e49421df3369376d",
+      "model": "Convert to bottles/minute before scaling to 40 minutes.",
+      "derivedResult": "640",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-103",
+      "sourceSha256": "3ab24351a7db137996d836782102c8de8c4626aaa41ea640bdd7a27fc499542c",
+      "model": "Convert meters/second to kilometers/hour using 3600 seconds/hour.",
+      "derivedResult": "18",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-104",
+      "sourceSha256": "9c69a776b523f27f4e2444079cbb801450c5b72cbf0b100e89718900854b0e1f",
+      "model": "Apply the actual-distance-per-map-centimeter scale.",
+      "derivedResult": "135/2",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-105",
+      "sourceSha256": "7dd08072dc01d826037f114218b54ecdf36e4d6af8646af62a40a4223eb19788",
+      "model": "Find flyers per printer-minute, then use six printers.",
+      "derivedResult": "45",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-106",
+      "sourceSha256": "80c01d865a186f4f789e0e79259f2e4cdd5ce638e4ad27500ac3868a7a6b4a8e",
+      "model": "Convert gallons to cubic feet, divide by cubic feet/minute, then convert minutes to hours.",
+      "derivedResult": "6",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-107",
+      "sourceSha256": "b2c470edd06904170b99c90d8359a661c02d21138dc0e3c8fd61c59437da7ec4",
+      "model": "Represent the original groups as 5k and 3k; impose the changed 5:4 ratio and return boys.",
+      "derivedResult": "30",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-108",
+      "sourceSha256": "de240d24f5eaa539d5c0142e2428b280f2f816217f668ee9f7d231facacd1a19",
+      "model": "Convert 35% to a proportion and multiply.",
+      "derivedResult": "91",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-109",
+      "sourceSha256": "5e5e47abe8e847e372e78d206dd786c0103aec89874ade0f972e96e8141c5c98",
+      "model": "Convert 18% to a proportion and multiply.",
+      "derivedResult": "72",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-110",
+      "sourceSha256": "233c671b2b4111d9298ca8f4669a5a35c19aabb6e2bb94edd4a67326773b4754",
+      "model": "Use the original price as the percent-change denominator.",
+      "derivedResult": "25",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-111",
+      "sourceSha256": "5da48a6d07e8d21884b23e8d31108ba229f654d0066767b8d363a0252b24c567",
+      "model": "The sale price is 70% of the original price.",
+      "derivedResult": "70",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-112",
+      "sourceSha256": "272c3641ab58091f958865151abfbbfdfba3ac1738de6f574593357cea1c7434",
+      "model": "Multiply successive growth factors, then convert the net change to percent.",
+      "derivedResult": "-14/5",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-113",
+      "sourceSha256": "a95e8891caeda54a330de3747c61f7c565facf3bb9264f41ecdc4b38e829884c",
+      "model": "Compose the two proportions relative to z>0.",
+      "derivedResult": "60",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-114",
+      "sourceSha256": "49088bc7663cb56af2bd0e7c1f4b498bf87aca338bfc193b8ef981a5c3e5e247",
+      "model": "Reverse the 60% markup and 25% reduction multiplicatively.",
+      "derivedResult": "80",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-115",
+      "sourceSha256": "cdd6e8ef5d6453d0c8247f4d0e3ca2b3161416d8daf9e4be59d75bfc99991b95",
+      "model": "Sort the seven values and take the fourth.",
+      "derivedResult": "15",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-116",
+      "sourceSha256": "6eb53c85a6f25cabbd11331756fe5e65bb00e299e4979ddbd577fe2f4357fa0c",
+      "model": "With x>22, x is the maximum and 7 remains the minimum.",
+      "derivedResult": "25",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-117",
+      "sourceSha256": "740394e81c78956de4bf05dcc768225e93c22ff20ddec83b110f4921a0035d57",
+      "model": "Compute exact means, medians, and population variances. Equal sample sizes also preserve the SD comparison with sample SDs.",
+      "derivedResult": "{'sd_A': sqrt(15)/3, 'sd_B': 10*sqrt(15)/3, 'mean_A': 80, 'mean_B': 80, 'median_A': 80, 'median_B': 80}",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": [
+        "Corrected the explanation: the claims comparing means and medians are false, not the first two listed statements."
+      ]
+    },
+    {
+      "id": "m-psda-118",
+      "sourceSha256": "65a00b2c747f46d6c85ca70323596a0d3445f567cf35681fc52384ec8b26b7b2",
+      "model": "Compute both centers before and after replacing the largest value.",
+      "derivedResult": "(1, 0)",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-119",
+      "sourceSha256": "72775b2625e072e25e2ba5dd910dc3056e99950a4dba0cff6b44de0c54f42f17",
+      "model": "Use the frequency-weighted sum and the total number of students.",
+      "derivedResult": "47/25",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-120",
+      "sourceSha256": "643c58a87c86a42c6955417691137408b8dc34d5d0f50efd0f5565bf550747be",
+      "model": "An affine transformation sends mean to 2*14+5 and SD to abs(2)*3.",
+      "derivedResult": "(33, 6)",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-121",
+      "sourceSha256": "0dd4de3cfc4411a7c773d280dedd48aa24d3f0ca242a9e6015e619a34d57bc7c",
+      "model": "Equate the sum of group score totals to the combined mean times combined count.",
+      "derivedResult": "36",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-122",
+      "sourceSha256": "3ba0861f49c9aa8bc4dfc7a98f4ee4883ba6f5223985be421e45d0d386320eb9",
+      "model": "The coefficient of elapsed hours has units centimeters/hour; compare other interpretations to intercept and zero time.",
+      "derivedResult": "{'rate': -3/2, 'initial': 22, 'zero_time': 44/3}",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-123",
+      "sourceSha256": "ce54ac010babb5ddcfb7b9597d51fea119cb5a2f4a15eae26025133bd3a97cca",
+      "model": "Substitute 15 into the given best-fit line.",
+      "derivedResult": "89",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-124",
+      "sourceSha256": "5427d16ce77c72b65e927e2a23b7c6659433680a6a371d64ecac198d4ccdb39a",
+      "model": "Compare the total squared prediction errors of all four proposed linear models.",
+      "derivedResult": "[7687/10, 19153/10, 2683/10, 1/10]",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-125",
+      "sourceSha256": "c8aa4923397945f2e88245d44ca604dd53bf9bccb0313815ffa6c518a9569c84",
+      "model": "Interpolate the two points on the line and evaluate at x=7.",
+      "derivedResult": "28",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-126",
+      "sourceSha256": "82a7d2a8f339f6f94d99631c00863bbe2450a9dcbdb9c18d3314fb3c9fb0dd31",
+      "model": "Test every candidate model at every table input; fractional values are estimates rather than exact people counts.",
+      "derivedResult": "[(0, 200), (1, 240), (2, 288), (3, 1728/5)]",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": [
+        "Relabeled table entries as model estimates and asked which equation could define the model. Exact membership counts cannot be 345.6."
+      ]
+    },
+    {
+      "id": "m-psda-127",
+      "sourceSha256": "935b9b8f4486b95d1bff54c7a6e9a30070b9fc10a4e08023e80d77f70221b7c2",
+      "model": "Residual is actual minus predicted, in that order.",
+      "derivedResult": "-3",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-128",
+      "sourceSha256": "4a201d5697dbb4d4c1da835163fab5b8af7c317223b6cc6873475c29f80cd263",
+      "model": "The exact factor over d years is (23/25)^(d/2).",
+      "derivedResult": "23/25",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-129",
+      "sourceSha256": "56c24f872a64ff9d02bc4a9f3b624c3bb5c6c4869a451d27de2f3d5576f191d3",
+      "model": "Count the three equally likely spinner outcomes greater than 5.",
+      "derivedResult": "3/8",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-130",
+      "sourceSha256": "ff605630fd687921f00c0a3c3d962a3477f750b28854739d7c6732e602e86901",
+      "model": "Blue marbles divided by all marbles.",
+      "derivedResult": "9/20",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-131",
+      "sourceSha256": "1da22dfdc29ba8cc6123426d0121bce59617cfe7ca6025989ed1483b12af0927",
+      "model": "Check all row/column totals and use white SUVs over all 80 cars.",
+      "derivedResult": "13/40",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-132",
+      "sourceSha256": "4aa11cbee73af7156f4ed6b5aef8a65472e637e1b73bc712aa53b412babc1620",
+      "model": "Condition on engineering; the denominator is 120, not all 200 employees or the bicycle column.",
+      "derivedResult": "1/5",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-133",
+      "sourceSha256": "0263161d49df73d08b4b01ffd57e0986efe30e5ebb1fd3a3e158e39a7ea48388",
+      "model": "Condition on soccer preference; count grade 10 within that column.",
+      "derivedResult": "7/16",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-134",
+      "sourceSha256": "d683fe9af59d3a808fd928f07cb2d04305d6de3f8d64d01f2a4c19a4125b8488",
+      "model": "Construct joint counts before conditioning on apartment residence.",
+      "derivedResult": "7/25",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-135",
+      "sourceSha256": "5c5b37c74893b32f5557efdd157842ebc59d32a29a26100fce8330041e7899c0",
+      "model": "Solve for course-takers who passed, then include the 12 who did not pass.",
+      "derivedResult": "42",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-136",
+      "sourceSha256": "c79f327ce6d1701da7b15b4401531ec8fad0c170c1262ac37b3ffbab8df838d2",
+      "model": "Compare each option to the reported estimate-plus/minus-margin interval.",
+      "derivedResult": "Interval(31, 37)",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": [
+        "Clarified the reported interval without asserting that all outside values are logically impossible."
+      ]
+    },
+    {
+      "id": "m-psda-137",
+      "sourceSha256": "b30880f79a8945454067c66546ffdbc2bbcdc567c714309669dc99a51ec7025b",
+      "model": "Apply the random-sample defect fraction to the week production.",
+      "derivedResult": "450",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-138",
+      "sourceSha256": "dd60d5304b6eddbec843cc8c2222632189bf1259565cd561502cf8fdc2ea4410",
+      "model": "For otherwise comparable statewide random samples at fixed confidence, 1/sqrt(n) decreases with n. Different frames do not supply the same inference.",
+      "derivedResult": "sqrt(2)/2",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": [
+        "Distinguished self-selection in an advertisement from restricted coverage in a one-city sample."
+      ]
+    },
+    {
+      "id": "m-psda-139",
+      "sourceSha256": "bf549d188c880e683860c2c6bd4e1c5178efaabe060d70c1c5db62228580e3aa",
+      "model": "The complete sampling frame is this fitness center membership; choose the largest supported population.",
+      "derivedResult": "center_members",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-140",
+      "sourceSha256": "225df26c49b3ac07e13d03325488176ce4937352922fa4b2fb6b47a57a93ac71",
+      "model": "Compute both reported marginal intervals. Their overlap permits equal means within those intervals; this is not a formal two-sample significance test.",
+      "derivedResult": "{'first': Interval(407/10, 443/10), 'second': Interval(439/10, 463/10), 'overlap': Interval(439/10, 443/10)}",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-141",
+      "sourceSha256": "184251e08165938391ffd60ae4e4091ce2b19f659fe329e7f7b922417a10d337",
+      "model": "The sample fraction is known: 90/900=10%. The reported uncertainty concerns the state population fraction.",
+      "derivedResult": "(8, 12)",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": [
+        "Replaced a logically true distractor: the known sample proportion of 10% is itself between 8% and 12%. The replacement incorrectly treats that known sample proportion as unknown."
+      ]
+    },
+    {
+      "id": "m-psda-142",
+      "sourceSha256": "c90c83f29f1cdf0faf1046b6c0ca521810ae535a2bff61a610b3383fb8d291e1",
+      "model": "Convert the percentage-point interval 24.5%-35.5% to population counts, not percentages of the estimated count.",
+      "derivedResult": "(4410, 6390)",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-143",
+      "sourceSha256": "c0e4397a204169cb5ed3cc2b30b02e544fddb618bfa4433c43d0f3f0ff3bad83",
+      "model": "Treatment assignment was randomized among the 60 study plants; recruitment was not a world-wide sample.",
+      "derivedResult": "('causal', 'study')",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-144",
+      "sourceSha256": "ca9fcec08e15576cd38fac159ecd043d36005d32ed2b00933a9669a0882ca0bd",
+      "model": "Identify the design that reduces systematic pretreatment group differences by random assignment.",
+      "derivedResult": "random_assignment",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": [
+        "Removed the false guarantee that random assignment makes groups identical in all other respects."
+      ]
+    },
+    {
+      "id": "m-psda-145",
+      "sourceSha256": "e89203bbd83830a6dbfcfe97ad1f01efadd71172ee87f2d1e8a3ded2f53f3e29",
+      "model": "Self-selection into meditation permits preexisting differences to explain the observed stress association.",
+      "derivedResult": "self_selected_treatment",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": [
+        "Explained the causal limitation of this design without treating random assignment as a universal logical prerequisite for every possible causal inference."
+      ]
+    },
+    {
+      "id": "m-psda-146",
+      "sourceSha256": "7cb033d760b764df047c9645a02dce5750bb66ea5687552a49c22f8c5558d511",
+      "model": "A voluntary cycling-site poll has both coverage and self-selection concerns; size alone does not address either.",
+      "derivedResult": "selection_bias",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-psda-147",
+      "sourceSha256": "3fcb78cca724d990df4bcc6feab8ef46e85cdad7b3ed863501d3ba07a31c4185",
+      "model": "Among the proposed designs, combine district-wide random selection and randomized treatment for population-level causal inference.",
+      "derivedResult": "('random_selection', 'random_assignment')",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": [
+        "Reworded the explanation around what sampling and assignment support, rather than absolute guarantees."
+      ]
+    },
+    {
+      "id": "m-psda-148",
+      "sourceSha256": "fc380855604ffd787975097b7875b523ab269a08092efd714ebbbf3fdf9f4fa0",
+      "model": "Random country-wide sampling supports generalizing an association; no dog ownership treatment was assigned.",
+      "derivedResult": "('association', 'country')",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    }
+  ]
+}

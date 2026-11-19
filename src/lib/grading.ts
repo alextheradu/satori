@@ -1,4 +1,5 @@
 import type { Difficulty, Question, Section } from '../data/types'
+import { isSprEntry, matchesSprAnswer, sprEntries } from './spr.mjs'
 
 export type Answer = number | string | null
 
@@ -20,15 +21,7 @@ export function isCorrect(q: Question, a: Answer): boolean {
   if (a === null || a === undefined || a === '') return false
   if (typeof q.answer === 'number') return a === q.answer
   const input = String(a).trim()
-  const val = parseNumeric(input)
-  return q.answer.some((acc) => {
-    if (acc.replace(/\s+/g, '').toLowerCase() === input.replace(/\s+/g, '').toLowerCase()) return true
-    const target = parseNumeric(acc)
-    if (val === null || target === null) return false
-    if (Number.isInteger(target)) return Math.abs(val - target) < 1e-9
-    // SAT accepts decimals truncated/rounded to fill the entry box
-    return Math.abs(val - target) <= 0.0015
-  })
+  return q.answer.some((acc) => matchesSprAnswer(acc, input))
 }
 
 export function formatAnswer(_q: Question, a: Answer): string {
@@ -38,7 +31,10 @@ export function formatAnswer(_q: Question, a: Answer): string {
 }
 
 export function correctLabel(q: Question): string {
-  return typeof q.answer === 'number' ? 'ABCD'[q.answer] : q.answer[0]
+  if (typeof q.answer === 'number') return 'ABCD'[q.answer]
+  const exact = q.answer[0]
+  const entry = sprEntries(exact)[0]
+  return isSprEntry(exact) || !entry ? exact : `${exact} (enter ${entry})`
 }
 
 const WEIGHT: Record<Difficulty, number> = { easy: 1, medium: 2, hard: 3 }

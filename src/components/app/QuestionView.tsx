@@ -5,7 +5,8 @@ import { Toggle } from '@/components/ui/toggle'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 import type { Question } from '@/data/types'
 import { Inline, Markup } from '@/lib/Markup'
-import { isCorrect, parseNumeric, type Answer } from '@/lib/grading'
+import { correctLabel, isCorrect, type Answer } from '@/lib/grading'
+import { isSprEntry, sanitizeSprInput } from '@/lib/spr.mjs'
 import { toggleBookmark, useStore } from '@/lib/store'
 import { cn } from '@/lib/utils'
 
@@ -143,7 +144,7 @@ function Choices({
 
 function GridIn({ q, answer, onAnswer, reveal }: Pick<Props, 'q' | 'answer' | 'onAnswer'> & { reveal: boolean }) {
   const val = typeof answer === 'string' ? answer : ''
-  const num = parseNumeric(val)
+  const valid = !val || isSprEntry(val)
   const ok = reveal && isCorrect(q, val)
   const [n, d] = val.split('/')
   const preview = val.includes('/') ? `$\\frac{${n || '?'}}{${d || '?'}}$` : val
@@ -158,10 +159,10 @@ function GridIn({ q, answer, onAnswer, reveal }: Pick<Props, 'q' | 'answer' | 'o
         autoComplete="off"
         disabled={reveal}
         value={val}
-        maxLength={7}
+        maxLength={6}
         placeholder="12, -3, 3/4, .75"
         onChange={(e) => {
-          const v = e.target.value.replace(/[^0-9./-]/g, '')
+          const v = sanitizeSprInput(e.target.value)
           onAnswer(v === '' ? null : v)
         }}
         className={cn(
@@ -176,10 +177,10 @@ function GridIn({ q, answer, onAnswer, reveal }: Pick<Props, 'q' | 'answer' | 'o
             <span className="rounded-md bg-muted px-2 py-0.5 text-foreground">
               <Inline text={preview} />
             </span>
-            {num === null && <span className="text-destructive">Not a valid number yet</span>}
+            {!valid && <span className="text-destructive">Not a valid SAT entry yet</span>}
           </>
         ) : (
-          !reveal && <span>Fractions and decimals both work. No mixed numbers, %, or $.</span>
+          !reveal && <span>Use up to 5 characters, or 6 with a minus sign. Fractions or decimals; no mixed numbers.</span>
         )}
       </div>
     </div>
@@ -188,7 +189,7 @@ function GridIn({ q, answer, onAnswer, reveal }: Pick<Props, 'q' | 'answer' | 'o
 
 export function Explanation({ q, answer }: { q: Question; answer: Answer }) {
   const right = isCorrect(q, answer)
-  const key = typeof q.answer === 'number' ? `Choice ${LETTERS[q.answer]}` : q.answer[0]
+  const key = typeof q.answer === 'number' ? `Choice ${LETTERS[q.answer]}` : correctLabel(q)
   return (
     <div
       className={cn(

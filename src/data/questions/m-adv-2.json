@@ -73,7 +73,7 @@
       "$x^3$"
     ],
     "answer": 2,
-    "explanation": "Divide each term by $4x^2$: $\\frac{12x^5}{4x^2} = 3x^3$ and $\\frac{8x^3}{4x^2} = 2x$, giving $3x^3 - 2x$. Choice $3x^7 - 2x^5$ adds exponents instead of subtracting them, $3x^3 - 8x$ divides the second term by $x^2$ but not by $4$, and $x^3$ subtracts the coefficients before dividing."
+    "explanation": "Divide each term by $4x^2$: $\\frac{12x^5}{4x^2} = 3x^3$ and $\\frac{8x^3}{4x^2} = 2x$, giving $3x^3 - 2x$. Choice $3x^7 - 2x^5$ adds exponents instead of subtracting them, $3x^3 - 8x$ divides the second term by $x^2$ but not by $4$, and $x^3$ incorrectly combines the unlike numerator terms as $4x^5$ before dividing."
   },
   {
     "id": "m-adv-106",
@@ -194,7 +194,7 @@
       "$2x + 1 - \\frac{2}{x + 3}$"
     ],
     "answer": 3,
-    "explanation": "Since $(x + 3)(2x + 1) = 2x^2 + 7x + 3$, the numerator is $2x^2 + 7x + 1 = (x + 3)(2x + 1) - 2$. Dividing by $x + 3$ gives $2x + 1 - \\frac{2}{x + 3}$. Choice $2x + 13 + \\frac{40}{x + 3}$ comes from dividing by $x - 3$ instead, and $2x + 1 + \\frac{4}{x + 3}$ adds $3$ to the remainder instead of subtracting."
+    "explanation": "Since $(x + 3)(2x + 1) = 2x^2 + 7x + 3$, the numerator is $2x^2 + 7x + 1 = (x + 3)(2x + 1) - 2$. Dividing by $x + 3$ gives $2x + 1 - \\frac{2}{x + 3}$. Choice $2x + 13 + \\frac{40}{x + 3}$ uses the quotient and remainder for division by $x - 3$ while retaining the denominator $x + 3$. Choice $2x + 1 + \\frac{4}{x + 3}$ uses $1 + 3 = 4$ instead of the correct remainder $1 - 3 = -2$."
   },
   {
     "id": "m-adv-114",
@@ -554,7 +554,7 @@
       "$f(x) = 3x^2 + 3$"
     ],
     "answer": 1,
-    "explanation": "Each time $x$ increases by $1$, $f(x)$ doubles, so $f$ is exponential with base $2$. Since $f(0) = 3$, $f(x) = 3(2)^x$. Choice $2(3)^x$ swaps the initial value and the base, and $3x + 3$ and $3x^2 + 3$ match the first two rows only."
+    "explanation": "In the listed rows, each increase of $1$ in $x$ doubles $f(x)$. The candidate $f(x) = 3(2)^x$ has $f(0) = 3$ and matches every row; the finite table does not require an otherwise unspecified function to be exponential for all inputs. Choice $2(3)^x$ swaps the initial value and the base, and $3x + 3$ and $3x^2 + 3$ match the first two rows only."
   },
   {
     "id": "m-adv-138",
@@ -634,7 +634,7 @@
       "$30$"
     ],
     "answer": 3,
-    "explanation": "The maximum occurs at the vertex, $x = -\\frac{b}{2a} = -\\frac{300}{2(-5)} = 30$. Choice $60$ forgets the factor of $2$, $150$ forgets $a = -5$, and $2{,}500$ is the maximum profit, $P(30)$, not the price."
+    "explanation": "The maximum occurs at the vertex, $x = -\\frac{b}{2a} = -\\frac{300}{2(-5)} = 30$. Choice $60$ forgets the factor of $2$, $150$ uses $300/2$, omitting the factor of $5$ from the quadratic coefficient, and $2{,}500$ is the maximum profit, $P(30)$, not the price."
   },
   {
     "id": "m-adv-143",

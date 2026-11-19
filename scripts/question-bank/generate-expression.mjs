@@ -4,8 +4,9 @@ import { readFileSync,readdirSync,writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { join } from 'node:path'
 import { expressionContexts } from './expression-contexts.mjs'
+import { partitionFamily } from './partition-family.mjs'
 const root=fileURLToPath(new URL('../../',import.meta.url)),dir=join(root,'src/data/questions'),check=process.argv.includes('--check')
-const families=[],questions=[],seen=new Set(),report=[]
+const families=[],questions=[],archived=[],seen=new Set(),report=[]
 const opt=(text,target,verify=()=>true)=>({text,target,verify})
 const add=(key,skill,difficulty,make)=>families.push({key,skill,difficulty,make})
 const data=expressionContexts.map(([a,b,category,goal,ma,mb,ra,rb],index)=>{
@@ -109,7 +110,7 @@ add('restating-design-purpose','Transitions','hard',d=>transition(
 
 for(const file of readdirSync(dir).filter(f=>f.endsWith('.json')&&f!=='generated-rw-expression.json'))for(const q of JSON.parse(readFileSync(join(dir,file),'utf8')))seen.add(`${q.passage??''}\n${q.prompt}`.replace(/\s+/g,' ').trim())
 for(const [fi,family] of families.entries()) {
- const start=questions.length
+ const items=[]
  for(const d of data) {
   assert(d.yearA<d.yearB&&d.nA<d.nB)
   const row=family.make(d),matches=row.options.map(o=>o.target===row.target)
@@ -119,12 +120,16 @@ for(const [fi,family] of families.entries()) {
   const words=row.passage.trim().split(/\s+/).length;assert(words>=25&&words<=150,`${family.key}/${d.index}: ${words} words`)
   const key=`${row.passage}\n${row.prompt}`.replace(/\s+/g,' ').trim();assert(!seen.has(key),`${family.key}/${d.index}: repeated stimulus`);seen.add(key)
   const correct=row.options[matches.indexOf(true)].text,choices=row.options.filter((_,i)=>!matches[i]).map(o=>o.text),answer=(fi+d.index)%4;choices.splice(answer,0,correct)
-  questions.push({id:`rw-gen-expression-${family.key}-${String(d.index+1).padStart(3,'0')}`,section:'rw',domain:'Expression of Ideas',skill:family.skill,difficulty:family.difficulty,passage:row.passage,prompt:row.prompt,choices,answer,explanation:row.explanation})
+  items.push({id:`rw-gen-expression-${family.key}-${String(d.index+1).padStart(3,'0')}`,section:'rw',domain:'Expression of Ideas',skill:family.skill,difficulty:family.difficulty,passage:row.passage,prompt:row.prompt,choices,answer,explanation:row.explanation})
  }
- report.push({family:family.key,skill:family.skill,difficulty:family.difficulty,questions:questions.length-start})
+ const representative=items[(2*fi)%items.length],partition=partitionFamily(items,representative.id)
+ questions.push(...partition.active);archived.push(...partition.retired)
+ report.push({family:family.key,skill:family.skill,difficulty:family.difficulty,questions:1,representative:representative.id,archived:partition.retired.length})
 }
-assert.equal(questions.length,512)
+assert.equal(questions.length,16)
+assert.equal(questions.length+archived.length,512)
 const save=(path,value)=>{const text=JSON.stringify(value,null,2)+'\n';if(check)assert.equal(readFileSync(path,'utf8'),text);else writeFileSync(path,text)}
 save(join(dir,'generated-rw-expression.json'),questions)
-save(join(root,'docs/expression-generation-report.json'),{provenance:'Original structured practice: 16 task patterns applied to 32 fictional project comparisons. Construction/relevance tags and numerical facts are checked; not independent natural-language certification.',contexts:data.length,total:questions.length,families:report})
-console.log(`${check?'Verified':'Generated'} ${questions.length} Expression of Ideas variants: ${families.length} task patterns across ${data.length} original paired-project contexts.`)
+save(join(root,'src/data/retired/generated-rw-expression.json'),archived)
+save(join(root,'docs/expression-generation-report.json'),{provenance:'One active item per Expression of Ideas task pattern; contextual siblings are historical only. Relevance tags and numerical facts are checked; not independent natural-language certification.',maximumActivePerFamily:1,candidatesPerFamily:data.length,contexts:data.length,archivedTotal:archived.length,total:questions.length,families:report})
+console.log(`${check?'Verified':'Generated'} ${questions.length} active Expression of Ideas representatives; ${archived.length} historical variants across ${families.length} patterns.`)

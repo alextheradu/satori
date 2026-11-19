@@ -465,7 +465,7 @@
       "$V(m) = 24{,}000(0.85)^{\\frac{m}{12}}$"
     ],
     "answer": 3,
-    "explanation": "A $15\\%$ annual decrease multiplies the value by $0.85$ each year. After $m$ months, $\\frac{m}{12}$ years have passed, so $V(m) = 24{,}000(0.85)^{\\frac{m}{12}}$. Choice $(0.9875)^m$ assumes a $1.25\\%$ monthly decrease, which compounds to more than $15\\%$ per year. Choice $(0.85)^{12m}$ treats each month as $12$ years, and base $0.15$ keeps only $15\\%$ of the value each year."
+    "explanation": "A $15\\%$ annual decrease multiplies the value by $0.85$ each year. After $m$ months, $\\frac{m}{12}$ years have passed, so $V(m) = 24{,}000(0.85)^{\\frac{m}{12}}$. Choice $(0.9875)^m$ assumes a $1.25\\%$ monthly decrease, which compounds to a decrease of about $14.01\\%$ per year, rather than $15\\%$. Choice $(0.85)^{12m}$ treats each month as $12$ years, and base $0.15$ keeps only $15\\%$ of the value each year."
   },
   {
     "id": "m-adv-016",

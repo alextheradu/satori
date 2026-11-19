@@ -1,0 +1,585 @@
+{
+  "scope": "48 original Advanced Math questions in m-adv-2.json only; other bank items are not certified by this review.",
+  "method": "Independent manually transcribed givens, exact symbolic solution sets and comparisons against every mathematical choice; explicit editorial models for prose interpretations.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "bbcd9603423bd4da6bd0afd94ed1eca4ceeffbfce74978ac306c708b6462ff58",
+  "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "questionsReviewed": 48,
+  "items": [
+    {
+      "id": "m-adv-101",
+      "sourceSha256": "4029f99c93d18c9cc5a3ca3b1afafdbe6415c253154deca76398f6786220c1b6",
+      "model": "Distribute and combine like terms.",
+      "derivedResult": "8*x**2 - 7*x",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-102",
+      "sourceSha256": "e5cfb4abb29e97c4e9818d242b753fe95047681e7ed151218afd8b5cf20fd2d1",
+      "model": "Multiply coefficients and add exponents of each base.",
+      "derivedResult": "10*x**7*y**3",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-103",
+      "sourceSha256": "7653c60547b6a30b670422717446d5abe43b722a2a7cc509a231a1f54ffe312c",
+      "model": "Read the linear coefficient after expanding the squared binomial.",
+      "derivedResult": "-24",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-104",
+      "sourceSha256": "cd9e2633c28c0cd65e8fd0b8ffde3606cdefdb673ef30f6a077116ab0f1b01d9",
+      "model": "Expand every candidate factorization and compare coefficients.",
+      "derivedResult": "x**2 - 11*x + 24",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-105",
+      "sourceSha256": "5acd32465fcd0845cc02f4fc8e512b87e23647d6598bd691c8e3abd5d7271719",
+      "model": "Divide each numerator term by 4x^2 on x!=0.",
+      "derivedResult": "3*x**3 - 2*x",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": [
+        "Clarified that the x^3 distractor incorrectly combines unlike numerator terms as 4x^5."
+      ]
+    },
+    {
+      "id": "m-adv-106",
+      "sourceSha256": "d76acb4b4557d312393fa63d46e90691f296cafd49f2456ef13a06506e3c2291",
+      "model": "Multiply positive side lengths to obtain area, not perimeter.",
+      "derivedResult": "2*x**2 - x - 15",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-107",
+      "sourceSha256": "e8d8cd0b7121be1d70e16e24e8aa26d145497a6472c85a8b896f67e911128e20",
+      "model": "Cancel common polynomial factors on the original domain excluding -3,-2.",
+      "derivedResult": "(x - 3)/(x + 2)",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-108",
+      "sourceSha256": "c0d1c5fe54ea7ecad248849f43a066989dd4b3df40d5119f8ec279c5f1bb47ef",
+      "model": "Add/subtract exponents for positive x.",
+      "derivedResult": "9/4",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-109",
+      "sourceSha256": "509c1369a2ab824dbf9f1233f2ef83f48d7a03e05f3f4f3b600e8c133fcf43e0",
+      "model": "A polynomial is divisible by a listed factor exactly when the division remainder vanishes.",
+      "derivedResult": "(x - 3)*(5*x + 2)",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-110",
+      "sourceSha256": "36d74646c4824b63485b15599c6bf3516b44396d89876da9d05f9fb35fa8213a",
+      "model": "Compare initial values and exact continuous log-growth rates; the equivalent expression counts 2t half-years.",
+      "derivedResult": "500*(121/100)**t",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-111",
+      "sourceSha256": "401c169a6a34607183d579ec5dc3d27e96993c3818456476e16126f0008850b2",
+      "model": "Expand each proposed completed-square expression.",
+      "derivedResult": "x**2 - 10*x + 31",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-112",
+      "sourceSha256": "96121bcca0cf704cbd37acced0d5a8a1757958a14e87a614b2839a8363640858",
+      "model": "Require all coefficients of the identity difference to be zero.",
+      "derivedResult": "2",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-113",
+      "sourceSha256": "f5eb7f6bb43fe0b003c97145ce421d5bbbf1a5231207572a7ca1dba161db4853",
+      "model": "Perform exact rational-function division on x!=-3.",
+      "derivedResult": "(2*x**2 + 7*x + 1)/(x + 3)",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": [
+        "Clarified that one distractor uses the quotient and remainder for x-3 while retaining the displayed denominator x+3; another adds 1 and 3 instead of subtracting."
+      ]
+    },
+    {
+      "id": "m-adv-114",
+      "sourceSha256": "38ecac5e71b66dade67bcc344e1c9e7b9c7dc78884072a3c7ce638e88151121d",
+      "model": "Match every coefficient in the polynomial identity.",
+      "derivedResult": "2",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-115",
+      "sourceSha256": "389e8fc18438d8596937940a14d43b9566eebe6e82524355e467cb3e6d5ca7cf",
+      "model": "Use positive x,y to justify rational powers after subtracting exponents.",
+      "derivedResult": "2*x**2/y**2",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-116",
+      "sourceSha256": "b6dd9905549209bba6aa2c9f6b22c60fdcac5e16f622f40eea4ef0a14ef6d1cd",
+      "model": "Cancel factors only where the original denominators are nonzero (-3,2,-2 excluded).",
+      "derivedResult": "1/(x + 2)",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-117",
+      "sourceSha256": "7a21e0eb67a320b0a1201c44bc417957f70381165f55a527e9ebb64794aeed78",
+      "model": "Set each factor to zero.",
+      "derivedResult": "{-3/2, 4}",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-118",
+      "sourceSha256": "1e19a7d8b2c553b85815faedddfb0515e23c065256a33d84c92bbcfb708f17a3",
+      "model": "Solve over positive real x.",
+      "derivedResult": "4",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-119",
+      "sourceSha256": "ca885fa58ee0f5e1f0f53374fc2c1a2f78e7baf753ef21d5cc7da45217609441",
+      "model": "Solve the original radical equation over the reals.",
+      "derivedResult": "27",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-120",
+      "sourceSha256": "edeede4e615d39dd49a7385d39cade49f8aab5de710b676c0681cf37976b07ba",
+      "model": "Substitute y=5; test listed x-values in the exact real solution set.",
+      "derivedResult": "{-3, 3}",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-121",
+      "sourceSha256": "07561634fafd08397ee572cc712b0a1ffb7ca8b88acf32b75c7c529dd6cba472",
+      "model": "Set height to zero and require positive elapsed time.",
+      "derivedResult": "2",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-122",
+      "sourceSha256": "56a621c85c4247d77bcca163489e8251ccc75bdfb3b148980175b85ec8533080",
+      "model": "Solve the quadratic exactly and expand each plus/minus option.",
+      "derivedResult": "{-3 + sqrt(11), -sqrt(11) - 3}",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-123",
+      "sourceSha256": "633d267b9e37be3239c488befd5e7ad4d875ea3df9a8136edd1f3c7913a7f7bb",
+      "model": "Find the unique intersection and return its y-coordinate.",
+      "derivedResult": "5",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-124",
+      "sourceSha256": "f57a75e2d3548190ad8c696a1d32b8a72c3abb46f2c279507ab9e6508351bd78",
+      "model": "Solve the original rational equation, excluding x=0.",
+      "derivedResult": "{-4, 3}",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-125",
+      "sourceSha256": "8607845dbfaa48e93177af4b50f55f74054d4c7ef3e9c578e00fb60a10877c4a",
+      "model": "Solve the original radical equation, rejecting the root introduced by squaring.",
+      "derivedResult": "{2}",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-126",
+      "sourceSha256": "f59802152c95a03afaf85d51b650d80204b4f214ae719c21acd2a23223b9506b",
+      "model": "Width is positive and width times width+4 equals 96.",
+      "derivedResult": "8",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-127",
+      "sourceSha256": "f9d9525b1dfad858d81f1d108cafdc52215902aabfc067b8cf3e950f11fff874",
+      "model": "Solve the biquadratic over the reals and return its greatest root.",
+      "derivedResult": "3",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-128",
+      "sourceSha256": "96b48503258983715e5269e95aacfcf133c9084534b112919c2b94b650a4b9ef",
+      "model": "Each distinct real x at the line-parabola intersection gives exactly one y.",
+      "derivedResult": "2",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-129",
+      "sourceSha256": "d6f86fc10ec94150f663f31fddbcc7bc64e2b9534e43c008801fce70f4fec007",
+      "model": "Substitute y=x+1 into the circle and select the solution with positive x.",
+      "derivedResult": "12",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-130",
+      "sourceSha256": "32a13b8f647d7401ac0d0787d775f23cf9dcbc6c7b2a20495318dc37e493eff4",
+      "model": "No real roots requires discriminant 36-8c<0.",
+      "derivedResult": "c>9/2",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-131",
+      "sourceSha256": "7de721c1bdc25606c2cbcde3e7609ae3756d0fe31d8363cbbd871e277179181e",
+      "model": "Solve on the original domain excluding both denominator zeros.",
+      "derivedResult": "EmptySet",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-132",
+      "sourceSha256": "a968a30ee19b18d86d7102318bf67e8beeb401e0e4d19b049f795b7de6ff3081",
+      "model": "Add the positive individual drainage rates and solve for pump A time.",
+      "derivedResult": "3",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-133",
+      "sourceSha256": "9b3ebbb822407cb97dca5f78150b459810b4cccf7681f541a55d8d84066c9b97",
+      "model": "Evaluate the rational function at x=3.",
+      "derivedResult": "17/2",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-134",
+      "sourceSha256": "c90af72649ebbbcee739fb5b99ccf50b853eb8ef4a6c92d0ccae0f9152a716fb",
+      "model": "A 20% annual decrease retains 4/5 of the previous value each year.",
+      "derivedResult": "50*(4/5)**t",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-135",
+      "sourceSha256": "a1654bff2c127845af9b5de9a713b21f204639ab864e783c27666d9ba3a413a3",
+      "model": "Evaluate the inner function, then the outer function.",
+      "derivedResult": "7",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-136",
+      "sourceSha256": "45fc4b68e4e7955bd202fd3f87008c190f66ac10a1901c2daddd0bcaf1ecda8f",
+      "model": "The upward quadratic attains its global minimum at its critical point.",
+      "derivedResult": "5",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-137",
+      "sourceSha256": "ed894ca0222af6744a2eb277eddd63f9dd8932e437607e56dca3303538225185",
+      "model": "Test every listed function at all four given table inputs.",
+      "derivedResult": "{0: 3, 1: 6, 2: 12, 3: 24}",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": [
+        "Clarified that fitting a finite table establishes that a candidate could define f, not that f must be globally exponential."
+      ]
+    },
+    {
+      "id": "m-adv-138",
+      "sourceSha256": "1e5246205f3669988757c0f5c0b50d0179b1dd66de32f1816261266fc25a6e11",
+      "model": "Find the vertex of the expanded quadratic by its zero derivative.",
+      "derivedResult": "1",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-139",
+      "sourceSha256": "354392faa5b35cd4ec921bec66f073a0ba7ecc58eff7b3090c0b8a1cf025cc9f",
+      "model": "Evaluate the initial population times the doubling factor.",
+      "derivedResult": "9600",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-140",
+      "sourceSha256": "b85a2fa9f6cd8e441cb8ca33a204cb15dbf574fa732b2d1f09e1c583bd81c06f",
+      "model": "Substitute x-2 into f, then add 3.",
+      "derivedResult": "(x - 2)**2 + 3",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-141",
+      "sourceSha256": "e925265bf4a37bdd1fe5f7c3faf163d2da7a06b51f5111a7e1a69033f96f448d",
+      "model": "Verify each candidate quadratic against all five table rows.",
+      "derivedResult": "x**2 - 4*x + 2",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-142",
+      "sourceSha256": "8365e25fd068b04ff8c176fbf497a4ed12d465b38a0a8924d50e0c66d9fcfc0c",
+      "model": "The downward quadratic has a global maximum at its vertex; return price, not profit.",
+      "derivedResult": "30",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": [
+        "Specified the omitted factor in the 150-dollar distractor calculation."
+      ]
+    },
+    {
+      "id": "m-adv-143",
+      "sourceSha256": "bb4a3e2f7f721eaf69a69de6896af7c4043386f883ca03e186f4f238c75ca2f7",
+      "model": "Find the vertex-form scale from (5,4), then evaluate at zero.",
+      "derivedResult": "19",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-144",
+      "sourceSha256": "f85f5f84292f20e5181614ce476f88b2b8790361d8fb2aa7d6bec46d7f41fa6b",
+      "model": "Compute six-year compounded growth and convert the increase to percent.",
+      "derivedResult": "41/4",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-145",
+      "sourceSha256": "4b9a8d9c5da9a4ca7baf9a2167f58ef4ddca4b611a77ca4092e34fc04b3dbfa2",
+      "model": "Use the factor theorem on the general polynomial 7+(x-3)Q(x). Only one stated remainder is identically zero.",
+      "derivedResult": "{'$x - 3$ is a factor of $p(x)$.': 7, '$x - 3$ is a factor of $p(x) - 7$.': 0, '$x + 3$ is a factor of $p(x) - 7$.': -6*Q(-3), '$x - 7$ is a factor of $p(x) - 3$.': 4*Q(7) + 4}",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": [
+        "The nonzero symbolic remainders need not be nonzero for every polynomial; they establish that those choices are not guaranteed."
+      ]
+    },
+    {
+      "id": "m-adv-146",
+      "sourceSha256": "60d9e1ddac67eaa9499cbac45ac4bd4c4857b8dfcf3d96e6f486a43558fe6b3f",
+      "model": "Solve both function-value constraints exactly, then evaluate at 6.",
+      "derivedResult": "5",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-147",
+      "sourceSha256": "ab03da639e1ba506efe83bfc1e57e37f42966b38a5c6b34a1a6a21fcdefc2fb3",
+      "model": "Compose f(2x) before solving for zeros.",
+      "derivedResult": "{-1, 5/2}",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-148",
+      "sourceSha256": "730139c58aeca4d87fd50ad824c5784022b6b288cf38dbe0708bb53e3221c4aa",
+      "model": "Divide f(3) by f(1), use positive b to choose its root, and recover a=f(0).",
+      "derivedResult": "4",
+      "validChoices": null,
+      "editorialNotes": []
+    }
+  ]
+}

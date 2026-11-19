@@ -1,0 +1,389 @@
+{
+  "scope": "32 original math questions in math-alg-adv.json only.",
+  "method": "Fresh manually transcribed givens, exact arithmetic and symbolic comparisons of every mathematical option and typed answer. English interpretations, geometry and study-design implications are specified editorially; the program does not automatically understand all natural-language givens.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "29a20e72c956017803a0224118114195638e99eb6afda0e90ffd378a2075e4ee",
+  "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "questionsReviewed": 32,
+  "items": [
+    {
+      "id": "m-alg-001",
+      "sourceSha256": "089fb67abadff3a43305474a5bed5e5603d289f721ece95e138b7852de98a702",
+      "model": "Distribute and solve the original linear equation.",
+      "derivedResult": "11",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-002",
+      "sourceSha256": "ec902273eaef7297ce94f3625e8b8371d2233e98ae4e854dfb8d824809fa3ca3",
+      "model": "Solve the rational-coefficient linear equation exactly.",
+      "derivedResult": "6",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-003",
+      "sourceSha256": "b3ffce620ff18aeec63887ecb21b1e21e4a65c6d171cde174da25b942730c436",
+      "model": "Infinitely many solutions require every coefficient of the identity difference to vanish.",
+      "derivedResult": "-3",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-004",
+      "sourceSha256": "7eae19a18d9c6241acc6555e8504809b840f06c40eee09ca886aff53c9e88aff",
+      "model": "Translate the two ticket prices into total revenue; compare full equations up to nonzero scale.",
+      "derivedResult": "3*a/2 + s - 120",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-005",
+      "sourceSha256": "9d7e3c66c8a944c2212da61a9ef7e977485747fd0187fed23e9e736145505e26",
+      "model": "At a y-intercept x=0; solve for y and return the full point.",
+      "derivedResult": "(0, -10)",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-006",
+      "sourceSha256": "731d2f0096f6ce09ecf432bc5677a5f6d303889f506b273a5424948adf216d61",
+      "model": "Construct the line through both given points and solve for the input with output 13.",
+      "derivedResult": "-6",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-007",
+      "sourceSha256": "0b2d263eb1dc6d6f62f0169e9aac2a59172cfcc1af93bb04b5136fe60b448d08",
+      "model": "Evaluate the linear function at a negative input.",
+      "derivedResult": "19",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-008",
+      "sourceSha256": "6ec5351db70afcbdc2e9424a99b86737e410d0dd987dbabfbbee3ac7497cc7ec",
+      "model": "Test all four candidate linear functions at all three table inputs.",
+      "derivedResult": "3*x + 5",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-009",
+      "sourceSha256": "a4b620ec77f16c48110d4072f28c9c59d5b4c31750be5479398c72f554ea0e66",
+      "model": "Interpolate the constant-rate volume model and solve for its first zero.",
+      "derivedResult": "40",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-010",
+      "sourceSha256": "29f1c1dad154c5c32cb8b7a58fb599ed378ae91230a077782c1f5ba216b5c1bc",
+      "model": "Solve the two linear equations, then return x.",
+      "derivedResult": "9",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-011",
+      "sourceSha256": "c6dfa7c8f319e8c92bf1fe2f26d7ce96cbb5df44cdb80380eb8b8257b6ad5539",
+      "model": "Use item count and total cost to solve for notebook count.",
+      "derivedResult": "8",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-012",
+      "sourceSha256": "b0d40a1f1f726e534a3128ffdbce99180ee0128290ef874d866f7e8292fa0e1b",
+      "model": "For each listed parameter compare coefficient and augmented matrix ranks; inconsistency means unequal ranks.",
+      "derivedResult": "[-5]",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-013",
+      "sourceSha256": "56b2254e7c87381fc557867c867030eeba9209e3f2ccbc95bf99101a8cd16f62",
+      "model": "Directly test each value in the original strict inequality 5-2x>11.",
+      "derivedResult": "x<-3",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-014",
+      "sourceSha256": "f0731b265f39ae81d055c93c60ab51e8786bc82ee3965c28b744ba1f10df0099",
+      "model": "The driver consumes capacity: 180+35b<=2000, with nonnegative counts. Compare the represented feasible intervals.",
+      "derivedResult": "Interval(0, 52)",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-015",
+      "sourceSha256": "ceb538358ca658deb4f6a94ba1e15c0b6ccda64c54259b09c45dd94c861596bf",
+      "model": "Test both bounds of the compound inequality, preserving the strict upper bound.",
+      "derivedResult": "-2<x<=1",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-016",
+      "sourceSha256": "432788d1a386b47b2812301d650174cb7b5e60aaaf32f4c1728917d1f0c5d31b",
+      "model": "Substitute each point into both original inequalities.",
+      "derivedResult": "exactly one listed point is feasible",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-001",
+      "sourceSha256": "0dc8724c1316ab4e2fafcffaea96975e30bc14d4c4f01eff2f44fecc6d2ebf6a",
+      "model": "Distribute the subtraction sign and combine like terms.",
+      "derivedResult": "2*x**2 - 9*x + 8",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-002",
+      "sourceSha256": "55c7e4d9c6e0d99c5f0479e57e5097c0a915bc7c7faa961a734ad0cbf9d051c1",
+      "model": "Expand all candidate products and compare coefficients.",
+      "derivedResult": "6*x**2 + 7*x - 20",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-003",
+      "sourceSha256": "2b360182bf6d64b1f8444ba7b91a3c5d8cfe63d7299afc7ee6a3dc1dcf1fcfee",
+      "model": "The polynomial identity requires all coefficients to agree.",
+      "derivedResult": "4",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-004",
+      "sourceSha256": "340393ec12301070ee7e66b8d67d9e8f95b68e4394a268add24a9a0ca12513c8",
+      "model": "Combine rational functions on the stated domain excluding 2 and -1.",
+      "derivedResult": "(x + 7)/(x**2 - x - 2)",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-005",
+      "sourceSha256": "b483ea9f3a6fac668cff6bc28fba978584c165ccd2b3b9b586142f492ef7d6f9",
+      "model": "For positive x, combine inner exponents and multiply by the outer exponent.",
+      "derivedResult": "10",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-006",
+      "sourceSha256": "cf048283c2c59c39a75dbc925f28ecc0edea13925b091c95123c8f2a559e77a5",
+      "model": "Solve the quadratic on the positive real domain.",
+      "derivedResult": "7",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-007",
+      "sourceSha256": "3d417f328703396ea6c1defe59a7509f3c671f3c8720e108c3bd0aa6942e4ba5",
+      "model": "Solve the original radical equation and reject the extraneous root from squaring.",
+      "derivedResult": "9",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-008",
+      "sourceSha256": "fe59b04398ea545a6574bf1658e672c85f6c2127c86a36cbef086c7bda85d88e",
+      "model": "Test both equations of the nonlinear system at every listed point.",
+      "derivedResult": "[(-1, -2), (3, 6)]",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-009",
+      "sourceSha256": "207fedea8307b4e8bb8bc4ea47e07bbd81fc69932b46052cca42ad2768847186",
+      "model": "The line-parabola system has one real intersection exactly when the quadratic discriminant is zero.",
+      "derivedResult": "6",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-010",
+      "sourceSha256": "6d991f8d62c37cd1484d8398ffa4f885799f35e325b227fe78ae65697caff243",
+      "model": "Solve the original rational equation on its domain, excluding both denominator zeros.",
+      "derivedResult": "{-8}",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-011",
+      "sourceSha256": "63fa478f8df49ba66089501c54f41cefcd708e9d256895770601e61f4d48452f",
+      "model": "Evaluate the square before applying its coefficient.",
+      "derivedResult": "13",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-012",
+      "sourceSha256": "d16ce271c9c21f737672f6125ec179b954779cea8853deccc4015e7b2cea1cac",
+      "model": "The positive exponential base is the multiplicative hourly factor. The first-hour increment is 500*(1.08-1)=40, not 8.",
+      "derivedResult": "27/25",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-013",
+      "sourceSha256": "59c5cb7ab0a3a3667d515666819657ae321d6d0ac369949075e5d352270a760a",
+      "model": "The downward quadratic attains its maximum at its critical point.",
+      "derivedResult": "11",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-014",
+      "sourceSha256": "a4fb8d642ef39523531aa4a8ff9822f6064c2892405a335cdbe2dc1bf8ec2edc",
+      "model": "The factor theorem requires p(2)=0.",
+      "derivedResult": "-2",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-adv-015",
+      "sourceSha256": "0b989ba856202d4750fac5dd56de5b38490c61dabc38d1950cf0c8844de1c3f1",
+      "model": "Convert months to m/12 years and preserve the 0.85 annual retention factor. Compare each complete candidate expression.",
+      "derivedResult": "24000*(17/20)**(m/12)",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": [
+        "Corrected the compounding explanation: (0.9875)^12 gives a decrease of about 14.01%, less than 15%, not more."
+      ]
+    },
+    {
+      "id": "m-adv-016",
+      "sourceSha256": "0d26513b6a02d3efce9d8814b3d0c48c7a8c857a795eba8184ee1224f2214f42",
+      "model": "Recover the quadratic scale from f(0), then evaluate the upward parabola at its vertex.",
+      "derivedResult": "-32",
+      "validChoices": null,
+      "editorialNotes": []
+    }
+  ]
+}

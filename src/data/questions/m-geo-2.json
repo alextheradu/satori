@@ -73,7 +73,7 @@
       "The area decreases by 4%."
     ],
     "answer": 3,
-    "explanation": "If the original dimensions are $l$ and $w$, the new area is $(1.2l)(0.8w) = 0.96lw$. The new area is 96% of the original, a decrease of 4%. The changes do not cancel because 20% of a larger length is not the same as 20% of the original width."
+    "explanation": "If the original dimensions are $l$ and $w$, the new area is $(1.2l)(0.8w) = 0.96lw$. The new area is 96% of the original, a decrease of 4%. Area depends on the product of the two dimension factors. Equal percentage increases and decreases in different dimensions do not make that product equal to 1."
   },
   {
     "id": "m-geo-106",
@@ -322,7 +322,7 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Lines, angles, and triangles",
     "difficulty": "hard",
-    "prompt": "In triangle $ABC$, $AB = AC$ and the measure of $\\angle A$ is $40^\\circ$. Point $D$ lies on $\\overline{AC}$ such that $BD = BC$. What is the measure, in degrees, of $\\angle ABD$?",
+    "prompt": "In triangle $ABC$, $AB = AC$ and the measure of $\\angle A$ is $40^\\circ$. Point $D$ lies between $A$ and $C$ such that $BD = BC$. What is the measure, in degrees, of $\\angle ABD$?",
     "answer": [
       "30"
     ],

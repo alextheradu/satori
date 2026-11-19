@@ -1,103 +1,138 @@
 {
-  "provenance": "Original structured practice: 16 task patterns applied to 32 fictional project comparisons. Construction/relevance tags and numerical facts are checked; not independent natural-language certification.",
+  "provenance": "One active item per Expression of Ideas task pattern; contextual siblings are historical only. Relevance tags and numerical facts are checked; not independent natural-language certification.",
+  "maximumActivePerFamily": 1,
+  "candidatesPerFamily": 32,
   "contexts": 32,
-  "total": 512,
+  "archivedTotal": 496,
+  "total": 16,
   "families": [
     {
       "family": "shared-purpose",
       "skill": "Rhetorical Synthesis",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-shared-purpose-001",
+      "archived": 31
     },
     {
       "family": "method-contrast",
       "skill": "Rhetorical Synthesis",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-method-contrast-003",
+      "archived": 31
     },
     {
       "family": "introduce-unfamiliar-project",
       "skill": "Rhetorical Synthesis",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-introduce-unfamiliar-project-005",
+      "archived": 31
     },
     {
       "family": "compare-pilot-sizes",
       "skill": "Rhetorical Synthesis",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-compare-pilot-sizes-007",
+      "archived": 31
     },
     {
       "family": "chronological-order",
       "skill": "Rhetorical Synthesis",
       "difficulty": "easy",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-chronological-order-009",
+      "archived": 31
     },
     {
       "family": "explain-a-design-rationale",
       "skill": "Rhetorical Synthesis",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-explain-a-design-rationale-011",
+      "archived": 31
     },
     {
       "family": "identify-b-method",
       "skill": "Rhetorical Synthesis",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-identify-b-method-013",
+      "archived": 31
     },
     {
       "family": "limit-pilot-size-inference",
       "skill": "Rhetorical Synthesis",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-limit-pilot-size-inference-015",
+      "archived": 31
     },
     {
       "family": "contrasting-methods",
       "skill": "Transitions",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-contrasting-methods-017",
+      "archived": 31
     },
     {
       "family": "similar-purpose",
       "skill": "Transitions",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-similar-purpose-019",
+      "archived": 31
     },
     {
       "family": "illustrating-a-general-point",
       "skill": "Transitions",
       "difficulty": "easy",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-illustrating-a-general-point-021",
+      "archived": 31
     },
     {
       "family": "inferring-introduction-order",
       "skill": "Transitions",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-inferring-introduction-order-023",
+      "archived": 31
     },
     {
       "family": "consequence-of-pilot-counts",
       "skill": "Transitions",
       "difficulty": "medium",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-consequence-of-pilot-counts-025",
+      "archived": 31
     },
     {
       "family": "later-event-sequence",
       "skill": "Transitions",
       "difficulty": "easy",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-later-event-sequence-027",
+      "archived": 31
     },
     {
       "family": "concession-to-cost",
       "skill": "Transitions",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-concession-to-cost-029",
+      "archived": 31
     },
     {
       "family": "restating-design-purpose",
       "skill": "Transitions",
       "difficulty": "hard",
-      "questions": 32
+      "questions": 1,
+      "representative": "rw-gen-expression-restating-design-purpose-031",
+      "archived": 31
     }
   ]
 }

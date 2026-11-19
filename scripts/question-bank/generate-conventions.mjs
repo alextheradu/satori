@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url'
 import { join } from 'node:path'
 import { conventionsContexts } from './conventions-contexts.mjs'
 import { registerConventionsExpansion } from './conventions-expansion.mjs'
+import { partitionFamily } from './partition-family.mjs'
 const root=fileURLToPath(new URL('../../',import.meta.url)),directory=join(root,'src/data/questions')
 const check=process.argv.includes('--check'),families=[]
 const splitLast=s=>{const i=s.lastIndexOf(' ');return [s.slice(0,i),s.slice(i+1)]}
@@ -110,13 +111,15 @@ add('complex-list-separators',BOUND,'hard',c=>item(
  `The three compared items each contain an internal comma. A semicolon after “${c.role}” separates the first item from the second and parallels the existing separator before the third. A period fragments the list, which cannot introduce the following noun phrase as a complete relative clause, and an extra semicolon after and is invalid.`))
 
 registerConventionsExpansion({add,item,opt,FORM,BOUND,splitLast})
-const seen=new Set(),questions=[],report=[]
+const seen=new Set(),questions=[],archived=[],report=[]
 for(const file of readdirSync(directory).filter(f=>f.endsWith('.json')&&f!=='generated-rw-conventions.json'))for(const q of JSON.parse(readFileSync(join(directory,file),'utf8')))seen.add(`${q.passage??''}\n${q.prompt}`.replace(/\s+/g,' ').trim())
 for(const [familyIndex,family] of families.entries()) {
- const first=questions.length
+ const items=[]
  for(const c of contexts) {
   const row=family.make(c),valid=row.options.map(o=>o.construction===row.required)
   assert.equal(valid.filter(Boolean).length,1,`${family.key}: rule model needs exactly one valid construction`)
+  const completed=row.passage.replace('______',row.options[valid.indexOf(true)].text).replace(/\s+/g,' ').trim()
+  if(completed.length<150)row.passage=`In this hypothetical project, the ${c.role} compared the ${c.recordA} with the ${c.recordB} before preparing a report.\n\n${row.passage}`
   assert.equal(new Set(row.options.map(o=>o.text)).size,4)
   assert.equal((row.passage.match(/______/g)||[]).length,1)
   if(familyIndex>=16){const words=row.passage.trim().split(/\s+/).length;assert(words>=25&&words<=150,`${family.key}/${c.index}: new passage needs 25–150 words, got ${words}`)}
@@ -126,14 +129,18 @@ for(const [familyIndex,family] of families.entries()) {
   const correctIndex=valid.indexOf(true),correct=row.options[correctIndex].text,choices=row.options.filter((_,i)=>i!==correctIndex).map(o=>o.text),answer=(familyIndex+c.index)%4
   choices.splice(answer,0,correct)
   assert(!row.passage.replace('______',correct).includes('______'))
-  questions.push({id:`rw-gen-conventions-${family.key}-${String(c.index+1).padStart(3,'0')}`,section:'rw',domain:'Standard English Conventions',skill:family.skill,difficulty:family.difficulty,passage:row.passage,prompt,choices,answer,explanation:row.explanation})
+  items.push({id:`rw-gen-conventions-${family.key}-${String(c.index+1).padStart(3,'0')}`,section:'rw',domain:'Standard English Conventions',skill:family.skill,difficulty:family.difficulty,passage:row.passage,prompt,choices,answer,explanation:row.explanation})
  }
- report.push({family:family.key,skill:family.skill,difficulty:family.difficulty,questions:questions.length-first})
+ const representative=items[(2*familyIndex)%items.length]
+ const partition=partitionFamily(items,representative.id)
+ questions.push(...partition.active);archived.push(...partition.retired)
+ report.push({family:family.key,skill:family.skill,difficulty:family.difficulty,questions:1,representative:representative.id,archived:partition.retired.length})
 }
 assert.equal(families.length,24)
-assert.equal(questions.length,1536)
+assert.equal(questions.length,24)
+assert.equal(questions.length+archived.length,1536)
 const save=(path,value)=>{const text=JSON.stringify(value,null,2)+'\n';if(check)assert.equal(readFileSync(path,'utf8'),text,`${path}: regenerate content`);else writeFileSync(path,text)}
 save(join(directory,'generated-rw-conventions.json'),questions)
-const expandedQuestions=questions.slice(16*contexts.length),expandedWords=expandedQuestions.map(q=>q.passage.trim().split(/\s+/).length)
-save(join(root,'docs/conventions-generation-report.json'),{provenance:'Original controlled grammar practice: 24 authored rule patterns and 64 original contexts. Construction tags and controlled subject numbers are checked; these checks are not independent natural-language certification.',contexts:contexts.length,total:questions.length,families:report,expandedBatch:{families:8,questions:expandedQuestions.length,passageWords:{minimum:Math.min(...expandedWords),maximum:Math.max(...expandedWords)}}})
-console.log(`${check?'Verified':'Generated'} ${questions.length} grammar variants across ${families.length} rule families and ${contexts.length} original contexts.`)
+save(join(root,'src/data/retired/generated-rw-conventions.json'),archived)
+save(join(root,'docs/conventions-generation-report.json'),{provenance:'One active item per controlled grammar rule pattern; contextual siblings are historical only. Construction tags are checked, not independently inferred from natural language.',maximumActivePerFamily:1,candidatesPerFamily:contexts.length,contexts:contexts.length,archivedTotal:archived.length,total:questions.length,families:report})
+console.log(`${check?'Verified':'Generated'} ${questions.length} active grammar representatives; ${archived.length} historical variants across ${families.length} rule patterns.`)

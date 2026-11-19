@@ -9,16 +9,18 @@
     "build:server": "tsc -p server/tsconfig.json",
     "start": "node dist-server/index.js",
     "db:generate": "drizzle-kit generate",
-    "validate": "node scripts/validate-questions.mjs && npm run questions:check",
+    "validate": "node scripts/validate-questions.mjs && npm run questions:check && npm run questions:spr && node scripts/question-bank/check-fingerprints.mjs && node scripts/question-bank/check-editorial-reviews.mjs && node scripts/question-bank/audit-format.mjs --check",
     "lint": "oxlint",
     "preview": "vite preview",
     "db:up": "docker compose -f docker-compose.dev.yml up -d --wait",
     "db:down": "docker compose -f docker-compose.dev.yml down",
     "db:psql": "docker compose -f docker-compose.dev.yml exec db psql -U satori -d satori",
     "db:logs": "docker compose -f docker-compose.dev.yml logs -f db",
-    "questions:generate": "node scripts/question-bank/generate-math.mjs && node scripts/question-bank/generate-reading-writing.mjs && node scripts/question-bank/statistics.mjs && node scripts/question-bank/generate-quantitative-reading.mjs && node scripts/question-bank/generate-conventions.mjs && node scripts/question-bank/generate-expression.mjs",
-    "questions:check": "node scripts/question-bank/generate-math.mjs --check && node scripts/question-bank/generate-reading-writing.mjs --check && node scripts/question-bank/statistics.mjs --check && node scripts/question-bank/generate-quantitative-reading.mjs --check && node scripts/question-bank/generate-conventions.mjs --check && node scripts/question-bank/generate-expression.mjs --check",
-    "questions:runtime": "tsx --tsconfig tsconfig.app.json scripts/question-bank/check-runtime.mts"
+    "questions:generate": "node scripts/question-bank/generate-math.mjs && node scripts/question-bank/generate-reading-writing.mjs && node scripts/question-bank/statistics.mjs && node scripts/question-bank/generate-quantitative-reading.mjs && node scripts/question-bank/generate-conventions.mjs && node scripts/question-bank/generate-expression.mjs && node scripts/question-bank/math-independent.mjs && node scripts/question-bank/check-family-policy.mjs --write",
+    "questions:check": "node scripts/question-bank/generate-math.mjs --check && node scripts/question-bank/generate-reading-writing.mjs --check && node scripts/question-bank/statistics.mjs --check && node scripts/question-bank/generate-quantitative-reading.mjs --check && node scripts/question-bank/generate-conventions.mjs --check && node scripts/question-bank/generate-expression.mjs --check && node scripts/question-bank/math-independent.mjs --check && node scripts/question-bank/check-family-policy.mjs --check",
+    "questions:runtime": "tsx --tsconfig tsconfig.app.json scripts/question-bank/check-runtime.mts",
+    "questions:spr": "tsx --tsconfig tsconfig.app.json scripts/question-bank/check-spr.mts",
+    "questions:audit": "node scripts/question-bank/audit-format.mjs"
   },
   "dependencies": {
     "@hono/node-server": "^2.1.9",

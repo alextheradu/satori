@@ -1,1071 +1,2194 @@
 {
-  "provenance": "Original seeded SAT-style numerical variants; not official College Board questions.",
-  "variantsPerFamily": 64,
-  "total": 9728,
+  "provenance": "One active representative per original math family; numerical siblings and equivalent repeats are retained only for historical attempts. Not official College Board questions.",
+  "maximumActivePerFamily": 1,
+  "candidatesPerFamily": 64,
+  "duplicatesRemoved": 26,
+  "archivedTotal": 11612,
+  "total": 164,
   "families": [
     {
       "family": "distribute",
       "domain": "Algebra",
       "skill": "Linear equations in one variable",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-alg-103",
+      "reviewCandidate": "m-gen-distribute-001",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "distribute",
+        "candidateQuestionId": "m-gen-distribute-001",
+        "candidateSha256": "813f3fccd594e9799a1821bfe22280eb111a999d10c2f936dc265d8bf1cd8dc5",
+        "retainedQuestionId": "m-alg-103",
+        "retainedSha256": "1f691c0a5c1b878903502d6573984eed0969e3e1aacf377c96b73765e287aced",
+        "reason": "Both distribute a binomial, combine a separate constant, and solve a one-variable linear equation; changing numbers or term order does not create a new task."
+      }
     },
     {
       "family": "both-sides",
       "domain": "Algebra",
       "skill": "Linear equations in one variable",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-both-sides-001",
+      "reviewCandidate": "m-gen-both-sides-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "fraction-linear",
       "domain": "Algebra",
       "skill": "Linear equations in one variable",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-alg-101",
+      "reviewCandidate": "m-gen-fraction-linear-001",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "fraction-linear",
+        "candidateQuestionId": "m-gen-fraction-linear-001",
+        "candidateSha256": "ff410a662e1cd43d8b54718ff4ae1343ed0b618cd0a8a42b87412b3b7b641613",
+        "retainedQuestionId": "m-alg-101",
+        "retainedSha256": "c54e5573fbe7cceeb62ca8ead0f1fd8480324199dbca5ec7cdfe1f3d796b3e31",
+        "reason": "Both subtract an offset and undo a rational coefficient to solve for x."
+      }
     },
     {
       "family": "literal-equation",
       "domain": "Algebra",
       "skill": "Linear equations in one variable",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-literal-equation-004",
+      "reviewCandidate": "m-gen-literal-equation-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "identity-parameter",
       "domain": "Algebra",
       "skill": "Linear equations in one variable",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-identity-parameter-004",
+      "reviewCandidate": "m-gen-identity-parameter-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "coordinate-substitution",
       "domain": "Algebra",
       "skill": "Linear equations in two variables",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-coordinate-substitution-004",
+      "reviewCandidate": "m-gen-coordinate-substitution-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "intercept-standard",
       "domain": "Algebra",
       "skill": "Linear equations in two variables",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-alg-005",
+      "reviewCandidate": "m-gen-intercept-standard-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "intercept-standard",
+        "candidateQuestionId": "m-gen-intercept-standard-004",
+        "candidateSha256": "fc9f40f8742cb5060d9aa6bce3753d14dfd40b5c7230ea36f733067f8a5e1503",
+        "retainedQuestionId": "m-alg-005",
+        "retainedSha256": "9d7e3c66c8a944c2212da61a9ef7e977485747fd0187fed23e9e736145505e26",
+        "reason": "Both set x=0 in a standard-form line and solve for its y-intercept; reporting the ordered pair adds only the fixed zero coordinate."
+      }
     },
     {
       "family": "slope-points",
       "domain": "Algebra",
       "skill": "Linear equations in two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-slope-points-004",
+      "reviewCandidate": "m-gen-slope-points-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "parallel-intercept",
       "domain": "Algebra",
       "skill": "Linear equations in two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-alg-116",
+      "reviewCandidate": "m-gen-parallel-intercept-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "parallel-intercept",
+        "candidateQuestionId": "m-gen-parallel-intercept-004",
+        "candidateSha256": "ab514948a2517ebd0dbbde3521eb04dd625bf4d418dfac38f5b5262f8218fa92",
+        "retainedQuestionId": "m-alg-116",
+        "retainedSha256": "39780c34c1add05c75f0513ddb2c09fe4b3fb534ac79ededc983909bffdce19d",
+        "reason": "Both use a parallel line slope and a given point to determine the new line’s vertical intercept."
+      }
     },
     {
       "family": "linear-table",
       "domain": "Algebra",
       "skill": "Linear functions",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-linear-table-004",
+      "reviewCandidate": "m-gen-linear-table-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "service-fee",
       "domain": "Algebra",
       "skill": "Linear functions",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-service-fee-004",
+      "reviewCandidate": "m-gen-service-fee-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "linear-from-values",
       "domain": "Algebra",
       "skill": "Linear functions",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-linear-from-values-004",
+      "reviewCandidate": "m-gen-linear-from-values-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "break-even",
       "domain": "Algebra",
       "skill": "Linear functions",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-break-even-004",
+      "reviewCandidate": "m-gen-break-even-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "system-eliminate",
       "domain": "Algebra",
       "skill": "Systems of two linear equations in two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-alg-010",
+      "reviewCandidate": "m-gen-system-eliminate-001",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "system-eliminate",
+        "candidateQuestionId": "m-gen-system-eliminate-001",
+        "candidateSha256": "877a009f7e25d2cdda5dfa4d47baa4ed2f85b63b67310394c997fde3d06773b6",
+        "retainedQuestionId": "m-alg-010",
+        "retainedSha256": "29f1c1dad154c5c32cb8b7a58fb599ed378ae91230a077782c1f5ba216b5c1bc",
+        "reason": "Both add two linear equations with opposite y coefficients and return x."
+      }
     },
     {
       "family": "ticket-system",
       "domain": "Algebra",
       "skill": "Systems of two linear equations in two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-alg-011",
+      "reviewCandidate": "m-gen-ticket-system-001",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "ticket-system",
+        "candidateQuestionId": "m-gen-ticket-system-001",
+        "candidateSha256": "7407597f238bfa3eef18a6aa7ebbb51fcedf685453cf70fb2b47490ad64c1535",
+        "retainedQuestionId": "m-alg-011",
+        "retainedSha256": "c6dfa7c8f319e8c92bf1fe2f26d7ce96cbb5df44cdb80380eb8b8257b6ad5539",
+        "reason": "Both use a total item count and two prices to recover one item count; object names and numbers do not change the template."
+      }
     },
     {
       "family": "system-expression",
       "domain": "Algebra",
       "skill": "Systems of two linear equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-system-expression-001",
+      "reviewCandidate": "m-gen-system-expression-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "infinite-system",
       "domain": "Algebra",
       "skill": "Systems of two linear equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-infinite-system-004",
+      "reviewCandidate": "m-gen-infinite-system-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "budget-bound",
       "domain": "Algebra",
       "skill": "Linear inequalities in one or two variables",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-budget-bound-004",
+      "reviewCandidate": "m-gen-budget-bound-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "minimum-target",
       "domain": "Algebra",
       "skill": "Linear inequalities in one or two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-minimum-target-004",
+      "reviewCandidate": "m-gen-minimum-target-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "negative-inequality",
       "domain": "Algebra",
       "skill": "Linear inequalities in one or two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-negative-inequality-004",
+      "reviewCandidate": "m-gen-negative-inequality-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "two-resource-bound",
       "domain": "Algebra",
       "skill": "Linear inequalities in one or two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-two-resource-bound-004",
+      "reviewCandidate": "m-gen-two-resource-bound-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "binomial-middle",
       "domain": "Advanced Math",
       "skill": "Equivalent expressions",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-103",
+      "reviewCandidate": "m-gen-binomial-middle-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "binomial-middle",
+        "candidateQuestionId": "m-gen-binomial-middle-004",
+        "candidateSha256": "0a996f4b878830556fae872852e87351ad28b6242a220d685e3c32610a5a1bb8",
+        "retainedQuestionId": "m-adv-103",
+        "retainedSha256": "7653c60547b6a30b670422717446d5abe43b722a2a7cc509a231a1f54ffe312c",
+        "reason": "Both expand a squared linear binomial and identify its middle coefficient."
+      }
     },
     {
       "family": "factor-coefficient",
       "domain": "Advanced Math",
       "skill": "Equivalent expressions",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-factor-coefficient-004",
+      "reviewCandidate": "m-gen-factor-coefficient-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "rational-cancel",
       "domain": "Advanced Math",
       "skill": "Equivalent expressions",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-rational-cancel-004",
+      "reviewCandidate": "m-gen-rational-cancel-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "exponent-quotient",
       "domain": "Advanced Math",
       "skill": "Equivalent expressions",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-exponent-quotient-004",
+      "reviewCandidate": "m-gen-exponent-quotient-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "remainder",
       "domain": "Advanced Math",
       "skill": "Equivalent expressions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-remainder-004",
+      "reviewCandidate": "m-gen-remainder-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "quadratic-roots",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-117",
+      "reviewCandidate": "m-gen-quadratic-roots-001",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "quadratic-roots",
+        "candidateQuestionId": "m-gen-quadratic-roots-001",
+        "candidateSha256": "dca6ffacb8be2f127e3d046323e0ddb215893eed330088c62f4f8886a3064bf0",
+        "retainedQuestionId": "m-adv-117",
+        "retainedSha256": "7a21e0eb67a320b0a1201c44bc417957f70381165f55a527e9ebb64794aeed78",
+        "reason": "Both recover roots from a factored quadratic using the zero-product rule; returning the greater root is a subset of the retained full-root task."
+      }
     },
     {
       "family": "root-sum",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-root-sum-001",
+      "reviewCandidate": "m-gen-root-sum-001",
+      "archived": 63,
+      "equivalentRepeats": 4
     },
     {
       "family": "root-product",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-root-product-001",
+      "reviewCandidate": "m-gen-root-product-001",
+      "archived": 63,
+      "equivalentRepeats": 8
     },
     {
       "family": "one-real-root",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-one-real-root-004",
+      "reviewCandidate": "m-gen-one-real-root-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "radical-equation",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-119",
+      "reviewCandidate": "m-gen-radical-equation-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "radical-equation",
+        "candidateQuestionId": "m-gen-radical-equation-004",
+        "candidateSha256": "8cfc15e49a0664a03ee4b3c2229351ce425b030d8ec34a9b57cf7db421c12b61",
+        "retainedQuestionId": "m-adv-119",
+        "retainedSha256": "ca885fa58ee0f5e1f0f53374fc2c1a2f78e7baf753ef21d5cc7da45217609441",
+        "reason": "Both square a principal-root equation with a nonnegative constant right side and solve the remaining linear equation."
+      }
     },
     {
       "family": "rational-equation",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-rational-equation-004",
+      "reviewCandidate": "m-gen-rational-equation-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "quadratic-line-system",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-quadratic-line-system-004",
+      "reviewCandidate": "m-gen-quadratic-line-system-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "vertex-minimum",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-136",
+      "reviewCandidate": "m-gen-vertex-minimum-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "vertex-minimum",
+        "candidateQuestionId": "m-gen-vertex-minimum-004",
+        "candidateSha256": "90b788e594f78013b109dd520b0342b9aea2995555cb822419d79023fb04e5b7",
+        "retainedQuestionId": "m-adv-136",
+        "retainedSha256": "45fc4b68e4e7955bd202fd3f87008c190f66ac10a1901c2daddd0bcaf1ecda8f",
+        "reason": "Both read the minimum output of an upward quadratic already written in vertex form."
+      }
     },
     {
       "family": "vertex-input",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-vertex-input-004",
+      "reviewCandidate": "m-gen-vertex-input-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "exponential-evaluate",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-exponential-evaluate-004",
+      "reviewCandidate": "m-gen-exponential-evaluate-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "growth-percent",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-012",
+      "reviewCandidate": "m-gen-growth-percent-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "growth-percent",
+        "candidateQuestionId": "m-gen-growth-percent-004",
+        "candidateSha256": "ff06a032d278ed9ee5d43406fb7c43726b1f384a82ee6f9615f3b43e55fdf9a4",
+        "retainedQuestionId": "m-adv-012",
+        "retainedSha256": "d16ce271c9c21f737672f6125ec179b954779cea8853deccc4015e7b2cea1cac",
+        "reason": "Both interpret the multiplicative exponential base as a percent increase per stated period."
+      }
     },
     {
       "family": "decay-percent",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-decay-percent-004",
+      "reviewCandidate": "m-gen-decay-percent-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "exponential-period",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-exponential-period-004",
+      "reviewCandidate": "m-gen-exponential-period-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "function-shift",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-function-shift-001",
+      "reviewCandidate": "m-gen-function-shift-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "ratio-part",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Ratios, rates, proportional relationships, and units",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-ratio-part-001",
+      "reviewCandidate": "m-gen-ratio-part-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "unit-rate",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Ratios, rates, proportional relationships, and units",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-unit-rate-001",
+      "reviewCandidate": "m-gen-unit-rate-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "speed-conversion",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Ratios, rates, proportional relationships, and units",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-speed-conversion-004",
+      "reviewCandidate": "m-gen-speed-conversion-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "density",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Ratios, rates, proportional relationships, and units",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-density-004",
+      "reviewCandidate": "m-gen-density-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "combined-rate",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Ratios, rates, proportional relationships, and units",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-combined-rate-004",
+      "reviewCandidate": "m-gen-combined-rate-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "percent-of",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-percent-of-004",
+      "reviewCandidate": "m-gen-percent-of-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "reverse-percent",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-reverse-percent-004",
+      "reviewCandidate": "m-gen-reverse-percent-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "discount-price",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-discount-price-004",
+      "reviewCandidate": "m-gen-discount-price-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "successive-percent",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-successive-percent-004",
+      "reviewCandidate": "m-gen-successive-percent-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "percent-change",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-percent-change-004",
+      "reviewCandidate": "m-gen-percent-change-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "mean-missing",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-mean-missing-004",
+      "reviewCandidate": "m-gen-mean-missing-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "median-unsorted",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-median-unsorted-004",
+      "reviewCandidate": "m-gen-median-unsorted-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "weighted-mean",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-weighted-mean-001",
+      "reviewCandidate": "m-gen-weighted-mean-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "mean-shift",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-mean-shift-001",
+      "reviewCandidate": "m-gen-mean-shift-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "frequency-median",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-frequency-median-001",
+      "reviewCandidate": "m-gen-frequency-median-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "linear-prediction",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Two-variable data: models and scatterplots",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-linear-prediction-004",
+      "reviewCandidate": "m-gen-linear-prediction-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "residual",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Two-variable data: models and scatterplots",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-residual-004",
+      "reviewCandidate": "m-gen-residual-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "model-slope",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Two-variable data: models and scatterplots",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-model-slope-004",
+      "reviewCandidate": "m-gen-model-slope-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "inverse-prediction",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Two-variable data: models and scatterplots",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-inverse-prediction-004",
+      "reviewCandidate": "m-gen-inverse-prediction-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "probability-basic",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-probability-basic-004",
+      "reviewCandidate": "m-gen-probability-basic-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "conditional-table",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-conditional-table-004",
+      "reviewCandidate": "m-gen-conditional-table-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "without-replacement",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-without-replacement-004",
+      "reviewCandidate": "m-gen-without-replacement-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "probability-union",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-probability-union-004",
+      "reviewCandidate": "m-gen-probability-union-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "sample-estimate",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Inference from sample statistics and margin of error",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-sample-estimate-004",
+      "reviewCandidate": "m-gen-sample-estimate-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "margin-interval",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Inference from sample statistics and margin of error",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-margin-interval-004",
+      "reviewCandidate": "m-gen-margin-interval-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "interval-width",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Inference from sample statistics and margin of error",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-interval-width-001",
+      "reviewCandidate": "m-gen-interval-width-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "sample-size-margin",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Inference from sample statistics and margin of error",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-sample-size-margin-001",
+      "reviewCandidate": "m-gen-sample-size-margin-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "rectangle-area",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-rectangle-area-001",
+      "reviewCandidate": "m-gen-rectangle-area-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "triangle-area",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-triangle-area-004",
+      "reviewCandidate": "m-gen-triangle-area-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "prism-height",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-prism-height-004",
+      "reviewCandidate": "m-gen-prism-height-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "cylinder-volume",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-cylinder-volume-004",
+      "reviewCandidate": "m-gen-cylinder-volume-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "cone-volume",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-cone-volume-004",
+      "reviewCandidate": "m-gen-cone-volume-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "scale-volume",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-scale-volume-004",
+      "reviewCandidate": "m-gen-scale-volume-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "triangle-angle",
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-triangle-angle-004",
+      "reviewCandidate": "m-gen-triangle-angle-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "exterior-angle",
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-exterior-angle-004",
+      "reviewCandidate": "m-gen-exterior-angle-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "isosceles-angle",
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-isosceles-angle-004",
+      "reviewCandidate": "m-gen-isosceles-angle-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "similar-side",
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-similar-side-004",
+      "reviewCandidate": "m-gen-similar-side-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "parallel-angle",
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-parallel-angle-004",
+      "reviewCandidate": "m-gen-parallel-angle-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "pythagorean-leg",
       "domain": "Geometry and Trigonometry",
       "skill": "Right triangles and trigonometry",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-pythagorean-leg-001",
+      "reviewCandidate": "m-gen-pythagorean-leg-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "sine-ratio",
       "domain": "Geometry and Trigonometry",
       "skill": "Right triangles and trigonometry",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-sine-ratio-001",
+      "reviewCandidate": "m-gen-sine-ratio-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "tangent-side",
       "domain": "Geometry and Trigonometry",
       "skill": "Right triangles and trigonometry",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-tangent-side-001",
+      "reviewCandidate": "m-gen-tangent-side-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "special-triangle",
       "domain": "Geometry and Trigonometry",
       "skill": "Right triangles and trigonometry",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-special-triangle-004",
+      "reviewCandidate": "m-gen-special-triangle-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "circle-area",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-circle-area-004",
+      "reviewCandidate": "m-gen-circle-area-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "circle-radius-equation",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-circle-radius-equation-004",
+      "reviewCandidate": "m-gen-circle-radius-equation-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "circle-complete-square",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-circle-complete-square-004",
+      "reviewCandidate": "m-gen-circle-complete-square-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "arc-length",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-arc-length-004",
+      "reviewCandidate": "m-gen-arc-length-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "sector-area",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-sector-area-004",
+      "reviewCandidate": "m-gen-sector-area-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "radians",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "easy",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-radians-004",
+      "reviewCandidate": "m-gen-radians-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "parameter-no-solution",
       "domain": "Algebra",
       "skill": "Linear equations in one variable",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-parameter-no-solution-004",
+      "reviewCandidate": "m-gen-parameter-no-solution-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "system-linear-combination",
       "domain": "Algebra",
       "skill": "Systems of two linear equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-system-linear-combination-004",
+      "reviewCandidate": "m-gen-system-linear-combination-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "perpendicular-standard-parameter",
       "domain": "Algebra",
       "skill": "Linear equations in two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-perpendicular-standard-parameter-004",
+      "reviewCandidate": "m-gen-perpendicular-standard-parameter-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "transformed-linear-intercept",
       "domain": "Algebra",
       "skill": "Linear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-transformed-linear-intercept-001",
+      "reviewCandidate": "m-gen-transformed-linear-intercept-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "quadratic-root-distance",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-quadratic-root-distance-001",
+      "reviewCandidate": "m-gen-quadratic-root-distance-001",
+      "archived": 63,
+      "equivalentRepeats": 1
     },
     {
       "family": "quadratic-root-square-sum",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-quadratic-root-square-sum-001",
+      "reviewCandidate": "m-gen-quadratic-root-square-sum-001",
+      "archived": 63,
+      "equivalentRepeats": 4
     },
     {
       "family": "quadratic-root-ratio",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-quadratic-root-ratio-004",
+      "reviewCandidate": "m-gen-quadratic-root-ratio-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "discriminant-integer-bound",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-discriminant-integer-bound-004",
+      "reviewCandidate": "m-gen-discriminant-integer-bound-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "radical-extraneous-root",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-007",
+      "reviewCandidate": "m-gen-radical-extraneous-root-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "radical-extraneous-root",
+        "candidateQuestionId": "m-gen-radical-extraneous-root-004",
+        "candidateSha256": "2b94ad0917713b60eff9116ff815346484a09130ae067152b7205b3eb0fb4614",
+        "retainedQuestionId": "m-adv-007",
+        "retainedSha256": "3d417f328703396ea6c1defe59a7509f3c671f3c8720e108c3bd0aa6942e4ba5",
+        "reason": "Both square a linear-radicand equation with a linear right side, solve the quadratic, and reject the root with a negative right side."
+      }
     },
     {
       "family": "absolute-root-sum",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-absolute-root-sum-004",
+      "reviewCandidate": "m-gen-absolute-root-sum-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "quadratic-input-translation",
       "domain": "Advanced Math",
       "skill": "Equivalent expressions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-140",
+      "reviewCandidate": "m-gen-quadratic-input-translation-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "quadratic-input-translation",
+        "candidateQuestionId": "m-gen-quadratic-input-translation-004",
+        "candidateSha256": "4574b63436ec44e63a4598f6295967f59d240470751b65ffe8b8abb58d082603",
+        "retainedQuestionId": "m-adv-140",
+        "retainedSha256": "b85a2fa9f6cd8e441cb8ca33a204cb15dbf574fa732b2d1f09e1c583bd81c06f",
+        "reason": "Both expand a quadratic after an input translation; asking for one resulting coefficient does not add a new method."
+      }
     },
     {
       "family": "vertex-parameter-from-point",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-143",
+      "reviewCandidate": "m-gen-vertex-parameter-from-point-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "vertex-parameter-from-point",
+        "candidateQuestionId": "m-gen-vertex-parameter-from-point-004",
+        "candidateSha256": "7595e7568750bc7ecad35edf1e2cf8b9807a469b28699c228bd2ecb1f5856144",
+        "retainedQuestionId": "m-adv-143",
+        "retainedSha256": "bb4a3e2f7f721eaf69a69de6896af7c4043386f883ca03e186f4f238c75ca2f7",
+        "reason": "Both use a vertex and another point to recover the vertex-form scale; the retained item additionally evaluates the resulting function."
+      }
     },
     {
       "family": "quadratic-second-difference",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-quadratic-second-difference-004",
+      "reviewCandidate": "m-gen-quadratic-second-difference-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "exponential-nonzero-inputs",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-148",
+      "reviewCandidate": "m-gen-exponential-nonzero-inputs-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "exponential-nonzero-inputs",
+        "candidateQuestionId": "m-gen-exponential-nonzero-inputs-004",
+        "candidateSha256": "960f7cbd8944384d10ccc8013fbcd30bc9544dd87ee8c3b531cfc2e7cd7d2493",
+        "retainedQuestionId": "m-adv-148",
+        "retainedSha256": "730139c58aeca4d87fd50ad824c5784022b6b288cf38dbe0708bb53e3221c4aa",
+        "reason": "Both recover the initial value of a positive exponential from values at two nonzero inputs."
+      }
     },
     {
       "family": "rational-hole-extension",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-rational-hole-extension-004",
+      "reviewCandidate": "m-gen-rational-hole-extension-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "rational-identity-coefficient",
       "domain": "Advanced Math",
       "skill": "Equivalent expressions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-rational-identity-coefficient-004",
+      "reviewCandidate": "m-gen-rational-identity-coefficient-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "reciprocal-root-sum",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-reciprocal-root-sum-001",
+      "reviewCandidate": "m-gen-reciprocal-root-sum-001",
+      "archived": 63,
+      "equivalentRepeats": 9
     },
     {
       "family": "transformed-quadratic-roots",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-transformed-quadratic-roots-001",
+      "reviewCandidate": "m-gen-transformed-quadratic-roots-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "chord-distance",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-chord-distance-001",
+      "reviewCandidate": "m-gen-chord-distance-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "tangent-segment",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-tangent-segment-004",
+      "reviewCandidate": "m-gen-tangent-segment-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "circle-axis-tangency",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-circle-axis-tangency-004",
+      "reviewCandidate": "m-gen-circle-axis-tangency-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "inscribed-angle",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-inscribed-angle-004",
+      "reviewCandidate": "m-gen-inscribed-angle-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "complementary-trig-parameter",
       "domain": "Geometry and Trigonometry",
       "skill": "Right triangles and trigonometry",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-complementary-trig-parameter-004",
+      "reviewCandidate": "m-gen-complementary-trig-parameter-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "similar-area-to-side",
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-similar-area-to-side-004",
+      "reviewCandidate": "m-gen-similar-area-to-side-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "truncated-cone-volume",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-truncated-cone-volume-004",
+      "reviewCandidate": "m-gen-truncated-cone-volume-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "sphere-area-to-volume-ratio",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-sphere-area-to-volume-ratio-004",
+      "reviewCandidate": "m-gen-sphere-area-to-volume-ratio-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "combined-mean-group-size",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-combined-mean-group-size-004",
+      "reviewCandidate": "m-gen-combined-mean-group-size-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "dilution-to-target",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-dilution-to-target-004",
+      "reviewCandidate": "m-gen-dilution-to-target-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "mean-zero-residual-intercept",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Two-variable data: models and scatterplots",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-mean-zero-residual-intercept-004",
+      "reviewCandidate": "m-gen-mean-zero-residual-intercept-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "bayes-two-groups",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-bayes-two-groups-001",
+      "reviewCandidate": "m-gen-bayes-two-groups-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "area-unit-density",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Ratios, rates, proportional relationships, and units",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-area-unit-density-001",
+      "reviewCandidate": "m-gen-area-unit-density-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "reverse-two-price-changes",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-reverse-two-price-changes-001",
+      "reviewCandidate": "m-gen-reverse-two-price-changes-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "tiered-usage-fee",
       "domain": "Algebra",
       "skill": "Linear functions",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-tiered-usage-fee-004",
+      "reviewCandidate": "m-gen-tiered-usage-fee-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "strict-plan-last-integer",
       "domain": "Algebra",
       "skill": "Linear inequalities in one or two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-strict-plan-last-integer-004",
+      "reviewCandidate": "m-gen-strict-plan-last-integer-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "compound-integer-count",
       "domain": "Algebra",
       "skill": "Linear inequalities in one or two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-alg-144",
+      "reviewCandidate": "m-gen-compound-integer-count-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "compound-integer-count",
+        "candidateQuestionId": "m-gen-compound-integer-count-004",
+        "candidateSha256": "17fd2635d511eb6cb46fd0b35a82f12f3e6ff58a4e0459098214cf933f8617d1",
+        "retainedQuestionId": "m-alg-144",
+        "retainedSha256": "61f9f72f8ff11b47f1bacbae134f6d0f5e3b01adfce02d48ecacd5e8f235f3de",
+        "reason": "Both invert an affine compound inequality and count its integer solutions; the retained item additionally uses a fractional expression."
+      }
     },
     {
       "family": "unique-system-exception",
       "domain": "Algebra",
       "skill": "Systems of two linear equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-alg-012",
+      "reviewCandidate": "m-gen-unique-system-exception-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "unique-system-exception",
+        "candidateQuestionId": "m-gen-unique-system-exception-004",
+        "candidateSha256": "5369c71a46215347c3d5beb2120fc0864376de0462723d3fc2e358631410a3f4",
+        "retainedQuestionId": "m-alg-012",
+        "retainedSha256": "b0d40a1f1f726e534a3128ffdbce99180ee0128290ef874d866f7e8292fa0e1b",
+        "reason": "Both find the coefficient parameter that makes two lines parallel and distinct; identifying the sole exception to uniqueness is the same task here as requiring no solution."
+      }
     },
     {
       "family": "intercept-midpoint-sum",
       "domain": "Algebra",
       "skill": "Linear equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-intercept-midpoint-sum-004",
+      "reviewCandidate": "m-gen-intercept-midpoint-sum-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "translated-line-zero",
       "domain": "Algebra",
       "skill": "Linear equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-translated-line-zero-004",
+      "reviewCandidate": "m-gen-translated-line-zero-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "linear-self-composition",
       "domain": "Algebra",
       "skill": "Linear functions",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-linear-self-composition-004",
+      "reviewCandidate": "m-gen-linear-self-composition-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "average-cost-minimum-count",
       "domain": "Algebra",
       "skill": "Linear equations in one variable",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-average-cost-minimum-count-004",
+      "reviewCandidate": "m-gen-average-cost-minimum-count-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "quadratic-tangent-intercept",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-009",
+      "reviewCandidate": "m-gen-quadratic-tangent-intercept-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "quadratic-tangent-intercept",
+        "candidateQuestionId": "m-gen-quadratic-tangent-intercept-004",
+        "candidateSha256": "cddda975acc57256430a14b026172aab16cfd16c52566b6a8a4d1c35c4028216",
+        "retainedQuestionId": "m-adv-009",
+        "retainedSha256": "207fedea8307b4e8bb8bc4ea47e07bbd81fc69932b46052cca42ad2768847186",
+        "reason": "Both equate a line and a parabola and set the discriminant to zero to recover the line intercept parameter."
+      }
     },
     {
       "family": "exponential-vertical-offset",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-exponential-vertical-offset-004",
+      "reviewCandidate": "m-gen-exponential-vertical-offset-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "three-sided-enclosure-maximum",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-three-sided-enclosure-maximum-001",
+      "reviewCandidate": "m-gen-three-sided-enclosure-maximum-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "biquadratic-positive-root",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 0,
+      "representative": "m-adv-127",
+      "reviewCandidate": "m-gen-biquadratic-positive-root-001",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "biquadratic-positive-root",
+        "candidateQuestionId": "m-gen-biquadratic-positive-root-001",
+        "candidateSha256": "10ce291e8825a49256622967af0f4194763bb7b8e6df0537839420a11d4a3dbd",
+        "retainedQuestionId": "m-adv-127",
+        "retainedSha256": "f9d9525b1dfad858d81f1d108cafdc52215902aabfc067b8cf3e950f11fff874",
+        "reason": "Both solve a quadratic in x squared, recover the positive and negative roots, and select a specified ordered root."
+      }
     },
     {
       "family": "difference-cubes-identity",
       "domain": "Advanced Math",
       "skill": "Equivalent expressions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-difference-cubes-identity-001",
+      "reviewCandidate": "m-gen-difference-cubes-identity-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "cubic-coefficient-from-values",
       "domain": "Advanced Math",
       "skill": "Equivalent expressions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-cubic-coefficient-from-values-004",
+      "reviewCandidate": "m-gen-cubic-coefficient-from-values-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "reciprocal-cancellation-equation",
       "domain": "Advanced Math",
       "skill": "Nonlinear equations in one variable and systems of equations in two variables",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-reciprocal-cancellation-equation-004",
+      "reviewCandidate": "m-gen-reciprocal-cancellation-equation-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "quadratic-equal-output-axis",
       "domain": "Advanced Math",
       "skill": "Nonlinear functions",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-quadratic-equal-output-axis-004",
+      "reviewCandidate": "m-gen-quadratic-equal-output-axis-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "independent-at-least-one",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-independent-at-least-one-004",
+      "reviewCandidate": "m-gen-independent-at-least-one-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "conditional-count-from-percent",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-conditional-count-from-percent-004",
+      "reviewCandidate": "m-gen-conditional-count-from-percent-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "mean-after-removal",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-mean-after-removal-004",
+      "reviewCandidate": "m-gen-mean-after-removal-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "mean-frequency-missing-count",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-mean-frequency-missing-count-004",
+      "reviewCandidate": "m-gen-mean-frequency-missing-count-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "model-unit-change-slope",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Two-variable data: models and scatterplots",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-model-unit-change-slope-004",
+      "reviewCandidate": "m-gen-model-unit-change-slope-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "interval-center-recovery",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Inference from sample statistics and margin of error",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-interval-center-recovery-004",
+      "reviewCandidate": "m-gen-interval-center-recovery-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "drain-refill-concentration",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-drain-refill-concentration-004",
+      "reviewCandidate": "m-gen-drain-refill-concentration-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "ratio-after-adding-one-group",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Ratios, rates, proportional relationships, and units",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-ratio-after-adding-one-group-001",
+      "reviewCandidate": "m-gen-ratio-after-adding-one-group-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "hypotenuse-altitude",
       "domain": "Geometry and Trigonometry",
       "skill": "Right triangles and trigonometry",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-hypotenuse-altitude-001",
+      "reviewCandidate": "m-gen-hypotenuse-altitude-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "similar-perimeter-difference",
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-similar-perimeter-difference-001",
+      "reviewCandidate": "m-gen-similar-perimeter-difference-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "regular-polygon-perimeter",
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-regular-polygon-perimeter-004",
+      "reviewCandidate": "m-gen-regular-polygon-perimeter-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "annulus-outer-radius",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "medium",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-annulus-outer-radius-004",
+      "reviewCandidate": "m-gen-annulus-outer-radius-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "sphere-inscribed-cube",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-sphere-inscribed-cube-004",
+      "reviewCandidate": "m-gen-sphere-inscribed-cube-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "equal-volume-cone-cylinder",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-equal-volume-cone-cylinder-004",
+      "reviewCandidate": "m-gen-equal-volume-cone-cylinder-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "sector-perimeter-radius",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-sector-perimeter-radius-004",
+      "reviewCandidate": "m-gen-sector-perimeter-radius-004",
+      "archived": 63,
+      "equivalentRepeats": 0
     },
     {
       "family": "cyclic-opposite-angle-parameter",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "hard",
-      "questions": 64
+      "questions": 1,
+      "representative": "m-gen-cyclic-opposite-angle-parameter-004",
+      "reviewCandidate": "m-gen-cyclic-opposite-angle-parameter-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "two-concentration-mixture",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-two-concentration-mixture-004",
+      "reviewCandidate": "m-gen-two-concentration-mixture-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "catch-up-converted-rate",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-catch-up-converted-rate-004",
+      "reviewCandidate": "m-gen-catch-up-converted-rate-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "consecutive-even-middle",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
+      "difficulty": "medium",
+      "questions": 1,
+      "representative": "m-gen-consecutive-even-middle-004",
+      "reviewCandidate": "m-gen-consecutive-even-middle-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "inverse-linear-composition-parameter",
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-inverse-linear-composition-parameter-004",
+      "reviewCandidate": "m-gen-inverse-linear-composition-parameter-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "intercept-ratio-through-point",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-intercept-ratio-through-point-001",
+      "reviewCandidate": "m-gen-intercept-ratio-through-point-001",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "symmetric-linear-output-sum",
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "difficulty": "medium",
+      "questions": 1,
+      "representative": "m-gen-symmetric-linear-output-sum-001",
+      "reviewCandidate": "m-gen-symmetric-linear-output-sum-001",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "feasible-integer-coordinate-bound",
+      "domain": "Algebra",
+      "skill": "Linear inequalities in one or two variables",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-feasible-integer-coordinate-bound-001",
+      "reviewCandidate": "m-gen-feasible-integer-coordinate-bound-001",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "system-solution-on-diagonal",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
+      "difficulty": "medium",
+      "questions": 1,
+      "representative": "m-gen-system-solution-on-diagonal-004",
+      "reviewCandidate": "m-gen-system-solution-on-diagonal-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "shared-smaller-root-parameter",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-shared-smaller-root-parameter-004",
+      "reviewCandidate": "m-gen-shared-smaller-root-parameter-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "absolute-distance-outer-solution",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-absolute-distance-outer-solution-004",
+      "reviewCandidate": "m-gen-absolute-distance-outer-solution-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "exponential-base-rewrite-equation",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-exponential-base-rewrite-equation-004",
+      "reviewCandidate": "m-gen-exponential-base-rewrite-equation-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "negative-branch-radical-identity",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-negative-branch-radical-identity-004",
+      "reviewCandidate": "m-gen-negative-branch-radical-identity-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "repeated-root-cubic-coefficient",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-repeated-root-cubic-coefficient-004",
+      "reviewCandidate": "m-gen-repeated-root-cubic-coefficient-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "reflected-quadratic-minimum",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-reflected-quadratic-minimum-004",
+      "reviewCandidate": "m-gen-reflected-quadratic-minimum-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "two-denominator-rational-equation",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-two-denominator-rational-equation-004",
+      "reviewCandidate": "m-gen-two-denominator-rational-equation-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "parabola-line-intersection-count",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "medium",
+      "questions": 0,
+      "representative": "m-adv-128",
+      "reviewCandidate": "m-gen-parabola-line-intersection-count-004",
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "parabola-line-intersection-count",
+        "candidateQuestionId": "m-gen-parabola-line-intersection-count-004",
+        "candidateSha256": "3d409feb7361e6358bf5e871edd812c92fb7c19068d609a3ad6cc5453e1265a0",
+        "retainedQuestionId": "m-adv-128",
+        "retainedSha256": "96b48503258983715e5269e95aacfcf133c9084534b112919c2b94b650a4b9ef",
+        "reason": "Both equate a line and parabola and count their distinct real intersection points."
+      }
+    },
+    {
+      "family": "same-color-with-replacement",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability and conditional probability",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-same-color-with-replacement-004",
+      "reviewCandidate": "m-gen-same-color-with-replacement-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "equal-distance-average-speed",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, rates, proportional relationships, and units",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-equal-distance-average-speed-001",
+      "reviewCandidate": "m-gen-equal-distance-average-speed-001",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "changing-share-and-population",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-changing-share-and-population-001",
+      "reviewCandidate": "m-gen-changing-share-and-population-001",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "negative-affine-standard-deviation",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: distributions and measures of center and spread",
+      "difficulty": "medium",
+      "questions": 1,
+      "representative": "m-gen-negative-affine-standard-deviation-001",
+      "reviewCandidate": "m-gen-negative-affine-standard-deviation-001",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "observed-value-from-model-residual",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Two-variable data: models and scatterplots",
+      "difficulty": "medium",
+      "questions": 1,
+      "representative": "m-gen-observed-value-from-model-residual-004",
+      "reviewCandidate": "m-gen-observed-value-from-model-residual-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "stratified-population-count-estimate",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Inference from sample statistics and margin of error",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-stratified-population-count-estimate-004",
+      "reviewCandidate": "m-gen-stratified-population-count-estimate-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "minimum-sample-for-margin",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Inference from sample statistics and margin of error",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-minimum-sample-for-margin-004",
+      "reviewCandidate": "m-gen-minimum-sample-for-margin-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "map-area-scale-conversion",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, rates, proportional relationships, and units",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-map-area-scale-conversion-004",
+      "reviewCandidate": "m-gen-map-area-scale-conversion-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "rectangle-in-circle-perimeter",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-rectangle-in-circle-perimeter-004",
+      "reviewCandidate": "m-gen-rectangle-in-circle-perimeter-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "inscribed-square-from-circle-area",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-inscribed-square-from-circle-area-004",
+      "reviewCandidate": "m-gen-inscribed-square-from-circle-area-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "right-triangle-area-from-tangent",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Right triangles and trigonometry",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-right-triangle-area-from-tangent-004",
+      "reviewCandidate": "m-gen-right-triangle-area-from-tangent-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "same-side-interior-angle-parameter",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, angles, and triangles",
+      "difficulty": "medium",
+      "questions": 1,
+      "representative": "m-gen-same-side-interior-angle-parameter-004",
+      "reviewCandidate": "m-gen-same-side-interior-angle-parameter-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "similar-cone-cut-volume",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-similar-cone-cut-volume-004",
+      "reviewCandidate": "m-gen-similar-cone-cut-volume-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "cylinder-radius-two-measures",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "hard",
+      "questions": 1,
+      "representative": "m-gen-cylinder-radius-two-measures-004",
+      "reviewCandidate": "m-gen-cylinder-radius-two-measures-004",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "nested-similar-triangle-side",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, angles, and triangles",
+      "difficulty": "medium",
+      "questions": 1,
+      "representative": "m-gen-nested-similar-triangle-side-001",
+      "reviewCandidate": "m-gen-nested-similar-triangle-side-001",
+      "archived": 63,
+      "equivalentRepeats": 0
+    },
+    {
+      "family": "two-tangents-minor-arc",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "medium",
+      "questions": 1,
+      "representative": "m-gen-two-tangents-minor-arc-001",
+      "reviewCandidate": "m-gen-two-tangents-minor-arc-001",
+      "archived": 63,
+      "equivalentRepeats": 0
     }
   ]
 }

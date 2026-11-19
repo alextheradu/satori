@@ -1,0 +1,582 @@
+{
+  "scope": "48 original Algebra questions in m-alg-2.json only; other bank items are not certified by this review.",
+  "method": "Fresh exact-arithmetic models transcribed from each prompt, symbolic comparison of mathematical options, and explicit editorial interpretation checks for prose choices. Models do not parse all natural-language givens automatically.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "f8183bef2beaa5aa648e17fc340899a5183fccc04549ab81dfa4bb7d69214962",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "questionsReviewed": 48,
+  "items": [
+    {
+      "id": "m-alg-101",
+      "sourceSha256": "c54e5573fbe7cceeb62ca8ead0f1fd8480324199dbca5ec7cdfe1f3d796b3e31",
+      "model": "Solve x/3 + 5 = 11.",
+      "derivedResult": "18",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-102",
+      "sourceSha256": "daa8c32e4012437aa2b0ed784f07701996a977f242e080cb6cec425ef7351d9d",
+      "model": "Remove the 65-dollar fee, then divide the labor cost by 40 dollars/hour.",
+      "derivedResult": "9/2",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-103",
+      "sourceSha256": "1f691c0a5c1b878903502d6573984eed0969e3e1aacf377c96b73765e287aced",
+      "model": "Solve 5 - 2(x+4) = -13.",
+      "derivedResult": "5",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-104",
+      "sourceSha256": "fa3c518bcfd277d2530578220b3a44eb90676859d5ced024849b80ccdcd897a0",
+      "model": "Solve the given equation and evaluate 2x-3.",
+      "derivedResult": "9",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-105",
+      "sourceSha256": "a219c82470370e7f3711a9f547ab4965af7fbbec997e9e1ba7b232d79f3ff7bf",
+      "model": "The simplified difference of the two sides is zero for all real x.",
+      "derivedResult": "Reals",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-106",
+      "sourceSha256": "230a339c9cd81931c17e8bf607bb0f30215cd0563f80f40afa0b87e3c55d077d",
+      "model": "Solve the rational-coefficient linear equation exactly.",
+      "derivedResult": "13",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-107",
+      "sourceSha256": "ad49cd6bb391c9a30de023feeb0ed48d2f64d7349019c0717b4228e977c13f8c",
+      "model": "Set decreasing savings 120-8w equal to increasing savings 36+6w.",
+      "derivedResult": "6",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-108",
+      "sourceSha256": "c7c3e624d75db874654ec5c51a2d0139fc276896ead7783da82bd28527fb1383",
+      "model": "No solution requires coefficient a-12=0 and constant 12+4b nonzero.",
+      "derivedResult": "a=12 and b!=-3",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-109",
+      "sourceSha256": "36d61fce95401d8706281312d46e87aa48edeee54b67b9854b1ef4be46edd333",
+      "model": "Clear/distribute both rational coefficients, then solve.",
+      "derivedResult": "-10",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-110",
+      "sourceSha256": "45c3184bddb60c7891252e9bf79016ca25e7421ec1da3659ce8b6b15f7d7b82a",
+      "model": "Substitute x=p before solving for p.",
+      "derivedResult": "18/5",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": [
+        "Corrected a distractor explanation that described adding 5p to both sides, a valid operation; the incorrect operation is moving the right-hand 5p to the left without changing its sign."
+      ]
+    },
+    {
+      "id": "m-alg-111",
+      "sourceSha256": "c2ff3860c8498ac68c56886c38f3982597125595ed1dc85d0a802f3c0f6ec93c",
+      "model": "Revenue = 3 times muffin count + 4 times scone count.",
+      "derivedResult": "3*m + 4*s - 180",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-112",
+      "sourceSha256": "22ae21f1d1e4cea3ea663df59bc81f54ce4dc1c8d3d2c4a21439b846c72a7287",
+      "model": "Substitute each ordered pair into 2x+5y=30.",
+      "derivedResult": "exactly one listed point satisfies the conditions",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-113",
+      "sourceSha256": "c9b1ece1d2e47109d3a471f2405035f3265e1345862d31a5d88d1f8f35379dfc",
+      "model": "Substitute 12 into the 18-seat row count.",
+      "derivedResult": "9",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-114",
+      "sourceSha256": "4fcba6bb7dcc998f9e2c42ec7935033868e7ab5dada234537011cfd8ddfe9b7d",
+      "model": "Set beans y=0 in 4x+3y=60. Obtain (15,0); (15,15) costs 105.",
+      "derivedResult": "(15, 0)",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": [
+        "Replaced the former combined-total distractor: with the budget equation it implied the same intercept and was potentially ambiguous."
+      ]
+    },
+    {
+      "id": "m-alg-115",
+      "sourceSha256": "96302187b66b7206daba9074e49d2da0167812c007a623b97895b38fc3d0b572",
+      "model": "Substitute the point (a,2a) into 5x-3y=8.",
+      "derivedResult": "-8",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-116",
+      "sourceSha256": "39780c34c1add05c75f0513ddb2c09fe4b3fb534ac79ededc983909bffdce19d",
+      "model": "The given line has slope 6/2; a parallel line through (2,-1) has intercept -1-(6/2)(2).",
+      "derivedResult": "-7",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-117",
+      "sourceSha256": "0db918c13fd1af59dce9aee50b0cd0a147e5ce85896a3ef785c211cbe7728d96",
+      "model": "Interpolate the listed linear table and compare all equations up to nonzero scaling.",
+      "derivedResult": "3*x + y - 14",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-118",
+      "sourceSha256": "5de495596d0ff920b538af63c0bd4655b2b33d8b5268e9593cadb0b8dba90888",
+      "model": "Use change in y = slope times change in x.",
+      "derivedResult": "11",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-119",
+      "sourceSha256": "12626b0cb975556c88c09bcbab5ba759643d26f923a60411c12b48143dde8425",
+      "model": "Set the rearranged line slope -(k-2)/3 equal to 4/3.",
+      "derivedResult": "-2",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-120",
+      "sourceSha256": "6380f4c0c571408da1907d7ab25dad1864f5f1ebcee82c5eda27d1633ef1e529",
+      "model": "Slope through (-1,0),(5,9) is 9/6; evaluate at x=0.",
+      "derivedResult": "3/2",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-121",
+      "sourceSha256": "a3427f9d208b97495dc25656b0f989abff1a97004c908af54bc37c99d2f8879b",
+      "model": "Evaluate f(9) from the given formula.",
+      "derivedResult": "2",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-122",
+      "sourceSha256": "c01ef4a325f7ca2ba59af4c3285754a91a8e15d37cc9e2a843c53b8db681e78d",
+      "model": "C(0)=25; slope=1/20 dollar/minute; extra 25 minutes costs 5/4 dollars.",
+      "derivedResult": "25",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": [
+        "Editorial interpretation: 25 is the fixed dollar charge; it is neither the rate nor a number of included minutes."
+      ]
+    },
+    {
+      "id": "m-alg-123",
+      "sourceSha256": "26a5f1754758b01a93e23c72375733bdfa38d910682ee629077bc0ded95120e6",
+      "model": "Find the slope from (0,7),(2,15), then evaluate at 5.",
+      "derivedResult": "27",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-124",
+      "sourceSha256": "f06daadae2c2caf131809c7b355699a09fb6958d0bf201354292348ca815a703",
+      "model": "Interpolate the three listed points.",
+      "derivedResult": "3*x - 5",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-125",
+      "sourceSha256": "2f099b190d879de2080304ffb109278974c2240b4f10773646f44c9cbf5fe012",
+      "model": "Solve the height equation for time.",
+      "derivedResult": "15",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-126",
+      "sourceSha256": "04cecb2b1378b0e0e147c6e7cae39f74c8cd965197697da6e867d926e032dbc1",
+      "model": "Find b from f(3)=5, then evaluate f(-2).",
+      "derivedResult": "25",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-127",
+      "sourceSha256": "50448cf3006d7ce80a871f76a1d922e8016aa28ba7fc7574b865967ac4fcd0b3",
+      "model": "Construct the line from the two given function values and solve f(x)=0.",
+      "derivedResult": "23/3",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-128",
+      "sourceSha256": "55e2d5091743c4db41afd8eb68cc247c36cbb1e6c8b312915c7dcc890f7ac72e",
+      "model": "The 3-unit input change gives slope 12/3; advance from x=1 to x=10.",
+      "derivedResult": "41",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-129",
+      "sourceSha256": "b9e36727a57284023a9cdf83ba20e900edab41efd50c7c43db667818b1e89255",
+      "model": "Compose f(2x+1) and subtract 4.",
+      "derivedResult": "6*x - 3",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-130",
+      "sourceSha256": "779ca8efd74694a723e33bddff633a8ae90c08fd86988e40f813bc8bce989ad8",
+      "model": "Convert the per-minute increase to a per-hour increase.",
+      "derivedResult": "9",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-131",
+      "sourceSha256": "18e29a8a5f0f683137dc66d4bd67a5ccbd7e323479456b728c8964e7a1900396",
+      "model": "Solve both given line equations and return y.",
+      "derivedResult": "11",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-132",
+      "sourceSha256": "f2f1306a29c21a5d94db07099b16c364fc4717274ce5e5e51123804d32cd31a0",
+      "model": "Solve the two equations and add the coordinates.",
+      "derivedResult": "9",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-133",
+      "sourceSha256": "51daed3dd4661eb3c25a4b9d498cb6af8f1ca4ee59bfc062f724fa5de18581dc",
+      "model": "Item count t+b=140; dollar revenue 4t+9b=860; the exact solution is t=80,b=60.",
+      "derivedResult": "{b: 60, t: 80}",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": [
+        "Corrected the explanation’s mislabeled first/second/third distractors."
+      ]
+    },
+    {
+      "id": "m-alg-134",
+      "sourceSha256": "80b9e19b14996ebe5116ddbbefbf4be2a2d220f1b94d1c16eeb7668966201694",
+      "model": "To change the constant 4 to 12, multiply both coefficients by 12/4.",
+      "derivedResult": "-6",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-135",
+      "sourceSha256": "1250a1241edc849086b3379b73ba2c8348f03404120a662f908562fe9a6752cb",
+      "model": "Solve the basket-count and revenue equations; return peaches minus plums.",
+      "derivedResult": "2",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-136",
+      "sourceSha256": "895ae52108f6b37080f18dcc59fe00016e26365ac69f2481801e9c63df7433f5",
+      "model": "Solve the given system, then add its solution coordinates.",
+      "derivedResult": "4",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-137",
+      "sourceSha256": "e142416336e11ede3b4e9610cfb4814538ca3fdb096e757714846c83f5211695",
+      "model": "Solve both rational-coefficient equations using exact arithmetic.",
+      "derivedResult": "19/2",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-138",
+      "sourceSha256": "25faac2adc0997ca030b3d8e0d2c1c6b1d7620c1e7c1357d794fe720c108ab97",
+      "model": "No solution requires a slope of 2/3 and an intercept different from -2.",
+      "derivedResult": "parallel, distinct lines",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-139",
+      "sourceSha256": "361902da15a4f9e6ca4dc9666180fd1cfee02339986aa5e9280a513117804356",
+      "model": "Solve for equal-cost message count, then return the cost rather than that count.",
+      "derivedResult": "65",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-140",
+      "sourceSha256": "71691c152317b004bfe6f9f35250cc10706fd202a0fdb77d4025fff001f5724c",
+      "model": "Solve the original inequality, reversing its direction upon division by -4.",
+      "derivedResult": "Interval.open(2, oo)",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-141",
+      "sourceSha256": "7c7a80383d293b8588c21eb3fc7bffb89cb01ad0b0d933fb4c8ff3c7864ddac6",
+      "model": "Budget means admission plus ride spending is at most 50.",
+      "derivedResult": "Interval(-oo, 76/5)",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-142",
+      "sourceSha256": "0999cb8acaa3053456c2d4af440c77e5ac47b50ab27989be472ad4513c2d4fef",
+      "model": "Use the exact strict upper boundary 37/5 and find the largest integer below it.",
+      "derivedResult": "7",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-143",
+      "sourceSha256": "596406a0ac24b7f7704107bb74b70af0d0d11d532b0b76dc2424892a5e180692",
+      "model": "Test both cost and minimum-count conditions for every listed pair.",
+      "derivedResult": "exactly one listed point satisfies the conditions",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-144",
+      "sourceSha256": "61f9f72f8ff11b47f1bacbae134f6d0f5e3b01adfce02d48ecacd5e8f235f3de",
+      "model": "Count integers from ceil(-7/3) through the last integer strictly below 7.",
+      "derivedResult": "9",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-145",
+      "sourceSha256": "600f02cde0f377693dbc53245e40bdf21baf2ad4530bf7c1a84c8ec4b3471189",
+      "model": "Solve the net-earnings constraint and round the hour requirement upward.",
+      "derivedResult": "31",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-146",
+      "sourceSha256": "d0b61c76a41275c45006429203ceb615feabfa51d99ec306d78655477e0ee84c",
+      "model": "Both points satisfy the inequality exactly when 2<=m<=3.",
+      "derivedResult": "[2,3]",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-147",
+      "sourceSha256": "a77e466e0fc89a25801677a35aa59c677cb725e18a86a866be892c57fb348798",
+      "model": "Remove existing storage, nine albums, and the required reserve before rounding video count down.",
+      "derivedResult": "17",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-alg-148",
+      "sourceSha256": "2bca342edb5144cc21eda804ced61036073ae72c5971f616142c899712fb7bf9",
+      "model": "The strict strip exists only when c<-3, so no solution means c>=-3.",
+      "derivedResult": "c>=-3",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    }
+  ]
+}

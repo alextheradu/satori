@@ -3,6 +3,7 @@ import assert from 'node:assert/strict'
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { join } from 'node:path'
+import { partitionFamily } from './partition-family.mjs'
 const root=fileURLToPath(new URL('../../',import.meta.url)),directory=join(root,'src/data/questions')
 const check=process.argv.includes('--check'),families=[]
 let state
@@ -161,7 +162,7 @@ add('accuracy-without-delay','medium',()=>{
  ],`The table supports both required outcomes: fewer errors and no added time. Reporting only the original time is insufficient, and the other options reverse the directions of change.`)
 })
 
-const seen=new Set(),all=[],report=[]
+const seen=new Set(),all=[],archived=[],report=[]
 for(const file of readdirSync(directory).filter(f=>f.endsWith('.json')&&f!=='generated-rw-quantitative.json'))for(const q of JSON.parse(readFileSync(join(directory,file),'utf8')))seen.add(`${q.passage??''}\n${q.prompt}`)
 for(const [familyIndex,family] of families.entries()) {
  state=0x75faca19;for(const ch of family.key)state=Math.imul(state^ch.charCodeAt(0),16777619)
@@ -181,9 +182,12 @@ for(const [familyIndex,family] of families.entries()) {
   seen.add(fingerprint)
  }
  assert.equal(items.length,32,`${family.key}: not enough unique variants`)
- all.push(...items);report.push({family:family.key,difficulty:family.difficulty,questions:items.length})
+ const partition=partitionFamily(items)
+ all.push(...partition.active);archived.push(...partition.retired)
+ report.push({family:family.key,difficulty:family.difficulty,questions:1,representative:partition.active[0].id,archived:partition.retired.length})
 }
 const save=(path,value)=>{const text=JSON.stringify(value,null,2)+'\n';if(check)assert.equal(readFileSync(path,'utf8'),text,`${path}: regenerate question content`);else writeFileSync(path,text)}
 save(join(directory,'generated-rw-quantitative.json'),all)
-save(join(root,'docs/quantitative-reading-report.json'),{provenance:'Original table-evidence question families with seeded numerical variants. Arithmetic and answer-relevance classifications are checked; this is not independent editorial certification.',variantsPerFamily:32,total:all.length,families:report})
-console.log(`${check?'Verified':'Generated'} ${all.length} quantitative Reading and Writing variants from ${families.length} families, with arithmetic and single-supporting-choice checks.`)
+save(join(root,'src/data/retired/generated-rw-quantitative.json'),archived)
+save(join(root,'docs/quantitative-reading-report.json'),{provenance:'One active representative per table-evidence family; numerical siblings are historical only. Arithmetic and answer-relevance tags are checked; not independent editorial certification.',maximumActivePerFamily:1,candidatesPerFamily:32,archivedTotal:archived.length,total:all.length,families:report})
+console.log(`${check?'Verified':'Generated'} ${all.length} active quantitative Reading and Writing representatives; ${archived.length} historical variants; arithmetic and single-supporting-choice checks passed.`)

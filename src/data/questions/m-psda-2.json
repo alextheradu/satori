@@ -246,7 +246,7 @@
       "The standard deviation of the Group A scores is greater than the standard deviation of the Group B scores."
     ],
     "answer": 0,
-    "explanation": "Both groups have a mean and a median of 80, so the first two statements are false. The Group A scores are clustered within 2 points of 80, while the Group B scores are spread up to 20 points from 80, so Group A has the smaller standard deviation."
+    "explanation": "Both groups have a mean and a median of 80, so the statements claiming a greater mean for Group A or a greater median for Group B are false. The Group A scores are clustered within 2 points of 80, while the Group B scores are spread up to 20 points from 80, so Group A has the smaller standard deviation."
   },
   {
     "id": "m-psda-118",
@@ -371,7 +371,7 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "Two-variable data: models and scatterplots",
     "difficulty": "medium",
-    "prompt": "The table shows the number of members $y$ of an online club $x$ months after the club was formed.\n\n| $x$ | $y$ |\n|---|---|\n| 0 | 200 |\n| 1 | 240 |\n| 2 | 288 |\n| 3 | 345.6 |\n\nWhich of the following equations models the relationship shown in the table?",
+    "prompt": "The table shows a model’s estimated number of members $y$ of an online club $x$ months after the club was formed.\n\n| $x$ | $y$ |\n|---|---|\n| 0 | 200 |\n| 1 | 240 |\n| 2 | 288 |\n| 3 | 345.6 |\n\nWhich of the following equations could define this model?",
     "choices": [
       "$y = 200 + 40x$",
       "$y = 200(0.8)^x$",
@@ -379,7 +379,7 @@
       "$y = 200(1.2)^x$"
     ],
     "answer": 3,
-    "explanation": "Each value is $1.2$ times the previous one ($\\frac{240}{200} = \\frac{288}{240} = \\frac{345.6}{288} = 1.2$), and $y = 200$ when $x = 0$, so $y = 200(1.2)^x$. The linear model $y = 200 + 40x$ gives 280, not 288, when $x = 2$."
+    "explanation": "Each value is $1.2$ times the previous one ($\\frac{240}{200} = \\frac{288}{240} = \\frac{345.6}{288} = 1.2$), and $y = 200$ when $x = 0$, so $y = 200(1.2)^x$ fits every row. The values are model estimates, which may be nonintegers, rather than exact counts of people. The linear model $y = 200 + 40x$ gives 280, not 288, when $x = 2$."
   },
   {
     "id": "m-psda-127",
@@ -531,7 +531,7 @@
       "38"
     ],
     "answer": 2,
-    "explanation": "Plausible values lie within the margin of error: from $34 - 3 = 31$ to $34 + 3 = 37$ minutes. Only 36 is in this interval."
+    "explanation": "The interval reported by the estimate and its margin of error extends from $34 - 3 = 31$ to $34 + 3 = 37$ minutes. Only 36 is in this interval."
   },
   {
     "id": "m-psda-137",
@@ -563,7 +563,7 @@
       "Surveying 600 registered voters from the state's largest city instead"
     ],
     "answer": 0,
-    "explanation": "For a random sample, increasing the sample size decreases the margin of error. A smaller sample increases it, and nonrandom samples (online volunteers or one city) introduce bias rather than improving precision."
+    "explanation": "For otherwise comparable random samples at the same confidence level, a larger sample typically gives a smaller margin of error. Reducing the sample to 300 would typically increase it. Online volunteers are self-selected, and surveying only the largest city does not cover the state’s full target population. Neither is an appropriate substitute for a larger statewide random sample."
   },
   {
     "id": "m-psda-139",
@@ -606,12 +606,12 @@
     "prompt": "A researcher surveyed a random sample of 900 adults in a state and found that 10% of them own an electric vehicle. The associated margin of error is 2 percentage points. Which of the following is the most appropriate conclusion?",
     "choices": [
       "It is plausible that between 8% and 12% of all adults in the state own an electric vehicle.",
-      "Between 8% and 12% of the adults in the sample own an electric vehicle.",
+      "The proportion of adults in the sample who own an electric vehicle is unknown and could be any value from 8% to 12%.",
       "Exactly 10% of all adults in the state own an electric vehicle.",
       "Between 8% and 12% of all adults in the country own an electric vehicle."
     ],
     "answer": 0,
-    "explanation": "The margin of error describes uncertainty about the population proportion: plausible values are $10\\% \\pm 2\\%$, or 8% to 12% of all adults in the state. The sample proportion is known exactly (10%), the population value is not known exactly, and the sample was drawn only from the state, not the whole country."
+    "explanation": "The margin of error describes uncertainty about the population proportion: plausible values are $10\\% \\pm 2\\%$, or 8% to 12% of all adults in the state. The sample proportion is already known to be 10%; the margin of error does not make it an unknown value between 8% and 12%. The population value is not known exactly, and the sample was drawn only from the state, not the whole country."
   },
   {
     "id": "m-psda-142",
@@ -659,7 +659,7 @@
       "Randomly assign half of the 80 students to use the new method and the other half to use their usual method, and then compare the two groups' test scores."
     ],
     "answer": 3,
-    "explanation": "Only random assignment makes the two groups similar in all respects except the study method, so a difference in scores can be attributed to the method. Letting students choose, comparing with a different year, or assigning by grades all create groups that differ in other ways."
+    "explanation": "Random assignment reduces systematic differences between the groups before treatment and supports attributing a difference in scores to the assigned study method. It does not guarantee that the groups are identical in every respect. Self-selection, a comparison with a different year, or assignment by prior grades leaves alternative explanations for a score difference."
   },
   {
     "id": "m-psda-145",
@@ -675,7 +675,7 @@
       "The participants' stress levels were measured at the end of the study."
     ],
     "answer": 2,
-    "explanation": "Because participants chose their own group, people who chose to meditate may differ from others in ways that also affect stress. Random assignment is needed for a causal conclusion. Random selection affects generalizing to a population, not causation among the participants."
+    "explanation": "Because participants chose their own group, those who chose to meditate may differ from others in ways that also affect stress. This comparison does not isolate the effect of meditation. Random assignment would strengthen a causal comparison, whereas random selection concerns generalization to a population."
   },
   {
     "id": "m-psda-146",
@@ -707,7 +707,7 @@
       "Select 200 students at random from the district, randomly assign 100 of them to use the app and 100 not to use it, and compare their scores."
     ],
     "answer": 3,
-    "explanation": "A causal conclusion requires random assignment, and generalizing to the whole district requires random selection from the district. Only the correct design has both. The volunteer design lacks random selection, and the other two designs lack random assignment."
+    "explanation": "Random assignment supports isolating the effect of app use, and random selection from the district supports generalization to that district’s students. Only one proposed design includes both. The volunteer design has limited population coverage, and the other two designs compare self-selected app users with nonusers."
   },
   {
     "id": "m-psda-148",

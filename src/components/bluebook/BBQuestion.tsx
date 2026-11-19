@@ -2,7 +2,8 @@ import { useRef, useState, type ReactNode } from 'react'
 import { Bookmark } from 'lucide-react'
 import type { Question } from '@/data/types'
 import { Inline, Markup } from '@/lib/Markup'
-import { parseNumeric, type Answer } from '@/lib/grading'
+import type { Answer } from '@/lib/grading'
+import { isSprEntry, sanitizeSprInput } from '@/lib/spr.mjs'
 import { cn } from '@/lib/utils'
 
 const LETTERS = ['A', 'B', 'C', 'D']
@@ -212,7 +213,7 @@ function GridIn({ q, answer, onAnswer }: Props) {
   const val = typeof answer === 'string' ? answer : ''
   const [n, d] = val.split('/')
   const preview = val.includes('/') ? `$\\frac{${n || '\\ '}}{${d || '\\ '}}$` : val
-  const valid = !val || parseNumeric(val) !== null
+  const valid = !val || isSprEntry(val)
   return (
     <div>
       <input
@@ -221,9 +222,9 @@ function GridIn({ q, answer, onAnswer }: Props) {
         inputMode="decimal"
         autoComplete="off"
         value={val}
-        maxLength={val.startsWith('-') ? 6 : 5}
+        maxLength={6}
         onChange={(e) => {
-          const v = e.target.value.replace(/[^0-9./-]/g, '')
+          const v = sanitizeSprInput(e.target.value)
           onAnswer(v === '' ? null : v)
         }}
         className="bb-serif h-[2.875rem] w-[10.625rem] rounded-[0.5rem] border border-[var(--bb-ink)] border-b-[3px] bg-white px-3 text-xl outline-none focus:border-[var(--bb-blue)]"

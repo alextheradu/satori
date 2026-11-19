@@ -38,6 +38,8 @@ export default function Home() {
 
   const all = tally(attempts)
   const seen = latestByQuestion(attempts)
+  const activeSeenIds = QUESTIONS.filter((question) => seen.has(question.id)).map((question) => question.id)
+  const activeSeen = activeSeenIds.length
   const timed = attempts.filter((a) => a.ms > 0)
   const avgSec = timed.length ? Math.round(timed.reduce((s, a) => s + a.ms, 0) / timed.length / 1000) : 0
   const lastTest = tests[0]
@@ -118,7 +120,7 @@ export default function Home() {
       <section className="grid gap-5 lg:grid-cols-2">
         {(['rw', 'math'] as Section[]).map((s, i) => (
           <FadeIn key={s} delay={0.05 * i}>
-            <SectionCard section={s} seenIds={[...seen.keys()]} />
+            <SectionCard section={s} seenIds={activeSeenIds} />
           </FadeIn>
         ))}
       </section>
@@ -173,7 +175,7 @@ export default function Home() {
       )}
 
       <p className="text-center text-sm text-muted-foreground">
-        {QUESTIONS.length} original questions · {seen.size} seen · {pct(seen.size / QUESTIONS.length)} of the bank explored
+        {QUESTIONS.length} original questions · {activeSeen} seen · {pct(activeSeen / QUESTIONS.length)} of the bank explored
       </p>
     </div>
   )

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "m-original-distinct-009",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "hard",
+    "prompt": "Triangle $ABC$ has area $96$ square units. Point $D$ lies between $A$ and $B$, and point $E$ lies between $A$ and $C$, with $\\overline{DE}$ parallel to $\\overline{BC}$. If $AD=3DB$, what is the area, in square units, of quadrilateral $DBCE$?",
+    "explanation": "Since $AD=3DB$, $AB=AD+DB=4DB$, so $AD/AB=3/4$. The similar triangle $ADE$ has area $(3/4)^2(96)=54$. Subtracting it from the whole triangle leaves $96-54=42$. Using a linear area factor would give $24$, and $54$ is the removed triangle’s area.",
+    "answer": [
+      "42"
+    ]
+  }
+]

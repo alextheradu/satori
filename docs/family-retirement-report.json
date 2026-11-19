@@ -1,0 +1,41 @@
+{
+  "policy": "At most one generated active representative per declared family or pattern. A reviewed overlap can instead be represented by an existing active question; its source-bound reason is recorded in the generation report. Sibling versions remain historical only.",
+  "activeFamilyRepresentatives": 220,
+  "familiesRepresentedByExistingQuestions": 20,
+  "retiredFamilyVariants": 14116,
+  "collections": [
+    {
+      "collection": "math-generation-report.json",
+      "families": 184,
+      "active": 164,
+      "representedByExistingQuestions": 20,
+      "retired": 11612,
+      "candidates": 11776
+    },
+    {
+      "collection": "quantitative-reading-report.json",
+      "families": 16,
+      "active": 16,
+      "representedByExistingQuestions": 0,
+      "retired": 496,
+      "candidates": 512
+    },
+    {
+      "collection": "conventions-generation-report.json",
+      "families": 24,
+      "active": 24,
+      "representedByExistingQuestions": 0,
+      "retired": 1512,
+      "candidates": 1536
+    },
+    {
+      "collection": "expression-generation-report.json",
+      "families": 16,
+      "active": 16,
+      "representedByExistingQuestions": 0,
+      "retired": 496,
+      "candidates": 512
+    }
+  ],
+  "scope": "Enforces declared family boundaries and recorded editorial overlaps. It does not independently detect every remaining overlap or certify every reading interpretation."
+}

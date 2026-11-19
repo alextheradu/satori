@@ -145,7 +145,7 @@
       "$\\frac{6}{5}$"
     ],
     "answer": 2,
-    "explanation": "Substitute $x = p$: $5(p + p) = 3p + 2p + 18$, so $10p = 5p + 18$. Then $5p = 18$ and $p = \\frac{18}{5}$. Choice $18$ comes from distributing $5(x + p)$ as $5x + p$, $\\frac{18}{7}$ drops the $2p$ term, and $\\frac{6}{5}$ adds $5p$ to both sides instead of subtracting."
+    "explanation": "Substitute $x=p$: $5(p+p)=3p+2p+18$, so $10p=5p+18$. Subtract $5p$ to obtain $5p=18$, giving $p=\\frac{18}{5}$. The distractor $18$ can result from failing to distribute 5 to both terms; $\\frac{18}{7}$ omits the $2p$ term on the right; and $\\frac{6}{5}$ incorrectly changes $10p=5p+18$ into $15p=18$ by moving the right-hand term without changing its sign."
   },
   {
     "id": "m-alg-111",
@@ -202,10 +202,10 @@
       "Ana buys 20 bags of beans and no bags of rice.",
       "Ana buys 15 bags of rice and no bags of beans.",
       "Each bag of rice costs 15 dollars.",
-      "Ana buys a total of 15 bags of rice and beans combined."
+      "Ana buys 15 bags of rice and 15 bags of beans."
     ],
     "answer": 1,
-    "explanation": "The $x$-intercept occurs where $y = 0$: $4x = 60$, so $x = 15$. With $y = 0$, Ana buys no beans, so the intercept means she buys $15$ bags of rice and no bags of beans. The statement about $20$ bags of beans describes the $y$-intercept, and the price of rice is $4$ dollars, not $15$."
+    "explanation": "The $x$-intercept occurs where $y=0$: $4x=60$, so $x=15$. With no beans purchased, Ana buys 15 bags of rice. The choice about 20 bags of beans describes the $y$-intercept. The rice price is 4 dollars, not 15, and buying 15 bags of each food would cost $4(15)+3(15)=105$ dollars rather than 60."
   },
   {
     "id": "m-alg-115",
@@ -490,7 +490,7 @@
       "$t + b = 140$ and $4t + 9b = 860$"
     ],
     "answer": 3,
-    "explanation": "The total number of items is $t + b = 140$. The revenue is $4t$ dollars from tacos plus $9b$ dollars from bowls, so $4t + 9b = 860$. The second choice swaps the totals, the third swaps the prices, and $t = b + 140$ does not describe the total number of items."
+    "explanation": "The total number of items gives $t+b=140$. Revenue is $4t$ dollars from tacos and $9b$ dollars from bowls, so $4t+9b=860$. The first choice swaps the item and revenue totals; the second swaps the two prices; the third uses a difference, $t=b+140$, instead of the total number of items. Only the fourth choice correctly represents both conditions."
   },
   {
     "id": "m-alg-134",

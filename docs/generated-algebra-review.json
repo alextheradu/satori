@@ -1,0 +1,541 @@
+{
+  "scope": "41 selected Algebra family candidates, including eight now-retired overlaps; other generated math domains are outside this review.",
+  "method": "Fresh exact models manually transcribed from the selected prompt constraints; every mathematical option and typed alias compared independently. Natural-language givens and geometric meanings are not inferred automatically.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "9c6a2d436a7a69224501de375990a3a8b979ea1e7861cbe75e81431e457007c2",
+  "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "selectionSha256": "baa68bf8230796e8f4346963019fa2a01c3993429237efc67b1214c1557d8a7e",
+  "questionsReviewed": 41,
+  "activeQuestionsReviewed": 33,
+  "items": [
+    {
+      "id": "m-gen-distribute-001",
+      "sourceSha256": "813f3fccd594e9799a1821bfe22280eb111a999d10c2f936dc265d8bf1cd8dc5",
+      "model": "Solve 6(x+7)+19=-23.",
+      "derivedResult": "-14",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-both-sides-001",
+      "sourceSha256": "26bec427299a8bb2754f4fa520049f2f5815d80a3687a618bda35208312bbe60",
+      "model": "Solve the equation with x terms on both sides.",
+      "derivedResult": "21",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-fraction-linear-001",
+      "sourceSha256": "ff410a662e1cd43d8b54718ff4ae1343ed0b618cd0a8a42b87412b3b7b641613",
+      "model": "Solve the rational-coefficient equation exactly.",
+      "derivedResult": "-12",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-literal-equation-004",
+      "sourceSha256": "9aff3eafaba2e9b3c1431ee3050a890c240832af2064d72afe49000b8379688a",
+      "model": "Substitute y=15,z=177 into z=8x+7y.",
+      "derivedResult": "9",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-identity-parameter-004",
+      "sourceSha256": "9d3991dc17a139ccd00d955f5ac1ee2908219da7802f191b3880b052edac79ae",
+      "model": "The x terms cancel identically; require the constant difference to vanish.",
+      "derivedResult": "64",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-coordinate-substitution-004",
+      "sourceSha256": "75d6b8c18f55a3df561658fe7461a5129577ec2bee695a45a1e12ce987d2416f",
+      "model": "Substitute the point x-coordinate before solving for y.",
+      "derivedResult": "-7",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-intercept-standard-004",
+      "sourceSha256": "fc9f40f8742cb5060d9aa6bce3753d14dfd40b5c7230ea36f733067f8a5e1503",
+      "model": "At the y-intercept x=0.",
+      "derivedResult": "5",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-slope-points-004",
+      "sourceSha256": "d3b644d73441485d083037839ea029e40ba9957514b8e6e2e67f0ef62ab40fa3",
+      "model": "Compute change in y over change in x using consistent order.",
+      "derivedResult": "-6",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-parallel-intercept-004",
+      "sourceSha256": "ab514948a2517ebd0dbbde3521eb04dd625bf4d418dfac38f5b5262f8218fa92",
+      "model": "A parallel line keeps slope 8; use its given point to recover the intercept.",
+      "derivedResult": "-92",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-linear-table-004",
+      "sourceSha256": "adc8ab6863cb2f22b9379c320e8645e88b0e9b49ea9531a9b828e0b80bbac548",
+      "model": "Interpolate all three table values, confirm degree one, and evaluate at 15.",
+      "derivedResult": "77",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-service-fee-004",
+      "sourceSha256": "4697f8b6ca0c24b0a9262352ea4f111f5beba5a38e3efa8df231c98079342b15",
+      "model": "Add the fixed charge once and the five-hour charge.",
+      "derivedResult": "68",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-linear-from-values-004",
+      "sourceSha256": "5cd878a28261a70553432c8e14f5a01995c38fa4093414a98525af99de892c5a",
+      "model": "Recover the linear function from both specified values, then evaluate at zero.",
+      "derivedResult": "5",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": [
+        "Parenthesized the signed slope in the intercept calculation to avoid adjacent minus signs."
+      ]
+    },
+    {
+      "id": "m-gen-break-even-004",
+      "sourceSha256": "bc800329370404a45502066d01f7a9911a4ffb5fc3b60d3e9f0159b042f83423",
+      "model": "Set the complete cost expressions equal.",
+      "derivedResult": "18",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-system-eliminate-001",
+      "sourceSha256": "877a009f7e25d2cdda5dfa4d47baa4ed2f85b63b67310394c997fde3d06773b6",
+      "model": "Solve the original linear system and return x.",
+      "derivedResult": "-10",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-ticket-system-001",
+      "sourceSha256": "7407597f238bfa3eef18a6aa7ebbb51fcedf685453cf70fb2b47490ad64c1535",
+      "model": "Use adult and student counts summing to 83 and revenue 619.",
+      "derivedResult": "41",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-system-expression-001",
+      "sourceSha256": "fa5ec9e249a945689d2fc2dc878e1299a3c7431d05e703905bfeefb4ee66707d",
+      "model": "Independently solve the system and evaluate the requested linear combination.",
+      "derivedResult": "224",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-infinite-system-004",
+      "sourceSha256": "ea75ae7c7403206944388753d51be3577062519f0552d580349c0c6a1a7db3d2",
+      "model": "Find the zero determinant and confirm equal coefficient/augmented ranks below two.",
+      "derivedResult": "6",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-budget-bound-004",
+      "sourceSha256": "11f9fedd9d00ad8ed4aef4c8a91f52e941fc39434b82503074b504336321070c",
+      "model": "Remove the fee, divide by unit price, and round down to an affordable whole count.",
+      "derivedResult": "44",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-minimum-target-004",
+      "sourceSha256": "99caf324f65977e465b7e83a091d32ab2fe8a35a4274bb23901900cd265b54ed",
+      "model": "Solve the minimum-points inequality and round upward.",
+      "derivedResult": "9",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-negative-inequality-004",
+      "sourceSha256": "2864e56917e0f8e57ae9591cb74656176ea6231151091fe3e90add93915754c6",
+      "model": "The strict lower boundary is x>1; find the first integer above it.",
+      "derivedResult": "2",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-two-resource-bound-004",
+      "sourceSha256": "05e8cb5db5c8bda2d089e9adfc29db2f75e0b2b4f2e020c651428e2daecc5168",
+      "model": "Deduct material used by 14 small items and divide by the large-item requirement.",
+      "derivedResult": "5",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": [
+        "The representative happens to use equal material amounts for both sizes. Replaced an explanation that incorrectly called those requirements different."
+      ]
+    },
+    {
+      "id": "m-gen-parameter-no-solution-004",
+      "sourceSha256": "35a855b27b160cd79f5055a8fe544e533ef4021482dfe2dc0d46e7b0994caac4",
+      "model": "Cancel the x coefficient while preserving a nonzero constant difference.",
+      "derivedResult": "14",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-system-linear-combination-004",
+      "sourceSha256": "5d7f8c6fc1dc50ea5843dcf0e59e625c27feb5f47c14723b7910adec53d8af73",
+      "model": "Solve both equations exactly and evaluate the full requested combination.",
+      "derivedResult": "-233",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-perpendicular-standard-parameter-004",
+      "sourceSha256": "eb6626c4a939b0cd14fc2665557ef6af583538c657ea637530cb6122dd29fbc3",
+      "model": "Require the two nonvertical slopes to multiply to -1.",
+      "derivedResult": "-16",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-transformed-linear-intercept-001",
+      "sourceSha256": "a24d83bd0e96e69ff028c5d11f3c9d6396d328b96b06487fb60108be30b291ff",
+      "model": "Apply the input shift and output scaling before evaluating g(0).",
+      "derivedResult": "-93",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-tiered-usage-fee-004",
+      "sourceSha256": "2b4ed277e087fcd789d0e44d2179a755be2cae647977e8df33d9a73dce16ab12",
+      "model": "Separate the included three hours from the additional-hour charge.",
+      "derivedResult": "10",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-strict-plan-last-integer-004",
+      "sourceSha256": "a8804f3b45805037c336cd30adbdfa38f38664361198609b731eff769019238c",
+      "model": "Find the greatest integer strictly below the equal-cost threshold.",
+      "derivedResult": "8",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-compound-integer-count-004",
+      "sourceSha256": "17fd2635d511eb6cb46fd0b35a82f12f3e6ff58a4e0459098214cf933f8617d1",
+      "model": "Count integers above the strict lower boundary and at or below the inclusive upper boundary.",
+      "derivedResult": "21",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-unique-system-exception-004",
+      "sourceSha256": "5369c71a46215347c3d5beb2120fc0864376de0462723d3fc2e358631410a3f4",
+      "model": "Find the exceptional zero determinant and verify inconsistency at that parameter.",
+      "derivedResult": "77",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-intercept-midpoint-sum-004",
+      "sourceSha256": "5a384b1e92d757944babc82ac39efa888b939fbf1aa4c5fc322dda300157ead3",
+      "model": "Find both axis intercepts, average their coordinates, and add the midpoint coordinates.",
+      "derivedResult": "90",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-translated-line-zero-004",
+      "sourceSha256": "a7695d35ead5a93d71ef024c04dd5f9b98294fd4ae08d54971df4f5b1cdd2799",
+      "model": "Translate the original graph right by 3 and up by 45, then find its zero.",
+      "derivedResult": "-4",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-linear-self-composition-004",
+      "sourceSha256": "74bd6568877be6d2e851fb932df66072b36866336c1f87da78ddd0d52fa4b0e6",
+      "model": "Evaluate the function twice, using the first output as the next input.",
+      "derivedResult": "216",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-average-cost-minimum-count-004",
+      "sourceSha256": "3a5159af915464e1af9ded1eec7d80f72d564245aa7c11d490b58ebbd89443d4",
+      "model": "Divide total cost by positive count and solve the average-cost ceiling.",
+      "derivedResult": "11",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-two-concentration-mixture-004",
+      "sourceSha256": "c930a6ee036be46a20a058571238a40a1afcfe3c5225af1bfab4c1aaa245c90f",
+      "model": "Solve total volume and total concentrate equations together.",
+      "derivedResult": "60",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-catch-up-converted-rate-004",
+      "sourceSha256": "ca05dd003338aac70da83b981b2a2197fcc1bb0563b98c2e77c7573069a4e0ba",
+      "model": "Convert B to meters/minute, then divide initial gap by relative speed.",
+      "derivedResult": "33",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-consecutive-even-middle-004",
+      "sourceSha256": "9829a680ffbfd37149fe79b56e7e15100c91e4a9454772df4ba0b2c6392df1f3",
+      "model": "Represent the consecutive even integers symmetrically about their middle.",
+      "derivedResult": "70",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-inverse-linear-composition-parameter-004",
+      "sourceSha256": "9b248c2f5a5bd584c16a32d2390da0851874c9de61580e098b1f184e8c07da18",
+      "model": "Make g(f(x))-x vanish identically.",
+      "derivedResult": "38",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-intercept-ratio-through-point-001",
+      "sourceSha256": "1e4feb1ed64041ba119a2d37910a9715fc1760e5dc65d8fdba8958f90dff7aab",
+      "model": "If intercept coordinates are h and h/3, the line equation is x+3y=h. Substitute the given point.",
+      "derivedResult": "69",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-symmetric-linear-output-sum-001",
+      "sourceSha256": "7ccb14300882c6bf50017734850c964fe35467f0a3505ac073e88636104c56f1",
+      "model": "Write an arbitrary linear function, impose its one known value, and verify the symmetric sum is independent of slope.",
+      "derivedResult": "48",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-feasible-integer-coordinate-bound-001",
+      "sourceSha256": "8c968f4e7abf5f8f122140bee1868fe3e8783bae63407bb0d7bc39561ad0509c",
+      "model": "Because both resource coefficients are positive, minimal y=2 maximizes the admissible x bound; verify the integer boundary.",
+      "derivedResult": "10",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-system-solution-on-diagonal-004",
+      "sourceSha256": "d228361b7b849dd06311b478deea9420dc69587495aa0dcfb2183e6c10c8f31d",
+      "model": "Use x=y in the first equation to recover both coordinates, then solve the second parameter.",
+      "derivedResult": "13",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    }
+  ]
+}
