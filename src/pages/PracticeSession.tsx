@@ -10,7 +10,8 @@ import { Progress } from '@/components/ui/progress'
 import { Badge } from '@/components/ui/badge'
 import { Count, DifficultyBadge, pct } from '@/components/app/common'
 import { Momentum } from '@/components/app/Momentum'
-import { BookmarkToggle, ElimToggle, Explanation, QuestionView } from '@/components/app/QuestionView'
+import { BookmarkToggle, CalcToggle, ElimToggle, Explanation, QuestionView } from '@/components/app/QuestionView'
+import { BBCalculator } from '@/components/bluebook/BBCalculator'
 import { BY_ID } from '@/data/bank'
 import { isCorrect, SECTION_LABEL, type Answer } from '@/lib/grading'
 import { buildSession, idsUrl, parsePracticeParams } from '@/lib/practice'
@@ -41,9 +42,24 @@ export default function PracticeSession() {
   const [elim, setElim] = useState<number[]>([])
   const [elimMode, setElimMode] = useState(false)
   const started = useRef(Date.now())
+  const [calcOpen, setCalcOpen] = useState(false)
+  const [calcW, setCalcW] = useState(() => Math.round(Math.min(560, Math.max(380, window.innerWidth * 0.3))))
+  const wide = useWide()
 
   const q = ids[i] ? BY_ID.get(ids[i]) : undefined
   const done = idsParam !== null && ids.length > 0 && i >= ids.length
+  const hasMath = useMemo(() => ids.some((id) => BY_ID.get(id)?.section === 'math'), [ids])
+  // Calculator only shows on math questions, but stays mounted so graphs survive across the session.
+  const calcShown = calcOpen && !done && q?.section === 'math'
+
+  // Dock the calculator on the left and push the whole page over (like Bluebook); on phones it overlays.
+  useEffect(() => {
+    if (!calcShown || !wide) return
+    document.body.style.paddingLeft = `${calcW}px`
+    return () => {
+      document.body.style.paddingLeft = ''
+    }
+  }, [calcShown, wide, calcW])
 
   useEffect(() => {
     setI(0)
@@ -73,7 +89,10 @@ export default function PracticeSession() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (!q || e.metaKey || e.ctrlKey || e.altKey) return
-      const tag = (e.target as HTMLElement)?.tagName
+      const el = e.target as HTMLElement | null
+      // Typing into Desmos must not pick answers or submit.
+      if (el?.closest?.('aside[aria-label="Calculator"]') || el?.tagName === 'TEXTAREA' || el?.isContentEditable) return
+      const tag = el?.tagName
       if (e.key === 'Enter') {
         if (tag === 'BUTTON') return
         e.preventDefault()
@@ -107,6 +126,12 @@ export default function PracticeSession() {
         </EmptyContent>
       </Empty>
     )
+
+  const calculator = hasMath && (
+    <div className="bb contents">
+      <BBCalculator open={calcShown} width={wide ? calcW : window.innerWidth} onWidth={setCalcW} onClose={() => setCalcOpen(false)} />
+    </div>
+  )
 
   if (done) {
     const correct = results.filter((r) => r.correct).length
@@ -163,6 +188,7 @@ export default function PracticeSession() {
 
   return (
     <div className="pb-24 sm:pb-0">
+      {calculator}
       <div className="mb-6 flex items-center gap-4">
         <Button asChild variant="ghost" size="sm">
           <Link to="/practice">
@@ -198,6 +224,7 @@ export default function PracticeSession() {
             onEliminate={(n) => setElim((e) => (e.includes(n) ? e.filter((x) => x !== n) : [...e, n]))}
             toolbar={
               <>
+                {q.section === 'math' && <CalcToggle on={calcOpen} onChange={() => setCalcOpen((o) => !o)} />}
                 {q.choices && <ElimToggle on={elimMode} onChange={() => setElimMode((m) => !m)} />}
                 <BookmarkToggle qid={q.id} />
               </>
@@ -232,4 +259,16 @@ export default function PracticeSession() {
       </div>
     </div>
   )
+}
+
+/** True at Tailwind's `md` breakpoint and up. */
+function useWide() {
+  const [wide, setWide] = useState(() => window.matchMedia('(min-width: 768px)').matches)
+  useEffect(() => {
+    const mq = window.matchMedia('(min-width: 768px)')
+    const on = () => setWide(mq.matches)
+    mq.addEventListener('change', on)
+    return () => mq.removeEventListener('change', on)
+  }, [])
+  return wide
 }

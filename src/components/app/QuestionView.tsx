@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { Bookmark, Check, CircleSlash, Flag, Lightbulb, X } from 'lucide-react'
+import { Bookmark, Calculator, Check, CircleSlash, Flag, Lightbulb, X } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { Toggle } from '@/components/ui/toggle'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
@@ -241,6 +241,14 @@ export function ElimToggle({ on, onChange }: { on: boolean; onChange: () => void
   return (
     <TipToggle label="Answer eliminator" pressed={on} onChange={onChange}>
       <span className="text-xs font-bold line-through decoration-2">ABC</span>
+    </TipToggle>
+  )
+}
+
+export function CalcToggle({ on, onChange }: { on: boolean; onChange: () => void }) {
+  return (
+    <TipToggle label={on ? 'Hide Desmos calculator' : 'Desmos calculator'} pressed={on} onChange={onChange}>
+      <Calculator />
     </TipToggle>
   )
 }
