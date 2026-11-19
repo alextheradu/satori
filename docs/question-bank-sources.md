@@ -1,25 +1,25 @@
 # Question bank expansion and practice sources
 
-The app now contains **6,440 questions**, up from 512. All bundled additions are original SAT-style practice, with answers, explanations, domain/skill labels, and difficulty labels. Difficulty labels are editorial estimates, not calibrated College Board difficulty ratings.
+The app now contains **8,488 questions**, up from 512. All bundled additions are original SAT-style practice, with answers, explanations, domain/skill labels, and difficulty labels. Difficulty labels are editorial estimates, not calibrated College Board difficulty ratings.
 
 | Bundled material | Count | What the count represents |
 |---|---:|---|
 | Existing questions | 512 | Original bank retained with stable IDs |
-| New generated math | 5,632 | 64 numerical variants for each of 88 authored problem families |
+| New generated math | 7,680 | 64 numerical variants for each of 120 authored problem families |
 | New conceptual statistics | 24 | Individually written questions, including sampling, causation, experiments, and spread |
 | New Reading and Writing | 272 | Individually written questions with distinct passages or sentence-completion contexts across all 11 skills |
-| Total | **6,440** | Questions available in practice and test selection |
+| Total | **8,488** | Questions available in practice and test selection |
 
-The 5,632 generated items are numerical variants, not 5,632 independently invented problem structures. They are useful for repetition of a skill. The Reading and Writing expansion uses distinct authored contexts rather than swapping names into a repeated passage. Studies, institutions, stories, and named people invented for these passages are identified as hypothetical or fictional.
+The 7,680 generated items are numerical variants, not 7,680 independently invented problem structures. They are useful for repetition of a skill. The Reading and Writing expansion uses distinct authored contexts rather than swapping names into a repeated passage. Studies, institutions, stories, and named people invented for these passages are identified as hypothetical or fictional.
 
 ## Coverage
 
 | Section | Domain | Questions |
 |---|---|---:|
-| Math | Algebra | 1,408 |
-| Math | Advanced Math | 1,280 |
-| Math | Problem-Solving and Data Analysis | 1,816 |
-| Math | Geometry and Trigonometry | 1,408 |
+| Math | Algebra | 1,664 |
+| Math | Advanced Math | 2,176 |
+| Math | Problem-Solving and Data Analysis | 2,200 |
+| Math | Geometry and Trigonometry | 1,920 |
 | Reading and Writing | Craft and Structure | 136 |
 | Reading and Writing | Information and Ideas | 152 |
 | Reading and Writing | Expression of Ideas | 118 |
@@ -73,11 +73,24 @@ Publisher pages were checked on **2026-11-18**. External questions are linked in
 | [CollegePrepRoom](https://www.collegepreproom.com/sat/practice-test) | Original fixed section tests plus topic practice | Free; distinct from the official tests to which it also links |
 | [Colorbook worked questions](https://sat.colorbook.tech/articles/sat-practice-questions/) | 32 public questions spanning all eight domains, with full choice explanations | Free article; links onward to the publisher's larger bank |
 
-The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 6,440-question total. Free-test offers and account requirements can change.
+| [1600.now](https://1600.now/bank) | Publisher lists over 8,000 Math and Reading and Writing questions with skill and difficulty filters | Free practice; account-related features available |
+| [Owl Test Prep](https://owltestprep.com/sat/practice-test) | Public sample questions with every choice explained; links to full tests | Public questions and some free tests; expanded access may be paid |
+| [Break the Test](https://breakthetest.app/free-practice-tests) | Publisher lists 12,491 questions and a mixture of standard forms, all-hard forms, and single Math modules | Free; not every listed form is a full-length standard test |
+| [SAT Math Lab](https://github.com/echa920/sat-math-lab) | Publisher lists 400 original Math questions with worked explanations and adaptive exams | Public repository links to hosted practice; no account needed |
+| [SAT 1600](https://sat1600.io/practice) | Publisher lists 1,200+ original questions and adaptive modules | Free web practice without account; separate paid app features |
+| [1600.gg](https://1600.gg/pricing/) | Free plan lists 50 targeted questions monthly, a diagnostic, and plan-limited mock access | Free account; expanded question access and some mock scoring are paid |
+| [Acely](https://acely.com/pricing) | Free account includes an assessment, one SAT practice test, and 10 practice questions | No card for free account; full-bank trial is separate, card-based, and time-limited |
+| [1600.io resource trial](https://www.1600.io/p/sat-resources-free-trial) | Trial access to Math Orange Book material and explanations for official practice-test questions | One-week trial, not an unlimited free question bank; continued membership paid |
+
+The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 8,488-question total. Free-test offers and account requirements can change.
 
 ## Additional Reading and Writing batch
 
 The second authored batch adds 144 questions: 96 reading questions and 48 writing questions. It adds sentence-function analysis, evidence that weakens a hypothesis, quotation selection from original stories, raw-count versus percentage comparisons, translation tradeoffs, and sampling/generalization reasoning. The additions retain the existing question IDs and answer-choice positions for all earlier items.
+
+## Additional harder-math batch
+
+The next numerical batch adds 2,048 variants from 32 new families, appended after the earlier 88 families. Topics include extraneous radical solutions, strict discriminant bounds, reciprocal roots, transformed zeros, second differences, perpendicular lines, chord and tangent geometry, truncated-cone volume, conditional probabilities across groups, dilution, and combined means. This batch adds 1,856 questions labeled hard and 192 labeled medium. All 6,440 prior questions were compared with a saved baseline and remained identical, including IDs, answers, and choice order.
 
 ## Further expansion
 

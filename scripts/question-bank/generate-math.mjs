@@ -4,6 +4,7 @@ import assert from 'node:assert/strict'
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { join } from 'node:path'
+import { registerMathExpansion } from './math-expansion.mjs'
 
 const root = fileURLToPath(new URL('../../', import.meta.url))
 const out = join(root, 'src/data/questions')
@@ -477,11 +478,13 @@ f('radians', G, 'circles', 'easy', () => {
     `Multiply degrees by $\\pi/180$: $${degrees}^\\circ=${frac(degrees,180)}\\pi$ radians. Therefore $k=${frac(degrees,180)}$. A full turn is $2\\pi$ radians, while a half turn is $\\pi$.`,v=>near(v*180,degrees),[degrees/360,180/degrees,degrees])
 })
 
+registerMathExpansion({f,A,N,D,G,int,pick,numeric,near,fmt,term,frac,table})
+
 // Exact fractions keep repeating-decimal answers usable in student-produced responses.
 const gcd = (a,b) => { a=Math.abs(a); b=Math.abs(b); while(b) [a,b]=[b,a%b]; return a }
 const answerText = (value) => {
   if (Number.isInteger(value)) return String(value)
-  for(let d=2;d<=100000;d++) {
+  for(let d=2;d<=1000000;d++) {
     const n=Math.round(value*d)
     if (near(n/d,value) && Math.abs(n/d-value)<1e-10) { const g=gcd(n,d); return `${n/g}/${d/g}` }
   }

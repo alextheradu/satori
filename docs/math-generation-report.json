@@ -1,7 +1,7 @@
 {
   "provenance": "Original seeded SAT-style numerical variants; not official College Board questions.",
   "variantsPerFamily": 64,
-  "total": 5632,
+  "total": 7680,
   "families": [
     {
       "family": "distribute",
@@ -617,6 +617,230 @@
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "parameter-no-solution",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "system-linear-combination",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "perpendicular-standard-parameter",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "transformed-linear-intercept",
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "quadratic-root-distance",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "quadratic-root-square-sum",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "quadratic-root-ratio",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "discriminant-integer-bound",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "radical-extraneous-root",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "absolute-root-sum",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "quadratic-input-translation",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "vertex-parameter-from-point",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "quadratic-second-difference",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "exponential-nonzero-inputs",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "rational-hole-extension",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "rational-identity-coefficient",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "reciprocal-root-sum",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "transformed-quadratic-roots",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "chord-distance",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "tangent-segment",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "circle-axis-tangency",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "inscribed-angle",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "complementary-trig-parameter",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Right triangles and trigonometry",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "similar-area-to-side",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, angles, and triangles",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "truncated-cone-volume",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "sphere-area-to-volume-ratio",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "combined-mean-group-size",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: distributions and measures of center and spread",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "dilution-to-target",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "mean-zero-residual-intercept",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Two-variable data: models and scatterplots",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "bayes-two-groups",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability and conditional probability",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "area-unit-density",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, rates, proportional relationships, and units",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "reverse-two-price-changes",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "difficulty": "hard",
       "questions": 64
     }
   ]

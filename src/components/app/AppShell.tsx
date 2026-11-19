@@ -1,8 +1,7 @@
 import { Suspense, useEffect, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation } from 'react-router'
 import { useTheme } from 'next-themes'
-import { BookMarked, ClipboardList, CloudUpload, Dumbbell, LayoutDashboard, LogOut, Menu, Monitor, Moon, RotateCcw, Sun, Timer, Trash2 } from 'lucide-react'
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { BookMarked, ClipboardList, CloudUpload, Dumbbell, LayoutDashboard, LogOut, Menu, Monitor, Moon, RotateCcw, Settings, Sun, Timer } from 'lucide-react'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 import { Button } from '@/components/ui/button'
 import {
@@ -15,21 +14,11 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-} from '@/components/ui/alert-dialog'
-import { toast } from 'sonner'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
-import { hasStarted, resetAll, signOut, useStore } from '@/lib/store'
+import { hasStarted, signOut, useStore } from '@/lib/store'
 import { cn } from '@/lib/utils'
 import { Logo } from './common'
+import { UserAvatar } from './UserAvatar'
 
 const NAV = [
   { to: '/', label: 'Home', icon: LayoutDashboard, end: true },
@@ -171,24 +160,14 @@ export function ThemeMenu() {
   )
 }
 
-function initials(name: string | null, email: string | null) {
-  const src = name || email || '?'
-  const parts = src.replace(/@.*/, '').split(/[\s._-]+/).filter(Boolean)
-  return ((parts[0]?.[0] ?? '?') + (parts[1]?.[0] ?? '')).toUpperCase()
-}
-
 function UserMenu() {
   const user = useStore((s) => s.user)
-  const [confirmReset, setConfirmReset] = useState(false)
   if (!user) return null
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="icon-lg" className="rounded-full" aria-label="Account menu">
-          <Avatar className="size-8">
-            {user.slackId && <AvatarImage src={avatarUrl(user.slackId)} alt="" referrerPolicy="no-referrer" />}
-            <AvatarFallback className="bg-primary/15 text-xs font-semibold text-primary">{initials(user.name, user.email)}</AvatarFallback>
-          </Avatar>
+          <UserAvatar user={user} />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-60">
@@ -197,44 +176,18 @@ function UserMenu() {
           {user.email && <p className="truncate text-xs text-muted-foreground">{user.email}</p>}
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
+        <DropdownMenuItem asChild>
+          <Link to="/settings">
+            <Settings /> Settings
+          </Link>
+        </DropdownMenuItem>
         <DropdownMenuItem onSelect={() => void signOut()}>
           <LogOut /> Sign out
         </DropdownMenuItem>
-        <DropdownMenuSeparator />
-        <DropdownMenuItem variant="destructive" onSelect={() => setConfirmReset(true)}>
-          <Trash2 /> Reset progress…
-        </DropdownMenuItem>
       </DropdownMenuContent>
-      <AlertDialog open={confirmReset} onOpenChange={setConfirmReset}>
-        <AlertDialogContent>
-          <AlertDialogHeader>
-            <AlertDialogTitle>Reset all progress?</AlertDialogTitle>
-            <AlertDialogDescription>
-              This permanently deletes every answer, test, saved question and your streak from your account. It can’t be undone.
-            </AlertDialogDescription>
-          </AlertDialogHeader>
-          <AlertDialogFooter>
-            <AlertDialogCancel>Cancel</AlertDialogCancel>
-            <AlertDialogAction
-              variant="destructive"
-              onClick={() =>
-                resetAll().then(
-                  () => toast.success('Progress reset'),
-                  () => toast.error('Reset failed. Try again in a moment.'),
-                )
-              }
-            >
-              Delete everything
-            </AlertDialogAction>
-          </AlertDialogFooter>
-        </AlertDialogContent>
-      </AlertDialog>
     </DropdownMenu>
   )
 }
-
-/** Hack Club Slack avatar via Cachet (redirects to the current Slack profile picture). */
-const avatarUrl = (slackId: string) => `https://cachet.dunkirk.sh/users/${encodeURIComponent(slackId)}/r`
 
 function SyncIndicator() {
   const pending = useStore((s) => s.pending)

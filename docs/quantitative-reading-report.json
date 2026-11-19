@@ -1,0 +1,87 @@
+{
+  "provenance": "Original table-evidence question families with seeded numerical variants. Arithmetic and answer-relevance classifications are checked; this is not independent editorial certification.",
+  "variantsPerFamily": 32,
+  "total": 512,
+  "families": [
+    {
+      "family": "gain-comparison",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "proportional-recovery",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "total-versus-rate",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "opposite-treatment-effects",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "dose-plateau",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "partial-rebound",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "narrowing-group-gap",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "adoption-versus-intensity",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "same-center-different-range",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "count-versus-share",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "preference-versus-performance",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "relative-cost-burden",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "nonmonotonic-growth",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "universal-claim-exception",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "aggregate-reversal",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "accuracy-without-delay",
+      "difficulty": "medium",
+      "questions": 32
+    }
+  ]
+}

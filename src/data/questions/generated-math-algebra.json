@@ -20306,5 +20306,3861 @@
     ],
     "answer": 3,
     "explanation": "The small items use $4(17)=68$ units, leaving $97$. Dividing by $5$ and taking the greatest whole number gives $19$. Counting both products without their different material requirements is invalid."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-001",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $2(x+8)+6=kx+32$ has no solution. What is $k$?",
+    "answer": [
+      "2"
+    ],
+    "explanation": "The left side expands to $2x+22$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=2$ leaves the false statement $22=32$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-002",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $8(x+4)+9=kx+50$ has no solution. What is $k$?",
+    "answer": [
+      "8"
+    ],
+    "explanation": "The left side expands to $8x+41$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=8$ leaves the false statement $41=50$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-003",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $6(x+14)+12=kx+103$ has no solution. What is $k$?",
+    "answer": [
+      "6"
+    ],
+    "explanation": "The left side expands to $6x+96$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=6$ leaves the false statement $96=103$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-004",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $14(x+4)+2=kx+71$ has no solution. What is $k$?",
+    "choices": [
+      "$56$",
+      "$58$",
+      "$71$",
+      "$14$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $14x+58$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=14$ leaves the false statement $58=71$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-005",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $6(x+4)+7=kx+46$ has no solution. What is $k$?",
+    "choices": [
+      "$6$",
+      "$24$",
+      "$31$",
+      "$46$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $6x+31$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=6$ leaves the false statement $31=46$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-006",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $2(x+8)+4=kx+35$ has no solution. What is $k$?",
+    "choices": [
+      "$16$",
+      "$2$",
+      "$20$",
+      "$35$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $2x+20$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=2$ leaves the false statement $20=35$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-007",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $2(x+9)+10=kx+44$ has no solution. What is $k$?",
+    "choices": [
+      "$18$",
+      "$28$",
+      "$2$",
+      "$44$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $2x+28$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=2$ leaves the false statement $28=44$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-008",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $3(x+4)+6=kx+37$ has no solution. What is $k$?",
+    "choices": [
+      "$12$",
+      "$18$",
+      "$37$",
+      "$3$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $3x+18$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=3$ leaves the false statement $18=37$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-009",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $5(x+18)+16=kx+114$ has no solution. What is $k$?",
+    "choices": [
+      "$5$",
+      "$90$",
+      "$106$",
+      "$114$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $5x+106$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=5$ leaves the false statement $106=114$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-010",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $4(x+14)+1=kx+69$ has no solution. What is $k$?",
+    "choices": [
+      "$56$",
+      "$4$",
+      "$57$",
+      "$69$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $4x+57$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=4$ leaves the false statement $57=69$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-011",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $14(x+3)+17=kx+78$ has no solution. What is $k$?",
+    "choices": [
+      "$42$",
+      "$59$",
+      "$14$",
+      "$78$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $14x+59$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=14$ leaves the false statement $59=78$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-012",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $7(x+17)+1=kx+134$ has no solution. What is $k$?",
+    "choices": [
+      "$119$",
+      "$120$",
+      "$134$",
+      "$7$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $7x+120$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=7$ leaves the false statement $120=134$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-013",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $8(x+9)+1=kx+86$ has no solution. What is $k$?",
+    "choices": [
+      "$8$",
+      "$72$",
+      "$73$",
+      "$86$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $8x+73$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=8$ leaves the false statement $73=86$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-014",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $11(x+9)+12=kx+128$ has no solution. What is $k$?",
+    "answer": [
+      "11"
+    ],
+    "explanation": "The left side expands to $11x+111$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=11$ leaves the false statement $111=128$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-015",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $11(x+8)+4=kx+110$ has no solution. What is $k$?",
+    "answer": [
+      "11"
+    ],
+    "explanation": "The left side expands to $11x+92$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=11$ leaves the false statement $92=110$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-016",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $3(x+16)+5=kx+70$ has no solution. What is $k$?",
+    "answer": [
+      "3"
+    ],
+    "explanation": "The left side expands to $3x+53$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=3$ leaves the false statement $53=70$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-017",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $7(x+3)+1=kx+31$ has no solution. What is $k$?",
+    "choices": [
+      "$7$",
+      "$21$",
+      "$22$",
+      "$31$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $7x+22$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=7$ leaves the false statement $22=31$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-018",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $10(x+12)+1=kx+141$ has no solution. What is $k$?",
+    "choices": [
+      "$120$",
+      "$10$",
+      "$121$",
+      "$141$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $10x+121$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=10$ leaves the false statement $121=141$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-019",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $5(x+11)+19=kx+80$ has no solution. What is $k$?",
+    "choices": [
+      "$55$",
+      "$74$",
+      "$5$",
+      "$80$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $5x+74$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=5$ leaves the false statement $74=80$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-020",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $6(x+4)+1=kx+37$ has no solution. What is $k$?",
+    "choices": [
+      "$24$",
+      "$25$",
+      "$37$",
+      "$6$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $6x+25$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=6$ leaves the false statement $25=37$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-021",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $12(x+3)+11=kx+65$ has no solution. What is $k$?",
+    "choices": [
+      "$12$",
+      "$36$",
+      "$47$",
+      "$65$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $12x+47$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=12$ leaves the false statement $47=65$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-022",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $12(x+16)+16=kx+212$ has no solution. What is $k$?",
+    "choices": [
+      "$192$",
+      "$12$",
+      "$208$",
+      "$212$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $12x+208$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=12$ leaves the false statement $208=212$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-023",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $12(x+10)+12=kx+152$ has no solution. What is $k$?",
+    "choices": [
+      "$120$",
+      "$132$",
+      "$12$",
+      "$152$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $12x+132$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=12$ leaves the false statement $132=152$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-024",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $4(x+3)+3=kx+29$ has no solution. What is $k$?",
+    "choices": [
+      "$12$",
+      "$15$",
+      "$29$",
+      "$4$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $4x+15$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=4$ leaves the false statement $15=29$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-025",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $11(x+15)+15=kx+185$ has no solution. What is $k$?",
+    "choices": [
+      "$11$",
+      "$165$",
+      "$180$",
+      "$185$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $11x+180$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=11$ leaves the false statement $180=185$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-026",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $11(x+13)+8=kx+158$ has no solution. What is $k$?",
+    "choices": [
+      "$143$",
+      "$11$",
+      "$151$",
+      "$158$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $11x+151$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=11$ leaves the false statement $151=158$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-027",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $13(x+16)+7=kx+228$ has no solution. What is $k$?",
+    "answer": [
+      "13"
+    ],
+    "explanation": "The left side expands to $13x+215$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=13$ leaves the false statement $215=228$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-028",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $13(x+5)+9=kx+81$ has no solution. What is $k$?",
+    "answer": [
+      "13"
+    ],
+    "explanation": "The left side expands to $13x+74$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=13$ leaves the false statement $74=81$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-029",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $11(x+18)+13=kx+222$ has no solution. What is $k$?",
+    "answer": [
+      "11"
+    ],
+    "explanation": "The left side expands to $11x+211$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=11$ leaves the false statement $211=222$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-030",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $8(x+9)+10=kx+91$ has no solution. What is $k$?",
+    "choices": [
+      "$72$",
+      "$8$",
+      "$82$",
+      "$91$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $8x+82$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=8$ leaves the false statement $82=91$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-031",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $2(x+16)+9=kx+56$ has no solution. What is $k$?",
+    "choices": [
+      "$32$",
+      "$41$",
+      "$2$",
+      "$56$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $2x+41$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=2$ leaves the false statement $41=56$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-032",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $4(x+5)+10=kx+31$ has no solution. What is $k$?",
+    "choices": [
+      "$20$",
+      "$30$",
+      "$31$",
+      "$4$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $4x+30$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=4$ leaves the false statement $30=31$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-033",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $3(x+15)+9=kx+66$ has no solution. What is $k$?",
+    "choices": [
+      "$3$",
+      "$45$",
+      "$54$",
+      "$66$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $3x+54$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=3$ leaves the false statement $54=66$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-034",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $10(x+14)+14=kx+158$ has no solution. What is $k$?",
+    "choices": [
+      "$140$",
+      "$10$",
+      "$154$",
+      "$158$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $10x+154$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=10$ leaves the false statement $154=158$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-035",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $11(x+6)+5=kx+84$ has no solution. What is $k$?",
+    "choices": [
+      "$66$",
+      "$71$",
+      "$11$",
+      "$84$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $11x+71$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=11$ leaves the false statement $71=84$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-036",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $3(x+3)+14=kx+25$ has no solution. What is $k$?",
+    "choices": [
+      "$9$",
+      "$23$",
+      "$25$",
+      "$3$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $3x+23$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=3$ leaves the false statement $23=25$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-037",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $11(x+12)+1=kx+135$ has no solution. What is $k$?",
+    "choices": [
+      "$11$",
+      "$132$",
+      "$133$",
+      "$135$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $11x+133$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=11$ leaves the false statement $133=135$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-038",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $11(x+6)+9=kx+76$ has no solution. What is $k$?",
+    "choices": [
+      "$66$",
+      "$11$",
+      "$75$",
+      "$76$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $11x+75$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=11$ leaves the false statement $75=76$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-039",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $8(x+9)+6=kx+91$ has no solution. What is $k$?",
+    "choices": [
+      "$72$",
+      "$78$",
+      "$8$",
+      "$91$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $8x+78$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=8$ leaves the false statement $78=91$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-040",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $6(x+2)+2=kx+19$ has no solution. What is $k$?",
+    "answer": [
+      "6"
+    ],
+    "explanation": "The left side expands to $6x+14$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=6$ leaves the false statement $14=19$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-041",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $5(x+2)+14=kx+26$ has no solution. What is $k$?",
+    "answer": [
+      "5"
+    ],
+    "explanation": "The left side expands to $5x+24$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=5$ leaves the false statement $24=26$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-042",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $4(x+17)+6=kx+76$ has no solution. What is $k$?",
+    "answer": [
+      "4"
+    ],
+    "explanation": "The left side expands to $4x+74$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=4$ leaves the false statement $74=76$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-043",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $5(x+5)+6=kx+49$ has no solution. What is $k$?",
+    "choices": [
+      "$25$",
+      "$31$",
+      "$5$",
+      "$49$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $5x+31$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=5$ leaves the false statement $31=49$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-044",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $4(x+2)+20=kx+35$ has no solution. What is $k$?",
+    "choices": [
+      "$8$",
+      "$28$",
+      "$35$",
+      "$4$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $4x+28$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=4$ leaves the false statement $28=35$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-045",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $2(x+6)+15=kx+38$ has no solution. What is $k$?",
+    "choices": [
+      "$2$",
+      "$12$",
+      "$27$",
+      "$38$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $2x+27$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=2$ leaves the false statement $27=38$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-046",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $6(x+8)+17=kx+76$ has no solution. What is $k$?",
+    "choices": [
+      "$48$",
+      "$6$",
+      "$65$",
+      "$76$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $6x+65$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=6$ leaves the false statement $65=76$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-047",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $9(x+15)+4=kx+150$ has no solution. What is $k$?",
+    "choices": [
+      "$135$",
+      "$139$",
+      "$9$",
+      "$150$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $9x+139$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=9$ leaves the false statement $139=150$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-048",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $4(x+7)+17=kx+59$ has no solution. What is $k$?",
+    "choices": [
+      "$28$",
+      "$45$",
+      "$59$",
+      "$4$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $4x+45$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=4$ leaves the false statement $45=59$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-049",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $5(x+7)+2=kx+54$ has no solution. What is $k$?",
+    "choices": [
+      "$5$",
+      "$35$",
+      "$37$",
+      "$54$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $5x+37$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=5$ leaves the false statement $37=54$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-050",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $5(x+6)+10=kx+42$ has no solution. What is $k$?",
+    "choices": [
+      "$30$",
+      "$5$",
+      "$40$",
+      "$42$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $5x+40$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=5$ leaves the false statement $40=42$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-051",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $14(x+6)+1=kx+101$ has no solution. What is $k$?",
+    "choices": [
+      "$84$",
+      "$85$",
+      "$14$",
+      "$101$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $14x+85$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=14$ leaves the false statement $85=101$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-052",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $7(x+17)+8=kx+140$ has no solution. What is $k$?",
+    "choices": [
+      "$119$",
+      "$127$",
+      "$140$",
+      "$7$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $7x+127$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=7$ leaves the false statement $127=140$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-053",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $8(x+2)+1=kx+22$ has no solution. What is $k$?",
+    "answer": [
+      "8"
+    ],
+    "explanation": "The left side expands to $8x+17$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=8$ leaves the false statement $17=22$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-054",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $10(x+14)+20=kx+175$ has no solution. What is $k$?",
+    "answer": [
+      "10"
+    ],
+    "explanation": "The left side expands to $10x+160$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=10$ leaves the false statement $160=175$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-055",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $5(x+18)+18=kx+120$ has no solution. What is $k$?",
+    "answer": [
+      "5"
+    ],
+    "explanation": "The left side expands to $5x+108$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=5$ leaves the false statement $108=120$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-056",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $11(x+2)+19=kx+61$ has no solution. What is $k$?",
+    "choices": [
+      "$22$",
+      "$41$",
+      "$61$",
+      "$11$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $11x+41$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=11$ leaves the false statement $41=61$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-057",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $12(x+12)+11=kx+167$ has no solution. What is $k$?",
+    "choices": [
+      "$12$",
+      "$144$",
+      "$155$",
+      "$167$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $12x+155$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=12$ leaves the false statement $155=167$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-058",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $14(x+2)+18=kx+65$ has no solution. What is $k$?",
+    "choices": [
+      "$28$",
+      "$14$",
+      "$46$",
+      "$65$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $14x+46$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=14$ leaves the false statement $46=65$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-059",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $5(x+9)+14=kx+75$ has no solution. What is $k$?",
+    "choices": [
+      "$45$",
+      "$59$",
+      "$5$",
+      "$75$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $5x+59$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=5$ leaves the false statement $59=75$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-060",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $11(x+3)+10=kx+51$ has no solution. What is $k$?",
+    "choices": [
+      "$33$",
+      "$43$",
+      "$51$",
+      "$11$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $11x+43$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=11$ leaves the false statement $43=51$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-061",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $10(x+14)+10=kx+164$ has no solution. What is $k$?",
+    "choices": [
+      "$10$",
+      "$140$",
+      "$150$",
+      "$164$"
+    ],
+    "answer": 0,
+    "explanation": "The left side expands to $10x+150$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=10$ leaves the false statement $150=164$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-062",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $6(x+15)+20=kx+123$ has no solution. What is $k$?",
+    "choices": [
+      "$90$",
+      "$6$",
+      "$110$",
+      "$123$"
+    ],
+    "answer": 1,
+    "explanation": "The left side expands to $6x+110$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=6$ leaves the false statement $110=123$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-063",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $7(x+8)+13=kx+82$ has no solution. What is $k$?",
+    "choices": [
+      "$56$",
+      "$69$",
+      "$7$",
+      "$82$"
+    ],
+    "answer": 2,
+    "explanation": "The left side expands to $7x+69$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=7$ leaves the false statement $69=82$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-parameter-no-solution-064",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "The equation $7(x+15)+9=kx+118$ has no solution. What is $k$?",
+    "choices": [
+      "$105$",
+      "$114$",
+      "$118$",
+      "$7$"
+    ],
+    "answer": 3,
+    "explanation": "The left side expands to $7x+114$. No solution occurs when the variable coefficients agree but the constants differ. Thus $k=7$ leaves the false statement $114=118$. Any other coefficient gives one solution."
+  },
+  {
+    "id": "m-gen-system-linear-combination-001",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $9x+7y=-5$ and $10x+7y=-11$. What is $39x+28y$?",
+    "answer": [
+      "-38"
+    ],
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $39x+28y$ and the right side is $-5+3(-11)=-38$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-002",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $3x+7y=40$ and $4x+7y=58$. What is $27x+49y$?",
+    "answer": [
+      "388"
+    ],
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $27x+49y$ and the right side is $40+6(58)=388$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-003",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+6y=-14$ and $9x+6y=-12$. What is $44x+30y$?",
+    "answer": [
+      "-62"
+    ],
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $44x+30y$ and the right side is $-14+4(-12)=-62$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-004",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $3x+5y=-41$ and $4x+5y=-48$. What is $19x+25y$?",
+    "choices": [
+      "$-233$",
+      "$-89$",
+      "$-356$",
+      "$151$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $19x+25y$ and the right side is $-41+4(-48)=-233$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-005",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $7x+2y=-32$ and $8x+2y=-36$. What is $39x+10y$?",
+    "choices": [
+      "$-68$",
+      "$-176$",
+      "$-272$",
+      "$112$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $39x+10y$ and the right side is $-32+4(-36)=-176$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-006",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $2x+6y=78$ and $3x+6y=78$. What is $17x+36y$?",
+    "choices": [
+      "$156$",
+      "$780$",
+      "$468$",
+      "$-312$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $17x+36y$ and the right side is $78+5(78)=468$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-007",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+3y=-40$ and $9x+3y=-48$. What is $53x+18y$?",
+    "choices": [
+      "$-88$",
+      "$-440$",
+      "$200$",
+      "$-280$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $53x+18y$ and the right side is $-40+5(-48)=-280$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-008",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+5y=11$ and $9x+5y=8$. What is $62x+35y$?",
+    "choices": [
+      "$59$",
+      "$19$",
+      "$114$",
+      "$-37$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $62x+35y$ and the right side is $11+6(8)=59$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-009",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $6x+9y=9$ and $7x+9y=9$. What is $27x+36y$?",
+    "choices": [
+      "$18$",
+      "$36$",
+      "$54$",
+      "$-18$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $27x+36y$ and the right side is $9+3(9)=36$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-010",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+7y=-83$ and $9x+7y=-89$. What is $35x+28y$?",
+    "choices": [
+      "$-172$",
+      "$-516$",
+      "$-350$",
+      "$184$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $35x+28y$ and the right side is $-83+3(-89)=-350$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-011",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+3y=76$ and $5x+3y=92$. What is $34x+21y$?",
+    "choices": [
+      "$168$",
+      "$1008$",
+      "$-476$",
+      "$628$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $34x+21y$ and the right side is $76+6(92)=628$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-012",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+7y=43$ and $5x+7y=45$. What is $29x+42y$?",
+    "choices": [
+      "$268$",
+      "$88$",
+      "$440$",
+      "$-182$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $29x+42y$ and the right side is $43+5(45)=268$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-013",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $5x+5y=120$ and $6x+5y=137$. What is $35x+30y$?",
+    "choices": [
+      "$257$",
+      "$805$",
+      "$1285$",
+      "$-565$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $35x+30y$ and the right side is $120+5(137)=805$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-014",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $2x+4y=46$ and $3x+4y=59$. What is $11x+16y$?",
+    "answer": [
+      "223"
+    ],
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $11x+16y$ and the right side is $46+3(59)=223$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-015",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $7x+5y=54$ and $8x+5y=61$. What is $47x+30y$?",
+    "answer": [
+      "359"
+    ],
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $47x+30y$ and the right side is $54+5(61)=359$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-016",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $7x+6y=-10$ and $8x+6y=-14$. What is $39x+30y$?",
+    "answer": [
+      "-66"
+    ],
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $39x+30y$ and the right side is $-10+4(-14)=-66$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-017",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $3x+4y=25$ and $4x+4y=24$. What is $19x+20y$?",
+    "choices": [
+      "$49$",
+      "$121$",
+      "$196$",
+      "$-71$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $19x+20y$ and the right side is $25+4(24)=121$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-018",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $6x+7y=-36$ and $7x+7y=-42$. What is $41x+42y$?",
+    "choices": [
+      "$-78$",
+      "$-390$",
+      "$-246$",
+      "$174$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $41x+42y$ and the right side is $-36+5(-42)=-246$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-019",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $2x+7y=-7$ and $3x+7y=0$. What is $20x+49y$?",
+    "choices": [
+      "$-42$",
+      "$-6$",
+      "$-8$",
+      "$-7$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $20x+49y$ and the right side is $-7+6(0)=-7$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-020",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+8y=128$ and $9x+8y=142$. What is $26x+24y$?",
+    "choices": [
+      "$412$",
+      "$270$",
+      "$540$",
+      "$-156$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $2$ times the second. The left side becomes $26x+24y$ and the right side is $128+2(142)=412$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-021",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $2x+6y=-48$ and $3x+6y=-48$. What is $14x+30y$?",
+    "choices": [
+      "$-96$",
+      "$-240$",
+      "$-384$",
+      "$144$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $14x+30y$ and the right side is $-48+4(-48)=-240$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-022",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $6x+2y=44$ and $7x+2y=48$. What is $48x+14y$?",
+    "choices": [
+      "$92$",
+      "$552$",
+      "$332$",
+      "$-244$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $48x+14y$ and the right side is $44+6(48)=332$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-023",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+3y=76$ and $5x+3y=86$. What is $34x+21y$?",
+    "choices": [
+      "$162$",
+      "$972$",
+      "$-440$",
+      "$592$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $34x+21y$ and the right side is $76+6(86)=592$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-024",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+7y=44$ and $9x+7y=46$. What is $62x+49y$?",
+    "choices": [
+      "$320$",
+      "$90$",
+      "$540$",
+      "$-232$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $62x+49y$ and the right side is $44+6(46)=320$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-025",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $7x+3y=-2$ and $8x+3y=-4$. What is $39x+15y$?",
+    "choices": [
+      "$-6$",
+      "$-18$",
+      "$-24$",
+      "$14$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $39x+15y$ and the right side is $-2+4(-4)=-18$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-026",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+6y=28$ and $9x+6y=24$. What is $35x+24y$?",
+    "choices": [
+      "$52$",
+      "$156$",
+      "$100$",
+      "$-44$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $35x+24y$ and the right side is $28+3(24)=100$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-027",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $6x+7y=94$ and $7x+7y=98$. What is $20x+21y$?",
+    "answer": [
+      "290"
+    ],
+    "explanation": "Add the first equation to $2$ times the second. The left side becomes $20x+21y$ and the right side is $94+2(98)=290$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-028",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+5y=37$ and $5x+5y=50$. What is $19x+20y$?",
+    "answer": [
+      "187"
+    ],
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $19x+20y$ and the right side is $37+3(50)=187$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-029",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $7x+9y=-38$ and $8x+9y=-37$. What is $31x+36y$?",
+    "answer": [
+      "-149"
+    ],
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $31x+36y$ and the right side is $-38+3(-37)=-149$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-030",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $3x+5y=118$ and $4x+5y=134$. What is $15x+20y$?",
+    "choices": [
+      "$252$",
+      "$756$",
+      "$520$",
+      "$-284$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $15x+20y$ and the right side is $118+3(134)=520$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-031",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+5y=26$ and $5x+5y=20$. What is $19x+20y$?",
+    "choices": [
+      "$46$",
+      "$138$",
+      "$-34$",
+      "$86$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $19x+20y$ and the right side is $26+3(20)=86$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-032",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $6x+7y=155$ and $7x+7y=161$. What is $48x+49y$?",
+    "choices": [
+      "$1121$",
+      "$316$",
+      "$1896$",
+      "$-811$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $48x+49y$ and the right side is $155+6(161)=1121$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-033",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $9x+8y=51$ and $10x+8y=54$. What is $39x+32y$?",
+    "choices": [
+      "$105$",
+      "$213$",
+      "$315$",
+      "$-111$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $39x+32y$ and the right side is $51+3(54)=213$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-034",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $5x+2y=18$ and $6x+2y=24$. What is $23x+8y$?",
+    "choices": [
+      "$42$",
+      "$126$",
+      "$90$",
+      "$-54$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $23x+8y$ and the right side is $18+3(24)=90$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-035",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+7y=70$ and $5x+7y=84$. What is $34x+49y$?",
+    "choices": [
+      "$154$",
+      "$924$",
+      "$-434$",
+      "$574$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $34x+49y$ and the right side is $70+6(84)=574$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-036",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $6x+2y=32$ and $7x+2y=39$. What is $34x+10y$?",
+    "choices": [
+      "$188$",
+      "$71$",
+      "$284$",
+      "$-124$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $34x+10y$ and the right side is $32+4(39)=188$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-037",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+6y=34$ and $5x+6y=44$. What is $34x+42y$?",
+    "choices": [
+      "$78$",
+      "$298$",
+      "$468$",
+      "$-230$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $34x+42y$ and the right side is $34+6(44)=298$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-038",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $3x+4y=24$ and $4x+4y=40$. What is $19x+20y$?",
+    "choices": [
+      "$64$",
+      "$256$",
+      "$184$",
+      "$-136$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $19x+20y$ and the right side is $24+4(40)=184$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-039",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $6x+8y=8$ and $7x+8y=0$. What is $34x+40y$?",
+    "choices": [
+      "$32$",
+      "$9$",
+      "$7$",
+      "$8$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $34x+40y$ and the right side is $8+4(0)=8$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-040",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+3y=87$ and $5x+3y=105$. What is $29x+18y$?",
+    "answer": [
+      "612"
+    ],
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $29x+18y$ and the right side is $87+5(105)=612$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-041",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $9x+7y=-38$ and $10x+7y=-43$. What is $59x+42y$?",
+    "answer": [
+      "-253"
+    ],
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $59x+42y$ and the right side is $-38+5(-43)=-253$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-042",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+7y=-31$ and $5x+7y=-30$. What is $29x+42y$?",
+    "answer": [
+      "-181"
+    ],
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $29x+42y$ and the right side is $-31+5(-30)=-181$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-043",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $5x+7y=52$ and $6x+7y=47$. What is $29x+35y$?",
+    "choices": [
+      "$99$",
+      "$396$",
+      "$-136$",
+      "$240$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $29x+35y$ and the right side is $52+4(47)=240$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-044",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $5x+6y=-20$ and $6x+6y=-18$. What is $41x+42y$?",
+    "choices": [
+      "$-128$",
+      "$-38$",
+      "$-228$",
+      "$88$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $41x+42y$ and the right side is $-20+6(-18)=-128$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-045",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $5x+5y=90$ and $6x+5y=95$. What is $17x+15y$?",
+    "choices": [
+      "$185$",
+      "$280$",
+      "$370$",
+      "$-100$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $2$ times the second. The left side becomes $17x+15y$ and the right side is $90+2(95)=280$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-046",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+7y=-28$ and $5x+7y=-35$. What is $29x+42y$?",
+    "choices": [
+      "$-63$",
+      "$-315$",
+      "$-203$",
+      "$147$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $29x+42y$ and the right side is $-28+5(-35)=-203$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-047",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+9y=236$ and $9x+9y=252$. What is $62x+63y$?",
+    "choices": [
+      "$488$",
+      "$2928$",
+      "$-1276$",
+      "$1748$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $62x+63y$ and the right side is $236+6(252)=1748$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-048",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $4x+2y=80$ and $5x+2y=92$. What is $14x+6y$?",
+    "choices": [
+      "$264$",
+      "$172$",
+      "$344$",
+      "$-104$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $2$ times the second. The left side becomes $14x+6y$ and the right side is $80+2(92)=264$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-049",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $2x+2y=42$ and $3x+2y=47$. What is $14x+10y$?",
+    "choices": [
+      "$89$",
+      "$230$",
+      "$356$",
+      "$-146$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $14x+10y$ and the right side is $42+4(47)=230$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-050",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $6x+6y=-42$ and $7x+6y=-42$. What is $41x+36y$?",
+    "choices": [
+      "$-84$",
+      "$-420$",
+      "$-252$",
+      "$168$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $41x+36y$ and the right side is $-42+5(-42)=-252$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-051",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $7x+2y=55$ and $8x+2y=58$. What is $39x+10y$?",
+    "choices": [
+      "$113$",
+      "$452$",
+      "$-177$",
+      "$287$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $4$ times the second. The left side becomes $39x+10y$ and the right side is $55+4(58)=287$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-052",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $2x+7y=133$ and $3x+7y=140$. What is $11x+28y$?",
+    "choices": [
+      "$553$",
+      "$273$",
+      "$819$",
+      "$-287$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $11x+28y$ and the right side is $133+3(140)=553$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-053",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $5x+5y=-10$ and $6x+5y=-13$. What is $35x+30y$?",
+    "answer": [
+      "-75"
+    ],
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $35x+30y$ and the right side is $-10+5(-13)=-75$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-054",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $2x+7y=93$ and $3x+7y=108$. What is $20x+49y$?",
+    "answer": [
+      "741"
+    ],
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $20x+49y$ and the right side is $93+6(108)=741$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-055",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $9x+6y=-6$ and $10x+6y=-14$. What is $69x+42y$?",
+    "answer": [
+      "-90"
+    ],
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $69x+42y$ and the right side is $-6+6(-14)=-90$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-056",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $3x+7y=-47$ and $4x+7y=-44$. What is $23x+42y$?",
+    "choices": [
+      "$-267$",
+      "$-91$",
+      "$-455$",
+      "$173$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $23x+42y$ and the right side is $-47+5(-44)=-267$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-057",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $2x+9y=117$ and $3x+9y=117$. What is $20x+63y$?",
+    "choices": [
+      "$234$",
+      "$819$",
+      "$1404$",
+      "$-585$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $20x+63y$ and the right side is $117+6(117)=819$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-058",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+9y=-14$ and $9x+9y=-18$. What is $35x+36y$?",
+    "choices": [
+      "$-32$",
+      "$-96$",
+      "$-68$",
+      "$40$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $35x+36y$ and the right side is $-14+3(-18)=-68$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-059",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+7y=240$ and $9x+7y=256$. What is $35x+28y$?",
+    "choices": [
+      "$496$",
+      "$1488$",
+      "$-528$",
+      "$1008$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $35x+28y$ and the right side is $240+3(256)=1008$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-060",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $3x+4y=21$ and $4x+4y=28$. What is $15x+16y$?",
+    "choices": [
+      "$105$",
+      "$49$",
+      "$147$",
+      "$-63$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $15x+16y$ and the right side is $21+3(28)=105$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-061",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $8x+3y=40$ and $9x+3y=45$. What is $62x+21y$?",
+    "choices": [
+      "$85$",
+      "$310$",
+      "$510$",
+      "$-230$"
+    ],
+    "answer": 1,
+    "explanation": "Add the first equation to $6$ times the second. The left side becomes $62x+21y$ and the right side is $40+6(45)=310$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-062",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $2x+5y=-50$ and $3x+5y=-55$. What is $11x+20y$?",
+    "choices": [
+      "$-105$",
+      "$-315$",
+      "$-215$",
+      "$115$"
+    ],
+    "answer": 2,
+    "explanation": "Add the first equation to $3$ times the second. The left side becomes $11x+20y$ and the right side is $-50+3(-55)=-215$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-063",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $5x+2y=107$ and $6x+2y=122$. What is $17x+6y$?",
+    "choices": [
+      "$229$",
+      "$458$",
+      "$-137$",
+      "$351$"
+    ],
+    "answer": 3,
+    "explanation": "Add the first equation to $2$ times the second. The left side becomes $17x+6y$ and the right side is $107+2(122)=351$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-system-linear-combination-064",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "The numbers $x$ and $y$ satisfy $6x+9y=-42$ and $7x+9y=-43$. What is $41x+54y$?",
+    "choices": [
+      "$-257$",
+      "$-85$",
+      "$-425$",
+      "$173$"
+    ],
+    "answer": 0,
+    "explanation": "Add the first equation to $5$ times the second. The left side becomes $41x+54y$ and the right side is $-42+5(-43)=-257$. The target combines both equations; multiplying just one does not produce both required coefficients."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-001",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $10x+9y=27$ and $63x+ky=41$ are perpendicular. What is $k$?",
+    "answer": [
+      "-70"
+    ],
+    "explanation": "The first slope is $-\\frac{10}{9}$. A perpendicular slope is $\\frac{9}{10}$. The second slope is $-\\frac{63}{k}$, so $-\\frac{63}{k}=\\frac{9}{10}$, giving $k=-70$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-002",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $5x+9y=14$ and $36x+ky=14$ are perpendicular. What is $k$?",
+    "answer": [
+      "-20"
+    ],
+    "explanation": "The first slope is $-\\frac{5}{9}$. A perpendicular slope is $\\frac{9}{5}$. The second slope is $-\\frac{36}{k}$, so $-\\frac{36}{k}=\\frac{9}{5}$, giving $k=-20$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-003",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $9x+4y=27$ and $24x+ky=39$ are perpendicular. What is $k$?",
+    "answer": [
+      "-54"
+    ],
+    "explanation": "The first slope is $-\\frac{9}{4}$. A perpendicular slope is $\\frac{4}{9}$. The second slope is $-\\frac{24}{k}$, so $-\\frac{24}{k}=\\frac{4}{9}$, giving $k=-54$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-004",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $4x+3y=25$ and $12x+ky=7$ are perpendicular. What is $k$?",
+    "choices": [
+      "$16$",
+      "$-16$",
+      "$12$",
+      "$-12$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{4}{3}$. A perpendicular slope is $\\frac{3}{4}$. The second slope is $-\\frac{12}{k}$, so $-\\frac{12}{k}=\\frac{3}{4}$, giving $k=-16$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-005",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $6x+10y=50$ and $70x+ky=32$ are perpendicular. What is $k$?",
+    "choices": [
+      "$42$",
+      "$70$",
+      "$-42$",
+      "$-70$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{6}{10}$. A perpendicular slope is $\\frac{10}{6}$. The second slope is $-\\frac{70}{k}$, so $-\\frac{70}{k}=\\frac{10}{6}$, giving $k=-42$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-006",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $6x+4y=12$ and $36x+ky=14$ are perpendicular. What is $k$?",
+    "choices": [
+      "$54$",
+      "$36$",
+      "$-36$",
+      "$-54$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{6}{4}$. A perpendicular slope is $\\frac{4}{6}$. The second slope is $-\\frac{36}{k}$, so $-\\frac{36}{k}=\\frac{4}{6}$, giving $k=-54$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-007",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $2x+3y=17$ and $27x+ky=21$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-18$",
+      "$18$",
+      "$27$",
+      "$-27$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{2}{3}$. A perpendicular slope is $\\frac{3}{2}$. The second slope is $-\\frac{27}{k}$, so $-\\frac{27}{k}=\\frac{3}{2}$, giving $k=-18$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-008",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $2x+2y=41$ and $10x+ky=32$ are perpendicular. What is $k$?",
+    "choices": [
+      "$10$",
+      "$-10$",
+      "$-9$",
+      "$-11$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{2}{2}$. A perpendicular slope is $\\frac{2}{2}$. The second slope is $-\\frac{10}{k}$, so $-\\frac{10}{k}=\\frac{2}{2}$, giving $k=-10$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-009",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $10x+3y=13$ and $30x+ky=44$ are perpendicular. What is $k$?",
+    "choices": [
+      "$100$",
+      "$30$",
+      "$-100$",
+      "$-30$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{10}{3}$. A perpendicular slope is $\\frac{3}{10}$. The second slope is $-\\frac{30}{k}$, so $-\\frac{30}{k}=\\frac{3}{10}$, giving $k=-100$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-010",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $10x+10y=14$ and $20x+ky=47$ are perpendicular. What is $k$?",
+    "choices": [
+      "$20$",
+      "$-19$",
+      "$-21$",
+      "$-20$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{10}{10}$. A perpendicular slope is $\\frac{10}{10}$. The second slope is $-\\frac{20}{k}$, so $-\\frac{20}{k}=\\frac{10}{10}$, giving $k=-20$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-011",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $8x+3y=46$ and $30x+ky=35$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-80$",
+      "$80$",
+      "$30$",
+      "$-30$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{8}{3}$. A perpendicular slope is $\\frac{3}{8}$. The second slope is $-\\frac{30}{k}$, so $-\\frac{30}{k}=\\frac{3}{8}$, giving $k=-80$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-012",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $11x+9y=35$ and $81x+ky=11$ are perpendicular. What is $k$?",
+    "choices": [
+      "$99$",
+      "$-99$",
+      "$81$",
+      "$-81$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{11}{9}$. A perpendicular slope is $\\frac{9}{11}$. The second slope is $-\\frac{81}{k}$, so $-\\frac{81}{k}=\\frac{9}{11}$, giving $k=-99$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-013",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $7x+5y=47$ and $40x+ky=32$ are perpendicular. What is $k$?",
+    "choices": [
+      "$56$",
+      "$40$",
+      "$-56$",
+      "$-40$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{7}{5}$. A perpendicular slope is $\\frac{5}{7}$. The second slope is $-\\frac{40}{k}$, so $-\\frac{40}{k}=\\frac{5}{7}$, giving $k=-56$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-014",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+10y=7$ and $70x+ky=41$ are perpendicular. What is $k$?",
+    "answer": [
+      "-84"
+    ],
+    "explanation": "The first slope is $-\\frac{12}{10}$. A perpendicular slope is $\\frac{10}{12}$. The second slope is $-\\frac{70}{k}$, so $-\\frac{70}{k}=\\frac{10}{12}$, giving $k=-84$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-015",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $9x+10y=38$ and $70x+ky=24$ are perpendicular. What is $k$?",
+    "answer": [
+      "-63"
+    ],
+    "explanation": "The first slope is $-\\frac{9}{10}$. A perpendicular slope is $\\frac{10}{9}$. The second slope is $-\\frac{70}{k}$, so $-\\frac{70}{k}=\\frac{10}{9}$, giving $k=-63$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-016",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+4y=10$ and $8x+ky=7$ are perpendicular. What is $k$?",
+    "answer": [
+      "-24"
+    ],
+    "explanation": "The first slope is $-\\frac{12}{4}$. A perpendicular slope is $\\frac{4}{12}$. The second slope is $-\\frac{8}{k}$, so $-\\frac{8}{k}=\\frac{4}{12}$, giving $k=-24$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-017",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+5y=17$ and $20x+ky=30$ are perpendicular. What is $k$?",
+    "choices": [
+      "$48$",
+      "$20$",
+      "$-48$",
+      "$-20$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{12}{5}$. A perpendicular slope is $\\frac{5}{12}$. The second slope is $-\\frac{20}{k}$, so $-\\frac{20}{k}=\\frac{5}{12}$, giving $k=-48$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-018",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $10x+4y=49$ and $20x+ky=41$ are perpendicular. What is $k$?",
+    "choices": [
+      "$50$",
+      "$20$",
+      "$-20$",
+      "$-50$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{10}{4}$. A perpendicular slope is $\\frac{4}{10}$. The second slope is $-\\frac{20}{k}$, so $-\\frac{20}{k}=\\frac{4}{10}$, giving $k=-50$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-019",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $3x+10y=23$ and $60x+ky=25$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-18$",
+      "$18$",
+      "$60$",
+      "$-60$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{3}{10}$. A perpendicular slope is $\\frac{10}{3}$. The second slope is $-\\frac{60}{k}$, so $-\\frac{60}{k}=\\frac{10}{3}$, giving $k=-18$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-020",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $2x+3y=5$ and $12x+ky=43$ are perpendicular. What is $k$?",
+    "choices": [
+      "$8$",
+      "$-8$",
+      "$12$",
+      "$-12$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{2}{3}$. A perpendicular slope is $\\frac{3}{2}$. The second slope is $-\\frac{12}{k}$, so $-\\frac{12}{k}=\\frac{3}{2}$, giving $k=-8$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-021",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $4x+4y=20$ and $24x+ky=27$ are perpendicular. What is $k$?",
+    "choices": [
+      "$24$",
+      "$-23$",
+      "$-24$",
+      "$-25$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{4}{4}$. A perpendicular slope is $\\frac{4}{4}$. The second slope is $-\\frac{24}{k}$, so $-\\frac{24}{k}=\\frac{4}{4}$, giving $k=-24$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-022",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $8x+8y=11$ and $72x+ky=6$ are perpendicular. What is $k$?",
+    "choices": [
+      "$72$",
+      "$-71$",
+      "$-73$",
+      "$-72$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{8}{8}$. A perpendicular slope is $\\frac{8}{8}$. The second slope is $-\\frac{72}{k}$, so $-\\frac{72}{k}=\\frac{8}{8}$, giving $k=-72$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-023",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+2y=9$ and $8x+ky=42$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-48$",
+      "$48$",
+      "$8$",
+      "$-8$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{12}{2}$. A perpendicular slope is $\\frac{2}{12}$. The second slope is $-\\frac{8}{k}$, so $-\\frac{8}{k}=\\frac{2}{12}$, giving $k=-48$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-024",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $4x+2y=9$ and $16x+ky=22$ are perpendicular. What is $k$?",
+    "choices": [
+      "$32$",
+      "$-32$",
+      "$16$",
+      "$-16$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{4}{2}$. A perpendicular slope is $\\frac{2}{4}$. The second slope is $-\\frac{16}{k}$, so $-\\frac{16}{k}=\\frac{2}{4}$, giving $k=-32$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-025",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $11x+5y=23$ and $10x+ky=47$ are perpendicular. What is $k$?",
+    "choices": [
+      "$22$",
+      "$10$",
+      "$-22$",
+      "$-10$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{11}{5}$. A perpendicular slope is $\\frac{5}{11}$. The second slope is $-\\frac{10}{k}$, so $-\\frac{10}{k}=\\frac{5}{11}$, giving $k=-22$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-026",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $9x+6y=47$ and $36x+ky=50$ are perpendicular. What is $k$?",
+    "choices": [
+      "$54$",
+      "$36$",
+      "$-36$",
+      "$-54$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{9}{6}$. A perpendicular slope is $\\frac{6}{9}$. The second slope is $-\\frac{36}{k}$, so $-\\frac{36}{k}=\\frac{6}{9}$, giving $k=-54$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-027",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+10y=19$ and $50x+ky=44$ are perpendicular. What is $k$?",
+    "answer": [
+      "-60"
+    ],
+    "explanation": "The first slope is $-\\frac{12}{10}$. A perpendicular slope is $\\frac{10}{12}$. The second slope is $-\\frac{50}{k}$, so $-\\frac{50}{k}=\\frac{10}{12}$, giving $k=-60$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-028",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $6x+7y=17$ and $56x+ky=49$ are perpendicular. What is $k$?",
+    "answer": [
+      "-48"
+    ],
+    "explanation": "The first slope is $-\\frac{6}{7}$. A perpendicular slope is $\\frac{7}{6}$. The second slope is $-\\frac{56}{k}$, so $-\\frac{56}{k}=\\frac{7}{6}$, giving $k=-48$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-029",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $8x+11y=9$ and $44x+ky=24$ are perpendicular. What is $k$?",
+    "answer": [
+      "-32"
+    ],
+    "explanation": "The first slope is $-\\frac{8}{11}$. A perpendicular slope is $\\frac{11}{8}$. The second slope is $-\\frac{44}{k}$, so $-\\frac{44}{k}=\\frac{11}{8}$, giving $k=-32$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-030",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $3x+5y=39$ and $25x+ky=11$ are perpendicular. What is $k$?",
+    "choices": [
+      "$15$",
+      "$25$",
+      "$-25$",
+      "$-15$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{3}{5}$. A perpendicular slope is $\\frac{5}{3}$. The second slope is $-\\frac{25}{k}$, so $-\\frac{25}{k}=\\frac{5}{3}$, giving $k=-15$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-031",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $11x+2y=50$ and $8x+ky=21$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-44$",
+      "$44$",
+      "$8$",
+      "$-8$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{11}{2}$. A perpendicular slope is $\\frac{2}{11}$. The second slope is $-\\frac{8}{k}$, so $-\\frac{8}{k}=\\frac{2}{11}$, giving $k=-44$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-032",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $7x+2y=36$ and $16x+ky=42$ are perpendicular. What is $k$?",
+    "choices": [
+      "$56$",
+      "$-56$",
+      "$16$",
+      "$-16$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{7}{2}$. A perpendicular slope is $\\frac{2}{7}$. The second slope is $-\\frac{16}{k}$, so $-\\frac{16}{k}=\\frac{2}{7}$, giving $k=-56$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-033",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $11x+2y=25$ and $16x+ky=26$ are perpendicular. What is $k$?",
+    "choices": [
+      "$88$",
+      "$16$",
+      "$-88$",
+      "$-16$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{11}{2}$. A perpendicular slope is $\\frac{2}{11}$. The second slope is $-\\frac{16}{k}$, so $-\\frac{16}{k}=\\frac{2}{11}$, giving $k=-88$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-034",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $10x+5y=13$ and $30x+ky=18$ are perpendicular. What is $k$?",
+    "choices": [
+      "$60$",
+      "$30$",
+      "$-30$",
+      "$-60$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{10}{5}$. A perpendicular slope is $\\frac{5}{10}$. The second slope is $-\\frac{30}{k}$, so $-\\frac{30}{k}=\\frac{5}{10}$, giving $k=-60$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-035",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $8x+11y=24$ and $110x+ky=26$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-80$",
+      "$80$",
+      "$110$",
+      "$-110$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{8}{11}$. A perpendicular slope is $\\frac{11}{8}$. The second slope is $-\\frac{110}{k}$, so $-\\frac{110}{k}=\\frac{11}{8}$, giving $k=-80$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-036",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $5x+9y=21$ and $18x+ky=25$ are perpendicular. What is $k$?",
+    "choices": [
+      "$10$",
+      "$-10$",
+      "$18$",
+      "$-18$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{5}{9}$. A perpendicular slope is $\\frac{9}{5}$. The second slope is $-\\frac{18}{k}$, so $-\\frac{18}{k}=\\frac{9}{5}$, giving $k=-10$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-037",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $2x+4y=16$ and $28x+ky=22$ are perpendicular. What is $k$?",
+    "choices": [
+      "$14$",
+      "$28$",
+      "$-14$",
+      "$-28$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{2}{4}$. A perpendicular slope is $\\frac{4}{2}$. The second slope is $-\\frac{28}{k}$, so $-\\frac{28}{k}=\\frac{4}{2}$, giving $k=-14$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-038",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $11x+6y=45$ and $42x+ky=40$ are perpendicular. What is $k$?",
+    "choices": [
+      "$77$",
+      "$42$",
+      "$-42$",
+      "$-77$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{11}{6}$. A perpendicular slope is $\\frac{6}{11}$. The second slope is $-\\frac{42}{k}$, so $-\\frac{42}{k}=\\frac{6}{11}$, giving $k=-77$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-039",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $5x+11y=39$ and $66x+ky=19$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-30$",
+      "$30$",
+      "$66$",
+      "$-66$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{5}{11}$. A perpendicular slope is $\\frac{11}{5}$. The second slope is $-\\frac{66}{k}$, so $-\\frac{66}{k}=\\frac{11}{5}$, giving $k=-30$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-040",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $6x+6y=22$ and $42x+ky=16$ are perpendicular. What is $k$?",
+    "answer": [
+      "-42"
+    ],
+    "explanation": "The first slope is $-\\frac{6}{6}$. A perpendicular slope is $\\frac{6}{6}$. The second slope is $-\\frac{42}{k}$, so $-\\frac{42}{k}=\\frac{6}{6}$, giving $k=-42$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-041",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+5y=48$ and $45x+ky=24$ are perpendicular. What is $k$?",
+    "answer": [
+      "-108"
+    ],
+    "explanation": "The first slope is $-\\frac{12}{5}$. A perpendicular slope is $\\frac{5}{12}$. The second slope is $-\\frac{45}{k}$, so $-\\frac{45}{k}=\\frac{5}{12}$, giving $k=-108$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-042",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $11x+12y=33$ and $84x+ky=26$ are perpendicular. What is $k$?",
+    "answer": [
+      "-77"
+    ],
+    "explanation": "The first slope is $-\\frac{11}{12}$. A perpendicular slope is $\\frac{12}{11}$. The second slope is $-\\frac{84}{k}$, so $-\\frac{84}{k}=\\frac{12}{11}$, giving $k=-77$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-043",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $2x+6y=5$ and $36x+ky=23$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-12$",
+      "$12$",
+      "$36$",
+      "$-36$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{2}{6}$. A perpendicular slope is $\\frac{6}{2}$. The second slope is $-\\frac{36}{k}$, so $-\\frac{36}{k}=\\frac{6}{2}$, giving $k=-12$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-044",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+2y=31$ and $14x+ky=10$ are perpendicular. What is $k$?",
+    "choices": [
+      "$84$",
+      "$-84$",
+      "$14$",
+      "$-14$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{12}{2}$. A perpendicular slope is $\\frac{2}{12}$. The second slope is $-\\frac{14}{k}$, so $-\\frac{14}{k}=\\frac{2}{12}$, giving $k=-84$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-045",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+11y=48$ and $110x+ky=41$ are perpendicular. What is $k$?",
+    "choices": [
+      "$120$",
+      "$110$",
+      "$-120$",
+      "$-110$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{12}{11}$. A perpendicular slope is $\\frac{11}{12}$. The second slope is $-\\frac{110}{k}$, so $-\\frac{110}{k}=\\frac{11}{12}$, giving $k=-120$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-046",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $3x+11y=17$ and $99x+ky=23$ are perpendicular. What is $k$?",
+    "choices": [
+      "$27$",
+      "$99$",
+      "$-99$",
+      "$-27$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{3}{11}$. A perpendicular slope is $\\frac{11}{3}$. The second slope is $-\\frac{99}{k}$, so $-\\frac{99}{k}=\\frac{11}{3}$, giving $k=-27$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-047",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+10y=14$ and $80x+ky=23$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-96$",
+      "$96$",
+      "$80$",
+      "$-80$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{12}{10}$. A perpendicular slope is $\\frac{10}{12}$. The second slope is $-\\frac{80}{k}$, so $-\\frac{80}{k}=\\frac{10}{12}$, giving $k=-96$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-048",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $4x+8y=38$ and $64x+ky=43$ are perpendicular. What is $k$?",
+    "choices": [
+      "$32$",
+      "$-32$",
+      "$64$",
+      "$-64$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{4}{8}$. A perpendicular slope is $\\frac{8}{4}$. The second slope is $-\\frac{64}{k}$, so $-\\frac{64}{k}=\\frac{8}{4}$, giving $k=-32$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-049",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+12y=41$ and $36x+ky=30$ are perpendicular. What is $k$?",
+    "choices": [
+      "$36$",
+      "$-35$",
+      "$-36$",
+      "$-37$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{12}{12}$. A perpendicular slope is $\\frac{12}{12}$. The second slope is $-\\frac{36}{k}$, so $-\\frac{36}{k}=\\frac{12}{12}$, giving $k=-36$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-050",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $11x+5y=41$ and $35x+ky=36$ are perpendicular. What is $k$?",
+    "choices": [
+      "$77$",
+      "$35$",
+      "$-35$",
+      "$-77$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{11}{5}$. A perpendicular slope is $\\frac{5}{11}$. The second slope is $-\\frac{35}{k}$, so $-\\frac{35}{k}=\\frac{5}{11}$, giving $k=-77$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-051",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $7x+5y=25$ and $50x+ky=50$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-70$",
+      "$70$",
+      "$50$",
+      "$-50$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{7}{5}$. A perpendicular slope is $\\frac{5}{7}$. The second slope is $-\\frac{50}{k}$, so $-\\frac{50}{k}=\\frac{5}{7}$, giving $k=-70$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-052",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $2x+10y=35$ and $90x+ky=35$ are perpendicular. What is $k$?",
+    "choices": [
+      "$18$",
+      "$-18$",
+      "$90$",
+      "$-90$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{2}{10}$. A perpendicular slope is $\\frac{10}{2}$. The second slope is $-\\frac{90}{k}$, so $-\\frac{90}{k}=\\frac{10}{2}$, giving $k=-18$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-053",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $12x+7y=33$ and $21x+ky=27$ are perpendicular. What is $k$?",
+    "answer": [
+      "-36"
+    ],
+    "explanation": "The first slope is $-\\frac{12}{7}$. A perpendicular slope is $\\frac{7}{12}$. The second slope is $-\\frac{21}{k}$, so $-\\frac{21}{k}=\\frac{7}{12}$, giving $k=-36$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-054",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $9x+11y=30$ and $99x+ky=46$ are perpendicular. What is $k$?",
+    "answer": [
+      "-81"
+    ],
+    "explanation": "The first slope is $-\\frac{9}{11}$. A perpendicular slope is $\\frac{11}{9}$. The second slope is $-\\frac{99}{k}$, so $-\\frac{99}{k}=\\frac{11}{9}$, giving $k=-81$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-055",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $8x+9y=20$ and $36x+ky=24$ are perpendicular. What is $k$?",
+    "answer": [
+      "-32"
+    ],
+    "explanation": "The first slope is $-\\frac{8}{9}$. A perpendicular slope is $\\frac{9}{8}$. The second slope is $-\\frac{36}{k}$, so $-\\frac{36}{k}=\\frac{9}{8}$, giving $k=-32$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-056",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $5x+5y=25$ and $35x+ky=41$ are perpendicular. What is $k$?",
+    "choices": [
+      "$35$",
+      "$-35$",
+      "$-34$",
+      "$-36$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{5}{5}$. A perpendicular slope is $\\frac{5}{5}$. The second slope is $-\\frac{35}{k}$, so $-\\frac{35}{k}=\\frac{5}{5}$, giving $k=-35$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-057",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $4x+11y=48$ and $110x+ky=36$ are perpendicular. What is $k$?",
+    "choices": [
+      "$40$",
+      "$110$",
+      "$-40$",
+      "$-110$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{4}{11}$. A perpendicular slope is $\\frac{11}{4}$. The second slope is $-\\frac{110}{k}$, so $-\\frac{110}{k}=\\frac{11}{4}$, giving $k=-40$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-058",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $10x+10y=25$ and $80x+ky=18$ are perpendicular. What is $k$?",
+    "choices": [
+      "$80$",
+      "$-79$",
+      "$-81$",
+      "$-80$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{10}{10}$. A perpendicular slope is $\\frac{10}{10}$. The second slope is $-\\frac{80}{k}$, so $-\\frac{80}{k}=\\frac{10}{10}$, giving $k=-80$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-059",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $11x+4y=18$ and $28x+ky=37$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-77$",
+      "$77$",
+      "$28$",
+      "$-28$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{11}{4}$. A perpendicular slope is $\\frac{4}{11}$. The second slope is $-\\frac{28}{k}$, so $-\\frac{28}{k}=\\frac{4}{11}$, giving $k=-77$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-060",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $5x+9y=25$ and $45x+ky=21$ are perpendicular. What is $k$?",
+    "choices": [
+      "$25$",
+      "$-25$",
+      "$45$",
+      "$-45$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{5}{9}$. A perpendicular slope is $\\frac{9}{5}$. The second slope is $-\\frac{45}{k}$, so $-\\frac{45}{k}=\\frac{9}{5}$, giving $k=-25$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-061",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $9x+3y=18$ and $27x+ky=28$ are perpendicular. What is $k$?",
+    "choices": [
+      "$81$",
+      "$27$",
+      "$-81$",
+      "$-27$"
+    ],
+    "answer": 2,
+    "explanation": "The first slope is $-\\frac{9}{3}$. A perpendicular slope is $\\frac{3}{9}$. The second slope is $-\\frac{27}{k}$, so $-\\frac{27}{k}=\\frac{3}{9}$, giving $k=-81$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-062",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $9x+7y=48$ and $14x+ky=33$ are perpendicular. What is $k$?",
+    "choices": [
+      "$18$",
+      "$14$",
+      "$-14$",
+      "$-18$"
+    ],
+    "answer": 3,
+    "explanation": "The first slope is $-\\frac{9}{7}$. A perpendicular slope is $\\frac{7}{9}$. The second slope is $-\\frac{14}{k}$, so $-\\frac{14}{k}=\\frac{7}{9}$, giving $k=-18$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-063",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $8x+11y=6$ and $88x+ky=39$ are perpendicular. What is $k$?",
+    "choices": [
+      "$-64$",
+      "$64$",
+      "$88$",
+      "$-88$"
+    ],
+    "answer": 0,
+    "explanation": "The first slope is $-\\frac{8}{11}$. A perpendicular slope is $\\frac{11}{8}$. The second slope is $-\\frac{88}{k}$, so $-\\frac{88}{k}=\\frac{11}{8}$, giving $k=-64$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-perpendicular-standard-parameter-064",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The lines $8x+9y=20$ and $36x+ky=17$ are perpendicular. What is $k$?",
+    "choices": [
+      "$32$",
+      "$-32$",
+      "$36$",
+      "$-36$"
+    ],
+    "answer": 1,
+    "explanation": "The first slope is $-\\frac{8}{9}$. A perpendicular slope is $\\frac{9}{8}$. The second slope is $-\\frac{36}{k}$, so $-\\frac{36}{k}=\\frac{9}{8}$, giving $k=-32$. Perpendicular slopes are negative reciprocals, not equal slopes."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-001",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=12x- 12$ and $g(x)=3f(x-2)+15$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-93"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=3f(-2)+15$. Since $f(-2)=-36$, this is $3(-36)+15=-93$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-002",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=10x- 21$ and $g(x)=5f(x-9)+9$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-546"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=5f(-9)+9$. Since $f(-9)=-111$, this is $5(-111)+9=-546$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-003",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=4x- 3$ and $g(x)=2f(x-5)+14$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-32"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=2f(-5)+14$. Since $f(-5)=-23$, this is $2(-23)+14=-32$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-004",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=12x- 15$ and $g(x)=7f(x-7)+13$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-92$",
+      "$496$",
+      "$-680$",
+      "$-86$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=7f(-7)+13$. Since $f(-7)=-99$, this is $7(-99)+13=-680$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-005",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=7x+ 21$ and $g(x)=8f(x-4)+8$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$176$",
+      "$400$",
+      "$1$",
+      "$-48$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=8f(-4)+8$. Since $f(-4)=-7$, this is $8(-7)+8=-48$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-006",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=4x+ 3$ and $g(x)=3f(x-8)+5$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-82$",
+      "$14$",
+      "$110$",
+      "$-24$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=3f(-8)+5$. Since $f(-8)=-29$, this is $3(-29)+5=-82$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-007",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=12x+ 3$ and $g(x)=9f(x-14)+17$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$44$",
+      "$-1468$",
+      "$1556$",
+      "$-148$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=9f(-14)+17$. Since $f(-14)=-165$, this is $9(-165)+17=-1468$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-008",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=10x+ 18$ and $g(x)=2f(x-5)+17$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$53$",
+      "$153$",
+      "$-47$",
+      "$-15$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=2f(-5)+17$. Since $f(-5)=-32$, this is $2(-32)+17=-47$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-009",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=4x- 16$ and $g(x)=4f(x-2)+8$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-56$",
+      "$-24$",
+      "$-16$",
+      "$-88$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=4f(-2)+8$. Since $f(-2)=-24$, this is $4(-24)+8=-88$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-010",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=7x- 23$ and $g(x)=5f(x-13)+2$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-568$",
+      "$-113$",
+      "$342$",
+      "$-112$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=5f(-13)+2$. Since $f(-13)=-114$, this is $5(-114)+2=-568$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-011",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=12x- 2$ and $g(x)=5f(x-9)+6$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-4$",
+      "$-544$",
+      "$536$",
+      "$-104$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=5f(-9)+6$. Since $f(-9)=-110$, this is $5(-110)+6=-544$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-012",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=2x+ 9$ and $g(x)=3f(x-6)+3$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$30$",
+      "$66$",
+      "$-6$",
+      "$0$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=3f(-6)+3$. Since $f(-6)=-3$, this is $3(-3)+3=-6$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-013",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=4x+ 21$ and $g(x)=5f(x-13)+6$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$111$",
+      "$371$",
+      "$-25$",
+      "$-149$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=5f(-13)+6$. Since $f(-13)=-31$, this is $5(-31)+6=-149$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-014",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=8x- 20$ and $g(x)=7f(x-9)+12$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-632"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=7f(-9)+12$. Since $f(-9)=-92$, this is $7(-92)+12=-632$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-015",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=7x- 8$ and $g(x)=2f(x-3)+8$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-50"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=2f(-3)+8$. Since $f(-3)=-29$, this is $2(-29)+8=-50$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-016",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=7x- 11$ and $g(x)=4f(x-8)+17$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-251"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=4f(-8)+17$. Since $f(-8)=-67$, this is $4(-67)+17=-251$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-017",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=12x+ 12$ and $g(x)=9f(x-10)+8$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$116$",
+      "$1196$",
+      "$-100$",
+      "$-964$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=9f(-10)+8$. Since $f(-10)=-108$, this is $9(-108)+8=-964$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-018",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=8x+ 17$ and $g(x)=7f(x-6)+2$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-215$",
+      "$121$",
+      "$457$",
+      "$-29$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=7f(-6)+2$. Since $f(-6)=-31$, this is $7(-31)+2=-215$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-019",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=7x- 24$ and $g(x)=2f(x-8)+5$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-43$",
+      "$-155$",
+      "$69$",
+      "$-75$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=2f(-8)+5$. Since $f(-8)=-80$, this is $2(-80)+5=-155$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-020",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=10x+ 17$ and $g(x)=3f(x-8)+12$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$63$",
+      "$303$",
+      "$-177$",
+      "$-51$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=3f(-8)+12$. Since $f(-8)=-63$, this is $3(-63)+12=-177$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-021",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=3x+ 11$ and $g(x)=8f(x-13)+2$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$90$",
+      "$402$",
+      "$-26$",
+      "$-222$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=8f(-13)+2$. Since $f(-13)=-28$, this is $8(-28)+2=-222$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-022",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=9x- 14$ and $g(x)=4f(x-5)+11$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-225$",
+      "$-45$",
+      "$135$",
+      "$-48$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=4f(-5)+11$. Since $f(-5)=-59$, this is $4(-59)+11=-225$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-023",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=7x- 17$ and $g(x)=8f(x-6)+10$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-126$",
+      "$-462$",
+      "$210$",
+      "$-49$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=8f(-6)+10$. Since $f(-6)=-59$, this is $8(-59)+10=-462$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-024",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=5x- 20$ and $g(x)=8f(x-6)+8$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-152$",
+      "$88$",
+      "$-392$",
+      "$-42$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=8f(-6)+8$. Since $f(-6)=-50$, this is $8(-50)+8=-392$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-025",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=12x+ 15$ and $g(x)=8f(x-12)+4$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$124$",
+      "$1276$",
+      "$-125$",
+      "$-1028$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=8f(-12)+4$. Since $f(-12)=-129$, this is $8(-129)+4=-1028$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-026",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=7x- 1$ and $g(x)=5f(x-12)+20$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-405$",
+      "$15$",
+      "$435$",
+      "$-65$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=5f(-12)+20$. Since $f(-12)=-85$, this is $5(-85)+20=-405$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-027",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=9x+ 11$ and $g(x)=8f(x-13)+7$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-841"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=8f(-13)+7$. Since $f(-13)=-106$, this is $8(-106)+7=-841$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-028",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=9x- 3$ and $g(x)=7f(x-4)+10$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-263"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=7f(-4)+10$. Since $f(-4)=-39$, this is $7(-39)+10=-263$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-029",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=3x+ 17$ and $g(x)=8f(x-4)+4$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "44"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=8f(-4)+4$. Since $f(-4)=5$, this is $8(5)+4=44$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-030",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=8x- 2$ and $g(x)=6f(x-10)+20$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-472$",
+      "$8$",
+      "$488$",
+      "$-62$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=6f(-10)+20$. Since $f(-10)=-82$, this is $6(-82)+20=-472$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-031",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=10x+ 19$ and $g(x)=5f(x-3)+18$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$113$",
+      "$-37$",
+      "$263$",
+      "$7$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=5f(-3)+18$. Since $f(-3)=-11$, this is $5(-11)+18=-37$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-032",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=4x+ 17$ and $g(x)=2f(x-9)+12$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$46$",
+      "$118$",
+      "$-26$",
+      "$-7$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=2f(-9)+12$. Since $f(-9)=-19$, this is $2(-19)+12=-26$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-033",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=3x- 10$ and $g(x)=4f(x-11)+2$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-38$",
+      "$94$",
+      "$-41$",
+      "$-170$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=4f(-11)+2$. Since $f(-11)=-43$, this is $4(-43)+2=-170$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-034",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=9x- 14$ and $g(x)=5f(x-2)+7$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-153$",
+      "$-63$",
+      "$27$",
+      "$-25$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=5f(-2)+7$. Since $f(-2)=-32$, this is $5(-32)+7=-153$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-035",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=6x- 3$ and $g(x)=2f(x-11)+2$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-4$",
+      "$-136$",
+      "$128$",
+      "$-67$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=2f(-11)+2$. Since $f(-11)=-69$, this is $2(-69)+2=-136$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-036",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=12x- 4$ and $g(x)=5f(x-6)+11$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-9$",
+      "$351$",
+      "$-369$",
+      "$-65$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=5f(-6)+11$. Since $f(-6)=-76$, this is $5(-76)+11=-369$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-037",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=3x+ 12$ and $g(x)=9f(x-11)+14$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$122$",
+      "$419$",
+      "$-7$",
+      "$-175$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=9f(-11)+14$. Since $f(-11)=-21$, this is $9(-21)+14=-175$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-038",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=3x- 6$ and $g(x)=4f(x-6)+19$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-77$",
+      "$-5$",
+      "$67$",
+      "$-76$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=4f(-6)+19$. Since $f(-6)=-24$, this is $4(-24)+19=-77$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-039",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=4x- 3$ and $g(x)=3f(x-13)+17$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$8$",
+      "$-148$",
+      "$164$",
+      "$-38$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=3f(-13)+17$. Since $f(-13)=-55$, this is $3(-55)+17=-148$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-040",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=2x- 21$ and $g(x)=3f(x-11)+3$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-126"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=3f(-11)+3$. Since $f(-11)=-43$, this is $3(-43)+3=-126$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-041",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=2x+ 23$ and $g(x)=6f(x-12)+11$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "5"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=6f(-12)+11$. Since $f(-12)=-1$, this is $6(-1)+11=5$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-042",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=11x- 1$ and $g(x)=8f(x-5)+18$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-430"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=8f(-5)+18$. Since $f(-5)=-56$, this is $8(-56)+18=-430$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-043",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=10x+ 7$ and $g(x)=6f(x-9)+8$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$50$",
+      "$-490$",
+      "$590$",
+      "$-75$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=6f(-9)+8$. Since $f(-9)=-83$, this is $6(-83)+8=-490$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-044",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=8x+ 23$ and $g(x)=8f(x-5)+16$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$200$",
+      "$520$",
+      "$-120$",
+      "$-1$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=8f(-5)+16$. Since $f(-5)=-17$, this is $8(-17)+16=-120$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-045",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=2x- 24$ and $g(x)=4f(x-11)+7$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-89$",
+      "$-1$",
+      "$-39$",
+      "$-177$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=4f(-11)+7$. Since $f(-11)=-46$, this is $4(-46)+7=-177$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-046",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=4x- 2$ and $g(x)=4f(x-14)+2$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-230$",
+      "$-6$",
+      "$218$",
+      "$-56$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=4f(-14)+2$. Since $f(-14)=-58$, this is $4(-58)+2=-230$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-047",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=5x+ 12$ and $g(x)=2f(x-13)+11$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$35$",
+      "$-95$",
+      "$165$",
+      "$-42$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=2f(-13)+11$. Since $f(-13)=-53$, this is $2(-53)+11=-95$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-048",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=4x+ 7$ and $g(x)=6f(x-5)+9$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$51$",
+      "$171$",
+      "$-69$",
+      "$-4$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=6f(-5)+9$. Since $f(-5)=-13$, this is $6(-13)+9=-69$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-049",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=4x- 4$ and $g(x)=8f(x-6)+15$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-17$",
+      "$175$",
+      "$-13$",
+      "$-209$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=8f(-6)+15$. Since $f(-6)=-28$, this is $8(-28)+15=-209$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-050",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=5x- 21$ and $g(x)=6f(x-7)+14$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-322$",
+      "$-112$",
+      "$98$",
+      "$-42$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=6f(-7)+14$. Since $f(-7)=-56$, this is $6(-56)+14=-322$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-051",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=11x+ 17$ and $g(x)=9f(x-10)+6$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$159$",
+      "$-831$",
+      "$1149$",
+      "$-87$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=9f(-10)+6$. Since $f(-10)=-93$, this is $9(-93)+6=-831$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-052",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=5x+ 14$ and $g(x)=4f(x-13)+20$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$76$",
+      "$336$",
+      "$-184$",
+      "$-31$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=4f(-13)+20$. Since $f(-13)=-51$, this is $4(-51)+20=-184$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-053",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=10x- 2$ and $g(x)=9f(x-7)+12$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-636"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=9f(-7)+12$. Since $f(-7)=-72$, this is $9(-72)+12=-636$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-054",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=6x- 4$ and $g(x)=4f(x-12)+10$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-294"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=4f(-12)+10$. Since $f(-12)=-76$, this is $4(-76)+10=-294$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-055",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=11x- 9$ and $g(x)=2f(x-4)+20$. What is the $y$-intercept of the graph of $g$?",
+    "answer": [
+      "-86"
+    ],
+    "explanation": "The $y$-intercept is $g(0)=2f(-4)+20$. Since $f(-4)=-53$, this is $2(-53)+20=-86$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-056",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=12x+ 14$ and $g(x)=5f(x-15)+4$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$74$",
+      "$974$",
+      "$-826$",
+      "$-162$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=5f(-15)+4$. Since $f(-15)=-166$, this is $5(-166)+4=-826$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-057",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=7x- 17$ and $g(x)=2f(x-3)+3$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-31$",
+      "$11$",
+      "$-35$",
+      "$-73$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=2f(-3)+3$. Since $f(-3)=-38$, this is $2(-38)+3=-73$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-058",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=10x- 6$ and $g(x)=2f(x-11)+7$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-225$",
+      "$-5$",
+      "$215$",
+      "$-109$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=2f(-11)+7$. Since $f(-11)=-116$, this is $2(-116)+7=-225$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-059",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=8x+ 2$ and $g(x)=4f(x-9)+7$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$15$",
+      "$-273$",
+      "$303$",
+      "$-63$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=4f(-9)+7$. Since $f(-9)=-70$, this is $4(-70)+7=-273$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-060",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=4x- 15$ and $g(x)=9f(x-13)+7$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-128$",
+      "$340$",
+      "$-596$",
+      "$-60$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=9f(-13)+7$. Since $f(-13)=-67$, this is $9(-67)+7=-596$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-061",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=12x+ 21$ and $g(x)=4f(x-5)+16$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$100$",
+      "$340$",
+      "$-23$",
+      "$-140$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept is $g(0)=4f(-5)+16$. Since $f(-5)=-39$, this is $4(-39)+16=-140$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-062",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=3x+ 0$ and $g(x)=8f(x-4)+13$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$-83$",
+      "$13$",
+      "$109$",
+      "$1$"
+    ],
+    "answer": 0,
+    "explanation": "The $y$-intercept is $g(0)=8f(-4)+13$. Since $f(-4)=-12$, this is $8(-12)+13=-83$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-063",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=6x+ 23$ and $g(x)=4f(x-2)+15$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$107$",
+      "$59$",
+      "$155$",
+      "$26$"
+    ],
+    "answer": 1,
+    "explanation": "The $y$-intercept is $g(0)=4f(-2)+15$. Since $f(-2)=11$, this is $4(11)+15=59$. Apply the shift inside $f$ before the outside scaling and addition."
+  },
+  {
+    "id": "m-gen-transformed-linear-intercept-064",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Let $f(x)=3x+ 22$ and $g(x)=2f(x-13)+18$. What is the $y$-intercept of the graph of $g$?",
+    "choices": [
+      "$62$",
+      "$140$",
+      "$-16$",
+      "$1$"
+    ],
+    "answer": 2,
+    "explanation": "The $y$-intercept is $g(0)=2f(-13)+18$. Since $f(-13)=-17$, this is $2(-17)+18=-16$. Apply the shift inside $f$ before the outside scaling and addition."
   }
 ]
