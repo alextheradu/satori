@@ -1,0 +1,103 @@
+{
+  "provenance": "Original structured practice: 16 task patterns applied to 32 fictional project comparisons. Construction/relevance tags and numerical facts are checked; not independent natural-language certification.",
+  "contexts": 32,
+  "total": 512,
+  "families": [
+    {
+      "family": "shared-purpose",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "method-contrast",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "introduce-unfamiliar-project",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "compare-pilot-sizes",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "chronological-order",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "easy",
+      "questions": 32
+    },
+    {
+      "family": "explain-a-design-rationale",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "identify-b-method",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "limit-pilot-size-inference",
+      "skill": "Rhetorical Synthesis",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "contrasting-methods",
+      "skill": "Transitions",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "similar-purpose",
+      "skill": "Transitions",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "illustrating-a-general-point",
+      "skill": "Transitions",
+      "difficulty": "easy",
+      "questions": 32
+    },
+    {
+      "family": "inferring-introduction-order",
+      "skill": "Transitions",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "consequence-of-pilot-counts",
+      "skill": "Transitions",
+      "difficulty": "medium",
+      "questions": 32
+    },
+    {
+      "family": "later-event-sequence",
+      "skill": "Transitions",
+      "difficulty": "easy",
+      "questions": 32
+    },
+    {
+      "family": "concession-to-cost",
+      "skill": "Transitions",
+      "difficulty": "hard",
+      "questions": 32
+    },
+    {
+      "family": "restating-design-purpose",
+      "skill": "Transitions",
+      "difficulty": "hard",
+      "questions": 32
+    }
+  ]
+}

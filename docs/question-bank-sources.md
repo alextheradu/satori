@@ -1,16 +1,19 @@
 # Question bank expansion and practice sources
 
-The app now contains **8,488 questions**, up from 512. All bundled additions are original SAT-style practice, with answers, explanations, domain/skill labels, and difficulty labels. Difficulty labels are editorial estimates, not calibrated College Board difficulty ratings.
+The app now contains **10,920 questions**, up from 512. All bundled additions are original SAT-style practice, with answers, explanations, domain/skill labels, and difficulty labels. Difficulty labels are editorial estimates, not calibrated College Board difficulty ratings.
 
 | Bundled material | Count | What the count represents |
 |---|---:|---|
 | Existing questions | 512 | Original bank retained with stable IDs |
 | New generated math | 7,680 | 64 numerical variants for each of 120 authored problem families |
-| New conceptual statistics | 24 | Individually written questions, including sampling, causation, experiments, and spread |
-| New Reading and Writing | 272 | Individually written questions with distinct passages or sentence-completion contexts across all 11 skills |
-| Total | **8,488** | Questions available in practice and test selection |
+| New conceptual statistics | 88 | Individually written questions, including sampling, causation, experiments, and spread |
+| New individually written Reading and Writing | 592 | Individually written questions with distinct passages or sentence-completion contexts across all 11 skills |
+| New table-evidence Reading and Writing | 512 | 32 numerical variants for each of 16 authored evidence families |
+| New grammar and punctuation variants | 1,024 | 16 rule families applied to 64 original contexts |
+| New Expression of Ideas variants | 512 | 16 task patterns applied to 32 original fictional project comparisons |
+| Total | **10,920** | Questions available in practice and test selection |
 
-The 7,680 generated items are numerical variants, not 7,680 independently invented problem structures. They are useful for repetition of a skill. The Reading and Writing expansion uses distinct authored contexts rather than swapping names into a repeated passage. Studies, institutions, stories, and named people invented for these passages are identified as hypothetical or fictional.
+The 7,680 generated math items and 512 table-evidence reading items are numerical variants. The 1,024 grammar additions apply 16 controlled rule patterns to 64 original contexts. The additional 512 Expression of Ideas variants apply 16 task patterns to 32 fictional project comparisons. These 9,728 variants are not 9,728 independently invented problem structures. They are useful for repetition of a skill. The separate 592 individually written Reading and Writing additions use distinct authored contexts rather than swapping names into a repeated passage. Studies, institutions, stories, and named people invented for these passages are identified as hypothetical or fictional.
 
 ## Coverage
 
@@ -18,12 +21,12 @@ The 7,680 generated items are numerical variants, not 7,680 independently invent
 |---|---|---:|
 | Math | Algebra | 1,664 |
 | Math | Advanced Math | 2,176 |
-| Math | Problem-Solving and Data Analysis | 2,200 |
+| Math | Problem-Solving and Data Analysis | 2,264 |
 | Math | Geometry and Trigonometry | 1,920 |
-| Reading and Writing | Craft and Structure | 136 |
-| Reading and Writing | Information and Ideas | 152 |
-| Reading and Writing | Expression of Ideas | 118 |
-| Reading and Writing | Standard English Conventions | 122 |
+| Reading and Writing | Craft and Structure | 264 |
+| Reading and Writing | Information and Ideas | 760 |
+| Reading and Writing | Expression of Ideas | 710 |
+| Reading and Writing | Standard English Conventions | 1,162 |
 
 All 19 math skills and all 11 Reading and Writing skills used by this bank receive new questions. Family count measures distinct templates rather than skill count.
 
@@ -32,8 +35,8 @@ All 19 math skills and all 11 Reading and Writing skills used by this bank recei
 - `npm run questions:generate` regenerates the committed JSON from the original content in `scripts/question-bank/`.
 - `npm run validate` checks structure, unique IDs, unique stimulus/prompt pairs, numeric answers, answer positions, and KaTeX syntax. It then regenerates in memory and compares output with the committed additions, including forward-model checks of numerical answers and checks that only one numerical option satisfies each problem.
 - `npm run build` validates and builds the frontend and backend.
-- `npm run questions:runtime`, after building, loads the actual production bank, checks it against the source JSON, exercises the app's grader, renders every question's text using the app's markup component, checks table and blank rendering, and exercises balanced module selection with exclusions for both sections and all three difficulty routes.
-- `docs/math-generation-report.json` lists each numerical family, its skill, difficulty, and count.
+- `npm run questions:runtime`, after building, loads the actual production bank, checks it against the source JSON, exercises the app's grader, renders every question's text using the app's markup component, checks table and blank rendering, and exercises balanced module selection with exclusions for both sections and all three difficulty routes, including skill balance within each domain.
+- `docs/math-generation-report.json` lists each math family, its skill, difficulty, and count. `docs/quantitative-reading-report.json` records the 16 table-evidence families and their counts. `docs/conventions-generation-report.json` lists grammar families and the 64-context count. Grammar checks validate controlled head numbers, choice-construction tags, completed blanks, distinct choices, and unique stimuli; they do not independently certify natural-language interpretation. The table generator checks numeric assertions and its authored relevance classifications; it does not independently certify natural-language interpretation.
 
 Automated checks do not replace an independent editorial review of passage interpretation, distractor quality, or difficulty. They do check mathematical consistency, integration, and structural/rendering correctness.
 
@@ -82,7 +85,34 @@ Publisher pages were checked on **2026-11-18**. External questions are linked in
 | [Acely](https://acely.com/pricing) | Free account includes an assessment, one SAT practice test, and 10 practice questions | No card for free account; full-bank trial is separate, card-based, and time-limited |
 | [1600.io resource trial](https://www.1600.io/p/sat-resources-free-trial) | Trial access to Math Orange Book material and explanations for official practice-test questions | One-week trial, not an unlimited free question bank; continued membership paid |
 
-The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 8,488-question total. Free-test offers and account requirements can change.
+| [Test Ninjas sampler](https://test-ninjas.com/sat-practice-questions) | 16 public questions across all eight domains, with explanations | Free, no account for the sampler; broader products may be paid |
+| [Resolve Prep](https://resolveprep.com/pricing) | One free full-length test | Free plan explains only half the questions; full bank and other explanations paid |
+| [blueberry](https://www.blueberrysat.com/free-sat-practice-tests) | Publisher lists eight SAT and three PSAT tests | Its listed SAT modules have nonstandard question counts and timing; supplemental practice rather than an exact digital SAT rehearsal |
+| [PrepSolution](https://prepsolution.com/free-practice/sat) | 20-question Math and Reading and Writing sampler | Free to start; email required to unlock the results summary |
+| [Sharp public question](https://getsharp.app/tools/sat-question-of-the-day) | Public question page with choice explanations | Free, no signup for the displayed question |
+| [SAT Owl PDFs](https://satowl.com/sat-practice-test-pdf) | Three original printable tests with keys and alternate second modules | Free downloads without signup; includes both second-module routes rather than counting every PDF question as one sitting |
+| [SAT Climb questions](https://satclimb.com/sat-questions) | Publisher lists 775 public hard questions | No account for questions; separate diagnostic requests email for its result |
+| [Preply section tests](https://preply.com/en/math-science-tests/sat) | Two fixed 24-question section diagnostics | Free without signup; not full-length or adaptive |
+
+| [The Critical Reader quizzes](https://thecriticalreader.com/quizzes/) | SAT/ACT grammar and reading quizzes plus archived questions | Public quiz index; some exercises use older formats |
+| [theSATfix grammar](https://www.thesatfix.com/sat-grammar-practice) | Public grammar and transition samples with explanations | Public samples; account-based expanded practice linked |
+| [Sharp grammar workbook](https://getsharp.app/tools/sat-grammar-workbook) | Publisher describes 40 questions across 10 grammar topics with explained answers | Email signup requested for PDF download |
+| [Quiz Portal conventions](https://quizportal.info/sat/standard-english-conventions-practice/) | Publisher lists 21 original grammar and punctuation questions | Free to start; account optional for saved progress |
+| [1600.now grammar worksheet](https://1600.now/sat-form-structure-sense-worksheet) | Twelve questions, student and explained-answer PDF versions | Public worksheet; use the publisher's download links |
+| [EagleTeach Math module](https://www.eagleteach.com/practice-tests/digital-sat-math) | 22 questions in 35 minutes, with worked solutions | Free module; name/email form on the start page; not a full adaptive test |
+
+| [CookSAT synthesis bank](https://cooksat.com/sat-training-bank/reading-writing/expression-of-ideas/rhetorical-synthesis) | Publisher lists 204 questions with difficulty and subskill filters | Public skill page; content may overlap other collections |
+| [CookSAT transitions bank](https://cooksat.com/sat-training-bank/reading-writing/expression-of-ideas/transitions) | Publisher lists 194 questions | Public skill page; treat provider counts separately from the bundled bank |
+| [SAT Practice Bot transitions](https://satpracticebot.com/practice/reading/transitions) | Original examples with worked explanations and relationship-identification guidance | Public practice page |
+| [PeakSAT synthesis](https://www.peaksat.com/practice/rhetorical-synthesis) | Page lists nine original examples | Public examples; expanded platform/trial access separate |
+| [FreeTestPrep synthesis](https://freetestprep.com/sat-reading-writing/hard-rhetorical-synthesis/) | Publisher lists 30 free drills, five questions each | Free drills with explanations of all choices |
+| [FreeTestPrep transitions](https://freetestprep.com/sat-reading-writing/hard-transitions/) | Publisher lists 150 original questions in 30 drills | Free harder transition practice with explanations |
+| [Open Practice Tests synthesis](https://openpracticetests.org/sat/english/expression-of-ideas/rhetorical-synthesis/practice/) | 36 listed untimed exercises | Publicly readable; JavaScript for checking and local progress |
+| [Aniko synthesis bank](https://www.aniko.ai/free-resources/sat/question-bank/reading/expression-of-ideas/rhetorical-synthesis) | Free topic catalog lists 250 questions with explanations | Check broader platform/account access separately |
+| [Sophic question bank](https://www.sophiclearning.com/sat/question-bank) | Publisher lists 180 questions across Math and Reading and Writing | Questions and choice explanations publicly readable; free account for saved practice |
+| [SingleStepSAT Math](https://singlestepsat.com/sat/math/) | Skill pages across four domains; statistical-claims page contains 12 exercises | Public worked examples and practice with distractor explanations |
+
+The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 10,920-question total. Free-test offers and account requirements can change.
 
 ## Additional Reading and Writing batch
 
@@ -91,6 +121,38 @@ The second authored batch adds 144 questions: 96 reading questions and 48 writin
 ## Additional harder-math batch
 
 The next numerical batch adds 2,048 variants from 32 new families, appended after the earlier 88 families. Topics include extraneous radical solutions, strict discriminant bounds, reciprocal roots, transformed zeros, second differences, perpendicular lines, chord and tangent geometry, truncated-cone volume, conditional probabilities across groups, dilution, and combined means. This batch adds 1,856 questions labeled hard and 192 labeled medium. All 6,440 prior questions were compared with a saved baseline and remained identical, including IDs, answers, and choice order.
+
+## Table-evidence and additional authored batch
+
+The next batch adds 512 table-evidence variants plus 64 individually written questions in Craft and Structure, Expression of Ideas, and Standard English Conventions. The evidence families cover changes versus endpoints, proportional versus absolute recovery, totals versus rates, differing treatment effects, plateaus, partial recovery, narrowing gaps, adoption versus usage, center versus range, participation share, preference versus performance, relative costs, nonmonotonic outcomes, counterexamples, aggregate reversals, and errors versus time.
+
+All 8,488 prior questions were verified unchanged against a saved baseline. The timed selector now balances skills within each domain as well as domains, so the larger table-evidence pool does not crowd out central ideas, textual evidence, and inference questions. This is an editorial variety policy, not a claim to reproduce College Board’s exact assembly algorithm.
+
+## Controlled grammar batch
+
+The next batch adds 1,024 grammar and punctuation variants, increasing Reading and Writing to 2,128 questions. Each of 16 rule families is applied to 64 authored contexts. The families cover singular and plural agreement with intervening phrases, auxiliary agreement, past perfect, introductory modifiers, parallel verbs, possessives, introductory dependent clauses, nonessential commas, semicolons, explanatory colons, compound predicates, paired dashes, independent sentences, and complex lists.
+
+The rule-pattern review removed a pronoun distractor that could refer to an alternative plural antecedent and replaced a punctuation option that relied on stylistic consistency alone. All 9,064 earlier questions are retained unchanged. Timed selection continues to balance skills within each domain.
+
+## Individually written reading batch
+
+A further 96 individually written questions add 16 each in Central Ideas and Details, Inferences, Command of Evidence (Textual), Text Structure and Purpose, Cross-Text Connections, and Words in Context. They include original poems and prose narratives, both-author agreement questions, methodological critiques, alternative explanations, and quotation selection. The passages contain 25–71 whitespace-delimited words. Their format follows the [College Board short-passage description](https://satsuite.collegeboard.org/sat/whats-on-the-test/reading-writing) and [question-stem guidance](https://satsuite.collegeboard.org/practice/student-question-bank/reading-writing), while the texts and choices are original.
+
+`docs/literary-reading-report.json` records this batch's counts, skill coverage, poem count, and word-length range. Reproducibility checks cover it, and generation enforces a 25–150-word range for the batch. All 10,088 earlier question records remain unchanged. Reading and Writing now contains 2,224 questions.
+
+## Expression of Ideas batch
+
+A further 576 questions add 256 generated rhetorical-synthesis variants, 256 generated transition variants, and 64 individually written questions (32 per skill). The generated material uses 32 fictional paired-project contexts and 16 explicit task patterns. The notes distinguish shared purposes, methods, intended benefits, introduction dates, and pilot sizes without treating participation as measured effectiveness. Synthesis alternatives are designed to be consistent with the notes while serving different goals. Transition patterns cover contrast, similarity, illustration, inference, consequence, sequence, concession, and restatement.
+
+`docs/expression-generation-report.json` records the 512-variant batch. Its checks cover structured goal/relation tags, numeric comparisons, uniqueness, choice positions, and a 25–150-word passage range. These checks do not independently certify natural-language interpretation. All 10,184 earlier records are preserved unchanged. Expression of Ideas now has 710 questions; Reading and Writing has 2,800.
+
+## Study-design and reading-reasoning batch
+
+A further 160 individually written questions add 64 on evaluating statistical claims and 96 reading questions, 16 each in Words in Context, Text Structure and Purpose, Cross-Text Connections, Central Ideas and Details, Inferences, and Command of Evidence (Textual). The statistics additions cover sampling frames, assignment versus selection, confounding, nonresponse, question wording, blinding, comparison conditions, dropout, compliance, and the scope of conclusions. These topics sit within the [College Board Problem-Solving and Data Analysis skill list](https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types/problem-solving); the scenarios and choices are original.
+
+The reading additions use original informational passages, paired arguments, stories, and three poems. Passages contain 30–60 whitespace-delimited words. `docs/reading-reasoning-report.json` records the reading batch; `docs/statistics-generation-report.json` records all 88 authored statistics additions, including this batch. Generation checks their counts, passage lengths for reading, and reproducibility. These checks do not independently certify passage interpretation or difficulty.
+
+All 10,760 earlier records were compared with a saved baseline and remain unchanged, including IDs, answers, and choice order. The bank now has 8,024 Math and 2,896 Reading and Writing questions. The Reference page now links 60 external resources after adding publicly readable Sophic and SingleStepSAT practice; external questions are not bundled or added to the app’s question count.
 
 ## Further expansion
 

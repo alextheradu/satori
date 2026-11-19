@@ -1,7 +1,7 @@
 {
   "provenance": "Original seeded SAT-style numerical variants; not official College Board questions.",
   "variantsPerFamily": 64,
-  "total": 7680,
+  "total": 9728,
   "families": [
     {
       "family": "distribute",
@@ -840,6 +840,230 @@
       "family": "reverse-two-price-changes",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "tiered-usage-fee",
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "strict-plan-last-integer",
+      "domain": "Algebra",
+      "skill": "Linear inequalities in one or two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "compound-integer-count",
+      "domain": "Algebra",
+      "skill": "Linear inequalities in one or two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "unique-system-exception",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "intercept-midpoint-sum",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "translated-line-zero",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "linear-self-composition",
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "average-cost-minimum-count",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "quadratic-tangent-intercept",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "exponential-vertical-offset",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "three-sided-enclosure-maximum",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "biquadratic-positive-root",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "difference-cubes-identity",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "cubic-coefficient-from-values",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "reciprocal-cancellation-equation",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "quadratic-equal-output-axis",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "independent-at-least-one",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability and conditional probability",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "conditional-count-from-percent",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability and conditional probability",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "mean-after-removal",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: distributions and measures of center and spread",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "median-frequency-missing-count",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: distributions and measures of center and spread",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "model-unit-change-slope",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Two-variable data: models and scatterplots",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "interval-center-recovery",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Inference from sample statistics and margin of error",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "drain-refill-concentration",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "ratio-after-adding-one-group",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, rates, proportional relationships, and units",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "hypotenuse-altitude",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Right triangles and trigonometry",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "similar-perimeter-difference",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, angles, and triangles",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "regular-polygon-perimeter",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, angles, and triangles",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "annulus-outer-radius",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "sphere-inscribed-cube",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "equal-volume-cone-cylinder",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "sector-perimeter-radius",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "cyclic-opposite-angle-parameter",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
       "difficulty": "hard",
       "questions": 64
     }

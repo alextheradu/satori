@@ -66,6 +66,15 @@ for(const section of ['rw','math'] as const) {
   assert(second.every(q=>q.section===section&&!excluded.has(q.id)))
   assert.equal(new Set(first.map(q=>q.domain)).size,4)
   assert.equal(new Set(second.map(q=>q.domain)).size,4)
+  for(const [module,omitted] of [[first,new Set<string>()],[second,excluded]] as const) {
+   for(const domain of new Set(module.map(q=>q.domain))) {
+    const selected=module.filter(q=>q.domain===domain)
+    const available=questions.filter(q=>q.section===section&&q.domain===domain&&!omitted.has(q.id))
+    const skills=new Set(available.map(q=>q.skill))
+    const counts=[...skills].map(skill=>selected.filter(q=>q.skill===skill).length)
+    assert(Math.max(...counts)-Math.min(...counts)<=1,`${section}/${bias}/${domain}: an oversized skill pool dominated the module`)
+   }
+  }
  }
 }
-console.log(`Production integration verified: ${questions.length} questions; ${fields} rendered text fields; ${tables} tables; ${blanks} blanks; grading and disjoint balanced modules for both sections and all difficulty routes.`)
+console.log(`Production integration verified: ${questions.length} questions; ${fields} rendered text fields; ${tables} tables; ${blanks} blanks; grading and disjoint domain/skill-balanced modules for both sections and all difficulty routes.`)

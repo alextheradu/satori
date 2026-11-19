@@ -1,0 +1,103 @@
+{
+  "provenance": "Original controlled grammar practice: 16 authored rule patterns and 64 original contexts. Construction tags and controlled subject numbers are checked; these checks are not independent natural-language certification.",
+  "contexts": 64,
+  "total": 1024,
+  "families": [
+    {
+      "family": "singular-subject-attractor",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "plural-subject-attractor",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "singular-perfect-auxiliary",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "past-before-past",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "introductory-modifier-agent",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "parallel-infinitive-actions",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "regular-plural-possessive",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "possessive-its",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "introductory-dependent-boundary",
+      "skill": "Boundaries",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "paired-nonessential-commas",
+      "skill": "Boundaries",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "semicolon-before-however",
+      "skill": "Boundaries",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "colon-introducing-explanation",
+      "skill": "Boundaries",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "compound-predicate-object",
+      "skill": "Boundaries",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "paired-parenthetical-dashes",
+      "skill": "Boundaries",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "independent-clause-period",
+      "skill": "Boundaries",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "complex-list-separators",
+      "skill": "Boundaries",
+      "difficulty": "hard",
+      "questions": 64
+    }
+  ]
+}

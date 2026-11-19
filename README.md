@@ -11,7 +11,7 @@ Digital SAT practice platform. Sign in with **Hack Club Auth**; progress is stor
 - **Home**: score estimate, accuracy by domain, streak, weakest skills.
 - **Review**: missed / saved / full history.
 - **Account**: profile picture from your Hack Club Slack (via Cachet), reset progress from the account menu.
-- 8,488 original SAT-style questions covering every Digital SAT domain and skill, with KaTeX math. Includes 7,680 numerical math variants from 120 problem families, 272 additional Reading and Writing questions, and 24 additional conceptual statistics questions. Light/dark themes.
+- 10,920 original SAT-style questions covering every Digital SAT domain and skill, with KaTeX math. Includes 7,680 numerical math variants from 120 problem families, 592 additional individually written Reading and Writing questions, 512 table-evidence variants from 16 reading families, 1,024 grammar variants from 16 rule families, 512 Expression of Ideas variants from 16 task patterns, and 88 additional conceptual statistics questions. Light/dark themes.
 
 Score estimates are rough approximations, not official College Board scoring.
 
@@ -99,7 +99,7 @@ Create a *Compose* service pointing at `docker-compose.yml` (app + `postgres:18`
 
 Add a JSON array to `src/data/questions/*.json` following `src/data/types.ts`. Text supports `$LaTeX$`, `**bold**`, `_underline_`, `______` blanks, `- ` bullets and pipe tables. MC: `choices` (4) + `answer` index. Grid-in: omit `choices`; `answer` is a list like `["3/4", ".75"]`. Run `npm run validate`.
 
-The [question bank report and source directory](docs/question-bank-sources.md) records counts, provenance, coverage, and 36 external practice resources. Regenerate additions with `npm run questions:generate`; `npm run validate` also verifies their reproducibility and numerical consistency. After building, run `npm run questions:runtime` to exercise production-bank loading, grading, markup rendering, and module selection.
+The [question bank report and source directory](docs/question-bank-sources.md) records counts, provenance, coverage, and 60 external practice resources. Regenerate additions with `npm run questions:generate`; `npm run validate` also verifies their reproducibility and numerical consistency. After building, run `npm run questions:runtime` to exercise production-bank loading, grading, markup rendering, and module selection.
 
 All bundled questions are original. College Board questions are copyrighted and aren't included; the app links to the free official [SAT Suite Question Bank](https://satsuiteeducatorquestionbank.collegeboard.org/digital/search) and [Bluebook](https://bluebook.collegeboard.org).
 

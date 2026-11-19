@@ -46,7 +46,7 @@ export function orderForTest(qs: Question[]): Question[] {
 }
 
 /**
- * Pick `count` questions from a section, balanced across domains.
+ * Pick `count` questions from a section, balanced across domains and skills within each domain.
  * `bias` shifts difficulty: 'mixed' = balanced, 'harder' prefers hard/medium, 'easier' prefers easy/medium.
  */
 export function pickBalanced(
@@ -62,13 +62,24 @@ export function pickBalanced(
     if (bias === 'easier') return d + Math.random() * 1.2
     return Math.random()
   }
-  const byDomain = DOMAINS[section].map((d) =>
-    pool
-      .filter((q) => q.domain === d)
-      .map((q) => ({ q, s: score(q) }))
-      .sort((a, b) => a.s - b.s)
-      .map((x) => x.q),
-  )
+  const byDomain = DOMAINS[section].map((domain) => {
+    const groups = new Map<string, { q: Question; s: number }[]>()
+    for (const q of pool) {
+      if (q.domain !== domain) continue
+      const group = groups.get(q.skill) ?? []
+      group.push({ q, s: score(q) })
+      groups.set(q.skill, group)
+    }
+    const skills = shuffle([...groups.values()]).map((group) =>
+      group.sort((a, b) => a.s - b.s).map(({ q }) => q),
+    )
+    // Interleave skills so a large numerical-variant family cannot dominate a module.
+    const ordered: Question[] = []
+    for (let index = 0; skills.some((skill) => index < skill.length); index++) {
+      for (const skill of skills) if (skill[index]) ordered.push(skill[index])
+    }
+    return ordered
+  })
   const picked: Question[] = []
   let i = 0
   while (picked.length < count && byDomain.some((l) => l.length)) {

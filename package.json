@@ -16,8 +16,8 @@
     "db:down": "docker compose -f docker-compose.dev.yml down",
     "db:psql": "docker compose -f docker-compose.dev.yml exec db psql -U satori -d satori",
     "db:logs": "docker compose -f docker-compose.dev.yml logs -f db",
-    "questions:generate": "node scripts/question-bank/generate-math.mjs && node scripts/question-bank/generate-reading-writing.mjs && node scripts/question-bank/statistics.mjs && node scripts/question-bank/generate-quantitative-reading.mjs",
-    "questions:check": "node scripts/question-bank/generate-math.mjs --check && node scripts/question-bank/generate-reading-writing.mjs --check && node scripts/question-bank/statistics.mjs --check && node scripts/question-bank/generate-quantitative-reading.mjs --check",
+    "questions:generate": "node scripts/question-bank/generate-math.mjs && node scripts/question-bank/generate-reading-writing.mjs && node scripts/question-bank/statistics.mjs && node scripts/question-bank/generate-quantitative-reading.mjs && node scripts/question-bank/generate-conventions.mjs && node scripts/question-bank/generate-expression.mjs",
+    "questions:check": "node scripts/question-bank/generate-math.mjs --check && node scripts/question-bank/generate-reading-writing.mjs --check && node scripts/question-bank/statistics.mjs --check && node scripts/question-bank/generate-quantitative-reading.mjs --check && node scripts/question-bank/generate-conventions.mjs --check && node scripts/question-bank/generate-expression.mjs --check",
     "questions:runtime": "tsx --tsconfig tsconfig.app.json scripts/question-bank/check-runtime.mts"
   },
   "dependencies": {

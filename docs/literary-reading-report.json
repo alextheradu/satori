@@ -1,0 +1,17 @@
+{
+  "provenance": "Individually authored original poems, stories, informational passages, and paired texts; no numerical or context-swapping variants.",
+  "total": 96,
+  "skills": {
+    "Central Ideas and Details": 16,
+    "Inferences": 16,
+    "Text Structure and Purpose": 16,
+    "Cross-Text Connections": 16,
+    "Command of Evidence (Textual)": 16,
+    "Words in Context": 16
+  },
+  "passageWords": {
+    "minimum": 25,
+    "maximum": 71
+  },
+  "originalPoemPassages": 9
+}

@@ -5,6 +5,7 @@ import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { join } from 'node:path'
 import { registerMathExpansion } from './math-expansion.mjs'
+import { registerMathReasoning } from './math-reasoning.mjs'
 
 const root = fileURLToPath(new URL('../../', import.meta.url))
 const out = join(root, 'src/data/questions')
@@ -479,6 +480,7 @@ f('radians', G, 'circles', 'easy', () => {
 })
 
 registerMathExpansion({f,A,N,D,G,int,pick,numeric,near,fmt,term,frac,table})
+registerMathReasoning({f,A,N,D,G,int,pick,numeric,near,fmt,term,frac,table})
 
 // Exact fractions keep repeating-decimal answers usable in student-produced responses.
 const gcd = (a,b) => { a=Math.abs(a); b=Math.abs(b); while(b) [a,b]=[b,a%b]; return a }

@@ -382,5 +382,1029 @@
     ],
     "answer": 3,
     "explanation": "The mode is the observed value with greatest frequency. Value 5 appears 7 times, more than the other values. Frequency 7 is not itself the modal data value."
+  },
+  {
+    "id": "m-original-statistics-025",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A transit agency randomly selects 400 names from its list of monthly-pass holders to estimate satisfaction with bus service. Everyone selected responds. Which population is directly represented by this sampling plan?",
+    "choices": [
+      "People on the agency’s monthly-pass list",
+      "All residents of the region",
+      "All people who have ever ridden a bus",
+      "Only pass holders who are dissatisfied"
+    ],
+    "answer": 0,
+    "explanation": "The random sample comes from the monthly-pass list. People who pay individual fares or never ride are outside this sampling frame."
+  },
+  {
+    "id": "m-original-statistics-026",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A researcher wants to estimate how many hours students at a college work each week. Which sample best matches that goal?",
+    "choices": [
+      "Students leaving the campus employment office on one afternoon",
+      "A random sample from the college’s complete student roster",
+      "Students who answer an advertisement seeking people with demanding jobs",
+      "A random sample of the college’s instructors"
+    ],
+    "answer": 1,
+    "explanation": "The complete roster covers the target student population. Employment-office visitors and advertisement volunteers may have systematically different work hours; instructors are a different population."
+  },
+  {
+    "id": "m-original-statistics-027",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A health survey randomly selects households from a city’s address list. Within each selected household, the interviewer surveys the first adult who answers the door. Why might the resulting adults fail to represent all adults in the city?",
+    "choices": [
+      "Random selection of households ensures that each adult has the same chance of answering the door.",
+      "Every household necessarily contains exactly one adult.",
+      "Adults who are available to answer the door may have different health characteristics from other adults.",
+      "Selecting households prevents any information about adults from being collected."
+    ],
+    "answer": 2,
+    "explanation": "A random first stage does not make the within-household selection random. Availability may be related to age, employment, or health, limiting inference to all adults."
+  },
+  {
+    "id": "m-original-statistics-028",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "easy",
+    "prompt": "A district includes elementary, middle, and high schools. A survey about school meals randomly samples students only from high schools. Which proposed conclusion goes beyond the sampled population?",
+    "choices": [
+      "The survey includes some high school students.",
+      "The answers describe the sampled students’ reported preferences.",
+      "The sample can be used to estimate preferences among the district’s high school students.",
+      "The estimated preference applies to all students in the district."
+    ],
+    "answer": 3,
+    "explanation": "The sample excludes elementary and middle school students. Random selection among high school students does not supply evidence that younger students have the same preferences."
+  },
+  {
+    "id": "m-original-statistics-029",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A factory operates day, evening, and overnight shifts. To estimate workers’ opinions about break schedules, an analyst samples randomly within each shift. What is an advantage over sampling only the day shift?",
+    "choices": [
+      "Workers from every shift have an opportunity to be represented.",
+      "The design guarantees that every sampled worker has the same opinion.",
+      "The design converts the survey into an experiment on break schedules.",
+      "Including shifts removes every source of response error."
+    ],
+    "answer": 0,
+    "explanation": "Covering all shifts avoids excluding evening and overnight workers. It does not assign treatments, guarantee agreement, or ensure perfectly accurate responses."
+  },
+  {
+    "id": "m-original-statistics-030",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A poll of registered voters uses a simple random sample from a complete voter list. A commentator applies the estimate to all adult residents, including unregistered adults. What additional assumption does that extension require?",
+    "choices": [
+      "The sample contains every registered voter.",
+      "Unregistered adults have sufficiently similar opinions on the issue to registered adults.",
+      "Random sampling randomly assigns people to be registered.",
+      "Every adult resident voted in the last election."
+    ],
+    "answer": 1,
+    "explanation": "Unregistered adults are outside the sampling frame. Extending the result to them requires an assumption about their opinions that the registered-voter sample does not test."
+  },
+  {
+    "id": "m-original-statistics-031",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "An online seller wants to estimate satisfaction among everyone who purchased an item last month. The seller randomly samples completed orders but excludes orders that were refunded. What is the main concern?",
+    "choices": [
+      "A random sample can never include a satisfied customer.",
+      "Refunding an order proves the customer disliked every aspect of the service.",
+      "Excluding refunded orders could omit customers whose experiences were less satisfactory.",
+      "The number of orders cannot be used to select a sample."
+    ],
+    "answer": 2,
+    "explanation": "Refunds may be associated with dissatisfaction. Random selection within the remaining orders does not restore the excluded customers or establish what every refunded customer thought."
+  },
+  {
+    "id": "m-original-statistics-032",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A town draws a random sample of 200 residents to estimate support for a proposal. A neighboring town draws a separate random sample of 200 of its own residents. Why should the first town’s estimate not automatically replace the second town’s estimate?",
+    "choices": [
+      "Equal sample sizes force the two estimates to be equal.",
+      "Random samples from different towns cannot ask the same question.",
+      "The first town’s sample must be biased because another sample exists.",
+      "Random sampling supports inference to the sampled town, whose residents may have different opinions."
+    ],
+    "answer": 3,
+    "explanation": "A representative sample of one population need not represent another. Equal sample sizes concern neither equal opinions nor interchangeability of target populations."
+  },
+  {
+    "id": "m-original-statistics-033",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "easy",
+    "prompt": "Researchers randomly assign identical seedlings to receive either plain water or a dissolved nutrient. They then measure growth. Which feature makes this an experiment rather than a purely observational study?",
+    "choices": [
+      "The researchers assign the nutrient condition.",
+      "The researchers measure a numerical outcome.",
+      "The seedlings grow over time.",
+      "The study contains more than one seedling."
+    ],
+    "answer": 0,
+    "explanation": "An experiment imposes a treatment or condition. Numerical measurements, time, and multiple subjects can also occur in observational studies."
+  },
+  {
+    "id": "m-original-statistics-034",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A company tests two checkout layouts. Each website visitor is randomly assigned one layout, and the company compares purchase rates. What conclusion can a well-conducted comparison most directly support?",
+    "choices": [
+      "The layout with the higher rate caused every visitor to make a purchase.",
+      "A difference in purchase rates can provide evidence of an effect of the assigned layout among the tested visitors.",
+      "The visitors form a random sample of everyone who shops online.",
+      "Random assignment prevents any visitor from leaving the website."
+    ],
+    "answer": 1,
+    "explanation": "Random assignment helps isolate layout effects in the tested group. It does not establish universal individual effects or random sampling of all online shoppers."
+  },
+  {
+    "id": "m-original-statistics-035",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "Researchers recruit volunteers for a sleep study and randomly assign them to two bedtime routines. A reviewer says that volunteer recruitment makes random assignment useless. Which response is most accurate?",
+    "choices": [
+      "Volunteer recruitment guarantees that the routines have no causal effect.",
+      "Random assignment makes volunteers a representative sample of all adults.",
+      "Volunteer recruitment limits generalization, but random assignment can still strengthen the comparison between routines.",
+      "A study can support causal reasoning only if it surveys every adult."
+    ],
+    "answer": 2,
+    "explanation": "Recruitment and assignment address different issues. A limited population does not erase the value of randomized treatment comparisons within the recruited group."
+  },
+  {
+    "id": "m-original-statistics-036",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "Students choose whether to join a weekend mathematics workshop. Those who join later score higher than those who do not. Which modification would most directly strengthen a claim that the workshop improves scores?",
+    "choices": [
+      "Ask workshop participants whether they enjoyed the workshop.",
+      "Compare participants’ mathematics scores with their own art grades.",
+      "Increase the workshop fee so that fewer students enroll.",
+      "Randomly assign willing students to receive the workshop or to a comparison group."
+    ],
+    "answer": 3,
+    "explanation": "Random assignment reduces systematic differences such as prior motivation between groups. Enjoyment, unrelated grades, and a higher fee do not isolate the workshop’s effect."
+  },
+  {
+    "id": "m-original-statistics-037",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A trial randomly assigns participants to receive reminders or no reminders. The reminder group submits more assignments. Which statement is not established by that finding alone?",
+    "choices": [
+      "Every participant would submit more assignments if given reminders.",
+      "The reminder group had a higher average submission rate in the trial.",
+      "The groups were formed using random assignment.",
+      "The result can provide evidence that reminder assignment affects submissions."
+    ],
+    "answer": 0,
+    "explanation": "A group-level effect does not imply that all individuals benefit. Different participants may respond differently even when the average randomized comparison favors reminders."
+  },
+  {
+    "id": "m-original-statistics-038",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A school randomly samples students and records which sports they already play and their grades. No activities are assigned. What does the random sampling chiefly improve?",
+    "choices": [
+      "The basis for concluding that playing a sport causes a particular grade",
+      "The basis for generalizing the observed association to students at that school",
+      "The guarantee that athletes and nonathletes have identical prior grades",
+      "The guarantee that every sampled student plays a sport"
+    ],
+    "answer": 1,
+    "explanation": "Random sampling helps the sample represent its source population. Without treatment assignment, preexisting differences can still explain an association."
+  },
+  {
+    "id": "m-original-statistics-039",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A laboratory randomly assigns test pieces of metal to three cooling methods. Each method is applied at a different temperature as well. A method’s pieces are strongest. What prevents attributing the difference specifically to cooling method?",
+    "choices": [
+      "Random assignment ensures the methods cannot be compared at all.",
+      "Strength is a numerical measurement.",
+      "Cooling method and temperature change together.",
+      "There are three methods rather than two."
+    ],
+    "answer": 2,
+    "explanation": "Randomizing pieces does not separate two treatment features that always vary together. The experiment compares combined conditions, not the isolated effect of method at a common temperature."
+  },
+  {
+    "id": "m-original-statistics-040",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A city randomly assigns some eligible households to receive a discounted transit pass and others to receive no discount. It records transit use for both groups. What is the primary outcome of the randomization?",
+    "choices": [
+      "The groups must contain the same number of daily riders after treatment.",
+      "Every resident of the city is included.",
+      "The discounted group must use transit more often.",
+      "The groups should be comparable on average before the discount is offered."
+    ],
+    "answer": 3,
+    "explanation": "Random assignment reduces systematic pretreatment differences. It neither determines the eventual outcome nor constitutes a census of residents."
+  },
+  {
+    "id": "m-original-statistics-041",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A study finds that people who use an exercise-tracking app take more daily steps. App users also reported greater interest in fitness before installing it. Why is the prior interest relevant?",
+    "choices": [
+      "It could help explain both choosing the app and taking more steps.",
+      "It proves that the app reduces walking.",
+      "It is an outcome randomly assigned by the researchers.",
+      "It means that step counts cannot be measured."
+    ],
+    "answer": 0,
+    "explanation": "Prior motivation is a plausible confounding variable because it can influence both exposure and outcome. Its presence limits a causal interpretation without determining the app’s actual effect."
+  },
+  {
+    "id": "m-original-statistics-042",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "Stores with more employees tend to make more total sales. A manager concludes that adding employees to any store will produce the observed sales difference. Which explanation most directly challenges this conclusion?",
+    "choices": [
+      "Total sales can be expressed in dollars.",
+      "Larger stores may both employ more people and have more customers.",
+      "The study includes stores with unequal sales.",
+      "Some employees work on weekends."
+    ],
+    "answer": 1,
+    "explanation": "Store size or demand can influence both staffing and sales. An association across differently sized stores does not isolate the effect of adding an employee."
+  },
+  {
+    "id": "m-original-statistics-043",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A survey finds that people who sleep poorly drink more coffee. Why does this finding alone fail to establish that coffee caused the poor sleep?",
+    "choices": [
+      "The survey must have used random assignment.",
+      "An association can exist only when the variables have no relationship.",
+      "Poor sleep could lead people to drink more coffee.",
+      "Coffee consumption cannot be reported as a number."
+    ],
+    "answer": 2,
+    "explanation": "The direction of influence may run from sleep to coffee consumption, and other causes may also matter. Observing the association does not establish its direction."
+  },
+  {
+    "id": "m-original-statistics-044",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A report says that accident counts increased after a city added bicycle lanes. During the same period, the number of bicycle trips doubled. Which additional comparison would most directly help evaluate whether cycling became riskier per trip?",
+    "choices": [
+      "The total number of street signs in another city",
+      "The average age of the lane paint",
+      "Whether accident counts are whole numbers",
+      "Accidents per bicycle trip before and after the lanes were added"
+    ],
+    "answer": 3,
+    "explanation": "Risk per trip requires a denominator describing exposure. A larger total can coexist with a lower accident rate when the number of trips rises sufficiently."
+  },
+  {
+    "id": "m-original-statistics-045",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A tutoring center advertises that its students gain points between an initial test and a later test. The study has no comparison group. Which possibility limits attributing all gains to tutoring?",
+    "choices": [
+      "Students might improve through regular classes or familiarity with the test even without tutoring.",
+      "A later test score can never exceed an earlier score.",
+      "The presence of two tests automatically supplies an untreated group.",
+      "All point gains must have the same cause."
+    ],
+    "answer": 0,
+    "explanation": "Without a comparison, ordinary learning, practice effects, or other changes remain alternative explanations for some or all of the gain."
+  },
+  {
+    "id": "m-original-statistics-046",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A district adopts new textbooks in the same year that it lengthens mathematics classes. Scores rise. What does this design most directly prevent the district from determining?",
+    "choices": [
+      "Whether the scores rose at all",
+      "How much of the increase is attributable specifically to the textbooks rather than the longer classes",
+      "Whether textbooks and class time are different features",
+      "Whether a school year occurred"
+    ],
+    "answer": 1,
+    "explanation": "The two changes coincide, so their separate contributions are not isolated. The observed increase itself can still be recorded accurately."
+  },
+  {
+    "id": "m-original-statistics-047",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A researcher compares repair costs for old and new machines. Older machines also have accumulated many more operating hours. Why should operating hours be considered?",
+    "choices": [
+      "Operating hours are identical to repair costs.",
+      "Recording hours randomly assigns machines to ages.",
+      "Use may affect repair costs and is associated with machine age in this sample.",
+      "Older machines cannot have measurable costs."
+    ],
+    "answer": 2,
+    "explanation": "Accumulated use is a plausible alternative contributor to the age-cost association. Considering it can clarify what an age comparison actually reflects."
+  },
+  {
+    "id": "m-original-statistics-048",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A retailer sends a coupon to customers whose spending fell sharply last month. Their average spending rises the next month. Why is a comparable group without coupons useful?",
+    "choices": [
+      "A control group would guarantee equal future spending for every customer.",
+      "Coupons cannot influence purchasing in any circumstances.",
+      "Last month’s spending was randomly assigned.",
+      "Some unusually low spending may rebound even without a coupon."
+    ],
+    "answer": 3,
+    "explanation": "Selecting an unusually low month can capture temporary dips. A comparable untreated group helps distinguish an ordinary rebound from the coupon’s contribution."
+  },
+  {
+    "id": "m-original-statistics-049",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "easy",
+    "prompt": "A radio program asks listeners to call in about a proposed tax. Most callers oppose it. Which conclusion is best supported without further sampling information?",
+    "choices": [
+      "Most people who called the program opposed the tax.",
+      "Most residents oppose the tax.",
+      "Exactly the same proportion of nonlisteners oppose the tax.",
+      "The tax caused people to listen to the program."
+    ],
+    "answer": 0,
+    "explanation": "The responses describe the self-selected callers. They do not establish representativeness of residents or nonlisteners, or a causal effect on listening."
+  },
+  {
+    "id": "m-original-statistics-050",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "An employer emails a survey about night-shift conditions only to employees who open their email during office hours. What is the most direct sampling concern?",
+    "choices": [
+      "Email always prevents honest responses.",
+      "Some night-shift workers may be less likely to be reached.",
+      "Every reached employee must work at night.",
+      "The survey assigns employees to shifts."
+    ],
+    "answer": 1,
+    "explanation": "The contact procedure may underrepresent the very workers of interest. It does not imply that all email responses are dishonest or constitute treatment assignment."
+  },
+  {
+    "id": "m-original-statistics-051",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A university randomly selects 600 graduates for a salary survey. Response rates are much higher among graduates with high-paying jobs. What effect could this have?",
+    "choices": [
+      "The responding average must equal the full group’s average because selection was random.",
+      "The survey becomes a randomized salary experiment.",
+      "The responding sample’s average salary could overestimate the selected graduates’ average salary.",
+      "The response pattern guarantees an underestimate."
+    ],
+    "answer": 2,
+    "explanation": "Random initial selection does not prevent outcome-related nonresponse. Overrepresentation of high earners can raise the responding average relative to the target group."
+  },
+  {
+    "id": "m-original-statistics-052",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "Two surveys use the same voluntary website poll. One has 500 responses and the other 50,000. Why does the larger response count alone not establish that the second poll is representative?",
+    "choices": [
+      "Larger samples always have greater random sampling error.",
+      "A website cannot record more than 500 distinct answers.",
+      "The two populations must have changed their opinions.",
+      "Both may attract a systematically unrepresentative set of volunteers."
+    ],
+    "answer": 3,
+    "explanation": "Increasing size does not automatically fix selection bias. A large self-selected sample can give a precise description of the wrong mix of people."
+  },
+  {
+    "id": "m-original-statistics-053",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A telephone poll reaches a random sample of numbers, but interviewers call only on weekday afternoons and never call back. What change most directly addresses people who are often unavailable then?",
+    "choices": [
+      "Make contact attempts at different times, including evenings and weekends.",
+      "Ask the same afternoon respondents twice as many questions.",
+      "Remove the option to disagree with the poll’s topic.",
+      "Report more decimal places in the estimated percentage."
+    ],
+    "answer": 0,
+    "explanation": "Varying contact times improves opportunities for people with different schedules to respond. More questions or precision in reporting does not repair missed coverage."
+  },
+  {
+    "id": "m-original-statistics-054",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A survey about a damaged footbridge is offered only to people currently crossing it. Which group is especially likely to be missed?",
+    "choices": [
+      "People who cross the bridge frequently",
+      "People who avoid the bridge because they consider it unsafe",
+      "People encountered by the surveyors on the bridge",
+      "People who agree to answer while crossing"
+    ],
+    "answer": 1,
+    "explanation": "The location excludes avoiders, whose safety opinions may differ. Sampling current users can therefore distort an estimate of all potential users’ concerns."
+  },
+  {
+    "id": "m-original-statistics-055",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A researcher replaces every nonrespondent in a random sample with a nearby volunteer. Why might the final sample no longer preserve the benefit of the original selection?",
+    "choices": [
+      "Replacing anyone always makes the sample larger than the population.",
+      "Nearby people necessarily have the opposite opinion from nonrespondents.",
+      "The replacement rule selects volunteers rather than randomly selected members of the target population.",
+      "Volunteers cannot answer a survey question correctly."
+    ],
+    "answer": 2,
+    "explanation": "Convenient volunteers may differ systematically from nonrespondents. The original random selection does not transfer automatically to nonrandom replacements."
+  },
+  {
+    "id": "m-original-statistics-056",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A city publishes a poll’s sample size but provides no information about how participants were selected. Which information would most help assess generalizability?",
+    "choices": [
+      "Whether the final report uses a colorful chart",
+      "Whether the sample size is printed in bold",
+      "Whether the poll’s title contains the city’s name",
+      "Whether the selection process covered the target population and gave its members an appropriate chance of selection"
+    ],
+    "answer": 3,
+    "explanation": "Selection procedures, including coverage of the population, are central to representativeness. Presentation choices do not establish how participants entered the sample."
+  },
+  {
+    "id": "m-original-statistics-057",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A survey asks, “Should the city waste money on another sports arena?” Which replacement most directly reduces leading wording?",
+    "choices": [
+      "“Do you support or oppose city funding for another sports arena?”",
+      "“Do you strongly oppose wasting money on an arena?”",
+      "“Why do responsible residents reject another arena?”",
+      "“How harmful would another unnecessary arena be?”"
+    ],
+    "answer": 0,
+    "explanation": "The neutral replacement asks for a position without labeling the spending wasteful. Each alternative embeds a negative judgment or presumes opposition."
+  },
+  {
+    "id": "m-original-statistics-058",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "One survey asks whether residents support “reducing the speed limit,” while another asks whether they support “protecting children by reducing the speed limit.” The percentages differ. What can the difference suggest?",
+    "choices": [
+      "The surveys prove that no resident has a stable opinion.",
+      "How the proposal is framed may affect responses.",
+      "The speed limit actually changed between questions.",
+      "The second wording randomly assigns residents to safer streets."
+    ],
+    "answer": 1,
+    "explanation": "The added stated benefit can influence answers. The difference does not by itself establish an actual policy change, universal instability, or a treatment involving street conditions."
+  },
+  {
+    "id": "m-original-statistics-059",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A survey asks students to estimate how many minutes they studied on a particular day six months earlier. What limitation is most directly related to this question?",
+    "choices": [
+      "The question randomly assigns study times.",
+      "A numerical answer cannot be an estimate.",
+      "Students may not accurately recall the requested amount of time.",
+      "Every student must report the same number."
+    ],
+    "answer": 2,
+    "explanation": "Distant, detailed recall can produce measurement error. That concern differs from treatment assignment or a requirement that answers be identical."
+  },
+  {
+    "id": "m-original-statistics-060",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A workplace survey about rule violations requires employees to enter their names, and supervisors read the individual responses. Which change would most directly reduce pressure to underreport violations?",
+    "choices": [
+      "Ask supervisors to stand beside employees while they respond.",
+      "Describe every violation as evidence of poor character.",
+      "Replace a random sample with employees selected for obedience.",
+      "Collect responses anonymously and keep supervisors from viewing identifiable answers."
+    ],
+    "answer": 3,
+    "explanation": "Reducing identifiability can reduce fear of consequences and socially desirable reporting. The other changes increase pressure or introduce selection concerns."
+  },
+  {
+    "id": "m-original-statistics-061",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A survey asks, “Are bus services affordable and reliable?” Why could a single yes-or-no answer be difficult to interpret?",
+    "choices": [
+      "A respondent may consider the service affordable but unreliable, or the reverse.",
+      "The question contains no evaluative terms.",
+      "Everyone must give the same rating to affordability and reliability.",
+      "Bus services cannot be evaluated by users."
+    ],
+    "answer": 0,
+    "explanation": "The question combines two distinct judgments. Separate questions would reveal which aspect a respondent supports or criticizes."
+  },
+  {
+    "id": "m-original-statistics-062",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A company changes its satisfaction scale from 1–5 to 1–10 and reports that the average numerical rating increased from 4 to 7. What is the main issue with treating this increase as proof of greater satisfaction?",
+    "choices": [
+      "Averages cannot be calculated from ratings.",
+      "The numerical ratings are on different scales and are not directly comparable without an appropriate conversion.",
+      "A rating of 7 on any scale must represent more satisfaction than 4 on any other scale.",
+      "Changing a scale randomly assigns customers to satisfaction levels."
+    ],
+    "answer": 1,
+    "explanation": "A larger raw number on a larger scale need not indicate improved satisfaction. The reporting scale changed, so the raw averages alone do not establish a trend."
+  },
+  {
+    "id": "m-original-statistics-063",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "Participants report their usual daily screen time. A device log later shows that many omitted short sessions. Which statement best describes the resulting concern?",
+    "choices": [
+      "The log proves that all self-reported variables are unusable.",
+      "Omitting sessions increases every participant’s reported screen time.",
+      "The self-reports may systematically underestimate actual screen time.",
+      "The participants were randomly assigned to use screens."
+    ],
+    "answer": 2,
+    "explanation": "Leaving out short sessions reduces the reported total. The evidence concerns this measurement method, not every possible self-report or a randomized exposure."
+  },
+  {
+    "id": "m-original-statistics-064",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "Before asking about local water quality, an interviewer reads a dramatic account of contamination in an unrelated city. Why could this affect the survey?",
+    "choices": [
+      "The introduction directly measures contaminants in the local supply.",
+      "The unrelated city becomes part of the local population.",
+      "Reading an account ensures all opinions are accurate.",
+      "The introduction may influence respondents’ judgments about their own water."
+    ],
+    "answer": 3,
+    "explanation": "Prior information can prime concern even without local measurements. It changes the response context, not the actual evidence about the local water supply."
+  },
+  {
+    "id": "m-original-statistics-065",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "In a trial of a tablet intended to reduce motion sickness, the comparison group receives an identical-looking inactive tablet. Why use the inactive tablet?",
+    "choices": [
+      "To help separate the treatment’s effect from effects of expecting to receive treatment",
+      "To guarantee that neither group experiences motion sickness",
+      "To make random assignment unnecessary",
+      "To give both groups the active ingredient"
+    ],
+    "answer": 0,
+    "explanation": "A placebo helps hold expectations and the experience of taking a tablet similar. It does not supply the active ingredient or guarantee outcomes."
+  },
+  {
+    "id": "m-original-statistics-066",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "Judges rating recordings know which performers received special coaching. The researcher worries that this knowledge may affect ratings. What design change addresses that concern most directly?",
+    "choices": [
+      "Tell judges that coached performers should sound better.",
+      "Give judges recordings labeled without information about coaching assignment.",
+      "Remove uncoached performers from the comparison.",
+      "Use only judges who provided the coaching."
+    ],
+    "answer": 1,
+    "explanation": "Blinding judges to assignment reduces expectation-related assessment bias while retaining the comparison groups."
+  },
+  {
+    "id": "m-original-statistics-067",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A taste test gives every participant drink A first and drink B second. Participants tend to prefer B. What change would help distinguish drink preference from an order effect?",
+    "choices": [
+      "Always serve A in a smaller cup.",
+      "Tell participants in advance that B is preferred.",
+      "Randomly assign some participants to taste B first and others to taste A first.",
+      "Exclude everyone who prefers A."
+    ],
+    "answer": 2,
+    "explanation": "Varying order prevents drink identity from being tied to first or second position. The other changes introduce additional differences or select responses after the fact."
+  },
+  {
+    "id": "m-original-statistics-068",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "Workers test two keyboard designs on consecutive days. Everyone uses the old design on day one and the new design on day two. Typing speed rises. What alternative explanation should be considered?",
+    "choices": [
+      "Using a keyboard makes speed impossible to measure.",
+      "The new design was randomly assigned to day one.",
+      "A repeated task cannot produce learning.",
+      "Workers may improve simply through practice with the typing task."
+    ],
+    "answer": 3,
+    "explanation": "Design and test occasion are confounded. Familiarity with the task could contribute to the second-day improvement, so varying order would strengthen the comparison."
+  },
+  {
+    "id": "m-original-statistics-069",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A study randomly assigns runners to two shoe models and times them on the same course. One group runs uphill in strong wind; the other runs in calm conditions. Which change would improve the comparison?",
+    "choices": [
+      "Arrange comparable weather and course conditions for both groups.",
+      "Give the windier group a different timing unit.",
+      "Compare the shoe colors instead of running times.",
+      "Report only the faster group’s results."
+    ],
+    "answer": 0,
+    "explanation": "Environmental differences can influence times independently of shoes. Comparable conditions help isolate the assigned shoe model’s effect."
+  },
+  {
+    "id": "m-original-statistics-070",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "Researchers test a fertilizer on two greenhouse benches. Every treated plant is on a sunny bench, and every control plant is on a shaded bench. Why are many plants on each bench insufficient to isolate the fertilizer effect?",
+    "choices": [
+      "Adding plants makes random measurement error impossible.",
+      "Fertilizer assignment remains tied to the benches’ different light conditions.",
+      "The shaded plants receive fertilizer merely because they are controls.",
+      "A fertilizer study must use exactly two plants."
+    ],
+    "answer": 1,
+    "explanation": "More observations do not disentangle treatment from a consistently different environment. Randomizing treatment across comparable light conditions would address the confounding."
+  },
+  {
+    "id": "m-original-statistics-071",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A trial compares two exercise programs. Both groups receive the same amount of trainer contact and use the same testing procedure. Why standardize these features?",
+    "choices": [
+      "To guarantee that the programs produce equal results",
+      "To replace random assignment with personal preference",
+      "To reduce alternative explanations involving attention or measurement rather than program content",
+      "To ensure that all participants have identical fitness"
+    ],
+    "answer": 2,
+    "explanation": "Holding other relevant features similar sharpens the comparison of program content. Standardization does not predetermine results or eliminate natural differences among participants."
+  },
+  {
+    "id": "m-original-statistics-072",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "In a study of an instructional video, one group watches the video while the control group receives no activity or contact. The researcher wants to distinguish the video’s content from the effect of receiving special attention. Which control is most useful?",
+    "choices": [
+      "A group selected only after its scores are known",
+      "A group told that improvement is impossible",
+      "A group that receives the instructional video twice",
+      "A group receiving comparable attention and an unrelated video of similar length"
+    ],
+    "answer": 3,
+    "explanation": "An attention-matched comparison holds the special activity experience more similar while varying the instructional content. Selection by outcome and increased treatment do not provide that comparison."
+  },
+  {
+    "id": "m-original-statistics-073",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A study randomly assigns 100 people to each of two programs. Forty people leave one program, mostly because they find it difficult; only two leave the other. Researchers compare completers alone. What is the principal concern?",
+    "choices": [
+      "The remaining groups may differ systematically because dropout rates and reasons differ.",
+      "Random assignment guarantees that completers remain comparable regardless of dropout.",
+      "The program with more dropouts must have higher final scores.",
+      "Dropping out converts the study into a census."
+    ],
+    "answer": 0,
+    "explanation": "Restricting analysis to completers can undermine the original randomized comparison when departure is related to treatment or likely outcomes."
+  },
+  {
+    "id": "m-original-statistics-074",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "In a randomized study, participants assigned a new planning tool rarely use it. The groups show similar outcomes. Which claim goes beyond this result?",
+    "choices": [
+      "Assignment to receive the tool did not produce a clear observed advantage in this study.",
+      "Consistently using the tool has no effect.",
+      "Actual use of the tool was limited.",
+      "The comparison involved randomized assignment."
+    ],
+    "answer": 1,
+    "explanation": "The experiment directly compares assignment under the observed level of use. Limited use prevents equating that comparison with the effect of consistently using the tool."
+  },
+  {
+    "id": "m-original-statistics-075",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "After random assignment to two diets, researchers compare only participants who fully followed their diets. Why might this comparison no longer have the original protection of randomization?",
+    "choices": [
+      "Full compliance was itself necessarily randomly assigned.",
+      "Randomization requires every participant to lose the same amount of weight.",
+      "People who fully comply may differ between diets in motivation or health characteristics.",
+      "Compliance makes health outcomes impossible to record."
+    ],
+    "answer": 2,
+    "explanation": "Compliance is behavior after assignment, not necessarily a randomized characteristic. Selecting compliers can reintroduce differences between comparison groups."
+  },
+  {
+    "id": "m-original-statistics-076",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "Students in a control group obtain a study guide from friends in the treatment group. What is a likely consequence for interpreting the experiment?",
+    "choices": [
+      "The control group is guaranteed to score zero.",
+      "The experiment now compares two groups with completely separate access.",
+      "Sharing proves the guide is ineffective.",
+      "The comparison may underestimate the contrast between having and not having access to the guide."
+    ],
+    "answer": 3,
+    "explanation": "Access spreading to controls reduces the intended difference in exposure. It can make the assignment comparison smaller than a clean access-versus-no-access contrast, without proving ineffectiveness."
+  },
+  {
+    "id": "m-original-statistics-077",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A survey follows the same residents each year. Those who move away stop responding, and movers tend to have longer commutes. What could happen to the reported average commute among remaining respondents?",
+    "choices": [
+      "It could decrease even if no continuing respondent’s commute becomes shorter.",
+      "It must increase because the sample becomes smaller.",
+      "It must equal the original average because the study began with the same residents.",
+      "It becomes a measure of randomly assigned commuting time."
+    ],
+    "answer": 0,
+    "explanation": "Losing people with relatively long commutes changes sample composition. A change in the remaining average need not reflect changes within individuals."
+  },
+  {
+    "id": "m-original-statistics-078",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "An experiment compares invitations to two training programs. A report lists attendance only for one group. Which missing information is especially important for interpreting the difference in outcomes as an effect of attending the programs?",
+    "choices": [
+      "The color of the invitation envelopes after they were discarded",
+      "How many people in each group actually attended their assigned program",
+      "Whether the report has the same number of pages for each program",
+      "The alphabetical order of participants’ names"
+    ],
+    "answer": 1,
+    "explanation": "Attendance determines how assignment relates to actual exposure. Without comparable attendance information, an invitation effect cannot simply be treated as an effect of attending."
+  },
+  {
+    "id": "m-original-statistics-079",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A trial records every assigned participant’s outcome, including those who stopped using the assigned product. What comparison does this approach preserve most directly?",
+    "choices": [
+      "The effect that would occur if every person used the product perfectly",
+      "The effect among all future consumers in every country",
+      "The effect of assignment under the trial’s actual use and dropout conditions",
+      "The difference between groups selected by final outcome"
+    ],
+    "answer": 2,
+    "explanation": "Keeping participants with their assigned groups preserves the original assignment comparison. It does not automatically identify perfect-use effects or universal generalizability."
+  },
+  {
+    "id": "m-original-statistics-080",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A researcher removes unusually low test scores from a treatment group but keeps equally low scores in the control group, without a prespecified reason. Why is this concerning?",
+    "choices": [
+      "Removing any score always lowers the treatment average.",
+      "The two groups become randomly sampled merely through exclusion.",
+      "A low score cannot be a valid observation.",
+      "Applying different exclusion rules can artificially favor the treatment group."
+    ],
+    "answer": 3,
+    "explanation": "Unequal post-outcome exclusions alter the groups in a direction that can improve the apparent treatment result. Unusual scores require consistent, justified handling rather than selective deletion."
+  },
+  {
+    "id": "m-original-statistics-081",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A study tests a reading aid only with fluent adult readers. Its average benefit is positive. Which conclusion requires additional evidence?",
+    "choices": [
+      "The aid produces the same benefit for children who are beginning to read.",
+      "The study concerns fluent adult readers.",
+      "The tested adults showed an average benefit.",
+      "The aid was evaluated in a particular population."
+    ],
+    "answer": 0,
+    "explanation": "A benefit in one tested population does not establish the same effect in a different age and proficiency group. That extension requires additional evidence."
+  },
+  {
+    "id": "m-original-statistics-082",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "An experiment on a packaging material uses a single production batch. Randomly chosen pieces from that batch perform well. What remains uncertain?",
+    "choices": [
+      "Whether random selection occurred within the tested batch",
+      "Whether the result holds across other production batches",
+      "Whether the tested pieces were made of packaging material",
+      "Whether every possible batch has already been measured"
+    ],
+    "answer": 1,
+    "explanation": "Within-batch sampling describes that batch. Manufacturing differences between batches may affect generalization, even when selection of pieces within the batch is random."
+  },
+  {
+    "id": "m-original-statistics-083",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "An analyst matches each user of a commuting app with a nonuser of the same age and neighborhood. Users still arrive on time more often. Why does matching not by itself prove causation?",
+    "choices": [
+      "Matching age randomly assigns app use.",
+      "People from the same neighborhood always have identical commutes.",
+      "Other differences, such as motivation to plan trips, may remain unmatched.",
+      "An observational comparison cannot reveal any association."
+    ],
+    "answer": 2,
+    "explanation": "Matching addresses measured matching variables, not every possible confounder. The comparison can show an association without isolating a causal app effect."
+  },
+  {
+    "id": "m-original-statistics-084",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A report combines results from several schools. Within every school, program participants and nonparticipants have similar attendance, but more participants come from schools with high attendance overall. Why could the combined participant rate be higher?",
+    "choices": [
+      "Participation must increase attendance within every school.",
+      "Combining data guarantees identical group composition.",
+      "School attendance cannot be expressed as a rate.",
+      "The groups have different proportions of students from schools with different baseline attendance."
+    ],
+    "answer": 3,
+    "explanation": "An overall difference can reflect how groups are distributed across schools rather than a within-school program effect. School-level comparisons help reveal that composition issue."
+  },
+  {
+    "id": "m-original-statistics-085",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A company tests a product in unusually quiet rooms and advertises that it works equally well in crowded public spaces. What is the main limitation?",
+    "choices": [
+      "The testing conditions do not directly evaluate performance in noisy public settings.",
+      "A quiet-room test cannot measure any aspect of performance.",
+      "Public spaces necessarily improve every product’s performance.",
+      "Testing in a room assigns all future customers to that room."
+    ],
+    "answer": 0,
+    "explanation": "The evidence supports performance under tested conditions. Extending it to substantially different conditions requires further testing or other supporting evidence."
+  },
+  {
+    "id": "m-original-statistics-086",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A school compares this year’s students using a new course with last year’s students using the old course. What feature distinguishes this from a randomized concurrent comparison?",
+    "choices": [
+      "The school cannot calculate either group’s average.",
+      "Course version is tied to year and potentially to differences between student groups.",
+      "Historical data always contain more measurement error than new data.",
+      "A new course is necessarily more difficult."
+    ],
+    "answer": 1,
+    "explanation": "Changes in cohorts or circumstances across years can explain some of a difference. A concurrent randomized design better separates version from those year-related factors."
+  },
+  {
+    "id": "m-original-statistics-087",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A survey measures whether residents say they intend to buy an electric car. A report states that the same percentage will actually buy one next year. Why is that conclusion uncertain?",
+    "choices": [
+      "Survey percentages cannot describe intentions.",
+      "Residents cannot change their plans.",
+      "Reported intentions need not become actual purchases.",
+      "An intention question randomly assigns car ownership."
+    ],
+    "answer": 2,
+    "explanation": "The measured outcome is an intention, while the claim concerns later behavior. Financial circumstances, availability, or changed preferences may prevent intentions from becoming purchases."
+  },
+  {
+    "id": "m-original-statistics-088",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A randomized trial finds that one scheduling method reduces average waiting time but reports no information about very long waits. Which additional measure would best evaluate the claim that the method reduces extreme delays?",
+    "choices": [
+      "The number of letters in the scheduling method’s name",
+      "The average waiting time repeated to more decimal places",
+      "The day on which the report was printed",
+      "The proportion of customers whose wait exceeds a specified long-wait threshold"
+    ],
+    "answer": 3,
+    "explanation": "An average alone does not describe the tail of the waiting-time distribution. A defined long-wait rate directly addresses the claim about extreme delays."
   }
 ]
