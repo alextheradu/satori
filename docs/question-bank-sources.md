@@ -1,19 +1,19 @@
 # Question bank expansion and practice sources
 
-The app now contains **13,032 questions**, up from 512. All bundled additions are original SAT-style practice, with answers, explanations, domain/skill labels, and difficulty labels. Difficulty labels are editorial estimates, not calibrated College Board difficulty ratings.
+The app now contains **13,672 questions**, up from 512. All bundled additions are original SAT-style practice, with answers, explanations, domain/skill labels, and difficulty labels. Difficulty labels are editorial estimates, not calibrated College Board difficulty ratings.
 
 | Bundled material | Count | What the count represents |
 |---|---:|---|
 | Existing questions | 512 | Original bank retained with stable IDs |
 | New generated math | 9,728 | 64 numerical variants for each of 152 authored problem families |
 | New conceptual statistics | 88 | Individually written questions, including sampling, causation, experiments, and spread |
-| New individually written Reading and Writing | 656 | Individually written questions with distinct passages or sentence-completion contexts across all 11 skills |
+| New individually written Reading and Writing | 784 | Individually written questions with distinct passages or sentence-completion contexts across all 11 skills |
 | New table-evidence Reading and Writing | 512 | 32 numerical variants for each of 16 authored evidence families |
-| New grammar and punctuation variants | 1,024 | 16 rule families applied to 64 original contexts |
+| New grammar and punctuation variants | 1,536 | 24 rule families applied to 64 original contexts |
 | New Expression of Ideas variants | 512 | 16 task patterns applied to 32 original fictional project comparisons |
-| Total | **13,032** | Questions available in practice and test selection |
+| Total | **13,672** | Questions available in practice and test selection |
 
-The 9,728 generated math items and 512 table-evidence reading items are numerical variants. The 1,024 grammar additions apply 16 controlled rule patterns to 64 original contexts. The additional 512 Expression of Ideas variants apply 16 task patterns to 32 fictional project comparisons. These 11,776 variants are not 11,776 independently invented problem structures. They are useful for repetition of a skill. The separate 656 individually written Reading and Writing additions use distinct authored contexts rather than swapping names into a repeated passage. Studies, institutions, stories, and named people invented for these passages are identified as hypothetical or fictional.
+The 9,728 generated math items and 512 table-evidence reading items are numerical variants. The 1,536 grammar additions apply 24 controlled rule patterns to 64 original contexts. The additional 512 Expression of Ideas variants apply 16 task patterns to 32 fictional project comparisons. These 12,288 variants are not 12,288 independently invented problem structures. They are useful for repetition of a skill. The separate 784 individually written Reading and Writing additions use distinct authored contexts rather than swapping names into a repeated passage. Studies, institutions, stories, and named people invented for these passages are identified as hypothetical or fictional.
 
 ## Coverage
 
@@ -23,10 +23,10 @@ The 9,728 generated math items and 512 table-evidence reading items are numerica
 | Math | Advanced Math | 2,688 |
 | Math | Problem-Solving and Data Analysis | 2,776 |
 | Math | Geometry and Trigonometry | 2,432 |
-| Reading and Writing | Craft and Structure | 280 |
-| Reading and Writing | Information and Ideas | 808 |
+| Reading and Writing | Craft and Structure | 360 |
+| Reading and Writing | Information and Ideas | 856 |
 | Reading and Writing | Expression of Ideas | 710 |
-| Reading and Writing | Standard English Conventions | 1,162 |
+| Reading and Writing | Standard English Conventions | 1,674 |
 
 All 19 math skills and all 11 Reading and Writing skills used by this bank receive new questions. Family count measures distinct templates rather than skill count.
 
@@ -117,8 +117,12 @@ Publisher pages were checked on **2026-11-18–19**. External questions are link
 | [Brighterly reading assessment](https://brighterly.com/reading-test/sat-reading-practice-test/) | 15 multiple-choice reading questions | Public short unofficial assessment; not a full SAT section |
 | [FreeTestPrep inferences](https://freetestprep.com/sat-reading-writing/hard-inferences/) | Publisher lists 150 original questions in 30 drills | Free harder passage-completion practice with explanations |
 | [Open Practice Tests inferences](https://openpracticetests.org/sat/english/information-and-ideas/inferences/practice/) | 16 untimed exercises with explanations | Public questions; JavaScript for checking; local browser/device progress |
+| [Prep Drills grammar](https://prepdrills.com/blog/sat-grammar-practice-2026/) | 25 original questions labeled medium or hard, with rule and choice explanations | Public interactive article and skill breakdown; a practice set rather than a full section |
+| [Test Merkezim conventions](https://testmerkezim.com/en/practice-tests/sat/sat-reading-and-writing-standard-english-conventions-practice-test/) | 11 grammar and punctuation questions with explanations | Public 13-minute focused quiz |
+| [PeakSAT grammar packet](https://www.peaksat.com/resources/sat-grammar-boundaries-packet) | 12 original questions, every-choice explanations, transfer checks, printable key | Public packet; broader platform/trial access separate |
+| [FreeTestPrep conventions](https://freetestprep.com/sat-reading-writing/hard-standard-english-conventions/) | Publisher lists 150 original questions in 30 drills | Free mixed Boundaries and Form, Structure, and Sense practice with choice explanations |
 
-The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 13,032-question total. Free-test offers and account requirements can change.
+The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 13,672-question total. Free-test offers and account requirements can change.
 
 ## Additional Reading and Writing batch
 
@@ -167,6 +171,14 @@ A further 2,112 questions add 2,048 numerical variants from 32 new math families
 The reading batch adds 16 each in Central Ideas and Details, Inferences, Command of Evidence (Textual), and Cross-Text Connections. Its passages contain 71–88 whitespace-delimited words, including three original poems and eight support/eight weaken evidence tasks. `docs/extended-reading-report.json` records the counts and word range. The new texts and options are individually written rather than generated by changing names or numbers.
 
 All 10,920 earlier records remain identical to a saved baseline, including IDs, answers, explanations, and choice order. Numerical checks include substitution and exactly one valid numeric choice. Every new grid-in has an exact fraction or decimal entry fitting the usual five-character positive or six-character negative entry limit. The bank now contains 10,072 Math and 2,960 Reading and Writing questions. The Reference page links 66 external resources after adding the six sources above; their questions remain outside the bundled count. Automated integration and numeric checks do not constitute independent editorial or psychometric certification.
+
+## Vocabulary, interpretation, and additional grammar patterns
+
+A further 640 Reading and Writing questions add 128 individually written items and 512 controlled grammar variants. The authored batch adds 32 each in Words in Context and Text Structure and Purpose, plus 16 each in Central Ideas and Details, Inferences, Command of Evidence (Textual), and Cross-Text Connections. It includes five original poems, eight explicit-detail questions, and four quotation-evidence tasks. Passages contain 37–69 whitespace-delimited words. `docs/verbal-coverage-report.json` records the batch and is included in reproducibility checks.
+
+Eight additional grammar patterns are applied to the same 64 reviewed contexts, preserving earlier family IDs and answer positions. The patterns cover plural agreement within a relative clause, agreement with one of a plural group, a passive past participle, parallel gerunds after by, the possessive determiner their, who as a relative-clause subject, closing parentheses, and a comma with a coordinating conjunction. The new grammar passages contain 25–35 words, with generation enforcing a 25–150-word range. The family report now records 24 patterns and 1,536 variants. Construction tags check the authored model; they do not independently establish that every natural-language interpretation is unambiguous.
+
+All 13,032 earlier records remain unchanged against a saved baseline. The bank now contains 10,072 Math and 3,600 Reading and Writing questions. Four more public practice resources bring the Reference page to 70 links; external questions remain separate from the bundled count.
 
 ## Further expansion
 

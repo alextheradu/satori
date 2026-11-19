@@ -145,9 +145,11 @@
   html {
     @apply font-sans;
     -webkit-tap-highlight-color: transparent;
+    overscroll-behavior: none;
   }
   body {
     @apply bg-background text-foreground antialiased;
+    overscroll-behavior: none;
   }
   button:not(:disabled),
   [role='button']:not(:disabled) {
