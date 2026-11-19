@@ -23,5 +23,25 @@
     "retiredQuestionId": "m-psda-015",
     "retainedQuestionId": "m-psda-137",
     "reason": "Both estimate a population count by multiplying the known population size by the observed fraction with a characteristic in a random sample."
+  },
+  {
+    "retiredQuestionId": "m-original-statistics-001",
+    "retainedQuestionId": "m-psda-139",
+    "reason": "Both infer that a random sample from an institution’s full membership list supports inference to that institution’s members."
+  },
+  {
+    "retiredQuestionId": "m-original-statistics-002",
+    "retainedQuestionId": "m-psda-146",
+    "reason": "Both identify self-selection as the barrier to generalizing responses from a voluntary online poll."
+  },
+  {
+    "retiredQuestionId": "m-original-statistics-020",
+    "retainedQuestionId": "m-psda-118",
+    "reason": "Both ask how replacing the maximum value with a greater value changes the mean and median of an ordered data set."
+  },
+  {
+    "retiredQuestionId": "m-original-statistics-023",
+    "retainedQuestionId": "m-psda-120",
+    "reason": "Both apply the same positive scaling and additive shift to every observation and ask how the mean and standard deviation transform."
   }
 ]

@@ -1392,5 +1392,22 @@
     ],
     "answer": 3,
     "explanation": "The directive uses a that-clause with the subject each volunteer and the base-form verb label. The infinitive and participial choices cannot serve as the verb of that clause."
+  },
+  {
+    "id": "rw-original-form-042",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "In a hypothetical orchestra seating trial, the conductor lets players request a different seat during each rehearsal. Fewer players asked to move under the second seating plan than ______ under the first, even though the two plans were tested by the same musicians.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "has",
+      "did",
+      "does",
+      "having done"
+    ],
+    "answer": 1,
+    "explanation": "Did stands in for the earlier verb phrase asked to move. It makes the comparison between the players who requested a move under each plan."
   }
 ]

@@ -2769,5 +2769,39 @@
     ],
     "answer": 0,
     "explanation": "The correct choice connects the new punctuation shape to the mistaken grouping of punctuation with letters. The other choices give individual facts without explaining how the two roles became distinguishable."
+  },
+  {
+    "id": "rw-original-transition-082",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "A fictional public garden wants visitors to compare how a leaf looks under sunlight and under shade without moving the plant from its bed. ______, volunteers mount a small shade on a hinge beside the viewing station. Visitors can swing it over the leaf briefly and then move it away.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "By comparison",
+      "Even so",
+      "In retrospect",
+      "To that end"
+    ],
+    "answer": 3,
+    "explanation": "The volunteers install the movable shade to accomplish the comparison the garden wants visitors to make. To that end introduces the action taken for that purpose."
+  },
+  {
+    "id": "rw-original-synthesis-083",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n- Two fictional composers set the same poem to music.\n- Laleh Omari repeats the poem’s last line after each stanza.\n- Omari gives the repeated line the same melody each time.\n- Dev Shah presents the last line only once, at the end.\n- Shah has the singers pause for a full measure just before that line.",
+    "prompt": "The student wants to contrast how the two composers call attention to the same line. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Omari gives the last line prominence by repeating it with the same melody, while Shah saves it for the end and places a pause immediately before it.",
+      "Omari and Shah each set the same poem to music.",
+      "Omari repeats a line, and the singers in Shah’s setting pause for one measure.",
+      "Shah presents the last line once and gives it the melody Omari uses for her repeated line."
+    ],
+    "answer": 0,
+    "explanation": "The keyed choice identifies the same final line in both settings and explains each composer’s way of emphasizing it. The notes do not say the composers use the same melody."
   }
 ]

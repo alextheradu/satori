@@ -4,14 +4,14 @@ import {createHash} from 'node:crypto'
 const hash=value=>createHash('sha256').update(value).digest('hex')
 const canonical=value=>Array.isArray(value)?value.map(canonical):value&&typeof value==='object'?Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(value[k])])):value
 const readQuestions=(name,directory='questions')=>JSON.parse(readFileSync(new URL(`../../src/data/${directory}/${name}.json`,import.meta.url),'utf8'))
-const legacyPsdaFiles=['m-psda-2','math-psda-geo']
-const legacyPsdaArchive=legacyPsdaFiles.flatMap(name=>readQuestions(name,'retired'))
-const legacyPsdaActive=new Set(legacyPsdaFiles.flatMap(name=>readQuestions(name)).map(q=>q.id))
-const legacyPsdaOverlaps=JSON.parse(readFileSync(new URL('../../docs/legacy-psda-overlaps.json',import.meta.url),'utf8'))
-assert.deepEqual(legacyPsdaArchive.map(q=>q.id).sort(),legacyPsdaOverlaps.map(row=>row.retiredQuestionId).sort())
-for(const row of legacyPsdaOverlaps){
- assert(!legacyPsdaActive.has(row.retiredQuestionId),row.retiredQuestionId)
- assert(legacyPsdaActive.has(row.retainedQuestionId),row.retainedQuestionId)
+const authoredPsdaFiles=['m-psda-2','math-psda-geo','original-math-statistics']
+const authoredPsdaArchive=authoredPsdaFiles.flatMap(name=>readQuestions(name,'retired'))
+const authoredPsdaActive=new Set(authoredPsdaFiles.flatMap(name=>readQuestions(name)).map(q=>q.id))
+const authoredPsdaOverlaps=JSON.parse(readFileSync(new URL('../../docs/authored-psda-overlaps.json',import.meta.url),'utf8'))
+assert.deepEqual(authoredPsdaArchive.map(q=>q.id).sort(),authoredPsdaOverlaps.map(row=>row.retiredQuestionId).sort())
+for(const row of authoredPsdaOverlaps){
+ assert(!authoredPsdaActive.has(row.retiredQuestionId),row.retiredQuestionId)
+ assert(authoredPsdaActive.has(row.retainedQuestionId),row.retainedQuestionId)
  assert(row.reason.trim(),row.retiredQuestionId)
 }
 let totalReviewed=0

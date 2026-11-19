@@ -1,0 +1,66 @@
+[
+  {
+    "id": "m-original-statistics-001",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A school randomly selects 120 students from its complete enrollment list and asks how they travel to school. To which population can the results most reasonably be generalized?",
+    "choices": [
+      "Students enrolled at that school",
+      "All students in the country",
+      "Only students who travel by bus",
+      "All residents of the school’s town"
+    ],
+    "answer": 0,
+    "explanation": "Random selection from the full enrollment list supports inference to that school’s students, subject to sampling uncertainty. It does not sample other schools or nonstudent residents."
+  },
+  {
+    "id": "m-original-statistics-002",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A shop posts an optional online survey asking whether its prices should be reduced. Which issue most directly limits using the responses to estimate the opinion of all customers?",
+    "choices": [
+      "The survey is online, so every response must be incorrect.",
+      "Customers who choose to respond may differ systematically from other customers.",
+      "The sample cannot contain more than one customer with the same opinion.",
+      "A voluntary survey necessarily includes every customer."
+    ],
+    "answer": 1,
+    "explanation": "Voluntary response can favor customers with especially strong views. It does not guarantee false answers or a census."
+  },
+  {
+    "id": "m-original-statistics-020",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "A data set is 8, 9, 10, 11, 12. A second data set replaces 12 with 120. Which statement is true?",
+    "choices": [
+      "The mean and median both remain unchanged.",
+      "The median increases to 11.",
+      "The mean decreases because the range increases.",
+      "The mean increases, but the median remains 10."
+    ],
+    "answer": 3,
+    "explanation": "The ordered middle value is still 10. The sum increases by 108, so the mean increases by 108/5. The extreme replacement changes mean and spread without changing the median."
+  },
+  {
+    "id": "m-original-statistics-023",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "A data set has mean 15. Every value is transformed by the rule y = 2x + 7. Which statement correctly describes the transformed data?",
+    "choices": [
+      "Its mean is 30, and its standard deviation increases by 7.",
+      "Its mean is 22, and its standard deviation is unchanged.",
+      "Its mean is 37, and its standard deviation is twice the original standard deviation.",
+      "Its mean is 37, and its standard deviation increases by 7."
+    ],
+    "answer": 2,
+    "explanation": "The mean transforms as 2(15)+7=37. Multiplication by 2 doubles spread; adding 7 shifts all values without changing spread."
+  }
+]

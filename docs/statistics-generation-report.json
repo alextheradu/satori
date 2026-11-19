@@ -1,14 +1,15 @@
 {
-  "provenance": "Individually authored original conceptual statistics questions, not numerical or context-swapping variants.",
-  "total": 88,
+  "provenance": "Individually authored conceptual statistics questions.",
+  "total": 84,
+  "archived": 4,
   "skills": {
-    "Evaluating statistical claims: observational studies and experiments": 80,
-    "One-variable data: distributions and measures of center and spread": 8
+    "Evaluating statistical claims: observational studies and experiments": 78,
+    "One-variable data: distributions and measures of center and spread": 6
   },
   "difficulties": {
-    "medium": 43,
-    "hard": 38,
+    "hard": 36,
+    "medium": 41,
     "easy": 7
   },
-  "latestBatch": 64
+  "latestAuthoredBatch": 64
 }

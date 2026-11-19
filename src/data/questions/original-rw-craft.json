@@ -6135,5 +6135,39 @@
     ],
     "answer": 3,
     "explanation": "The two methods answer different questions. Text 1 values comparable pronunciations, while Text 2 identifies patterns of interaction that become available when people converse."
+  },
+  {
+    "id": "rw-original-vocab-137",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "At a fictional metalworking exhibit, a demonstrator starts with a short, thick rod. The rod is _drawn_ through a series of openings, each narrower than the last. Gripping the end with tongs, the demonstrator pulls it through until it becomes a long, thin wire.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Illustrated",
+      "Selected",
+      "Pulled",
+      "Shortened"
+    ],
+    "answer": 2,
+    "explanation": "The demonstrator uses tongs to pull the metal through the openings. Drawn describes that movement."
+  },
+  {
+    "id": "rw-original-cross-111",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "The following texts describe approaches to photographing a fictional dance performance.\n\n**Text 1**\nThe company’s wide photograph shows the entire group at once. The scattering of dancers across the stage traces a curved line that a viewer close to any one dancer could easily miss.\n\n**Text 2**\nA photographer framing only one dancer can capture how she changes her grip on a scarf just before the group turns. The grip gives a clue to how she prepares for the movement, even if the group’s shape lies outside the frame.",
+    "prompt": "Which choice best describes the relationship between the two texts?",
+    "choices": [
+      "They disagree about whether the dancers ever turn as a group.",
+      "They both argue that the best photographs exclude most of the stage.",
+      "The second text explains how the photographer captured the entire group’s curved formation.",
+      "They identify different aspects of the performance that become visible at different photographic scales."
+    ],
+    "answer": 3,
+    "explanation": "The wide view reveals the group’s overall formation. The close view reveals a small movement by one dancer. Each text explains what its framing makes visible."
   }
 ]

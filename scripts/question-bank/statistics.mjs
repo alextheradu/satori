@@ -1,6 +1,5 @@
 import assert from 'node:assert/strict'
 import { readFileSync, writeFileSync } from 'node:fs'
-import { fileURLToPath } from 'node:url'
 import { statisticsExpansion } from './statistics-expansion.mjs'
 const rows=[]
 const add=(difficulty,prompt,correct,wrong,explanation,skill='Evaluating statistical claims: observational studies and experiments')=>rows.push({difficulty,prompt,correct,wrong,explanation,skill})
@@ -30,20 +29,34 @@ add('easy','A data set has minimum 14 and maximum 53. What is its range?','39',[
 add('hard','A data set has mean 15. Every value is transformed by the rule y = 2x + 7. Which statement correctly describes the transformed data?','Its mean is 37, and its standard deviation is twice the original standard deviation.',['Its mean is 30, and its standard deviation increases by 7.','Its mean is 22, and its standard deviation is unchanged.','Its mean is 37, and its standard deviation increases by 7.'],'The mean transforms as 2(15)+7=37. Multiplication by 2 doubles spread; adding 7 shifts all values without changing spread.',spread)
 add('medium','A frequency table gives value 2 with frequency 4, value 5 with frequency 7, and value 9 with frequency 3. What is the mode?','5',['7','9','2'],'The mode is the observed value with greatest frequency. Value 5 appears 7 times, more than the other values. Frequency 7 is not itself the modal data value.',spread)
 rows.push(...statisticsExpansion)
-const questions=rows.map((r,i)=>{
+const authoredQuestions=rows.map((r,i)=>{
  assert.equal(r.wrong.length,3)
  const choices=[r.correct,...r.wrong],answer=i%4
  choices.splice(answer,0,choices.shift())
  return {id:`m-original-statistics-${String(i+1).padStart(3,'0')}`,section:'math',domain:'Problem-Solving and Data Analysis',skill:r.skill,difficulty:r.difficulty,prompt:r.prompt,choices,answer,explanation:r.explanation}
 })
-const path=fileURLToPath(new URL('../../src/data/questions/original-math-statistics.json',import.meta.url))
-const text=JSON.stringify(questions,null,2)+'\n'
-if(process.argv.includes('--check'))assert.equal(readFileSync(path,'utf8'),text)
-else writeFileSync(path,text)
+const overlaps=JSON.parse(readFileSync(new URL('../../docs/authored-psda-overlaps.json',import.meta.url),'utf8'))
+const retiredIds=new Set(overlaps.map(row=>row.retiredQuestionId).filter(id=>id.startsWith('m-original-statistics-')))
+const questions=authoredQuestions.filter(question=>!retiredIds.has(question.id))
+const archived=authoredQuestions.filter(question=>retiredIds.has(question.id))
+assert.equal(archived.length,retiredIds.size,'Every declared statistics retirement must exist')
+
+function save(relativePath,value){
+ const path=new URL(relativePath,import.meta.url)
+ const text=JSON.stringify(value,null,2)+'\n'
+ if(process.argv.includes('--check'))assert.equal(readFileSync(path,'utf8'),text)
+ else writeFileSync(path,text)
+}
+save('../../src/data/questions/original-math-statistics.json',questions)
+save('../../src/data/retired/original-math-statistics.json',archived)
 const skills={},difficulties={}
-for(const row of rows){skills[row.skill]=(skills[row.skill]??0)+1;difficulties[row.difficulty]=(difficulties[row.difficulty]??0)+1}
-const report=JSON.stringify({provenance:'Individually authored original conceptual statistics questions, not numerical or context-swapping variants.',total:rows.length,skills,difficulties,latestBatch:statisticsExpansion.length},null,2)+'\n'
-const reportPath=fileURLToPath(new URL('../../docs/statistics-generation-report.json',import.meta.url))
-if(process.argv.includes('--check'))assert.equal(readFileSync(reportPath,'utf8'),report)
-else writeFileSync(reportPath,report)
-console.log(`${process.argv.includes('--check')?'Verified':'Wrote'} ${questions.length} original conceptual statistics questions.`)
+for(const row of questions){skills[row.skill]=(skills[row.skill]??0)+1;difficulties[row.difficulty]=(difficulties[row.difficulty]??0)+1}
+save('../../docs/statistics-generation-report.json',{
+ provenance:'Individually authored conceptual statistics questions.',
+ total:questions.length,
+ archived:archived.length,
+ skills,
+ difficulties,
+ latestAuthoredBatch:statisticsExpansion.length,
+})
+console.log(`${process.argv.includes('--check')?'Verified':'Wrote'} ${questions.length} active conceptual statistics questions and ${archived.length} historical records.`)

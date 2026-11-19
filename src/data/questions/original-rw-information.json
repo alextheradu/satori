@@ -5846,5 +5846,56 @@
     ],
     "answer": 1,
     "explanation": "Multiplying each wattage by its own running time gives 80 × 4 = 320 watt-hours for M and 50 × 8 = 400 for N. The difference is 80 watt-hours per day."
+  },
+  {
+    "id": "rw-original-textual-106",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "In an original story, Veda was preparing a window display of wind chimes. When the door of the shop opened, air sent the chimes ringing all at once. A customer asked to hear how the small copper chime sounded on its own. Veda slipped a strip of felt between the other chimes’ tubes and their clappers. Then she stood back while the customer nudged the copper chime.",
+    "prompt": "Which quotation best supports the claim that Veda takes a specific action to isolate the sound of a single chime?",
+    "choices": [
+      "Veda slipped a strip of felt between the other chimes’ tubes and their clappers.",
+      "In an original story, Veda was preparing a window display of wind chimes.",
+      "When the door of the shop opened, air sent the chimes ringing all at once.",
+      "Then she stood back while the customer nudged the copper chime."
+    ],
+    "answer": 0,
+    "explanation": "The felt prevents the other clappers from striking their tubes, allowing the customer to hear the copper chime separately. The other lines describe the setting, the initial noise, and the customer’s action."
+  },
+  {
+    "id": "rw-original-central-106",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "In a fictional town, a covered market occupies a building with entrances on two streets. For an evening sale, the organizers keep the sloped western entrance open to shoppers. Delivery crews use the eastern entrance because it leads directly to the storage area. The separation lets shoppers browse without crossing the delivery route.",
+    "prompt": "According to the text, why do delivery crews use the eastern entrance?",
+    "choices": [
+      "Its slope lets them move carts without help.",
+      "It gives them direct access to the storage area.",
+      "It is the only entrance that faces a street.",
+      "It is closer to the displays that shoppers are browsing."
+    ],
+    "answer": 1,
+    "explanation": "The third sentence gives the reason for using the eastern entrance. The text associates the slope with the western entrance and places the storage area on the delivery route."
+  },
+  {
+    "id": "rw-original-quantitative-024",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "In a hypothetical shipping trial, two samples are weighed inside reusable containers. The gross weight includes the sample and its container. The sample weight is the gross weight minus the empty container weight. An analyst suspects that ranking the samples by gross weight gives the reverse of their ranking by sample weight.\n\n| Sample | Gross weight (g) | Empty container weight (g) |\n|---|---|---|\n| R | 1,400 | 600 |\n| S | 1,300 | 300 |",
+    "prompt": "Which choice best uses the table to support the analyst’s suspicion?",
+    "choices": [
+      "R has a greater gross weight and its sample weighs 200 grams more than S.",
+      "S has a lower gross weight and its sample also weighs less than R.",
+      "R has a greater gross weight, but its sample weighs 800 grams compared with 1,000 grams for S.",
+      "The containers differ in weight by 300 grams, while the two samples have the same weight."
+    ],
+    "answer": 2,
+    "explanation": "Subtracting each container weight gives 800 grams for R and 1,000 grams for S. The gross weights rank R first, while the sample weights rank S first."
   }
 ]
