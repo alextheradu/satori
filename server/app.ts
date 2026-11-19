@@ -15,6 +15,14 @@ app.use('*', async (_c, next) => {
   await next()
 })
 app.use('*', logger())
+// No HTTP caching anywhere: every response (HTML, assets, API) is fetched fresh,
+// so a new deploy shows up on the next page load.
+app.use('*', async (c, next) => {
+  await next()
+  c.header('Cache-Control', 'no-store')
+  c.res.headers.delete('Last-Modified')
+  c.res.headers.delete('ETag')
+})
 app.use('*', secureHeaders({ contentSecurityPolicy: undefined, crossOriginEmbedderPolicy: false }))
 
 app.get('/healthz', async (c) => {

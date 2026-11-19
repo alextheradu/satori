@@ -9,29 +9,13 @@ import { ensureMigrated, sql } from './db/index.js'
 import { env } from './env.js'
 
 const root = path.resolve(env.staticDir)
-app.use(
-  '/assets/*',
-  serveStatic({
-    root,
-    onFound: (_p, c) => c.header('Cache-Control', 'public, max-age=31536000, immutable'),
-  }),
-)
-app.use(
-  '*',
-  serveStatic({
-    root,
-    // HTML (including "/" -> index.html) must revalidate, or browsers keep an old page that
-    // points at old hashed assets and a new deploy never shows up.
-    onFound: (p, c) => {
-      if (p.endsWith('.html')) c.header('Cache-Control', 'no-cache')
-    },
-  }),
-)
+
+// Caching is disabled in app.ts (Cache-Control: no-store on every response).
+app.use('*', serveStatic({ root }))
 let indexHtml: string | null = null
 app.get('*', async (c) => {
   indexHtml ??= await readFile(path.join(root, 'index.html'), 'utf8').catch(() => null)
   if (!indexHtml) return c.text('Frontend not built. Run `npm run build`.', 500)
-  c.header('Cache-Control', 'no-cache')
   return c.html(indexHtml)
 })
 

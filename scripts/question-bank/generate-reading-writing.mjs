@@ -5,6 +5,8 @@ import { reading } from './reading.mjs'
 import { writing } from './writing.mjs'
 import { readingExpansion } from './reading-expansion.mjs'
 import { writingExpansion } from './writing-expansion.mjs'
+import { readingAdditional } from './reading-additional.mjs'
+import { writingAdditional } from './writing-additional.mjs'
 const groups={
  'Words in Context':['craft','Craft and Structure','vocab'],
  'Text Structure and Purpose':['craft','Craft and Structure','structure'],
@@ -19,7 +21,7 @@ const groups={
  'Form, Structure, and Sense':['conventions','Standard English Conventions','form'],
 }
 const counts={}, files={}, seen=new Set()
-const rows=[...reading,...writing,...readingExpansion,...writingExpansion]
+const rows=[...reading,...writing,...readingExpansion,...writingExpansion,...readingAdditional,...writingAdditional]
 for(const [i,row] of rows.entries()) {
  const [file,domain,key]=groups[row.skill]
  counts[key]=(counts[key]??0)+1

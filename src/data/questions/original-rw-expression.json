@@ -950,5 +950,277 @@
     ],
     "answer": 3,
     "explanation": "The stated choice concretely illustrates negotiation among goals. General topic statements do not explain it, and the universal preservation claim contradicts the notes."
+  },
+  {
+    "id": "rw-original-transition-029",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "The fictional study found that participants using the app finished more quickly. It did not measure whether they remembered the instructions afterward. ______, the result establishes a speed advantage without establishing a learning advantage.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Thus",
+      "Nevertheless",
+      "For example",
+      "Meanwhile"
+    ],
+    "answer": 0,
+    "explanation": "The distinction follows from which outcomes were measured. Thus introduces that inference. It is not contrary to the evidence, a particular example, or a simultaneous event."
+  },
+  {
+    "id": "rw-original-transition-030",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "The fictional town’s new map includes formal streets and public paths. ______, it marks informal stairways that residents use to cross the hillside.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "By contrast",
+      "In addition",
+      "Instead",
+      "Previously"
+    ],
+    "answer": 1,
+    "explanation": "The stairways are another included feature, so an additive transition fits. They do not replace streets, contradict the inclusion of paths, or describe an earlier version."
+  },
+  {
+    "id": "rw-original-transition-031",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "The fictional gallery’s roof began leaking. ______, staff moved the paper collection to a dry storeroom.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Conversely",
+      "For example",
+      "Consequently",
+      "Likewise"
+    ],
+    "answer": 2,
+    "explanation": "The move responds to the leak, a cause-and-effect relationship. The other transitions signal reversal, illustration, or similarity without expressing that consequence."
+  },
+  {
+    "id": "rw-original-transition-032",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "A fictional critic calls the memoir disordered because its chapters move between decades. Repeated descriptions of the same room, however, connect those periods. ______, the apparent disorder rests on an organizing pattern of place.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Even so",
+      "For instance",
+      "Earlier",
+      "In other words"
+    ],
+    "answer": 3,
+    "explanation": "The final sentence reformulates the preceding interpretation of spatial links. It does not concede a contradiction or introduce one concrete instance."
+  },
+  {
+    "id": "rw-original-transition-033",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "The first fictional survey asked visitors what they enjoyed. The second asked what prevented them from returning. ______, the surveys addressed different questions despite including many of the same respondents.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Accordingly",
+      "Nonetheless",
+      "For example",
+      "In the meantime"
+    ],
+    "answer": 0,
+    "explanation": "Different questions follow from the stated survey designs. Accordingly introduces that conclusion; overlapping respondents do not make it a contradiction."
+  },
+  {
+    "id": "rw-original-transition-034",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "The hypothetical model predicted an increase at all sites. Most sites followed that pattern. One sheltered site, ______, showed no measurable change.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "therefore",
+      "however",
+      "for example",
+      "similarly"
+    ],
+    "answer": 1,
+    "explanation": "The final site is an exception to the prevailing pattern, so however marks contrast. It is not an illustration of increase or a similar outcome."
+  },
+  {
+    "id": "rw-original-transition-035",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "The fictional editor first checked the quotations against the manuscripts. Next she verified the dates. ______, she reviewed whether the notes explained the unfamiliar terms.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Previously",
+      "Instead",
+      "Finally",
+      "Conversely"
+    ],
+    "answer": 2,
+    "explanation": "The passage enumerates successive complementary checks. Finally completes the sequence; previously reverses time and instead suggests replacement."
+  },
+  {
+    "id": "rw-original-transition-036",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "A hypothetical report distinguishes access to a service from the ability to use it effectively. A public computer may be available, for instance, while its instructions remain difficult to understand. ______, availability alone is an incomplete measure of practical access.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "On the contrary",
+      "Meanwhile",
+      "For example",
+      "Therefore"
+    ],
+    "answer": 3,
+    "explanation": "The example supports the conclusion that availability is insufficient. Therefore introduces that implication. The conclusion is not another specific example or an opposing claim."
+  },
+  {
+    "id": "rw-original-synthesis-029",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- Fictional scholar Tessa Hale studies repairs to old baskets.\n- Some replacement fibers differ visibly from the original fibers.\n- The replacements allowed the baskets to remain useful.\n- Hale argues that repairs reveal continued use, not merely damage.",
+    "prompt": "The student wants to illustrate Hale’s interpretation with a specific observation. Which choice most effectively uses relevant information from the notes?",
+    "choices": [
+      "Visible replacement fibers show how repairs kept baskets in use, supporting Hale’s view that repairs document an object’s continuing history.",
+      "Hale studies baskets that contain different fibers.",
+      "Some old baskets are damaged.",
+      "The original fibers and replacement fibers are not identical."
+    ],
+    "answer": 0,
+    "explanation": "The correct option connects a concrete repair to continued use and the interpretive claim. Material difference alone does not state that significance."
+  },
+  {
+    "id": "rw-original-synthesis-030",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- A hypothetical museum compared two ticket systems.\n- The original system required all visitors to wait at one desk.\n- The new system let visitors collect online reservations separately.\n- Waiting times declined for visitors with reservations.",
+    "prompt": "The student wants to state the finding without extending it to unmeasured visitors. Which choice most effectively uses relevant information from the notes?",
+    "choices": [
+      "Every visitor waited less under the new system.",
+      "Visitors with online reservations waited less under the new ticket system.",
+      "Visitors without reservations never had to queue.",
+      "The new system eliminated all waiting in the museum."
+    ],
+    "answer": 1,
+    "explanation": "The measured finding concerns reservation holders. The alternatives extend it to all visitors, an unmeasured group, or an absolute elimination of waiting."
+  },
+  {
+    "id": "rw-original-synthesis-031",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- The fictional Eastfield Market opens at 8 a.m.\n- The fictional Westfield Market opens at 10 a.m.\n- Eastfield closes at 2 p.m.\n- Westfield closes at 6 p.m.",
+    "prompt": "The student wants to compare the markets’ opening times. Which choice most effectively uses relevant information from the notes?",
+    "choices": [
+      "Westfield Market closes four hours after Eastfield.",
+      "Eastfield Market is open for six hours.",
+      "Eastfield Market opens two hours before Westfield Market.",
+      "Westfield Market closes at 6 p.m."
+    ],
+    "answer": 2,
+    "explanation": "The correct sentence directly compares opening times, 8 a.m. and 10 a.m. The other choices concern closing times or duration."
+  },
+  {
+    "id": "rw-original-synthesis-032",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- Fictional translator Oona Reed produced two versions of a speech.\n- Version A preserves repeated phrases.\n- Version B varies the phrases to sound more fluent.\n- Readers described A as more insistent and B as smoother.",
+    "prompt": "The student wants to describe an interpretive consequence of the translation choices. Which choice most effectively uses relevant information from the notes?",
+    "choices": [
+      "Reed produced two translations of one speech.",
+      "Version A repeats phrases that version B changes.",
+      "Both versions contain words and sentences.",
+      "Preserving repetition made the speech seem more insistent, while varying the wording made it seem smoother."
+    ],
+    "answer": 3,
+    "explanation": "The goal is how readers interpret the speaker, not merely the formal difference. The correct option links both choices to the reported impressions."
+  },
+  {
+    "id": "rw-original-synthesis-033",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- A hypothetical soil study compared samples collected in different decades.\n- Earlier samples were stored in paper.\n- Later samples were stored in plastic.\n- Storage conditions can alter the measured substance.",
+    "prompt": "The student wants to explain why storage is relevant to interpreting differences. Which choice most effectively uses relevant information from the notes?",
+    "choices": [
+      "Because storage can alter the substance and changed between periods, measured differences may partly reflect storage rather than soil changes alone.",
+      "Samples were collected in more than one decade.",
+      "Earlier samples used paper and later samples used plastic.",
+      "The study compared several soil samples."
+    ],
+    "answer": 0,
+    "explanation": "The correct option connects the period-linked storage difference to an alternative explanation for the outcome. Merely listing the storage methods does not explain the inference."
+  },
+  {
+    "id": "rw-original-synthesis-034",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- Fictional architect Asha Kerr designs small public courtyards.\n- She includes fixed benches for predictable seating.\n- She also includes movable chairs for adjusting to shade and conversation.\n- She views the two seating types as complementary.",
+    "prompt": "The student wants to explain how the design addresses different seating needs. Which choice most effectively uses relevant information from the notes?",
+    "choices": [
+      "Kerr designs courtyards with more than one type of furniture.",
+      "Kerr combines fixed benches for predictable seating with movable chairs that visitors can reposition.",
+      "Movable chairs can be placed in courtyards.",
+      "Fixed benches are part of Kerr’s designs."
+    ],
+    "answer": 1,
+    "explanation": "The correct sentence identifies the different functions and their combination. General furniture facts omit the complementary purposes."
+  },
+  {
+    "id": "rw-original-synthesis-035",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- The fictional River Archive lends recording equipment.\n- Borrowers complete a short equipment lesson before their first loan.\n- Loans last three days.\n- The archive opens on Tuesdays and Saturdays.",
+    "prompt": "The student wants to tell new borrowers what they must do before borrowing. Which choice most effectively uses relevant information from the notes?",
+    "choices": [
+      "Recording equipment can be borrowed for three days.",
+      "The River Archive opens on Tuesdays and Saturdays.",
+      "New borrowers must complete a short equipment lesson before their first loan.",
+      "The archive lends recording equipment to borrowers."
+    ],
+    "answer": 2,
+    "explanation": "The goal concerns a prerequisite, which only the correct option states. The other facts concern availability, duration, or the service itself."
+  },
+  {
+    "id": "rw-original-synthesis-036",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- A hypothetical memory study measured immediate recall and recall after one week.\n- Method A produced higher immediate recall.\n- Method B produced higher week-later recall.\n- The researchers recommended reporting both outcomes.",
+    "prompt": "The student wants to explain the recommendation. Which choice most effectively uses relevant information from the notes?",
+    "choices": [
+      "Method A was superior on every memory measure.",
+      "Delayed recall made immediate testing unnecessary in all studies.",
+      "Both methods produced exactly the same pattern of results.",
+      "Reporting both immediate and delayed recall reveals that the methods’ relative advantages change with the testing interval."
+    ],
+    "answer": 3,
+    "explanation": "The timing-dependent reversal justifies multiple measures. The alternatives erase the tradeoff or overgeneralize beyond the study."
   }
 ]
