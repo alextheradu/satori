@@ -1,0 +1,723 @@
+[
+  {
+    "id": "m-geo-101",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "easy",
+    "prompt": "A storage box is shaped like a right rectangular prism. Its length is 8 inches, its width is 5 inches, and its volume is 280 cubic inches. What is the height of the box, in inches?",
+    "choices": [
+      "7",
+      "14",
+      "35",
+      "267"
+    ],
+    "answer": 0,
+    "explanation": "The volume of a right rectangular prism is $V = lwh$, so $280 = (8)(5)h = 40h$ and $h = 7$. Choice 35 is $280 \\div 8$, which ignores the width."
+  },
+  {
+    "id": "m-geo-102",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "easy",
+    "prompt": "A triangle has an area of 63 square meters. The length of one side of the triangle is 14 meters. What is the height of the triangle, in meters, relative to that side?",
+    "choices": [
+      "4.5",
+      "9",
+      "18",
+      "49"
+    ],
+    "answer": 1,
+    "explanation": "Using $A = \\frac{1}{2}bh$: $63 = \\frac{1}{2}(14)h = 7h$, so $h = 9$. Choice 4.5 results from using $A = bh$ and leaving out the $\\frac{1}{2}$."
+  },
+  {
+    "id": "m-geo-103",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "easy",
+    "prompt": "The total surface area of a cube is 150 square centimeters. What is the length of one edge of the cube, in centimeters?",
+    "answer": [
+      "5"
+    ],
+    "explanation": "A cube has 6 congruent square faces, so each face has area $150 \\div 6 = 25$. The edge length is $\\sqrt{25} = 5$."
+  },
+  {
+    "id": "m-geo-104",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "easy",
+    "prompt": "A sphere has a radius of 3 feet. What is the volume of the sphere, in cubic feet?",
+    "choices": [
+      "$12\\pi$",
+      "$27\\pi$",
+      "$36\\pi$",
+      "$108\\pi$"
+    ],
+    "answer": 2,
+    "explanation": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi(27) = 36\\pi$. Choice $108\\pi$ omits the division by 3, and $27\\pi$ omits the factor $\\frac{4}{3}$."
+  },
+  {
+    "id": "m-geo-105",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "medium",
+    "prompt": "The length of a rectangle is increased by 20%, and the width of the rectangle is decreased by 20%. How does the area of the new rectangle compare with the area of the original rectangle?",
+    "choices": [
+      "The area decreases by 40%.",
+      "The area increases by 4%.",
+      "The area does not change.",
+      "The area decreases by 4%."
+    ],
+    "answer": 3,
+    "explanation": "If the original dimensions are $l$ and $w$, the new area is $(1.2l)(0.8w) = 0.96lw$. The new area is 96% of the original, a decrease of 4%. The changes do not cancel because 20% of a larger length is not the same as 20% of the original width."
+  },
+  {
+    "id": "m-geo-106",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "medium",
+    "prompt": "A right circular cone has a volume of $96\\pi$ cubic centimeters and a base radius of 6 centimeters. What is the height of the cone, in centimeters?",
+    "choices": [
+      "$\\frac{8}{3}$",
+      "8",
+      "24",
+      "48"
+    ],
+    "answer": 1,
+    "explanation": "Using $V = \\frac{1}{3}\\pi r^2 h$: $96\\pi = \\frac{1}{3}\\pi(36)h = 12\\pi h$, so $h = 8$. Choice $\\frac{8}{3}$ ignores the $\\frac{1}{3}$, and 48 uses $r$ instead of $r^2$."
+  },
+  {
+    "id": "m-geo-107",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "medium",
+    "prompt": "An isosceles trapezoid has parallel sides of lengths 9 inches and 15 inches. Each of its two nonparallel sides has a length of 5 inches. What is the area of the trapezoid, in square inches?",
+    "choices": [
+      "48",
+      "60",
+      "72",
+      "120"
+    ],
+    "answer": 0,
+    "explanation": "Dropping perpendiculars from the ends of the shorter base splits off two right triangles, each with a horizontal leg of $\\frac{15 - 9}{2} = 3$ and hypotenuse 5, so the height is $\\sqrt{5^2 - 3^2} = 4$. The area is $\\frac{9 + 15}{2}(4) = 48$. Choice 60 uses the slanted side, 5, as the height."
+  },
+  {
+    "id": "m-geo-108",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "medium",
+    "prompt": "Rectangular prism A has a volume of 40 cubic units. Each edge of rectangular prism B is 1.5 times as long as the corresponding edge of prism A. What is the volume of prism B, in cubic units?",
+    "choices": [
+      "60",
+      "90",
+      "135",
+      "160"
+    ],
+    "answer": 2,
+    "explanation": "Scaling every length by 1.5 scales volume by $1.5^3 = 3.375$, so prism B has volume $40(3.375) = 135$. Choice 60 scales by 1.5 only, and 90 scales by $1.5^2$, which applies to area, not volume."
+  },
+  {
+    "id": "m-geo-109",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "hard",
+    "prompt": "The radius of a right circular cylinder is tripled and its height is cut in half. The volume of the new cylinder is $k$ times the volume of the original cylinder. What is the value of $k$?",
+    "answer": [
+      "9/2",
+      "4.5"
+    ],
+    "explanation": "The original volume is $\\pi r^2 h$. The new volume is $\\pi(3r)^2\\left(\\frac{h}{2}\\right) = \\frac{9}{2}\\pi r^2 h$, so $k = \\frac{9}{2} = 4.5$."
+  },
+  {
+    "id": "m-geo-110",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "hard",
+    "prompt": "An equilateral triangle has a perimeter of $18\\sqrt{3}$ inches. What is the area of the triangle, in square inches?",
+    "choices": [
+      "$9\\sqrt{3}$",
+      "$27\\sqrt{3}$",
+      "$54\\sqrt{3}$",
+      "$108\\sqrt{3}$"
+    ],
+    "answer": 1,
+    "explanation": "Each side is $\\frac{18\\sqrt{3}}{3} = 6\\sqrt{3}$. The area of an equilateral triangle with side $s$ is $\\frac{\\sqrt{3}}{4}s^2 = \\frac{\\sqrt{3}}{4}(108) = 27\\sqrt{3}$. Choice $54\\sqrt{3}$ omits the $\\frac{1}{2}$ in the triangle area formula."
+  },
+  {
+    "id": "m-geo-111",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "hard",
+    "prompt": "A solid metal cube with an edge length of 6 centimeters is melted down and completely recast, with no loss of material, into a solid right circular cylinder with a radius of 3 centimeters. What is the height of the cylinder, in centimeters?",
+    "choices": [
+      "$\\frac{8}{\\pi}$",
+      "$\\frac{24}{\\pi}$",
+      "$\\frac{72}{\\pi}$",
+      "24"
+    ],
+    "answer": 1,
+    "explanation": "The volume is unchanged: $6^3 = 216$. For the cylinder, $\\pi(3)^2h = 216$, so $9\\pi h = 216$ and $h = \\frac{24}{\\pi}$. Choice $\\frac{72}{\\pi}$ uses $r$ instead of $r^2$; choice 24 drops the $\\pi$."
+  },
+  {
+    "id": "m-geo-112",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "hard",
+    "prompt": "A closed box shaped like a right rectangular prism has three faces that share a common vertex. The areas of these three faces are 24, 32, and 48 square inches. What is the volume of the box, in cubic inches?",
+    "answer": [
+      "192"
+    ],
+    "explanation": "Let the edges be $l$, $w$, and $h$ with $lw = 24$, $wh = 32$, and $lh = 48$. Multiplying gives $(lwh)^2 = 24 \\cdot 32 \\cdot 48 = 36{,}864$, so $lwh = 192$. (The edges are 6, 4, and 8.)"
+  },
+  {
+    "id": "m-geo-113",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "easy",
+    "prompt": "Two lines intersect at a point, forming four angles. One of the angles measures $47^\\circ$. What is the measure of an angle adjacent to it?",
+    "choices": [
+      "$43^\\circ$",
+      "$47^\\circ$",
+      "$133^\\circ$",
+      "$313^\\circ$"
+    ],
+    "answer": 2,
+    "explanation": "Adjacent angles formed by two intersecting lines form a linear pair, so they are supplementary: $180^\\circ - 47^\\circ = 133^\\circ$. The angle vertical to the $47^\\circ$ angle also measures $47^\\circ$, but it is not adjacent."
+  },
+  {
+    "id": "m-geo-114",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "easy",
+    "prompt": "Two parallel lines are cut by a transversal. Two alternate interior angles formed have measures $(5x - 16)^\\circ$ and $(3x + 30)^\\circ$. What is the value of $x$?",
+    "choices": [
+      "5.75",
+      "7",
+      "20.75",
+      "23"
+    ],
+    "answer": 3,
+    "explanation": "Alternate interior angles formed by parallel lines are congruent, so $5x - 16 = 3x + 30$. Then $2x = 46$ and $x = 23$. Choice 20.75 treats the angles as supplementary, and 7 comes from a sign error when collecting terms."
+  },
+  {
+    "id": "m-geo-115",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "easy",
+    "prompt": "In triangle $ABC$, side $\\overline{BC}$ is extended past point $C$, forming an exterior angle at $C$ that measures $125^\\circ$. If the measure of $\\angle A$ is $70^\\circ$, what is the measure, in degrees, of $\\angle B$?",
+    "answer": [
+      "55"
+    ],
+    "explanation": "An exterior angle of a triangle equals the sum of the two remote interior angles: $125 = 70 + m\\angle B$, so $m\\angle B = 55^\\circ$."
+  },
+  {
+    "id": "m-geo-116",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "easy",
+    "prompt": "Triangle $ABC$ is similar to triangle $DEF$, where $A$, $B$, and $C$ correspond to $D$, $E$, and $F$, respectively. If $AB = 6$, $BC = 8$, and $DE = 15$, what is the length of $\\overline{EF}$?",
+    "choices": [
+      "3.2",
+      "11.25",
+      "17",
+      "20"
+    ],
+    "answer": 3,
+    "explanation": "The scale factor from $ABC$ to $DEF$ is $\\frac{15}{6} = 2.5$, so $EF = 2.5(8) = 20$. Choice 17 adds 9 instead of multiplying, and 11.25 sets up the proportion with sides that do not correspond."
+  },
+  {
+    "id": "m-geo-117",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "medium",
+    "prompt": "In an isosceles triangle, the vertex angle (the angle between the two congruent sides) measures $(2x)^\\circ$, and each base angle measures $(x + 15)^\\circ$. What is the measure of the vertex angle?",
+    "choices": [
+      "$37.5^\\circ$",
+      "$52.5^\\circ$",
+      "$75^\\circ$",
+      "$105^\\circ$"
+    ],
+    "answer": 2,
+    "explanation": "The angles sum to $180^\\circ$: $2x + 2(x + 15) = 180$, so $4x = 150$ and $x = 37.5$. The vertex angle is $2(37.5) = 75^\\circ$. Choice $37.5^\\circ$ is $x$, and $52.5^\\circ$ is a base angle."
+  },
+  {
+    "id": "m-geo-118",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "medium",
+    "prompt": "Each interior angle of a regular polygon measures $150^\\circ$. How many sides does the polygon have?",
+    "answer": [
+      "12"
+    ],
+    "explanation": "Each exterior angle measures $180^\\circ - 150^\\circ = 30^\\circ$, and the exterior angles of any convex polygon sum to $360^\\circ$. So the polygon has $\\frac{360}{30} = 12$ sides."
+  },
+  {
+    "id": "m-geo-119",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "medium",
+    "prompt": "Triangle $ABC$ is congruent to triangle $XYZ$, where $A$, $B$, and $C$ correspond to $X$, $Y$, and $Z$, respectively. If $AB = 2k + 3$ and $XY = 5k - 9$, what is the length of $\\overline{XY}$?",
+    "choices": [
+      "4",
+      "11",
+      "17",
+      "22"
+    ],
+    "answer": 1,
+    "explanation": "Corresponding sides of congruent triangles are equal, so $2k + 3 = 5k - 9$, giving $k = 4$. Then $XY = 5(4) - 9 = 11$. Choice 4 is the value of $k$."
+  },
+  {
+    "id": "m-geo-120",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "medium",
+    "prompt": "At a certain time of day, a 6-foot-tall person standing on level ground casts a shadow 4 feet long. At the same time, a nearby tree casts a shadow 26 feet long. Both stand vertically. What is the height of the tree, in feet?",
+    "choices": [
+      "$\\frac{52}{3}$",
+      "28",
+      "39",
+      "156"
+    ],
+    "answer": 2,
+    "explanation": "The sun's rays make the same angle with the ground for both objects, so the right triangles formed are similar: $\\frac{6}{4} = \\frac{h}{26}$, giving $h = 39$. Choice $\\frac{52}{3}$ inverts the ratio."
+  },
+  {
+    "id": "m-geo-121",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "hard",
+    "prompt": "In triangle $ABC$, point $D$ lies on $\\overline{AB}$ and point $E$ lies on $\\overline{AC}$ such that $\\overline{DE}$ is parallel to $\\overline{BC}$. If $AD = 6$, $DB = x$, $AE = 9$, and $EC = x + 3$, what is the length of $\\overline{AC}$?",
+    "choices": [
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "answer": 3,
+    "explanation": "A segment parallel to one side of a triangle divides the other two sides proportionally: $\\frac{6}{x} = \\frac{9}{x + 3}$. Cross-multiplying, $6x + 18 = 9x$, so $x = 6$. Then $AC = 9 + (6 + 3) = 18$. Choice 9 is $EC$ alone."
+  },
+  {
+    "id": "m-geo-122",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "hard",
+    "prompt": "In triangle $ABC$, $AB = AC$ and the measure of $\\angle A$ is $40^\\circ$. Point $D$ lies on $\\overline{AC}$ such that $BD = BC$. What is the measure, in degrees, of $\\angle ABD$?",
+    "answer": [
+      "30"
+    ],
+    "explanation": "Since $AB = AC$, $m\\angle ABC = m\\angle ACB = \\frac{180 - 40}{2} = 70^\\circ$. In triangle $BDC$, $BD = BC$, so $m\\angle BDC = m\\angle BCD = 70^\\circ$ and $m\\angle DBC = 180 - 70 - 70 = 40^\\circ$. Thus $m\\angle ABD = 70 - 40 = 30^\\circ$."
+  },
+  {
+    "id": "m-geo-123",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "hard",
+    "prompt": "In triangle $ABC$, $\\angle C$ is a right angle. Point $D$ lies on hypotenuse $\\overline{AB}$ such that $\\overline{CD}$ is perpendicular to $\\overline{AB}$. If $AD = 4$ and $DB = 9$, what is the length of $\\overline{AC}$?",
+    "choices": [
+      "$\\sqrt{13}$",
+      "4",
+      "6",
+      "$2\\sqrt{13}$"
+    ],
+    "answer": 3,
+    "explanation": "Triangles $ADC$ and $ACB$ are similar (they share $\\angle A$ and each has a right angle), so $\\frac{AD}{AC} = \\frac{AC}{AB}$. Then $AC^2 = AD \\cdot AB = 4(13) = 52$, and $AC = 2\\sqrt{13}$. Choice 6 is $CD$, and $\\sqrt{13}$ uses $AD + DB$ instead of $AD \\cdot AB$."
+  },
+  {
+    "id": "m-geo-124",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "hard",
+    "prompt": "Lines $\\ell$ and $m$ are parallel. Points $P$ and $S$ lie on line $\\ell$, and points $Q$ and $R$ lie on line $m$, so that $P$, $Q$, and $R$ are the vertices of a triangle. Points $S$ and $R$ lie on the same side of line $PQ$. If the measure of $\\angle SPR$ is $35^\\circ$ and the measure of $\\angle PQR$ is $110^\\circ$, what is the measure of $\\angle QPR$?",
+    "choices": [
+      "$35^\\circ$",
+      "$45^\\circ$",
+      "$70^\\circ$",
+      "$110^\\circ$"
+    ],
+    "answer": 0,
+    "explanation": "Because $\\ell \\parallel m$ and $\\overline{PR}$ is a transversal, $\\angle SPR$ and $\\angle PRQ$ are alternate interior angles, so $m\\angle PRQ = 35^\\circ$. In triangle $PQR$, $m\\angle QPR = 180^\\circ - 110^\\circ - 35^\\circ = 35^\\circ$."
+  },
+  {
+    "id": "m-geo-125",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "easy",
+    "prompt": "If $\\sin(32^\\circ) = \\cos(k^\\circ)$ and $0 < k < 90$, what is the value of $k$?",
+    "choices": [
+      "32",
+      "58",
+      "122",
+      "148"
+    ],
+    "answer": 1,
+    "explanation": "The sine of an acute angle equals the cosine of its complement: $\\sin(x^\\circ) = \\cos((90 - x)^\\circ)$. So $k = 90 - 32 = 58$. Choices 122 and 148 are outside the allowed interval."
+  },
+  {
+    "id": "m-geo-126",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "easy",
+    "prompt": "The legs of a right triangle have lengths 9 and 12. What is the length of the hypotenuse?",
+    "choices": [
+      "$3\\sqrt{7}$",
+      "15",
+      "21",
+      "225"
+    ],
+    "answer": 1,
+    "explanation": "By the Pythagorean theorem, $c^2 = 9^2 + 12^2 = 81 + 144 = 225$, so $c = 15$. Choice 225 is $c^2$, and choice 21 adds the legs."
+  },
+  {
+    "id": "m-geo-127",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "easy",
+    "prompt": "An isosceles right triangle has a hypotenuse of length $10\\sqrt{2}$. What is the length of one of its legs?",
+    "answer": [
+      "10"
+    ],
+    "explanation": "In a $45^\\circ$-$45^\\circ$-$90^\\circ$ triangle, the hypotenuse is $\\sqrt{2}$ times each leg. So each leg is $\\frac{10\\sqrt{2}}{\\sqrt{2}} = 10$."
+  },
+  {
+    "id": "m-geo-128",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "easy",
+    "prompt": "In triangle $XYZ$, $\\angle Z$ is a right angle, $XY = 25$, and $YZ = 7$. What is the value of $\\sin X$?",
+    "choices": [
+      "$\\frac{7}{25}$",
+      "$\\frac{7}{24}$",
+      "$\\frac{24}{25}$",
+      "$\\frac{24}{7}$"
+    ],
+    "answer": 0,
+    "explanation": "$\\sin X$ is the side opposite $\\angle X$ divided by the hypotenuse: $\\frac{YZ}{XY} = \\frac{7}{25}$. (The other leg, $XZ = 24$, gives $\\cos X = \\frac{24}{25}$.)"
+  },
+  {
+    "id": "m-geo-129",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "medium",
+    "prompt": "An angle measures $\\frac{5\\pi}{6}$ radians. What is the measure of the angle in degrees?",
+    "choices": [
+      "$75^\\circ$",
+      "$120^\\circ$",
+      "$150^\\circ$",
+      "$300^\\circ$"
+    ],
+    "answer": 2,
+    "explanation": "Multiply by $\\frac{180^\\circ}{\\pi}$: $\\frac{5\\pi}{6} \\cdot \\frac{180^\\circ}{\\pi} = 5 \\cdot 30^\\circ = 150^\\circ$."
+  },
+  {
+    "id": "m-geo-130",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "medium",
+    "prompt": "In right triangle $ABC$, $\\angle C$ is the right angle, $\\cos A = 0.6$, and $AB = 20$. What is the length of $\\overline{BC}$?",
+    "answer": [
+      "16"
+    ],
+    "explanation": "$\\cos A = \\frac{AC}{AB}$, so $AC = 0.6(20) = 12$. By the Pythagorean theorem, $BC = \\sqrt{20^2 - 12^2} = \\sqrt{256} = 16$."
+  },
+  {
+    "id": "m-geo-131",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "medium",
+    "prompt": "The longest side of a $30^\\circ$-$60^\\circ$-$90^\\circ$ triangle has length 14. What is the length of the side opposite the $60^\\circ$ angle?",
+    "choices": [
+      "7",
+      "$7\\sqrt{2}$",
+      "$7\\sqrt{3}$",
+      "$14\\sqrt{3}$"
+    ],
+    "answer": 2,
+    "explanation": "The longest side is the hypotenuse. The side opposite $30^\\circ$ is half of it, 7, and the side opposite $60^\\circ$ is $\\sqrt{3}$ times that, $7\\sqrt{3}$. Choice 7 is the side opposite the $30^\\circ$ angle."
+  },
+  {
+    "id": "m-geo-132",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "medium",
+    "prompt": "A 25-foot ladder leans against a vertical wall on level ground, and the top of the ladder touches the wall 24 feet above the ground. The bottom of the ladder is then pulled 8 feet farther from the wall, and the top slides down the wall. How many feet does the top of the ladder slide down?",
+    "choices": [
+      "4",
+      "8",
+      "15",
+      "20"
+    ],
+    "answer": 0,
+    "explanation": "Initially the base is $\\sqrt{25^2 - 24^2} = 7$ feet from the wall. After moving, it is $15$ feet away, so the new height is $\\sqrt{25^2 - 15^2} = 20$ feet. The top slides $24 - 20 = 4$ feet. Choice 20 is the new height, not the change."
+  },
+  {
+    "id": "m-geo-133",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A triangle has side lengths 10, 10, and 12. What is the sine of one of the two congruent angles of the triangle?",
+    "choices": [
+      "$\\frac{3}{5}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{4}{5}$",
+      "$\\frac{4}{3}$"
+    ],
+    "answer": 2,
+    "explanation": "The congruent angles are opposite the sides of length 10, so they sit at the ends of the side of length 12. The altitude to that side bisects it, forming right triangles with legs 6 and $\\sqrt{10^2 - 6^2} = 8$ and hypotenuse 10. The sine of a base angle is $\\frac{8}{10} = \\frac{4}{5}$. Choice $\\frac{3}{5}$ is its cosine."
+  },
+  {
+    "id": "m-geo-134",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has a hypotenuse of length 10 and an area of 24. What is the perimeter of the triangle?",
+    "answer": [
+      "24"
+    ],
+    "explanation": "Let the legs be $a$ and $b$. Then $a^2 + b^2 = 100$ and $\\frac{1}{2}ab = 24$, so $ab = 48$. Then $(a + b)^2 = a^2 + b^2 + 2ab = 100 + 96 = 196$, so $a + b = 14$. The perimeter is $14 + 10 = 24$."
+  },
+  {
+    "id": "m-geo-135",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "In the $xy$-plane, point $P$ lies on the circle $x^2 + y^2 = 1$. The ray from the origin through $P$ forms an angle of $\\frac{4\\pi}{3}$ radians, measured counterclockwise from the positive $x$-axis. What is the $y$-coordinate of $P$?",
+    "choices": [
+      "$-\\frac{\\sqrt{3}}{2}$",
+      "$-\\frac{1}{2}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{\\sqrt{3}}{2}$"
+    ],
+    "answer": 0,
+    "explanation": "$\\frac{4\\pi}{3}$ radians is $240^\\circ$, which lies in the third quadrant with a reference angle of $60^\\circ$. On the unit circle the $y$-coordinate is $\\sin 240^\\circ = -\\sin 60^\\circ = -\\frac{\\sqrt{3}}{2}$. Choice $-\\frac{1}{2}$ is the $x$-coordinate."
+  },
+  {
+    "id": "m-geo-136",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "In right triangle $RST$, $\\angle T$ is the right angle and $\\tan R = 2.4$. What is the value of $\\sin S$?",
+    "choices": [
+      "$\\frac{5}{13}$",
+      "$\\frac{5}{12}$",
+      "$\\frac{12}{13}$",
+      "$\\frac{12}{5}$"
+    ],
+    "answer": 0,
+    "explanation": "$\\tan R = 2.4 = \\frac{12}{5} = \\frac{ST}{RT}$, so let $ST = 12$ and $RT = 5$; then $RS = \\sqrt{12^2 + 5^2} = 13$. The side opposite $\\angle S$ is $RT$, so $\\sin S = \\frac{5}{13}$. Choice $\\frac{12}{13}$ is $\\sin R$."
+  },
+  {
+    "id": "m-geo-137",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "easy",
+    "prompt": "In the $xy$-plane, a circle has its center at $(-2, 4)$ and a radius of 5. Which equation represents this circle?",
+    "choices": [
+      "$(x + 2)^2 + (y - 4)^2 = 25$",
+      "$(x - 2)^2 + (y + 4)^2 = 25$",
+      "$(x + 2)^2 + (y - 4)^2 = 5$",
+      "$(x - 2)^2 + (y + 4)^2 = 5$"
+    ],
+    "answer": 0,
+    "explanation": "A circle with center $(h, k)$ and radius $r$ has equation $(x - h)^2 + (y - k)^2 = r^2$. Here $(x - (-2))^2 + (y - 4)^2 = 5^2$, or $(x + 2)^2 + (y - 4)^2 = 25$."
+  },
+  {
+    "id": "m-geo-138",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "easy",
+    "prompt": "A circle has a circumference of $18\\pi$ meters. What is the area of the circle, in square meters?",
+    "choices": [
+      "$9\\pi$",
+      "$18\\pi$",
+      "$81\\pi$",
+      "$324\\pi$"
+    ],
+    "answer": 2,
+    "explanation": "From $C = 2\\pi r = 18\\pi$, the radius is $r = 9$. The area is $\\pi r^2 = 81\\pi$. Choice $324\\pi$ squares the diameter instead of the radius."
+  },
+  {
+    "id": "m-geo-139",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "easy",
+    "prompt": "A circle has a radius of 10 inches. A central angle of the circle measures $72^\\circ$. The length of the arc intercepted by this angle is $k\\pi$ inches. What is the value of $k$?",
+    "answer": [
+      "4"
+    ],
+    "explanation": "The arc is $\\frac{72}{360} = \\frac{1}{5}$ of the circumference $2\\pi(10) = 20\\pi$, so its length is $4\\pi$ and $k = 4$."
+  },
+  {
+    "id": "m-geo-140",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "easy",
+    "prompt": "Points $A$, $B$, and $C$ lie on a circle. Inscribed angle $\\angle ABC$ intercepts arc $AC$, which measures $110^\\circ$. What is the measure of $\\angle ABC$?",
+    "choices": [
+      "$27.5^\\circ$",
+      "$55^\\circ$",
+      "$110^\\circ$",
+      "$125^\\circ$"
+    ],
+    "answer": 1,
+    "explanation": "An inscribed angle measures half of its intercepted arc: $\\frac{110^\\circ}{2} = 55^\\circ$. Choice $110^\\circ$ would be the measure of a central angle intercepting the same arc."
+  },
+  {
+    "id": "m-geo-141",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "In the $xy$-plane, the graph of $x^2 + y^2 + 10x - 4y = -20$ is a circle. What is the center of the circle?",
+    "choices": [
+      "$(5, -2)$",
+      "$(-10, 4)$",
+      "$(10, -4)$",
+      "$(-5, 2)$"
+    ],
+    "answer": 3,
+    "explanation": "Complete the square: $(x^2 + 10x + 25) + (y^2 - 4y + 4) = -20 + 25 + 4$, so $(x + 5)^2 + (y - 2)^2 = 9$. The center is $(-5, 2)$ (and the radius is 3). Choice $(5, -2)$ has the signs reversed."
+  },
+  {
+    "id": "m-geo-142",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "A circle has a radius of 6 centimeters. What is the area, in square centimeters, of a sector of this circle with a central angle of $100^\\circ$?",
+    "choices": [
+      "$\\frac{10\\pi}{3}$",
+      "$10\\pi$",
+      "$20\\pi$",
+      "$36\\pi$"
+    ],
+    "answer": 1,
+    "explanation": "The sector is $\\frac{100}{360} = \\frac{5}{18}$ of the circle, whose area is $\\pi(6)^2 = 36\\pi$. So the sector area is $\\frac{5}{18}(36\\pi) = 10\\pi$. Choice $\\frac{10\\pi}{3}$ is the arc length, and $36\\pi$ is the area of the whole circle."
+  },
+  {
+    "id": "m-geo-143",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "In the $xy$-plane, the circle with equation $(x - 1)^2 + (y + 3)^2 = r^2$, where $r > 0$, passes through the point $(4, 1)$. What is the value of $r$?",
+    "choices": [
+      "$\\sqrt{7}$",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 3,
+    "explanation": "Substitute $(4, 1)$: $(4 - 1)^2 + (1 + 3)^2 = 9 + 16 = 25 = r^2$, so $r = 5$. Choices 3 and 4 are only the horizontal and vertical distances from the center, and $\\sqrt{7}$ subtracts their squares."
+  },
+  {
+    "id": "m-geo-144",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "In a circle with a radius of 12 feet, an arc has a length of $5\\pi$ feet. What is the measure, in radians, of the central angle that intercepts this arc?",
+    "choices": [
+      "$\\frac{5\\pi}{144}$",
+      "$\\frac{5}{12}$",
+      "$\\frac{5\\pi}{24}$",
+      "$\\frac{5\\pi}{12}$"
+    ],
+    "answer": 3,
+    "explanation": "Arc length $s = r\\theta$ when $\\theta$ is in radians, so $5\\pi = 12\\theta$ and $\\theta = \\frac{5\\pi}{12}$. Choice $\\frac{5\\pi}{24}$ divides by the diameter, $\\frac{5\\pi}{144}$ divides by $r^2$, and $\\frac{5}{12}$ drops the $\\pi$."
+  },
+  {
+    "id": "m-geo-145",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "hard",
+    "prompt": "In the $xy$-plane, the graph of $x^2 + y^2 - 6x + 14y + c = 0$, where $c$ is a constant, is a circle with a radius of 4. What is the value of $c$?",
+    "answer": [
+      "42"
+    ],
+    "explanation": "Complete the square: $(x - 3)^2 + (y + 7)^2 = 9 + 49 - c = 58 - c$. The radius is 4, so $58 - c = 16$ and $c = 42$."
+  },
+  {
+    "id": "m-geo-146",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "hard",
+    "prompt": "In the $xy$-plane, the points $(-1, 5)$ and $(7, -1)$ are the endpoints of a diameter of a circle. Which equation represents the circle?",
+    "choices": [
+      "$(x - 3)^2 + (y - 2)^2 = 25$",
+      "$(x - 3)^2 + (y - 2)^2 = 100$",
+      "$(x + 3)^2 + (y + 2)^2 = 25$",
+      "$(x - 4)^2 + (y + 3)^2 = 25$"
+    ],
+    "answer": 0,
+    "explanation": "The center is the midpoint, $\\left(\\frac{-1 + 7}{2}, \\frac{5 + (-1)}{2}\\right) = (3, 2)$. The diameter is $\\sqrt{8^2 + 6^2} = 10$, so $r = 5$ and $r^2 = 25$. The equation is $(x - 3)^2 + (y - 2)^2 = 25$. Using 10 as the radius gives the $100$ choice."
+  },
+  {
+    "id": "m-geo-147",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "hard",
+    "prompt": "A chord of a circle has a length of 30 centimeters. The perpendicular distance from the center of the circle to the chord is 8 centimeters. What is the radius of the circle, in centimeters?",
+    "choices": [
+      "8",
+      "$\\sqrt{161}$",
+      "15",
+      "17"
+    ],
+    "answer": 3,
+    "explanation": "The perpendicular from the center bisects the chord, forming a right triangle with legs 15 and 8 and the radius as hypotenuse: $r = \\sqrt{15^2 + 8^2} = \\sqrt{289} = 17$. Choice $\\sqrt{161}$ subtracts the squares instead of adding them, and 15 is half the chord."
+  },
+  {
+    "id": "m-geo-148",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "hard",
+    "prompt": "Points $A$, $B$, and $C$ lie on a circle with center $O$, and $C$ is not on minor arc $AB$. Central angle $\\angle AOB$ measures $\\frac{2\\pi}{5}$ radians. What is the measure, in degrees, of inscribed angle $\\angle ACB$?",
+    "answer": [
+      "36"
+    ],
+    "explanation": "Convert: $\\frac{2\\pi}{5} \\cdot \\frac{180^\\circ}{\\pi} = 72^\\circ$. An inscribed angle intercepting the same arc as a central angle measures half as much, so $m\\angle ACB = 36^\\circ$."
+  }
+]

@@ -1,0 +1,818 @@
+[
+  {
+    "id": "rw-cs-101",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "easy",
+    "passage": "Because molten glass begins to stiffen within seconds of leaving the furnace, glassblower Ilse Varga must work ______, shaping each vase with quick, confident movements before the material becomes too rigid to manipulate.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "swiftly",
+      "hesitantly",
+      "carelessly",
+      "occasionally"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: the glass stiffens \"within seconds,\" and Varga uses \"quick, confident movements,\" so she must work swiftly. Choice B contradicts \"confident,\" and choice C clashes with the skilled, deliberate shaping the text describes. Choice D refers to how often she works, not to the speed the cooling glass demands."
+  },
+  {
+    "id": "rw-cs-102",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "easy",
+    "passage": "The town of Marlow's new composting program proved highly ______: within six months of its launch, the amount of household waste sent to the regional landfill had fallen by nearly 40 percent.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "controversial",
+      "effective",
+      "temporary",
+      "costly"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the colon introduces evidence of success, a nearly 40 percent drop in landfill waste, which shows the program was effective. Nothing in the text mentions disagreement (A), an end date (C), or expenses (D)."
+  },
+  {
+    "id": "rw-cs-103",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "easy",
+    "passage": "The following text is from an original short story.\n\nThe ferry captain rarely spoke more than a few words at a time. When passengers asked him about the river, he answered with a nod, a shrug, or a single quiet syllable, and many travelers stepped off the boat thinking him ______.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "boastful",
+      "forgetful",
+      "reserved",
+      "talkative"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: a man who answers questions with a nod, a shrug, or a single syllable would strike travelers as reserved. Choice D is the opposite of the behavior described, choice A implies bragging, which requires talking, and nothing suggests the captain forgets things (B)."
+  },
+  {
+    "id": "rw-cs-104",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "easy",
+    "passage": "Astronomers had predicted that the comet would be visible only through powerful telescopes. Instead, it became so ______ that people in cities around the world could easily spot it with the naked eye.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "distant",
+      "faint",
+      "small",
+      "bright"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: \"Instead\" signals a contrast with the prediction, and a comet that people could easily see without telescopes must have been bright. Choices A, B, and C would all make the comet harder, not easier, to see."
+  },
+  {
+    "id": "rw-cs-105",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "easy",
+    "passage": "Residents of Elmhurst were ______ over the proposal to convert the old rail yard into a public park: in a survey of 500 households, almost exactly half supported the plan, and the other half opposed it.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "united",
+      "enthusiastic",
+      "uninformed",
+      "divided"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the survey shows opinion split almost evenly between support and opposition, so residents were divided. Choices A and B suggest broad agreement or excitement, which the even split contradicts, and the text gives no indication that residents lacked information (C)."
+  },
+  {
+    "id": "rw-cs-106",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "easy",
+    "passage": "For years, historian Teresa Okafor-Bell searched for the journal of a nineteenth-century canal engineer, a document that earlier scholars had assumed was lost forever. Her persistence was finally ______ when she discovered the journal misfiled in the basement of a county courthouse.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "questioned",
+      "abandoned",
+      "rewarded",
+      "concealed"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: after years of searching, Okafor-Bell found the journal, so her persistence paid off, or was rewarded. Choice B contradicts the fact that she kept searching until she succeeded, and nothing in the text suggests anyone doubted (A) or hid (D) her efforts."
+  },
+  {
+    "id": "rw-cs-107",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "easy",
+    "passage": "The following text is from an original novel.\n\nWith storm clouds gathering over the hills, the farmers hurried to bring in the hay before the rain could ruin it. Every available hand was pressed into service; even the youngest children were given rakes and sent out to the fields.",
+    "prompt": "As used in the text, what does the word \"pressed\" most nearly mean?",
+    "choices": [
+      "enlisted",
+      "flattened",
+      "hurried",
+      "worried"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: to be \"pressed into service\" is to be enlisted, or drawn into work, which is why even young children are handed rakes. Choice C is tempting because the farmers are rushing, but the phrase describes people being recruited to help, not the speed at which they move. Choice B reflects a literal meaning of \"pressed\" that does not fit, and nothing suggests the workers were made to worry (D)."
+  },
+  {
+    "id": "rw-cs-108",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "Although the novelist Celeste Arana's early books were admired for their long, elaborately ornamented sentences, her later work is strikingly ______: she pares her prose down to short, plain statements, often omitting adjectives altogether.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "florid",
+      "austere",
+      "opaque",
+      "maudlin"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: \"Although\" sets up a contrast with the early \"elaborately ornamented\" style, and the colon explains that the later prose is plain and unadorned, or austere. Choice A (\"flowery\") describes the early style rather than the later one. Plain statements are not described as hard to understand (C) or excessively sentimental (D)."
+  },
+  {
+    "id": "rw-cs-109",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "Some plants that grow in nutrient-poor bogs ______ what they draw from the soil by capturing insects. The sundew, for example, traps small insects on its sticky leaves and digests them, obtaining nitrogen that the waterlogged ground provides only in small amounts.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "replace",
+      "supplement",
+      "conceal",
+      "restrict"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the ground still provides some nitrogen, \"only in small amounts,\" so insects add to, or supplement, what the plants get from the soil. Choice A is the main trap; it would mean the plants stop relying on the soil entirely, which the text does not say. Choices C and D do not describe adding nutrients at all."
+  },
+  {
+    "id": "rw-cs-110",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "Economist Rafael Ibarra argues that the closing of small-town newspapers has had ______ effects on local government. In counties that lost their only newspaper, he found, fewer candidates ran for municipal office, and the costs of public construction projects rose, perhaps because no reporters were scrutinizing contracts.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "negligible",
+      "beneficial",
+      "unpredictable",
+      "detrimental"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: fewer candidates and rising project costs are harmful outcomes, so the effects were detrimental. Choice A conflicts with the measurable changes Ibarra found, and choice B reverses their negative character. Choice C does not fit, because the text describes a consistent pattern rather than random results."
+  },
+  {
+    "id": "rw-cs-111",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "Choreographer Mina Takeda's new work deliberately ______ the line between dance and theater: her performers recite dialogue while executing complex movement sequences, and several scenes contain no dancing at all.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "reinforces",
+      "traces",
+      "blurs",
+      "conceals"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: mixing spoken dialogue with movement and including scenes with no dancing makes it hard to tell where dance ends and theater begins, so the work blurs that line. Choice A would mean the work makes the distinction sharper, the opposite of what is described. Choices B and D do not capture the mixing of the two forms."
+  },
+  {
+    "id": "rw-cs-112",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The following text is from an original novel.\n\nMr. Adeyemi had little patience for the committee's lengthy debates. When the members began, for the third time that evening, to argue over the color of the new library curtains, he rose, gathered his papers, and remarked dryly that he would return once they were ready to discuss matters of greater weight.",
+    "prompt": "As used in the text, what does the word \"weight\" most nearly mean?",
+    "choices": [
+      "significance",
+      "heaviness",
+      "difficulty",
+      "influence"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: Mr. Adeyemi is contrasting the trivial question of curtain colors with \"matters of greater weight,\" meaning matters of greater significance. Choice B is a literal meaning that makes no sense for discussion topics. Choices C and D miss the contrast: his complaint is that curtain colors are unimportant, not that they are too easy or lack power over others."
+  },
+  {
+    "id": "rw-cs-113",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "Although the 1842 trade agreement between the two kingdoms was officially described as a partnership between equals, historian Leah Moradi contends that its terms were decidedly ______: nearly every provision granted commercial privileges to one kingdom while imposing obligations on the other.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "inequitable",
+      "reciprocal",
+      "ambiguous",
+      "provisional"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: provisions that gave privileges to one side and obligations to the other were unfair to one side, or inequitable, which contrasts with the official claim of equality. Choice B is the trap: it matches the official description of a mutual partnership, which Moradi disputes. The text says nothing about unclear wording (C) or about the terms being temporary (D)."
+  },
+  {
+    "id": "rw-cs-114",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "Geologist Priya Raman notes that the gases escaping from a volcano can betray changes taking place deep below the surface. A sudden rise in the amount of sulfur dioxide released, for instance, often indicates that fresh magma is moving upward toward the volcano's summit.",
+    "prompt": "As used in the text, what does the word \"betray\" most nearly mean?",
+    "choices": [
+      "deceive",
+      "abandon",
+      "reveal",
+      "endanger"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the second sentence explains that a rise in sulfur dioxide \"indicates\" magma movement, so the gases reveal what is happening underground. Choices A and B reflect the sense of \"betray\" as being disloyal, which does not apply to gases. Choice D suggests the gases put the changes at risk, which the text does not say."
+  },
+  {
+    "id": "rw-cs-115",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The proposed link between the two Neolithic settlements, which lie more than 800 kilometers apart, remains ______. Pottery from both sites bears a distinctive spiral design, but that resemblance is the only evidence connecting them, and similar spirals appear in the artwork of many cultures that had no contact with one another.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "conclusive",
+      "overlooked",
+      "intricate",
+      "tenuous"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the link rests on a single resemblance that is also found among unconnected cultures, so it is weak, or tenuous. Choice A is the opposite of what a single, widely shared resemblance can support. The link is explicitly \"proposed,\" so it has not been ignored (B), and nothing suggests it is complex (C)."
+  },
+  {
+    "id": "rw-cs-116",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "Entomologist Henrik Solberg claims that the darkening of the alpine leaf beetle's shell is a response to cold temperatures rather than to the presence of predators. That claim is ______ by his own data, however: beetles kept at a constant temperature in his laboratory still darkened when exposed to the scent of predatory birds.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "substantiated",
+      "undermined",
+      "anticipated",
+      "illustrated"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: if beetles darkened in response to predator scent even when temperature did not change, Solberg's data weaken, or undermine, his claim that the change responds to cold rather than predators. \"However\" signals this tension. Choices A and D wrongly suggest the data support the claim, and choice C does not describe how evidence relates to a claim."
+  },
+  {
+    "id": "rw-cs-117",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "Literary critic Sunita Rao describes the narrator of Wendell Price's novel The Salt Ledger as deliberately ______. He recounts minor episodes, such as a dispute over a borrowed fishing net, in exhaustive detail, yet he passes over the central event of the book (his own role in his brother's financial ruin) in a single vague sentence, leaving readers to wonder what he is hiding.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "verbose",
+      "impartial",
+      "credulous",
+      "evasive"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the narrator avoids discussing his own role in the key event, prompting readers to wonder \"what he is hiding,\" so he is evasive. Choice A is the strongest trap because he describes minor episodes at length, but Rao's point is that he dodges the central event, not that he is wordy. Nothing suggests he is fair-minded (B) or easily fooled (C)."
+  },
+  {
+    "id": "rw-cs-118",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "Economic historian Clara Voss argues that the port city of Lindmark owed its prosperity in the 1700s less to the ingenuity of its merchants than to its geography. Situated where three navigable rivers met the sea, the city commanded trade that rival ports could reach only by slow and costly overland routes.",
+    "prompt": "As used in the text, what does the word \"commanded\" most nearly mean?",
+    "choices": [
+      "dominated",
+      "instructed",
+      "demanded",
+      "deserved"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: because of its location, Lindmark had a dominant position in, or dominated, trade that rivals could reach only with difficulty. Choice D is tempting (as in \"commanded respect\"), but Voss's point is that the city's advantage came from geography rather than from anything it did to earn it. Choices B and C treat the city as giving orders or making requests, which does not fit."
+  },
+  {
+    "id": "rw-cs-119",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "Although the oversight committee's report was ______ in its praise of the city's new transit plan, calling it \"a model for cities nationwide,\" its detailed recommendations called for so many fundamental revisions that some observers wondered whether the committee supported the plan at all.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "grudging",
+      "effusive",
+      "sparing",
+      "ambivalent"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: calling the plan \"a model for cities nationwide\" is enthusiastic, unrestrained praise, and \"Although\" contrasts this effusive praise with recommendations that suggest doubt. Choices A, C, and D all describe limited or mixed praise, which conflicts with the glowing quotation and would remove the contrast that \"Although\" sets up."
+  },
+  {
+    "id": "rw-cs-120",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "Ornithologist Ama Boateng expected the songs of the island's finches, which have been isolated from mainland populations for thousands of years, to differ markedly from those of their mainland relatives. Instead, she found the differences to be ______: trained listeners could rarely tell recordings of island and mainland birds apart, and only detailed acoustic analysis revealed consistent variations in pitch.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "pronounced",
+      "nonexistent",
+      "subtle",
+      "erratic"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the differences were real (analysis revealed \"consistent variations\") but too slight for trained listeners to hear, so they were subtle. Choice B is the main trap; it ignores that the analysis did detect differences. Choice A matches Boateng's expectation, which \"Instead\" tells us was wrong, and choice D conflicts with the word \"consistent.\""
+  },
+  {
+    "id": "rw-cs-121",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "easy",
+    "passage": "The American pika, a small, round-eared relative of rabbits, lives on rocky mountain slopes in western North America. Unlike many mountain mammals, it does not hibernate. Instead, it spends the brief summer collecting grasses and wildflowers, sometimes making more than a hundred trips a day, and stacks the plants in piles beneath sheltering rocks. When snow covers the slopes, the pika feeds on these stored \"haypiles\" until spring.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To describe a behavior that allows a small mammal to survive mountain winters",
+      "To explain why pikas are more closely related to rabbits than to other mammals",
+      "To argue that pikas are threatened by changes in their mountain habitat",
+      "To compare the diets of pikas with those of mammals that hibernate"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: the text explains that pikas do not hibernate and instead gather and store plants in summer to eat during winter. Choice B focuses on a detail mentioned only in passing, choice C raises a threat the text never discusses, and choice D is wrong because the text does not describe what hibernating mammals eat."
+  },
+  {
+    "id": "rw-cs-122",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "easy",
+    "passage": "The following text is from an original short story.\n\nLucía stood in the wings of the small auditorium, waiting for her name to be called. _Her hands, usually so steady, trembled as she tightened the hair of her bow._ She reminded herself that the audience was made up mostly of family and neighbors, people who had heard her practice scales through open windows all summer. It did not help. When the announcer finally said her name, she took a long breath before stepping into the light.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It suggests that Lucía's bow has been damaged and must be repaired.",
+      "It establishes Lucía's nervousness before her performance, a feeling the rest of the text develops.",
+      "It reveals that Lucía has not practiced enough to perform well.",
+      "It indicates that Lucía is irritated with the people in the audience."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: trembling hands that are \"usually so steady\" show Lucía's nerves, and the rest of the text continues this idea as she tries, unsuccessfully, to calm herself and takes \"a long breath.\" Choice C is contradicted by the mention that she practiced all summer, and nothing suggests her bow is broken (A) or that she is annoyed with the audience (D)."
+  },
+  {
+    "id": "rw-cs-123",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "easy",
+    "passage": "Until the late nineteenth century, most towns in the United States set their clocks by the sun, so that noon came when the sun was highest overhead. As a result, a town's time might differ by a few minutes from that of a town less than a hundred kilometers to the east or west. For railroads, which depended on precise timetables, this patchwork of local times caused constant confusion. In 1883, the major railroad companies addressed the problem by dividing the country into a small number of standard time zones, within which all clocks would show the same time.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It presents two methods of timekeeping and argues that the older method was more accurate.",
+      "It traces the history of railroads in the United States from their origins to the late nineteenth century.",
+      "It describes a problem created by a system of timekeeping and then explains how that problem was addressed.",
+      "It explains how the position of the sun was measured and then describes errors in those measurements."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the text explains that sun-based local time caused confusion for railroads and then describes the 1883 solution of standard time zones. Choice A is wrong because the text does not argue that local sun time was better. The text does not cover the full history of railroads (B) or describe errors in measuring the sun (D)."
+  },
+  {
+    "id": "rw-cs-124",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "easy",
+    "passage": "Muralist Ayo Fashola paints large murals on the outer walls of apartment buildings in her city. Before she begins a project, she holds a series of meetings with the people who live in the building, asking them which stories, people, and places matter most to their neighborhood. She then sketches designs based on their suggestions and invites residents to comment on each draft. As a result, her finished murals often feature local shopkeepers, community events, and landmarks that only longtime residents would recognize.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To explain why murals have become more popular than other forms of public art",
+      "To argue that artists should be paid by the residents of the buildings they decorate",
+      "To compare Fashola's painting techniques with those of other muralists",
+      "To describe how an artist involves members of a community in the creation of her work"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the text walks through how Fashola meets with residents, bases designs on their suggestions, and invites their feedback, which shapes what her murals show. The text does not discuss the popularity of murals (A), payment (B), or other muralists (C)."
+  },
+  {
+    "id": "rw-cs-125",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "easy",
+    "passage": "A common belief holds that sharks must keep swimming at all times in order to breathe. _This is true of some species, such as the great white shark, but not of all sharks._ The nurse shark, for example, can lie motionless on the seafloor for long periods. It uses muscles in its mouth and throat to pump water over its gills, allowing it to take in oxygen without moving forward.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It restates a common belief that the rest of the text goes on to support.",
+      "It explains why nurse sharks spend more time on the seafloor than great white sharks do.",
+      "It introduces a question about shark breathing that the text leaves unanswered.",
+      "It qualifies a common belief, setting up an example that the rest of the text describes."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the underlined sentence limits the common belief to some species, and the text then gives the nurse shark as an example of a shark that can breathe without swimming. Choice A is wrong because the text shows the belief is not true of all sharks. The sentence does not explain nurse shark behavior (B), and the text does answer how some sharks breathe while still (C)."
+  },
+  {
+    "id": "rw-cs-126",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "When people talk with one another, they often unconsciously adjust their speech to resemble their partner's, gradually matching each other's speaking rate, pitch, and word choices. Linguist Hana Petrov wondered whether people do the same when speaking to voice-activated assistants. In her study, participants who gave spoken commands to an assistant did change how they talked: they spoke more slowly and used simpler words. But they did not drift toward the assistant's own speaking rate or vocabulary, as they would with a human partner. Petrov concludes that people treat such devices as listeners with limited understanding rather than as conversational partners to mirror.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To argue that voice-activated assistants should be designed to imitate the speech of their users",
+      "To explain why people unconsciously imitate the speech of their conversation partners",
+      "To present a study investigating whether a tendency observed in human conversation also appears when people speak to machines",
+      "To describe a study showing that people speak to machines in the same way that they speak to other people"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the text describes the human tendency to mirror a partner's speech and then presents Petrov's study testing whether this happens with voice assistants. Choice D misstates her finding, since participants did not mirror the assistant as they would a human. The text gives no design recommendation (A) and does not explain why people mirror one another (B)."
+  },
+  {
+    "id": "rw-cs-127",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "Popular histories often portray the Silk Road as a kind of ancient highway along which merchants led camel caravans thousands of kilometers from China to the Mediterranean. _In reality, very few traders ever traveled the full length of the route._ Most goods changed hands many times, with each merchant carrying them only a few hundred kilometers before selling them to another trader at a market town. A bolt of silk that reached Rome might thus have passed through dozens of hands, its price rising with each exchange.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It challenges a common depiction of the Silk Road, introducing a point that the rest of the text elaborates on.",
+      "It summarizes evidence that the Silk Road was used less often than popular histories suggest.",
+      "It explains why the price of silk increased as the goods traveled westward.",
+      "It identifies a disagreement among historians that the text then resolves."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: the sentence counters the popular image of merchants traveling the whole route, and the following sentences explain how goods instead passed through many traders' hands. Choice B is a trap; the sentence concerns how far individual traders went, not how often the route was used. Choice C describes a detail in the last sentence, and the text presents no disagreement among historians (D)."
+  },
+  {
+    "id": "rw-cs-128",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "The following text is from an original novel.\n\nFor thirty-one years, Henrik Brandt had unlocked the door of his hardware store at exactly seven o'clock each morning. Customers set their watches by the rattle of his keys; the baker across the street knew to slide the first loaves into the oven when Brandt's lights came on. On the first Monday in March, however, seven o'clock came and went, and the door stayed locked. By eight, a small crowd had gathered on the sidewalk, peering through the dark windows.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes a character's past and then explains why he has decided to change his habits.",
+      "It establishes a long-standing routine and then describes a disruption of that routine.",
+      "It contrasts the habits of two shopkeepers and then describes a conflict between them.",
+      "It describes a crowd of customers and then reveals the reason for their gathering."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the text first shows how reliably Brandt opened his store for decades and then describes the morning the door stayed locked. Choice A is wrong because no reason for the change is given, and choice D fails for the same reason: the crowd gathers, but the text never reveals why the store is closed. The baker is mentioned only to show how dependable Brandt's routine was, not to set up a conflict (C)."
+  },
+  {
+    "id": "rw-cs-129",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "Leafcutter ants do not eat the leaves they gather. Instead, workers carry leaf fragments into underground chambers, where they chew them into a pulp on which they grow a particular species of fungus. _The arrangement benefits both partners: the fungus receives a steady supply of fresh plant material and is protected from competing fungi, while the ants obtain a reliable source of food._ So closely are the two linked that the fungus has rarely, if ever, been found growing outside ant nests, and a young queen leaving to found a new colony carries a small piece of it with her.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It challenges the assumption that leafcutter ants feed on the leaves they collect.",
+      "It explains how the relationship described in the previous sentence serves both the ants and the fungus.",
+      "It introduces a debate about whether the fungus could survive without the ants.",
+      "It describes the process by which young queens establish new colonies."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: after the text describes ants growing fungus on leaf pulp, the underlined sentence spells out what each partner gains. Choice A describes the function of the first sentence, not the underlined one. The text presents no debate (C), and the queen's behavior is mentioned only in the final sentence (D)."
+  },
+  {
+    "id": "rw-cs-130",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "Studies of museum attendance often treat ticket sales as a straightforward measure of public interest in the arts. Sociologist Ruth Akande cautions against this practice. In surveys of visitors to twelve art museums, she found that nearly a third had come mainly to accompany a friend or relative, to attend a social event held in the building, or to enjoy the café or gardens. Akande does not dispute that attendance figures reveal something meaningful, but she argues that researchers who equate them with interest in art risk overstating how many people actively seek out artworks.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To present a researcher's argument that a commonly used measure may not reflect what it is often assumed to reflect",
+      "To argue that museum attendance figures provide no useful information about the public",
+      "To show that public interest in art has declined as museums have added cafés and gardens",
+      "To show that most museum visitors are more interested in social activities than in art"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: the text presents Akande's view that ticket sales, often treated as a measure of interest in art, partly reflect other motives. Choice B is the strongest trap, but the text states that Akande \"does not dispute that attendance figures reveal something meaningful.\" The text makes no claim about a decline in interest (C) and choice D overgeneralizes: Akande found that nearly a third of visitors, not most, came mainly for other reasons."
+  },
+  {
+    "id": "rw-cs-131",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "The following text is from an original novel. Esther has inherited a farmhouse from her late aunt.\n\nThe lawyer had described the house as \"in need of some attention,\" and on the long drive north Esther had pictured peeling paint, perhaps a leaking gutter. _What she found was a staircase that ended in midair, its upper half collapsed into the cellar, and a kitchen in which a young birch tree had pushed up through the floorboards._ She set down her suitcase and, to her own surprise, began to laugh.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It explains the practical reasons that lead Esther to abandon her plans for the house.",
+      "It suggests that the lawyer deliberately hid the true condition of the house from Esther.",
+      "It indicates that the house was in better condition than Esther had feared.",
+      "It presents details showing how greatly the lawyer's description understated the condition of the house."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the collapsed staircase and the tree growing through the kitchen floor are far worse than the minor repairs that \"in need of some attention\" led Esther to imagine. Choice B is the main trap; the text shows the description was an understatement but gives no evidence about the lawyer's intent. Esther makes no decision to abandon the house (A), and choice C reverses the situation."
+  },
+  {
+    "id": "rw-cs-132",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "Biologists have long explained the vivid coloring of many poison frogs as a warning: predators learn to associate bright colors with toxicity and avoid the frogs. But this explanation alone does not account for a puzzle in one species, the strawberry poison frog. On islands off the coast of Panama, populations of the frog range in color from red to green to blue, even though a warning signal would seem most effective if it were consistent. Studies showing that females tend to prefer mates whose coloring matches their own have led some researchers to propose that mate choice, in addition to predation, has shaped the frogs' appearance.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes a puzzle about a trait, presents two competing explanations for it, and concludes that neither is supported by evidence.",
+      "It introduces a theory about a trait, presents evidence that disproves the theory, and then proposes a replacement for it.",
+      "It presents an accepted explanation for a trait, notes an observation the explanation does not fully account for, and describes a proposed additional factor.",
+      "It describes the habitat of a species, explains how the species varies across that habitat, and argues that the variation is random."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the text gives the warning-signal explanation, notes that color variation among island populations is a puzzle for it, and then describes mate choice as an additional factor. Choice B is the strongest trap, but the text says the warning explanation \"alone\" is insufficient and that mate choice acts \"in addition to\" predation, so the original theory is supplemented, not disproved or replaced. Choices A and D misdescribe the conclusion."
+  },
+  {
+    "id": "rw-cs-133",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "Historian Joaquín Herrera studies the cooperative grocery stores that spread through American industrial towns in the early twentieth century. Earlier accounts treated the cooperatives mainly as business ventures that failed when chain stores undercut their prices. _Herrera does not dispute that many cooperatives closed for financial reasons._ Drawing on members' letters and meeting minutes, however, he shows that the stores also served as places where immigrant workers from different countries met, debated, and built political alliances, functions that the earlier accounts, focused on balance sheets, largely overlooked.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It concedes a point made in earlier accounts before the text presents Herrera's broader view of the cooperatives.",
+      "It states the main conclusion that Herrera draws from members' letters and meeting minutes.",
+      "It introduces evidence that contradicts the earlier accounts of the cooperatives.",
+      "It explains why chain stores were able to offer lower prices than the cooperatives."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: the sentence acknowledges that earlier accounts were right about the financial failures, and the next sentence (\"however\") presents Herrera's argument that the cooperatives had important social and political roles as well. Choice B is wrong because Herrera's main conclusion, drawn from the letters and minutes, appears in the following sentence. The underlined sentence agrees with, rather than contradicts, the earlier accounts (C), and it offers no explanation of chain store pricing (D)."
+  },
+  {
+    "id": "rw-cs-134",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "When photographer Imre Vass began documenting shuttered factories in the 1970s, critics praised his images as elegies for a vanished industrial age. Vass himself rejected that reading. He pointed out that nearly every photograph included signs of continuing life (a child's bicycle propped against a loading dock, laundry drying on a rusted gate, a vegetable garden planted in a cracked parking lot) and insisted that his true subject was not loss but adaptation: the inventive ways people kept using spaces that the economy had abandoned.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To argue that critics were right to regard Vass's photographs as expressions of grief over industrial decline",
+      "To explain how Vass's photographs changed as abandoned factories were gradually reoccupied",
+      "To contrast the subject matter of Vass's photographs with that of other photographers of the 1970s",
+      "To describe how a photographer disputed a prevailing interpretation of his work and proposed a different one"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the text presents the critics' view of the photographs as elegies, then explains that Vass rejected this reading and offered his own: the photographs are about adaptation. Choice A reverses the text's emphasis, since the text presents Vass's objection to that view. Choice B invents a change in his work over time, and the text mentions no other photographers (C)."
+  },
+  {
+    "id": "rw-cs-135",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "easy",
+    "passage": "**Text 1**\n\nSome city officials oppose a proposal to tear down the elevated highway that runs through downtown Riverton and replace it with a tree-lined boulevard. They warn that the tens of thousands of vehicles that use the highway each day would be forced onto local streets, creating severe traffic jams throughout the city.\n\n**Text 2**\n\nWhen cities have removed urban highways, the gridlock that critics predicted has often failed to appear. Studies of several such removals found that much of the traffic simply disappeared: some drivers switched to other routes or to public transit, while others combined errands or made fewer trips. Within a year or two, traffic on nearby streets was often close to what it had been before.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to the warning made by the officials in Text 1?",
+    "choices": [
+      "By agreeing that removing the highway would force most of its traffic onto local streets",
+      "By arguing that the highway should be widened so that it can carry more vehicles",
+      "By noting that the experience of other cities suggests that the predicted traffic problems may not occur",
+      "By pointing out that public transit in Riverton is too limited to absorb additional riders"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: Text 2 reports that when other cities removed highways, predicted gridlock \"often failed to appear\" because drivers changed their habits. Choice A is the opposite of Text 2's point. Text 2 never proposes widening highways (B) and says nothing specific about Riverton's transit system (D)."
+  },
+  {
+    "id": "rw-cs-136",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "easy",
+    "passage": "**Text 1**\n\nEach autumn, many homeowners rake up every fallen leaf from their lawns and garden beds and send the leaves away with the trash. A tidy yard, they reason, looks well cared for and keeps pests from settling in over the winter.\n\n**Text 2**\n\nEntomologists point out that a layer of fallen leaves is winter habitat for many helpful insects. Some butterflies and moths spend the cold months as eggs or pupae tucked among dead leaves, and many native bees and beetles shelter beneath them. Removing the leaves entirely can destroy these overwintering insects, many of which pollinate garden plants or eat garden pests the following spring.",
+    "prompt": "Based on the texts, how would the entomologists in Text 2 most likely respond to the homeowners' reasoning in Text 1?",
+    "choices": [
+      "By agreeing that fallen leaves mainly shelter insects that damage garden plants",
+      "By pointing out that removing all fallen leaves may harm insects that benefit gardens",
+      "By recommending that homeowners rake their leaves more often during the autumn",
+      "By arguing that yards covered in leaves look more attractive than tidy yards"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the homeowners rake leaves partly to keep pests away, but Text 2 explains that leaf layers shelter insects that pollinate plants or even eat pests. Choice A contradicts Text 2's emphasis on helpful insects. Text 2 does not encourage more raking (C) or discuss how yards look (D)."
+  },
+  {
+    "id": "rw-cs-137",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "easy",
+    "passage": "**Text 1**\n\nNovelist Hollis Grant has a gift for vivid characters, but her books share a frustrating weakness: they end too abruptly. Just as readers have become invested in a character's struggles, the story simply stops, leaving key conflicts unresolved. These endings feel less like artistic choices than like signs that Grant did not know how to finish.\n\n**Text 2**\n\nReaders who find Hollis Grant's endings abrupt are not wrong, but they may miss the point. In interviews, Grant has explained that she stops her novels before their conflicts are resolved on purpose. Real lives, she argues, do not wrap up neatly, and she wants readers to imagine for themselves how her characters' lives continue.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1 about Grant's endings?",
+    "choices": [
+      "By denying that Grant's novels leave important conflicts unresolved",
+      "By agreeing that the endings show Grant was unsure how to finish her books",
+      "By noting that Grant has revised her endings in response to criticism",
+      "By arguing that the endings reflect a deliberate choice rather than a lack of skill"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: Text 1 treats the abrupt endings as signs that Grant \"did not know how to finish,\" while Text 2 cites Grant's explanation that she ends her novels this way \"on purpose.\" Choice A is wrong because Text 2 concedes the endings are abrupt (\"are not wrong\"). Choice B is the view Text 2 rejects, and Text 2 mentions no revisions (C)."
+  },
+  {
+    "id": "rw-cs-138",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "easy",
+    "passage": "**Text 1**\n\nMeasurements of Jupiter's moon Europa strongly indicate that an ocean of liquid water lies beneath its icy crust. Because liquid water is essential to all known life, some scientists consider Europa one of the most promising places in the solar system to search for living organisms.\n\n**Text 2**\n\nThere is good reason to think that a salty ocean lies beneath Europa's ice. But water alone is not enough for life. Organisms also require a source of energy and the right chemical ingredients, and scientists do not yet know whether Europa's ocean has either. Until a spacecraft can sample that ocean more directly, claims about life there remain speculative.",
+    "prompt": "Based on the texts, both authors would most likely agree with which statement?",
+    "choices": [
+      "Europa is the most likely place in the solar system for life to exist.",
+      "Liquid water is not necessary for life to develop.",
+      "Europa probably has liquid water beneath its surface.",
+      "Scientists have confirmed that Europa's ocean contains a source of energy."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: Text 1 says measurements \"strongly indicate\" an ocean beneath Europa's crust, and Text 2 agrees there is \"good reason to think\" one exists. Choice A goes beyond Text 1's claim that Europa is \"one of the most promising\" places, and Text 2 calls claims about life there speculative. Choice B contradicts Text 1, and choice D contradicts Text 2."
+  },
+  {
+    "id": "rw-cs-139",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\n\nA growing number of school districts, particularly in rural areas, have shifted to four-day school weeks, lengthening the remaining days to make up some of the lost time. Supporters say the schedule saves money on transportation and utilities and helps districts attract teachers. Moreover, they argue, students' academic performance does not suffer.\n\n**Text 2**\n\nEconomist Dara Whitcombe compared test scores in districts before and after they adopted four-day weeks. Overall, she found small but measurable declines in math achievement over several years. The declines, however, were concentrated in districts whose total instructional hours fell when they dropped a day. Districts that lengthened their remaining days enough to keep total classroom time constant showed no significant change.",
+    "prompt": "Based on the texts, how would Whitcombe (Text 2) most likely respond to the supporters' argument about academic performance in Text 1?",
+    "choices": [
+      "By indicating that the argument may be accurate only for districts that keep students' total instructional time the same",
+      "By rejecting the argument because achievement declined in every district that adopted a four-day week",
+      "By agreeing with the argument and adding that four-day weeks tend to improve math achievement",
+      "By questioning whether four-day weeks actually reduce districts' transportation and utility costs"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: Whitcombe found no significant change in districts that preserved total classroom time but declines in districts that lost instructional hours, so the supporters' claim holds only under that condition. Choice B overstates her findings, since some districts showed no decline. She found declines, not improvements (C), and she does not address costs (D)."
+  },
+  {
+    "id": "rw-cs-140",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\n\nOver decades, the varnish applied to protect an oil painting turns yellow and dims the colors beneath it. When conservators carefully remove this discolored layer, the results can be striking: skies that looked murky become clear blue, and flesh tones regain their warmth. Cleaning, in this view, returns a painting to the appearance its creator intended.\n\n**Text 2**\n\nConservator Mireille Danjou urges caution before old varnish is stripped away. Technical studies have shown that some painters mixed small amounts of pigment into their final varnish layers to soften or unify the colors beneath. In such cases, removing the \"discolored\" varnish may erase part of the painting itself, producing colors brighter than the artist ever meant viewers to see.",
+    "prompt": "Based on the texts, how would Danjou (Text 2) most likely respond to the view expressed in the last sentence of Text 1?",
+    "choices": [
+      "By agreeing that removing varnish always reveals colors closer to the artist's original vision",
+      "By cautioning that removing varnish may sometimes move a painting away from, rather than toward, its creator's intentions",
+      "By arguing that varnish should never be applied to oil paintings",
+      "By claiming that yellowed varnish does not actually change the appearance of paintings"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: Text 1 says cleaning restores the look the artist intended, but Danjou notes that some artists tinted their varnish on purpose, so removing it can produce colors \"brighter than the artist ever meant.\" Choice A is the view she questions. She does not oppose applying varnish (C), and she never denies that varnish yellows and changes a painting's look (D)."
+  },
+  {
+    "id": "rw-cs-141",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\n\nAround 1900 BCE, the ancient city of Qalbet was largely abandoned. Sediment cores from a nearby lake show that the region experienced a severe drought at about that time, lasting several decades. Many researchers have concluded that the drought, by causing repeated crop failures, drove the city's residents away.\n\n**Text 2**\n\nArchaeologist Tomás Ferrer agrees that a major drought struck the region around 1900 BCE. But his excavations of Qalbet's residential districts show that many houses had already been abandoned by about 1960 BCE, decades before the drought began. Ferrer links this earlier decline to a shift in trade routes that diverted merchants away from the city.",
+    "prompt": "Based on the texts, how would Ferrer (Text 2) most likely respond to the conclusion of the researchers in Text 1?",
+    "choices": [
+      "By disputing that a drought affected the region around 1900 BCE",
+      "By suggesting that the drought was caused by changes in trade routes",
+      "By claiming that the city's residents returned once the drought ended",
+      "By arguing that it overlooks evidence that the city's decline was already under way before the drought"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: Ferrer's excavations show that many houses were abandoned decades before the drought, which the drought explanation in Text 1 does not account for. Choice A is wrong because Ferrer \"agrees\" that the drought occurred. He links the earlier decline, not the drought, to trade routes (B), and neither text mentions residents returning (C)."
+  },
+  {
+    "id": "rw-cs-142",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\n\nBotanist Lior Asaf exposed evening primrose flowers to recordings of various sounds. Within minutes of hearing the hum of a flying bee, the flowers produced nectar with a noticeably higher sugar concentration than did flowers exposed to silence or to high-pitched noise. Asaf concludes that the plants can detect the sound of approaching pollinators and respond in ways that make them more attractive to those pollinators.\n\n**Text 2**\n\nStudies reporting that plants respond to sound are intriguing, but they deserve scrutiny. Experiments conducted with recordings in quiet laboratories may not reflect conditions in the field, where flowers are exposed to wind, birdsong, and many other noises. Before concluding that plants \"listen\" for pollinators, researchers should show that such effects occur in natural settings and identify the mechanism by which flowers detect sound.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Asaf's conclusion?",
+    "choices": [
+      "By arguing that Asaf's measurements of nectar sugar concentration were inaccurate",
+      "By agreeing that Asaf's findings prove that plants detect pollinators by sound",
+      "By suggesting that the conclusion is premature until the effect is shown to occur outside the laboratory",
+      "By claiming that wind and birdsong cause flowers to produce less nectar"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: Text 2 calls such findings \"intriguing\" but says researchers should demonstrate the effect in natural settings before concluding that plants \"listen\" for pollinators. Choice A is wrong because Text 2 questions how far lab results generalize, not whether the measurements were accurate. Text 2 withholds agreement (B) and makes no claim about how other noises affect nectar (D)."
+  },
+  {
+    "id": "rw-cs-143",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\n\nA translator's first duty is to the author's words. When translators replace an unfamiliar expression with a smoother equivalent from their own language, they substitute their voice for the author's and deny readers an encounter with the original's strangeness. A faithful translation should stay as close to the source text's wording and sentence structure as the target language allows.\n\n**Text 2**\n\nTranslating word for word can betray an author as surely as rewriting can. An idiom that strikes native readers as ordinary may sound bizarre when rendered literally, distracting readers in a way the author never intended. The translator's task is to recreate the effect a passage has on its original audience, even when that requires departing from its exact words.",
+    "prompt": "Which choice best describes a difference in how the authors of Text 1 and Text 2 view translation?",
+    "choices": [
+      "The author of Text 1 believes translations should be easy to read, while the author of Text 2 believes they should challenge readers.",
+      "The author of Text 1 emphasizes preserving an original text's wording, while the author of Text 2 emphasizes reproducing the original's effect on readers.",
+      "The author of Text 1 focuses on translating idioms, while the author of Text 2 focuses on translating sentence structure.",
+      "The author of Text 1 argues that translators should rewrite difficult passages, while the author of Text 2 argues that they never should."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: Text 1 says a translation should stay as close as possible to the source's wording, while Text 2 says the goal is to recreate a passage's effect on readers, even if that means departing from the exact words. Choice A reverses the views: Text 1 values the original's \"strangeness,\" while Text 2 wants to avoid distracting readers. Choices C and D misrepresent what each author discusses and argues."
+  },
+  {
+    "id": "rw-cs-144",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\n\nEcologist Sabine Kroll set up streetlamps in previously dark meadows and monitored the moths and other insects that visited flowers at night. In lit meadows, nighttime visits to flowers fell by more than 60 percent compared with dark meadows, and a common thistle produced 13 percent fewer seeds. Kroll concludes that artificial light at night poses a serious threat to the reproduction of wild plants.\n\n**Text 2**\n\nBiologist Ren Matsuda replicated Kroll's setup in meadows in another region and likewise observed a sharp drop in nocturnal pollinator visits under artificial light. Seed production, though, barely changed: bees and hoverflies visiting during the day pollinated many of the flowers that nighttime insects had missed. Matsuda notes, however, that her meadows supported unusually abundant daytime pollinators, and that such compensation may not occur elsewhere.",
+    "prompt": "Based on the texts, how would Matsuda (Text 2) most likely respond to Kroll's conclusion?",
+    "choices": [
+      "By suggesting that the threat may vary from place to place, depending on how many daytime pollinators are present",
+      "By rejecting the conclusion because artificial light did not reduce nighttime pollinator visits in her meadows",
+      "By proposing that the drop in seed production Kroll observed was probably caused by something other than the loss of nighttime visits",
+      "By suggesting that Kroll's meadows may have had too few nocturnal insects for her results to be meaningful"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: Matsuda found that abundant daytime pollinators offset the loss of nighttime visits in her meadows, but she cautions that this may not happen elsewhere, implying that the threat Kroll describes depends on local conditions. Choice B is wrong because Matsuda did observe a sharp drop in nighttime visits. Matsuda does not question what caused the seed decline in Kroll's meadows (C) or criticize Kroll's choice of sites (D); she suggests only that results may differ where daytime pollinators are abundant."
+  },
+  {
+    "id": "rw-cs-145",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\n\nWhen employers stop requiring workers to sign up for retirement savings plans and instead enroll them automatically, with an option to opt out, participation soars. At one firm studied by economists, participation among new hires rose from under 40 percent to over 85 percent after automatic enrollment began. Such results have led many researchers to hail automatic enrollment as a highly effective way to improve workers' financial security.\n\n**Text 2**\n\nEconomists Mona Aziz and Peter Lund examined what happened after workers were automatically enrolled. Most stayed at the default contribution rate, typically 3 percent of salary, even though many workers who had signed up on their own had chosen higher rates. As a result, some automatically enrolled workers saved less than they likely would have if they had enrolled by choice, partly offsetting the gains from higher participation.",
+    "prompt": "Based on the texts, how would Aziz and Lund (Text 2) most likely respond to the view of automatic enrollment described in Text 1?",
+    "choices": [
+      "By cautioning that the rise in participation may overstate how much automatic enrollment improves workers' savings",
+      "By suggesting that the participation figures in Text 1 may be inflated by workers who later opted out",
+      "By arguing that automatic enrollment may benefit employers more than it benefits workers",
+      "By agreeing that automatic enrollment leads workers to choose higher contribution rates than they otherwise would"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: Aziz and Lund do not dispute that participation rises, but they found that many enrolled workers stuck with a low default rate, \"partly offsetting the gains,\" so participation figures alone may exaggerate the benefit. Choice B is tempting, but Text 2 never questions the participation figures; its concern is the low contribution rates of those who stayed enrolled. Text 2 says nothing about employers (C), and choice D reverses its finding."
+  },
+  {
+    "id": "rw-cs-146",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\n\nHistorian Eliza Moran argues that the letters of nineteenth-century explorer Charles Wainwright reveal an unusual respect for the local guides who led his expeditions. Again and again, Wainwright praises his guides' knowledge of terrain and weather, credits them with saving his party from disaster, and describes them as his equals in courage and judgment.\n\n**Text 2**\n\nWainwright's letters were written to be printed in London newspapers, and they should be read with that audience in mind. Admiring portraits of local guides made his adventures more vivid and his own leadership seem enlightened. His private journal, which he never expected to be published, paints a different picture: there, he complains about his guides constantly and rarely mentions their contributions.",
+    "prompt": "Based on the texts, Moran (Text 1) and the author of Text 2 would most likely agree with which statement?",
+    "choices": [
+      "Wainwright's letters are the most reliable record of his attitude toward his guides.",
+      "Wainwright's letters contain praise for the guides who accompanied him.",
+      "Wainwright privately regarded his guides with little respect.",
+      "Wainwright wrote his letters without expecting them to reach a wide audience."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: Moran points to the letters' repeated praise of the guides, and the author of Text 2 also acknowledges the letters' \"admiring portraits,\" disagreeing only about whether that praise was sincere. Choice A is rejected by Text 2, which questions the letters' reliability, and choice C reflects only Text 2's view, which Moran would not accept. Choice D contradicts Text 2's point that the letters were written for newspapers."
+  },
+  {
+    "id": "rw-cs-147",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\n\nIn laboratory experiments, New Caledonian crows have solved problems requiring several steps in sequence, using a short stick to retrieve a longer stick, for instance, and then using the longer stick to reach food. Many researchers interpret such performances as evidence that the birds can plan ahead, mentally representing a goal and the steps needed to achieve it.\n\n**Text 2**\n\nBefore crediting crows with planning, researchers should consider the birds' training histories. In many studies, crows were first taught each step separately and rewarded for completing it. A bird that has learned that each action is followed by a reward may chain those actions together through simple association, without representing the final goal at all. Only tasks whose steps are entirely new to the birds can distinguish planning from such learning.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely characterize the interpretation described in Text 1?",
+    "choices": [
+      "As likely correct, though in need of confirmation from observations of crows in the wild",
+      "As well supported, because the crows were trained on each step before being tested",
+      "As plausible for crows but not for other birds that use tools",
+      "As not yet established by the experiments, because the crows' behavior could result from a simpler process"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: Text 2 argues that birds trained on each step might succeed through \"simple association,\" so the experiments cannot yet distinguish planning from learning. Choice A is tempting because it is cautious, but Text 2 does not call the interpretation likely, and its proposed test is new laboratory tasks, not observations in the wild. Choice B reverses Text 2's point, since the training is what makes the evidence inconclusive, and Text 2 does not discuss other birds (C)."
+  },
+  {
+    "id": "rw-cs-148",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\n\nAdvocates for the revitalization of endangered languages often point to school programs as their greatest success. In several regions, the number of young people able to speak a once-declining language has risen sharply since schools began teaching it, and advocates cite these figures as evidence that the languages' futures are secure.\n\n**Text 2**\n\nSociolinguist Aine Gallagher surveyed young people who had learned an endangered language at school. Most could hold a conversation in it, but few used it with friends, at home, or anywhere outside the classroom. A language survives, Gallagher argues, not when many people can speak it but when people actually do speak it in daily life, and by that standard, rising numbers of speakers may mask a decline.",
+    "prompt": "Based on the texts, how would Gallagher (Text 2) most likely respond to the advocates' claim in Text 1?",
+    "choices": [
+      "By disputing that school programs have increased the number of young people who can speak endangered languages",
+      "By suggesting that school programs should focus more on teaching students to read and write the language",
+      "By arguing that a rise in the number of people able to speak a language does not by itself show that the language is secure",
+      "By claiming that young people learn languages more effectively at home than at school"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the advocates treat rising numbers of speakers as proof of security, but Gallagher argues that survival depends on everyday use and that rising numbers \"may mask a decline.\" Choice A is wrong because her survey confirms that students could speak the language. She makes no recommendation about literacy instruction (B) and does not compare home and school learning (D)."
+  }
+]

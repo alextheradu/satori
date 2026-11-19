@@ -1,0 +1,546 @@
+[
+  {
+    "id": "rw-ii-001",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "easy",
+    "passage": "For much of the twentieth century, foresters treated the trees in a stand mainly as rivals competing for sunlight, water, and soil nutrients. Recent studies have complicated that picture. Using chemical tracers, ecologist Mara Lindqvist and her colleagues found that carbon moved from mature Douglas firs to nearby seedlings through underground networks of fungi that connect the roots of different trees. Shaded seedlings linked to these networks received more carbon than unlinked seedlings did, suggesting that relationships among trees in a forest may involve exchange as well as competition.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Douglas fir seedlings grow more quickly in shade than in full sunlight.",
+      "Research suggests that trees in a forest may share resources through fungal networks rather than only compete for them.",
+      "Twentieth-century foresters were wrong to believe that trees need sunlight, water, and nutrients.",
+      "The fungi that connect tree roots take more carbon from mature trees than they deliver to seedlings."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the text contrasts the older view of trees as pure competitors with new evidence that carbon moves between trees through fungal networks, concluding that forests involve exchange as well as competition. Choice C distorts the first sentence; foresters were not wrong that trees need these resources, only incomplete in seeing trees solely as rivals. Choices A and D make claims the text never supports."
+  },
+  {
+    "id": "rw-ii-002",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is from an original short story. Teodora has returned to her grandmother's village after many years in the city.\n\nTeodora had expected the village to have shrunk, the way places from childhood are said to shrink. Instead it seemed larger, or at least emptier: the bakery was shuttered, the schoolyard had gone to weeds, and the square where she had once chased pigeons held only two parked cars. She stood by the dry fountain and tried to summon the noise she remembered—the vendors, the church bells, her cousins calling her name—but the silence would not give way. It was not the village that had grown smaller, she realized, but the life inside it.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Teodora regrets having moved to the city and decides to remain in the village.",
+      "Teodora is surprised to discover that the village is physically larger than she remembered.",
+      "Teodora learns that the village has been rebuilt since she last visited it.",
+      "Teodora perceives that the village has lost much of the activity and community she remembers from her childhood."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the shuttered bakery, weedy schoolyard, and silent square, together with the final sentence (\"not the village that had grown smaller... but the life inside it\"), show that Teodora recognizes the village has lost its former activity. Choice B is the main trap; the village only \"seemed larger, or at least emptier,\" which is a comment on its emptiness, not its physical size. Nothing in the text supports A or C."
+  },
+  {
+    "id": "rw-ii-003",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "A widely publicized experiment once found that grocery shoppers offered two dozen varieties of jam were less likely to buy any than shoppers offered only six, a result often cited as proof that more options discourage decisions. Later attempts to reproduce such \"choice overload\" effects produced inconsistent results, and a large review of dozens of studies found that the average effect across them was close to zero. Yet the reviewers did not conclude that choice overload is a myth. Instead, they identified conditions under which it reliably appears—for example, when people lack a clear prior preference or when the options are difficult to compare—and argued that the phenomenon is real but narrower than popular accounts suggest.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Although early research on choice overload was flawed, reviewers concluded that people generally prefer having many options.",
+      "Research shows that choice overload occurs mainly when people are choosing among food products.",
+      "Later research indicates that choice overload is a genuine effect but one that arises only under particular circumstances.",
+      "Because the average effect across studies was close to zero, choice overload should be regarded as a myth."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the text's turn (\"Yet the reviewers did not conclude...\") leads to its main point, that choice overload is real but limited to certain conditions. Choice D is tempting because the text reports a near-zero average effect, but it explicitly says the reviewers did not call the effect a myth. Choice A is never stated, and B wrongly generalizes from the single jam example."
+  },
+  {
+    "id": "rw-ii-004",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "easy",
+    "passage": "The Pony Express, which carried mail by relays of horseback riders between Missouri and California, began operating in April 1860. It could deliver a letter across that distance in about ten days, far faster than stagecoaches could. Despite its fame, the service lasted fewer than two years. In October 1861, the completion of a telegraph line linking the East and West Coasts allowed messages to cross the country almost instantly, and the Pony Express, which had never made a profit, shut down only days later.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Although it delivered mail faster than earlier methods, the Pony Express was quickly made obsolete by the telegraph.",
+      "The Pony Express was the first service of any kind to carry mail between Missouri and California.",
+      "The transcontinental telegraph line was built with money earned by the Pony Express.",
+      "Stagecoaches remained the fastest way to send messages across the country until 1861."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: the text describes the Pony Express's speed advantage and then explains that the telegraph replaced it within two years. Choice C contradicts the statement that the service \"never made a profit,\" and D contradicts the claim that the Pony Express was faster than stagecoaches. The text never says the Pony Express was the first such service, so B is unsupported."
+  },
+  {
+    "id": "rw-ii-005",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "Biologist Ines Okafor has observed that orb-weaving spiders of one species build webs with fewer radial threads—the \"spokes\" of the web—in windy coastal areas than in sheltered inland forests. Okafor hypothesizes that individual spiders adjust their web structure in response to wind exposure itself, rather than that coastal and inland populations simply differ genetically in their web-building behavior.",
+    "prompt": "Which finding, if true, would most directly support Okafor's hypothesis?",
+    "choices": [
+      "Coastal spiders raised in a sheltered laboratory built webs with as many radial threads as inland spiders did, while inland spiders exposed to fan-generated wind built webs with fewer radial threads.",
+      "Spiders in coastal areas catch fewer insects in their webs than spiders in inland forests do.",
+      "Coastal and inland populations of the species differ from each other in several genes.",
+      "Spiders in coastal areas build their webs closer to the ground than spiders in inland forests do."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: when the same spiders change their web structure as wind conditions change, regardless of where they came from, the difference must reflect a response to wind rather than inherited population differences. Choice C is the strongest trap, but genetic differences between populations would, if anything, support the alternative explanation Okafor rejects. Choices B and D do not address what causes the difference in radial threads."
+  },
+  {
+    "id": "rw-ii-006",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "The Lamplighter's Daughter is a novel by the fictional author Celia Marchetti. In the novel, Marchetti portrays the narrator's father as a man who values thrift even more than his own comfort, as is evident when the narrator says, ______",
+    "prompt": "Which quotation from The Lamplighter's Daughter most effectively illustrates the claim?",
+    "choices": [
+      "\"He kept a ledger of every coin the household spent, and he reviewed it each Sunday evening with the solemnity of a man at prayer.\"",
+      "\"All winter he wore the coat with the torn lining rather than buy another, though he shivered on the walk to the mill each morning.\"",
+      "\"He spoke rarely at supper, but when he did, it was usually to praise my mother's cooking.\"",
+      "\"Our neighbors often asked him for advice about money, since he was known throughout the town as a careful man.\""
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct because it shows the father choosing to save money (not buying a coat) at a clear cost to his comfort (shivering every morning). Choice A is the strongest trap: it shows that he is careful with money, but it says nothing about sacrificing his own comfort, so it illustrates only half the claim. Choices C and D do not show him giving up comfort for thrift."
+  },
+  {
+    "id": "rw-ii-007",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "easy",
+    "passage": "Researchers studying sleep in teenagers noticed that students at schools with later start times reported getting more sleep on school nights. The researchers claim that later start times lead teenagers to sleep longer, rather than simply causing them to go to bed later and sleep the same total amount.",
+    "prompt": "Which finding, if true, would most directly support the researchers' claim?",
+    "choices": [
+      "Many teenagers report that they would prefer for school to start later in the morning.",
+      "Teachers at schools with later start times report that students participate more actively in class.",
+      "After one school district moved its start time from 7:30 a.m. to 8:30 a.m., students' average bedtime stayed about the same, while their average wake-up time shifted about 45 minutes later.",
+      "Students at schools with later start times went to bed about an hour later than students at schools with earlier start times, and they also woke up about an hour later."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: if bedtimes stayed the same but wake-up times moved later, students gained sleep, which is exactly what the researchers claim. Choice D describes the alternative the researchers reject: shifting both bedtime and wake-up time by an hour means no extra sleep. Choices A and B do not address how much students sleep."
+  },
+  {
+    "id": "rw-ii-008",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "At a Bronze Age settlement on the Mediterranean coast, archaeologists uncovered thousands of shells from a sea snail whose glands were once used to make a prized purple dye, along with scraps of purple-dyed cloth. Archaeologist Nikos Varga argues that the settlement was a center of dye production, not merely a place where dyed goods were used. To extract the dye, workers had to break open each snail's shell to reach the gland inside.",
+    "prompt": "Which finding, if true, would most directly weaken Varga's argument?",
+    "choices": [
+      "Many of the shells found at the settlement show cracks in the location where the dye gland would have been reached.",
+      "The sea snail used to make the dye was abundant in the waters near the settlement during the Bronze Age.",
+      "Scraps of purple-dyed cloth have also been found at several other Bronze Age settlements in the region.",
+      "Nearly all of the snail shells found at the settlement are whole and unbroken."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: because the dye could be obtained only by breaking the shells, finding that nearly all the shells are intact suggests the snails were not processed for dye at the settlement. Choices A and B would support Varga's argument rather than weaken it. Choice C is tempting, but dyed cloth elsewhere says nothing about whether dye was produced at this particular site."
+  },
+  {
+    "id": "rw-ii-009",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "easy",
+    "passage": "A team of ecologists counted monarch butterflies at four overwintering sites in two consecutive seasons. The team noted that the site with the largest monarch population in the first season was not the site with the largest population in the second season.\n\n| Site | Season 1 (thousands) | Season 2 (thousands) |\n|---|---|---|\n| Ridge A | 410 | 365 |\n| Ridge B | 385 | 440 |\n| Valley C | 220 | 230 |\n| Valley D | 150 | 120 |",
+    "prompt": "Which choice best describes data from the table that support the team's observation?",
+    "choices": [
+      "Ridge A had the largest population in season 1, but Ridge B had the largest population in season 2.",
+      "Valley D had the smallest population in both seasons.",
+      "The population at Valley C increased from season 1 to season 2.",
+      "The population at Ridge A decreased from season 1 to season 2."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: Ridge A led in season 1 (410 thousand), while Ridge B led in season 2 (440 thousand), so the largest site changed. Choice D is accurate but does not show that a different site became the largest. Choices B and C are also accurate but concern the smaller sites, not which site was largest."
+  },
+  {
+    "id": "rw-ii-010",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "medium",
+    "passage": "A librarian surveyed patrons about how many books they had read in the past year in three formats and grouped them by how many e-books they had read. She hypothesized that patrons who read the most e-books would read the fewest print books, but the survey results do not support this hypothesis: ______\n\n| Group | Avg. e-books | Avg. print books | Avg. audiobooks |\n|---|---|---|---|\n| Low e-book readers | 1 | 6 | 2 |\n| Medium e-book readers | 5 | 7 | 2 |\n| High e-book readers | 14 | 9 | 3 |",
+    "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+    "choices": [
+      "high e-book readers read an average of 14 e-books, far more than the average of 1 read by low e-book readers.",
+      "patrons in all three groups read more print books than audiobooks, on average.",
+      "medium e-book readers read an average of 2 audiobooks, the same as low e-book readers.",
+      "high e-book readers read an average of 9 print books, more than the average of 6 read by low e-book readers."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the hypothesis predicts that high e-book readers read the fewest print books, but they actually read the most (9, compared with 6 for low e-book readers). Choice A is accurate but only describes how the groups were defined; it says nothing about print books. Choices B and C are accurate but do not compare print reading across e-book groups."
+  },
+  {
+    "id": "rw-ii-011",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "Agricultural researchers tested whether planting clover between rows of corn affects corn yield. A graph of their results shows average yields, in bushels per acre, for plots with and without clover in three growing seasons. In a dry season, plots with clover yielded 142 and plots without clover yielded 118. In a season of average rainfall, the yields were 171 and 165, respectively. In a wet season, they were 180 and 184. The researchers concluded that the benefit of planting clover depends on rainfall, ______",
+    "prompt": "Which choice most effectively uses data from the graph to complete the statement?",
+    "choices": [
+      "since plots with clover yielded more corn in the wet season than they did in the dry season.",
+      "since clover plots outyielded plots without clover by 24 bushels per acre in the dry season but yielded slightly less than plots without clover in the wet season.",
+      "since plots without clover had their highest yield of the three seasons in the wet season.",
+      "since plots with clover yielded more corn than plots without clover did in every season."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the conclusion concerns the benefit of clover, which requires comparing plots with and without clover, and that advantage is large in the dry season but disappears in the wet season. Choice A is the strongest trap; it is accurate, but it shows only that rainfall affects yield in general, not that it changes clover's advantage. Choice C has the same problem, and D is inaccurate because clover plots yielded less in the wet season (180 versus 184)."
+  },
+  {
+    "id": "rw-ii-012",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "Sociolinguist Dana Whitfield surveyed residents of a coastal town about whether they use the local word \"haar\" (rather than \"fog\") to describe sea mist. Whitfield claims that use of the word is declining from older to younger generations but that the decline is much slower among residents who work in fishing.\n\n| Age group | Fishing workers who use \"haar\" (%) | Other residents who use \"haar\" (%) |\n|---|---|---|\n| 60 and older | 92 | 81 |\n| 40–59 | 85 | 58 |\n| 18–39 | 74 | 29 |",
+    "prompt": "Which choice best describes data from the table that support Whitfield's claim?",
+    "choices": [
+      "Among residents 60 and older, 92% of fishing workers and 81% of other residents use \"haar.\"",
+      "Among residents aged 18–39, fewer than a third of residents who do not work in fishing use \"haar.\"",
+      "From the oldest to the youngest age group, use of \"haar\" fell by 18 percentage points among fishing workers but by 52 percentage points among other residents.",
+      "In every age group, fishing workers use \"haar\" at a higher rate than other residents do."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct because it addresses both parts of the claim: use declines across generations in both groups, and the decline is much smaller among fishing workers (92 to 74) than among others (81 to 29). Choice D is the main trap; it is accurate, but a higher rate in every group does not by itself show a decline or compare how fast each group's use is falling. Choices A and B each describe only a single age group."
+  },
+  {
+    "id": "rw-ii-013",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "easy",
+    "passage": "Honeybee colonies keep the temperature of their brood—the developing young—within a narrow range of about 34 to 35°C. When the hive grows too warm, worker bees fan their wings and spread droplets of water to cool it; when it grows too cold, they cluster together and shiver their flight muscles to produce heat. Because bees raised outside the ideal temperature range often develop into adults with impaired learning abilities, these worker behaviors suggest that ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "worker bees spend more energy cooling the hive than warming it.",
+      "adult honeybees are generally unable to learn new tasks.",
+      "honeybee colonies can survive only in climates where outdoor temperatures stay near 35°C.",
+      "temperature regulation by workers helps ensure that the colony's future adults will be able to learn effectively."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: workers keep the brood in the ideal range, and brood raised outside that range tend to have impaired learning, so the workers' behavior protects future adults' learning abilities. Choice C confuses the hive's internal temperature with the outdoor climate; the workers' behaviors exist precisely to handle outside temperature changes. Choices A and B are not supported by the text."
+  },
+  {
+    "id": "rw-ii-014",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "Historians of medieval Europe often use a manuscript's handwriting to locate where its scribe was trained, since scripts varied distinctly from region to region. Parchment, by contrast, was usually made from the skins of local animals near wherever a manuscript was actually written. Thus, if a manuscript's script is characteristic of Ireland but analysis shows that its parchment came from animals raised in northern Italy, a historian might reasonably conclude that ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "the manuscript was probably written in Ireland on parchment that had been imported from northern Italy.",
+      "the manuscript was probably written in northern Italy by a scribe who had been trained in Ireland.",
+      "handwriting is an unreliable guide to where a medieval scribe was trained.",
+      "scribes in Ireland and northern Italy prepared parchment using identical methods."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the script indicates where the scribe trained (Ireland), and the parchment indicates where the manuscript was written (northern Italy), so the likeliest explanation is an Irish-trained scribe working in Italy. Choice A is the trap; it treats the parchment as imported, which contradicts the text's statement that parchment was usually made near where a manuscript was written. Choices C and D are unsupported."
+  },
+  {
+    "id": "rw-ii-015",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "In some firefly species, thousands of males flash in unison. One hypothesis holds that this synchrony helps females pick out their own species' distinctive flash pattern from surrounding visual \"noise,\" such as the flashes of other species. In laboratory tests, females of a synchronous species responded to simulated flash patterns far more often when the flashes were synchronized than when the same number of flashes were presented out of sync. When the simulated environment contained very few flashes overall, however, females responded about equally often to synchronized and unsynchronized patterns. Taken together, these results suggest that ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "synchronized flashing benefits males most in environments with very little visual clutter.",
+      "female fireflies of synchronous species are unable to detect unsynchronized flashes.",
+      "the advantage of flashing in synchrony depends on how much competing visual stimulation is present.",
+      "males of synchronous species flash less often than males of species that do not flash in synchrony."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: synchrony made a large difference in the crowded, flash-filled condition but none in the sparse condition, so its benefit depends on the amount of visual noise. Choice A reverses the finding, since synchrony offered no advantage when flashes were few. Choice B is contradicted by the females' responses to unsynchronized patterns in the sparse condition, and D is never addressed."
+  },
+  {
+    "id": "rw-ii-016",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "When a city raised its minimum wage, some economists predicted that restaurants, which employ many minimum-wage workers, would respond by cutting jobs. A survey of local restaurants found that the total number of people they employed changed little in the following year. The survey also found, however, that the average number of hours worked per employee fell and that many restaurants raised their menu prices. These findings suggest that restaurants ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "responded to higher labor costs mainly in ways other than reducing the number of people they employed.",
+      "were largely unaffected by the increase in the minimum wage.",
+      "hired additional workers to keep up with growing customer demand.",
+      "found that customers were unwilling to pay higher menu prices."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: employment stayed about the same, but restaurants cut hours and raised prices, which are responses to higher labor costs that do not involve reducing the number of employees. Choice B is the trap; the stable number of jobs might suggest no effect, but the reduced hours and higher prices show that restaurants did change their behavior. Choices C and D are not supported."
+  },
+  {
+    "id": "rw-cs-001",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "easy",
+    "passage": "Although members of the city council had expected a heated debate over the proposal to add protected bike lanes downtown, the measure passed with ______ support: all nine members voted in favor of it.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "tentative",
+      "partial",
+      "unanimous",
+      "reluctant"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: \"unanimous\" means agreed to by everyone, which matches the detail that all nine members voted in favor. Choice B contradicts that detail, and A and D suggest hesitation that the text does not describe."
+  },
+  {
+    "id": "rw-cs-002",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "easy",
+    "passage": "Marine biologist Keoni Akana's study of coral reefs was remarkably ______: for eleven years, his team returned every month to the same 40 reef sites, recording water temperature, coral cover, and fish populations at each one.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "thorough",
+      "speculative",
+      "brief",
+      "controversial"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: monthly visits to 40 sites over eleven years, with several measurements at each, describe a study that is \"thorough,\" or complete and careful. Choice C contradicts the eleven-year duration, B conflicts with the emphasis on careful data collection, and nothing in the text suggests the study was D."
+  },
+  {
+    "id": "rw-cs-003",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "In her history of nineteenth-century textile mills, Lorna Beck argues that the mill owners' public speeches praising the dignity of labor were largely a ______: the owners' private letters reveal that they cared far more about cutting wages than about improving the lives of their workers.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "revelation",
+      "compromise",
+      "necessity",
+      "pretense"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: a \"pretense\" is a false show, and the owners' private letters reveal that their public praise of labor did not reflect their true priorities. Choice A is the strongest trap, since the letters are revealing, but the blank describes the speeches, which concealed rather than revealed the owners' views. Choices B and C do not fit the contrast between public words and private aims."
+  },
+  {
+    "id": "rw-cs-004",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "Critics' reaction to the composer's new symphony was decidedly ______: most praised its inventive orchestration, but many of the same reviewers complained that its final movement dragged on far too long.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "effusive",
+      "ambivalent",
+      "dismissive",
+      "indifferent"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: \"ambivalent\" means having mixed feelings, which fits critics who both praised the orchestration and complained about the final movement. Choice A (\"effusive,\" or unrestrained in praise) captures only the positive half of the reaction, and C captures only the negative half. Choice D does not fit, since the critics clearly had strong opinions."
+  },
+  {
+    "id": "rw-cs-005",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "Visitors strolling across the quiet, tree-lined grounds of the Halvorsen Research Institute might never guess how intense the work there can be. The building's calm, unassuming exterior ______ the frantic pace of the laboratories inside, where teams often work through the night to keep experiments running.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "belies",
+      "reveals",
+      "exaggerates",
+      "mirrors"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: to \"belie\" something is to give a false impression of it, and the calm exterior misleads visitors about the frantic work inside. Choices B and D are the main traps; they say the exterior accurately reflects the interior, which contradicts the claim that visitors \"might never guess\" what goes on there. Choice C does not make sense, because a calm exterior cannot overstate a frantic pace."
+  },
+  {
+    "id": "rw-cs-006",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "Historian Amaru Quispe acknowledges that the surviving records of a colonial-era trade fair in the Andes are fragmentary, but he cautions against treating their gaps as ______. The absence of certain merchants from the ledgers, he argues, may reflect only which documents happened to survive rather than who actually attended the fair.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "arbitrary",
+      "telling",
+      "regrettable",
+      "deliberate"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: \"telling\" means revealing or significant, and Quispe warns against reading the gaps as evidence of who attended, since they may only reflect which documents survived. Choice A is the trap; Quispe actually thinks the gaps may be arbitrary, so he would not caution against that view. Choices C and D do not connect to his point about what the missing records can and cannot show."
+  },
+  {
+    "id": "rw-cs-007",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "easy",
+    "passage": "Many people picture deserts as nearly lifeless, but Chile's Atacama Desert, one of the driest places on Earth, supports a surprising variety of life. After rare rains, long-dormant seeds sprout into vast fields of flowers, an event locals call the \"desierto florido,\" or flowering desert. Microbes survive inside rocks of salt, drawing moisture from the air. Even in areas where rain has not fallen in years, lichens cling to stones, absorbing water from coastal fog.",
+    "prompt": "Which choice best states the main purpose of the text?",
+    "choices": [
+      "To explain why the Atacama Desert receives so little rainfall",
+      "To compare the Atacama Desert with other deserts around the world",
+      "To argue that the Atacama Desert should be protected from development",
+      "To challenge a common assumption by describing forms of life found in an extremely dry place"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the text opens with the common belief that deserts are lifeless and then gives several examples of life in the Atacama to counter it. Choice A is wrong because the text never explains the causes of the desert's dryness. The text makes no comparison to other deserts (B) and no argument about protection (C)."
+  },
+  {
+    "id": "rw-cs-008",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "In 1928, bacteriologist Alexander Fleming noticed that a mold contaminating one of his culture plates had killed the bacteria growing around it. _Fleming published his observation the following year, but for roughly a decade afterward, little was done to turn the mold's active substance into a usable medicine._ It was not until the late 1930s that a team at the University of Oxford found ways to purify penicillin in useful quantities, paving the way for its mass production during the Second World War.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It explains why other scientists initially rejected Fleming's discovery.",
+      "It identifies the type of bacteria that the mold was able to kill.",
+      "It notes a delay between a discovery and its practical use, a delay that the final sentence describes being overcome.",
+      "It describes the method Fleming used to purify penicillin."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the underlined sentence establishes that Fleming's finding sat largely undeveloped for years, and the next sentence explains how the Oxford team finally made penicillin usable. Choice A is tempting, but the text says only that little was done, not that scientists rejected the discovery. Choices B and D describe information the sentence does not contain; in fact, the text credits the purification to the Oxford team, not to Fleming."
+  },
+  {
+    "id": "rw-cs-009",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "easy",
+    "passage": "The following text is from an original short story. Marcus, a retired piano tuner, is visiting the concert hall where he once worked.\n\nThe hall had been renovated since Marcus's day: new seats in deep red velvet, a lobby of glass and steel, lights that dimmed at the touch of a screen. He walked the aisle slowly, acknowledging each change with a polite nod, the way one might greet the new husband of an old friend. Then he reached the stage and saw the piano—the same scarred grand he had tuned for thirty years, a pale scratch still running along its lid. He laid his palm on the wood and, for the first time that afternoon, smiled.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It portrays a character's reserved reaction to changes in a familiar place and then his warm reaction to something that has stayed the same.",
+      "It portrays a character's anger at changes to a familiar place and then his decision to leave it.",
+      "It summarizes a character's career as a piano tuner and then explains why he retired.",
+      "It presents a character's memories of a past concert and then compares them with a current performance."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: Marcus greets the renovations with only a \"polite nod,\" then smiles \"for the first time\" when he finds the unchanged piano. Choice B misreads his polite reserve as anger, and he does not leave. Choices C and D describe content the text does not include."
+  },
+  {
+    "id": "rw-cs-010",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "Economist Lionel Hart's model of urban housing predicts that building new high-end apartments will, over time, lower rents in older buildings nearby, as wealthier tenants move into the new units and leave older ones vacant. Critics object that the model ignores the possibility that new luxury buildings make a neighborhood more desirable, drawing in additional high-income residents and pushing rents up. Recent studies of several cities lend some support to each view: rents in older buildings near new construction generally fell slightly, but the drop was smaller in neighborhoods that had already been gentrifying rapidly.",
+    "prompt": "Which choice best describes the main purpose of the text?",
+    "choices": [
+      "To argue that Hart's model of urban housing is fundamentally flawed and should be abandoned",
+      "To present a prediction, an objection to it, and evidence suggesting that each position has some merit",
+      "To explain the causes of rising rents in rapidly gentrifying neighborhoods",
+      "To show that Hart's critics have accurately predicted rent changes in several cities"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the text lays out Hart's prediction, the critics' objection, and studies that \"lend some support to each view.\" Choice D is the strongest trap, but the studies mostly found that rents fell, as Hart predicted, so they do not show the critics were simply right. Choice A overstates the text's balanced conclusion, and C focuses on a detail rather than the text's overall purpose."
+  },
+  {
+    "id": "rw-cs-011",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "Tardigrades—microscopic animals sometimes called water bears—can survive being almost completely dried out, a state in which their metabolism nearly stops. For years, researchers assumed this ability depended on a sugar called trehalose, which protects the cells of many other drought-tolerant organisms. _Yet some tardigrade species produce little or no trehalose._ Investigating this puzzle, researchers discovered a family of proteins found only in tardigrades that form gel-like structures inside cells as they dry, apparently holding cellular components in place until water returns.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It identifies the mechanism by which most drought-tolerant organisms survive drying out.",
+      "It provides evidence that trehalose is harmful to tardigrade cells.",
+      "It explains why some tardigrade species are unable to survive being dried out.",
+      "It introduces an observation that is inconsistent with a previously held explanation and that led to further investigation."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the underlined sentence (\"Yet...\") shows that the trehalose explanation cannot account for all tardigrades, and the next sentence describes the research this puzzle prompted. Choice A describes the preceding sentence, not the underlined one. Choice C is a trap; the text never says these species cannot survive drying, and the final sentence implies they survive by another mechanism. Nothing supports B."
+  },
+  {
+    "id": "rw-cs-012",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "easy",
+    "passage": "**Text 1**\n\nMany nutrition researchers have argued that eating breakfast is important for weight control. They point to studies in which people who regularly eat breakfast weigh less, on average, than people who usually skip it.\n\n**Text 2**\n\nMost studies linking breakfast to lower body weight have been observational: they compared people who had already chosen to eat or skip breakfast. When researchers have instead randomly assigned participants to eat or skip breakfast, the breakfast eaters have not lost more weight. People who choose to eat breakfast may simply have other habits that help them maintain a lower weight.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to the argument of the researchers in Text 1?",
+    "choices": [
+      "By agreeing that eating breakfast causes people to weigh less",
+      "By arguing that skipping breakfast causes people to gain weight",
+      "By suggesting that the evidence the researchers cite does not show that eating breakfast itself affects weight",
+      "By claiming that observational studies actually found that breakfast eaters weigh more"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the author of Text 2 argues that the observational studies cited in Text 1 cannot separate the effect of breakfast from other habits, and that controlled experiments found no weight benefit. Choices A and B contradict Text 2's point, and D misstates the observational findings, which Text 2 does not dispute."
+  },
+  {
+    "id": "rw-cs-013",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\n\nLiterary scholars have generally treated the poems of Adela Ferreira (1871–1930) as private works, written for herself and a few close friends. Ferreira published almost nothing during her lifetime, and the intimate subjects of her poems—her garden, her illnesses, her sister's letters—seem to confirm that she never imagined a wider audience.\n\n**Text 2**\n\nScholar Tomás Ibarra recently examined Ferreira's manuscripts and found that she revised many poems dozens of times, often explaining her changes in the margins with notes such as \"clearer for the reader\" and \"too obscure for strangers.\" Ibarra contends that these revisions reveal a poet who was writing with eventual publication in mind.",
+    "prompt": "Based on the texts, how would Ibarra (Text 2) most likely respond to the scholars' view in Text 1?",
+    "choices": [
+      "He would argue that Ferreira's revisions undermine the conclusion that she wrote only for herself and a few friends.",
+      "He would agree that the intimate subjects of Ferreira's poems show she did not intend them for publication.",
+      "He would claim that Ferreira published many more poems during her lifetime than the scholars realize.",
+      "He would argue that Ferreira's close friends were responsible for most of the revisions to her poems."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: Ibarra uses Ferreira's margin notes about \"the reader\" and \"strangers\" to argue that she imagined a wider audience, directly challenging the view in Text 1. Choice B is the trap; it restates Text 1's reasoning, which Ibarra disputes. Choices C and D are not supported, since Ibarra's argument concerns her intentions, not her publication record or who made the revisions."
+  },
+  {
+    "id": "rw-cs-014",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\n\nAbout 13,000 years ago, dozens of species of large mammals in North America, including mammoths and giant ground sloths, went extinct. Some researchers attribute these extinctions primarily to hunting by humans, noting that the die-off coincided closely with the spread of human populations across the continent.\n\n**Text 2**\n\nClimate researchers point out that the same period saw abrupt swings in temperature that reshaped vegetation across North America. Human hunting may have contributed to the extinctions, these researchers acknowledge, but it is unlikely to have been the main cause: some species began declining before humans were widespread in their ranges, and the extinctions match the timing of climate shifts at least as closely as they match the timing of human arrival.",
+    "prompt": "Which choice best describes a difference in how the researchers in Text 1 and the researchers in Text 2 view the extinctions?",
+    "choices": [
+      "The researchers in Text 1 believe the extinctions occurred gradually, whereas the researchers in Text 2 believe they occurred suddenly.",
+      "The researchers in Text 1 deny that climate played any role, whereas the researchers in Text 2 deny that humans played any role.",
+      "The researchers in Text 1 focus on mammoths, whereas the researchers in Text 2 focus on giant ground sloths.",
+      "The researchers in Text 1 regard human hunting as the primary cause, whereas the researchers in Text 2 regard it as at most a contributing factor."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: Text 1 attributes the extinctions \"primarily\" to hunting, while Text 2 says hunting \"may have contributed\" but was unlikely to be the main cause. Choice B is the trap; it overstates both positions, since Text 1 never denies a role for climate and Text 2 explicitly allows that hunting contributed. Choices A and C describe differences the texts do not show."
+  },
+  {
+    "id": "rw-cs-015",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\n\nAdvocates of open-plan offices, which replace private offices and cubicles with shared, wall-free workspaces, argue that removing physical barriers encourages employees to talk with one another more often. More conversation, they claim, leads to more spontaneous collaboration.\n\n**Text 2**\n\nOrganizational researchers Hana Sato and Leo Brandt tracked employees at two companies before and after the companies moved from cubicles to open-plan offices. Face-to-face interaction dropped by about two-thirds after the move, while email and instant messaging increased. Sato and Brandt suggest that, lacking privacy, employees tried to avoid being overheard and to avoid interrupting colleagues who were trying to concentrate.",
+    "prompt": "Based on the texts, how would Sato and Brandt (Text 2) most likely respond to the advocates' argument in Text 1?",
+    "choices": [
+      "They would agree that removing physical barriers increases the total amount of communication among employees.",
+      "They would argue that employees in open-plan offices prefer face-to-face conversation to electronic messaging.",
+      "They would contend that the argument overlooks how a lack of privacy can lead employees to talk in person less rather than more.",
+      "They would claim that open-plan offices reduce companies' costs even if collaboration does not increase."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: Sato and Brandt found that in-person interaction fell sharply after the move and attribute this to employees' lack of privacy, directly contradicting the advocates' expectation. Choice A is the trap; electronic messaging did rise, but the texts give no evidence about whether total communication increased, and Sato and Brandt's point is that in-person talk declined. Choices B and D are unsupported; employees' behavior suggests the opposite of B, and costs are never discussed."
+  },
+  {
+    "id": "rw-cs-016",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\n\nRed pigment markings in several caves in Spain have been dated to more than 64,000 years ago—before modern humans are known to have arrived in Europe. If so, the markings must have been made by Neanderthals, which would show that Neanderthals engaged in symbolic behavior once thought to be unique to modern humans.\n\n**Text 2**\n\nThe technique used to date the Spanish cave markings measures the age of mineral crusts that formed over the pigment, and some geochemists have argued that the method can yield misleadingly old dates under certain conditions. Until the dates are confirmed by independent methods, attributing the markings to Neanderthals is premature—though if the dates hold up, the markings would indeed be strong evidence of symbolic thought among Neanderthals.",
+    "prompt": "Based on the texts, the authors of both texts would most likely agree with which statement?",
+    "choices": [
+      "The dating technique used on the cave markings is unreliable and should not be used.",
+      "If the cave markings are truly more than 64,000 years old, they are evidence that Neanderthals engaged in symbolic behavior.",
+      "Modern humans arrived in Europe earlier than researchers had previously believed.",
+      "The cave markings were most likely made by modern humans rather than Neanderthals."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: Text 1 argues that markings of that age would show Neanderthal symbolic behavior, and Text 2 concedes that \"if the dates hold up,\" the markings would be strong evidence of exactly that. Choice A is the trap; only Text 2 raises doubts about the dating method, and even it says only that the method can err \"under certain conditions,\" while Text 1 accepts the dates. Neither text supports C or D."
+  }
+]

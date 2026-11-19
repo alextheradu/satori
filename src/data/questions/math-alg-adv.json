@@ -1,0 +1,482 @@
+[
+  {
+    "id": "m-alg-001",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "easy",
+    "prompt": "If $4(x - 3) = 2x + 10$, what is the value of $x$?",
+    "choices": [
+      "$11$",
+      "$-1$",
+      "$\\frac{13}{2}$",
+      "$22$"
+    ],
+    "answer": 0,
+    "explanation": "Distribute: $4x - 12 = 2x + 10$. Subtract $2x$ and add $12$ to both sides: $2x = 22$, so $x = 11$. Choice $\\frac{13}{2}$ comes from distributing incorrectly ($4x - 3$), $-1$ from mishandling the sign of $12$, and $22$ from forgetting to divide by $2$."
+  },
+  {
+    "id": "m-alg-002",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "medium",
+    "prompt": "What value of $x$ is the solution to the equation $\\frac{2x - 1}{3} - \\frac{x + 4}{6} = 2$?",
+    "answer": [
+      "6"
+    ],
+    "explanation": "Multiply every term by $6$: $2(2x - 1) - (x + 4) = 12$. Then $4x - 2 - x - 4 = 12$, so $3x - 6 = 12$, $3x = 18$, and $x = 6$. A common error is writing $-x + 4$ instead of $-x - 4$ when distributing the negative sign."
+  },
+  {
+    "id": "m-alg-003",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "In the equation $a(3x - 2) + 5 = 12x + b$, $a$ and $b$ are constants. If the equation has infinitely many solutions, what is the value of $b$?",
+    "choices": [
+      "$4$",
+      "$-3$",
+      "$13$",
+      "$-8$"
+    ],
+    "answer": 1,
+    "explanation": "Expand the left side: $3ax - 2a + 5$. For infinitely many solutions, the $x$-coefficients and the constants must match. So $3a = 12$, giving $a = 4$, and $b = -2a + 5 = -8 + 5 = -3$. Choice $4$ is the value of $a$, $-8$ forgets the $+5$, and $13$ uses $+2a$ instead of $-2a$."
+  },
+  {
+    "id": "m-alg-004",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "easy",
+    "prompt": "A school theater sells adult tickets for $12$ dollars each and student tickets for $8$ dollars each. On Friday, the theater earned a total of $960$ dollars from selling $a$ adult tickets and $s$ student tickets. Which equation represents this situation?",
+    "choices": [
+      "$8a + 12s = 960$",
+      "$20(a + s) = 960$",
+      "$12a + 8s = 960$",
+      "$12a = 8s + 960$"
+    ],
+    "answer": 2,
+    "explanation": "Revenue from adult tickets is $12a$ and from student tickets is $8s$. Their sum is the total: $12a + 8s = 960$. Choice $8a + 12s = 960$ swaps the prices, and $20(a + s) = 960$ would charge $20$ dollars for every ticket."
+  },
+  {
+    "id": "m-alg-005",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "In the $xy$-plane, the graph of $5x - 2y = 20$ is a line. What is the $y$-intercept of this line?",
+    "choices": [
+      "$(0, 10)$",
+      "$(4, 0)$",
+      "$(0, -4)$",
+      "$(0, -10)$"
+    ],
+    "answer": 3,
+    "explanation": "The $y$-intercept occurs where $x = 0$: $5(0) - 2y = 20$, so $-2y = 20$ and $y = -10$. The $y$-intercept is $(0, -10)$. Choice $(0, 10)$ ignores the negative sign on $2y$, and $(4, 0)$ is the $x$-intercept."
+  },
+  {
+    "id": "m-alg-006",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "Line $\\ell$ in the $xy$-plane passes through the points $(-2, 7)$ and $(4, -2)$. If the point $(k, 13)$ also lies on line $\\ell$, what is the value of $k$?",
+    "answer": [
+      "-6"
+    ],
+    "explanation": "The slope is $\\frac{-2 - 7}{4 - (-2)} = \\frac{-9}{6} = -\\frac{3}{2}$. Using point-slope form, $y - 7 = -\\frac{3}{2}(x + 2)$. Substitute $y = 13$: $6 = -\\frac{3}{2}(k + 2)$, so $k + 2 = -4$ and $k = -6$."
+  },
+  {
+    "id": "m-alg-007",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "easy",
+    "prompt": "The function $f$ is defined by $f(x) = 7 - 3x$. What is the value of $f(-4)$?",
+    "choices": [
+      "$19$",
+      "$-5$",
+      "$5$",
+      "$-19$"
+    ],
+    "answer": 0,
+    "explanation": "Substitute $x = -4$: $f(-4) = 7 - 3(-4) = 7 + 12 = 19$. Choice $-5$ results from treating $-3(-4)$ as $-12$."
+  },
+  {
+    "id": "m-alg-008",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "medium",
+    "prompt": "The table shows three values of $x$ and their corresponding values of $f(x)$, where $f$ is a linear function.\n\n| $x$ | $f(x)$ |\n|---|---|\n| $2$ | $11$ |\n| $5$ | $20$ |\n| $9$ | $32$ |\n\nWhich equation defines $f$?",
+    "choices": [
+      "$f(x) = 3x + 11$",
+      "$f(x) = 3x + 5$",
+      "$f(x) = 5x + 1$",
+      "$f(x) = 9x - 7$"
+    ],
+    "answer": 1,
+    "explanation": "The slope is $\\frac{20 - 11}{5 - 2} = \\frac{9}{3} = 3$. Then $11 = 3(2) + b$ gives $b = 5$, so $f(x) = 3x + 5$. Check: $f(9) = 27 + 5 = 32$. Choices $5x + 1$ and $9x - 7$ fit only the first row, and $3x + 11$ uses $f(2)$ as the $y$-intercept."
+  },
+  {
+    "id": "m-alg-009",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "Water drains from a tank at a constant rate. The function $V$ gives the volume of water, in liters, remaining in the tank $t$ minutes after draining begins. If $V(12) = 588$ and $V(30) = 210$, how many minutes after draining begins will the tank be empty?",
+    "answer": [
+      "40"
+    ],
+    "explanation": "The rate of change is $\\frac{210 - 588}{30 - 12} = \\frac{-378}{18} = -21$ liters per minute. The initial volume is $V(0) = 588 + 21(12) = 840$, so $V(t) = 840 - 21t$. Setting $V(t) = 0$ gives $21t = 840$, so $t = 40$."
+  },
+  {
+    "id": "m-alg-010",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "easy",
+    "prompt": "$x + y = 14$\n\n$x - y = 4$\n\nIf $(x, y)$ is the solution to the system of equations above, what is the value of $x$?",
+    "choices": [
+      "$5$",
+      "$10$",
+      "$9$",
+      "$18$"
+    ],
+    "answer": 2,
+    "explanation": "Add the equations to eliminate $y$: $2x = 18$, so $x = 9$ (and $y = 5$). Choice $5$ is the value of $y$, and $18$ is $2x$."
+  },
+  {
+    "id": "m-alg-011",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "A store sells notebooks for $3$ dollars each and pens for $1.50$ dollars each. Maya buys a total of $18$ notebooks and pens and spends exactly $39$ dollars. How many notebooks did Maya buy?",
+    "answer": [
+      "8"
+    ],
+    "explanation": "Let $n$ be notebooks and $p$ be pens. Then $n + p = 18$ and $3n + 1.5p = 39$. Substitute $p = 18 - n$: $3n + 27 - 1.5n = 39$, so $1.5n = 12$ and $n = 8$. (She bought $10$ pens; check: $24 + 15 = 39$.)"
+  },
+  {
+    "id": "m-alg-012",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "$3x - ky = 8$\n\n$6x + 10y = 5$\n\nIn the system of equations above, $k$ is a constant. If the system has no solution, what is the value of $k$?",
+    "choices": [
+      "$5$",
+      "$-\\frac{1}{2}$",
+      "$10$",
+      "$-5$"
+    ],
+    "answer": 3,
+    "explanation": "A system of two linear equations has no solution when the lines are parallel and distinct, which means the coefficients of $x$ and $y$ are proportional but the constants are not. Since $\\frac{6}{3} = 2$, we need $10 = 2(-k)$, so $k = -5$. The constants $8$ and $5$ are not in the ratio $1:2$, so the lines are distinct. Choice $5$ ignores the negative sign in $-ky$."
+  },
+  {
+    "id": "m-alg-013",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "easy",
+    "prompt": "Which of the following values of $x$ satisfies the inequality $5 - 2x > 11$?",
+    "choices": [
+      "$-4$",
+      "$-3$",
+      "$0$",
+      "$3$"
+    ],
+    "answer": 0,
+    "explanation": "Subtract $5$: $-2x > 6$. Divide by $-2$ and reverse the inequality: $x < -3$. Only $-4$ is less than $-3$. Choice $3$ comes from forgetting to reverse the inequality sign, and $-3$ is excluded because the inequality is strict."
+  },
+  {
+    "id": "m-alg-014",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "medium",
+    "prompt": "A delivery van can safely carry a total load of at most $2{,}000$ pounds, including the driver. The driver weighs $180$ pounds, and each box loaded into the van weighs $35$ pounds. Which inequality represents all possible numbers of boxes, $b$, that can be loaded into the van?",
+    "choices": [
+      "$180 + 35b \\ge 2{,}000$",
+      "$180 + 35b \\le 2{,}000$",
+      "$35 + 180b \\le 2{,}000$",
+      "$35b \\le 2{,}000 + 180$"
+    ],
+    "answer": 1,
+    "explanation": "The total load is the driver’s weight plus the weight of the boxes: $180 + 35b$. \"At most\" means less than or equal to, so $180 + 35b \\le 2{,}000$. Choice $\\ge$ reverses the meaning of \"at most,\" and $35b \\le 2{,}000 + 180$ adds the driver's weight to the capacity instead of using it up."
+  },
+  {
+    "id": "m-alg-015",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "hard",
+    "prompt": "If $-3 \\le 2 - 5x < 12$, which of the following could be the value of $x$?",
+    "choices": [
+      "$-2$",
+      "$-3$",
+      "$1$",
+      "$2$"
+    ],
+    "answer": 2,
+    "explanation": "Subtract $2$ from all parts: $-5 \\le -5x < 10$. Divide by $-5$ and reverse both inequality signs: $1 \\ge x > -2$, or $-2 < x \\le 1$. Only $1$ is in this interval. $-2$ is excluded because that endpoint is strict, and $2$ results from not reversing the signs."
+  },
+  {
+    "id": "m-alg-016",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "medium",
+    "prompt": "$y > 2x - 3$\n\n$x + y \\le 6$\n\nWhich point $(x, y)$ is a solution to the system of inequalities above?",
+    "choices": [
+      "$(3, 4)$",
+      "$(4, 5)$",
+      "$(1, -2)$",
+      "$(-1, 6)$"
+    ],
+    "answer": 3,
+    "explanation": "Test each point in both inequalities. For $(-1, 6)$: $6 > 2(-1) - 3 = -5$ is true, and $-1 + 6 = 5 \\le 6$ is true. For $(3, 4)$, $3 + 4 = 7 > 6$; for $(4, 5)$, $5 > 5$ is false; for $(1, -2)$, $-2 > -1$ is false."
+  },
+  {
+    "id": "m-adv-001",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "easy",
+    "prompt": "Which expression is equivalent to $(3x^2 - 5x + 2) - (x^2 + 4x - 6)$?",
+    "choices": [
+      "$2x^2 - 9x + 8$",
+      "$2x^2 - x - 4$",
+      "$2x^2 - 9x - 4$",
+      "$4x^2 - x - 4$"
+    ],
+    "answer": 0,
+    "explanation": "Distribute the negative sign: $3x^2 - 5x + 2 - x^2 - 4x + 6$. Combine like terms: $2x^2 - 9x + 8$. Choice $2x^2 - x - 4$ adds the second polynomial's $x$ and constant terms instead of subtracting them."
+  },
+  {
+    "id": "m-adv-002",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "medium",
+    "prompt": "Which of the following is equivalent to $6x^2 + 7x - 20$?",
+    "choices": [
+      "$(3x + 4)(2x - 5)$",
+      "$(3x - 4)(2x + 5)$",
+      "$(6x - 5)(x + 4)$",
+      "$(3x - 5)(2x + 4)$"
+    ],
+    "answer": 1,
+    "explanation": "Expand $(3x - 4)(2x + 5) = 6x^2 + 15x - 8x - 20 = 6x^2 + 7x - 20$. Choice $(3x + 4)(2x - 5)$ gives $6x^2 - 7x - 20$ (wrong sign on the middle term), and the other choices give middle terms of $19x$ and $2x$."
+  },
+  {
+    "id": "m-adv-003",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "easy",
+    "prompt": "The expression $(2x + 3)(kx - 5)$, where $k$ is a constant, is equivalent to $8x^2 + 2x - 15$. What is the value of $k$?",
+    "answer": [
+      "4"
+    ],
+    "explanation": "Expanding gives $2kx^2 - 10x + 3kx - 15 = 2kx^2 + (3k - 10)x - 15$. Matching the $x^2$ coefficients, $2k = 8$, so $k = 4$. Check the $x$ term: $3(4) - 10 = 2$."
+  },
+  {
+    "id": "m-adv-004",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "hard",
+    "prompt": "Which expression is equivalent to $\\frac{3}{x - 2} - \\frac{2}{x + 1}$, for $x \\ne 2$ and $x \\ne -1$?",
+    "choices": [
+      "$\\frac{x - 1}{x^2 - x - 2}$",
+      "$\\frac{5x - 1}{x^2 - x - 2}$",
+      "$\\frac{x + 7}{x^2 - x - 2}$",
+      "$\\frac{1}{2x - 1}$"
+    ],
+    "answer": 2,
+    "explanation": "Use the common denominator $(x - 2)(x + 1) = x^2 - x - 2$: $\\frac{3(x + 1) - 2(x - 2)}{x^2 - x - 2} = \\frac{3x + 3 - 2x + 4}{x^2 - x - 2} = \\frac{x + 7}{x^2 - x - 2}$. Choice $\\frac{x - 1}{x^2 - x - 2}$ comes from writing $-2(x - 2)$ as $-2x - 4$. Choice $\\frac{1}{2x - 1}$ incorrectly subtracts numerators and adds denominators."
+  },
+  {
+    "id": "m-adv-005",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "hard",
+    "prompt": "For all positive values of $x$, $\\left(\\frac{x^5 \\sqrt[3]{x}}{x^2}\\right)^3 = x^k$, where $k$ is a constant. What is the value of $k$?",
+    "answer": [
+      "10"
+    ],
+    "explanation": "Write the cube root as an exponent: $\\sqrt[3]{x} = x^{\\frac{1}{3}}$. Inside the parentheses, $x^{5 + \\frac{1}{3} - 2} = x^{\\frac{10}{3}}$. Raising to the third power multiplies the exponent by $3$: $x^{10}$. So $k = 10$."
+  },
+  {
+    "id": "m-adv-006",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "easy",
+    "prompt": "What is the positive solution to the equation $x^2 - 2x - 35 = 0$?",
+    "choices": [
+      "$5$",
+      "$2$",
+      "$35$",
+      "$7$"
+    ],
+    "answer": 3,
+    "explanation": "Factor: $(x - 7)(x + 5) = 0$, so $x = 7$ or $x = -5$. The positive solution is $7$. Choice $5$ results from mixing up the signs in the factors."
+  },
+  {
+    "id": "m-adv-007",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "medium",
+    "prompt": "What is the solution to the equation $\\sqrt{x + 7} = x - 5$?",
+    "choices": [
+      "$9$",
+      "$2$",
+      "$-2$",
+      "$18$"
+    ],
+    "answer": 0,
+    "explanation": "Square both sides: $x + 7 = x^2 - 10x + 25$, so $x^2 - 11x + 18 = 0$ and $(x - 9)(x - 2) = 0$. Check both: $x = 9$ gives $\\sqrt{16} = 4 = 9 - 5$, which checks. $x = 2$ gives $\\sqrt{9} = 3$, but $2 - 5 = -3$, so $2$ is extraneous. The only solution is $9$."
+  },
+  {
+    "id": "m-adv-008",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "medium",
+    "prompt": "$y = x^2 - 3$\n\n$y = 2x$\n\nWhich ordered pair $(x, y)$ is a solution to the system of equations above?",
+    "choices": [
+      "$(-1, 2)$",
+      "$(3, 6)$",
+      "$(-3, -6)$",
+      "$(1, -2)$"
+    ],
+    "answer": 1,
+    "explanation": "Set the expressions for $y$ equal: $x^2 - 3 = 2x$, so $x^2 - 2x - 3 = 0$ and $(x - 3)(x + 1) = 0$. Then $x = 3$ gives $y = 6$, and $x = -1$ gives $y = -2$. Of the choices, only $(3, 6)$ is a solution. $(1, -2)$ lies on the parabola but not the line, and $(-1, 2)$ uses the wrong sign for $y$."
+  },
+  {
+    "id": "m-adv-009",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "hard",
+    "prompt": "$y = x^2 + 4x + 7$\n\n$y = 2x + k$\n\nIn the system of equations above, $k$ is a constant. If the system has exactly one real solution, what is the value of $k$?",
+    "answer": [
+      "6"
+    ],
+    "explanation": "Set the equations equal: $x^2 + 4x + 7 = 2x + k$, so $x^2 + 2x + (7 - k) = 0$. Exactly one solution means the discriminant is $0$: $2^2 - 4(1)(7 - k) = 0$, so $4 - 28 + 4k = 0$ and $k = 6$. (The line is tangent to the parabola at $x = -1$.)"
+  },
+  {
+    "id": "m-adv-010",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "hard",
+    "prompt": "What is the solution set of the equation $\\frac{x}{x - 3} + \\frac{2}{x + 3} = \\frac{18}{x^2 - 9}$?",
+    "choices": [
+      "$\\{3\\}$",
+      "$\\{-8, 3\\}$",
+      "$\\{-8\\}$",
+      "There is no solution."
+    ],
+    "answer": 2,
+    "explanation": "Multiply both sides by $(x - 3)(x + 3) = x^2 - 9$: $x(x + 3) + 2(x - 3) = 18$, so $x^2 + 5x - 24 = 0$ and $(x + 8)(x - 3) = 0$. Although $x = 3$ solves the quadratic, it makes the original denominators $0$, so it is extraneous. The solution set is $\\{-8\\}$."
+  },
+  {
+    "id": "m-adv-011",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "easy",
+    "prompt": "The function $g$ is defined by $g(x) = 2x^2 - 5$. What is the value of $g(-3)$?",
+    "choices": [
+      "$-23$",
+      "$31$",
+      "$-11$",
+      "$13$"
+    ],
+    "answer": 3,
+    "explanation": "$g(-3) = 2(-3)^2 - 5 = 2(9) - 5 = 13$. Choice $31$ squares $2(-3)$ instead of just $-3$, choice $-23$ treats $(-3)^2$ as $-9$, and $-11$ forgets to square."
+  },
+  {
+    "id": "m-adv-012",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "easy",
+    "prompt": "The number of bacteria in a culture $t$ hours after an experiment begins is modeled by $P(t) = 500(1.08)^t$. Which statement best describes how the number of bacteria changes?",
+    "choices": [
+      "It increases by $8\\%$ each hour.",
+      "It increases by $108\\%$ each hour.",
+      "It increases by $8$ bacteria each hour.",
+      "It decreases by $8\\%$ each hour."
+    ],
+    "answer": 0,
+    "explanation": "In $P(t) = a(b)^t$, a base of $b = 1.08 = 1 + 0.08$ means the quantity is multiplied by $1.08$ each hour, an increase of $8\\%$ per hour. An increase of $108\\%$ would require a base of $2.08$, and a constant increase of $8$ per hour would be linear, not exponential."
+  },
+  {
+    "id": "m-adv-013",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "medium",
+    "prompt": "The function $f$ is defined by $f(x) = -2x^2 + 12x - 7$. What is the maximum value of $f(x)$?",
+    "choices": [
+      "$3$",
+      "$11$",
+      "$-7$",
+      "$47$"
+    ],
+    "answer": 1,
+    "explanation": "The vertex occurs at $x = -\\frac{b}{2a} = -\\frac{12}{2(-2)} = 3$. Then $f(3) = -2(9) + 36 - 7 = 11$. Choice $3$ is the $x$-coordinate of the vertex, not the maximum value, and $-7$ is the $y$-intercept."
+  },
+  {
+    "id": "m-adv-014",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "medium",
+    "prompt": "The polynomial function $p$ is defined by $p(x) = x^3 - 4x^2 + ax + 12$, where $a$ is a constant. If $x - 2$ is a factor of $p(x)$, what is the value of $a$?",
+    "choices": [
+      "$2$",
+      "$-6$",
+      "$-2$",
+      "$6$"
+    ],
+    "answer": 2,
+    "explanation": "If $x - 2$ is a factor, then $p(2) = 0$: $8 - 16 + 2a + 12 = 0$, so $4 + 2a = 0$ and $a = -2$. Choice $-6$ results from evaluating $p(-2)$ instead of $p(2)$, and choice $2$ comes from a sign error when solving $4 + 2a = 0$."
+  },
+  {
+    "id": "m-adv-015",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "hard",
+    "prompt": "A car was purchased for $24{,}000$ dollars. Its value decreases by $15\\%$ each year. Which function $V$ gives the value of the car, in dollars, $m$ months after it was purchased?",
+    "choices": [
+      "$V(m) = 24{,}000(0.85)^{12m}$",
+      "$V(m) = 24{,}000(0.9875)^{m}$",
+      "$V(m) = 24{,}000(0.15)^{\\frac{m}{12}}$",
+      "$V(m) = 24{,}000(0.85)^{\\frac{m}{12}}$"
+    ],
+    "answer": 3,
+    "explanation": "A $15\\%$ annual decrease multiplies the value by $0.85$ each year. After $m$ months, $\\frac{m}{12}$ years have passed, so $V(m) = 24{,}000(0.85)^{\\frac{m}{12}}$. Choice $(0.9875)^m$ assumes a $1.25\\%$ monthly decrease, which compounds to more than $15\\%$ per year. Choice $(0.85)^{12m}$ treats each month as $12$ years, and base $0.15$ keeps only $15\\%$ of the value each year."
+  },
+  {
+    "id": "m-adv-016",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "hard",
+    "prompt": "A quadratic function $f$ has zeros at $x = -1$ and $x = 7$, and $f(0) = -14$. What is the minimum value of $f(x)$?",
+    "answer": [
+      "-32"
+    ],
+    "explanation": "Write $f(x) = a(x + 1)(x - 7)$. Then $f(0) = a(1)(-7) = -7a = -14$, so $a = 2$. The vertex is midway between the zeros, at $x = \\frac{-1 + 7}{2} = 3$. The minimum value is $f(3) = 2(4)(-4) = -32$."
+  }
+]

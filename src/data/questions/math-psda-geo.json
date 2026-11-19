@@ -1,0 +1,487 @@
+[
+  {
+    "id": "m-psda-001",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "easy",
+    "prompt": "A car travels 150 miles using 6 gallons of gasoline. At this rate, how many gallons of gasoline would the car use to travel 225 miles?",
+    "choices": [
+      "3",
+      "9",
+      "25",
+      "37.5"
+    ],
+    "answer": 1,
+    "explanation": "The car's rate is $\\frac{150}{6} = 25$ miles per gallon, so 225 miles requires $\\frac{225}{25} = 9$ gallons. Choice A gives only the fuel for the extra 75 miles, choice C is the rate itself, and choice D divides 225 by 6."
+  },
+  {
+    "id": "m-psda-002",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "medium",
+    "prompt": "A printer prints 18 pages per minute. At this rate, how many hours will it take the printer to print 2,700 pages?",
+    "answer": [
+      "2.5",
+      "5/2"
+    ],
+    "explanation": "Time in minutes is $\\frac{2{,}700}{18} = 150$ minutes. Since 1 hour = 60 minutes, $\\frac{150}{60} = 2.5$ hours."
+  },
+  {
+    "id": "m-psda-003",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "hard",
+    "prompt": "A cleaning solution is made by mixing concentrate and water in a ratio of 2 to 7 by volume. A worker has 45 liters of this solution. How many liters of concentrate must be added to the 45 liters so that the ratio of concentrate to water becomes 1 to 2?",
+    "choices": [
+      "5",
+      "7.5",
+      "17.5",
+      "25"
+    ],
+    "answer": 1,
+    "explanation": "The 45 liters contain $\\frac{2}{9}(45) = 10$ liters of concentrate and $\\frac{7}{9}(45) = 35$ liters of water. Adding $c$ liters of concentrate leaves the water unchanged, so $\\frac{10 + c}{35} = \\frac{1}{2}$, giving $10 + c = 17.5$ and $c = 7.5$. Choice C is the total concentrate needed, not the amount added; choice D comes from treating 1 to 2 as concentrate to total volume."
+  },
+  {
+    "id": "m-psda-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "easy",
+    "prompt": "A jacket originally priced at 80 dollars is on sale for 15% off the original price. What is the sale price of the jacket, in dollars?",
+    "choices": [
+      "12",
+      "65",
+      "68",
+      "92"
+    ],
+    "answer": 2,
+    "explanation": "The sale price is $80(1 - 0.15) = 80(0.85) = 68$ dollars. Choice A is the discount amount, choice B subtracts 15 dollars instead of 15%, and choice D adds the discount."
+  },
+  {
+    "id": "m-psda-005",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "medium",
+    "prompt": "The number of members of a hiking club increased by 20% from 2020 to 2021 and then decreased by 25% from 2021 to 2022. The club had 450 members in 2022. How many members did the club have in 2020?",
+    "answer": [
+      "500"
+    ],
+    "explanation": "If $x$ is the number of members in 2020, then $x(1.20)(0.75) = 450$, so $0.9x = 450$ and $x = 500$. Note that a 20% increase followed by a 25% decrease is a net 10% decrease, not a 5% decrease."
+  },
+  {
+    "id": "m-psda-006",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "hard",
+    "prompt": "The value of $p$ is 40% greater than the value of $q$, and the value of $r$ is 30% less than the value of $p$. If $q > 0$, $r$ is what percent of $q$?",
+    "choices": [
+      "28%",
+      "70%",
+      "98%",
+      "110%"
+    ],
+    "answer": 2,
+    "explanation": "Since $p = 1.4q$ and $r = 0.7p$, $r = 0.7(1.4q) = 0.98q$, so $r$ is 98% of $q$. Choice D comes from adding and subtracting the percents ($100 + 40 - 30$), which ignores that the 30% is taken of $p$, not of $q$."
+  },
+  {
+    "id": "m-psda-007",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "easy",
+    "prompt": "What is the median of the data set $4, 7, 7, 9, 12, 15$?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "The data set has 6 values in order, so the median is the mean of the 3rd and 4th values: $\\frac{7 + 9}{2} = 8$. Choice A is the mode, choice C is the mean, and choice D is the range."
+  },
+  {
+    "id": "m-psda-008",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "medium",
+    "prompt": "A list of 9 numbers has a mean of 20. When a tenth number is added to the list, the mean of the 10 numbers is 22. What is the tenth number?",
+    "choices": [
+      "2",
+      "22",
+      "24",
+      "40"
+    ],
+    "answer": 3,
+    "explanation": "The sum of the 9 numbers is $9(20) = 180$, and the sum of the 10 numbers is $10(22) = 220$. The tenth number is $220 - 180 = 40$. Choice A is only the change in the mean, and choice B assumes the new number equals the new mean."
+  },
+  {
+    "id": "m-psda-009",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "medium",
+    "prompt": "The table summarizes the number of pets owned by each of the 25 students in a class.\n\n| Number of pets | Number of students |\n|---|---|\n| 0 | 7 |\n| 1 | 9 |\n| 2 | 5 |\n| 3 | 3 |\n| 4 | 1 |\n\nA new student who owns 10 pets joins the class. Compared with the original 25 students, which statement best describes the mean and the median number of pets for the 26 students?",
+    "choices": [
+      "The mean increases, and the median stays the same.",
+      "The mean and the median both increase.",
+      "The mean stays the same, and the median increases.",
+      "The mean and the median both stay the same."
+    ],
+    "answer": 0,
+    "explanation": "Originally the median is the 13th value. Seven students own 0 pets and the next nine own 1, so the 13th value is 1. With 26 students, the median is the mean of the 13th and 14th values, which are both 1, so the median stays 1. Adding a value of 10, which is greater than the original mean of $\\frac{32}{25} = 1.28$, raises the mean (to $\\frac{42}{26} \\approx 1.62$)."
+  },
+  {
+    "id": "m-psda-010",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "easy",
+    "prompt": "A veterinarian uses the equation $y = 0.75x + 4.2$ to model the weight $y$, in kilograms, of a certain breed of puppy that is $x$ weeks old, for puppies between 8 and 20 weeks old. Which of the following is the best interpretation of $0.75$ in this context?",
+    "choices": [
+      "The estimated increase in a puppy's weight, in kilograms, for each additional week of age",
+      "The estimated weight, in kilograms, of a puppy at birth",
+      "The estimated number of weeks it takes for a puppy's weight to increase by 1 kilogram",
+      "The estimated weight, in kilograms, of a puppy that is 1 week old"
+    ],
+    "answer": 0,
+    "explanation": "In a linear model $y = mx + b$, the slope $m$ is the change in $y$ for each increase of 1 in $x$. So 0.75 is the estimated weight gain, in kilograms, per additional week. Choice B describes the $y$-intercept, choice C describes $\\frac{1}{0.75}$, and choice D would be $0.75(1) + 4.2$."
+  },
+  {
+    "id": "m-psda-011",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "hard",
+    "prompt": "A coach recorded the number of hours of practice, $x$, and the number of free throws made out of 50, $y$, for each player on a team. A line of best fit for the data passes through the points $(2, 15)$ and $(10, 39)$. One player practiced for 6 hours and made 30 free throws. The residual for a data point is the actual $y$-value minus the $y$-value predicted by the line of best fit. What is the residual for this player's data point?",
+    "answer": [
+      "3"
+    ],
+    "explanation": "The slope of the line is $\\frac{39 - 15}{10 - 2} = 3$, so the line is $y = 3x + 9$. At $x = 6$, the predicted value is $3(6) + 9 = 27$. The residual is $30 - 27 = 3$."
+  },
+  {
+    "id": "m-psda-012",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "medium",
+    "prompt": "The table shows the results of a survey of 120 students about whether they play a musical instrument.\n\n| Grade | Plays an instrument | Does not play an instrument | Total |\n|---|---|---|---|\n| 9th | 18 | 42 | 60 |\n| 10th | 27 | 33 | 60 |\n| Total | 45 | 75 | 120 |\n\nIf one of the students who plays an instrument is selected at random, what is the probability that the student is in 10th grade?",
+    "choices": [
+      "$\\frac{9}{40}$",
+      "$\\frac{3}{8}$",
+      "$\\frac{9}{20}$",
+      "$\\frac{3}{5}$"
+    ],
+    "answer": 3,
+    "explanation": "The selection is restricted to the 45 students who play an instrument, and 27 of them are in 10th grade, so the probability is $\\frac{27}{45} = \\frac{3}{5}$. Choice A uses all 120 students as the denominator, choice B is the probability that any student plays an instrument, and choice C is $\\frac{27}{60}$, the probability that a 10th grader plays an instrument."
+  },
+  {
+    "id": "m-psda-013",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "hard",
+    "prompt": "The table shows the results of a survey of 200 adults about whether they prefer tea or coffee.\n\n| Age group | Prefers tea | Prefers coffee | Total |\n|---|---|---|---|\n| Under 30 | 36 | 54 | 90 |\n| 30 or older | 64 | 46 | 110 |\n| Total | 100 | 100 | 200 |\n\nLet $p$ be the probability that an adult selected at random from those who prefer coffee is under 30, and let $q$ be the probability that an adult selected at random from those under 30 prefers coffee. What is the value of $\\frac{p}{q}$?",
+    "answer": [
+      "9/10",
+      "0.9",
+      ".9"
+    ],
+    "explanation": "$p = \\frac{54}{100}$ because the 100 coffee drinkers form the group, and $q = \\frac{54}{90}$ because the 90 adults under 30 form the group. So $\\frac{p}{q} = \\frac{54}{100} \\cdot \\frac{90}{54} = \\frac{90}{100} = 0.9$."
+  },
+  {
+    "id": "m-psda-014",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "medium",
+    "prompt": "A researcher selected a random sample of 400 adults from a town and asked whether they support building a new public park. Of those surveyed, 62% said they support building the park. The margin of error for this estimate is 4 percentage points. Which of the following is the most appropriate conclusion?",
+    "choices": [
+      "Exactly 62% of all adults in the town support building the park.",
+      "Between 58% and 66% of the 400 adults in the sample support building the park.",
+      "It is plausible that between 58% and 66% of all adults in the state support building the park.",
+      "It is plausible that between 58% and 66% of all adults in the town support building the park."
+    ],
+    "answer": 3,
+    "explanation": "A margin of error gives a plausible range for the population value: $62\\% \\pm 4\\%$, or 58% to 66%, of all adults in the town. Choice A ignores sampling variability. Choice B is wrong because exactly 62% of the sample said yes. Choice C generalizes beyond the population that was sampled (the town)."
+  },
+  {
+    "id": "m-psda-015",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "easy",
+    "prompt": "A town has 6,000 households. In a random sample of 250 of these households, 45 had a dog. Based on the sample, which of the following is the best estimate of the number of households in the town that have a dog?",
+    "choices": [
+      "18",
+      "45",
+      "1,080",
+      "4,920"
+    ],
+    "answer": 2,
+    "explanation": "The sample proportion is $\\frac{45}{250} = 0.18$. Applying it to all households gives $0.18(6{,}000) = 1{,}080$. Choice A is the percent, choice B is the sample count, and choice D estimates the households without a dog."
+  },
+  {
+    "id": "m-psda-016",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A researcher randomly selected 300 adults from a list of all adults in City X who reported having trouble sleeping. Half of the selected adults were randomly assigned to drink a cup of chamomile tea each night for 4 weeks, and the other half were assigned to drink a cup of hot water each night for 4 weeks. The group that drank chamomile tea reported a significantly greater improvement in sleep quality than the other group. Which of the following is the most appropriate conclusion?",
+    "choices": [
+      "Drinking chamomile tea each night is likely to improve sleep quality for adults in City X who have trouble sleeping.",
+      "Drinking chamomile tea each night is likely to improve sleep quality for all adults.",
+      "Drinking chamomile tea each night is associated with improved sleep quality, but no cause-and-effect conclusion can be drawn.",
+      "Drinking chamomile tea each night is likely to improve sleep quality for all adults in City X."
+    ],
+    "answer": 0,
+    "explanation": "Because the treatments were randomly assigned, a cause-and-effect conclusion is supported, so choice C is wrong. Because the participants were randomly selected only from adults in City X who have trouble sleeping, the conclusion can be generalized only to that population. Choices B and D extend the result to people who were not part of the sampled population."
+  },
+  {
+    "id": "m-geo-001",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "easy",
+    "prompt": "A rectangle has a perimeter of 46 centimeters and a length of 15 centimeters. What is the area of the rectangle, in square centimeters?",
+    "choices": [
+      "120",
+      "240",
+      "465",
+      "690"
+    ],
+    "answer": 0,
+    "explanation": "From $2(15) + 2w = 46$, the width is $w = 8$, so the area is $15 \\times 8 = 120$. Choice B uses a width of 16 (forgetting to divide by 2), choice C uses $46 - 15 = 31$ as the width, and choice D multiplies the perimeter by the length."
+  },
+  {
+    "id": "m-geo-002",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "easy",
+    "prompt": "A right circular cylinder has a radius of 3 inches and a volume of $72\\pi$ cubic inches. What is the height of the cylinder, in inches?",
+    "choices": [
+      "8",
+      "12",
+      "24",
+      "216"
+    ],
+    "answer": 0,
+    "explanation": "Using $V = \\pi r^2 h$: $72\\pi = \\pi(3)^2 h = 9\\pi h$, so $h = 8$. Choice B uses $2r$ instead of $r^2$, choice C uses $r$ instead of $r^2$, and choice D multiplies instead of dividing."
+  },
+  {
+    "id": "m-geo-003",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "hard",
+    "prompt": "A right circular cone and a right circular cylinder have bases with the same radius. The volume of the cone is twice the volume of the cylinder. What is the ratio of the height of the cone to the height of the cylinder?",
+    "choices": [
+      "$\\frac{2}{3}$",
+      "$2$",
+      "$3$",
+      "$6$"
+    ],
+    "answer": 3,
+    "explanation": "Let the cone have height $H$ and the cylinder height $h$. Then $\\frac{1}{3}\\pi r^2 H = 2\\pi r^2 h$, so $\\frac{1}{3}H = 2h$ and $H = 6h$. The ratio is 6. Choice B ignores the $\\frac{1}{3}$ in the cone formula, and choice A multiplies by $\\frac{1}{3}$ instead of dividing."
+  },
+  {
+    "id": "m-geo-004",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "hard",
+    "prompt": "A rectangle is inscribed in a circle with a radius of 13 units, so that all four vertices of the rectangle lie on the circle. One side of the rectangle has a length of 10 units. What is the area of the rectangle, in square units?",
+    "answer": [
+      "240"
+    ],
+    "explanation": "A diagonal of an inscribed rectangle is a diameter of the circle, so the diagonal is 26. By the Pythagorean theorem, the other side is $\\sqrt{26^2 - 10^2} = \\sqrt{576} = 24$. The area is $10 \\times 24 = 240$."
+  },
+  {
+    "id": "m-geo-005",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "easy",
+    "prompt": "In triangle $ABC$, the measure of $\\angle A$ is $48^\\circ$ and the measure of $\\angle B$ is twice the measure of $\\angle A$. What is the measure of $\\angle C$?",
+    "choices": [
+      "$36^\\circ$",
+      "$42^\\circ$",
+      "$84^\\circ$",
+      "$132^\\circ$"
+    ],
+    "answer": 0,
+    "explanation": "$\\angle B = 2(48^\\circ) = 96^\\circ$. The angles of a triangle sum to $180^\\circ$, so $\\angle C = 180^\\circ - 48^\\circ - 96^\\circ = 36^\\circ$. Choice C subtracts only $\\angle B$, and choice D subtracts only $\\angle A$."
+  },
+  {
+    "id": "m-geo-006",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "medium",
+    "prompt": "Two parallel lines are intersected by a transversal. Two of the angles formed are same-side interior angles (they lie between the parallel lines, on the same side of the transversal), with measures $(3x + 10)^\\circ$ and $(5x - 6)^\\circ$. What is the value of $x$?",
+    "choices": [
+      "8",
+      "22",
+      "34",
+      "44"
+    ],
+    "answer": 1,
+    "explanation": "Same-side interior angles formed by parallel lines are supplementary: $(3x + 10) + (5x - 6) = 180$, so $8x + 4 = 180$ and $x = 22$. Choice A results from setting the angles equal, which applies to alternate interior angles, not same-side interior angles."
+  },
+  {
+    "id": "m-geo-007",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "hard",
+    "prompt": "In triangle $ABC$, point $D$ lies on $\\overline{AB}$ and point $E$ lies on $\\overline{AC}$ such that $\\overline{DE}$ is parallel to $\\overline{BC}$. The length of $AD$ is 4 and the length of $DB$ is 6. If the area of triangle $ADE$ is 12, what is the area of quadrilateral $DECB$?",
+    "choices": [
+      "18",
+      "30",
+      "63",
+      "75"
+    ],
+    "answer": 2,
+    "explanation": "Since $\\overline{DE} \\parallel \\overline{BC}$, triangle $ADE$ is similar to triangle $ABC$ with scale factor $\\frac{AB}{AD} = \\frac{10}{4} = \\frac{5}{2}$. Areas scale by $\\left(\\frac{5}{2}\\right)^2 = \\frac{25}{4}$, so the area of triangle $ABC$ is $12 \\cdot \\frac{25}{4} = 75$. The quadrilateral's area is $75 - 12 = 63$. Choice D is the area of the whole triangle, and choice B scales the area by $\\frac{5}{2}$ instead of its square."
+  },
+  {
+    "id": "m-geo-008",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "medium",
+    "prompt": "An isosceles triangle has two sides with lengths 4 and 9. What is the perimeter of the triangle?",
+    "choices": [
+      "13",
+      "17",
+      "22",
+      "26"
+    ],
+    "answer": 2,
+    "explanation": "The two equal sides are either both 4 or both 9. Sides 4, 4, and 9 cannot form a triangle because $4 + 4 < 9$ (triangle inequality). So the sides are 9, 9, and 4, and the perimeter is 22. Choice B uses the impossible triangle 4, 4, 9."
+  },
+  {
+    "id": "m-geo-009",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "easy",
+    "prompt": "In triangle $ABC$, $\\angle C$ is a right angle, $AC = 5$, and $BC = 12$. What is the value of $\\tan B$?",
+    "choices": [
+      "$\\frac{5}{13}$",
+      "$\\frac{5}{12}$",
+      "$\\frac{12}{13}$",
+      "$\\frac{12}{5}$"
+    ],
+    "answer": 1,
+    "explanation": "The tangent of an angle is opposite over adjacent. For $\\angle B$, the opposite side is $AC = 5$ and the adjacent side is $BC = 12$, so $\\tan B = \\frac{5}{12}$. Choice D is $\\tan A$, and choices A and C are $\\sin B$ and $\\cos B$ (using hypotenuse $AB = 13$)."
+  },
+  {
+    "id": "m-geo-010",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "medium",
+    "prompt": "In a right triangle, the two acute angles have measures $(4k + 2)^\\circ$ and $(3k + 11)^\\circ$. What is the value of $k$?",
+    "answer": [
+      "11"
+    ],
+    "explanation": "The two acute angles of a right triangle are complementary, so $(4k + 2) + (3k + 11) = 90$. Then $7k + 13 = 90$, so $k = 11$. (This is why $\\sin(4k + 2)^\\circ = \\cos(3k + 11)^\\circ$.)"
+  },
+  {
+    "id": "m-geo-011",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "In right triangle $ABC$, $\\angle C$ is a right angle, $\\tan A = \\frac{8}{15}$, and $AB = 51$. What is the perimeter of triangle $ABC$?",
+    "answer": [
+      "120"
+    ],
+    "explanation": "$\\tan A = \\frac{BC}{AC} = \\frac{8}{15}$, so let $BC = 8t$ and $AC = 15t$. Then $AB = \\sqrt{(8t)^2 + (15t)^2} = 17t = 51$, so $t = 3$. The sides are 24, 45, and 51, and the perimeter is $24 + 45 + 51 = 120$."
+  },
+  {
+    "id": "m-geo-012",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "In triangle $ABC$, $AB = AC = 10$ and the measure of $\\angle A$ is $120^\\circ$. What is the length of $\\overline{BC}$?",
+    "choices": [
+      "$5$",
+      "$10$",
+      "$10\\sqrt{2}$",
+      "$10\\sqrt{3}$"
+    ],
+    "answer": 3,
+    "explanation": "The altitude from $A$ to $\\overline{BC}$ bisects $\\angle A$ and $\\overline{BC}$, forming two $30^\\circ$-$60^\\circ$-$90^\\circ$ triangles with hypotenuse 10. The side opposite the $60^\\circ$ angle is $10 \\sin 60^\\circ = 5\\sqrt{3}$, so $BC = 2(5\\sqrt{3}) = 10\\sqrt{3}$. Choice A is the length of the altitude, and choice B would require an equilateral triangle."
+  },
+  {
+    "id": "m-geo-013",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "easy",
+    "prompt": "In the $xy$-plane, a circle has the equation $(x - 3)^2 + (y + 5)^2 = 49$. What are the center and the radius of the circle?",
+    "choices": [
+      "Center $(-3, 5)$, radius 7",
+      "Center $(-3, 5)$, radius 49",
+      "Center $(3, -5)$, radius 49",
+      "Center $(3, -5)$, radius 7"
+    ],
+    "answer": 3,
+    "explanation": "The equation $(x - h)^2 + (y - k)^2 = r^2$ has center $(h, k)$ and radius $r$. Here $h = 3$, $k = -5$ (since $y + 5 = y - (-5)$), and $r^2 = 49$, so $r = 7$. Choices A and B flip the signs of the center, and choices B and C use $r^2$ as the radius."
+  },
+  {
+    "id": "m-geo-014",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "In the $xy$-plane, a circle has the equation $x^2 + y^2 - 8x + 6y = 11$. What is the radius of the circle?",
+    "choices": [
+      "$\\sqrt{11}$",
+      "$3\\sqrt{2}$",
+      "$6$",
+      "$36$"
+    ],
+    "answer": 2,
+    "explanation": "Complete the square: $(x^2 - 8x + 16) + (y^2 + 6y + 9) = 11 + 16 + 9$, so $(x - 4)^2 + (y + 3)^2 = 36$. The radius is $\\sqrt{36} = 6$. Choice A skips completing the square, choice B adds 4 and 3 instead of 16 and 9, and choice D is $r^2$."
+  },
+  {
+    "id": "m-geo-015",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "A circle has a radius of 9 centimeters. A central angle of the circle measures $\\frac{2\\pi}{3}$ radians. What is the length, in centimeters, of the arc intercepted by this angle?",
+    "choices": [
+      "$3\\pi$",
+      "$6\\pi$",
+      "$12\\pi$",
+      "$27\\pi$"
+    ],
+    "answer": 1,
+    "explanation": "For an angle in radians, arc length is $s = r\\theta = 9 \\cdot \\frac{2\\pi}{3} = 6\\pi$. Choice C uses the diameter instead of the radius, and choice D is the area of the sector, $\\frac{1}{2}r^2\\theta$."
+  },
+  {
+    "id": "m-geo-016",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "hard",
+    "prompt": "A sector of a circle with a radius of 8 has an area of $24\\pi$. The measure of the sector's central angle is $k\\pi$ radians. What is the value of $k$?",
+    "answer": [
+      "3/4",
+      "0.75",
+      ".75"
+    ],
+    "explanation": "The area of a sector with central angle $\\theta$ radians is $\\frac{1}{2}r^2\\theta$. So $\\frac{1}{2}(8)^2\\theta = 24\\pi$, giving $32\\theta = 24\\pi$ and $\\theta = \\frac{3}{4}\\pi$. Thus $k = \\frac{3}{4}$. (Equivalently, the sector is $\\frac{24\\pi}{64\\pi} = \\frac{3}{8}$ of the circle, and $\\frac{3}{8}(2\\pi) = \\frac{3}{4}\\pi$.)"
+  }
+]

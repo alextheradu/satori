@@ -1,0 +1,40 @@
+# Full stack: app + Postgres 18.
+# Dokploy: use a "Compose" service pointing at this file and set the variables below in its Environment tab.
+# Locally: cp .env.example .env, fill in HCA_* values, then `docker compose up --build`.
+services:
+  app:
+    build:
+      context: .
+      args:
+        VITE_DESMOS_API_KEY: ${VITE_DESMOS_API_KEY:-}
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER:-satori}:${POSTGRES_PASSWORD:-satori}@db:5432/${POSTGRES_DB:-satori}
+      APP_URL: ${APP_URL:-http://localhost:3000}
+      HCA_CLIENT_ID: ${HCA_CLIENT_ID:?set HCA_CLIENT_ID}
+      HCA_CLIENT_SECRET: ${HCA_CLIENT_SECRET:?set HCA_CLIENT_SECRET}
+      HCA_USE_PKCE: ${HCA_USE_PKCE:-false}
+    ports:
+      - "3000"
+
+  db:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-satori}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-satori}
+      POSTGRES_DB: ${POSTGRES_DB:-satori}
+    volumes:
+      # Postgres 18 images keep data under /var/lib/postgresql/18/docker
+      - pgdata:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:

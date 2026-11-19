@@ -1,0 +1,818 @@
+[
+  {
+    "id": "rw-sec-101",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "The wood frog of North America survives winter in an unusual way: it freezes. As temperatures fall, ice forms in the spaces between the frog's cells, and its heart stops ______ the weather warms in spring, the frog thaws, and its heart begins beating again within hours.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "beating, when",
+      "beating. When",
+      "beating when",
+      "beating. When,"
+    ],
+    "answer": 1,
+    "explanation": "Choice B correctly uses a period to separate two independent clauses: \"its heart stops beating\" ends one sentence, and \"When the weather warms in spring, the frog thaws...\" begins another. Choice A is the main trap: it joins the two independent clauses with only a comma, creating a comma splice. Choice C fuses the clauses with no punctuation, and Choice D wrongly places a comma between \"When\" and the rest of its clause."
+  },
+  {
+    "id": "rw-sec-102",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "Carved from the wing bone of a griffon vulture, the flute found in Hohle Fels Cave in southwestern ______ more than 35,000 years old, making it one of the oldest known musical instruments.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Germany, is",
+      "Germany; is",
+      "Germany: is",
+      "Germany is"
+    ],
+    "answer": 3,
+    "explanation": "The subject of the main clause is \"the flute found in Hohle Fels Cave in southwestern Germany,\" and its verb is \"is\"; no punctuation should come between a subject and its verb, so Choice D is correct. Choice A is the main trap: the long subject may seem to call for a pause, but a single comma cannot separate a subject from its verb. Choices B and C also split the subject from the verb, and neither a semicolon nor a colon can be used that way."
+  },
+  {
+    "id": "rw-sec-103",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "Kintsugi, the Japanese art of repairing broken pottery in a way that highlights rather than hides the cracks, requires just a few ______ lacquer made from the sap of the urushi tree, a fine powder of gold or silver, and a delicate brush.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "materials;",
+      "materials:",
+      "materials",
+      "materials, which are:"
+    ],
+    "answer": 1,
+    "explanation": "A colon is used after a complete independent clause (\"Kintsugi... requires just a few materials\") to introduce a list, so Choice B is correct. Choice A is the main trap: a semicolon must join two independent clauses, and the list that follows is not an independent clause. Choice C runs \"materials\" directly into the list with no punctuation, and Choice D wrongly places a colon after the verb \"are,\" which separates the verb from its complement."
+  },
+  {
+    "id": "rw-sec-104",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "In 1815, the eruption of Mount Tambora in Indonesia blasted enormous amounts of sulfur gas into the upper ______ gas formed a haze that reflected sunlight away from Earth, and the following year was so cold in parts of Europe and North America that it became known as the \"Year Without a Summer.\"",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "atmosphere; this",
+      "atmosphere, this",
+      "atmosphere this",
+      "atmosphere and, this"
+    ],
+    "answer": 0,
+    "explanation": "The text contains two independent clauses (\"the eruption... blasted enormous amounts of sulfur gas into the upper atmosphere\" and \"this gas formed a haze...\"), and a semicolon can join two independent clauses, so Choice A is correct. Choice B is the main trap: it joins the clauses with only a comma, creating a comma splice. Choice C is a run-on with no punctuation, and Choice D misplaces the comma after the conjunction \"and\" instead of before it."
+  },
+  {
+    "id": "rw-sec-105",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "The axolotl, a salamander found in the wild only in the canals and lakes around Mexico ______ can regrow lost limbs, damaged parts of its heart, and even sections of its spinal cord.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "City—",
+      "City,",
+      "City",
+      "City;"
+    ],
+    "answer": 1,
+    "explanation": "The appositive \"a salamander found in the wild only in the canals and lakes around Mexico City\" is nonessential and opens with a comma, so it must close with a comma before the main verb \"can regrow,\" as in Choice B. Choice A is the main trap: a dash cannot close an element that was opened with a comma. Choice C leaves the appositive unclosed, and Choice D uses a semicolon that would cut the subject \"The axolotl\" off from its verb."
+  },
+  {
+    "id": "rw-sec-106",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "Around 1920, Bessie Coleman could not find a flight school in the United States that would accept a Black woman as a student. Determined to fly anyway, she studied ______ to France, and earned her pilot's license there in 1921, becoming the first African American woman to do so.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "French, traveled",
+      "French traveled",
+      "French; traveled",
+      "French: traveled"
+    ],
+    "answer": 0,
+    "explanation": "The sentence lists three actions in a series (\"studied French,\" \"traveled to France,\" and \"earned her pilot's license\"), and items in a series of three or more are separated by commas, so Choice A is correct. Choice B omits the comma between the first two items, running them together. Choice C is wrong because a semicolon cannot separate simple series items that contain no internal commas, and Choice D is wrong because a colon cannot divide the items of a list."
+  },
+  {
+    "id": "rw-sec-107",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "When the Panama Canal opened in ______ ships traveling between New York and San Francisco no longer had to sail around the southern tip of South America, a detour that added nearly 13,000 kilometers to the trip.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "1914;",
+      "1914,",
+      "1914.",
+      "1914:"
+    ],
+    "answer": 1,
+    "explanation": "The sentence begins with the dependent clause \"When the Panama Canal opened in 1914,\" and a comma correctly separates an introductory dependent clause from the main clause, so Choice B is correct. Choice C is the main trap: a period would leave \"When the Panama Canal opened in 1914\" as a sentence fragment. Choice A is wrong because a semicolon cannot join a dependent clause to an independent clause, and Choice D is wrong because a colon must follow an independent clause."
+  },
+  {
+    "id": "rw-sec-108",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "Iceland sits on top of intense volcanic activity, and its people put that heat to use. Nearly 90 percent of homes in the country are warmed with water from geothermal ______ many towns also pipe this hot water beneath their sidewalks to keep them free of ice in winter.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "sources, and,",
+      "sources and,",
+      "sources, and",
+      "sources,"
+    ],
+    "answer": 2,
+    "explanation": "Two independent clauses can be joined with a comma followed by a coordinating conjunction such as \"and,\" so Choice C is correct. Choice D is the main trap: a comma alone between two independent clauses creates a comma splice. Choices A and B incorrectly place a comma after \"and,\" separating the conjunction from the clause it introduces."
+  },
+  {
+    "id": "rw-sec-109",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "Kudzu, a vine native to East Asia, was widely planted across the southeastern United States in the 1930s to reduce soil erosion. The vine can grow as much as 30 centimeters in a single day and has few natural enemies in the ______ it has spread over vast areas of the Southeast, smothering trees and shrubs.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "region, consequently,",
+      "region; consequently,",
+      "region, consequently",
+      "region consequently,"
+    ],
+    "answer": 1,
+    "explanation": "The conjunctive adverb \"consequently\" begins a new independent clause, so it must be preceded by a semicolon (or a period) and followed by a comma, as in Choice B. Choice A is the main trap: setting off \"consequently\" with commas on both sides still leaves two independent clauses joined by only a comma, which is a comma splice. Choice C is also a comma splice, and Choice D runs the two clauses together with no punctuation between them."
+  },
+  {
+    "id": "rw-sec-110",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "The Mid-Atlantic Ridge—an underwater mountain range that runs some 16,000 kilometers down the middle of the Atlantic ______ was first mapped in detail by geologist Marie Tharp and her colleague Bruce Heezen in the 1950s.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Ocean,",
+      "Ocean",
+      "Ocean;",
+      "Ocean—"
+    ],
+    "answer": 3,
+    "explanation": "The nonessential phrase \"an underwater mountain range... Atlantic Ocean\" opens with a dash, so it must close with a matching dash before the verb \"was first mapped,\" as in Choice D. Choice A is the main trap: a comma cannot close an interruption that was opened with a dash. Choice B leaves the interruption unclosed, and Choice C uses a semicolon that would separate the subject \"The Mid-Atlantic Ridge\" from its verb."
+  },
+  {
+    "id": "rw-sec-111",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "Toni Morrison published eleven novels over a career spanning nearly five decades. Her ______ follows Macon \"Milkman\" Dead III as he travels from Michigan to Virginia to uncover his family's history.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "novel, Song of Solomon,",
+      "novel, Song of Solomon",
+      "novel Song of Solomon",
+      "novel Song of Solomon,"
+    ],
+    "answer": 2,
+    "explanation": "Because Morrison wrote eleven novels, the title \"Song of Solomon\" is essential: it identifies which of her novels is meant, so it should not be set off with commas, as in Choice C. Choice A is the main trap: enclosing the title in commas treats it as extra information, which would imply that \"her novel\" already identifies a single book. Choice B uses an unpaired comma, and Choice D places a comma between the subject and its verb \"follows.\""
+  },
+  {
+    "id": "rw-sec-112",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "In the deserts of the American Southwest, the saguaro cactus has an effective strategy for surviving long dry ______ can swell to store hundreds of liters of water after a single rainstorm, thanks to accordion-like pleats that run the length of its trunk.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "spells, it",
+      "spells it",
+      "spells: it",
+      "spells, it,"
+    ],
+    "answer": 2,
+    "explanation": "A colon can join two independent clauses when the second explains the first; here, \"it can swell to store hundreds of liters of water\" explains what the saguaro's strategy is, so Choice C is correct. Choice A is the main trap: a comma alone between two independent clauses creates a comma splice. Choice B is a run-on with no punctuation, and Choice D is a comma splice that also inserts a comma between the subject \"it\" and its verb \"can swell.\""
+  },
+  {
+    "id": "rw-sec-113",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "The navigators who guided voyaging canoes across thousands of kilometers of open Pacific Ocean relied on close ______ positions of rising and setting stars, the patterns of ocean swells, and the flight paths of seabirds.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "observation of: the",
+      "observation of the",
+      "observation of—the",
+      "observation of, the"
+    ],
+    "answer": 1,
+    "explanation": "The preposition \"of\" must be followed directly by its object (\"the positions..., the patterns..., and the flight paths...\"), so no punctuation belongs between them, as in Choice B. Choice A is the main trap: although a list follows, a colon must come after a complete independent clause, and \"relied on close observation of\" is not one. Choices C and D likewise insert punctuation that separates the preposition from its object."
+  },
+  {
+    "id": "rw-sec-114",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "Reviewing a newly opened public library, architecture critic Hana Lindqvist called the glass-walled ______ for the whole neighborhood,\" a phrase the library later printed on banners hung across its entrance.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "building, \"a lantern",
+      "building: \"a lantern",
+      "building; \"a lantern",
+      "building \"a lantern"
+    ],
+    "answer": 3,
+    "explanation": "The quoted phrase \"a lantern for the whole neighborhood\" is an integral part of the sentence: it completes the verb phrase \"called the glass-walled building,\" just as an unquoted description would, so no punctuation should precede it, as in Choice D. Choice A is the main trap: quotations are often introduced with a comma, but not when the quotation is a grammatical part of the sentence, such as a complement after \"called.\" Choice B is wrong because the colon does not follow a complete independent clause, and Choice C is wrong because a semicolon must join two independent clauses."
+  },
+  {
+    "id": "rw-sec-115",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "For centuries, naturalists in Europe were stumped by a basic question about the common freshwater eel: where did it ______ one had ever found an eel egg or seen eels spawning in European waters. In the early 1920s, Danish biologist Johannes Schmidt finally traced the eels' origin to the Sargasso Sea.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "spawn? No",
+      "spawn. No",
+      "spawn, no",
+      "spawn; no"
+    ],
+    "answer": 0,
+    "explanation": "The words after the colon, \"where did it spawn,\" form a direct question, so they must end with a question mark, as in Choice A. Choice B is the main trap: it correctly separates the two sentences, but it ends a direct question with a period. Choices C and D also fail to end the question with a question mark, and Choice C additionally creates a comma splice."
+  },
+  {
+    "id": "rw-sec-116",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "A museum's new exhibit on the history of timekeeping is organized around three objects: a water clock from Alexandria, ______ a sundial from Rome, Italy; and a spring-driven pocket watch from Nuremberg, Germany.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Egypt;",
+      "Egypt,",
+      "Egypt:",
+      "Egypt"
+    ],
+    "answer": 0,
+    "explanation": "When the items in a list contain internal commas (such as \"Rome, Italy\"), the items are separated with semicolons, as the semicolon before \"and a spring-driven pocket watch\" confirms; Choice A is therefore correct. Choice B is the main trap: a comma here would make it unclear where one item ends and the next begins and would be inconsistent with the semicolon later in the list. Choice C is wrong because a colon cannot separate list items, and Choice D runs two items together."
+  },
+  {
+    "id": "rw-sec-117",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "Astronomers have found that the exoplanet K2-137 b, a rocky world slightly smaller than Earth, circles its star once every 4.3 ______ orbital period so brief that a full year on the planet passes in less time than a typical school day on Earth.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "hours, an",
+      "hours. An",
+      "hours; an",
+      "hours an"
+    ],
+    "answer": 0,
+    "explanation": "The phrase \"an orbital period so brief that...\" is a noun phrase that renames \"4.3 hours\"; it is not an independent clause, so it should be attached to the main clause with a comma, as in Choice A. Choice B is the main trap: a period would turn \"An orbital period so brief that...\" into a sentence fragment, since the phrase has no main verb of its own. Choice C is wrong because a semicolon must join two independent clauses, and Choice D runs the phrase into the main clause without the needed punctuation."
+  },
+  {
+    "id": "rw-sec-118",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "It is often claimed that the Great Wall of China can be seen from space with the naked eye. Astronauts who have orbited ______ have reported that the wall is extremely difficult to spot without magnification, since it is narrow and similar in color to the surrounding terrain.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Earth; however,",
+      "Earth, however;",
+      "Earth however,",
+      "Earth, however,"
+    ],
+    "answer": 3,
+    "explanation": "Here \"however\" interrupts a single independent clause, falling between the subject \"Astronauts who have orbited Earth\" and the verb \"have reported,\" so it must be set off with a pair of commas, as in Choice D. Choice A is the main trap: \"; however,\" is used when \"however\" begins a new independent clause, but here the semicolon would cut the subject off from its verb. Choice B makes the same error after \"however,\" and Choice C omits the first comma needed to set off the interrupting word."
+  },
+  {
+    "id": "rw-sec-119",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "In 1966, microbiologist Thomas Brock discovered the bacterium Thermus aquaticus living in a hot spring in Yellowstone National Park. Two decades later, biochemists realized that an enzyme the bacterium uses to copy its genetic ______ be used to copy DNA rapidly in the laboratory, because the enzyme does not break down at the high temperatures the process requires.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "material, could",
+      "material—could",
+      "material could",
+      "material; could"
+    ],
+    "answer": 2,
+    "explanation": "Within the clause beginning with \"that,\" the subject is \"an enzyme the bacterium uses to copy its genetic material,\" and its verb is \"could be used\"; no punctuation should separate a subject from its verb, so Choice C is correct. Choice A is the main trap: because the subject is long and contains its own embedded clause, a comma may seem natural, but a single comma between subject and verb is incorrect. Choices B and D likewise break the subject off from its verb."
+  },
+  {
+    "id": "rw-sec-120",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "Male great bowerbirds build tunnel-like structures of sticks and cover the ground at one end with pebbles, shells, and bones. Researchers have found that the males arrange these objects in a deliberate ______ smaller objects nearest the bower and larger ones farther away, a layout that may make the display area appear more uniform to a female standing inside.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "pattern; placing",
+      "pattern. Placing",
+      "pattern, placing",
+      "pattern, they place"
+    ],
+    "answer": 2,
+    "explanation": "\"Placing smaller objects nearest the bower and larger ones farther away\" is a participial phrase that describes how the males arrange the objects, and a comma correctly attaches it to the main clause, as in Choice C. Choice A is the main trap: a semicolon must join two independent clauses, but the participial phrase has no subject or main verb of its own. Choice B turns the phrase into a sentence fragment, and Choice D creates a comma splice by joining two independent clauses with only a comma."
+  },
+  {
+    "id": "rw-sec-121",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "The Svalbard Global Seed Vault, dug deep into a mountain on a remote Norwegian island, holds backup copies of more than a million seed samples from around the world, ______ rice, wheat, and sorghum, so that crops can be restored if disasters destroy other seed collections.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "including:",
+      "including—",
+      "including,",
+      "including"
+    ],
+    "answer": 3,
+    "explanation": "The word \"including\" functions like a preposition, and it should be followed directly by its objects (\"rice, wheat, and sorghum\") with no punctuation in between, as in Choice D. Choice A is the main trap: a colon may seem appropriate before a list, but a colon must follow a complete independent clause, not a word like \"including.\" Choices B and C likewise insert punctuation that separates \"including\" from its objects."
+  },
+  {
+    "id": "rw-sec-122",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "Among the oldest surviving star maps in the ______ the Dunhuang Star Chart, a Chinese manuscript from the seventh century CE that depicts more than 1,300 stars.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "world, is",
+      "world; is",
+      "world: is",
+      "world is"
+    ],
+    "answer": 3,
+    "explanation": "This sentence uses inverted order: the verb \"is\" comes before its subject, \"the Dunhuang Star Chart,\" and the opening prepositional phrase \"Among the oldest surviving star maps in the world\" completes the verb. No punctuation should separate that phrase from the verb, so Choice D is correct. Choice A is the main trap: the opening phrase looks like an introductory element that takes a comma, but here it is an essential part of the clause. Choices B and C also wrongly split the sentence before the verb."
+  },
+  {
+    "id": "rw-sec-123",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "In a recent interview, novelist Ruth Castellanos remarked that ______ we inherit shape us long before we are old enough to question them,\" a view that runs through all of her fiction.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      ", \"the stories",
+      ": \"the stories",
+      "\"the stories",
+      "—\"the stories"
+    ],
+    "answer": 2,
+    "explanation": "When a quotation is introduced by \"that,\" it becomes part of the sentence's grammar (it serves as the clause following \"remarked that\"), so no punctuation should come between \"that\" and the quotation, as in Choice C. Choice A is the main trap: a comma often introduces a quotation, but not one that is integrated into the sentence with \"that.\" Choices B and D are wrong because neither a colon nor a dash can separate \"that\" from the clause it introduces."
+  },
+  {
+    "id": "rw-sec-124",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "Although she also wrote many poems, Emily Brontë completed only one novel before her death in 1848. Brontë's ______ was dismissed by some early reviewers as coarse and disturbing, is now regarded as one of the great works of English literature.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "novel Wuthering Heights, which",
+      "novel, Wuthering Heights, which",
+      "novel, Wuthering Heights which",
+      "novel Wuthering Heights which"
+    ],
+    "answer": 1,
+    "explanation": "Because Brontë wrote only one novel, \"Brontë's novel\" already identifies the book, so the title \"Wuthering Heights\" is nonessential and must be set off with a pair of commas; the nonessential clause \"which was dismissed...\" must also be set off, as in Choice B. Choice A is the main trap: omitting the comma before the title treats it as essential, which would wrongly imply that Brontë wrote more than one novel. Choice C leaves the \"which\" clause without its opening comma, and Choice D omits the needed commas entirely, leaving a lone comma between the subject and the verb \"is.\""
+  },
+  {
+    "id": "rw-sec-125",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "The spiral tusk found on most male narwhals ______ actually a tooth that grows through the animal's upper lip and can reach more than two and a half meters in length.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "are",
+      "is",
+      "were",
+      "have been"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct. The subject of the sentence is the singular noun \"tusk,\" so it requires the singular verb \"is,\" which also matches the present-tense \"grows\" and \"can reach.\" Choice A is the main trap: the plural noun \"narwhals\" sits right before the blank, but it is part of a modifying phrase, not the subject. Choices C and D are plural forms that do not agree with \"tusk.\""
+  },
+  {
+    "id": "rw-sec-126",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "In 1926, Gertrude Ederle became the first woman to swim across the English Channel. Before her, only five people had ever ______ the channel, all of them men, and Ederle beat the fastest of their times by nearly two hours.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "swam",
+      "swims",
+      "swimming",
+      "swum"
+    ],
+    "answer": 3,
+    "explanation": "The past perfect tense is formed with \"had\" plus a past participle, and the past participle of \"swim\" is \"swum,\" so Choice D is correct. Choice A is the main trap: \"swam\" is the simple past form and cannot follow the helping verb \"had.\" Choice B is a present-tense form, and Choice C is a present participle, which would require a form of \"be\" rather than \"had.\""
+  },
+  {
+    "id": "rw-sec-127",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "Emperor penguins huddle together in groups of thousands during the Antarctic winter to conserve ______ body heat, taking turns moving between the cold outer edge of the huddle and its warmer center.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "its",
+      "they're",
+      "there",
+      "their"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct. The pronoun refers to the plural antecedent \"Emperor penguins,\" so the plural possessive pronoun \"their\" is required. Choice A is the main trap: \"its\" is singular and does not agree with the plural \"penguins.\" Choice B is a contraction of \"they are,\" and Choice C is an adverb of place; neither shows possession."
+  },
+  {
+    "id": "rw-sec-128",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "Atlantic puffins nest in burrows dug into grassy clifftops. Both ______ share the work of incubating the pair's single egg and later take turns flying out to sea to catch fish for the chick.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "parents",
+      "parent's",
+      "parents'",
+      "parents's"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct. The blank needs a plain plural noun to serve as the subject of \"share,\" and \"Both\" signals more than one parent, so \"parents\" is correct. Choice C is the main trap: \"parents'\" is a plural possessive, but nothing in the sentence belongs to the parents at this point. Choice B is a singular possessive, and Choice D is not a standard form."
+  },
+  {
+    "id": "rw-sec-129",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "In 1903, Maggie Lena Walker founded the St. Luke Penny Savings Bank in Richmond, Virginia, and ______ the first African American woman to charter a bank in the United States.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "became",
+      "becomes",
+      "will become",
+      "has become"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct. The sentence describes a completed event in the past (\"In 1903,\" \"founded\"), so the verb joined to \"founded\" must also be in the simple past tense: \"became.\" Choice D is the main trap: the present perfect \"has become\" does not fit an action tied to a specific past date. Choices B and C shift illogically to the present and future tenses."
+  },
+  {
+    "id": "rw-sec-130",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "Physicist Lise Meitner and chemist Otto Hahn worked together for three decades. Although the 1944 Nobel Prize in Chemistry was awarded only to Hahn for the discovery of nuclear fission, many historians argue that the committee should have honored both him and ______",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "she.",
+      "herself.",
+      "her.",
+      "hers."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct. The pronoun is part of the compound object of the verb \"honored\" (\"both him and ___\"), so it must be in the objective case: \"her.\" Choice A is the main trap: \"she\" is a subjective-case pronoun and cannot serve as an object; the matching objective pronoun \"him\" confirms the needed case. Choice B is a reflexive pronoun with no matching subject, and Choice D is a possessive pronoun."
+  },
+  {
+    "id": "rw-sec-131",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "The welwitschia plant of the Namib Desert can live for more than a thousand years. Its two long, leathery leaves and its deep taproot ______ the plant to survive in a place that receives very little rain.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "allows",
+      "is allowing",
+      "has allowed",
+      "allow"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct. The subject \"Its two long, leathery leaves and its deep taproot\" is a compound subject joined by \"and,\" so it is plural and requires the plural verb \"allow.\" Choice A is the main trap: the singular noun \"taproot,\" which is closest to the verb, may make a singular verb seem correct. Choices B and C are also singular forms that do not agree with the compound subject."
+  },
+  {
+    "id": "rw-sec-132",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "Ospreys feed almost entirely on fish. After spotting prey from the air, an osprey can ______ feet-first into the water, sometimes plunging as deep as a meter below the surface.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "dove",
+      "diving",
+      "dives",
+      "dive"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct. A helping verb such as \"can\" must be followed by the base form of a verb, so \"can dive\" is correct. Choice A is the main trap: \"dove\" is a past-tense form, which cannot follow \"can.\" Choices B and C are also not base forms and cannot follow \"can.\""
+  },
+  {
+    "id": "rw-sec-133",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "Real fish tend to scatter when an underwater robot approaches. After years of failed attempts, a team of engineers and marine biologists ______ its newest prototype, a soft robotic fish that swims smoothly enough to join a school without startling it.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "have unveiled",
+      "are unveiling",
+      "has unveiled",
+      "unveil"
+    ],
+    "answer": 2,
+    "explanation": "The subject is the collective noun \"team,\" which refers to a single unit and takes a singular verb; the singular pronoun \"its\" in \"its newest prototype\" confirms this, so Choice C is correct. Choice A is the main trap: the plural nouns \"engineers and marine biologists\" appear right before the blank, but they belong to the phrase modifying \"team.\" Choices B and D are also plural verb forms."
+  },
+  {
+    "id": "rw-sec-134",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "Jupiter's moon Europa is covered by a shell of ice many kilometers thick. Beneath that icy shell ______ an ocean of liquid water that may contain more than twice as much water as all of Earth's oceans combined.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "lie",
+      "lies",
+      "are lying",
+      "have lain"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct. This sentence is inverted: the verb comes before its subject, \"an ocean of liquid water,\" which is singular, so the singular verb \"lies\" is required. Choice A is the main trap: test takers who look for the subject before the verb, or who notice the plural \"oceans\" later in the sentence, may choose a plural verb. Choices C and D are also plural forms that do not agree with \"an ocean.\""
+  },
+  {
+    "id": "rw-sec-135",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "In a colony of naked mole-rats, only one female, known as the queen, gives birth. When a queen dies, either one large female or several of the colony's other females typically ______ to take over the breeding role, often through violent fights.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "tries",
+      "has tried",
+      "try",
+      "is trying"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct. When subjects are joined by \"either... or,\" the verb agrees with the subject closer to it; here that subject is the plural \"several of the colony's other females,\" so the plural verb \"try\" is correct. Choice A is the main trap: \"one large female\" is singular, but it is the farther of the two subjects. Choices B and D are also singular forms."
+  },
+  {
+    "id": "rw-sec-136",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "The Inca built the mountaintop city of Machu Picchu in the fifteenth century. Built from precisely cut granite blocks fitted together without mortar, ______ centuries of earthquakes in the Andes Mountains.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Machu Picchu's builders created walls that have withstood",
+      "the Inca constructed walls at Machu Picchu that have withstood",
+      "the walls of Machu Picchu have withstood",
+      "the strength of Machu Picchu's walls has allowed them to withstand"
+    ],
+    "answer": 2,
+    "explanation": "An introductory modifier must be followed immediately by the noun it describes. The walls were \"built from precisely cut granite blocks,\" so \"the walls of Machu Picchu\" must come right after the comma, as in Choice C. Choice A is the main trap: it places \"Machu Picchu's builders\" after the modifier, illogically saying the builders were built from granite blocks. Choices B and D similarly attach the modifier to \"the Inca\" and to \"the strength,\" neither of which was built from granite."
+  },
+  {
+    "id": "rw-sec-137",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "The moa, a group of flightless birds that stood up to 3.6 meters tall, once roamed the forests of New Zealand. By the time Dutch explorer Abel Tasman sighted New Zealand in 1642, the moa ______ extinct for well over a century, most likely hunted out of existence by the islands' first human settlers.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "has been",
+      "had been",
+      "is",
+      "will have been"
+    ],
+    "answer": 1,
+    "explanation": "The past perfect \"had been\" is used for a state that was already in place before another past event; here the moa's extinction preceded Tasman's sighting in 1642, so Choice B is correct. Choice A is the main trap: the present perfect \"has been\" connects a situation to the present, not to a moment in the past signaled by \"By the time... sighted.\" Choices C and D use present and future forms that do not fit the past-tense context."
+  },
+  {
+    "id": "rw-sec-138",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "In 1896, Florence Bascom became the first woman hired by the US Geological Survey. Working from Bryn Mawr College, where she founded the geology department, ______ mapped the rock formations of the Piedmont region over the following decades.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "she and her students",
+      "her and her students",
+      "her students and her",
+      "herself and her students"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct. The blank is the subject of the verb \"mapped,\" so any pronoun in it must be in the subjective case: \"she.\" Choice B is the main trap: \"her\" is an objective-case pronoun, and it cannot serve as part of a subject even when it is paired with another noun. Choice C uses the same objective pronoun in a different position, and Choice D uses a reflexive pronoun with no earlier antecedent in its clause."
+  },
+  {
+    "id": "rw-sec-139",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "The Voynich manuscript, a fifteenth-century book written in an unknown script and filled with drawings of plants that no botanist has been able to identify, ______ linguists and codebreakers for more than a century.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "baffling",
+      "having baffled",
+      "has baffled",
+      "to baffle"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct. The subject \"The Voynich manuscript\" needs a main (finite) verb to form a complete sentence, and \"has baffled\" provides one; the present perfect also fits the phrase \"for more than a century.\" Choice B is the main trap: \"having baffled\" sounds like a verb, but it is a participle and cannot serve as the main verb, leaving the sentence a fragment. Choices A and D are likewise nonfinite forms that cannot act as the main verb."
+  },
+  {
+    "id": "rw-sec-140",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "In the 1950s, British folklorists Iona and Peter Opie began collecting ______ rhymes, riddles, and games from schoolyards across Britain, eventually gathering material from thousands of young contributors.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "childrens'",
+      "childrens",
+      "child's",
+      "children's"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct. The rhymes and games belong to children, so a plural possessive is needed. Because \"children\" is already plural and does not end in -s, its possessive is formed by adding an apostrophe and -s: \"children's.\" Choice A is the main trap: \"childrens'\" treats \"childrens\" as a plural ending in -s, but \"childrens\" is not a word. Choice B is neither a standard plural nor a possessive, and Choice C is a singular possessive that cannot follow the verb without an article and does not match \"thousands of young contributors.\""
+  },
+  {
+    "id": "rw-sec-141",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "The hypothesis that birds evolved from small meat-eating dinosaurs, first suggested by biologist Thomas Henry Huxley in the 1860s after he noted striking similarities between Archaeopteryx and certain dinosaur skeletons, ______ now supported by dozens of fossils of feathered dinosaurs unearthed in China and elsewhere.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "is",
+      "are",
+      "were",
+      "have been"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct. The subject of the sentence is the singular noun \"hypothesis,\" so the singular verb \"is\" is required; \"now\" also calls for the present tense. Choice B is the main trap: the long modifying material between the subject and the verb contains several plural nouns (\"birds,\" \"dinosaurs,\" \"similarities,\" \"skeletons\"), which may make a plural verb seem correct. Choices C and D are plural forms that do not agree with \"hypothesis.\""
+  },
+  {
+    "id": "rw-sec-142",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "Gray wolves were reintroduced to Yellowstone National Park in 1995 after an absence of about 70 years. Since then, the number of wolves living within the park's boundaries ______ considerably from year to year, rising and falling with the availability of elk and the spread of disease.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "has varied",
+      "have varied",
+      "vary",
+      "are varying"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct. The subject is \"the number,\" which is singular, so it takes the singular verb \"has varied\"; the present perfect also fits \"Since then.\" Choice B is the main trap: the plural nouns \"wolves\" and \"boundaries\" sit between the subject and the verb, but they are part of modifying phrases. Choices C and D are plural forms that do not agree with \"the number.\""
+  },
+  {
+    "id": "rw-sec-143",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "In 2009, researchers in Indonesia reported that veined octopuses gather discarded coconut shell halves and carry them across the seafloor, sometimes for long distances. The shells, which the octopuses later fit together into portable shelters when danger appears, ______ biologists some of the clearest evidence of tool use among invertebrates.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "has given",
+      "giving",
+      "have given",
+      "having given"
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct. The subject of the second sentence is the plural noun \"shells,\" and the sentence needs a main (finite) verb that agrees with it, so the plural \"have given\" is correct. Choice A is the main trap: it is a finite verb, but it is singular, perhaps matching the nearby singular nouns \"danger\" or \"seafloor\" rather than the true subject. Choices B and D are nonfinite forms that cannot serve as a main verb, so they would leave the sentence a fragment."
+  },
+  {
+    "id": "rw-sec-144",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "Born in Hanover, Germany, in 1750 and trained first as a concert singer, ______ eight comets over the course of her career as an astronomer.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Caroline Herschel discovered",
+      "Caroline Herschel's achievements included the discovery of",
+      "it was Caroline Herschel who discovered",
+      "there were discoveries by Caroline Herschel of"
+    ],
+    "answer": 0,
+    "explanation": "The introductory modifier \"Born in Hanover... and trained first as a concert singer\" must be followed immediately by the person it describes, so \"Caroline Herschel\" must be the subject, as in Choice A. Choice B is the main trap: the possessive \"Caroline Herschel's\" makes \"achievements\" the subject, illogically saying the achievements were born and trained as a singer. Choices C and D similarly attach the modifier to \"it\" and to \"there,\" neither of which can logically be born or trained as a singer."
+  },
+  {
+    "id": "rw-sec-145",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "Launched in 1977 to study Jupiter and Saturn, Voyager 1 kept heading outward long after its last planetary flyby. Since its launch, the spacecraft ______ more than 20 billion kilometers, and in 2012 it became the first human-made object to enter interstellar space.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "traveled",
+      "has traveled",
+      "had traveled",
+      "travels"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct. An action that began in the past and continues up to the present, signaled here by \"Since its launch,\" calls for the present perfect tense: \"has traveled.\" Choice A is the main trap: the simple past \"traveled\" describes a completed action and does not fit with \"Since,\" which marks a span reaching to the present. Choice C is past perfect, which requires a later past reference point, and Choice D is simple present, which also cannot follow \"Since its launch.\""
+  },
+  {
+    "id": "rw-sec-146",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "Each of the thousands of life-size terracotta soldiers buried near the tomb of China's first emperor ______ a face with its own subtle features, even though the figures were assembled from a limited set of molded parts.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "displays",
+      "display",
+      "are displaying",
+      "have displayed"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct. The subject is the singular pronoun \"Each,\" so the singular verb \"displays\" is required; the singular \"its own subtle features\" confirms this. Choice B is the main trap: the plural nouns \"thousands\" and \"soldiers\" fall between the subject and the blank, but they are part of the phrase \"of the thousands of... soldiers,\" not the subject. Choices C and D are also plural forms."
+  },
+  {
+    "id": "rw-sec-147",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "Venice, along with the dozens of smaller islands scattered across its lagoon, ______ now protected from unusually high tides by a system of 78 movable flood barriers known as MOSE.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "are",
+      "is",
+      "were",
+      "have been"
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct. A phrase beginning with \"along with\" does not make a subject plural; the subject is still the singular \"Venice,\" so the singular verb \"is\" is required, and \"now\" calls for the present tense. Choice A is the main trap: the phrase \"along with the dozens of smaller islands\" may seem to create a compound subject, but only \"and\" does that. Choices C and D are plural forms that do not agree with \"Venice.\""
+  },
+  {
+    "id": "rw-sec-148",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "Unlike most frogs, which abandon their eggs after laying them, ______ inside their vocal sacs until the young emerge as tiny froglets.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "the developing tadpoles of Darwin's frogs are carried by males",
+      "the vocal sacs of male Darwin's frogs hold developing tadpoles",
+      "Darwin's frogs' developing tadpoles are carried by the males",
+      "male Darwin's frogs carry their developing tadpoles"
+    ],
+    "answer": 3,
+    "explanation": "The modifier \"Unlike most frogs\" sets up a comparison, so the noun that follows it must also be frogs; Choice D correctly compares most frogs with \"male Darwin's frogs.\" Choice A is the main trap: it reads smoothly but illogically compares frogs with \"tadpoles.\" Choice B compares frogs with \"vocal sacs,\" and Choice C again compares frogs with \"tadpoles,\" using a possessive that hides the true subject."
+  }
+]

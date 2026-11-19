@@ -1,0 +1,818 @@
+[
+  {
+    "id": "rw-ei-101",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Kintsugi is a traditional Japanese method of repairing broken pottery.\n- Artisans first rejoin the broken pieces using a natural lacquer made from tree sap.\n- They then dust the lacquer seams with powdered gold, silver, or platinum.\n- The finished repair makes the cracks stand out as shining lines.\n- The practice is often linked to the idea that an object's history, including its damage, is part of its beauty.",
+    "prompt": "The student wants to describe the steps artisans follow when repairing pottery with kintsugi. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Kintsugi is often linked to the idea that an object's history, including its damage, is part of its beauty.",
+      "A pot repaired with kintsugi has cracks that stand out as shining lines.",
+      "Kintsugi is a traditional Japanese method of repairing broken pottery.",
+      "In kintsugi, artisans first rejoin broken pottery using a lacquer made from tree sap and then dust the seams with powdered gold, silver, or platinum."
+    ],
+    "answer": 3,
+    "explanation": "Choice D describes both steps of the process in order: rejoining the pieces with lacquer and then dusting the seams with powdered metal. Choice A explains an idea associated with kintsugi, and Choice B describes what a finished repair looks like rather than how it is made. Choice C defines kintsugi but gives no steps."
+  },
+  {
+    "id": "rw-ei-102",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Healthy coral reefs are noisy places, full of the sounds of snapping shrimp and grunting fish.\n- Damaged reefs are much quieter.\n- Marine ecologist Priya Raman wanted to know whether coral larvae use sound to choose where to settle.\n- She placed underwater speakers playing recordings of a healthy reef on some patches of damaged reef and silent speakers on other patches.\n- After 40 days, the patches with reef sounds had roughly twice as many newly settled young corals as the silent patches.",
+    "prompt": "The student wants to present the aim and method of Raman's study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Raman wanted to know whether coral larvae use sound to choose where to settle.",
+      "To find out whether coral larvae use sound to choose where to settle, Raman placed speakers playing healthy-reef recordings on some damaged reef patches and silent speakers on others.",
+      "After 40 days, damaged reef patches with speakers playing healthy-reef sounds had roughly twice as many newly settled corals as patches with silent speakers.",
+      "Healthy coral reefs are full of the sounds of snapping shrimp and grunting fish, but damaged reefs are much quieter."
+    ],
+    "answer": 1,
+    "explanation": "Choice B states both the study's aim (testing whether larvae use sound to choose where to settle) and its method (playing reef recordings on some patches and using silent speakers on others). Choice A gives only the aim, and Choice C gives the results rather than the method. Choice D provides background about reef sounds without describing the study."
+  },
+  {
+    "id": "rw-ei-103",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Archaeologist Tomás Ibarra analyzed chemical residues inside 3,000-year-old clay pots from an ancient farming village.\n- The residues contained compounds found only in milk fats.\n- Excavations at the village found no bones of cattle, sheep, goats, or other dairy animals.\n- Herding communities lived in hills a few days' walk from the village.\n- Ibarra concluded that the villagers likely obtained milk products by trading with these herders.",
+    "prompt": "The student wants to present Ibarra's conclusion along with the evidence that supports it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The residues in the village's pots contained compounds found only in milk fats, yet no bones of dairy animals were found at the site.",
+      "Ibarra concluded that the villagers likely obtained milk products by trading with herding communities in the nearby hills.",
+      "Ibarra analyzed chemical residues inside 3,000-year-old clay pots from an ancient farming village.",
+      "Because the village's pots held milk-fat residues but the site contained no remains of dairy animals, Ibarra concluded that the villagers likely obtained milk products by trading with nearby herders."
+    ],
+    "answer": 3,
+    "explanation": "Choice D states Ibarra's conclusion together with the two pieces of evidence behind it: milk residues in the pots and no dairy-animal remains at the village. Choice B gives the conclusion without any supporting evidence, while Choice A gives the evidence without the conclusion it supports. Choice C describes only what Ibarra analyzed."
+  },
+  {
+    "id": "rw-ei-104",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:\n- The fennec fox lives in the Sahara Desert of North Africa.\n- The kit fox lives in deserts of the southwestern United States and northern Mexico.\n- The fennec fox is the smallest fox species in the world.\n- Both foxes have unusually large ears for their body size.\n- In both species, the large ears help the animal release excess body heat.",
+    "prompt": "The student wants to emphasize a similarity between the fennec fox and the kit fox. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The fennec fox lives in the Sahara Desert, while the kit fox lives in deserts of the southwestern United States and northern Mexico.",
+      "Both the fennec fox and the kit fox have unusually large ears that help them release excess body heat.",
+      "The fennec fox, which lives in the Sahara Desert of North Africa, is the smallest fox species in the world.",
+      "The kit fox lives in deserts of the southwestern United States and northern Mexico."
+    ],
+    "answer": 1,
+    "explanation": "Choice B identifies a feature the two foxes share (large ears that help release body heat), so it emphasizes a similarity. Choice A points out a difference in where the foxes live. Choices C and D each describe only one species, so neither compares the two."
+  },
+  {
+    "id": "rw-ei-105",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Cirrus clouds are thin, wispy clouds that form high in the atmosphere, usually above 6,000 meters.\n- They are made almost entirely of ice crystals.\n- Cirrus clouds rarely produce precipitation that reaches the ground.\n- Cumulonimbus clouds are towering clouds that can extend from near the ground to more than 12,000 meters high.\n- Cumulonimbus clouds often produce heavy rain, hail, and lightning.",
+    "prompt": "The student wants to emphasize a difference in the weather that the two types of clouds produce. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "While cirrus clouds rarely produce precipitation that reaches the ground, cumulonimbus clouds often bring heavy rain, hail, and lightning.",
+      "Cirrus clouds are thin, wispy clouds made almost entirely of ice crystals.",
+      "Towering cumulonimbus clouds often produce heavy rain, hail, and lightning.",
+      "Cirrus clouds usually form above 6,000 meters, whereas cumulonimbus clouds can extend from near the ground to more than 12,000 meters high."
+    ],
+    "answer": 0,
+    "explanation": "Choice A contrasts the two cloud types' effects on weather: cirrus clouds rarely produce precipitation that reaches the ground, while cumulonimbus clouds bring storms. Choice D is the main trap; it presents a difference, but one of height rather than weather. Choices B and C each describe only one type of cloud."
+  },
+  {
+    "id": "rw-ei-106",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Many gardeners assume that earthworms benefit the soil wherever they live.\n- Many forests in the northern Great Lakes region had no earthworms until European species were introduced by people.\n- Seedlings of many native wildflowers in those forests depend on a thick layer of fallen leaves.\n- Ecologist Hanna Lindqvist compared forest plots that had been invaded by earthworms with plots that had not.\n- The invaded plots had lost most of their leaf layer and had far fewer native wildflower species.",
+    "prompt": "The student wants to present Lindqvist's findings as a challenge to a common assumption. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Lindqvist found that forest plots invaded by earthworms had lost most of their leaf layer and had far fewer native wildflower species than plots without earthworms.",
+      "Many gardeners assume that earthworms benefit the soil, but many forests in the northern Great Lakes region had no earthworms until people introduced European species.",
+      "Contrary to the common assumption that earthworms benefit the soil wherever they live, Lindqvist found that forest plots invaded by earthworms had lost most of their leaf layer and had far fewer native wildflower species.",
+      "Lindqvist compared forest plots that had been invaded by earthworms with plots that had not."
+    ],
+    "answer": 2,
+    "explanation": "Choice C presents Lindqvist's findings and explicitly frames them as contradicting the assumption that earthworms are always beneficial. Choice A reports the same findings but never connects them to that assumption, so it does not present them as a challenge. Choice B mentions the assumption but not Lindqvist's findings, and Choice D describes only her method."
+  },
+  {
+    "id": "rw-ei-107",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Bessie Coleman was born in Texas in 1892.\n- As a young woman, she decided that she wanted to become a pilot.\n- Flight schools in the United States refused to admit her because she was Black and a woman.\n- She learned French and traveled to France, where a flight school accepted her.\n- In 1921, she became the first Black woman to earn an international pilot's license.\n- She later performed daring stunts at air shows across the United States.",
+    "prompt": "The student wants to explain why Coleman went to France to learn to fly. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Because flight schools in the United States refused to admit her as a Black woman, Coleman traveled to France, where a flight school accepted her.",
+      "Born in Texas in 1892, Coleman later performed daring stunts at air shows across the United States.",
+      "Coleman learned French and traveled to France, where a flight school accepted her.",
+      "In 1921, Coleman became the first Black woman to earn an international pilot's license."
+    ],
+    "answer": 0,
+    "explanation": "Choice A gives the reason for Coleman's trip: US flight schools would not admit her, but a school in France would. Choice C is tempting because it mentions her travel to France, but it never explains why she had to leave the United States to train. Choices D and B describe her achievements and later career without addressing the trip."
+  },
+  {
+    "id": "rw-ei-108",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Chien-Shiung Wu (1912–1997) was an experimental physicist.\n- In 1956, physicists Tsung-Dao Lee and Chen Ning Yang proposed that a principle known as parity conservation might not hold for certain particle interactions.\n- Later that year, Wu designed and led an experiment to test their proposal.\n- Her experiment showed that parity conservation does not hold for those interactions.\n- Lee and Yang received the 1957 Nobel Prize in Physics for their work; Wu was not included.",
+    "prompt": "The student wants to explain how Wu's experiment was related to Lee and Yang's proposal. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Chien-Shiung Wu, who lived from 1912 to 1997, was an experimental physicist.",
+      "In 1956, Lee and Yang proposed that parity conservation might not hold for certain particle interactions.",
+      "Lee and Yang received the 1957 Nobel Prize in Physics for their work, but Wu was not included.",
+      "Lee and Yang's 1956 proposal that parity conservation might not hold for certain particle interactions was confirmed by an experiment that Wu designed and led."
+    ],
+    "answer": 3,
+    "explanation": "Choice D connects Wu's experiment directly to Lee and Yang's proposal, showing that her work confirmed their idea. Choice B presents the proposal without mentioning Wu, and Choice C notes that Wu was left out of the prize without explaining what her experiment showed. Choice A gives only biographical facts."
+  },
+  {
+    "id": "rw-ei-109",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Two research teams studied whether later school start times affect how much teenagers sleep.\n- Rosa Delgado's team asked students to report how many hours they slept each night.\n- Marcus Feld's team had students wear wrist devices that automatically recorded when they were asleep.\n- People often misjudge how long they have slept, so self-reports of sleep can be inaccurate.\n- Both teams found that students slept longer when school started later.",
+    "prompt": "The student wants to emphasize an advantage of Feld's team's method over Delgado's team's method. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Both Delgado's team and Feld's team found that students slept longer when school started later.",
+      "People often misjudge how long they have slept, so self-reports of sleep can be inaccurate.",
+      "Delgado's team asked students to report their hours of sleep, while Feld's team had students wear wrist devices that recorded sleep automatically.",
+      "Unlike Delgado's team, which relied on students' own reports of their sleep (reports that can be inaccurate), Feld's team used wrist devices that recorded sleep automatically."
+    ],
+    "answer": 3,
+    "explanation": "Choice D contrasts the two methods and explains why Feld's is stronger: it avoids the inaccuracy of self-reports. Choice C is the main trap; it describes how the methods differed but never indicates that one is better. Choice A emphasizes a similarity in findings, and Choice B states a general problem without mentioning either team."
+  },
+  {
+    "id": "rw-ei-110",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Bioluminescence is the production of light by living organisms.\n- Fireflies flash light signals to attract mates.\n- Deep-sea anglerfish use a glowing lure on their heads to attract prey.\n- The Hawaiian bobtail squid uses light produced by bacteria to hide its shadow from predators swimming below it.\n- Bioluminescence is far more common among ocean organisms than among land organisms.",
+    "prompt": "The student wants to make a generalization about the purposes for which organisms produce light. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Bioluminescence, the production of light by living organisms, is far more common in the ocean than on land.",
+      "Organisms produce light for a variety of purposes, including attracting mates, luring prey, and hiding from predators.",
+      "Fireflies flash light signals to attract mates, while the Hawaiian bobtail squid uses light to hide from predators.",
+      "Deep-sea anglerfish use a glowing lure on their heads to attract prey."
+    ],
+    "answer": 1,
+    "explanation": "Choice B makes a broad statement about why organisms produce light, summarizing the range of purposes in the notes. Choice A is a generalization, but it concerns where bioluminescence occurs, not why organisms produce light. Choices D and C describe specific species rather than making a generalization."
+  },
+  {
+    "id": "rw-ei-111",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- The Dust Bowl was a period of severe dust storms on the southern Great Plains of the United States during the 1930s.\n- Native prairie grasses had deep roots that held the region's soil in place.\n- In the decades before the 1930s, farmers plowed up millions of acres of these grasses to plant wheat.\n- When a severe drought struck in the early 1930s, crops failed and the exposed soil dried out.\n- Strong winds then lifted the loose topsoil into enormous clouds of dust.\n- Some storms carried dust as far as the East Coast.",
+    "prompt": "The student wants to explain why the soil of the southern Great Plains became vulnerable to the wind. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "After farmers plowed up the deep-rooted prairie grasses that had held the soil in place, a severe drought caused their crops to fail, leaving the soil dry and exposed.",
+      "The Dust Bowl was a period of severe dust storms on the southern Great Plains of the United States during the 1930s.",
+      "During the Dust Bowl, some storms carried dust from the southern Great Plains as far as the East Coast.",
+      "During the 1930s, strong winds lifted loose topsoil from the southern Great Plains into enormous clouds of dust."
+    ],
+    "answer": 0,
+    "explanation": "Choice A explains the causes of the soil's vulnerability: the grasses that anchored it had been removed, and drought then killed the crops, leaving the soil dry and bare. Choice D describes what the wind did to the soil but not why the soil could be lifted so easily. Choices C and B describe the Dust Bowl's reach and timing without addressing causes."
+  },
+  {
+    "id": "rw-ei-112",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:\n- The Voynich manuscript is a handwritten, illustrated book of about 240 pages.\n- It is named after Wilfrid Voynich, a book dealer who acquired it in 1912.\n- Radiocarbon dating indicates that its pages were made in the early 1400s.\n- It contains drawings of plants, many of which have not been matched to any known species.\n- Its text is written in a script that no one has been able to decipher.",
+    "prompt": "The student wants to contrast something researchers have established about the manuscript with something that remains unknown. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Radiocarbon dating indicates that the manuscript's pages were made in the early 1400s, roughly five centuries before Wilfrid Voynich acquired it in 1912.",
+      "Although radiocarbon dating indicates that the manuscript's pages were made in the early 1400s, no one has been able to decipher the script in which its text is written.",
+      "The Voynich manuscript, a handwritten book of about 240 pages, is named after the book dealer who acquired it in 1912.",
+      "The manuscript's text is written in an undeciphered script, and many of its plant drawings have not been matched to any known species."
+    ],
+    "answer": 1,
+    "explanation": "Choice B sets an established fact (the pages' early-1400s date) against an unsolved mystery (the undeciphered script). Choice D lists only unknowns, and Choice A lists only things that are known, so neither makes the required contrast. Choice C gives basic facts about the manuscript without mentioning anything unknown."
+  },
+  {
+    "id": "rw-ei-113",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:\n- The Svalbard Global Seed Vault is located on a remote Norwegian island in the Arctic.\n- It opened in 2008.\n- It stores backup copies of seed samples from gene banks around the world.\n- The vault is dug deep into a mountain, where permafrost helps keep the seeds frozen.\n- It is meant to safeguard crop diversity in case seeds stored elsewhere are lost to disasters, war, or accidents.",
+    "prompt": "The student wants to explain the purpose of the Svalbard Global Seed Vault. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The seeds in the Svalbard Global Seed Vault come from gene banks around the world.",
+      "The Svalbard Global Seed Vault, which opened in 2008, is located on a remote Norwegian island in the Arctic.",
+      "The Svalbard Global Seed Vault stores backup copies of seeds from around the world to safeguard crop diversity in case seeds stored elsewhere are lost.",
+      "The Svalbard Global Seed Vault is dug deep into a mountain, where permafrost helps keep the seeds frozen."
+    ],
+    "answer": 2,
+    "explanation": "Choice C states what the vault is for: protecting crop diversity by keeping backup seeds in case others are lost. Choice B gives the vault's location and opening date, and Choice D explains how the seeds are kept cold. Choice A says where the seeds come from but not why they are stored."
+  },
+  {
+    "id": "rw-ei-114",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Venice, Italy, was built on more than 100 small islands in a lagoon.\n- Its residents have long used canals as streets, traveling by boat.\n- Tenochtitlan, the capital of the Mexica (Aztec) Empire, was founded around 1325 on an island in Lake Texcoco.\n- Tenochtitlan's residents also traveled through the city along a network of canals.\n- Farmers in Tenochtitlan grew crops on artificial islands called chinampas.",
+    "prompt": "The student wants to emphasize a similarity between Venice and Tenochtitlan. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Tenochtitlan, the capital of the Mexica (Aztec) Empire, was founded around 1325.",
+      "Venice was built on more than 100 small islands in a lagoon, whereas Tenochtitlan was founded on an island in Lake Texcoco.",
+      "Farmers in Tenochtitlan grew crops on artificial islands called chinampas.",
+      "Both Venice and Tenochtitlan were built on islands, and in both cities residents traveled along networks of canals."
+    ],
+    "answer": 3,
+    "explanation": "Choice D identifies two features the cities share: both were built on islands, and both relied on canals for travel. Choice B sets the cities side by side but uses \"whereas\" to stress how their island settings differed. Choices A and C describe only Tenochtitlan."
+  },
+  {
+    "id": "rw-ei-115",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Dark matter is matter that does not emit or reflect light and can be detected only through its gravitational effects.\n- Astronomer Vera Rubin (1928–2016) studied how stars move within spiral galaxies.\n- In the 1970s, Rubin and her colleague Kent Ford measured the speeds of stars at different distances from the centers of galaxies.\n- They found that stars near the outer edges orbited about as fast as stars closer to the center.\n- This result suggested that galaxies contain large amounts of unseen mass, providing key evidence for dark matter.",
+    "prompt": "The student wants to present Rubin's contribution to an audience already familiar with dark matter. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Dark matter is matter that does not emit or reflect light, and astronomer Vera Rubin studied how stars move within spiral galaxies.",
+      "In the 1970s, Rubin and Kent Ford found that stars at the outer edges of spiral galaxies orbit about as fast as stars near the center, a result that provided key evidence for dark matter.",
+      "Vera Rubin (1928–2016) was an astronomer who studied how stars move within spiral galaxies.",
+      "Dark matter, which does not emit or reflect light, can be detected only through its gravitational effects."
+    ],
+    "answer": 1,
+    "explanation": "Choice B describes what Rubin and Ford discovered and why it mattered, without spending words defining dark matter for readers who already understand it. Choices D and A define dark matter, which this audience does not need, and neither explains what Rubin found. Choice C identifies Rubin's area of study but not her contribution."
+  },
+  {
+    "id": "rw-ei-116",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Psychologist Dana Whitcomb studied how background music affects reading comprehension.\n- She divided 120 university students into three groups.\n- One group read passages in silence, one read while instrumental music played, and one read while music with lyrics played.\n- Students who heard music with lyrics answered fewer comprehension questions correctly than students in the other two groups.\n- The scores of the silent group and the instrumental group were nearly identical.",
+    "prompt": "The student wants to present the results of Whitcomb's study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Whitcomb found that students who read while hearing music with lyrics answered fewer comprehension questions correctly than those who read in silence or with instrumental music, whose scores were nearly identical.",
+      "Psychologist Dana Whitcomb studied how background music affects reading comprehension.",
+      "In Whitcomb's study, one group read in silence, one read with instrumental music, and one read with music that had lyrics.",
+      "Whitcomb divided 120 university students into three groups to study how background music affects reading comprehension."
+    ],
+    "answer": 0,
+    "explanation": "Choice A reports what the study found: music with lyrics lowered comprehension, while instrumental music made no real difference compared with silence. Choices D and C describe how the study was set up, not what it found. Choice B states only the study's topic."
+  },
+  {
+    "id": "rw-ei-117",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Ecologist Robert Paine introduced the term \"keystone species\" in 1969.\n- A keystone species has a much larger effect on its ecosystem than its abundance alone would suggest.\n- On the rocky Washington coast, Paine repeatedly removed ochre sea stars, which eat mussels, from one stretch of shoreline.\n- Without the sea stars, mussels crowded out many other species, and the number of species in the area dropped sharply.\n- Beavers and African elephants are also often described as keystone species.",
+    "prompt": "The student wants to explain what a keystone species is, using an example. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "A keystone species has a much larger effect on its ecosystem than its abundance alone would suggest.",
+      "Ecologist Robert Paine introduced the term \"keystone species\" in 1969.",
+      "A keystone species has an outsized effect on its ecosystem; for example, when Paine removed ochre sea stars from a stretch of shoreline, mussels crowded out many other species.",
+      "Beavers and African elephants are often described as keystone species."
+    ],
+    "answer": 2,
+    "explanation": "Choice C both defines a keystone species and illustrates the definition with Paine's sea star experiment. Choice A gives the definition but no example, while Choice D names examples without explaining what makes them keystone species. Choice B tells who coined the term but not what it means."
+  },
+  {
+    "id": "rw-ei-118",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Göbekli Tepe is an archaeological site in southeastern Turkey.\n- It contains massive carved stone pillars, some more than 5 meters tall.\n- Its oldest structures were built around 9500 BCE.\n- Evidence suggests that its builders were hunter-gatherers who had not yet adopted farming.\n- Scholars had long assumed that people built monumental structures only after farming allowed them to settle in one place.",
+    "prompt": "The student wants to explain how the discovery of Göbekli Tepe challenged an earlier view. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Göbekli Tepe's oldest structures, built around 9500 BCE apparently by hunter-gatherers who did not yet farm, contradicted the long-held assumption that monumental structures appeared only after the adoption of farming.",
+      "Göbekli Tepe's oldest structures were built around 9500 BCE, and some of its carved stone pillars are more than 5 meters tall.",
+      "Scholars had long assumed that people built monumental structures only after farming allowed them to settle in one place.",
+      "Göbekli Tepe, an archaeological site in southeastern Turkey, contains carved stone pillars, some more than 5 meters tall."
+    ],
+    "answer": 0,
+    "explanation": "Choice A connects the site's builders, who apparently did not farm, to the earlier assumption that monuments came only after farming, showing how the discovery contradicted it. Choice C states the earlier assumption but not what about Göbekli Tepe challenged it. Choices D and B describe the site's location, pillars, and age without mentioning who built it or the view it challenged."
+  },
+  {
+    "id": "rw-ei-119",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Mauna Kea is a dormant volcano on the island of Hawaii.\n- Its summit is about 4,200 meters above sea level.\n- Much of the volcano lies hidden beneath the Pacific Ocean.\n- Measured from its base on the ocean floor to its summit, Mauna Kea is more than 10,000 meters tall.\n- Mount Everest's summit is about 8,850 meters above sea level.",
+    "prompt": "The student wants to emphasize that, measured in one way, Mauna Kea is taller than Mount Everest. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Mount Everest's summit is about 8,850 meters above sea level.",
+      "Mauna Kea's summit is about 4,200 meters above sea level, while Mount Everest's summit is about 8,850 meters above sea level.",
+      "Mauna Kea is a dormant volcano on the island of Hawaii, and much of it lies hidden beneath the Pacific Ocean.",
+      "Measured from its base on the ocean floor, Mauna Kea is more than 10,000 meters tall, greater than the roughly 8,850 meters that Mount Everest rises above sea level."
+    ],
+    "answer": 3,
+    "explanation": "Choice D compares Mauna Kea's base-to-summit height of more than 10,000 meters with Everest's height of about 8,850 meters, showing that by this measure Mauna Kea is taller. Choice B compares the peaks by height above sea level, which makes Everest appear much taller, the opposite of the goal. Choices C and A each describe only one mountain."
+  },
+  {
+    "id": "rw-ei-120",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Mary Anning (1799–1847) collected fossils along the cliffs near Lyme Regis, England.\n- In 1823, she found the first complete skeleton of a plesiosaur, a large marine reptile.\n- Her discoveries helped scientists recognize that many species had gone extinct.\n- Because she was a woman, she was not allowed to join the Geological Society of London.\n- Scientists who described her fossils in their publications often did not mention her name.",
+    "prompt": "The student wants to emphasize that Anning's contributions were not fully recognized during her lifetime. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Mary Anning (1799–1847) collected fossils along the cliffs near Lyme Regis, England.",
+      "Although Anning's fossil discoveries advanced scientific understanding, she was barred from the Geological Society of London, and scientists who published her finds often omitted her name.",
+      "Anning's discoveries along the cliffs near Lyme Regis helped scientists recognize that many species had gone extinct.",
+      "In 1823, Anning found the first complete skeleton of a plesiosaur, a large marine reptile."
+    ],
+    "answer": 1,
+    "explanation": "Choice B contrasts the importance of Anning's work with the ways she was excluded and left uncredited, which emphasizes the lack of recognition. Choices D and C highlight her achievements but say nothing about how they were received. Choice A provides only basic biographical information."
+  },
+  {
+    "id": "rw-ei-121",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Whistled languages are forms of spoken languages in which speakers whistle words instead of saying them.\n- Silbo Gomero, a whistled form of Spanish, is used on La Gomera, a mountainous island in the Canary Islands.\n- Whistled Turkish is used in Kuşköy, a village in the mountains of northern Turkey.\n- In both places, whistles carry across steep valleys much farther than shouted words.\n- Researchers have documented whistled forms of dozens of languages, most of them in regions with rugged terrain or dense forest.",
+    "prompt": "The student wants to make a generalization about where whistled languages tend to be used and support it with a specific example. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Researchers have documented whistled forms of dozens of languages, most of them in regions with rugged terrain or dense forest.",
+      "Silbo Gomero, a whistled form of Spanish, is used on La Gomera, a mountainous island in the Canary Islands.",
+      "Whistled languages tend to be used in places with rugged terrain or dense forest, such as the mountainous island of La Gomera, where whistled Spanish carries across steep valleys farther than shouted words.",
+      "Whistled forms of languages are used both on La Gomera, in the Canary Islands, and in Kuşköy, in northern Turkey."
+    ],
+    "answer": 2,
+    "explanation": "Choice C offers a generalization (whistled languages tend to occur in rugged or forested regions) and supports it with the specific case of La Gomera. Choice A makes the generalization without an example, while Choices B and D give examples without any generalization about where whistled languages are used."
+  },
+  {
+    "id": "rw-ei-122",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Bamboo is a type of grass, not a tree.\n- It has been used as a building material in parts of Asia for thousands of years.\n- Some bamboo species can grow nearly a meter in a single day.\n- A bamboo plant can be harvested every three to five years and will regrow from its roots.\n- Many hardwood trees used for lumber take 40 years or more to mature.",
+    "prompt": "The student wants to compare bamboo with hardwood trees to explain an advantage of bamboo as a building material. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Some bamboo species can grow nearly a meter in a single day.",
+      "Bamboo, which is a type of grass rather than a tree, has been used as a building material in parts of Asia for thousands of years.",
+      "Bamboo can be harvested every three to five years and regrows from its roots, whereas many hardwood trees take 40 years or more to mature.",
+      "Many hardwood trees used for lumber take 40 years or more to mature."
+    ],
+    "answer": 2,
+    "explanation": "Choice C directly compares bamboo with hardwood, showing that bamboo can be harvested far more often, an advantage for a building material. Choice A mentions bamboo's rapid growth but makes no comparison to hardwood, and Choice D mentions only hardwood. Choice B gives background on bamboo's history without identifying any advantage."
+  },
+  {
+    "id": "rw-ei-123",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Noise-canceling headphones contain small built-in microphones.\n- The microphones detect sound waves from the surrounding environment.\n- A chip in the headphones then generates a sound wave that is the exact opposite of the incoming wave.\n- When the two waves meet, they cancel each other out.\n- The technology works best on steady, low-pitched sounds, such as the hum of an airplane engine.",
+    "prompt": "The student wants to explain how noise-canceling headphones reduce unwanted sound. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Noise-canceling headphones work best on steady, low-pitched sounds, such as the hum of an airplane engine.",
+      "When a sound wave meets a wave that is its exact opposite, the two waves cancel each other out.",
+      "Noise-canceling headphones use built-in microphones to detect surrounding sound waves and then generate opposite waves that cancel them out.",
+      "Noise-canceling headphones contain small microphones that detect sound waves from the surrounding environment."
+    ],
+    "answer": 2,
+    "explanation": "Choice C describes the whole process: the headphones detect outside sound and produce opposite waves that cancel it. Choice D covers only the first step, and Choice B states the general principle without connecting it to headphones. Choice A describes when the technology works best rather than how it works."
+  },
+  {
+    "id": "rw-ei-124",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:\n- A team led by Aiko Mori tested whether a new app helps adults learn vocabulary in a second language.\n- Sixty participants used the app for 10 minutes a day for four weeks; another sixty studied with paper flashcards.\n- On a final test, the app users recalled 30 percent more words than the flashcard users.\n- All participants were graduate students who already spoke at least two languages.\n- The researchers cautioned that the results may not apply to learners with less language-learning experience.",
+    "prompt": "The student wants to emphasize a limitation of the study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Because all of the study's participants were graduate students who already spoke at least two languages, its results may not apply to less experienced language learners.",
+      "Mori's team compared sixty participants who used a vocabulary app with sixty who studied with paper flashcards.",
+      "Mori's team tested whether a new app helps adults learn vocabulary in a second language.",
+      "Although participants used the app for only 10 minutes a day, they recalled 30 percent more words than flashcard users after four weeks."
+    ],
+    "answer": 0,
+    "explanation": "Choice A identifies a limitation: the participants were all experienced, multilingual graduate students, so the findings may not generalize to other learners. Choice D emphasizes a strength of the app rather than a limitation of the study. Choices B and C describe the study's design and aim without pointing out any weakness."
+  },
+  {
+    "id": "rw-ei-125",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "Most spiders spin silk webs and wait for insects to become trapped in them. ______ jumping spiders hunt without webs, stalking their prey and pouncing on it from a distance. Their large front eyes give them sharp vision, allowing them to judge distances precisely before they leap.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "However,",
+      "Similarly,",
+      "Therefore,",
+      "For example,"
+    ],
+    "answer": 0,
+    "explanation": "Jumping spiders hunt in a way that differs from the web-spinning approach of most spiders, so the contrasting transition \"However\" (Choice A) fits. \"Therefore\" and \"Similarly\" wrongly suggest a result or a parallel, and \"For example\" would make jumping spiders an example of web-spinning spiders, which they are not."
+  },
+  {
+    "id": "rw-ei-126",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "Many people believe that bats are blind and find their way only by echolocation, the process of emitting sounds and listening for the echoes. ______ no bat species is blind: many bats have good eyesight and use vision alongside echolocation, and some large fruit bats do not echolocate at all, relying mainly on sight and smell.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "As a result,",
+      "In fact,",
+      "Similarly,",
+      "For example,"
+    ],
+    "answer": 1,
+    "explanation": "The second sentence corrects the common belief described in the first by stating what is actually true, and \"In fact\" (Choice B) signals this kind of correction. \"Similarly\" would suggest the sentence agrees with the belief, \"As a result\" would make the truth about bats a consequence of a mistaken belief, and \"For example\" would present it as an illustration of that belief."
+  },
+  {
+    "id": "rw-ei-127",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "Many music historians have argued that improvisation largely disappeared from Western classical concerts during the nineteenth century, as audiences and performers came to treat a composer's written score as a fixed text to be reproduced faithfully. ______ the practice never vanished entirely. Church organists, in particular, continued to improvise preludes and even full pieces during services, and some became famous for doing so.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Likewise,",
+      "For example,",
+      "Still,",
+      "Hence,"
+    ],
+    "answer": 2,
+    "explanation": "After describing improvisation's decline, the writer qualifies that claim by noting that the practice survived in some settings; \"Still\" (Choice C) signals this contrast. \"Hence\" would wrongly present the practice's survival as a result of its decline, and \"Likewise\" would present it as a parallel point. \"For example\" fails because the claim that improvisation never vanished is not an example of its disappearance."
+  },
+  {
+    "id": "rw-ei-128",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "A hot-air balloon flies without wings or engines. When the pilot fires the burner, the air inside the balloon heats up and becomes less dense than the cooler air outside. ______ the balloon rises, much as a cork floats upward in water.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "In contrast,",
+      "Nevertheless,",
+      "For instance,",
+      "As a result,"
+    ],
+    "answer": 3,
+    "explanation": "The balloon rises because the air inside it has become less dense than the air outside, so the sentence describes an effect; \"As a result\" (Choice D) signals that relationship. \"In contrast\" and \"Nevertheless\" wrongly signal opposition, and \"For instance\" would introduce an example rather than a consequence."
+  },
+  {
+    "id": "rw-ei-129",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "Electric cars produce no tailpipe emissions while they are being driven. ______ manufacturing their large batteries requires mining and energy use that generate significant greenhouse gas emissions. Still, studies that account for a car's entire lifetime generally conclude that electric cars are responsible for fewer emissions than comparable gasoline-powered cars.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Consequently,",
+      "Likewise,",
+      "For instance,",
+      "Admittedly,"
+    ],
+    "answer": 3,
+    "explanation": "The writer's overall point, made clear by \"Still,\" is that electric cars produce fewer emissions; the middle sentence acknowledges a drawback before that point is made. \"Admittedly\" (Choice D) signals this concession. \"Consequently\" wrongly treats battery emissions as a result of driving without tailpipe emissions, \"For instance\" would present them as an example of clean driving, and \"Likewise\" would present them as a similar benefit."
+  },
+  {
+    "id": "rw-ei-130",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "In the ancient Mediterranean world, a deep purple dye was extracted from the glands of murex sea snails. Producing even a single gram of the dye required thousands of snails, making purple cloth extraordinarily expensive. ______ purple garments came to signal wealth and high rank, and during some periods Roman law restricted who was permitted to wear them.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Even so,",
+      "Meanwhile,",
+      "Rather,",
+      "Accordingly,"
+    ],
+    "answer": 3,
+    "explanation": "Purple garments became symbols of status because only the wealthy could afford such costly cloth, so the sentence describes a consequence; \"Accordingly\" (Choice D) signals this. \"Even so\" wrongly suggests that the cloth's status was surprising given its cost, \"Rather\" signals a correction of the previous idea, and \"Meanwhile\" signals simultaneous but unrelated events."
+  },
+  {
+    "id": "rw-ei-131",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "Many familiar inventions came about by accident. ______ the microwave oven was developed in the 1940s after engineer Percy Spencer noticed that a candy bar in his pocket had melted while he was working near radar equipment.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "However,",
+      "Meanwhile,",
+      "For example,",
+      "Instead,"
+    ],
+    "answer": 2,
+    "explanation": "The microwave oven is a specific case of an invention that came about by accident, so \"For example\" (Choice C) is logical. \"However\" and \"Instead\" signal contrast or replacement, which does not fit, and \"Meanwhile\" indicates events happening at the same time."
+  },
+  {
+    "id": "rw-ei-132",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "Before 1869, ships sailing between Britain and India had to travel all the way around the southern tip of Africa. That year, the Suez Canal opened in Egypt, linking the Mediterranean Sea to the Red Sea and creating a far more direct route. ______ the canal shortened the voyage between Britain and India by thousands of kilometers, cutting weeks off the journey.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Previously,",
+      "Nevertheless,",
+      "Similarly,",
+      "Thus,"
+    ],
+    "answer": 3,
+    "explanation": "The shortened voyage is a consequence of the canal's more direct route, so \"Thus\" (Choice D) is logical. \"Nevertheless\" signals a contrast that does not exist, \"Similarly\" implies a parallel development, and \"Previously\" refers to the time before the canal, when the voyage was still long."
+  },
+  {
+    "id": "rw-ei-133",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "For decades, many linguists assumed that children learn grammar mainly by imitating the sentences adults say to them. But young children regularly produce forms that adults rarely use, such as \"goed\" instead of \"went.\" Such errors suggest that children are not simply copying what they hear. ______ they appear to be extracting general rules, such as \"add -ed to form the past tense,\" and applying them, sometimes too broadly.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Rather,",
+      "Similarly,",
+      "For example,",
+      "As a result,"
+    ],
+    "answer": 0,
+    "explanation": "The final sentence replaces the rejected idea (children simply copy what they hear) with an alternative explanation (they extract rules), so \"Rather\" (Choice A) is logical. \"Similarly\" would suggest the two ideas are parallel, and \"As a result\" would make rule extraction a consequence of children not copying. \"For example\" fails because extracting rules is not an example of not copying but a replacement for that view."
+  },
+  {
+    "id": "rw-ei-134",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "Community gardens provide city residents with fresh, inexpensive vegetables, which can be hard to find in some urban neighborhoods. ______ the gardens give neighbors a place to meet and work side by side, helping to build friendships within the community.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Instead,",
+      "As a result,",
+      "On the other hand,",
+      "In addition,"
+    ],
+    "answer": 3,
+    "explanation": "The second sentence adds another benefit of community gardens to the one already mentioned, so \"In addition\" (Choice D) fits. \"Instead\" and \"On the other hand\" suggest contrast, and \"As a result\" wrongly implies that access to vegetables causes neighbors to build friendships."
+  },
+  {
+    "id": "rw-ei-135",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "Some plants defend themselves against plant-eating insects by recruiting help from other species. ______ when caterpillars chew on the leaves of a corn plant, the plant releases chemical signals into the air that attract parasitic wasps, which lay their eggs inside the caterpillars.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "For instance,",
+      "Regardless,",
+      "Similarly,",
+      "In contrast,"
+    ],
+    "answer": 0,
+    "explanation": "The corn plant that attracts wasps is a specific case of the general claim that some plants recruit help from other species, so \"For instance\" (Choice A) fits. \"Similarly\" would require an earlier example to compare with, and the passage offers only a general statement. \"Regardless\" and \"In contrast\" signal opposition."
+  },
+  {
+    "id": "rw-ei-136",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "Economists generally agree that rent control, which limits how much landlords can raise rents, benefits tenants who already live in controlled apartments. ______ many economists argue that the policy harms renters overall, since capping rents can discourage the construction of new housing and shrink the supply of apartments available to newcomers.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Indeed,",
+      "That is,",
+      "Nevertheless,",
+      "Accordingly,"
+    ],
+    "answer": 2,
+    "explanation": "The second sentence presents a negative view of rent control that contrasts with the benefit acknowledged in the first, so \"Nevertheless\" (Choice C) is logical. \"Indeed\" would treat the harm as reinforcing the benefit, and \"Accordingly\" would make the harm a consequence of the benefit to current tenants. \"That is\" would wrongly present the second sentence as a restatement of the first."
+  },
+  {
+    "id": "rw-ei-137",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "Making paper by hand is a multistep process. First, workers soak plant fibers in water and beat them into a soupy pulp. ______ they dip a fine screen into the pulp and lift it out, leaving a thin, even layer of fibers that is pressed flat and left to dry.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Nonetheless,",
+      "Next,",
+      "In contrast,",
+      "For instance,"
+    ],
+    "answer": 1,
+    "explanation": "The passage describes a process step by step, beginning with \"First,\" so the following step should be introduced with \"Next\" (Choice B). \"In contrast\" and \"Nonetheless\" signal opposition, and \"For instance\" would present the second step as an example of the first."
+  },
+  {
+    "id": "rw-ei-138",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "Planting trees along city streets can lower summer temperatures, since leaves shade the pavement and release water vapor that cools the surrounding air. ______ street trees absorb rainwater through their roots, reducing the amount of runoff that can overwhelm storm drains during heavy rain.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Conversely,",
+      "Ultimately,",
+      "Furthermore,",
+      "Specifically,"
+    ],
+    "answer": 2,
+    "explanation": "The passage first describes one benefit of street trees (cooling) and then adds a separate benefit (reducing runoff), so \"Furthermore\" (Choice C) is logical. \"Conversely\" signals an opposite idea, and \"Specifically\" would introduce a detail of the cooling effect, which absorbing rainwater is not. \"Ultimately\" would wrongly present runoff reduction as the final outcome of the cooling process."
+  },
+  {
+    "id": "rw-ei-139",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "Paleontologists Neil Shubin, Ted Daeschler, and Farish Jenkins reasoned that fossils of animals intermediate between fish and four-legged land animals would most likely be found in rocks about 375 million years old that had formed in shallow streams. Searching geological maps for exposed rocks matching that description, they identified a promising area on Ellesmere Island in the Canadian Arctic. ______ after several summers of digging there, the team uncovered Tiktaalik, a fish with a flexible neck and sturdy, limb-like fins.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Previously,",
+      "Eventually,",
+      "Similarly,",
+      "Instead,"
+    ],
+    "answer": 1,
+    "explanation": "The passage traces the team's search in chronological order, and the discovery came at the end of a long effort, so \"Eventually\" (Choice B) fits. \"Previously\" would place the discovery before the search, contradicting \"after several summers of digging there.\" \"Similarly\" signals a comparison, and \"Instead\" would wrongly suggest that the team abandoned its plan."
+  },
+  {
+    "id": "rw-ei-140",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "The ostrich, the largest living bird, has wings but is far too heavy to fly. ______ it is well equipped to escape danger: its long, powerful legs allow it to run at speeds of up to 70 kilometers per hour.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Nevertheless,",
+      "Likewise,",
+      "For example,",
+      "Consequently,"
+    ],
+    "answer": 0,
+    "explanation": "Although the ostrich cannot fly, it can still escape danger by running, so the sentence contrasts with the limitation just described; \"Nevertheless\" (Choice A) signals this. \"Consequently\" wrongly implies that being unable to fly causes the bird's speed, \"Likewise\" signals a similarity, and \"For example\" would introduce an illustration of the bird's inability to fly."
+  },
+  {
+    "id": "rw-ei-141",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "In 1858, Charles Darwin was in England, still working on a lengthy book describing his theory of evolution by natural selection. ______ thousands of kilometers away in the Malay Archipelago, naturalist Alfred Russel Wallace had independently developed a nearly identical theory, which he described in an essay that he mailed to Darwin.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Consequently,",
+      "For instance,",
+      "Meanwhile,",
+      "In other words,"
+    ],
+    "answer": 2,
+    "explanation": "The passage describes two things happening at the same time in different places, so \"Meanwhile\" (Choice C) is logical. \"Consequently\" would wrongly make Wallace's independent work a result of Darwin's, \"In other words\" would treat it as a restatement, and \"For instance\" would treat it as an example."
+  },
+  {
+    "id": "rw-ei-142",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "Unlike whales and seals, which rely on thick layers of blubber to stay warm in cold water, sea otters have very little body fat. They depend instead on the densest fur of any animal, which traps a layer of air against their skin. ______ sea otters spend hours each day grooming: if their fur becomes matted or dirty, it loses its insulating air layer, and the otter can quickly become dangerously cold.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "For this reason,",
+      "Similarly,",
+      "In contrast,",
+      "However,"
+    ],
+    "answer": 0,
+    "explanation": "Because sea otters rely entirely on their fur's air layer for warmth, they must groom constantly to keep it working; \"For this reason\" (Choice A) signals this cause-and-effect relationship. \"In contrast\" is tempting because the passage opens with a contrast between otters and blubbery animals, but the grooming sentence follows from the otters' reliance on fur rather than contrasting with it. \"However\" also signals an opposition that is not present, and \"Similarly\" signals a parallel."
+  },
+  {
+    "id": "rw-ei-143",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "Sound travels through air as vibrations passed from one molecule to the next. Outer space, however, is nearly empty, with almost no molecules to carry these vibrations. ______ sound cannot travel through space the way it travels through Earth's atmosphere.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "However,",
+      "Similarly,",
+      "Therefore,",
+      "For instance,"
+    ],
+    "answer": 2,
+    "explanation": "Because sound needs molecules to travel and space has almost none, it follows that sound cannot travel through space; \"Therefore\" (Choice C) introduces this conclusion. \"However\" signals a contrast that is not present, \"Similarly\" a comparison, and \"For instance\" an example."
+  },
+  {
+    "id": "rw-ei-144",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "Cheetahs are built for speed rather than strength, with slender bodies, long legs, and light bones. ______ they are so lightly built that they rarely fight to defend their kills: lions and hyenas often drive cheetahs away and take the food for themselves.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Indeed,",
+      "However,",
+      "Instead,",
+      "Similarly,"
+    ],
+    "answer": 0,
+    "explanation": "The second sentence reinforces and intensifies the first by showing just how lightly built cheetahs are, so \"Indeed\" (Choice A) fits. \"However\" and \"Instead\" signal a contrast or replacement, but the two sentences agree. \"Similarly\" would compare cheetahs to something else rather than build on the same point."
+  },
+  {
+    "id": "rw-ei-145",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "When the price of a product rises, people usually buy less of it. Economists have identified some exceptions to this pattern, however: for certain goods, a higher price can actually increase demand. ______ some buyers find luxury items such as designer watches more desirable precisely because their high prices signal exclusivity and status.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "In other words,",
+      "Consequently,",
+      "Even so,",
+      "For example,"
+    ],
+    "answer": 3,
+    "explanation": "Luxury items that become more desirable as their price rises are a specific instance of the exceptions just described, so \"For example\" (Choice D) is logical. \"In other words\" is the main trap, but the final sentence does not restate the general claim; it narrows it to a particular kind of good and buyer. \"Consequently\" would make buyers' preferences a result of economists' findings, and \"Even so\" signals a contrast that is not present."
+  },
+  {
+    "id": "rw-ei-146",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "Botanists classify the Venus flytrap as a carnivorous plant. ______ it captures and digests animals, mostly insects and spiders, to obtain nutrients such as nitrogen that are scarce in the boggy soil where it grows.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Meanwhile,",
+      "In other words,",
+      "By contrast,",
+      "Even so,"
+    ],
+    "answer": 1,
+    "explanation": "The second sentence explains what it means for the Venus flytrap to be \"carnivorous,\" so \"In other words\" (Choice B) is the logical transition. \"By contrast\" and \"Even so\" signal contrast, and \"Meanwhile\" indicates something happening at the same time, none of which matches the restatement."
+  },
+  {
+    "id": "rw-ei-147",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "Astronomers say that the Moon is \"tidally locked\" to Earth. ______ the Moon rotates on its axis exactly once for each orbit it completes around our planet, which is why the same side of the Moon always faces Earth.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Nevertheless,",
+      "That is,",
+      "For instance,",
+      "By comparison,"
+    ],
+    "answer": 1,
+    "explanation": "The second sentence explains what the term \"tidally locked\" means, so the clarifying transition \"That is\" (Choice B) is logical. \"Nevertheless\" signals a contrast, \"For instance\" an example, and \"By comparison\" a comparison with something else."
+  },
+  {
+    "id": "rw-ei-148",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "Modern concrete exposed to seawater gradually weakens as salt eats away at it and at the steel bars inside it. Yet Roman harbor structures built with concrete two thousand years ago remain largely intact. Researchers have found that the Romans mixed lime with volcanic ash, and that when seawater seeped into this mixture, it triggered the growth of interlocking mineral crystals that filled cracks and reinforced the material. ______ the very seawater that damages modern concrete made Roman concrete stronger over time.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "For instance,",
+      "In short,",
+      "Even so,",
+      "Likewise,"
+    ],
+    "answer": 1,
+    "explanation": "The final sentence sums up the passage's findings in a single, pointed statement, so \"In short\" (Choice B) is the logical transition. \"For instance\" would present the sentence as an example of the crystal growth rather than a summary of it, and \"Even so\" signals a contrast with the research findings, which the sentence actually confirms. \"Likewise\" would suggest a separate but parallel point."
+  }
+]

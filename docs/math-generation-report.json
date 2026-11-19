@@ -1,0 +1,623 @@
+{
+  "provenance": "Original seeded SAT-style numerical variants; not official College Board questions.",
+  "variantsPerFamily": 64,
+  "total": 5632,
+  "families": [
+    {
+      "family": "distribute",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "both-sides",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "fraction-linear",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "literal-equation",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "identity-parameter",
+      "domain": "Algebra",
+      "skill": "Linear equations in one variable",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "coordinate-substitution",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "intercept-standard",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "slope-points",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "parallel-intercept",
+      "domain": "Algebra",
+      "skill": "Linear equations in two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "linear-table",
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "service-fee",
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "linear-from-values",
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "break-even",
+      "domain": "Algebra",
+      "skill": "Linear functions",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "system-eliminate",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "ticket-system",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "system-expression",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "infinite-system",
+      "domain": "Algebra",
+      "skill": "Systems of two linear equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "budget-bound",
+      "domain": "Algebra",
+      "skill": "Linear inequalities in one or two variables",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "minimum-target",
+      "domain": "Algebra",
+      "skill": "Linear inequalities in one or two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "negative-inequality",
+      "domain": "Algebra",
+      "skill": "Linear inequalities in one or two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "two-resource-bound",
+      "domain": "Algebra",
+      "skill": "Linear inequalities in one or two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "binomial-middle",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "factor-coefficient",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "rational-cancel",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "exponent-quotient",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "remainder",
+      "domain": "Advanced Math",
+      "skill": "Equivalent expressions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "quadratic-roots",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "root-sum",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "root-product",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "one-real-root",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "radical-equation",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "rational-equation",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "quadratic-line-system",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "vertex-minimum",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "vertex-input",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "exponential-evaluate",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "growth-percent",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "decay-percent",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "exponential-period",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "function-shift",
+      "domain": "Advanced Math",
+      "skill": "Nonlinear functions",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "ratio-part",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, rates, proportional relationships, and units",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "unit-rate",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, rates, proportional relationships, and units",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "speed-conversion",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, rates, proportional relationships, and units",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "density",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, rates, proportional relationships, and units",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "combined-rate",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Ratios, rates, proportional relationships, and units",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "percent-of",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "reverse-percent",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "discount-price",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "successive-percent",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "percent-change",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Percentages",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "mean-missing",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: distributions and measures of center and spread",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "median-unsorted",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: distributions and measures of center and spread",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "weighted-mean",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: distributions and measures of center and spread",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "mean-shift",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: distributions and measures of center and spread",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "frequency-median",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "One-variable data: distributions and measures of center and spread",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "linear-prediction",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Two-variable data: models and scatterplots",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "residual",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Two-variable data: models and scatterplots",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "model-slope",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Two-variable data: models and scatterplots",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "inverse-prediction",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Two-variable data: models and scatterplots",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "probability-basic",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability and conditional probability",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "conditional-table",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability and conditional probability",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "without-replacement",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability and conditional probability",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "probability-union",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Probability and conditional probability",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "sample-estimate",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Inference from sample statistics and margin of error",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "margin-interval",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Inference from sample statistics and margin of error",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "interval-width",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Inference from sample statistics and margin of error",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "sample-size-margin",
+      "domain": "Problem-Solving and Data Analysis",
+      "skill": "Inference from sample statistics and margin of error",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "rectangle-area",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "triangle-area",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "prism-height",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "cylinder-volume",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "cone-volume",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "scale-volume",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Area and volume",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "triangle-angle",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, angles, and triangles",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "exterior-angle",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, angles, and triangles",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "isosceles-angle",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, angles, and triangles",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "similar-side",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, angles, and triangles",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "parallel-angle",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Lines, angles, and triangles",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "pythagorean-leg",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Right triangles and trigonometry",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "sine-ratio",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Right triangles and trigonometry",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "tangent-side",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Right triangles and trigonometry",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "special-triangle",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Right triangles and trigonometry",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "circle-area",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "circle-radius-equation",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "circle-complete-square",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "arc-length",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "sector-area",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "radians",
+      "domain": "Geometry and Trigonometry",
+      "skill": "Circles",
+      "difficulty": "easy",
+      "questions": 64
+    }
+  ]
+}

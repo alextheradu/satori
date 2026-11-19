@@ -1,0 +1,728 @@
+[
+  {
+    "id": "m-psda-101",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "easy",
+    "prompt": "A recipe for granola uses 3 cups of oats for every 2 cups of dried fruit. If a baker uses 12 cups of oats, how many cups of dried fruit should the baker use to keep the same ratio?",
+    "choices": [
+      "6",
+      "8",
+      "10",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "The ratio of oats to fruit is $3:2$, so $\\frac{3}{2} = \\frac{12}{f}$, giving $3f = 24$ and $f = 8$. Choice D multiplies 12 by $\\frac{3}{2}$ instead of $\\frac{2}{3}$."
+  },
+  {
+    "id": "m-psda-102",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "easy",
+    "prompt": "A machine fills 240 bottles in 15 minutes. At this rate, how many bottles will the machine fill in 40 minutes?",
+    "choices": [
+      "16",
+      "90",
+      "640",
+      "9,600"
+    ],
+    "answer": 2,
+    "explanation": "The rate is $\\frac{240}{15} = 16$ bottles per minute, so in 40 minutes the machine fills $16(40) = 640$ bottles. Choice A is the rate itself, and choice D multiplies 240 by 40."
+  },
+  {
+    "id": "m-psda-103",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "medium",
+    "prompt": "A cyclist rides at a constant speed of 5 meters per second. What is this speed in kilometers per hour? (1 kilometer = 1,000 meters)",
+    "choices": [
+      "0.083",
+      "0.3",
+      "1.39",
+      "18"
+    ],
+    "answer": 3,
+    "explanation": "In one hour there are $3{,}600$ seconds, so the cyclist travels $5(3{,}600) = 18{,}000$ meters, or $\\frac{18{,}000}{1{,}000} = 18$ kilometers, per hour. Choice B converts only minutes, not hours, and choice C divides by 3.6 instead of multiplying."
+  },
+  {
+    "id": "m-psda-104",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "medium",
+    "prompt": "On a map, 2 centimeters represent an actual distance of 15 kilometers. Two lakes are 9 centimeters apart on the map. What is the actual distance, in kilometers, between the two lakes?",
+    "answer": [
+      "67.5",
+      "135/2"
+    ],
+    "explanation": "Each centimeter represents $\\frac{15}{2} = 7.5$ kilometers, so 9 centimeters represent $9(7.5) = 67.5$ kilometers."
+  },
+  {
+    "id": "m-psda-105",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "medium",
+    "prompt": "Working together at the same constant rate, 4 identical printers can print 1,200 flyers in 30 minutes. How many minutes would it take 6 of these printers, working together at the same rate, to print 2,700 flyers?",
+    "choices": [
+      "20",
+      "45",
+      "67.5",
+      "101.25"
+    ],
+    "answer": 1,
+    "explanation": "Each printer prints $\\frac{1{,}200}{4 \\cdot 30} = 10$ flyers per minute, so 6 printers print 60 flyers per minute. Printing 2,700 flyers takes $\\frac{2{,}700}{60} = 45$ minutes. Choice C uses 4 printers instead of 6."
+  },
+  {
+    "id": "m-psda-106",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "hard",
+    "prompt": "A pump removes water from a flooded basement at a constant rate of 0.75 cubic foot per minute. The basement contains 2,025 gallons of water. If 1 cubic foot is equivalent to 7.5 gallons, how many hours will it take the pump to remove all of the water?",
+    "choices": [
+      "3.375",
+      "4.5",
+      "6",
+      "45"
+    ],
+    "answer": 2,
+    "explanation": "Convert gallons to cubic feet: $\\frac{2{,}025}{7.5} = 270$ cubic feet. Time is $\\frac{270}{0.75} = 360$ minutes, which is $\\frac{360}{60} = 6$ hours. Choice B ignores the pump rate, and choice D skips the gallon conversion."
+  },
+  {
+    "id": "m-psda-107",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "hard",
+    "prompt": "In a chess club, the ratio of boys to girls is 5 to 3. After 6 more girls join the club and no members leave, the ratio of boys to girls becomes 5 to 4. How many boys are in the club?",
+    "answer": [
+      "30"
+    ],
+    "explanation": "Let the club have $5k$ boys and $3k$ girls. Then $\\frac{5k}{3k + 6} = \\frac{5}{4}$, so $20k = 15k + 30$ and $k = 6$. The number of boys is $5(6) = 30$."
+  },
+  {
+    "id": "m-psda-108",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "easy",
+    "prompt": "What is $35\\%$ of 260?",
+    "choices": [
+      "9.1",
+      "91",
+      "169",
+      "225"
+    ],
+    "answer": 1,
+    "explanation": "$0.35(260) = 91$. Choice C is $65\\%$ of 260, and choice A misplaces the decimal point."
+  },
+  {
+    "id": "m-psda-109",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "easy",
+    "prompt": "A middle school has 400 students. Of these students, 18% walk to school. How many students at the school walk to school?",
+    "answer": [
+      "72"
+    ],
+    "explanation": "$18\\%$ of 400 is $0.18(400) = 72$."
+  },
+  {
+    "id": "m-psda-110",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "medium",
+    "prompt": "The price of a concert ticket increased from 64 dollars to 80 dollars. By what percent did the price increase?",
+    "choices": [
+      "16%",
+      "20%",
+      "25%",
+      "125%"
+    ],
+    "answer": 2,
+    "explanation": "Percent increase $= \\frac{80 - 64}{64} \\times 100\\% = \\frac{16}{64} \\times 100\\% = 25\\%$. Choice B divides by the new price, 80, instead of the original price, and choice D gives the new price as a percent of the original."
+  },
+  {
+    "id": "m-psda-111",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "medium",
+    "prompt": "After a 30% discount is applied, the price of a lamp is 49 dollars. What was the price of the lamp, in dollars, before the discount?",
+    "answer": [
+      "70"
+    ],
+    "explanation": "The sale price is $70\\%$ of the original price $p$, so $0.7p = 49$ and $p = 70$. (Adding $30\\%$ of 49 to 49 gives 63.7, which is incorrect because the discount is a percent of the original price.)"
+  },
+  {
+    "id": "m-psda-112",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "hard",
+    "prompt": "The population of a town decreased by 10% from 2019 to 2020, decreased by 10% from 2020 to 2021, and then increased by 20% from 2021 to 2022. Which of the following best describes the change in the town's population from 2019 to 2022?",
+    "choices": [
+      "A decrease of 8%",
+      "A decrease of 2.8%",
+      "No change",
+      "An increase of 2.8%"
+    ],
+    "answer": 1,
+    "explanation": "Multiply the growth factors: $(0.9)(0.9)(1.2) = 0.972$. The 2022 population is $97.2\\%$ of the 2019 population, a decrease of $2.8\\%$. Adding the percents ($-10 - 10 + 20 = 0$) incorrectly gives no change, because each percent applies to a different base."
+  },
+  {
+    "id": "m-psda-113",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "hard",
+    "prompt": "The value of $x$ is $150\\%$ of the value of $y$, and the value of $y$ is $40\\%$ of the value of $z$. If $z > 0$, the value of $x$ is what percent of the value of $z$?",
+    "answer": [
+      "60"
+    ],
+    "explanation": "$x = 1.5y$ and $y = 0.4z$, so $x = 1.5(0.4z) = 0.6z$. Thus $x$ is $60\\%$ of $z$."
+  },
+  {
+    "id": "m-psda-114",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "hard",
+    "prompt": "A store sets the regular price of a jacket by increasing the wholesale cost by 60%. During a sale, the regular price is reduced by 25%, and the sale price of the jacket is 96 dollars. What is the wholesale cost of the jacket, in dollars?",
+    "choices": [
+      "76.8",
+      "80",
+      "96",
+      "115.2"
+    ],
+    "answer": 1,
+    "explanation": "If the wholesale cost is $c$, the sale price is $c(1.6)(0.75) = 1.2c$. So $1.2c = 96$ and $c = 80$. Choice A treats the overall change as a $20\\%$ decrease from 96, and choice D multiplies 96 by 1.2."
+  },
+  {
+    "id": "m-psda-115",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "easy",
+    "prompt": "What is the median of the data set $12, 15, 9, 20, 15, 18, 11$?",
+    "choices": [
+      "11",
+      "15",
+      "18",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "In order, the values are $9, 11, 12, 15, 15, 18, 20$. With 7 values, the median is the 4th value, 15. Choice A is the range, and choice D is the middle value of the unordered list."
+  },
+  {
+    "id": "m-psda-116",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "easy",
+    "prompt": "The data set $7, 13, x, 22, 10$ has a range of 18. If $x$ is greater than 22, what is the value of $x$?",
+    "answer": [
+      "25"
+    ],
+    "explanation": "Since $x > 22$, $x$ is the maximum and 7 is the minimum. So $x - 7 = 18$, giving $x = 25$."
+  },
+  {
+    "id": "m-psda-117",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "easy",
+    "prompt": "The quiz scores for two small groups of students are shown.\n\nGroup A: $78, 79, 80, 80, 81, 82$\n\nGroup B: $60, 70, 80, 80, 90, 100$\n\nWhich of the following statements is true?",
+    "choices": [
+      "The standard deviation of the Group A scores is less than the standard deviation of the Group B scores.",
+      "The mean of the Group A scores is greater than the mean of the Group B scores.",
+      "The median of the Group B scores is greater than the median of the Group A scores.",
+      "The standard deviation of the Group A scores is greater than the standard deviation of the Group B scores."
+    ],
+    "answer": 0,
+    "explanation": "Both groups have a mean and a median of 80, so the first two statements are false. The Group A scores are clustered within 2 points of 80, while the Group B scores are spread up to 20 points from 80, so Group A has the smaller standard deviation."
+  },
+  {
+    "id": "m-psda-118",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "medium",
+    "prompt": "A data set consists of the 9 values $12, 14, 15, 15, 17, 19, 21, 22, 48$. If the value 48 is replaced with 84, which of the following describes how the mean and the median of the data set change?",
+    "choices": [
+      "Both the mean and the median increase.",
+      "The median increases, and the mean does not change.",
+      "Neither the mean nor the median changes.",
+      "The mean increases, and the median does not change."
+    ],
+    "answer": 3,
+    "explanation": "The median is the 5th value, 17, both before and after the change because the largest value stays the largest. The sum increases by $84 - 48 = 36$, so the mean increases by $\\frac{36}{9} = 4$ (from about 20.3 to about 24.3)."
+  },
+  {
+    "id": "m-psda-119",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "medium",
+    "prompt": "The table shows the number of books each of 25 students read over a summer.\n\n| Number of books | Number of students |\n|---|---|\n| 0 | 4 |\n| 1 | 6 |\n| 2 | 7 |\n| 3 | 5 |\n| 4 | 3 |\n\nWhat is the mean number of books read by these 25 students?",
+    "answer": [
+      "1.88",
+      "47/25"
+    ],
+    "explanation": "Total books $= 0(4) + 1(6) + 2(7) + 3(5) + 4(3) = 47$. The mean is $\\frac{47}{25} = 1.88$."
+  },
+  {
+    "id": "m-psda-120",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "A data set has a mean of 14 and a standard deviation of 3. Each value in the data set is multiplied by 2, and then 5 is added to each result. What are the mean and standard deviation of the new data set?",
+    "choices": [
+      "Mean: 28; standard deviation: 6",
+      "Mean: 33; standard deviation: 3",
+      "Mean: 33; standard deviation: 6",
+      "Mean: 33; standard deviation: 11"
+    ],
+    "answer": 2,
+    "explanation": "Every value is transformed by $2v + 5$, so the mean becomes $2(14) + 5 = 33$. Adding 5 shifts all values equally and does not change spread, but doubling doubles every distance from the mean, so the standard deviation becomes $2(3) = 6$. Choice D wrongly applies the $+5$ to the standard deviation."
+  },
+  {
+    "id": "m-psda-121",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "Group A consists of 18 students with a mean test score of 72. Group B consists of $n$ students with a mean test score of 84. When the two groups are combined, the mean test score of all the students is 80. What is the value of $n$?",
+    "answer": [
+      "36"
+    ],
+    "explanation": "The total of the scores is $18(72) + 84n = 80(18 + n)$. So $1{,}296 + 84n = 1{,}440 + 80n$, giving $4n = 144$ and $n = 36$."
+  },
+  {
+    "id": "m-psda-122",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "easy",
+    "prompt": "A student recorded the height of a burning candle at several times. The line of best fit for the data is $y = -1.5x + 22$, where $y$ is the height of the candle, in centimeters, $x$ hours after it was lit. Which of the following is the best interpretation of $-1.5$ in this context?",
+    "choices": [
+      "The estimated height of the candle decreases by 1.5 centimeters for each hour it burns.",
+      "The estimated height of the candle when it was lit is 1.5 centimeters.",
+      "The candle is estimated to burn completely in 1.5 hours.",
+      "The estimated height of the candle decreases by 22 centimeters for each hour it burns."
+    ],
+    "answer": 0,
+    "explanation": "In $y = -1.5x + 22$, the slope $-1.5$ is the change in $y$ (height) per 1-unit increase in $x$ (hours). So the estimated height decreases by 1.5 centimeters per hour. The initial height is the $y$-intercept, 22."
+  },
+  {
+    "id": "m-psda-123",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "easy",
+    "prompt": "The line of best fit for a data set relating the number of minutes $x$ a student studied and the student's quiz score $y$ is $y = 3.2x + 41$. Based on this line, what is the predicted quiz score for a student who studied for 15 minutes?",
+    "choices": [
+      "48",
+      "56",
+      "89",
+      "663"
+    ],
+    "answer": 2,
+    "explanation": "Substitute $x = 15$: $y = 3.2(15) + 41 = 48 + 41 = 89$. Choice A omits the intercept, and choice D computes $(3.2 + 41)(15)$."
+  },
+  {
+    "id": "m-psda-124",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "medium",
+    "prompt": "The table shows five data points.\n\n| $x$ | $y$ |\n|---|---|\n| 0 | 5.1 |\n| 2 | 8.9 |\n| 4 | 13.2 |\n| 6 | 16.8 |\n| 8 | 21.0 |\n\nWhich of the following equations best models the data?",
+    "choices": [
+      "$y = 5x + 2$",
+      "$y = -2x + 5$",
+      "$y = 0.5x + 5$",
+      "$y = 2x + 5$"
+    ],
+    "answer": 3,
+    "explanation": "When $x = 0$, $y \\approx 5$, so the $y$-intercept is about 5. As $x$ increases by 2, $y$ increases by about 4, so the slope is about $\\frac{4}{2} = 2$. Thus $y = 2x + 5$. Choice B has a negative slope, but $y$ increases as $x$ increases."
+  },
+  {
+    "id": "m-psda-125",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "medium",
+    "prompt": "A line of best fit for a scatterplot passes through the points $(2, 13)$ and $(10, 37)$. Based on this line of best fit, what is the predicted value of $y$ when $x = 7$?",
+    "answer": [
+      "28"
+    ],
+    "explanation": "Slope $= \\frac{37 - 13}{10 - 2} = 3$. Using $(2, 13)$: $13 = 3(2) + b$, so $b = 7$ and $y = 3x + 7$. At $x = 7$, $y = 3(7) + 7 = 28$."
+  },
+  {
+    "id": "m-psda-126",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "medium",
+    "prompt": "The table shows the number of members $y$ of an online club $x$ months after the club was formed.\n\n| $x$ | $y$ |\n|---|---|\n| 0 | 200 |\n| 1 | 240 |\n| 2 | 288 |\n| 3 | 345.6 |\n\nWhich of the following equations models the relationship shown in the table?",
+    "choices": [
+      "$y = 200 + 40x$",
+      "$y = 200(0.8)^x$",
+      "$y = 240(1.2)^x$",
+      "$y = 200(1.2)^x$"
+    ],
+    "answer": 3,
+    "explanation": "Each value is $1.2$ times the previous one ($\\frac{240}{200} = \\frac{288}{240} = \\frac{345.6}{288} = 1.2$), and $y = 200$ when $x = 0$, so $y = 200(1.2)^x$. The linear model $y = 200 + 40x$ gives 280, not 288, when $x = 2$."
+  },
+  {
+    "id": "m-psda-127",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "hard",
+    "prompt": "A line of best fit for a data set is $y = 1.8x + 12$. One of the data points is $(20, 45)$. What is the value of the actual $y$-value of this data point minus the $y$-value predicted by the line of best fit?",
+    "choices": [
+      "$-3$",
+      "3",
+      "45",
+      "48"
+    ],
+    "answer": 0,
+    "explanation": "The predicted value is $1.8(20) + 12 = 48$. Actual minus predicted is $45 - 48 = -3$. Choice B reverses the subtraction, and choice D is the predicted value."
+  },
+  {
+    "id": "m-psda-128",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "hard",
+    "prompt": "The function $f(x) = 850(0.92)^{x/2}$ models the estimated number of frogs in a wetland $x$ years after 2015. Which of the following best describes how the estimated number of frogs changes over time, according to the model?",
+    "choices": [
+      "It decreases by 8% every 2 years.",
+      "It decreases by 4% every year.",
+      "It decreases by 8% every year.",
+      "It decreases by 16% every 2 years."
+    ],
+    "answer": 0,
+    "explanation": "When $x$ increases by 2, the exponent $\\frac{x}{2}$ increases by 1, so the value is multiplied by $0.92$, a decrease of $8\\%$ every 2 years. The yearly factor is $\\sqrt{0.92} \\approx 0.959$, a decrease of about $4.1\\%$ per year, not exactly $4\\%$."
+  },
+  {
+    "id": "m-psda-129",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "easy",
+    "prompt": "A spinner is divided into 8 equal sections numbered 1 through 8. If the spinner is spun once, what is the probability that it lands on a number greater than 5?",
+    "choices": [
+      "$\\frac{1}{4}$",
+      "$\\frac{3}{8}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{5}{8}$"
+    ],
+    "answer": 1,
+    "explanation": "The numbers greater than 5 are 6, 7, and 8, so the probability is $\\frac{3}{8}$. Choice C counts 5 as well, and choice D is the probability of a number 5 or less."
+  },
+  {
+    "id": "m-psda-130",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "easy",
+    "prompt": "A bag contains 6 red marbles, 9 blue marbles, and 5 green marbles. If one marble is selected at random from the bag, what is the probability that it is blue?",
+    "answer": [
+      "9/20",
+      ".45",
+      "0.45"
+    ],
+    "explanation": "There are $6 + 9 + 5 = 20$ marbles, 9 of which are blue. The probability is $\\frac{9}{20}$, or 0.45."
+  },
+  {
+    "id": "m-psda-131",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "easy",
+    "prompt": "The table shows the number of cars on a dealer's lot, classified by color and type.\n\n| Color | Sedan | SUV | Total |\n|---|---|---|---|\n| Black | 14 | 18 | 32 |\n| White | 22 | 26 | 48 |\n| Total | 36 | 44 | 80 |\n\nIf one of these cars is selected at random, what is the probability that it is a white SUV?",
+    "choices": [
+      "$\\frac{13}{40}$",
+      "$\\frac{13}{24}$",
+      "$\\frac{13}{22}$",
+      "$\\frac{3}{5}$"
+    ],
+    "answer": 0,
+    "explanation": "There are 26 white SUVs out of 80 cars, so the probability is $\\frac{26}{80} = \\frac{13}{40}$. Choices B and C divide by the number of white cars and SUVs, respectively, and choice D is the probability of a white car."
+  },
+  {
+    "id": "m-psda-132",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "medium",
+    "prompt": "The table shows how the 200 employees of a company usually commute to work, by department.\n\n| Department | Drive | Public transit | Bicycle | Total |\n|---|---|---|---|---|\n| Sales | 42 | 30 | 8 | 80 |\n| Engineering | 51 | 45 | 24 | 120 |\n| Total | 93 | 75 | 32 | 200 |\n\nIf an employee in the engineering department is selected at random, what is the probability that the employee usually commutes by bicycle?",
+    "choices": [
+      "$\\frac{3}{25}$",
+      "$\\frac{1}{5}$",
+      "$\\frac{8}{25}$",
+      "$\\frac{3}{4}$"
+    ],
+    "answer": 1,
+    "explanation": "Restrict to the 120 engineering employees, 24 of whom bicycle: $\\frac{24}{120} = \\frac{1}{5}$. Choice A divides by all 200 employees, and choice D gives the probability that a bicycle commuter is in engineering."
+  },
+  {
+    "id": "m-psda-133",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "medium",
+    "prompt": "The table summarizes the favorite sport of 160 students.\n\n| Grade | Soccer | Basketball | Tennis | Total |\n|---|---|---|---|---|\n| Grade 10 | 28 | 22 | 14 | 64 |\n| Grade 11 | 36 | 30 | 30 | 96 |\n| Total | 64 | 52 | 44 | 160 |\n\nIf a student whose favorite sport is soccer is selected at random, what is the probability that the student is in grade 10?",
+    "answer": [
+      "7/16",
+      ".4375",
+      "0.4375"
+    ],
+    "explanation": "There are $28 + 36 = 64$ students whose favorite sport is soccer, and 28 of them are in grade 10. The probability is $\\frac{28}{64} = \\frac{7}{16}$."
+  },
+  {
+    "id": "m-psda-134",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "hard",
+    "prompt": "In a group of 250 people, 40% own a pet. Of the people who own a pet, 35% live in an apartment. Of the people who do not own a pet, 60% live in an apartment. If a person from this group who lives in an apartment is selected at random, what is the probability that the person owns a pet?",
+    "choices": [
+      "0.14",
+      "0.28",
+      "0.35",
+      "0.50"
+    ],
+    "answer": 1,
+    "explanation": "Pet owners: $0.4(250) = 100$, and $0.35(100) = 35$ of them live in apartments. Non-owners: 150, and $0.6(150) = 90$ live in apartments. Of the $35 + 90 = 125$ apartment dwellers, 35 own a pet: $\\frac{35}{125} = 0.28$. Choice A divides by 250, and choice C is the probability of living in an apartment given pet ownership."
+  },
+  {
+    "id": "m-psda-135",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "hard",
+    "prompt": "The table summarizes whether students who took a certification exam passed, by whether they took a prep course.\n\n| Group | Passed | Did not pass |\n|---|---|---|\n| Took prep course | $x$ | 12 |\n| Did not take prep course | 45 | 33 |\n\nIf a student who passed the exam is selected at random, the probability that the student took the prep course is 0.4. How many students took the prep course?",
+    "answer": [
+      "42"
+    ],
+    "explanation": "Of the $x + 45$ students who passed, $x$ took the course, so $\\frac{x}{x + 45} = 0.4$. Then $x = 0.4x + 18$, $0.6x = 18$, and $x = 30$. The number who took the course is $30 + 12 = 42$."
+  },
+  {
+    "id": "m-psda-136",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "easy",
+    "prompt": "Based on a random sample of commuters in a city, a researcher estimated that the mean commute time for all commuters in the city is 34 minutes, with an associated margin of error of 3 minutes. Which of the following is a plausible value for the mean commute time, in minutes, of all commuters in the city?",
+    "choices": [
+      "29",
+      "30",
+      "36",
+      "38"
+    ],
+    "answer": 2,
+    "explanation": "Plausible values lie within the margin of error: from $34 - 3 = 31$ to $34 + 3 = 37$ minutes. Only 36 is in this interval."
+  },
+  {
+    "id": "m-psda-137",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "easy",
+    "prompt": "A factory produced 15,000 light bulbs in one week. A quality inspector tested a random sample of 300 of these bulbs and found that 9 were defective. Based on this sample, which of the following is the best estimate of the number of defective bulbs among the 15,000 produced that week?",
+    "choices": [
+      "9",
+      "45",
+      "450",
+      "1,500"
+    ],
+    "answer": 2,
+    "explanation": "The sample defect rate is $\\frac{9}{300} = 0.03$. Applying it to the full week's production gives $0.03(15{,}000) = 450$ defective bulbs."
+  },
+  {
+    "id": "m-psda-138",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "medium",
+    "prompt": "A polling organization surveyed a random sample of 600 registered voters in a state to estimate the proportion who support a proposed law. Which of the following changes to the survey would most likely decrease the margin of error of the estimate?",
+    "choices": [
+      "Surveying a random sample of 1,200 registered voters in the state instead",
+      "Surveying a random sample of 300 registered voters in the state instead",
+      "Surveying 600 registered voters who respond to an online advertisement instead",
+      "Surveying 600 registered voters from the state's largest city instead"
+    ],
+    "answer": 0,
+    "explanation": "For a random sample, increasing the sample size decreases the margin of error. A smaller sample increases it, and nonrandom samples (online volunteers or one city) introduce bias rather than improving precision."
+  },
+  {
+    "id": "m-psda-139",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "medium",
+    "prompt": "The manager of a fitness center selected 150 of the center's 2,400 members at random and asked each how many times per week they exercise. The mean response was 3.4 times per week. What is the largest group to which the results of this survey can appropriately be generalized?",
+    "choices": [
+      "All adults who exercise at any fitness center",
+      "All adults in the city where the fitness center is located",
+      "All 2,400 members of the fitness center",
+      "Only the 150 members who were surveyed"
+    ],
+    "answer": 2,
+    "explanation": "The sample was randomly selected from the center's members, so the results can be generalized to all 2,400 members, but not to other gyms or the whole city, which were not sampled. The surveyed 150 are a subset of the members, so they are not the largest such group."
+  },
+  {
+    "id": "m-psda-140",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "hard",
+    "prompt": "A botanist selected a random sample of plants of one species from Field 1 and a separate random sample of plants of the same species from Field 2. Based on the samples, the mean height of the plants in Field 1 is estimated to be 42.5 centimeters, with an associated margin of error of 1.8 centimeters. The mean height of the plants in Field 2 is estimated to be 45.1 centimeters, with an associated margin of error of 1.2 centimeters. Which of the following statements is best supported by these estimates?",
+    "choices": [
+      "The mean height of all such plants in Field 2 is greater than the mean height of all such plants in Field 1.",
+      "Every such plant in Field 2 is taller than every such plant in Field 1.",
+      "The mean height of all such plants in Field 2 is exactly 2.6 centimeters greater than that of Field 1.",
+      "It is plausible that the mean height of all such plants in Field 1 is equal to the mean height of all such plants in Field 2."
+    ],
+    "answer": 3,
+    "explanation": "The plausible values for Field 1 are 40.7 to 44.3 cm, and for Field 2 are 43.9 to 46.3 cm. These intervals overlap (for example, 44 cm is plausible for both), so the population means could be equal. The estimates do not establish which mean is greater or by exactly how much, and they say nothing about individual plants."
+  },
+  {
+    "id": "m-psda-141",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "hard",
+    "prompt": "A researcher surveyed a random sample of 900 adults in a state and found that 10% of them own an electric vehicle. The associated margin of error is 2 percentage points. Which of the following is the most appropriate conclusion?",
+    "choices": [
+      "It is plausible that between 8% and 12% of all adults in the state own an electric vehicle.",
+      "Between 8% and 12% of the adults in the sample own an electric vehicle.",
+      "Exactly 10% of all adults in the state own an electric vehicle.",
+      "Between 8% and 12% of all adults in the country own an electric vehicle."
+    ],
+    "answer": 0,
+    "explanation": "The margin of error describes uncertainty about the population proportion: plausible values are $10\\% \\pm 2\\%$, or 8% to 12% of all adults in the state. The sample proportion is known exactly (10%), the population value is not known exactly, and the sample was drawn only from the state, not the whole country."
+  },
+  {
+    "id": "m-psda-142",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "hard",
+    "prompt": "A town has 18,000 households. A random sample of 250 of these households found that 30% of the sampled households have solar panels, with an associated margin of error of 5.5 percentage points. Which of the following is the most plausible range for the number of households in the town that have solar panels?",
+    "choices": [
+      "Between 61 and 89",
+      "Between 5,103 and 5,697",
+      "Exactly 5,400",
+      "Between 4,410 and 6,390"
+    ],
+    "answer": 3,
+    "explanation": "The plausible proportions are $30\\% \\pm 5.5\\%$, or $24.5\\%$ to $35.5\\%$. Applied to 18,000 households: $0.245(18{,}000) = 4{,}410$ and $0.355(18{,}000) = 6{,}390$. Choice A applies the range to the 250 sampled households, and choice B incorrectly takes $5.5\\%$ of 5,400."
+  },
+  {
+    "id": "m-psda-143",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "easy",
+    "prompt": "A gardener had 60 tomato plants in a greenhouse. She randomly assigned 30 of the plants to receive Fertilizer X and the other 30 to receive no fertilizer. The plants that received Fertilizer X produced significantly more tomatoes. Which of the following conclusions is best supported by this study?",
+    "choices": [
+      "Fertilizer X caused an increase in tomato production for the plants in the study.",
+      "Fertilizer X increases tomato production for every tomato plant in the world.",
+      "No conclusion about cause and effect can be made, because the plants were not randomly selected from all tomato plants.",
+      "Fertilizer X increases production for all types of vegetable plants."
+    ],
+    "answer": 0,
+    "explanation": "Random assignment to treatment groups supports a cause-and-effect conclusion for the plants in the study. Because the plants were not randomly selected from a larger population, the result cannot be generalized to all tomato plants or to other vegetables, but the lack of random selection does not prevent a causal conclusion for the plants studied."
+  },
+  {
+    "id": "m-psda-144",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "easy",
+    "prompt": "A teacher wants to determine whether a new study method causes higher test scores among the 80 students in her classes. Which of the following study designs would best allow her to reach this conclusion?",
+    "choices": [
+      "Let each student choose whether to use the new method, and then compare the two groups' test scores.",
+      "Have all 80 students use the new method, and then compare their test scores with those of last year's students.",
+      "Have the 40 students with the highest grades use the new method, and then compare the two groups' test scores.",
+      "Randomly assign half of the 80 students to use the new method and the other half to use their usual method, and then compare the two groups' test scores."
+    ],
+    "answer": 3,
+    "explanation": "Only random assignment makes the two groups similar in all respects except the study method, so a difference in scores can be attributed to the method. Letting students choose, comparing with a different year, or assigning by grades all create groups that differ in other ways."
+  },
+  {
+    "id": "m-psda-145",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A researcher invited 200 adults to take part in a study. Each participant chose whether to follow an 8-week meditation program. At the end of the study, the participants who meditated reported lower stress levels, on average, than those who did not. Which of the following is the best reason the researcher cannot conclude that meditation caused lower stress among the participants?",
+    "choices": [
+      "The participants were not randomly selected from all adults.",
+      "The study included fewer than 1,000 participants.",
+      "The participants were not randomly assigned to meditate or not meditate.",
+      "The participants' stress levels were measured at the end of the study."
+    ],
+    "answer": 2,
+    "explanation": "Because participants chose their own group, people who chose to meditate may differ from others in ways that also affect stress. Random assignment is needed for a causal conclusion. Random selection affects generalizing to a population, not causation among the participants."
+  },
+  {
+    "id": "m-psda-146",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A cycling magazine posted a poll on its website asking whether the city should build more bike lanes. Of the 3,000 people who responded, 82% said yes. Can the results of this poll be used to conclude that most residents of the city support building more bike lanes?",
+    "choices": [
+      "No, because the respondents were not randomly selected and are likely more supportive of cycling than city residents in general.",
+      "Yes, because 3,000 is a large number of respondents.",
+      "Yes, because more than 80% of the respondents support more bike lanes.",
+      "No, because a sample must include at least half of a city's residents."
+    ],
+    "answer": 0,
+    "explanation": "The respondents chose to answer a poll on a cycling magazine's website, so they are a self-selected group likely to favor bike lanes. A large biased sample does not fix bias, and a valid sample does not need to include half the population."
+  },
+  {
+    "id": "m-psda-147",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A school district with 5,000 students wants to test whether a new reading app causes higher vocabulary scores among students in the district. Which of the following study designs would best support this conclusion for all students in the district?",
+    "choices": [
+      "Select 200 students at random from the district, let each student decide whether to use the app, and compare the scores of users and nonusers.",
+      "Select 200 volunteers from one school in the district, randomly assign 100 of them to use the app and 100 not to use it, and compare their scores.",
+      "Compare the scores of all district students who already use the app with the scores of those who do not.",
+      "Select 200 students at random from the district, randomly assign 100 of them to use the app and 100 not to use it, and compare their scores."
+    ],
+    "answer": 3,
+    "explanation": "A causal conclusion requires random assignment, and generalizing to the whole district requires random selection from the district. Only the correct design has both. The volunteer design lacks random selection, and the other two designs lack random assignment."
+  },
+  {
+    "id": "m-psda-148",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "Researchers selected a random sample of 2,000 adults in a country and recorded whether each adult owns a dog and how many steps the adult takes per day. On average, the dog owners in the sample took significantly more steps per day than those who did not own a dog. Which of the following conclusions is best supported by the study?",
+    "choices": [
+      "Owning a dog causes adults in the country to take more steps per day.",
+      "If an adult in the country who does not own a dog gets one, that adult will take more steps per day.",
+      "Among adults in every country, owning a dog is associated with taking more steps per day.",
+      "Among adults in the country, owning a dog is associated with taking more steps per day."
+    ],
+    "answer": 3,
+    "explanation": "This is an observational study with random selection from the country's adults, so the association can be generalized to adults in that country. Because dog ownership was not randomly assigned, the study cannot show that owning a dog causes more steps, and the sample does not represent other countries."
+  }
+]

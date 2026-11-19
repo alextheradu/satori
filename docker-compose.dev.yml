@@ -1,0 +1,29 @@
+# Local development database only (no app container).
+#   npm run db:up      start Postgres 18 on localhost:5433
+#   npm run db:down    stop it (data is kept)
+#   npm run db:psql    open a psql shell
+# Matches DATABASE_URL=postgres://satori:satori@localhost:5433/satori in .env.example
+name: satori-dev
+
+services:
+  db:
+    image: postgres:18-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: satori
+      POSTGRES_PASSWORD: satori
+      POSTGRES_DB: satori
+    ports:
+      # Host port 5433 so it doesn't clash with other local Postgres instances
+      - "127.0.0.1:${SATORI_DB_PORT:-5433}:5432"
+    volumes:
+      # Postgres 18 images keep data under /var/lib/postgresql/18/docker
+      - pgdata:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U satori -d satori"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  pgdata:

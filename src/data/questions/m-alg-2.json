@@ -1,0 +1,723 @@
+[
+  {
+    "id": "m-alg-101",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "easy",
+    "prompt": "If $\\frac{x}{3} + 5 = 11$, what is the value of $x$?",
+    "choices": [
+      "$18$",
+      "$2$",
+      "$48$",
+      "$6$"
+    ],
+    "answer": 0,
+    "explanation": "Subtract $5$ from both sides: $\\frac{x}{3} = 6$. Multiply both sides by $3$: $x = 18$. Choice $6$ stops before multiplying by $3$, $2$ divides by $3$ instead of multiplying, and $48$ adds $5$ instead of subtracting it."
+  },
+  {
+    "id": "m-alg-102",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "easy",
+    "prompt": "A plumber charges a one-time fee of $65$ dollars for a house call plus $40$ dollars for each hour of work. A customer's total bill for one house call was $245$ dollars. For how many hours did the plumber work?",
+    "choices": [
+      "$6.125$",
+      "$4.5$",
+      "$7.75$",
+      "$180$"
+    ],
+    "answer": 1,
+    "explanation": "The bill is $65 + 40h = 245$. Subtract $65$: $40h = 180$, so $h = 4.5$ hours. Choice $6.125$ ignores the fixed fee ($245 \\div 40$), $7.75$ adds the fee instead of subtracting it, and $180$ is the labor cost in dollars, not the number of hours."
+  },
+  {
+    "id": "m-alg-103",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "easy",
+    "prompt": "What value of $x$ satisfies the equation $5 - 2(x + 4) = -13$?",
+    "answer": [
+      "5"
+    ],
+    "explanation": "Distribute: $5 - 2x - 8 = -13$, so $-2x - 3 = -13$. Add $3$: $-2x = -10$, so $x = 5$. A common error is distributing as $-2x + 8$, which gives $x = 13$."
+  },
+  {
+    "id": "m-alg-104",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "easy",
+    "prompt": "If $4x - 6 = 18$, what is the value of $2x - 3$?",
+    "choices": [
+      "$6$",
+      "$18$",
+      "$9$",
+      "$24$"
+    ],
+    "answer": 2,
+    "explanation": "Notice that $4x - 6 = 2(2x - 3)$. So $2(2x - 3) = 18$, and $2x - 3 = 9$. (Alternatively, $x = 6$ and $2(6) - 3 = 9$.) Choice $6$ is the value of $x$, $18$ is the value of $4x - 6$, and $24$ is the value of $4x$."
+  },
+  {
+    "id": "m-alg-105",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "medium",
+    "prompt": "How many solutions does the equation $6(x - 2) + 4 = 2(3x - 4)$ have?",
+    "choices": [
+      "Zero",
+      "Exactly one",
+      "Exactly two",
+      "Infinitely many"
+    ],
+    "answer": 3,
+    "explanation": "Simplify the left side: $6x - 12 + 4 = 6x - 8$. The right side is $6x - 8$. Both sides are identical, so every value of $x$ makes the equation true: there are infinitely many solutions. A linear equation can never have exactly two solutions, and \"zero\" would require equal $x$-coefficients with different constants."
+  },
+  {
+    "id": "m-alg-106",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "medium",
+    "prompt": "What is the solution to the equation $\\frac{x + 2}{5} = \\frac{x - 4}{3}$?",
+    "answer": [
+      "13"
+    ],
+    "explanation": "Cross-multiply: $3(x + 2) = 5(x - 4)$, so $3x + 6 = 5x - 20$. Then $26 = 2x$, and $x = 13$."
+  },
+  {
+    "id": "m-alg-107",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "medium",
+    "prompt": "Jamal has $120$ dollars in savings and spends $8$ dollars of it each week. Lena has $36$ dollars in savings and adds $6$ dollars to it each week. If these patterns continue, after how many weeks will Jamal and Lena have the same amount of money in savings?",
+    "choices": [
+      "$6$",
+      "$42$",
+      "$10.5$",
+      "$14$"
+    ],
+    "answer": 0,
+    "explanation": "After $w$ weeks, Jamal has $120 - 8w$ dollars and Lena has $36 + 6w$ dollars. Set them equal: $120 - 8w = 36 + 6w$, so $84 = 14w$ and $w = 6$. Choice $42$ subtracts the rates ($84 \\div 2$) as if both were saving, $10.5$ uses only Jamal's rate, and $14$ is the combined weekly change, not the number of weeks."
+  },
+  {
+    "id": "m-alg-108",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "In the equation $ax + 12 = 4(3x - b)$, $a$ and $b$ are constants. If the equation has no solution, which of the following must be true?",
+    "choices": [
+      "$a = 12$ and $b = -3$",
+      "$a = 12$ and $b \\ne -3$",
+      "$a \\ne 12$",
+      "$a = 4$ and $b \\ne 3$"
+    ],
+    "answer": 1,
+    "explanation": "Expand the right side: $12x - 4b$. The equation $ax + 12 = 12x - 4b$ has no solution when the $x$-terms cancel but the constants differ. So $a = 12$ and $12 \\ne -4b$, which means $b \\ne -3$. If $a = 12$ and $b = -3$, both sides are identical (infinitely many solutions), and if $a \\ne 12$ there is exactly one solution."
+  },
+  {
+    "id": "m-alg-109",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "What value of $x$ satisfies the equation $\\frac{2}{3}(6x - 9) - \\frac{1}{2}(4x + 10) = 3x - 1$?",
+    "answer": [
+      "-10"
+    ],
+    "explanation": "Distribute: $4x - 6 - 2x - 5 = 3x - 1$, so $2x - 11 = 3x - 1$. Subtract $2x$ and add $1$: $-10 = x$. So $x = -10$."
+  },
+  {
+    "id": "m-alg-110",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "hard",
+    "prompt": "In the equation $5(x + p) = 3x + 2p + 18$, $p$ is a constant. If $x = p$ is the solution to the equation, what is the value of $p$?",
+    "choices": [
+      "$18$",
+      "$\\frac{18}{7}$",
+      "$\\frac{18}{5}$",
+      "$\\frac{6}{5}$"
+    ],
+    "answer": 2,
+    "explanation": "Substitute $x = p$: $5(p + p) = 3p + 2p + 18$, so $10p = 5p + 18$. Then $5p = 18$ and $p = \\frac{18}{5}$. Choice $18$ comes from distributing $5(x + p)$ as $5x + p$, $\\frac{18}{7}$ drops the $2p$ term, and $\\frac{6}{5}$ adds $5p$ to both sides instead of subtracting."
+  },
+  {
+    "id": "m-alg-111",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "easy",
+    "prompt": "A bakery sells muffins for $3$ dollars each and scones for $4$ dollars each. On Saturday, the bakery's total revenue from muffins and scones was $180$ dollars. Which equation represents this situation, where $m$ is the number of muffins sold and $s$ is the number of scones sold?",
+    "choices": [
+      "$4m + 3s = 180$",
+      "$m + s = 180$",
+      "$7(m + s) = 180$",
+      "$3m + 4s = 180$"
+    ],
+    "answer": 3,
+    "explanation": "Revenue from muffins is $3m$ and from scones is $4s$, so $3m + 4s = 180$. Choice $4m + 3s = 180$ swaps the prices, $m + s = 180$ counts items instead of dollars, and $7(m + s)$ charges every item $7$ dollars."
+  },
+  {
+    "id": "m-alg-112",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "easy",
+    "prompt": "Which of the following points lies on the graph of $2x + 5y = 30$ in the $xy$-plane?",
+    "choices": [
+      "$(5, 4)$",
+      "$(4, 5)$",
+      "$(6, 3)$",
+      "$(0, 15)$"
+    ],
+    "answer": 0,
+    "explanation": "Substitute each point. For $(5, 4)$: $2(5) + 5(4) = 10 + 20 = 30$. The others give $2(4) + 5(5) = 33$, $2(6) + 5(3) = 27$, and $2(0) + 5(15) = 75$. Note that $15$ is the $x$-intercept, not the $y$-intercept, so $(0, 15)$ is not on the line."
+  },
+  {
+    "id": "m-alg-113",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "easy",
+    "prompt": "A theater has $x$ rows with $18$ seats each and $y$ rows with $24$ seats each, for a total of $432$ seats. The equation $18x + 24y = 432$ represents this situation. If the theater has $12$ rows with $18$ seats each, how many rows have $24$ seats each?",
+    "answer": [
+      "9"
+    ],
+    "explanation": "Substitute $x = 12$: $18(12) + 24y = 432$, so $216 + 24y = 432$. Then $24y = 216$ and $y = 9$."
+  },
+  {
+    "id": "m-alg-114",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "Ana spends exactly $60$ dollars on bags of rice that cost $4$ dollars each and bags of beans that cost $3$ dollars each. The equation $4x + 3y = 60$ represents this situation, where $x$ is the number of bags of rice and $y$ is the number of bags of beans. If the equation is graphed in the $xy$-plane, which of the following is the best interpretation of the $x$-intercept of the graph?",
+    "choices": [
+      "Ana buys 20 bags of beans and no bags of rice.",
+      "Ana buys 15 bags of rice and no bags of beans.",
+      "Each bag of rice costs 15 dollars.",
+      "Ana buys a total of 15 bags of rice and beans combined."
+    ],
+    "answer": 1,
+    "explanation": "The $x$-intercept occurs where $y = 0$: $4x = 60$, so $x = 15$. With $y = 0$, Ana buys no beans, so the intercept means she buys $15$ bags of rice and no bags of beans. The statement about $20$ bags of beans describes the $y$-intercept, and the price of rice is $4$ dollars, not $15$."
+  },
+  {
+    "id": "m-alg-115",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The point $(a, 2a)$ lies on the graph of $5x - 3y = 8$ in the $xy$-plane, where $a$ is a constant. What is the value of $a$?",
+    "choices": [
+      "$8$",
+      "$4$",
+      "$-8$",
+      "$\\frac{8}{11}$"
+    ],
+    "answer": 2,
+    "explanation": "Substitute $x = a$ and $y = 2a$: $5a - 3(2a) = 8$, so $5a - 6a = 8$ and $-a = 8$. Therefore $a = -8$. Choice $8$ drops the negative sign, $4$ substitutes $y = a$ instead of $2a$, and $\\frac{8}{11}$ adds $6a$ instead of subtracting it."
+  },
+  {
+    "id": "m-alg-116",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "In the $xy$-plane, line $\\ell$ has equation $6x - 2y = 7$. Line $k$ is parallel to line $\\ell$ and passes through the point $(2, -1)$. What is the $y$-coordinate of the $y$-intercept of line $k$?",
+    "choices": [
+      "$7$",
+      "$5$",
+      "$-\\frac{7}{2}$",
+      "$-7$"
+    ],
+    "answer": 3,
+    "explanation": "Solve $6x - 2y = 7$ for $y$: $y = 3x - \\frac{7}{2}$, so line $\\ell$ has slope $3$. Parallel line $k$ also has slope $3$: $y = 3x + b$. Using $(2, -1)$: $-1 = 6 + b$, so $b = -7$. Choice $5$ uses slope $-3$, $7$ has a sign error, and $-\\frac{7}{2}$ is the $y$-intercept of line $\\ell$ itself."
+  },
+  {
+    "id": "m-alg-117",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "The table shows three pairs of values of $x$ and $y$ that satisfy a linear relationship.\n\n| $x$ | $y$ |\n|---|---|\n| $1$ | $11$ |\n| $3$ | $5$ |\n| $7$ | $-7$ |\n\nWhich equation represents this relationship?",
+    "choices": [
+      "$3x + y = 14$",
+      "$x + y = 12$",
+      "$3x - y = -8$",
+      "$y = -3x + 11$"
+    ],
+    "answer": 0,
+    "explanation": "The slope is $\\frac{5 - 11}{3 - 1} = -3$, so $y = -3x + b$. Using $(1, 11)$: $11 = -3 + b$, so $b = 14$. Then $y = -3x + 14$, which is equivalent to $3x + y = 14$. Choices $x + y = 12$ and $3x - y = -8$ fit only the first row, and $y = -3x + 11$ treats the $y$-value at $x = 1$ as the $y$-intercept."
+  },
+  {
+    "id": "m-alg-118",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "A line in the $xy$-plane has slope $\\frac{3}{4}$ and passes through the point $(-2, 5)$. What is the $y$-coordinate of the point on the line where $x = 6$?",
+    "choices": [
+      "$\\frac{19}{2}$",
+      "$11$",
+      "$-1$",
+      "$\\frac{47}{3}$"
+    ],
+    "answer": 1,
+    "explanation": "From $x = -2$ to $x = 6$, $x$ increases by $8$. With slope $\\frac{3}{4}$, $y$ increases by $\\frac{3}{4}(8) = 6$. So $y = 5 + 6 = 11$. Choice $\\frac{19}{2}$ uses $6$ instead of the change of $8$, $-1$ subtracts the change, and $\\frac{47}{3}$ inverts the slope."
+  },
+  {
+    "id": "m-alg-119",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "In the $xy$-plane, the graph of $(k - 2)x + 3y = 12$, where $k$ is a constant, is a line with slope $\\frac{4}{3}$. What is the value of $k$?",
+    "choices": [
+      "$6$",
+      "$-6$",
+      "$-2$",
+      "$\\frac{2}{3}$"
+    ],
+    "answer": 2,
+    "explanation": "Solve for $y$: $3y = -(k - 2)x + 12$, so $y = -\\frac{k - 2}{3}x + 4$. Set the slope equal to $\\frac{4}{3}$: $-\\frac{k - 2}{3} = \\frac{4}{3}$, so $k - 2 = -4$ and $k = -2$. Choice $6$ forgets the negative sign, $-6$ subtracts $2$ instead of adding it, and $\\frac{2}{3}$ forgets to multiply by $3$."
+  },
+  {
+    "id": "m-alg-120",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "A line in the $xy$-plane passes through the point $(5, 9)$ and has an $x$-intercept of $-1$. What is the $y$-coordinate of the $y$-intercept of the line?",
+    "answer": [
+      "3/2",
+      "1.5"
+    ],
+    "explanation": "The line passes through $(-1, 0)$ and $(5, 9)$, so its slope is $\\frac{9 - 0}{5 - (-1)} = \\frac{3}{2}$. Then $y = \\frac{3}{2}(x + 1)$, and at $x = 0$, $y = \\frac{3}{2}$."
+  },
+  {
+    "id": "m-alg-121",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "easy",
+    "prompt": "The function $f$ is defined by $f(x) = \\frac{2}{3}x - 4$. What is the value of $f(9)$?",
+    "choices": [
+      "$10$",
+      "$6$",
+      "$-2$",
+      "$2$"
+    ],
+    "answer": 3,
+    "explanation": "Substitute $x = 9$: $f(9) = \\frac{2}{3}(9) - 4 = 6 - 4 = 2$. Choice $10$ adds $4$, $6$ forgets to subtract $4$, and $-2$ reverses the subtraction."
+  },
+  {
+    "id": "m-alg-122",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "easy",
+    "prompt": "The monthly cost $C$, in dollars, of a phone plan is given by $C(m) = 0.05m + 25$, where $m$ is the number of minutes of calls made that month. What is the best interpretation of $25$ in this context?",
+    "choices": [
+      "The fixed monthly cost, in dollars, before any minutes are used",
+      "The cost, in dollars, of each minute of calls",
+      "The number of minutes of calls included in the plan",
+      "The increase in monthly cost, in dollars, for every $25$ minutes of calls"
+    ],
+    "answer": 0,
+    "explanation": "When $m = 0$, $C(0) = 25$, so $25$ is the cost in dollars with no minutes used: the fixed monthly charge. The cost per minute is the slope, $0.05$ dollars, and $25$ extra minutes add only $0.05(25) = 1.25$ dollars."
+  },
+  {
+    "id": "m-alg-123",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "easy",
+    "prompt": "For the linear function $g$, $g(0) = 7$ and $g(2) = 15$. What is the value of $g(5)$?",
+    "answer": [
+      "27"
+    ],
+    "explanation": "The slope is $\\frac{15 - 7}{2 - 0} = 4$, and the $y$-intercept is $g(0) = 7$, so $g(x) = 4x + 7$. Then $g(5) = 4(5) + 7 = 27$."
+  },
+  {
+    "id": "m-alg-124",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "medium",
+    "prompt": "The table shows three values of $x$ and their corresponding values of $h(x)$, where $h$ is a linear function.\n\n| $x$ | $h(x)$ |\n|---|---|\n| $-1$ | $-8$ |\n| $2$ | $1$ |\n| $6$ | $13$ |\n\nWhich equation defines $h$?",
+    "choices": [
+      "$h(x) = x - 7$",
+      "$h(x) = 3x - 5$",
+      "$h(x) = 3x - 8$",
+      "$h(x) = -3x - 11$"
+    ],
+    "answer": 1,
+    "explanation": "The slope is $\\frac{1 - (-8)}{2 - (-1)} = \\frac{9}{3} = 3$. Using $(2, 1)$: $1 = 3(2) + b$, so $b = -5$ and $h(x) = 3x - 5$. Check: $h(6) = 18 - 5 = 13$. Choices $x - 7$ and $-3x - 11$ fit only the first row, and $3x - 8$ uses $h(-1)$ as the $y$-intercept."
+  },
+  {
+    "id": "m-alg-125",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "medium",
+    "prompt": "A candle is $30$ centimeters tall when it is lit, and it burns at a constant rate of $1.2$ centimeters per hour. The function $L(t) = 30 - 1.2t$ gives the candle's height, in centimeters, $t$ hours after it is lit. How many hours after it is lit will the candle be $12$ centimeters tall?",
+    "answer": [
+      "15"
+    ],
+    "explanation": "Set $L(t) = 12$: $30 - 1.2t = 12$, so $1.2t = 18$ and $t = \\frac{18}{1.2} = 15$ hours."
+  },
+  {
+    "id": "m-alg-126",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "medium",
+    "prompt": "The function $f$ is defined by $f(x) = -4x + b$, where $b$ is a constant. If $f(3) = 5$, what is the value of $f(-2)$?",
+    "choices": [
+      "$9$",
+      "$-15$",
+      "$25$",
+      "$17$"
+    ],
+    "answer": 2,
+    "explanation": "First find $b$: $5 = -4(3) + b$, so $b = 17$ and $f(x) = -4x + 17$. Then $f(-2) = -4(-2) + 17 = 8 + 17 = 25$. Choice $9$ comes from evaluating $-4(-2)$ as $-8$, $-15$ moves in the wrong direction from $f(3)$, and $17$ is the value of $b$."
+  },
+  {
+    "id": "m-alg-127",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "For the linear function $f$, $f(4) = 11$ and $f(10) = -7$. For what value of $x$ does $f(x) = 0$?",
+    "choices": [
+      "$23$",
+      "$\\frac{11}{3}$",
+      "$-\\frac{23}{3}$",
+      "$\\frac{23}{3}$"
+    ],
+    "answer": 3,
+    "explanation": "The slope is $\\frac{-7 - 11}{10 - 4} = -3$. Then $f(x) = 11 - 3(x - 4) = -3x + 23$. Setting $-3x + 23 = 0$ gives $x = \\frac{23}{3}$. Choice $23$ is $f(0)$, the $y$-intercept; $\\frac{11}{3}$ is how far $x$ must move from $4$, not the value of $x$; and $-\\frac{23}{3}$ has a sign error."
+  },
+  {
+    "id": "m-alg-128",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "For the linear function $f$, $f(x + 3) - f(x) = 12$ for all values of $x$, and $f(1) = 5$. What is the value of $f(10)$?",
+    "answer": [
+      "41"
+    ],
+    "explanation": "Increasing $x$ by $3$ increases $f(x)$ by $12$, so the slope is $\\frac{12}{3} = 4$. From $x = 1$ to $x = 10$, $x$ increases by $9$, so $f(10) = 5 + 4(9) = 41$."
+  },
+  {
+    "id": "m-alg-129",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "The function $f$ is defined by $f(x) = 3x - 2$. The function $g$ is defined by $g(x) = f(2x + 1) - 4$. Which equation defines $g$?",
+    "choices": [
+      "$g(x) = 6x - 3$",
+      "$g(x) = 6x + 1$",
+      "$g(x) = 6x - 5$",
+      "$g(x) = 6x - 7$"
+    ],
+    "answer": 0,
+    "explanation": "Replace $x$ in $f$ with $2x + 1$: $f(2x + 1) = 3(2x + 1) - 2 = 6x + 1$. Then $g(x) = 6x + 1 - 4 = 6x - 3$. Choice $6x + 1$ forgets to subtract $4$, $6x - 5$ computes $f(2x) + 1 - 4$, and $6x - 7$ computes $2f(x) + 1 - 4$."
+  },
+  {
+    "id": "m-alg-130",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "The function $C(m) = 0.15m + 12$ gives the cost, in dollars, to rent a kayak for $m$ minutes. By how many dollars does the rental cost increase for each additional hour of rental?",
+    "choices": [
+      "$0.15$",
+      "$9$",
+      "$21$",
+      "$0.0025$"
+    ],
+    "answer": 1,
+    "explanation": "The slope, $0.15$, is the increase in cost per minute. One hour is $60$ minutes, so the cost increases by $0.15(60) = 9$ dollars per hour. Choice $0.15$ is the per-minute increase, $21$ wrongly adds the $12$-dollar fixed fee, and $0.0025$ divides by $60$ instead of multiplying."
+  },
+  {
+    "id": "m-alg-131",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "easy",
+    "prompt": "$y = 3x - 1$\n\n$y = x + 7$\n\nIf $(x, y)$ is the solution to the system of equations above, what is the value of $y$?",
+    "choices": [
+      "$4$",
+      "$10$",
+      "$11$",
+      "$7$"
+    ],
+    "answer": 2,
+    "explanation": "Set the expressions for $y$ equal: $3x - 1 = x + 7$, so $2x = 8$ and $x = 4$. Then $y = 4 + 7 = 11$. Choice $4$ is the value of $x$, $10$ results from the sign error $2x = 6$, and $7$ is just the $y$-intercept of the second line."
+  },
+  {
+    "id": "m-alg-132",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "easy",
+    "prompt": "$x + 2y = 13$\n\n$3x - 2y = 7$\n\nIf $(x, y)$ is the solution to the system of equations above, what is the value of $x + y$?",
+    "answer": [
+      "9"
+    ],
+    "explanation": "Add the equations to eliminate $y$: $4x = 20$, so $x = 5$. Then $5 + 2y = 13$, so $y = 4$, and $x + y = 9$."
+  },
+  {
+    "id": "m-alg-133",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "easy",
+    "prompt": "A food truck sells tacos for $4$ dollars each and rice bowls for $9$ dollars each. One day, the food truck sold a total of $140$ tacos and rice bowls for a total of $860$ dollars. Which system of equations can be used to find the number of tacos, $t$, and the number of rice bowls, $b$, that were sold?",
+    "choices": [
+      "$t + b = 860$ and $4t + 9b = 140$",
+      "$t + b = 140$ and $9t + 4b = 860$",
+      "$t = b + 140$ and $4t + 9b = 860$",
+      "$t + b = 140$ and $4t + 9b = 860$"
+    ],
+    "answer": 3,
+    "explanation": "The total number of items is $t + b = 140$. The revenue is $4t$ dollars from tacos plus $9b$ dollars from bowls, so $4t + 9b = 860$. The second choice swaps the totals, the third swaps the prices, and $t = b + 140$ does not describe the total number of items."
+  },
+  {
+    "id": "m-alg-134",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "$3x - 5y = 4$\n\n$ax + by = 12$\n\nIn the system of equations above, $a$ and $b$ are constants. If the system has infinitely many solutions, what is the value of $a + b$?",
+    "choices": [
+      "$-6$",
+      "$24$",
+      "$-2$",
+      "$6$"
+    ],
+    "answer": 0,
+    "explanation": "For infinitely many solutions, the second equation must be a multiple of the first. Since $12 = 3(4)$, multiply the first equation by $3$: $9x - 15y = 12$. So $a = 9$, $b = -15$, and $a + b = -6$. Choice $24$ ignores the sign of $b$, $-2$ forgets to scale the coefficients by $3$, and $6$ has a sign error."
+  },
+  {
+    "id": "m-alg-135",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "A farm stand sells baskets of peaches for $7$ dollars each and baskets of plums for $5$ dollars each. On Sunday, the stand sold $64$ baskets of fruit for a total of $386$ dollars. How many more baskets of peaches than baskets of plums did the stand sell?",
+    "choices": [
+      "$31$",
+      "$2$",
+      "$33$",
+      "$66$"
+    ],
+    "answer": 1,
+    "explanation": "Let $p$ and $q$ be the numbers of peach and plum baskets. Then $p + q = 64$ and $7p + 5q = 386$. Substitute $q = 64 - p$: $7p + 320 - 5p = 386$, so $2p = 66$ and $p = 33$. Then $q = 31$, and $p - q = 2$. Choices $31$ and $33$ are the individual counts, and $66$ is $2p$ before dividing by $2$."
+  },
+  {
+    "id": "m-alg-136",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "$y = 2x - 5$\n\n$3x + 4y = 13$\n\nThe solution to the system of equations above is $(a, b)$. What is the value of $a + b$?",
+    "answer": [
+      "4"
+    ],
+    "explanation": "Substitute $y = 2x - 5$ into the second equation: $3x + 4(2x - 5) = 13$, so $11x - 20 = 13$ and $x = 3$. Then $y = 2(3) - 5 = 1$. So $a + b = 3 + 1 = 4$."
+  },
+  {
+    "id": "m-alg-137",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "$\\frac{1}{2}x + \\frac{1}{3}y = 4$\n\n$\\frac{1}{4}x - \\frac{1}{6}y = \\frac{1}{2}$\n\nIf $(x, y)$ is the solution to the system of equations above, what is the value of $x + y$?",
+    "choices": [
+      "$5$",
+      "$\\frac{9}{2}$",
+      "$\\frac{19}{2}$",
+      "$10$"
+    ],
+    "answer": 2,
+    "explanation": "Clear fractions: multiply the first equation by $6$ to get $3x + 2y = 24$, and the second by $12$ to get $3x - 2y = 6$. Adding gives $6x = 30$, so $x = 5$. Then $15 + 2y = 24$, so $y = \\frac{9}{2}$. So $x + y = 5 + \\frac{9}{2} = \\frac{19}{2}$. Choices $5$ and $\\frac{9}{2}$ are the individual values, not the sum."
+  },
+  {
+    "id": "m-alg-138",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "$2x - 3y = 6$\n\n$y = mx + b$\n\nIn the system of equations above, $m$ and $b$ are constants. For which of the following values of $m$ and $b$ does the system have no solution?",
+    "choices": [
+      "$m = \\frac{2}{3}$ and $b = -2$",
+      "$m = -\\frac{3}{2}$ and $b = 1$",
+      "$m = -\\frac{2}{3}$ and $b = -2$",
+      "$m = \\frac{2}{3}$ and $b = 1$"
+    ],
+    "answer": 3,
+    "explanation": "Rewrite the first equation as $y = \\frac{2}{3}x - 2$. The system has no solution when the lines are parallel and distinct: $m = \\frac{2}{3}$ and $b \\ne -2$. So $m = \\frac{2}{3}$, $b = 1$ works. With $b = -2$ the lines coincide (infinitely many solutions), and the other slopes give lines that intersect exactly once."
+  },
+  {
+    "id": "m-alg-139",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "hard",
+    "prompt": "Phone Plan A costs $40$ dollars per month plus $0.10$ dollar per text message. Phone Plan B costs $25$ dollars per month plus $0.16$ dollar per text message. For a certain number of text messages in one month, the two plans cost the same amount. What is that monthly cost, in dollars?",
+    "choices": [
+      "$65$",
+      "$250$",
+      "$50$",
+      "$80$"
+    ],
+    "answer": 0,
+    "explanation": "Set the costs equal: $40 + 0.10t = 25 + 0.16t$, so $15 = 0.06t$ and $t = 250$ text messages. The cost is $40 + 0.10(250) = 65$ dollars (and $25 + 0.16(250) = 65$ as a check). Choice $250$ is the number of texts, and $50$ and $80$ mix one plan's fee with the other plan's per-text rate."
+  },
+  {
+    "id": "m-alg-140",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "easy",
+    "prompt": "Which inequality is equivalent to $-4x + 9 < 1$?",
+    "choices": [
+      "$x < 2$",
+      "$x > 2$",
+      "$x > -2$",
+      "$x < -2$"
+    ],
+    "answer": 1,
+    "explanation": "Subtract $9$: $-4x < -8$. Dividing by $-4$ reverses the inequality: $x > 2$. Choice $x < 2$ forgets to reverse the sign, and the choices with $-2$ mishandle the negative when dividing."
+  },
+  {
+    "id": "m-alg-141",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "easy",
+    "prompt": "Priya has $50$ dollars to spend at a fair. Admission costs $12$ dollars, and each ride costs $2.50$ dollars. Which inequality represents the possible numbers of rides, $r$, that Priya can go on?",
+    "choices": [
+      "$12r + 2.5 \\le 50$",
+      "$12 + 2.5r \\ge 50$",
+      "$12 + 2.5r \\le 50$",
+      "$2.5(12 + r) \\le 50$"
+    ],
+    "answer": 2,
+    "explanation": "Her total spending is admission plus rides: $12 + 2.5r$ dollars. It can be at most $50$ dollars, so $12 + 2.5r \\le 50$. The choice with $\\ge$ reverses the budget limit, $12r + 2.5$ swaps the costs, and $2.5(12 + r)$ charges the ride price on the admission fee."
+  },
+  {
+    "id": "m-alg-142",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "easy",
+    "prompt": "What is the greatest integer value of $x$ that satisfies the inequality $5x + 3 < 40$?",
+    "answer": [
+      "7"
+    ],
+    "explanation": "Subtract $3$: $5x < 37$, so $x < 7.4$. The greatest integer less than $7.4$ is $7$."
+  },
+  {
+    "id": "m-alg-143",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "medium",
+    "prompt": "A caterer is preparing chicken plates that cost $14$ dollars each and vegetable plates that cost $11$ dollars each. The caterer must prepare at least $40$ plates and can spend at most $500$ dollars. The inequalities $14x + 11y \\le 500$ and $x + y \\ge 40$ represent these conditions, where $x$ is the number of chicken plates and $y$ is the number of vegetable plates. Which ordered pair $(x, y)$ satisfies both conditions?",
+    "choices": [
+      "$(30, 15)$",
+      "$(15, 20)$",
+      "$(25, 18)$",
+      "$(20, 20)$"
+    ],
+    "answer": 3,
+    "explanation": "Check each pair. For $(20, 20)$: $14(20) + 11(20) = 280 + 220 = 500 \\le 500$, and $20 + 20 = 40 \\ge 40$. For $(30, 15)$ the cost is $585$ dollars, for $(25, 18)$ the cost is $548$ dollars, and $(15, 20)$ has only $35$ plates."
+  },
+  {
+    "id": "m-alg-144",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "medium",
+    "prompt": "How many integer values of $x$ satisfy the inequality $-2 \\le \\frac{3x - 1}{4} < 5$?",
+    "answer": [
+      "9"
+    ],
+    "explanation": "Multiply all parts by $4$: $-8 \\le 3x - 1 < 20$. Add $1$: $-7 \\le 3x < 21$. Divide by $3$: $-\\frac{7}{3} \\le x < 7$. The integers in this range are $-2, -1, 0, 1, 2, 3, 4, 5, 6$, which is $9$ values. ($7$ is excluded because the inequality is strict.)"
+  },
+  {
+    "id": "m-alg-145",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "medium",
+    "prompt": "A tutor charges $45$ dollars per hour. Each month, the tutor spends $180$ dollars on materials. What is the minimum whole number of hours the tutor must work in a month to earn at least $1{,}200$ dollars after paying for materials?",
+    "choices": [
+      "$31$",
+      "$30$",
+      "$23$",
+      "$27$"
+    ],
+    "answer": 0,
+    "explanation": "The earnings after materials are $45h - 180$. Solve $45h - 180 \\ge 1{,}200$: $45h \\ge 1{,}380$, so $h \\ge 30.\\overline{6}$. The smallest whole number is $31$. Choice $30$ rounds down (giving only $1{,}170$ dollars), $23$ subtracts the $180$ dollars instead of adding it, and $27$ ignores the materials cost."
+  },
+  {
+    "id": "m-alg-146",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "hard",
+    "prompt": "In the $xy$-plane, the points $(2, 7)$ and $(-1, 0)$ are both solutions to the inequality $y \\le mx + 3$, where $m$ is a constant. Which of the following could be the value of $m$?",
+    "choices": [
+      "$1.5$",
+      "$2.5$",
+      "$3.5$",
+      "$-3$"
+    ],
+    "answer": 1,
+    "explanation": "Substitute $(2, 7)$: $7 \\le 2m + 3$, so $m \\ge 2$. Substitute $(-1, 0)$: $0 \\le -m + 3$, so $m \\le 3$. So $2 \\le m \\le 3$, and only $2.5$ is in this range. $1.5$ fails the first condition, $3.5$ fails the second, and $-3$ fails the first."
+  },
+  {
+    "id": "m-alg-147",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "hard",
+    "prompt": "Ben's tablet has $64$ gigabytes (GB) of storage, of which $21.5$ GB is already used. He wants to download $9$ photo albums that each use $0.6$ GB, plus as many videos as possible, where each video uses $1.8$ GB. He must keep at least $5$ GB of storage free. What is the maximum number of videos Ben can download?",
+    "choices": [
+      "$18$",
+      "$20$",
+      "$17$",
+      "$23$"
+    ],
+    "answer": 2,
+    "explanation": "Storage used must be at most $64 - 5 = 59$ GB: $21.5 + 9(0.6) + 1.8v \\le 59$. So $26.9 + 1.8v \\le 59$, $1.8v \\le 32.1$, and $v \\le 17.8\\overline{3}$. The maximum whole number is $17$. Choice $18$ rounds up (exceeding the limit), $20$ ignores the free-space requirement, and $23$ also ignores the albums."
+  },
+  {
+    "id": "m-alg-148",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "hard",
+    "prompt": "$y > 2x + c$\n\n$y < 2x - 3$\n\nIn the system of inequalities above, $c$ is a constant. For which of the following values of $c$ does the system have no solution?",
+    "choices": [
+      "$-6$",
+      "$-4$",
+      "$-3.5$",
+      "$-3$"
+    ],
+    "answer": 3,
+    "explanation": "For a solution, $y$ must satisfy $2x + c < y < 2x - 3$, which is possible only when $2x + c < 2x - 3$, that is, $c < -3$. So the system has no solution when $c \\ge -3$. Of the choices, only $c = -3$ works: then the boundary lines coincide, and no $y$ can be both greater than and less than $2x - 3$. For $c = -6$, $-4$, or $-3.5$, the region between the two parallel lines contains solutions."
+  }
+]

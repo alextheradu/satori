@@ -1,0 +1,818 @@
+[
+  {
+    "id": "rw-ii-101",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "easy",
+    "passage": "The kangaroo rat, a small rodent of North American deserts, can live its entire life without drinking water. Nearly all the water it needs is produced inside its body as it digests dry seeds. Its kidneys are extremely efficient, producing urine far more concentrated than that of most mammals, and its long nasal passages cool the air it breathes out, causing moisture to condense so that it can be absorbed again rather than lost.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Kangaroo rats have several physical features that allow them to survive in deserts without drinking water.",
+      "Kangaroo rats eat dry seeds mainly because seeds contain more water than other desert foods do.",
+      "Kangaroo rats are the only desert mammals whose kidneys produce concentrated urine.",
+      "Kangaroo rats lose more of their water through breathing than through any other process, including the production of urine."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: the text explains that kangaroo rats can live without drinking and then lists the features that make this possible (water from digesting seeds, efficient kidneys, moisture-recapturing nasal passages). Choice C overstates the text, which says only that the urine is more concentrated than that of \"most mammals.\" Choices B and D are not supported; the seeds are described as dry, and the text never compares sources of water loss."
+  },
+  {
+    "id": "rw-ii-102",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "easy",
+    "passage": "The following text is from an original short story. Nadia is waiting backstage before her first piano recital.\n\nFrom the wings, Nadia watched the boy before her bow and leave the stage. Her hands, which had been steady all week in the practice room, now trembled so badly that she pressed them flat against her skirt. She tried to recall the opening bars and found only static. Then her name was called, and she walked to the bench, sat, and set her fingers on the keys. At the first chord the static cleared, and the music came back to her as easily as breath.",
+    "prompt": "Which choice best describes what happens in the text?",
+    "choices": [
+      "Nadia decides not to perform because she cannot remember the piece she prepared.",
+      "Nadia is very nervous before her performance, but her nervousness fades once she begins to play.",
+      "Nadia is calmed by watching the performer who plays before her and gains confidence from his success.",
+      "Nadia practices her piece backstage until she is confident enough to perform it."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: Nadia's trembling hands and blank memory show her nervousness, and once she plays the first chord \"the static cleared\" and the music returns easily. Choice A is the main trap, since she briefly cannot recall the opening, but she does go on to perform. Choices C and D describe events that never occur in the text."
+  },
+  {
+    "id": "rw-ii-103",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "easy",
+    "passage": "Before the Erie Canal opened in 1825, moving a ton of grain from the Great Lakes region to New York City by wagon was slow and costly, and much of the region's produce was shipped elsewhere or not sent to eastern markets at all. The canal, which connected Lake Erie to the Hudson River, allowed barges to carry goods across New York State at a small fraction of the earlier cost. Trade flowing through the canal helped make New York City the busiest port in the United States in the decades that followed.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The Erie Canal was the longest canal in the world at the time it opened.",
+      "Farmers in the Great Lakes region opposed the construction of the Erie Canal.",
+      "By sharply lowering shipping costs, the Erie Canal helped New York City become a leading center of trade.",
+      "Before 1825, most goods from the Great Lakes region reached New York City by railroad rather than by wagon or boat."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the text contrasts expensive wagon transport with the canal's much cheaper shipping and concludes that the resulting trade helped make New York City the nation's busiest port. Choice D contradicts the text, which says goods traveled by wagon. Choices A and B make claims about the canal's length and farmers' opinions that the text never addresses."
+  },
+  {
+    "id": "rw-ii-104",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "easy",
+    "passage": "Sociologist Rosa Delgado surveyed residents of six city neighborhoods, each of which had a community garden. Residents who tended a plot in a garden reported knowing, on average, the first names of about eleven neighbors, while residents who did not garden reported knowing about four. Gardeners were also more likely to say that they would ask a neighbor for help in an emergency. Delgado notes that her survey cannot show whether gardening builds these ties or whether already sociable people are simply more likely to garden.",
+    "prompt": "According to the text, what did Delgado find?",
+    "choices": [
+      "Community gardens are more common in neighborhoods where residents already knew one another before the gardens opened.",
+      "Residents who garden spend more time outdoors than residents who do not garden.",
+      "Gardening causes residents to become more willing to help their neighbors in emergencies.",
+      "Residents who tended garden plots reported knowing more of their neighbors than other residents did."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: Delgado's survey found that gardeners knew the first names of about eleven neighbors, compared with about four for nongardeners. Choice C is the main trap; Delgado explicitly says her survey cannot show whether gardening causes these ties. Choices A and B are not discussed in the text."
+  },
+  {
+    "id": "rw-ii-105",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "For centuries, builders in hot, dry parts of Iran and neighboring regions have topped houses with windcatchers: tall towers with openings that capture passing breezes and channel them down into the rooms below. Even on still days, the towers keep air moving, because warm indoor air rises and escapes through the top, drawing cooler air in from shaded courtyards. Today, architects looking for ways to cut the energy that buildings use for air-conditioning have begun studying these structures, and several recent office buildings incorporate towers modeled on them.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Windcatchers were developed to replace an earlier and less effective method of cooling houses.",
+      "Windcatchers use natural air movement to cool buildings, and their design is now informing efforts to reduce energy use.",
+      "Windcatchers can cool buildings only on days when a steady breeze is blowing.",
+      "Modern architects have replaced air-conditioning with windcatchers in most of the new office buildings constructed in hot, dry regions."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the text explains how windcatchers move air to cool buildings and then describes architects studying and adapting them to reduce air-conditioning energy. Choice D overstates the text, which mentions only \"several recent office buildings.\" Choice C contradicts the statement that the towers work \"even on still days,\" and choice A is never mentioned."
+  },
+  {
+    "id": "rw-ii-106",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "The following text is from an original short story. The narrator recalls her father, who repaired clocks.\n\nAs a child, I thought my father the most impatient man alive. If I spoke while he worked, he would raise one finger without looking up, and I would have to wait, sometimes for ten minutes, while he coaxed some hair-thin spring into place. Only years later, sitting at that same bench with his tools, did I understand what I had been watching. A man who could spend an entire evening on a single gear was not impatient. He had simply given all his patience to the clocks, and there had been, at the end of the day, very little left over.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The narrator regrets having interrupted her father so often while he worked.",
+      "The narrator has decided to become a clock repairer in order to honor her father.",
+      "The narrator now views a quality of her father that she once misjudged in a different light.",
+      "The narrator believes that her father cared more about the clocks he repaired than about his own family."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: as a child the narrator thought her father impatient, but as an adult she realizes he was extremely patient, having devoted that patience to his work. Choice D is the strongest trap; the narrator says little patience was \"left over,\" but she never claims he valued clocks more than his family. Choices A and B go beyond the text; sitting at his bench does not establish a career decision."
+  },
+  {
+    "id": "rw-ii-107",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "Many reef-building corals reproduce by releasing eggs and sperm into the water on just a few nights each year, with every colony on a reef spawning at nearly the same time. Researchers believe that corals time these events partly by tracking moonlight, which signals the phase of the moon. Marine biologist Hana Moreau and her colleagues found that on reefs near brightly lit coastal cities, colonies spawned over a wider range of nights than did colonies on remote reefs, and fewer of their eggs were fertilized. The team suggests that artificial light may blur the lunar signal corals depend on.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Corals on remote reefs produce more eggs than corals on reefs near coastal cities do.",
+      "Most corals reproduce on a single night each year, when the moon is full.",
+      "Coral colonies near coastal cities have begun reproducing more frequently than they did before the cities grew brighter.",
+      "Artificial light near cities may disrupt the cues corals use to time spawning, lowering their reproductive success."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: Moreau's team found that corals near brightly lit cities spawned less synchronously and had lower fertilization, and they suggest artificial light obscures the moonlight cue. Choice C is tempting because spawning near cities spread over more nights, but that describes less coordinated timing, not more frequent reproduction. Choices A and B add claims about egg numbers and full moons that the text does not make."
+  },
+  {
+    "id": "rw-ii-108",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "Until the late nineteenth century, most American towns set their clocks by the sun, so that noon in one town might come several minutes before noon in a town just to the west. For railroads, which had to publish schedules across hundreds of miles, these dozens of local times were a constant source of confusion. In 1883 the major railroad companies agreed among themselves to divide the country into a few standard time zones, and most towns soon adjusted their clocks to match. Congress did not make these zones official until 1918.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Railroads introduced standard time zones to meet their own needs, decades before the federal government made them official.",
+      "Congress created standard time zones in 1883 so that railroad companies could publish schedules that passengers would find easier to follow.",
+      "American towns resisted adopting standard time because local solar time was more accurate.",
+      "Railroad schedules in the nineteenth century were frequently delayed because trains ran too slowly."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: the text explains that local solar times confused railroad scheduling, that railroads adopted standard zones in 1883, and that Congress made them official only in 1918. Choice B is the main trap; it combines details from the text incorrectly, since the railroads, not Congress, created the zones in 1883. Choice C contradicts the statement that most towns soon adjusted their clocks, and choice D is not discussed."
+  },
+  {
+    "id": "rw-ii-109",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "Studies have often reported that children who are learning two languages at once know fewer words than children learning only one. When vocabulary is measured in a single language, this gap frequently appears. Linguist Imani Achebe, however, tested bilingual children in both of their languages and counted every concept a child could name in either one. By that measure, the bilingual children's vocabularies were as large as, and sometimes larger than, those of their monolingual peers. Achebe argues that the gap reported in earlier studies says more about how vocabulary was counted than about what bilingual children actually know.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Bilingual children know more words in each of their two languages than monolingual children know in their single language.",
+      "The reported vocabulary gap for bilingual children may reflect how vocabulary was measured rather than a real deficit.",
+      "Children who learn two languages at once develop vocabulary more slowly in their second language than in their first.",
+      "Researchers should stop measuring children's vocabulary in a single language."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: Achebe finds that the apparent gap disappears when both languages are counted and concludes that it reflects how vocabulary was measured. Choice A is the strongest trap, but the text says the gap often appears when only one language is measured, so bilingual children do not necessarily know more words in each language. Choice D goes beyond Achebe's argument, and choice C is never discussed."
+  },
+  {
+    "id": "rw-ii-110",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "The following text is from an original novel. Ambrose has inherited a house from his aunt.\n\nAmbrose told everyone, including the real estate agent, that he would sell the house by the end of the month. He had no use, he said, for a drafty place two hours from the city. Yet in the first week he repainted the shutters the same faded green his aunt had chosen, rehung the gate that had sagged for a decade, and planted a row of tulip bulbs along the walk, though they would not bloom until April. When the agent called on the last day of the month, Ambrose let the phone ring.",
+    "prompt": "Based on the text, which choice best describes Ambrose?",
+    "choices": [
+      "He is making repairs and improvements so that the house will sell quickly and for a higher price.",
+      "He resents his aunt for leaving him a house that requires so much work.",
+      "His actions suggest that he is more attached to the house than his statements indicate.",
+      "He has decided to live in the house year-round and has told the agent so."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: Ambrose says he will sell, but he preserves his aunt's paint color, plants bulbs that will bloom months after his stated deadline, and ignores the agent's call, suggesting attachment he does not admit. Choice A is the strongest trap, but planting bulbs for April and avoiding the agent do not fit a plan to sell by month's end. Choice D is wrong because he never tells the agent anything; he simply does not answer."
+  },
+  {
+    "id": "rw-ii-111",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "Planetary scientists have long debated whether most of Earth's water was delivered by comets or by asteroids. One clue is the ratio of deuterium, a heavy form of hydrogen, to ordinary hydrogen. Most comets measured so far have ratios noticeably higher than that of Earth's oceans, whereas certain water-rich asteroids have ratios that match closely, and many researchers have therefore favored asteroids. A few comets, however, have ratios close to Earth's, and some scientists point out that the small number of comets sampled may not represent those that struck the young Earth.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Because a few comets have deuterium ratios close to Earth's, most scientists now regard comets as the main source of Earth's water.",
+      "Deuterium ratios have proved to be an unreliable tool for determining the origin of Earth's water.",
+      "Earth's water was most likely delivered in roughly equal amounts by comets and asteroids.",
+      "Current isotopic evidence tends to favor asteroids as the main source of Earth's water, but the question is not fully settled."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the text says the deuterium evidence has led many researchers to favor asteroids, then raises complications (Earth-like comets, a small sample) that leave the issue open. Choice A is the main trap; the exceptional comets complicate the asteroid view but are not said to have overturned it. Choice B overstates the doubts, since the ratios are still treated as a useful clue, and choice C is never suggested."
+  },
+  {
+    "id": "rw-ii-112",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "For more than a century, editors of the songs of the fictional seventeenth-century composer Tomasz Wierzba \"corrected\" a number of harsh dissonances, assuming they were mistakes made by the scribes who copied his music. Musicologist Ruth Abernathy disagrees. She notes that the same dissonances appear in three manuscripts copied independently of one another and in sketches in Wierzba's own hand. Moreover, they occur almost exclusively at moments when the song lyrics describe grief or loss. Abernathy concludes that editors have been removing a deliberate feature of Wierzba's style.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Abernathy argues that the dissonances editors removed from Wierzba's songs were most likely intended by the composer.",
+      "Abernathy argues that the scribes who copied Wierzba's songs introduced the dissonances in order to make the music more expressive.",
+      "Abernathy shows that Wierzba's own sketches contain more errors than the copies made by scribes.",
+      "Abernathy argues that editors should never make changes to the music in historical manuscripts."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: Abernathy uses the dissonances' presence in independent copies and in Wierzba's own sketches, along with their placement at expressive moments, to argue that they were deliberate. Choice B is the strongest trap because it mentions expressiveness, but it attributes the dissonances to scribes, which is the editors' view that Abernathy rejects. Choice D generalizes far beyond her claim about these particular songs, and choice C is unsupported."
+  },
+  {
+    "id": "rw-ii-113",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "easy",
+    "passage": "Low-pitched traffic noise can drown out bird songs, making it harder for birds to attract mates and defend territories. Ecologist Tomás Reyes hypothesizes that great tits living in cities adjust by singing at higher pitches, which are less likely to be masked by the rumble of traffic.",
+    "prompt": "Which finding, if true, would most directly support Reyes's hypothesis?",
+    "choices": [
+      "Great tits living in cities defend larger territories, on average, than great tits living in rural forests do.",
+      "Great tits living in quiet city parks sing more often in the early morning than they do in the late afternoon or evening.",
+      "Within the same city, great tits nesting near busy roads sing at higher pitches than great tits nesting in quiet areas.",
+      "Traffic noise in cities is louder during the day than it is at night."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: if birds in noisy areas sing at higher pitches than birds of the same species in quiet areas, that supports the idea that they raise their pitch to avoid being masked by traffic noise. Choice D concerns traffic noise alone and says nothing about bird songs. Choices A and B describe territory size and singing times, which are unrelated to pitch."
+  },
+  {
+    "id": "rw-ii-114",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "easy",
+    "passage": "Salt and Ember is a novel by the fictional author Marisol Quint. In the novel, the narrator portrays her grandmother as fiercely independent, as is evident when the narrator says, ______",
+    "prompt": "Which quotation from Salt and Ember most effectively illustrates the claim?",
+    "choices": [
+      "\"Grandmother's garden was the envy of the street, with tomatoes as large as fists and roses that climbed past the second-floor windows.\"",
+      "\"On Sundays, Grandmother cooked enough soup to feed every family on our floor, and she would not let anyone leave her table until they had eaten a second bowl.\"",
+      "\"When Grandmother laughed, which was often, she threw back her head and slapped the table with her palm.\"",
+      "\"Grandmother refused every offer of help, carrying her own groceries up four flights of stairs and insisting she had managed alone for eighty years.\""
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: the grandmother refuses help, carries her own groceries, and insists on managing alone, which clearly shows fierce independence. Choice B shows generosity and choice A shows skill at gardening, but neither shows independence. Choice C describes her laugh, not her self-reliance."
+  },
+  {
+    "id": "rw-ii-115",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "easy",
+    "passage": "In 2023, a fictional software company, Brightline, let its employees work four days a week instead of five for six months while keeping their pay the same. Economist Laila Hassan, who studied the trial, claims that the shorter week did not reduce the amount of work the company's employees completed.",
+    "prompt": "Which finding, if true, would most directly support Hassan's claim?",
+    "choices": [
+      "The employees completed slightly more software updates during the trial than in the same six months of the previous year.",
+      "Most employees said in a survey that they preferred the four-day week and felt less tired at the end of each week than they had before.",
+      "Several other software companies announced plans to test four-day weeks after learning about Brightline's trial.",
+      "Brightline hired more new employees during the trial than in the six months before it."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: Hassan's claim is about the amount of work completed, and output during the trial was at least as high as in the same period of the previous year. Choice B is the main trap, but employees' preferences say nothing about how much work they finished. Choice C is irrelevant, and choice D, if anything, suggests the company might have needed more workers to keep up."
+  },
+  {
+    "id": "rw-ii-116",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "easy",
+    "passage": "Dark surfaces absorb more sunlight than light surfaces do. Biologist Kofi Asante hypothesizes that a species of mountain lizard darkens its skin when it is cold so that it can warm up more quickly in the sun, and lightens its skin when it is warm.",
+    "prompt": "Which finding, if true, would most directly support Asante's hypothesis?",
+    "choices": [
+      "The lizards are most active in the middle of the day, when temperatures are highest.",
+      "Lizards placed in a cool chamber became noticeably darker than lizards of the same species placed in a warm chamber.",
+      "The lizards' skin color closely matches the color of the rocks on which they usually bask, which may help them avoid predators.",
+      "Male lizards of the species display brightly colored throats when competing for mates."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the hypothesis predicts that cold lizards will darken and warm lizards will lighten, and lizards of the same species became darker in the cool chamber than in the warm one. Choice C is tempting because it concerns skin color, but it points to camouflage and says nothing about color changing with temperature. Choices A and D do not involve color changes related to temperature."
+  },
+  {
+    "id": "rw-ii-117",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "At a Neolithic site in western Ireland, a ring of upright stones has a single wide gap on its northeast side. Because sunrise on the summer solstice is visible through that gap, archaeologist Fiona Galvin argues that the builders deliberately positioned the gap so the ring could serve as a calendar marking the longest day of the year.",
+    "prompt": "Which finding, if true, would most directly weaken Galvin's argument?",
+    "choices": [
+      "Several other stone rings in the same region also have a single gap that faces the point where the sun rises on the summer solstice.",
+      "Objects found buried near the ring suggest that the site was used for gatherings during the summer.",
+      "Some of the stones in the ring were brought from a quarry more than ten kilometers away.",
+      "Soil layers and tool marks show that the gap was made by removing stones centuries after the ring was built and abandoned."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: if the gap was created centuries after the ring was built and abandoned, the original builders could not have positioned it to mark the solstice. Choices A and B would, if anything, support Galvin's argument by suggesting solstice alignments and summer use were intentional. Choice C concerns where the stones came from, which does not affect the purpose of the gap."
+  },
+  {
+    "id": "rw-ii-118",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "\"Leaving Harrowgate\" is a poem by the fictional poet Teodor Brann. In the poem, the speaker expresses mixed feelings about leaving home, conveying both eagerness to go and sorrow at what is being left behind: ______",
+    "prompt": "Which quotation from \"Leaving Harrowgate\" most effectively illustrates the claim?",
+    "choices": [
+      "\"I count the miles toward cities I have dreamed, / and every mile unspools a thread from home.\"",
+      "\"The station clock is cracked, its hands are slow; / the porter whistles something out of tune.\"",
+      "\"How long I've waited for this road to open, / to see what lies beyond the farthest hill!\"",
+      "\"My mother's kitchen window holds the light / the way it did on every morning past.\""
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: the speaker counts the miles toward \"cities I have dreamed\" (eagerness) while each mile \"unspools a thread from home\" (sorrow at the loss of home), so both feelings appear. Choice C is the strongest trap, but it conveys only eagerness to leave. Choice D is a fond image of home without any eagerness to go, and choice B simply describes the station."
+  },
+  {
+    "id": "rw-ii-119",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "Shop owners on Calder Avenue opposed a city plan to replace street parking with protected bike lanes, fearing that sales would drop. Urban planner Dmitri Halvorsen argues that shops may actually benefit, because customers who arrive by bicycle tend to visit more frequently than customers who arrive by car, even if they buy less each time.",
+    "prompt": "Which finding, if true, would most directly support Halvorsen's argument?",
+    "choices": [
+      "After the bike lanes were installed, the number of cyclists using Calder Avenue each day more than doubled.",
+      "Customers who arrived by bicycle spent less per visit than those who arrived by car but visited often enough to spend more per month overall.",
+      "Customers who arrived by car spent more per visit than customers who arrived by bicycle, and drivers also made up a majority of all shoppers.",
+      "Most shop owners on Calder Avenue drive to work rather than ride bicycles."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: it confirms both parts of Halvorsen's reasoning, that cyclists buy less per visit but visit often enough to spend more overall, which would benefit shops. Choice C is the main trap; it is consistent with part of his argument but, on its own, suggests that drivers are the more valuable customers. Choice A shows more cyclists but nothing about spending, and choice D is irrelevant."
+  },
+  {
+    "id": "rw-ii-120",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "When caterpillars feed on a tomato plant, the plant produces bitter compounds that discourage further feeding. Plant biologist Mei-Ling Zhou hypothesizes that a damaged tomato plant also releases airborne chemicals that cause nearby undamaged plants to begin producing these defensive compounds before they are attacked.",
+    "prompt": "Which finding, if true, would most directly support Zhou's hypothesis?",
+    "choices": [
+      "Tomato plants that had been fed on by caterpillars contained higher levels of defensive compounds than undamaged plants did.",
+      "Undamaged tomato plants whose roots were connected to the roots of caterpillar-damaged plants produced more defensive compounds than undamaged plants growing in separate pots.",
+      "Undamaged plants exposed only to air from around caterpillar-damaged plants produced more defensive compounds than plants exposed to air from around undamaged plants.",
+      "Caterpillars that fed on tomato plants with high levels of defensive compounds grew more slowly than caterpillars that fed on other plants."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: undamaged plants exposed only to air from damaged plants increased their defenses, which isolates the airborne signal Zhou proposes. Choice B is the strongest trap, but it points to a signal passed through roots rather than through the air. Choice A concerns only the damaged plants themselves, and choice D concerns the compounds' effect on caterpillars, not how neighboring plants are triggered."
+  },
+  {
+    "id": "rw-ii-121",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "Hollesby, a fictional market town on the English coast, was among the region's wealthiest towns in the 1300s but had shrunk to a small village by 1500. Historian Gareth Pryce argues that the town's decline was caused by the gradual silting of its harbor, which began around 1420 and eventually prevented merchant ships from reaching its docks.",
+    "prompt": "Which finding, if true, would most directly weaken Pryce's argument?",
+    "choices": [
+      "Tax records show that Hollesby's population and number of licensed merchants had already fallen by more than half by 1400.",
+      "Letters written in the 1450s complain that large ships could no longer reach Hollesby's docks at low tide.",
+      "Several nearby towns whose harbors did not silt up continued to grow in population and trade throughout the 1400s and into the 1500s.",
+      "The silting of Hollesby's harbor was caused by increased erosion after forests upstream were cleared."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: if Hollesby had already lost more than half its population and merchants before 1400, its decline began well before silting started around 1420, so silting cannot be its main cause. Choice C is the strongest trap, but towns without silting continuing to grow is consistent with silting being harmful and so supports Pryce. Choice B also supports him, and choice D explains why silting occurred, not whether it caused the decline."
+  },
+  {
+    "id": "rw-ii-122",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "The Orchard Road is a novel by the fictional author Helena Strand. In the novel, the narrator suggests that Mr. Fennimore's generosity is mainly a performance intended to impress others, as when the narrator observes, ______",
+    "prompt": "Which quotation from The Orchard Road most effectively illustrates the claim?",
+    "choices": [
+      "\"Mr. Fennimore owned more land than any man in the county, and he spoke of his fields the way other men spoke of their children.\"",
+      "\"He never dropped a coin into the collection plate without first glancing down the pew to see who was watching, and when the church was empty, he gave nothing.\"",
+      "\"When the mill flooded, Mr. Fennimore quietly paid the workers' wages for a full month out of his own pocket, though no one had asked him to and he told no one he had done it.\"",
+      "\"He was curt with his servants and rarely thanked them, even for the most difficult tasks.\""
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: Fennimore gives only when he is being watched and stops giving when no one is present, showing that his generosity depends on an audience. Choice D is the strongest trap because it portrays him unfavorably, but rudeness to servants does not show that his generosity is a performance. Choice C presents his generosity as sincere and unprompted, which works against the claim, and choice A concerns his land."
+  },
+  {
+    "id": "rw-ii-123",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "In a study at several high schools, students who attended a one-hour workshop teaching that intelligence can grow with effort later earned higher math grades than students who attended no workshop. Psychologist Amara Lindqvist-Obi hypothesizes that the improvement resulted from the workshop's specific message about intelligence, not simply from students receiving extra attention from researchers.",
+    "prompt": "Which finding, if true, would most directly support Lindqvist-Obi's hypothesis?",
+    "choices": [
+      "Students who attended the workshop said afterward that they had enjoyed it and found it encouraging.",
+      "The improvement in math grades among workshop attendees was largest for students who had previously earned the lowest grades.",
+      "Students who attended a one-hour workshop on general study habits, led by the same researchers, showed no comparable improvement in math grades.",
+      "Students who attended the workshop continued to earn higher math grades than students who did not attend for the remainder of the school year."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: students in a comparison workshop received the same amount of attention from the same researchers but did not improve, which suggests that the workshop's message, not mere attention, produced the gains. Choice D is the strongest trap, but it only shows the improvement lasted; attendees still differ from nonattendees in having received attention. Choices A and B describe students' reactions and who benefited most, neither of which separates the message from the attention."
+  },
+  {
+    "id": "rw-ii-124",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "Paleontologist Yusuf Demir studies a long-necked plant-eating dinosaur known from dozens of fossil skeletons. Many researchers assume that long necks in such dinosaurs evolved to let them reach leaves high in trees. Demir argues that, in this species, the long neck evolved mainly for display to rivals and potential mates rather than for reaching tall vegetation.",
+    "prompt": "Which finding, if true, would most directly support Demir's argument?",
+    "choices": [
+      "Other long-necked dinosaurs that lived in the same period are known to have fed on leaves high in trees.",
+      "Over millions of years, the species' neck grew steadily longer as the trees in its habitat grew taller and their lowest branches grew higher.",
+      "Adult males and adult females of the species had necks of nearly identical length and shape.",
+      "Its neck bones show that it could not lift its head much above shoulder height, and its teeth show wear from eating low-growing plants."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: if the dinosaur could not lift its head high and fed on low plants, its long neck is unlikely to have evolved for reaching tall vegetation, which strengthens the display explanation. Choice B is the strongest trap because it concerns neck evolution, but a neck that lengthened as trees grew taller supports the feeding explanation instead. Choice C weakens the display idea, since display traits often differ between the sexes, and choice A concerns other species."
+  },
+  {
+    "id": "rw-ii-125",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "easy",
+    "passage": "A meteorologist compared rainfall during the spring months of March, April, and May in two nearby towns, Lakeview and Pine Hill. She noted that in Lakeview, April was the wettest of the three spring months.\n\n| Month | Lakeview rainfall (mm) | Pine Hill rainfall (mm) |\n|---|---|---|\n| March | 62 | 71 |\n| April | 98 | 84 |\n| May | 75 | 90 |",
+    "prompt": "Which choice best describes data from the table that support the meteorologist's statement?",
+    "choices": [
+      "Pine Hill received 90 mm of rain in May, which was more rain than Lakeview received in that same month.",
+      "Lakeview received less rain than Pine Hill in March.",
+      "Pine Hill received 84 mm of rain in April.",
+      "Lakeview received 98 mm of rain in April, more than it received in March (62 mm) or May (75 mm)."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: it compares Lakeview's April rainfall with its rainfall in the other two spring months, showing that April was the wettest. Choices A, B, and C are accurate, but they concern Pine Hill's rainfall or a comparison between the towns rather than which month was wettest in Lakeview."
+  },
+  {
+    "id": "rw-ii-126",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "easy",
+    "passage": "Students at Ridgeway High School were asked where they most prefer to study. The student council reported that the school library, despite recent renovations, is not the most popular study location among students: ______\n\n| Preferred study location | Number of students |\n|---|---|\n| Home | 214 |\n| School library | 158 |\n| Coffee shop | 63 |\n| Other | 40 |",
+    "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+    "choices": [
+      "214 students said they prefer to study at home, more than the 158 who prefer the school library.",
+      "63 students said they prefer to study at a coffee shop, fewer than the number who prefer the library.",
+      "158 students said they prefer the school library, more than the number who prefer a coffee shop.",
+      "40 students said they prefer to study somewhere other than home, the library, or a coffee shop."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: to show that the library is not the most popular location, one must identify a location chosen by more students, and home (214) beats the library (158). Choices B and C are accurate but compare the library with a less popular location, which does not show that it is not the most popular. Choice D does not involve the library at all."
+  },
+  {
+    "id": "rw-ii-127",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "easy",
+    "passage": "A conservation group counted sea turtle nests on Marisol Beach each year from 2016 to 2021. A graph of the counts shows 120 nests in 2016, 135 in 2017, 150 in 2018, 95 in 2019, 160 in 2020, and 178 in 2021. The group claims that the number of nests generally rose over the six-year period, despite one sharp decline.",
+    "prompt": "Which choice best describes data from the graph that support the group's claim?",
+    "choices": [
+      "The number of nests rose from 120 in 2016 to 150 in 2018.",
+      "The number of nests rose from 120 in 2016 to 178 in 2021, although it fell to 95 in 2019.",
+      "The number of nests fell from 150 in 2018 to 95 in 2019.",
+      "The number of nests recorded in 2021, 178, was higher than the number recorded in any other year in the period."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: it shows both parts of the claim, an overall rise from 120 to 178 and a single sharp drop to 95 in 2019. Choice A covers only the first three years, choice C describes only the decline, and choice D notes the peak without showing the overall trend or the decline."
+  },
+  {
+    "id": "rw-ii-128",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "easy",
+    "passage": "A student grew bean plants with no fertilizer, with Fertilizer A, or with Fertilizer B and measured their average heights. She concluded that Fertilizer B was more effective than Fertilizer A at promoting growth: ______\n\n| Week | No fertilizer (cm) | Fertilizer A (cm) | Fertilizer B (cm) |\n|---|---|---|---|\n| 2 | 8 | 10 | 11 |\n| 4 | 15 | 19 | 22 |\n| 6 | 21 | 27 | 31 |",
+    "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+    "choices": [
+      "at every measurement, plants given Fertilizer A were taller than plants given no fertilizer.",
+      "plants given no fertilizer grew from 8 cm at week 2 to 21 cm at week 6.",
+      "at every measurement, plants given Fertilizer B were taller than plants given Fertilizer A.",
+      "at week 6, plants given Fertilizer B had an average height of 31 cm."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the conclusion compares Fertilizer B with Fertilizer A, and B plants were taller at weeks 2, 4, and 6 (11 vs. 10, 22 vs. 19, 31 vs. 27). Choice A compares Fertilizer A with no fertilizer, and choice B describes only the unfertilized plants. Choice D gives a Fertilizer B height without comparing it with Fertilizer A."
+  },
+  {
+    "id": "rw-ii-129",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "medium",
+    "passage": "An analyst studying household internet access in one state compared survey data from 2010, 2015, and 2020. She claims that the gap between urban and rural households narrowed between 2010 and 2020.\n\n| Year | Urban households with internet access (%) | Rural households with internet access (%) |\n|---|---|---|\n| 2010 | 78 | 55 |\n| 2015 | 84 | 68 |\n| 2020 | 90 | 82 |",
+    "prompt": "Which choice best describes data from the table that support the analyst's claim?",
+    "choices": [
+      "In 2010, the urban percentage exceeded the rural percentage by 23 points, but in 2020 it exceeded it by only 8 points.",
+      "The percentage of urban households with internet access rose from 78% in 2010 to 90% in 2020.",
+      "In each year shown, a smaller percentage of rural households than of urban households had internet access, by at least 8 points.",
+      "The percentage of rural households with internet access rose by 13 points from 2010 to 2015."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: the claim concerns the gap between urban and rural access, which fell from 23 points (78 - 55) to 8 points (90 - 82). Choice D is the main trap; rural access did rise sharply, but without the urban figures it does not show that the gap shrank. Choice B concerns only urban households, and choice C shows a gap existed without showing that it narrowed."
+  },
+  {
+    "id": "rw-ii-130",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "medium",
+    "passage": "Ecologist Priya Raman hypothesized that soil moisture, rather than air temperature, is the main factor determining how many seeds of a prairie wildflower germinate. She sowed seeds in four test plots.\n\n| Plot | Average temperature (°C) | Soil moisture (%) | Seeds that germinated (%) |\n|---|---|---|---|\n| 1 | 18 | 30 | 72 |\n| 2 | 24 | 30 | 70 |\n| 3 | 18 | 12 | 31 |\n| 4 | 24 | 12 | 29 |",
+    "prompt": "Which choice best describes data from the table that support Raman's hypothesis?",
+    "choices": [
+      "Plot 2 had a higher average temperature than Plot 1.",
+      "Plots 1 and 2, which had the same soil moisture but different temperatures, had similar germination rates, while Plots 1 and 3, which differed only in soil moisture, had very different rates.",
+      "Plot 4 had both the highest average temperature and the lowest soil moisture of the four plots.",
+      "Plot 1 had the highest germination rate of the four plots, at 72%."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: changing temperature while holding moisture constant barely affected germination (72% vs. 70%), while changing moisture with temperature held constant changed it greatly (72% vs. 31%), which supports moisture over temperature. Choice D is accurate but does not separate the effects of the two factors. Choices A and C describe the plots' conditions without referring to germination."
+  },
+  {
+    "id": "rw-ii-131",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "medium",
+    "passage": "The Halden Art Museum began offering free admission on Thursday evenings. Director Simone Achterberg observed that the free evening appears to draw an unusually young audience: ______\n\n| Day | Visitors aged 18–30 (% of that day's visitors) |\n|---|---|\n| Monday | 18 |\n| Tuesday | 20 |\n| Wednesday | 19 |\n| Thursday | 41 |\n| Friday | 24 |\n| Saturday | 26 |\n| Sunday | 22 |",
+    "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+    "choices": [
+      "Saturday visitors were more likely to be aged 18–30 than Friday visitors were.",
+      "Monday had the smallest percentage of visitors aged 18–30 of any day.",
+      "on Thursday, 41% of visitors were aged 18–30, far more than on any other day (the next highest was 26%).",
+      "more people visited the museum during the free Thursday evening than visited on any other day of the week, including Saturday."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: it shows that Thursday, the free evening, had a much larger share of young visitors than any other day. Choice D is the main trap; the table gives percentages, not total numbers of visitors, so it cannot support that statement, which in any case is about attendance rather than age. Choices A and B are accurate but do not involve Thursday."
+  },
+  {
+    "id": "rw-ii-132",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "medium",
+    "passage": "Researchers compared vocabulary test scores for four groups of Spanish learners. Some studied all at once on a single day (\"massed\"), and others spread the same hours over three days (\"spaced\"). The researchers concluded that spaced study produced higher scores than massed study even when total study time was the same.\n\n| Group | Total study hours | Schedule | Average test score |\n|---|---|---|---|\n| 1 | 6 | Massed | 64 |\n| 2 | 6 | Spaced | 79 |\n| 3 | 9 | Massed | 71 |\n| 4 | 9 | Spaced | 86 |",
+    "prompt": "Which choice best describes data from the table that support the researchers' conclusion?",
+    "choices": [
+      "Group 4 had the highest average test score of any group, at 86.",
+      "Group 3 had a higher average test score than Group 1, 71 compared with 64.",
+      "Groups 1 and 2 each studied for a total of 6 hours.",
+      "Group 2 outscored Group 1 (79 vs. 64), and Group 4 outscored Group 3 (86 vs. 71), even though the groups in each pair studied for the same number of hours."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: it compares spaced and massed groups that studied for equal amounts of time, and in both pairs the spaced group scored higher. Choice A is tempting, but Group 4 also studied longer than Groups 1 and 2, so its top score alone does not isolate the effect of spacing. Choice B shows the effect of more study time, and choice C gives study hours without scores."
+  },
+  {
+    "id": "rw-ii-133",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "The fictional city of Arnholt began charging drivers a fee to enter its downtown between 7 a.m. and 7 p.m. Critics predicted that drivers would simply shift their trips to the uncharged evening hours. Economist Paulo Rinaldi compared the average number of vehicles entering downtown per hour before and after the fee was introduced.\n\n| Time period | Before fee | After fee |\n|---|---|---|\n| 7–10 a.m. | 4,200 | 3,300 |\n| 10 a.m.–4 p.m. | 3,100 | 2,500 |\n| 4–7 p.m. | 4,500 | 3,600 |\n| 7–10 p.m. (no fee) | 1,800 | 2,000 |\n\nRinaldi concluded that the fee mostly reduced traffic rather than shifting it to other hours: ______",
+    "prompt": "Which choice most effectively uses data from the table to complete the statement?",
+    "choices": [
+      "after the fee was introduced, the 4–7 p.m. period still had more vehicles entering per hour than any other period.",
+      "hourly entries fell by 600 to 900 vehicles in every charged period but rose by only 200 in the uncharged evening period.",
+      "in the uncharged 7–10 p.m. period, average hourly entries rose from 1,800 before the fee to 2,000 after the fee was introduced.",
+      "hourly entries in the 7–10 a.m. period fell from 4,200 to 3,300 after the fee was introduced."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: to show that traffic was reduced rather than shifted, the declines during charged hours must be compared with the change in uncharged hours, and the large declines far outweigh the small evening increase. Choice C is the strongest trap; it is accurate, but on its own it is evidence of some shifting, which is what the critics predicted. Choice D shows a decline without addressing shifting, and choice A is irrelevant to the conclusion."
+  },
+  {
+    "id": "rw-ii-134",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "In a memory study, participants in two age groups reported how long they had slept the night before and then tried to recall a list of 25 words. A student reviewing the results concludes that in both age groups, average recall was higher in each successive sleep category.\n\n| Age group | Slept less than 6 hours | Slept 6–8 hours | Slept more than 8 hours |\n|---|---|---|---|\n| 18–30 | 12 | 17 | 18 |\n| 60–75 | 9 | 13 | 11 |\n\n(Values are average numbers of words recalled.)",
+    "prompt": "Which choice best describes data from the table that weaken the student's conclusion?",
+    "choices": [
+      "In every sleep category, participants aged 60–75 recalled fewer words on average than participants aged 18–30 did.",
+      "Among participants aged 18–30, average recall rose from 12 words to 17 words to 18 words across the three sleep categories.",
+      "Among participants aged 60–75, those who slept more than 8 hours recalled fewer words on average (11) than those who slept 6–8 hours (13).",
+      "Among participants aged 18–30, the increase in recall from the 6–8 hour category to the more-than-8-hour category was only 1 word, from 17 to 18."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the conclusion says recall rose with each longer sleep category in both groups, but for the 60–75 group recall fell from 13 to 11 in the longest category. Choice D is the strongest trap; the increase is small, but recall still rose, so it is consistent with the conclusion. Choice B supports the conclusion, and choice A compares age groups, which the conclusion does not address."
+  },
+  {
+    "id": "rw-ii-135",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "In the 1990s, water clarity improved in many lakes in one region. Some scientists credited reduced runoff of farm fertilizers, which feed the algae that cloud the water. Biologist Ingrid Solberg argued that in lakes invaded by zebra mussels, which filter algae from the water, the mussels were mainly responsible for the improvement.\n\n| Lakes | Decrease in fertilizer runoff, 1990–2000 (%) | Increase in water clarity, 1990–2000 (meters) |\n|---|---|---|\n| With zebra mussels | 21 | 2.1 |\n| Without zebra mussels | 19 | 0.3 |\n\n______ which supports Solberg's argument.",
+    "prompt": "Which choice most effectively uses data from the table to complete the text?",
+    "choices": [
+      "Water clarity increased in both groups of lakes between 1990 and 2000,",
+      "Water clarity increased by 2.1 meters in lakes with zebra mussels between 1990 and 2000,",
+      "Fertilizer runoff decreased by 19% in lakes without zebra mussels between 1990 and 2000,",
+      "Although fertilizer runoff decreased by similar amounts in both groups of lakes, clarity increased by 2.1 meters in lakes with mussels but by only 0.3 meters in lakes without them,"
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: because runoff fell by about the same amount in both groups, the much larger clarity gain in mussel-invaded lakes points to the mussels as the main cause. Choice B is the strongest trap; it reports the large improvement, but without the comparison group and the runoff data it cannot rule out reduced runoff as the explanation. Choice A shows improvement everywhere, which fits the runoff explanation, and choice C concerns only lakes without mussels."
+  },
+  {
+    "id": "rw-ii-136",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "Historian Odile Marchand studied documents from the fictional French town of Sainte-Aude, where official records gradually shifted from Latin to French in the 1500s. She argues that the shift happened earlier in commercial contracts than in church records.\n\n| Decade | Commercial contracts in French (%) | Church records in French (%) | Court records in French (%) |\n|---|---|---|---|\n| 1520s | 18 | 4 | 10 |\n| 1540s | 47 | 9 | 22 |\n| 1560s | 81 | 23 | 55 |\n| 1580s | 94 | 62 | 88 |\n\n______ which supports Marchand's argument.",
+    "prompt": "Which choice most effectively uses data from the table to complete the text?",
+    "choices": [
+      "Commercial contracts were mostly in French by the 1560s (81%), but church records were not mostly in French until the 1580s (62%),",
+      "A majority of court records were written in French by the 1560s (55%),",
+      "The percentage of church records written in French rose from 4% in the 1520s to 62% in the 1580s,",
+      "In every decade shown, a higher percentage of court records than of church records were written in French, beginning with 10% versus 4% in the 1520s,"
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: Marchand's argument compares commercial contracts with church records, and contracts reached a French majority about twenty years before church records did. Choice D is the strongest trap; it is accurate and shows church records lagging, but it compares church records with court records, not with commercial contracts. Choice C describes church records alone, and choice B concerns court records."
+  },
+  {
+    "id": "rw-ii-137",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "easy",
+    "passage": "Plants take in carbon dioxide through tiny pores in their leaves, but water vapor escapes through those same pores whenever they are open. Many desert plants, including cacti, keep their pores closed during the hot day and open them at night, storing carbon dioxide until sunlight returns. Because night air is cooler and more humid, much less water escapes through open pores at night. Opening pores at night therefore likely ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "allows desert plants to grow faster than plants in wetter climates.",
+      "helps desert plants conserve water in a dry environment.",
+      "prevents desert plants from taking in any carbon dioxide.",
+      "is a trait found only in cacti."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: the text says that less water escapes through open pores at night, so opening them then helps plants save water where it is scarce. Choice C contradicts the text, which says the plants take in and store carbon dioxide at night. Choice D contradicts \"many desert plants, including cacti,\" and choice A is never discussed."
+  },
+  {
+    "id": "rw-ii-138",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "easy",
+    "passage": "In the 1700s and 1800s, many mapmakers did not survey coastlines themselves. Instead, they copied the shapes of coastlines from earlier maps, so a mistake made by one mapmaker, such as an island drawn in the wrong place or a bay that did not exist, was often repeated by later ones. When historians find the same unusual mistake on several maps, they can reasonably conclude that ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "the coastline shown on the maps must have changed over time.",
+      "the maps containing the mistake were all drawn by the same mapmaker at different points in his or her career.",
+      "the maps were probably based, directly or indirectly, on a common earlier source.",
+      "mapmakers of that period never surveyed coastlines themselves."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: because mistakes spread through copying, a shared unusual mistake suggests the maps trace back to the same earlier map. Choice B is the main trap, but copying means different mapmakers could repeat the same mistake. Choice D overstates the text, which says \"many\" mapmakers copied, and choice A ignores that the shared feature is a mistake, not a real change."
+  },
+  {
+    "id": "rw-ii-139",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "easy",
+    "passage": "The public library in the fictional town of Wren Falls extended its weekday closing time from 6 p.m. to 9 p.m. Librarians expected the new hours to be used mostly by high school students. However, sign-in records showed that most evening visitors were adults, and in a survey, many of them said that their jobs had kept them from visiting during the library's old hours. These results suggest that the extended hours ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "were used only by adults and never by the high school students the librarians had expected to attract.",
+      "caused the number of daytime visitors to decline.",
+      "should be extended even further, to midnight.",
+      "mainly served people whose work schedules had previously kept them from using the library."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: most evening visitors were adults, many of whom said work had prevented them from visiting before, so the new hours mainly served such people. Choice A overstates the evidence; most evening visitors were adults, but that does not mean no students came. Choices B and C are not supported, since the text gives no daytime data and no evidence of demand after 9 p.m."
+  },
+  {
+    "id": "rw-ii-140",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "easy",
+    "passage": "The fictional painter Lise Harrow often worked on several canvases at once, setting each one aside for weeks before returning to it. Her notebooks explain that she wanted to see each painting \"with fresh eyes\" after a break. Harrow also used an unusual oil paint that dried very slowly, so that weeks after applying it she could still blend new strokes smoothly into the earlier ones. This suggests that Harrow's habit of setting canvases aside ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "was made practical in part by the slow-drying paint she used.",
+      "caused many of her paintings to be left unfinished.",
+      "was intended mainly to reduce how much she spent on paint and canvases.",
+      "was common among painters of her time."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: because her paint stayed workable for weeks, Harrow could set a canvas aside and still blend new strokes into it when she returned. Choice B is not supported, since the text says she returned to her canvases. Choices C and D introduce cost and other painters' habits, which the text does not discuss."
+  },
+  {
+    "id": "rw-ii-141",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "Pollen grains that settle in lake mud are preserved in layers, recording which plants grew nearby over time. In a sediment core from the fictional Lake Merrow, layers dated from about 6,000 to 4,000 years ago contain mostly oak and hazel pollen. In the layers above, oak pollen falls sharply, pollen from grasses and cultivated cereal grains appears and becomes common, and tiny particles of charcoal become abundant. These changes suggest that around 4,000 years ago, ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "a warmer climate allowed oak forests to spread around the lake.",
+      "hazel trees gradually replaced oak trees as the main source of pollen in the area.",
+      "people began clearing forest near the lake, possibly with fire, to grow crops.",
+      "a single large wildfire permanently destroyed all the trees near the lake."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the decline of oak, the appearance of cultivated cereals, and the abundance of charcoal together point to people clearing forest with fire and farming. Choice D is the strongest trap because of the charcoal, but a natural wildfire would not explain the rise of cultivated cereal pollen, and nothing indicates that all trees were destroyed. Choice A contradicts the decline of oak, and choice B is not supported."
+  },
+  {
+    "id": "rw-ii-142",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "A supermarket chain removed candy from the displays beside its checkout lanes and placed it in a regular aisle instead. Afterward, candy sales in its stores fell considerably. Over the same period, sales of the same candy through the chain's online store, which had never featured candy near the checkout page, stayed about the same. This pattern suggests that ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "shoppers who had previously bought candy in the chain's stores began buying it through the online store instead.",
+      "customers' overall interest in candy declined during this period.",
+      "shoppers had difficulty finding the aisle where the candy was moved.",
+      "many candy purchases in the stores had been unplanned, prompted by the candy's placement near the checkout."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: in-store sales fell only where the checkout displays were removed, while online sales were unaffected, which suggests that the displays had prompted many impulse purchases. Choice A is the main trap, but online sales stayed the same, so shoppers did not shift their purchases online. Choice B is undercut by the steady online sales, and choice C is not supported by anything in the text."
+  },
+  {
+    "id": "rw-ii-143",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "Scholars long assumed that the fictional poet Edda Krall wrote her sequence \"Winter Letters\" near the end of her life, since its poems dwell on aging and memory. Recently, however, an archivist found a letter in which Krall sent a friend a draft of one of the sequence's poems. The letter is dated to the year Krall turned twenty-six. Unless the date on the letter is wrong, the scholars' assumption ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "is likely mistaken, at least with regard to that poem.",
+      "is confirmed by the discovery of the letter.",
+      "shows that Krall wrote about aging only when she was young.",
+      "means that Krall must have revised all of the poems late in life."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: a draft of one of the poems existed when Krall was twenty-six, so at least that poem was not written near the end of her life. Choice C overgeneralizes; the letter concerns one poem and says nothing about when else Krall wrote about aging. Choice B is the opposite of what the letter shows, and choice D is not supported."
+  },
+  {
+    "id": "rw-ii-144",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "Some very old windowpanes are thicker at the bottom than at the top, which has led to a popular belief that glass is a slowly flowing liquid. Measurements of glass's resistance to flow at room temperature, however, indicate that any noticeable sagging would take far longer than the age of the universe. Moreover, panes from the same period are sometimes thicker at the top or along one side. Taken together, these points suggest that the uneven thickness of old panes most likely ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "shows that glass flows more quickly than scientists' measurements indicate.",
+      "resulted from the way the panes were made and installed rather than from glass flowing over time.",
+      "developed because older glass contained impurities that caused it to flow downward much faster than modern glass does.",
+      "can be used to estimate how many years ago each pane was installed."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: flow is far too slow to explain the thickening, and panes thicker at the top or side show that the unevenness is not consistently downward, pointing to how the panes were made and installed. Choices A and C both preserve the flowing-glass explanation that the text's evidence undermines. Choice D assumes thickness reflects age, which the text gives no reason to believe."
+  },
+  {
+    "id": "rw-ii-145",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "Some water fleas grow a pointed helmet that makes them harder for predatory fish to swallow, but only when chemical cues indicate that such predators are nearby. In an experiment, researchers raised one group of water fleas in water taken from tanks holding fish that had been fed only insect larvae. A second group was raised in water from tanks holding fish that had been fed water fleas. Only the second group developed helmets. This result suggests that the water fleas ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "cannot detect fish by chemical cues and instead rely on vision.",
+      "develop helmets whenever predatory fish of any kind are present in the water, regardless of what those fish have eaten.",
+      "gain protection from helmets only against fish that eat insect larvae.",
+      "respond to chemical signals linked to fish having eaten water fleas rather than simply to the presence of fish."
+    ],
+    "answer": 3,
+    "explanation": "Choice D is correct: both groups were exposed to water from tanks holding fish, but only the group exposed to water from fish that had eaten water fleas grew helmets, so the trigger appears to be a cue tied to that diet. Choice B is the strongest trap, but the first group was exposed to fish water and did not grow helmets. Choice A is contradicted because the fleas reacted to water alone, and choice C is unsupported."
+  },
+  {
+    "id": "rw-ii-146",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "At Kessra, a fictional Neolithic village site, archaeologists found stone tools made of obsidian, a volcanic glass, in every excavated house, even though the nearest obsidian source lies some 300 kilometers away. The larger houses, which archaeologists generally associate with wealthier households, contained no more obsidian tools on average than the smaller ones did. Waste flakes produced when obsidian is shaped into tools were found almost exclusively in a single open area near the village center. These findings suggest that at Kessra, ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "obsidian tools were probably made at a shared location and were not limited to wealthier households.",
+      "wealthier households controlled the trade in obsidian and then distributed tools made from it to their poorer neighbors.",
+      "each household made its own obsidian tools from raw material it obtained independently.",
+      "obsidian was easy to obtain, so villagers placed little value on tools made from it."
+    ],
+    "answer": 0,
+    "explanation": "Choice A is correct: waste flakes concentrated in one central area point to a shared workshop, and the equal numbers of tools in large and small houses show that access was not limited to wealthier households. Choice C is contradicted by the concentration of waste flakes in a single area rather than in each house. Choice B is undercut by the equal distribution, and choice D ignores the 300-kilometer distance to the source."
+  },
+  {
+    "id": "rw-ii-147",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "The fictional medieval poem \"The Reed Song\" survives in two manuscripts. Manuscript A contains 40 stanzas; manuscript B contains those same 40 plus 12 more. Editors long assumed that the 12 extra stanzas were added by the scribe who copied manuscript B. Literary historian Nadia Ferrante observes, however, that the extra stanzas use verb forms that had fallen out of use well before either manuscript was copied, whereas the 40 shared stanzas use forms that were current when the manuscripts were made. If such archaic forms reliably indicate when a text was composed, then ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "manuscript B must have been copied earlier than manuscript A.",
+      "the 12 extra stanzas were probably not composed by the scribe of manuscript B at the time it was copied.",
+      "the scribe of manuscript A must have deliberately removed the 12 extra stanzas because their language seemed old-fashioned.",
+      "all 52 stanzas were composed by the same poet at the same time."
+    ],
+    "answer": 1,
+    "explanation": "Choice B is correct: if archaic verb forms indicate an earlier date of composition, stanzas using forms that were already obsolete when the manuscripts were copied are unlikely to have been written by B's scribe at the time of copying. Choice A is the strongest trap, but the forms had fallen out of use before either manuscript was copied, so they say nothing about which manuscript is older. Choices C and D go beyond the evidence; deliberate removal is only one possibility, and the differing verb forms argue against a single time of composition."
+  },
+  {
+    "id": "rw-ii-148",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "Stars like the Sun spin more slowly as they age, so astronomers can estimate the age of such a star from how quickly it rotates: the faster the spin, the younger the star is likely to be. In a close binary system, however, two stars orbit near each other, and the gravitational pull of each star can keep the other spinning faster than it otherwise would. An astronomer who uses rotation speed to estimate the age of a star in a close binary system, without accounting for its companion, would therefore likely ______",
+    "prompt": "Which choice most logically completes the text?",
+    "choices": [
+      "overestimate the star's age.",
+      "obtain an accurate estimate of the star's age.",
+      "underestimate the star's age.",
+      "conclude that the star is not part of a binary system."
+    ],
+    "answer": 2,
+    "explanation": "Choice C is correct: the companion keeps the star spinning faster than normal, and faster spin is read as youth, so the star would appear younger than it is. Choice A is the strongest trap because it reverses the relationship between spin and estimated age. Choice B ignores the companion's effect, and choice D concerns the system's makeup rather than the age estimate."
+  }
+]

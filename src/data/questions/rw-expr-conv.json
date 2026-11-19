@@ -1,0 +1,546 @@
+[
+  {
+    "id": "rw-ei-001",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:\n- The Atacama Desert in northern Chile is one of the driest places on Earth.\n- Some weather stations in the Atacama have recorded no rainfall for decades.\n- A thick coastal fog, known locally as camanchaca, regularly drifts inland from the Pacific Ocean.\n- Residents of some Atacama villages collect water using large mesh nets called fog catchers.\n- The nets trap tiny fog droplets, which merge and drip into collection troughs.",
+    "prompt": "The student wants to explain how some residents of the Atacama obtain water despite the region's lack of rain. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The Atacama Desert, located in northern Chile, is one of the driest places on Earth, with some weather stations recording no rainfall for decades.",
+      "Although the Atacama receives almost no rain, some residents collect water from the region's coastal fog using mesh nets that trap fog droplets.",
+      "A thick coastal fog called camanchaca regularly drifts inland from the Pacific Ocean into the Atacama Desert.",
+      "Fog catchers are large mesh nets that trap tiny fog droplets, which merge and drip into collection troughs."
+    ],
+    "answer": 1,
+    "explanation": "Choice B addresses both parts of the goal: it acknowledges the lack of rain and explains that residents get water by trapping fog with mesh nets. Choice A only describes how dry the desert is, and Choice C mentions the fog without saying how anyone gets water from it. Choice D describes how fog catchers work but never connects them to Atacama residents or to the region's lack of rain."
+  },
+  {
+    "id": "rw-ei-002",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Artemisia Gentileschi (1593–1653) and Judith Leyster (1609–1660) were both successful painters during the 1600s.\n- Gentileschi worked mainly in Italy.\n- She is known for dramatic paintings of scenes from the Bible and from mythology.\n- Leyster worked in the Dutch city of Haarlem.\n- She is known for lively paintings of everyday life, such as musicians performing and children playing.",
+    "prompt": "The student wants to emphasize a difference in the subjects the two artists painted. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Gentileschi and Leyster were both successful painters during the 1600s.",
+      "Gentileschi worked mainly in Italy, whereas Leyster worked in the Dutch city of Haarlem.",
+      "Gentileschi is known for dramatic scenes from the Bible and mythology, whereas Leyster is known for lively scenes of everyday life.",
+      "Leyster, who worked in Haarlem, painted lively scenes such as musicians performing and children playing."
+    ],
+    "answer": 2,
+    "explanation": "Choice C contrasts what each artist painted (biblical and mythological scenes versus everyday life), which is exactly the requested difference in subject matter. Choice B is the main trap: it states a difference, but a difference in location, not in subjects. Choice A states a similarity, and Choice D describes only Leyster, so it cannot show a difference between the two artists."
+  },
+  {
+    "id": "rw-ei-003",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Urban noise, such as the rumble of traffic, is concentrated at low sound frequencies.\n- A team led by biologist Lena Ostrowski recorded the songs of white-crowned sparrows in a city and in a nearby rural area.\n- City sparrows sang at higher minimum frequencies than rural sparrows did.\n- The team concluded that singing at higher frequencies helps city birds keep their songs from being masked by low-frequency noise.\n- Songs that are masked by noise may be less effective at attracting mates.",
+    "prompt": "The student wants to present the explanation the research team offered for its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Ostrowski's team recorded the songs of white-crowned sparrows living in a city and in a nearby rural area.",
+      "Recordings made by Ostrowski's team showed that city sparrows sang at higher minimum frequencies than rural sparrows did.",
+      "Urban noise is concentrated at low frequencies, and songs masked by noise may be less effective at attracting mates.",
+      "Ostrowski's team proposed that city sparrows sing at higher minimum frequencies because doing so keeps their songs from being masked by low-frequency urban noise."
+    ],
+    "answer": 3,
+    "explanation": "Choice D gives the team's explanation for why city sparrows sing higher: it keeps their songs from being masked by low-frequency noise. Choice B is the main trap because it reports the finding itself, not the explanation the team offered for it. Choice A describes the study's method, and Choice C combines background facts without attributing any explanation to the team or mentioning its findings."
+  },
+  {
+    "id": "rw-ei-004",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- The Antikythera mechanism is an ancient Greek device made of dozens of interlocking bronze gears.\n- It was recovered in 1901 from a shipwreck near the Greek island of Antikythera.\n- Scholars believe it was built in the second or first century BCE.\n- Users turned a hand crank to model the positions of the Sun and Moon and to predict eclipses.\n- Some researchers have described it as the oldest known analog computer.",
+    "prompt": "The student wants to introduce the Antikythera mechanism to an audience unfamiliar with it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The Antikythera mechanism, an ancient Greek device made of interlocking bronze gears, was used to model the positions of the Sun and Moon and to predict eclipses.",
+      "Recovered in 1901 from a shipwreck, the Antikythera mechanism is believed to have been built in the second or first century BCE.",
+      "Users turned a hand crank on the device, which some researchers have described as the oldest known analog computer.",
+      "In 1901, a device was recovered from a shipwreck near the Greek island of Antikythera."
+    ],
+    "answer": 0,
+    "explanation": "An effective introduction for an unfamiliar audience names the object and explains what it is and what it did; Choice A does all three. Choice B names the mechanism and dates it but never says what it is or what it was for. Choices C and D refer only to \"the device\" or \"a device\" without explaining its purpose, so readers would still not know what the mechanism was."
+  },
+  {
+    "id": "rw-ei-005",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Venus is the second planet from the Sun; Earth is the third.\n- Venus's diameter is about 95 percent of Earth's.\n- Venus has about 82 percent of Earth's mass.\n- Venus's thick atmosphere is made mostly of carbon dioxide.\n- Earth's atmosphere is made mostly of nitrogen and oxygen.",
+    "prompt": "The student wants to emphasize a similarity between Venus and Earth. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Venus's atmosphere is made mostly of carbon dioxide, while Earth's is made mostly of nitrogen and oxygen.",
+      "Venus is the second planet from the Sun, and Earth is the third.",
+      "Venus and Earth are similar in size and mass: Venus's diameter is about 95 percent of Earth's, and its mass is about 82 percent of Earth's.",
+      "Venus has a thick atmosphere made mostly of carbon dioxide."
+    ],
+    "answer": 2,
+    "explanation": "Choice C explicitly identifies a similarity (size and mass) and supports it with figures from the notes. Choice A emphasizes a difference between the planets' atmospheres, the opposite of the goal. Choice B merely states each planet's position, and Choice D describes only Venus, so neither emphasizes a similarity."
+  },
+  {
+    "id": "rw-ei-006",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes:\n- The Rosetta Stone is a slab of dark stone carved in 196 BCE.\n- It records a single decree in three scripts: Egyptian hieroglyphs, Demotic, and ancient Greek.\n- French soldiers found the stone in Egypt in 1799.\n- In the early 1800s, scholars could read ancient Greek but not Egyptian hieroglyphs.\n- In 1822, Jean-François Champollion announced that he had deciphered hieroglyphs, in part by comparing the stone's hieroglyphic and Greek texts.",
+    "prompt": "The student wants to explain why the Rosetta Stone was valuable to scholars trying to decipher Egyptian hieroglyphs. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Found by French soldiers in 1799, the Rosetta Stone had been carved nearly two thousand years earlier, in 196 BCE.",
+      "In 1822, Jean-François Champollion announced that he had deciphered Egyptian hieroglyphs.",
+      "The Rosetta Stone records a single decree in three scripts: Egyptian hieroglyphs, Demotic, and ancient Greek.",
+      "Because the Rosetta Stone records the same decree in both hieroglyphs and ancient Greek, which scholars could already read, it allowed them to compare the two versions to decode the hieroglyphs."
+    ],
+    "answer": 3,
+    "explanation": "Choice D explains the stone's value: it paired an unreadable script with a readable one (Greek) for the same text, allowing comparison. Choice C is the main trap; it states that the stone has three scripts but never explains why that mattered, omitting that scholars could already read Greek. Choice A gives only dates, and Choice B mentions the decipherment without connecting it to the stone."
+  },
+  {
+    "id": "rw-ei-007",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes:\n- The \"IKEA effect\" is people's tendency to value objects more highly when they have assembled the objects themselves.\n- In one study, some participants assembled a storage box, while others received an identical box that was already assembled.\n- Participants who assembled the box were willing to pay more for it than were participants who received the assembled box.\n- In a follow-up experiment, participants who began assembling a box but were stopped before finishing did not value it more highly than the already-assembled box.\n- The researchers concluded that the effect depends on completing the task.",
+    "prompt": "The student wants to emphasize a condition that must be met for the IKEA effect to occur. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Participants who assembled a storage box were willing to pay more for it than were participants who received an identical box that was already assembled.",
+      "The IKEA effect appears to occur only when people finish building an object: participants who started assembling a box but did not complete it did not value it more highly.",
+      "In one study of the IKEA effect, some participants assembled a storage box, while others received an identical box that was already assembled.",
+      "The IKEA effect is the tendency of people to value objects more highly when they have assembled the objects themselves."
+    ],
+    "answer": 1,
+    "explanation": "Choice B identifies the condition (completing the assembly) and supports it with the follow-up experiment's result. Choice A is the main trap: it demonstrates that the IKEA effect exists but says nothing about a condition required for it. Choice C describes the study's design, and Choice D simply defines the effect."
+  },
+  {
+    "id": "rw-ei-008",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "Honeybees use a movement called the waggle dance to tell other bees in the hive where to find food. The angle of the dance, measured relative to straight up on the vertical honeycomb, indicates the direction of the food relative to the Sun. ______ the length of time the bee spends waggling indicates how far away the food is.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Additionally,",
+      "Nevertheless,",
+      "Consequently,",
+      "For example,"
+    ],
+    "answer": 0,
+    "explanation": "The final sentence adds a second piece of information the dance conveys (distance) to the first (direction), so the additive transition \"Additionally\" is logical. \"Nevertheless\" signals a contrast that isn't present, and \"Consequently\" wrongly implies that the dance's duration results from its angle. \"For example\" fails because the sentence about distance is not an example of the previous claim about direction."
+  },
+  {
+    "id": "rw-ei-009",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "For much of the nineteenth and early twentieth centuries, many European writers claimed that Great Zimbabwe, a vast stone city in southern Africa, must have been built by foreign visitors rather than by local Africans. ______ archaeological excavations conducted in the twentieth century showed conclusively that the city was built between the eleventh and fifteenth centuries by ancestors of the region's Shona people.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Similarly,",
+      "For example,",
+      "However,",
+      "Therefore,"
+    ],
+    "answer": 2,
+    "explanation": "The second sentence contradicts the claim in the first (outsiders built the city versus local ancestors built it), so the contrasting transition \"However\" is logical. \"Similarly\" and \"For example\" would wrongly present the archaeological evidence as agreeing with or illustrating the earlier claim. \"Therefore\" wrongly suggests the evidence followed from the writers' claim."
+  },
+  {
+    "id": "rw-ei-010",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "Unlike many other animals, octopuses have no bones or shells; the only hard part of an octopus's body is its parrot-like beak. ______ an octopus can squeeze its entire body through any opening that is larger than its beak, allowing it to slip into narrow cracks to hide from predators.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Nonetheless,",
+      "As a result,",
+      "In comparison,",
+      "Likewise,"
+    ],
+    "answer": 1,
+    "explanation": "The octopus's ability to squeeze through small openings is a consequence of its lacking bones, so the cause-and-effect transition \"As a result\" is logical. \"Nonetheless\" signals that the second sentence happens despite the first, which reverses the actual relationship. \"In comparison\" and \"Likewise\" set up a comparison or a parallel example that the text does not contain."
+  },
+  {
+    "id": "rw-ei-011",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "Many architects in the early twentieth century rejected decorative ornament, arguing that buildings should express their purpose through plain surfaces and simple geometric forms. ______ Austrian architect Adolf Loos, in a 1910 lecture, famously condemned ornament as a waste of labor, money, and materials.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Regardless,",
+      "Instead,",
+      "Still,",
+      "For instance,"
+    ],
+    "answer": 3,
+    "explanation": "Loos is one specific architect who rejected ornament, so his lecture illustrates the general claim in the first sentence; \"For instance\" is logical. \"Instead\" wrongly suggests Loos did something other than what the architects did, when he actually did the same thing. \"Regardless\" and \"Still\" signal a contrast or concession that the text does not support."
+  },
+  {
+    "id": "rw-ei-012",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "Some historians have argued that the printing press, introduced in Europe in the mid-1400s, was the primary cause of the rise in literacy that followed. ______ the press dramatically lowered the cost of books and made them far more widely available. But literacy also depended on factors such as the expansion of schooling and the growing use of written records in trade, suggesting that the press alone cannot account for the change.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Therefore,",
+      "To be sure,",
+      "In short,",
+      "Similarly,"
+    ],
+    "answer": 1,
+    "explanation": "The author concedes a point in the historians' favor (the press did make books cheaper) before arguing against their view with \"But\"; \"To be sure\" signals exactly this kind of concession. \"Therefore\" is the main trap: the press's lowering of book prices is not a conclusion drawn from what historians argued. \"In short\" would introduce a summary, and \"Similarly\" a parallel point, neither of which fits."
+  },
+  {
+    "id": "rw-ei-013",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "The Mediterranean monk seal was once common along coastlines from the Black Sea to West Africa, but hunting and habitat loss reduced its population to a few hundred individuals by the late twentieth century. Thanks to legal protections and new marine reserves, the population has grown in recent decades. ______ the species remains at risk: its small, scattered colonies are highly vulnerable to disease outbreaks and to accidental capture in fishing nets.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Even so,",
+      "For this reason,",
+      "Moreover,",
+      "In particular,"
+    ],
+    "answer": 0,
+    "explanation": "The final sentence states that the seal remains at risk despite its recent recovery, so the concessive transition \"Even so\" is logical. \"For this reason\" wrongly implies that the population's growth is what keeps the species at risk. \"Moreover\" and \"In particular\" would present the continuing risk as further good news or as a detail of the recovery, ignoring the contrast."
+  },
+  {
+    "id": "rw-ei-014",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "For two centuries after astronomers first observed Saturn's rings, many assumed that the rings were solid, continuous structures. In 1859, physicist James Clerk Maxwell demonstrated mathematically that a solid ring of that size would be unstable and would quickly break apart. ______ Maxwell argued, the rings must consist of countless small particles, each orbiting Saturn independently.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Granted,",
+      "In addition,",
+      "For example,",
+      "Instead,"
+    ],
+    "answer": 3,
+    "explanation": "Maxwell's particle model replaces the rejected idea of solid rings, so \"Instead\" logically signals an alternative to what was ruled out. \"In addition\" is the main trap: the particle model is not an extra point alongside the solid-ring idea but a replacement for it. \"Granted\" signals a concession and \"For example\" an illustration, neither of which fits the relationship."
+  },
+  {
+    "id": "rw-sec-001",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "Stretching for more than 2,300 kilometers along the northeastern coast of Australia, the Great Barrier Reef is the largest coral reef system in the ______ is home to more than 1,500 species of fish.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "world, it",
+      "world it",
+      "world; it",
+      "world, it,"
+    ],
+    "answer": 2,
+    "explanation": "The text contains two independent clauses (\"the Great Barrier Reef is the largest...\" and \"it is home to...\"), and a semicolon can join independent clauses. Choice A is a comma splice, joining the clauses with only a comma. Choice B is a run-on with no punctuation, and Choice D both creates a comma splice and wrongly separates the subject \"it\" from its verb."
+  },
+  {
+    "id": "rw-sec-002",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "Nearly all metals, including iron, copper, and gold, are solid at room ______ mercury remains liquid at temperatures well below the freezing point of water, a property that made it useful in early thermometers.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "temperature, however,",
+      "temperature; however,",
+      "temperature however,",
+      "temperature, however"
+    ],
+    "answer": 1,
+    "explanation": "\"However\" here begins a new independent clause, so a semicolon must come before it and a comma after it. Choice A is the main trap: placing commas on both sides of \"however\" leaves the two independent clauses joined by only a comma, creating a comma splice. Choices C and D also fail to separate the independent clauses properly."
+  },
+  {
+    "id": "rw-sec-003",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "The narrator of Maren Holt's debut novel—a retired lighthouse keeper named Tomas ______ recounts the stormy summer when a stranger washed ashore on his island and upended the quiet routines of its few residents.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Abrell—",
+      "Abrell,",
+      "Abrell",
+      "Abrell;"
+    ],
+    "answer": 0,
+    "explanation": "The phrase \"a retired lighthouse keeper named Tomas Abrell\" is a nonessential appositive that opens with a dash, so it must close with a matching dash. Choice B is the main trap: closing a dash-opened interruption with a comma mixes punctuation marks. Choice C leaves the interruption unclosed, and Choice D's semicolon wrongly separates the subject \"narrator\" from its verb \"recounts.\""
+  },
+  {
+    "id": "rw-sec-004",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "To track the annual migration of monarch butterflies from Canada to central Mexico, the research team relied on three main ______ lightweight adhesive tags attached to the butterflies' wings, reports from a network of volunteer observers, and weather radar data.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "tools;",
+      "tools, these were",
+      "tools, such as:",
+      "tools:"
+    ],
+    "answer": 3,
+    "explanation": "A colon correctly introduces a list after a complete independent clause (\"the research team relied on three main tools\"). Choice A fails because a semicolon must join two independent clauses, and the list is not one. Choice B creates a comma splice, and Choice C incorrectly places a colon after \"such as,\" which does not complete a clause."
+  },
+  {
+    "id": "rw-sec-005",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "Lichens, which are formed by a close partnership between a fungus and an alga or ______ can survive in some of the harshest environments on Earth, from scorching deserts to the exposed rock faces of Antarctica.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "cyanobacterium,",
+      "cyanobacterium",
+      "cyanobacterium;",
+      "cyanobacterium—"
+    ],
+    "answer": 0,
+    "explanation": "The nonessential clause \"which are formed by... cyanobacterium\" opens with a comma, so it must close with a comma before the main verb \"can survive.\" Choice D is the trap: a dash cannot close an element that opened with a comma. Choice B leaves the clause unclosed, and Choice C's semicolon would cut off the subject \"Lichens\" from its verb."
+  },
+  {
+    "id": "rw-sec-006",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "In the perpetual darkness of the deep sea, female anglerfish attract prey with a glowing lure that dangles from a modified spine on the head. Researchers have found that the light emitted by the ______ is produced not by the fish itself but by bioluminescent bacteria living inside the lure.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "lure,",
+      "lure;",
+      "lure",
+      "lure—"
+    ],
+    "answer": 2,
+    "explanation": "\"The light emitted by the lure\" is the subject of the clause, and \"is produced\" is its verb; no punctuation should separate a subject from its verb. Choice A is the main trap, since the long subject may seem to call for a pause, but a single comma between subject and verb is incorrect. Choices B and D likewise insert punctuation that breaks the subject from its verb."
+  },
+  {
+    "id": "rw-sec-007",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "The program for this year's Riverside World Music Festival features three headlining acts: the Kronos Quartet, a string ensemble based in San ______ Ladysmith Black Mambazo, a vocal group from South Africa; and Tinariwen, a band of Tuareg musicians from Mali.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "Francisco;",
+      "Francisco,",
+      "Francisco:",
+      "Francisco"
+    ],
+    "answer": 0,
+    "explanation": "Because each item in this list contains its own internal comma (a name followed by a description), the items must be separated by semicolons, as the semicolon before \"and Tinariwen\" confirms. Choice B is the main trap: a comma would make it unclear where one item ends and the next begins and would be inconsistent with the later semicolon. Choice C's colon cannot separate list items, and Choice D runs two items together."
+  },
+  {
+    "id": "rw-sec-008",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "Around 1200 BCE, many of the powerful kingdoms of the eastern Mediterranean, including the Hittite Empire and Mycenaean Greece, declined or collapsed within a few decades. Historians continue to debate why this happened so ______ some point to prolonged drought, while others emphasize invasions, earthquakes, or the breakdown of trade networks.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "quickly? Some",
+      "quickly, some",
+      "quickly some",
+      "quickly; some"
+    ],
+    "answer": 3,
+    "explanation": "The text contains two independent clauses, and a semicolon correctly joins them. Choice A is the main trap: \"why this happened so quickly\" is an indirect question embedded in a statement, so the sentence is declarative and must not end with a question mark. Choice B is a comma splice, and Choice C is a run-on sentence."
+  },
+  {
+    "id": "rw-sec-009",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "Completed in 1968, the São Paulo Museum of Art, whose main gallery appears to hover above the street on four bright red pillars, was designed by ______ who was born in Rome and moved to Brazil in 1946.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "architect, Lina Bo Bardi,",
+      "architect Lina Bo Bardi,",
+      "architect, Lina Bo Bardi",
+      "architect Lina Bo Bardi"
+    ],
+    "answer": 1,
+    "explanation": "A descriptive title placed directly before a name without an article (\"architect Lina Bo Bardi\") is not separated from the name by a comma, and the nonessential clause \"who was born in Rome...\" must be set off by a comma. Choices A and C incorrectly insert a comma between the title and the name. Choice D is the main trap: it omits the comma needed before the nonessential relative clause describing a specific, named person."
+  },
+  {
+    "id": "rw-sec-010",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "Housed in a university archive in Santiago, the collection of letters that poet Ana Lucía Ferrer wrote to her sister during her travels across South America ______ scholars rare insight into how the poet drafted and revised her work.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "offer",
+      "have offered",
+      "offers",
+      "are offering"
+    ],
+    "answer": 2,
+    "explanation": "The subject of the sentence is the singular noun \"collection,\" so it requires the singular verb \"offers.\" The trap is the plural noun \"letters\" (and \"travels\"), which sits closer to the blank but is part of a modifying phrase, not the subject. Choices A, B, and D are all plural verb forms and do not agree with \"collection.\""
+  },
+  {
+    "id": "rw-sec-011",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "Sea otters are among the few marine mammals known to use tools. To eat hard-shelled prey such as clams, ______ often float on their backs, place a flat rock on their chests, and strike the shells against the rock until they crack.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "they",
+      "it",
+      "one",
+      "he or she"
+    ],
+    "answer": 0,
+    "explanation": "The pronoun refers to the plural antecedent \"sea otters\" and must agree with the plural verb \"float\" and the later pronouns \"their backs\" and \"their chests,\" so \"they\" is correct. Choices B, C, and D are singular pronouns that do not agree in number with \"sea otters\" and would also require the verb form \"floats.\""
+  },
+  {
+    "id": "rw-sec-012",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "Built as the entrance arch for the 1889 World's Fair in Paris, the Eiffel Tower was initially criticized by many prominent artists and writers. When it was completed, the tower ______ the tallest human-made structure in the world, a title it held until the Chrysler Building in New York City surpassed it in 1930.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "will become",
+      "became",
+      "becomes",
+      "has become"
+    ],
+    "answer": 1,
+    "explanation": "The sentence describes a completed event in the past (\"When it was completed,\" \"a title it held until... 1930\"), so the simple past tense \"became\" is required. Choice D is the main trap: the present perfect \"has become\" suggests a status that continues into the present, which contradicts the statement that the title ended in 1930. Choices A and C use future and present tenses that do not fit the past-tense context."
+  },
+  {
+    "id": "rw-sec-013",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "Having spent three years analyzing satellite images of the Amazon rainforest, ______ that forest loss along newly built roads was occurring far faster than earlier estimates had suggested.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "the conclusion reached by the researchers was",
+      "the researchers' conclusion was",
+      "it was concluded by the researchers",
+      "the researchers concluded"
+    ],
+    "answer": 3,
+    "explanation": "An introductory modifier must be immediately followed by the noun it describes. Only researchers could have \"spent three years analyzing satellite images,\" so \"the researchers\" must come right after the comma. Choice B is the main trap: \"the researchers' conclusion\" makes the conclusion, not the researchers, the subject, creating a dangling modifier; Choices A and C similarly attach the modifier to \"the conclusion\" and \"it.\""
+  },
+  {
+    "id": "rw-sec-014",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "Divers exploring the wreck of a sixteenth-century merchant ship recently recovered hundreds of objects, many of them remarkably well preserved. Among the most valuable of these finds ______ a set of brass navigational instruments and a small wooden chest filled with gold coins.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "were",
+      "was",
+      "is",
+      "has been"
+    ],
+    "answer": 0,
+    "explanation": "This sentence is inverted: the subject comes after the verb and is the compound subject \"a set of brass navigational instruments and a small wooden chest,\" which is plural and requires \"were.\" Choice B is the main trap, because the singular nouns \"set\" and \"chest\" or the opening prepositional phrase may make a singular verb seem correct. Choices C and D are singular and also shift away from the passage's past tense."
+  },
+  {
+    "id": "rw-sec-015",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "Founded in 1919, the International Astronomical Union is the organization responsible for naming planets, moons, and other celestial bodies. In 2006, the union revised ______ definition of the term \"planet,\" a change that led to Pluto's reclassification as a dwarf planet.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "it's",
+      "their",
+      "its'",
+      "its"
+    ],
+    "answer": 3,
+    "explanation": "The antecedent \"the union\" is a singular noun, so the singular possessive pronoun \"its\" is required. Choice A is the main trap: \"it's\" is a contraction of \"it is\" or \"it has,\" not a possessive. Choice B is a plural pronoun that does not agree with the singular \"union,\" and Choice C, \"its',\" is not a word in Standard English."
+  },
+  {
+    "id": "rw-sec-016",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "During the 1930s, severe drought and poor farming practices turned much of the southern Great Plains into what became known as the Dust Bowl. By the time steady rains returned at the end of the decade, powerful winds had ______ away millions of tons of fertile topsoil.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "blew",
+      "blown",
+      "blow",
+      "blows"
+    ],
+    "answer": 1,
+    "explanation": "The past perfect tense is formed with \"had\" plus a past participle, and the past participle of \"blow\" is \"blown.\" Choice A is the main trap: \"blew\" is the simple past form and cannot follow the helping verb \"had.\" Choices C and D are present-tense forms that also cannot follow \"had.\""
+  },
+  {
+    "id": "rw-sec-017",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "When Igor Stravinsky's ballet The Rite of Spring premiered in Paris in 1913, its jarring rhythms and unconventional choreography provoked shouting and scuffles in the audience. Neither the composer nor the dancers who performed that night ______ prepared for such a hostile reaction.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "was",
+      "has been",
+      "were",
+      "is"
+    ],
+    "answer": 2,
+    "explanation": "When subjects are joined by \"neither... nor,\" the verb agrees with the subject closer to it; here that subject is the plural \"dancers,\" so the plural past-tense verb \"were\" is correct. Choice A is the main trap, since \"the composer\" is singular, but it is the farther subject. Choices B and D are singular and also break the passage's past-tense context."
+  },
+  {
+    "id": "rw-sec-018",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "In 1912, German scientist Alfred Wegener proposed that Earth's continents had once been joined in a single landmass that later broke apart. Most ______ objections to the theory centered on one problem: Wegener could not explain what force could move entire continents across Earth's surface.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "geologist's",
+      "geologists",
+      "geologists'",
+      "geologists's"
+    ],
+    "answer": 2,
+    "explanation": "The text refers to objections belonging to many geologists, so a plural possessive is needed; for a plural noun ending in -s, the possessive is formed by adding only an apostrophe: \"geologists'.\" Choice A is the main trap: \"geologist's\" is a singular possessive, which cannot follow \"Most\" (one would not say \"most geologist\"). Choice B is plural but not possessive, and Choice D is not a standard possessive form."
+  }
+]
