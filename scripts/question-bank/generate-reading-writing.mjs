@@ -3,6 +3,8 @@ import { readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { reading } from './reading.mjs'
 import { writing } from './writing.mjs'
+import { readingExpansion } from './reading-expansion.mjs'
+import { writingExpansion } from './writing-expansion.mjs'
 const groups={
  'Words in Context':['craft','Craft and Structure','vocab'],
  'Text Structure and Purpose':['craft','Craft and Structure','structure'],
@@ -17,7 +19,8 @@ const groups={
  'Form, Structure, and Sense':['conventions','Standard English Conventions','form'],
 }
 const counts={}, files={}, seen=new Set()
-for(const [i,row] of [...reading,...writing].entries()) {
+const rows=[...reading,...writing,...readingExpansion,...writingExpansion]
+for(const [i,row] of rows.entries()) {
  const [file,domain,key]=groups[row.skill]
  counts[key]=(counts[key]??0)+1
  const id=`rw-original-${key}-${String(counts[key]).padStart(3,'0')}`
@@ -37,4 +40,4 @@ for(const [file,qs] of Object.entries(files)) {
  if(process.argv.includes('--check')) assert.equal(readFileSync(path,'utf8'),content,`${file}: bank differs from authored content`)
  else writeFileSync(path,content)
 }
-console.log(`${process.argv.includes('--check')?'Verified':'Wrote'} ${reading.length+writing.length} original Reading and Writing questions across ${Object.keys(counts).length} skills.`)
+console.log(`${process.argv.includes('--check')?'Verified':'Wrote'} ${rows.length} original Reading and Writing questions across ${Object.keys(counts).length} skills.`)

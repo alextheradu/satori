@@ -1,14 +1,14 @@
 # Question bank expansion and practice sources
 
-The app now contains **6,296 questions**, up from 512. All bundled additions are original SAT-style practice, with answers, explanations, domain/skill labels, and difficulty labels. Difficulty labels are editorial estimates, not calibrated College Board difficulty ratings.
+The app now contains **6,440 questions**, up from 512. All bundled additions are original SAT-style practice, with answers, explanations, domain/skill labels, and difficulty labels. Difficulty labels are editorial estimates, not calibrated College Board difficulty ratings.
 
 | Bundled material | Count | What the count represents |
 |---|---:|---|
 | Existing questions | 512 | Original bank retained with stable IDs |
 | New generated math | 5,632 | 64 numerical variants for each of 88 authored problem families |
 | New conceptual statistics | 24 | Individually written questions, including sampling, causation, experiments, and spread |
-| New Reading and Writing | 128 | Individually written questions with distinct passages or sentence-completion contexts across all 11 skills |
-| Total | **6,296** | Questions available in practice and test selection |
+| New Reading and Writing | 272 | Individually written questions with distinct passages or sentence-completion contexts across all 11 skills |
+| Total | **6,440** | Questions available in practice and test selection |
 
 The 5,632 generated items are numerical variants, not 5,632 independently invented problem structures. They are useful for repetition of a skill. The Reading and Writing expansion uses distinct authored contexts rather than swapping names into a repeated passage. Studies, institutions, stories, and named people invented for these passages are identified as hypothetical or fictional.
 
@@ -20,10 +20,10 @@ The 5,632 generated items are numerical variants, not 5,632 independently invent
 | Math | Advanced Math | 1,280 |
 | Math | Problem-Solving and Data Analysis | 1,816 |
 | Math | Geometry and Trigonometry | 1,408 |
-| Reading and Writing | Craft and Structure | 96 |
-| Reading and Writing | Information and Ideas | 96 |
-| Reading and Writing | Expression of Ideas | 94 |
-| Reading and Writing | Standard English Conventions | 98 |
+| Reading and Writing | Craft and Structure | 136 |
+| Reading and Writing | Information and Ideas | 152 |
+| Reading and Writing | Expression of Ideas | 118 |
+| Reading and Writing | Standard English Conventions | 122 |
 
 All 19 math skills and all 11 Reading and Writing skills used by this bank receive new questions. Family count measures distinct templates rather than skill count.
 
@@ -64,7 +64,20 @@ Publisher pages were checked on **2026-11-18**. External questions are linked in
 | [Erik the Red](https://www.erikthered.com/tutor/practice.html) | Printable math quizzes, strategies, solutions | Free; explicitly designed for 2005–2016 SAT, so use as supplemental drills |
 | [CrackSAT digital index](https://www.cracksat.net/digital/index.html) | Index of practice sets and downloadable materials | Third-party aggregation; check original publishers and individual test formats |
 
-The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 6,296-question total. Free-test offers and account requirements can change.
+| [Whiz](https://www.whiz.study/sat) | Publisher lists 2,900 drills and free SAT practice exams | Free SAT drills/tests; optional Pro features paid |
+| [OnePrep](https://www.oneprep.com/question-bank) | Skill-filtered Math and Reading and Writing bank with explanations | Free sign-in to practice; collection headline is publisher-reported |
+| [Varsity Tutors: Reading and Writing](https://www.varsitytutors.com/practice/subjects/sat-reading-and-writing) | Skill quizzes, flashcards, and lessons; publisher lists thousands of questions | Free account offered; verify individual exercise format |
+| [Varsity Tutors: full-length tests](https://www.varsitytutors.com/learner/subjects/sat/practice-tests) | Publisher lists seven 98-question SAT tests | Account access may be required; separate listing from topic quizzes |
+| [PrepArc](https://preparc.app/) | Publisher lists 4,328 original Math and Reading and Writing questions | Free question practice without account; account for tests and saved progress |
+| [One for All SAT](https://oneforallsat.com/sat-prep/) | Publisher lists 1,748 questions, notes, and worked solutions | Free; sign-in optional for cross-device progress |
+| [CollegePrepRoom](https://www.collegepreproom.com/sat/practice-test) | Original fixed section tests plus topic practice | Free; distinct from the official tests to which it also links |
+| [Colorbook worked questions](https://sat.colorbook.tech/articles/sat-practice-questions/) | 32 public questions spanning all eight domains, with full choice explanations | Free article; links onward to the publisher's larger bank |
+
+The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 6,440-question total. Free-test offers and account requirements can change.
+
+## Additional Reading and Writing batch
+
+The second authored batch adds 144 questions: 96 reading questions and 48 writing questions. It adds sentence-function analysis, evidence that weakens a hypothesis, quotation selection from original stories, raw-count versus percentage comparisons, translation tradeoffs, and sampling/generalization reasoning. The additions retain the existing question IDs and answer-choice positions for all earlier items.
 
 ## Further expansion
 

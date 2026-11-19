@@ -542,5 +542,413 @@
     ],
     "answer": 3,
     "explanation": "The sentence must compare measurements with measurements. Those of the second device supplies the parallel category; the distractors compare measurements to a device, a manufacturer, or an action."
+  },
+  {
+    "id": "rw-original-boundary-017",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "While the early drawings emphasized the building’s ______ the later drawings focused on its interior routes.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "façade,",
+      "façade;",
+      "façade.",
+      "façade:"
+    ],
+    "answer": 0,
+    "explanation": "While introduces a dependent contrast clause, which takes a comma before the main clause. A semicolon or period would incorrectly treat the dependent clause as independent."
+  },
+  {
+    "id": "rw-original-boundary-018",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "The display includes a diary from Norwick, a fishing ______ a ledger from Halden, a market town; and a map from Stowe, a mountain village.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "port,",
+      "port;",
+      "port:",
+      "port"
+    ],
+    "answer": 1,
+    "explanation": "The list items contain internal commas, so semicolons separate them. A semicolon after port parallels the one after town and keeps each place description with its object."
+  },
+  {
+    "id": "rw-original-boundary-019",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "The replacement part, which the engineer had ordered weeks ______ arrived just before the test.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "earlier;",
+      "earlier:",
+      "earlier,",
+      "earlier"
+    ],
+    "answer": 2,
+    "explanation": "The nonessential which clause begins with a comma and must close with one. The main subject part must remain connected to its verb arrived."
+  },
+  {
+    "id": "rw-original-boundary-020",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "The evidence did not settle the ______ nevertheless, it narrowed the range of plausible explanations.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "question,",
+      "question",
+      "question; and;",
+      "question;"
+    ],
+    "answer": 3,
+    "explanation": "Two independent clauses require a suitable boundary. A semicolon before nevertheless and a comma after it are correct. A comma alone is a comma splice; the extra semicolon after and breaks the clause."
+  },
+  {
+    "id": "rw-original-boundary-021",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "After the final visitor ______ the attendants checked the gallery doors.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "left,",
+      "left.",
+      "left;",
+      "left:"
+    ],
+    "answer": 0,
+    "explanation": "After introduces a dependent time clause. A comma connects it to the complete main clause, while the other punctuation would strand it."
+  },
+  {
+    "id": "rw-original-boundary-022",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "The archive purchased one particularly unusual ______ a notebook containing both recipes and weather observations.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "item;",
+      "item:",
+      "item.",
+      "item: and"
+    ],
+    "answer": 1,
+    "explanation": "The complete first clause can introduce a specific explanatory noun phrase with a colon. The phrase after the blank is not an independent clause and does not require and."
+  },
+  {
+    "id": "rw-original-boundary-023",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "The two longest routes—one through the forest and one along the ______ were closed during the storm.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "ridge,",
+      "ridge;",
+      "ridge—",
+      "ridge:"
+    ],
+    "answer": 2,
+    "explanation": "The parenthetical description opens with an em dash and closes with one. The main subject routes then connects directly to were closed."
+  },
+  {
+    "id": "rw-original-boundary-024",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "The team inspected the frames and ______ every loose joint before moving the paintings.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "reinforced,",
+      "reinforced;",
+      "reinforced:",
+      "reinforced"
+    ],
+    "answer": 3,
+    "explanation": "Inspected and reinforced share the subject team. No punctuation should separate the second verb from its direct object every loose joint."
+  },
+  {
+    "id": "rw-original-boundary-025",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "One practical issue remained after the ______ where could the oversized model be stored?",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "demonstration:",
+      "demonstration although",
+      "demonstration",
+      "demonstration; whether"
+    ],
+    "answer": 0,
+    "explanation": "A colon follows a complete clause and introduces the direct question specifying the issue. The other choices produce an ungrammatical link or a run-on."
+  },
+  {
+    "id": "rw-original-boundary-026",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "The second sensor was more ______ it remained accurate after repeated exposure to moisture.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "durable,",
+      "durable;",
+      "durable",
+      "durable; which"
+    ],
+    "answer": 1,
+    "explanation": "Both clauses are independent, so a semicolon is appropriate. A comma alone or no punctuation creates a run-on; adding which prevents the second part from functioning as the needed independent clause."
+  },
+  {
+    "id": "rw-original-boundary-027",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "easy",
+    "passage": "Because several paths were ______ the guides chose a different route.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "flooded.",
+      "flooded;",
+      "flooded,",
+      "flooded:"
+    ],
+    "answer": 2,
+    "explanation": "The introductory because clause depends on the main clause and takes a comma. A period, semicolon, or colon would create an improper boundary."
+  },
+  {
+    "id": "rw-original-boundary-028",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "hard",
+    "passage": "The committee approved the proposal, which retained the older ______ it requested a separate report on maintenance costs.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "entrance,",
+      "entrance",
+      "entrance; that",
+      "entrance;"
+    ],
+    "answer": 3,
+    "explanation": "The which clause belongs to the first independent clause. A semicolon then joins the independent statement it requested. The alternatives create a run-on or an incomplete that construction."
+  },
+  {
+    "id": "rw-original-form-017",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "The pattern of cracks along the two walls ______ that the building settled unevenly.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "suggests",
+      "suggest",
+      "have suggested",
+      "are suggesting"
+    ],
+    "answer": 0,
+    "explanation": "The singular head noun pattern controls agreement; cracks and walls are inside prepositional phrases. Suggests is the only singular finite verb offered."
+  },
+  {
+    "id": "rw-original-form-018",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "By the time the new catalog appeared in 2024, the archivists ______ the unsigned letters for several years.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "will study",
+      "had studied",
+      "study",
+      "are studying"
+    ],
+    "answer": 1,
+    "explanation": "Past perfect had studied places the earlier ongoing work before the later past event appeared. Present and future forms do not match that chronology."
+  },
+  {
+    "id": "rw-original-form-019",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "The three ______ notes describe different stages of the excavation.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "researcher’s",
+      "researchers",
+      "researchers’",
+      "researchers’s"
+    ],
+    "answer": 2,
+    "explanation": "The notes belong to three researchers, requiring plural possessive researchers’. The singular possessive and nonpossessive alternatives do not express that relationship."
+  },
+  {
+    "id": "rw-original-form-020",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "Having examined the receipts, ______ a recurring payment to local interpreters.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "a recurring payment was identified by the historian as",
+      "there appeared to the historian",
+      "identifying by the historian revealed",
+      "the historian identified"
+    ],
+    "answer": 3,
+    "explanation": "The introductory participial phrase must modify the person who examined the receipts. The historian supplies that subject and a complete verb; the other constructions dangle or are ungrammatical."
+  },
+  {
+    "id": "rw-original-form-021",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "The revised entrance is wider ______ the original doorway.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "than",
+      "then",
+      "that",
+      "when"
+    ],
+    "answer": 0,
+    "explanation": "The comparative wider takes than. Then signals time; that and when do not complete this comparison."
+  },
+  {
+    "id": "rw-original-form-022",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "Neither the earlier letters nor the surviving diary ______ the exact departure date.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "give",
+      "gives",
+      "have given",
+      "are giving"
+    ],
+    "answer": 1,
+    "explanation": "With neither...nor, the verb agrees with the nearer subject diary, which is singular. Gives supplies the required singular agreement."
+  },
+  {
+    "id": "rw-original-form-023",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "The protocol asks volunteers to record the location, photograph the object, and ______ its condition before moving it.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "describing",
+      "description of",
+      "describe",
+      "described"
+    ],
+    "answer": 2,
+    "explanation": "Record, photograph, and describe are parallel base-form verbs following asks volunteers to. The other choices break that coordinated structure."
+  },
+  {
+    "id": "rw-original-form-024",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "The violin had lost ______ original bridge before the museum acquired it.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "it’s",
+      "its’",
+      "their",
+      "its"
+    ],
+    "answer": 3,
+    "explanation": "Its is the possessive form agreeing with singular violin. It’s is a contraction, its’ is nonstandard, and their does not match the antecedent."
+  },
+  {
+    "id": "rw-original-form-025",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "The study compared the newer filter’s absorption rate with ______ under identical conditions.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "that of the older filter",
+      "the older filter",
+      "manufacturing the older filter",
+      "the older filter’s size"
+    ],
+    "answer": 0,
+    "explanation": "A rate must be compared with another rate. That of supplies the corresponding absorption rate, while the other choices compare unlike categories."
+  },
+  {
+    "id": "rw-original-form-026",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "easy",
+    "passage": "Yesterday, the technicians ______ the sensors and recorded the calibration results.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "test",
+      "tested",
+      "will test",
+      "are testing"
+    ],
+    "answer": 1,
+    "explanation": "Yesterday requires past time, and tested parallels recorded. The alternatives refer to present or future action."
+  },
+  {
+    "id": "rw-original-form-027",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "medium",
+    "passage": "Each of the revised labels ______ a short explanation of how the object was used.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "include",
+      "have included",
+      "includes",
+      "are including"
+    ],
+    "answer": 2,
+    "explanation": "Each is singular and controls the verb; plural labels is inside an of phrase. Includes is the only singular finite verb offered."
+  },
+  {
+    "id": "rw-original-form-028",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "The new exhibit encourages visitors not only to observe the tools but also ______ the processes they made possible.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "considering",
+      "considered",
+      "the consideration of",
+      "to consider"
+    ],
+    "answer": 3,
+    "explanation": "Not only...but also coordinates two infinitive phrases, to observe and to consider. The other forms are not parallel."
   }
 ]

@@ -542,5 +542,685 @@
     ],
     "answer": 3,
     "explanation": "Text 2 seeks relevant limits with concision, not exhaustive detail. It rejects omission of all uncertainty while keeping the goal of brevity."
+  },
+  {
+    "id": "rw-original-vocab-017",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The philosopher does not claim that competing explanations are equally persuasive. Her position is more ______: a theory can be better supported than its rivals while still remaining open to revision.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "nuanced",
+      "dogmatic",
+      "indifferent",
+      "categorical"
+    ],
+    "answer": 0,
+    "explanation": "Nuanced means attentive to subtle distinctions. The position distinguishes comparative support from certainty. Dogmatic and categorical suggest the rigidity rejected by openness to revision; indifferent would imply not evaluating the rivals."
+  },
+  {
+    "id": "rw-original-vocab-018",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The fictional botanist’s early drawings were often dismissed as decorative. A later comparison with field notes revealed their ______ value: they recorded small differences in leaf shape that the notes never mentioned.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "monetary",
+      "documentary",
+      "ceremonial",
+      "hypothetical"
+    ],
+    "answer": 1,
+    "explanation": "The drawings preserve observations, giving them documentary value. The passage makes no claim about price or ritual use; their recorded details are actual features of the fictional collection, not a hypothetical use."
+  },
+  {
+    "id": "rw-original-vocab-019",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The researcher’s request for additional controls was not an attempt to ______ the result; she considered it promising and wanted to distinguish its proposed cause from several plausible alternatives.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "substantiate",
+      "replicate",
+      "disparage",
+      "contextualize"
+    ],
+    "answer": 2,
+    "explanation": "Disparage means speak of dismissively. The researcher values the result and seeks stronger causal evidence, so her request is not dismissive. Substantiate and contextualize describe compatible constructive aims rather than the rejected attitude."
+  },
+  {
+    "id": "rw-original-vocab-020",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "In the original story, Leon had rehearsed a forceful objection. At the meeting, however, his remarks were unexpectedly ______: he suggested only a minor change and twice thanked the organizer.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "vehement",
+      "irrelevant",
+      "exhaustive",
+      "restrained"
+    ],
+    "answer": 3,
+    "explanation": "Restrained means controlled or moderate, matching the modest change and polite thanks. Vehement contradicts the behavior; relevance and exhaustiveness are not the contrast established by the planned forceful objection."
+  },
+  {
+    "id": "rw-original-vocab-021",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The two datasets are not ______. One counts households, the other counts individuals, and neither supplies the information needed to translate between those units.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "commensurable",
+      "independent",
+      "comprehensive",
+      "anomalous"
+    ],
+    "answer": 0,
+    "explanation": "Commensurable means measurable or comparable on a common basis. Different units without a conversion prevent that comparison. Independence, completeness, and unusualness are not established by the unit mismatch."
+  },
+  {
+    "id": "rw-original-vocab-022",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The fictional village council made a ______ concession: it moved the concert’s starting time by fifteen minutes but rejected the requested changes to its location and program.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "sweeping",
+      "limited",
+      "binding",
+      "reluctant"
+    ],
+    "answer": 1,
+    "explanation": "Limited matches the narrow adjustment relative to the broader request. Sweeping contradicts the small change. The passage does not establish whether the decision is legally binding or emotionally reluctant."
+  },
+  {
+    "id": "rw-original-vocab-023",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The essay’s opening anecdote is not merely ______. The author returns to its details in every section, using them to frame the argument’s central distinctions.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "integral",
+      "illustrative",
+      "incidental",
+      "evocative"
+    ],
+    "answer": 2,
+    "explanation": "Incidental means secondary or nonessential, which is what the sentence rejects. The repeated framing makes the anecdote integral. An anecdote can be illustrative or evocative while still playing this central role, so those words do not express the relevant denial."
+  },
+  {
+    "id": "rw-original-vocab-024",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "A fictional engineer replaced the prototype’s separate fasteners with a single molded joint. This change ______ assembly: workers no longer had to align and tighten six small pieces.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "impeded",
+      "outsourced",
+      "standardized",
+      "streamlined"
+    ],
+    "answer": 3,
+    "explanation": "Streamlined means made simpler or more efficient, precisely the effect of eliminating six assembly steps. Impeded is the opposite; outsourcing changes who performs the work; standardization would require evidence of common specifications."
+  },
+  {
+    "id": "rw-original-vocab-025",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The historian regards the letter’s silences as ______ rather than conclusive: a missing reference may guide further research, but it cannot by itself prove that an event never occurred.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "suggestive",
+      "definitive",
+      "irrecoverable",
+      "fabricated"
+    ],
+    "answer": 0,
+    "explanation": "Suggestive means pointing toward an interpretation without establishing it. Definitive conflicts with the stated limit; irrecoverable concerns retrieval, and fabricated concerns false creation, neither of which describes what absence supports."
+  },
+  {
+    "id": "rw-original-vocab-026",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "Although the fictional designer’s first plan was inexpensive, it was not ______: repairs required parts that local suppliers could not obtain, making routine maintenance impractical.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "novel",
+      "viable",
+      "economical",
+      "elaborate"
+    ],
+    "answer": 1,
+    "explanation": "Viable means capable of working successfully in practice. Inaccessible replacement parts undermine practical feasibility even when initial cost is low. Novelty and complexity are not addressed; economical overlaps the explicitly granted inexpensive price."
+  },
+  {
+    "id": "rw-original-vocab-027",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The scholar rejects the assumption that a text’s meaning is ______ its author’s private intentions; she argues that conventions shared with readers also shape what its words can communicate.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "influenced by",
+      "independent of",
+      "reducible to",
+      "in tension with"
+    ],
+    "answer": 2,
+    "explanation": "Reducible to means fully explainable by one factor. Shared conventions challenge the claim that private intentions alone determine meaning. The scholar need not deny that intentions influence meaning, and rejecting independence would reverse her argument."
+  },
+  {
+    "id": "rw-original-vocab-028",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "Instead of presenting every recorded detail, the fictional biographer chose anecdotes that ______ the subject’s changing priorities, allowing readers to see how early ambitions gave way to later commitments.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "obscured",
+      "anticipated",
+      "exaggerated",
+      "illuminated"
+    ],
+    "answer": 3,
+    "explanation": "Illuminated means clarified or made understandable, matching the anecdotes’ explanatory role. Obscured is the opposite; anticipated concerns prediction; exaggerated would require evidence of distortion."
+  },
+  {
+    "id": "rw-original-vocab-029",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The two researchers’ conclusions are ______ only if one overlooks their different time scales: a short-term decline can coexist with a long-term increase.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "contradictory",
+      "complementary",
+      "tentative",
+      "quantitative"
+    ],
+    "answer": 0,
+    "explanation": "Contradictory means inconsistent. The sentence says they seem inconsistent only when the time-scale difference is ignored. Complementary would describe compatibility, not the mistaken impression being conditioned."
+  },
+  {
+    "id": "rw-original-vocab-030",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The fictional city’s old plan treated rainwater as a nuisance to remove quickly. Its new plan takes a more ______ approach, treating stored rainwater as a resource for gardens during dry periods.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "dismissive",
+      "resourceful",
+      "fatalistic",
+      "ceremonial"
+    ],
+    "answer": 1,
+    "explanation": "Resourceful means making effective use of available means. Reusing rainwater for gardens exemplifies that quality. The alternatives imply disregard, resignation, or ritual, none supported by the plan."
+  },
+  {
+    "id": "rw-original-vocab-031",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "hard",
+    "passage": "The critic’s praise is ______ by a specific reservation: the exhibition’s labels explain the tools thoroughly but say little about the workers who used them.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "amplified",
+      "precluded",
+      "tempered",
+      "authenticated"
+    ],
+    "answer": 2,
+    "explanation": "Tempered means moderated. A reservation limits otherwise positive praise. Amplified would strengthen it; precluded would make praise impossible; authenticated concerns verifying truth or origin."
+  },
+  {
+    "id": "rw-original-vocab-032",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "The fictional research team’s records were unusually ______: every altered setting was dated, attributed to a team member, and linked to the measurements it affected.",
+    "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
+    "choices": [
+      "impressionistic",
+      "inaccessible",
+      "conjectural",
+      "systematic"
+    ],
+    "answer": 3,
+    "explanation": "Systematic means organized according to a clear method. Dated, attributed, linked entries demonstrate that organization. The other words concern subjective impressions, lack of access, or speculation."
+  },
+  {
+    "id": "rw-original-structure-009",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "A fictional essay first questions whether a city can be understood from its monuments alone. It next describes delivery routes, informal markets, and repairs to ordinary stairways. It ends by proposing that repeated everyday activities produce a kind of civic history that monumental architecture only partly records.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It challenges a narrow approach, supplies alternative evidence, and offers a broader account.",
+      "It lists monuments and ranks them by the frequency of repairs.",
+      "It proposes a theory and then dismisses every example that might support it.",
+      "It traces the construction of one monument from planning to completion."
+    ],
+    "answer": 0,
+    "explanation": "The ordinary activities broaden the evidence beyond monuments and support the final account. The text is not a ranking, a rejected theory, or a construction history."
+  },
+  {
+    "id": "rw-original-structure-010",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "In a hypothetical experiment, participants remembered lists better when they grouped related words. _The researchers then tested a new list whose categories were deliberately less obvious._ Performance improved only when participants were given time to discover groupings themselves.",
+    "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "choices": [
+      "It states the main conclusion before any evidence is presented.",
+      "It describes a follow-up test designed to probe the conditions under which the initial benefit occurs.",
+      "It supplies an unrelated example of successful memorization.",
+      "It establishes that the original study contained fabricated data."
+    ],
+    "answer": 1,
+    "explanation": "The underlined sentence changes how obvious the groupings are to explore the original result. It does not announce a final conclusion, introduce an unrelated topic, or challenge data integrity."
+  },
+  {
+    "id": "rw-original-structure-011",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "In this original reflection, the narrator calls her mother’s habit of saving empty envelopes excessive. She then discovers that each envelope records an address at which the family once lived. She closes by describing the drawer as a record of departures that no official document had preserved.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It supports an unchanged criticism with increasingly severe examples.",
+      "It compares the monetary value of several inherited collections.",
+      "It transforms an initial criticism by revealing the personal significance of an ordinary collection.",
+      "It explains why the narrator decides to discard all family records."
+    ],
+    "answer": 2,
+    "explanation": "The envelopes’ meaning changes the narrator’s evaluation. Their value is personal and historical, not monetary; no disposal is described."
+  },
+  {
+    "id": "rw-original-structure-012",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "A fictional researcher argues that school maps can omit spaces students consider important. _Several students drew the narrow passage behind the gym, although it appeared on none of the official plans._ The researcher concludes that informal routes may structure students’ experience of a campus.",
+    "prompt": "Which choice best describes the function of the underlined sentence?",
+    "choices": [
+      "It introduces an exception that disproves the researcher’s argument.",
+      "It summarizes every feature included on official school maps.",
+      "It shifts the discussion from students to construction contractors.",
+      "It provides a concrete observation supporting the argument that official maps can miss meaningful spaces."
+    ],
+    "answer": 3,
+    "explanation": "The passage behind the gym is both student-recognized and officially absent, directly illustrating the argument. The sentence does not disprove it or change the participants."
+  },
+  {
+    "id": "rw-original-structure-013",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "An imagined reviewer distinguishes disagreement about a novel’s events from disagreement about its values. She notes that two critics recount the plot almost identically but interpret the protagonist’s final refusal in opposite ways. She concludes that their dispute concerns the meaning of a shared description, not conflicting accounts of what happened.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It introduces a distinction, illustrates it with a comparison, and applies the distinction to explain a dispute.",
+      "It reconstructs two incompatible plot summaries and selects the more accurate one.",
+      "It explains the historical origin of the novel’s publication title.",
+      "It abandons a conceptual distinction because the critics agree on everything."
+    ],
+    "answer": 0,
+    "explanation": "The critics share a plot account but differ in evaluation, so the opening distinction explains their dispute. Agreement on events does not imply agreement on values."
+  },
+  {
+    "id": "rw-original-structure-014",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "easy",
+    "passage": "In this original story, a child hears a whistle from the locked shed each evening. She waits beside the door to investigate. When the wind rises, air passes through a cracked pipe and produces the sound she had imagined was a hidden visitor.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It reports a conversation between two hidden visitors.",
+      "It establishes a mystery, describes an investigation, and gives a physical explanation.",
+      "It begins with a scientific explanation and then rejects it.",
+      "It describes a problem that remains entirely unresolved."
+    ],
+    "answer": 1,
+    "explanation": "The wind and pipe explain the whistle after the child investigates. No hidden visitor appears and the mystery is resolved."
+  },
+  {
+    "id": "rw-original-structure-015",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "A hypothetical report says that a single annual average can conceal seasonal shortages. _A reservoir with a high annual average may still fall below demand for several consecutive summer weeks._ The report therefore recommends publishing the timing of low levels as well as yearly summaries.",
+    "prompt": "What is the main purpose of the underlined sentence?",
+    "choices": [
+      "It shows that the report’s recommendation has already solved all shortages.",
+      "It establishes that annual averages cannot be computed for reservoirs.",
+      "It illustrates how the measure criticized in the first sentence can fail to reveal a practical problem.",
+      "It offers an exception in which seasonal timing never matters."
+    ],
+    "answer": 2,
+    "explanation": "The reservoir example concretely shows what an annual average can hide. It neither claims impossibility of calculation nor reports success of a policy."
+  },
+  {
+    "id": "rw-original-structure-016",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "A fictional catalog initially groups woven baskets by the fibers they contain. It then describes baskets made from the same fiber but used for carrying grain, filtering liquid, and storing clothing. It closes by explaining why a second index organized by use helps readers ask different questions of the collection.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It proves that fiber identification is impossible.",
+      "It lists uses of baskets to argue that all baskets are interchangeable.",
+      "It replaces every material description with a price estimate.",
+      "It presents one classification, demonstrates differences that it does not emphasize, and motivates an additional classification."
+    ],
+    "answer": 3,
+    "explanation": "The different uses show why material alone is not the only useful organizing principle. The added index complements rather than invalidates fiber classification."
+  },
+  {
+    "id": "rw-original-structure-017",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "In a hypothetical history essay, an author explains that official opening dates do not always mark the start of a public service. She describes a bridge used by pedestrians for months before its ceremonial opening, then examines why officials chose a later date for the ceremony.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It complicates a familiar assumption through a specific case and then investigates the case’s official presentation.",
+      "It lists the opening dates of unrelated bridges without interpretation.",
+      "It treats the ceremonial date as proof that no earlier use occurred.",
+      "It argues that every public ceremony has no historical value."
+    ],
+    "answer": 0,
+    "explanation": "The example separates practical use from ceremony and prompts investigation of official framing. The author neither ignores earlier use nor dismisses ceremonies as evidence."
+  },
+  {
+    "id": "rw-original-structure-018",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "medium",
+    "passage": "A fictional craft historian describes a repaired chair whose replacement leg differs from the others. _The mismatch makes the repair visible, but it also shows how the chair was kept in use with available materials._ The historian treats the chair as evidence of maintenance rather than merely of original manufacture.",
+    "prompt": "Which choice best describes the function of the underlined sentence?",
+    "choices": [
+      "It proves that the chair was never repaired.",
+      "It reframes an apparent defect as evidence relevant to the historian’s interpretation.",
+      "It explains why the chair must be an exact copy of an earlier object.",
+      "It dismisses maintenance as irrelevant to historical study."
+    ],
+    "answer": 1,
+    "explanation": "The sentence moves from visual mismatch to its evidentiary value for repair and reuse. The alternatives contradict that reframing."
+  },
+  {
+    "id": "rw-original-structure-019",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "An imagined linguistics article begins with a puzzle: listeners can understand an unfamiliar phrase even when none of its words has changed meaning. It then analyzes how word order and surrounding conversation restrict possible interpretations. It ends by arguing that meaning depends on relations among familiar elements as well as on the elements themselves.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It introduces an unfamiliar language and supplies a complete dictionary.",
+      "It offers several unrelated puzzles without proposing an explanation.",
+      "It poses a puzzle, examines mechanisms that explain it, and draws a general conclusion.",
+      "It rejects the role of context after showing that word order has no effect."
+    ],
+    "answer": 2,
+    "explanation": "Word order and conversational context explain the initial puzzle and support the relational conclusion. The text does not provide a dictionary or reject context."
+  },
+  {
+    "id": "rw-original-structure-020",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "easy",
+    "passage": "A fictional community group wanted a quieter meeting room. It measured street noise near several windows, selected the least noisy wall, and moved the chairs there. Participants then reported hearing one another more easily.",
+    "prompt": "Which choice best describes the overall structure of the text?",
+    "choices": [
+      "It describes several failed changes without reaching a result.",
+      "It argues that measurements cannot inform room layout.",
+      "It compares two groups that never use the same room.",
+      "It identifies a need, describes an evidence-based adjustment, and reports an outcome."
+    ],
+    "answer": 3,
+    "explanation": "The need leads to measurement and relocation, followed by improved reported hearing. The other descriptions misrepresent the procedure or result."
+  },
+  {
+    "id": "rw-original-cross-009",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\nAn imagined critic argues that a faithful translation should preserve repeated words because repetition reveals how a speaker develops an argument.\n\n**Text 2**\nAnother critic agrees that repetition can matter but notes that repeating one word in the source language may require several different words in the target language. She proposes preserving the rhetorical pattern even when exact word repetition changes.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By distinguishing preservation of a rhetorical effect from mechanical repetition of identical words.",
+      "By denying that repetition can contribute to an argument.",
+      "By insisting that every repeated source word must always have one target equivalent.",
+      "By treating all differences between languages as irrelevant."
+    ],
+    "answer": 0,
+    "explanation": "Text 2 accepts the effect’s importance but questions a one-word-to-one-word method. It refines what faithful preservation requires rather than dismissing repetition."
+  },
+  {
+    "id": "rw-original-cross-010",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\nA fictional planner recommends comparing libraries by annual borrowing totals, reasoning that more borrowing indicates greater public value.\n\n**Text 2**\nA second planner notes that libraries also provide meeting space, internet access, and help completing forms. A branch could serve many residents who borrow no books.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By asserting that borrowing totals cannot be counted.",
+      "By arguing that the proposed measure omits several ways libraries serve the public.",
+      "By agreeing that nonborrowing users receive no public benefit.",
+      "By claiming that branches with fewer loans are always more valuable."
+    ],
+    "answer": 1,
+    "explanation": "Text 2 broadens the relevant services without denying borrowing’s value or providing a universal inverse ranking."
+  },
+  {
+    "id": "rw-original-cross-011",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\nAn imagined scientist attributes a newly observed pattern to a proposed mechanism because the mechanism predicts the pattern.\n\n**Text 2**\nAnother scientist notes that two alternative mechanisms make the same prediction. She recommends designing a test whose results would differ across the mechanisms.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By claiming that a correct prediction never supplies any evidence.",
+      "By accepting the mechanism solely because the pattern was observed.",
+      "By questioning whether the observation distinguishes the proposed mechanism from plausible alternatives.",
+      "By denying that different mechanisms can ever share predictions."
+    ],
+    "answer": 2,
+    "explanation": "Text 2 identifies underdetermination and calls for discriminating evidence. It does not reject all predictive evidence, accept the original inference unchanged, or deny shared predictions."
+  },
+  {
+    "id": "rw-original-cross-012",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\nA fictional curator says an object’s wear should be removed because damage distracts from the maker’s original design.\n\n**Text 2**\nAnother curator says wear can document later users’ activities. A polished handle and repaired seam may reveal a history that the original design alone does not record.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By denying that objects have original designs.",
+      "By claiming that every damaged object has the same use history.",
+      "By agreeing that all wear should be removed before study.",
+      "By arguing that traces of use can have historical value independent of original design."
+    ],
+    "answer": 3,
+    "explanation": "The second author adds users’ history as another value. The response does not eliminate original design or generalize all wear into the same story."
+  },
+  {
+    "id": "rw-original-cross-013",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\nAn imagined researcher recommends evaluating a navigation system by the average time needed to complete routes.\n\n**Text 2**\nAnother researcher observes that two systems can have the same average while one occasionally produces very long delays. She recommends reporting the distribution of times as well.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By noting that the average may hide important differences in reliability.",
+      "By arguing that route completion time is never relevant.",
+      "By asserting that equal averages imply identical individual times.",
+      "By replacing time measurements with counts of map colors."
+    ],
+    "answer": 0,
+    "explanation": "Text 2 retains time as relevant but adds variation and extreme delays. It challenges sufficiency of the average, not the relevance of time itself."
+  },
+  {
+    "id": "rw-original-cross-014",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "easy",
+    "passage": "**Text 1**\nA fictional teacher says students should read a poem silently before discussing it so they can form individual interpretations.\n\n**Text 2**\nAnother teacher recommends the same silent reading, followed by reading aloud to notice rhythms that may be less obvious on the page.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By rejecting silent reading as useless.",
+      "By keeping the initial activity and adding another activity with a different purpose.",
+      "By proposing that students discuss the poem without reading it.",
+      "By claiming that rhythm is the only meaningful feature of poetry."
+    ],
+    "answer": 1,
+    "explanation": "Text 2 explicitly retains silent reading and adds oral reading for rhythm. The other responses misstate the proposal or its scope."
+  },
+  {
+    "id": "rw-original-cross-015",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\nAn imagined historian treats a town’s printed ordinances as a direct description of how residents behaved.\n\n**Text 2**\nAnother historian argues that repeated prohibitions may reveal persistent behavior authorities wanted to stop, rather than behavior they successfully eliminated.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By insisting that written rules contain no historical information.",
+      "By claiming that every prohibition was followed immediately and completely.",
+      "By distinguishing official intentions from actual practices and offering an alternative reading of prohibitions.",
+      "By arguing that all residents wrote the ordinances together."
+    ],
+    "answer": 2,
+    "explanation": "Text 2 treats ordinances as evidence requiring interpretation, particularly of unwanted persistence. It neither discards them nor equates prescription with compliance."
+  },
+  {
+    "id": "rw-original-cross-016",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\nA fictional manufacturer says the lightest backpack is best because carrying less weight reduces effort.\n\n**Text 2**\nA reviewer notes that strap fit and load distribution also affect comfort. A slightly heavier pack may be easier for a particular user to carry.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By denying that weight can affect effort at all.",
+      "By concluding that the heaviest backpack is always best.",
+      "By agreeing that fit has no bearing on comfort.",
+      "By arguing that weight is relevant but insufficient to determine which pack works best for an individual."
+    ],
+    "answer": 3,
+    "explanation": "The reviewer introduces additional factors and user variation. She does not deny weight’s relevance or reverse the manufacturer’s ranking universally."
+  },
+  {
+    "id": "rw-original-cross-017",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\nAn imagined editor says footnotes should explain every unfamiliar reference so readers never need to consult another source.\n\n**Text 2**\nAnother editor argues that exhaustive notes may overwhelm the main text. She favors notes that clarify references essential to following the argument and links for optional exploration.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By proposing a selective approach that distinguishes essential explanation from optional detail.",
+      "By recommending that every unfamiliar reference remain unexplained.",
+      "By asserting that readers cannot follow any text with footnotes.",
+      "By agreeing that exhaustive explanation has no costs."
+    ],
+    "answer": 0,
+    "explanation": "The response balances explanatory needs against overload. It limits rather than abolishes notes and recognizes a cost denied by the third distractor."
+  },
+  {
+    "id": "rw-original-cross-018",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "**Text 1**\nA fictional researcher interprets increased attendance after a museum’s redesign as evidence that the redesigned exhibits caused the increase.\n\n**Text 2**\nA second researcher notes that a new rail station opened beside the museum at the same time, making visits easier.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By proving that the exhibit redesign reduced attendance.",
+      "By identifying another contemporaneous change that could help explain the attendance increase.",
+      "By showing that the museum collected no attendance data.",
+      "By concluding that transport access can never affect museum visits."
+    ],
+    "answer": 1,
+    "explanation": "The rail station is a competing explanation that weakens exclusive attribution. It does not establish a negative redesign effect or absence of data."
+  },
+  {
+    "id": "rw-original-cross-019",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "**Text 1**\nAn imagined literary critic says a novel’s unresolved ending reflects the author’s failure to choose a coherent conclusion.\n\n**Text 2**\nAnother critic notes that the novel repeatedly asks characters to act without full knowledge. The open ending, she argues, puts readers in the same uncertain position.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By denying that the ending leaves anything unresolved.",
+      "By agreeing that uncertainty appears only because the author forgot earlier events.",
+      "By interpreting the ending as an intentional extension of a pattern developed throughout the novel.",
+      "By treating the ending as unrelated to the characters’ experiences."
+    ],
+    "answer": 2,
+    "explanation": "The second critic connects reader uncertainty with the novel’s recurring theme, interpreting openness as purposeful rather than incoherent."
+  },
+  {
+    "id": "rw-original-cross-020",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "easy",
+    "passage": "**Text 1**\nA fictional gardener prefers flowers that bloom at once because they create a vivid display.\n\n**Text 2**\nAnother gardener prefers staggered blooming, noting that it provides flowers for a longer portion of the season.",
+    "prompt": "Based on the texts, how would the author of Text 2 most likely respond to Text 1?",
+    "choices": [
+      "By claiming that simultaneous blooms cannot look vivid.",
+      "By agreeing that display duration never matters.",
+      "By denying that gardens can contain more than one flower variety.",
+      "By favoring a different planting schedule because it serves a different goal."
+    ],
+    "answer": 3,
+    "explanation": "The authors value concentrated visual impact and extended duration respectively. The second need not reject the first benefit to prioritize another."
   }
 ]

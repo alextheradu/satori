@@ -13,26 +13,35 @@ const root=fileURLToPath(new URL('../../',import.meta.url))
 const source=readdirSync(join(root,'src/data/questions')).filter(f=>f.endsWith('.json')).sort()
  .flatMap(f=>JSON.parse(readFileSync(join(root,'src/data/questions',f),'utf8')) as Question[])
 const assets=join(root,'dist/assets')
-const file=readdirSync(assets).find(f=>/^bank-.*\.js$/.test(f))
-assert(file,'Build the app first: npm run build')
+const candidates=readdirSync(assets).filter(f=>f.endsWith('.js')).filter(f=>{
+ const content=readFileSync(join(assets,f),'utf8')
+ return content.includes(source[0].id)&&content.includes(source[source.length-1].id)
+})
+assert.equal(candidates.length,1,'Build must contain one discoverable production question-bank chunk; run npm run build')
+const file=candidates[0]
 const production=await import(pathToFileURL(join(assets,file)).href)
 const questions=Object.values(production).find(v=>Array.isArray(v)&&v[0]?.id) as Question[] | undefined
 assert(questions,'Production bundle must export its question bank')
 assert.deepEqual(questions,source,'Production bank differs from the committed question files')
+const builtGrader=Object.values(production).find(v=>typeof v==='function'&&v.toString().includes('.answer.some')) as typeof isCorrect | undefined
+// Bundlers may merge grading and bank code. If merged, verify the shipped grader too.
+const graders=builtGrader?[isCorrect,builtGrader]:[isCorrect]
 let fields=0,tables=0,blanks=0
 for(const q of questions) {
+ for(const grade of graders) {
  if(typeof q.answer==='number') {
-  for(let i=0;i<4;i++)assert.equal(isCorrect(q,i),i===q.answer,`${q.id}: multiple-choice grading`)
+  for(let i=0;i<4;i++)assert.equal(grade(q,i),i===q.answer,`${q.id}: multiple-choice grading`)
  } else {
   for(const accepted of q.answer) {
-   assert(isCorrect(q,accepted),`${q.id}: canonical grid-in rejected`)
+   assert(grade(q,accepted),`${q.id}: canonical grid-in rejected`)
    const value=parseNumeric(accepted)
    assert(value!==null)
-   assert(isCorrect(q,String(value)),`${q.id}: equivalent decimal rejected`)
-   assert(!isCorrect(q,String(value+1)),`${q.id}: incorrect grid-in accepted`)
+   assert(grade(q,String(value)),`${q.id}: equivalent decimal rejected`)
+   assert(!grade(q,String(value+1)),`${q.id}: incorrect grid-in accepted`)
   }
  }
- assert(!isCorrect(q,null),`${q.id}: skipped answer marked correct`)
+ assert(!grade(q,null),`${q.id}: skipped answer marked correct`)
+ }
  for(const text of [q.passage,q.prompt,q.explanation,...(q.choices??[])].filter((s):s is string=>!!s)) {
   const html=renderToStaticMarkup(createElement(Markup,{text}))
   assert(!html.includes('katex-error'),`${q.id}: math failed to render`)
