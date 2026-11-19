@@ -3398,5 +3398,277 @@
     ],
     "answer": 3,
     "explanation": "The missing record category weakens the inference from silence. It does not determine everyone’s opinion or invalidate unrelated surviving records."
+  },
+  {
+    "id": "rw-original-cross-061",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nIn a fictional essay, a designer argues that removing every optional setting is the best way to make a tool approachable. Users, she says, should not have to understand choices before they can begin working.\n\nText 2\nAnother designer agrees that a crowded first screen can discourage beginners. He recommends a simple initial setup with additional settings available later, noting that experienced users may need options that beginners do not yet understand. Simplicity at entry, he argues, need not require permanent limitation.",
+    "prompt": "Which position would both designers most likely endorse?",
+    "choices": [
+      "An initial interface that demands understanding many settings can create difficulty for beginners.",
+      "Every optional setting should be permanently removed.",
+      "Beginners and experienced users necessarily have identical needs.",
+      "The most approachable initial screen always displays every available option."
+    ],
+    "answer": 0,
+    "explanation": "Both recognize a barrier from excessive initial choices. They differ over whether options should be eliminated or made available later."
+  },
+  {
+    "id": "rw-original-cross-062",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional historian describes a village’s surviving festival programs as a complete account of local music. Since they list formal concerts, she concludes that musical life centered entirely on scheduled public performances.\n\nText 2\nAnother historian studies household diaries and finds repeated descriptions of informal singing while people cooked or repaired equipment. Festival programs, he notes, were designed to announce public events, not to inventory every setting in which music occurred. He therefore treats them as evidence for one part of musical life.",
+    "prompt": "How does Text 2 qualify Text 1’s conclusion?",
+    "choices": [
+      "It proves the listed concerts never took place.",
+      "It identifies musical activity outside the scope of the source that Text 1 treats as comprehensive.",
+      "It shows that festival programs describe household cooking in detail.",
+      "It argues that diaries cannot provide information about informal music."
+    ],
+    "answer": 1,
+    "explanation": "The diaries reveal a category the programs were not intended to record. That challenges comprehensiveness without invalidating the concert listings."
+  },
+  {
+    "id": "rw-original-cross-063",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nIn a hypothetical debate, an engineer argues that a repair method should be judged by the strength of a joint immediately after repair. The method producing the strongest initial bond should always be preferred.\n\nText 2\nA second engineer tests repaired joints under repeated bending. Some initially strong joints become brittle, while others retain moderate strength for much longer. She recommends choosing a method in relation to the expected pattern of use and the acceptable risk of later failure.",
+    "prompt": "What assumption in Text 1 does Text 2 most directly challenge?",
+    "choices": [
+      "That repaired joints can be tested for strength",
+      "That some joints begin stronger than others",
+      "That initial strength is sufficient to establish the preferable repair method for every use",
+      "That bending places stress on a joint"
+    ],
+    "answer": 2,
+    "explanation": "Long-term behavior can reverse a ranking based only on immediate strength. The second engineer does not deny that initial strength is measurable or variable."
+  },
+  {
+    "id": "rw-original-cross-064",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional critic describes a story’s final page as indecisive because it does not reveal whether the main character accepts an offer to leave home. The critic regards that unresolved choice as a failure to complete the plot.\n\nText 2\nAnother critic notes that the final page shows the character asking questions she had previously been afraid to consider. For this critic, the story’s central change concerns her ability to imagine alternatives; whether she eventually departs is a separate question.",
+    "prompt": "What is the main source of the critics’ disagreement?",
+    "choices": [
+      "They disagree about whether the final page states a departure decision.",
+      "They have read endings in which different characters appear.",
+      "They both consider the character’s new questions irrelevant.",
+      "They identify different developments as the story’s central outcome."
+    ],
+    "answer": 3,
+    "explanation": "Both accept the unresolved decision. They differ over whether plot completion requires that decision or can consist in a changed capacity to consider choices."
+  },
+  {
+    "id": "rw-original-cross-065",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nA hypothetical researcher finds that people who use a financial planning app save more money than nonusers. She recommends the app as the cause of the difference, noting that the sample includes thousands of people.\n\nText 2\nAnother researcher observes that users chose the app themselves. People already determined to save may be more likely to install it. A large sample can describe an association precisely, he argues, while still leaving that alternative explanation unresolved.",
+    "prompt": "Which study would most directly address the concern in Text 2?",
+    "choices": [
+      "A randomized comparison of app access among people recruited under the same eligibility rules",
+      "A larger survey using the same self-selected user groups",
+      "A count of how many features the app offers",
+      "Interviews only with the users who saved the most"
+    ],
+    "answer": 0,
+    "explanation": "Random assignment addresses systematic selection into access. More observational participants do not by themselves separate prior motivation from app effects."
+  },
+  {
+    "id": "rw-original-cross-066",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional curator favors restoring an old instrument to playing condition, arguing that hearing it is essential to understanding how it once functioned. An object that remains silent leaves an important part of its history inaccessible.\n\nText 2\nAnother curator notes that replacing fragile original components would erase evidence about early construction. She proposes keeping the instrument intact and building a playable replica, while clearly labeling which sounds come from the reconstruction rather than from the surviving object.",
+    "prompt": "On which point would both curators most likely agree?",
+    "choices": [
+      "Original components should always be replaced.",
+      "Sound can contribute to understanding the instrument’s historical function.",
+      "A replica and the surviving object provide identical kinds of evidence.",
+      "The instrument should never be heard in any reconstructed form."
+    ],
+    "answer": 1,
+    "explanation": "Both seek access to sound; the second proposes a replica to balance that aim with material preservation. They disagree over how to obtain it."
+  },
+  {
+    "id": "rw-original-cross-067",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nIn a hypothetical report, a planner argues that an empty seat on a bus represents wasted capacity. She recommends reducing service whenever average occupancy is low, so that nearly every seat is usually filled.\n\nText 2\nA second planner notes that spare capacity allows riders to board during unexpected demand surges. She also distinguishes routes serving essential destinations from routes with frequent alternatives. Average occupancy, she argues, does not by itself measure the value of keeping service available.",
+    "prompt": "How would the second planner most likely respond to the first?",
+    "choices": [
+      "Every bus should have the maximum possible number of empty seats.",
+      "Average occupancy is impossible to calculate.",
+      "A seat’s being unused on average does not establish that maintaining its availability has no value.",
+      "Unexpected demand can occur only on routes that are already full."
+    ],
+    "answer": 2,
+    "explanation": "Spare capacity and essential access supply benefits the first measure omits. The response qualifies occupancy-based decisions without universally favoring empty service."
+  },
+  {
+    "id": "rw-original-cross-068",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional reviewer praises a biography for arranging every event in strict chronological order. She considers this arrangement the most transparent way to show how the subject’s ideas developed.\n\nText 2\nAnother reviewer notes that the subject returned to the same problem at widely separated times. A thematic arrangement could place those revisions together, making continuities and changes easier to compare. He acknowledges that such an arrangement must still make the dates clear to avoid suggesting that distant events were simultaneous.",
+    "prompt": "What does Text 2 suggest about chronological arrangement?",
+    "choices": [
+      "It necessarily falsifies the dates of all events.",
+      "It is the only arrangement that can show intellectual development.",
+      "It places every discussion of one problem together regardless of date.",
+      "It preserves temporal sequence but may separate material that is useful to compare directly."
+    ],
+    "answer": 3,
+    "explanation": "The second reviewer values dates but identifies a comparative advantage of themes. This is a tradeoff rather than a claim that chronology is inherently false."
+  },
+  {
+    "id": "rw-original-cross-069",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nA hypothetical researcher argues that a model is valuable only if each internal variable corresponds to a physical feature of the process being modeled. Accurate predictions without that correspondence, she says, cannot count as understanding.\n\nText 2\nAnother researcher distinguishes explaining mechanisms from guiding decisions. A model may fail to reveal why a process occurs yet still help users choose when to intervene, if its predictions are reliable in the relevant setting. She recommends stating that limited purpose explicitly.",
+    "prompt": "What distinction is central to Text 2’s response?",
+    "choices": [
+      "The distinction between explaining a mechanism and providing useful predictive guidance",
+      "The distinction between models with numerical outputs and models with written titles",
+      "The distinction between two physical features represented by one internal variable",
+      "The distinction between accurate predictions and predictions already known to be false"
+    ],
+    "answer": 0,
+    "explanation": "The second researcher grants limited mechanistic insight while defending decision value. Her argument concerns different purposes for a model."
+  },
+  {
+    "id": "rw-original-cross-070",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional teacher recommends giving students a completed solution before they attempt a problem. Seeing a clear method first, she argues, prevents confusion and makes later practice more efficient.\n\nText 2\nAnother teacher agrees that examples can be helpful but sometimes asks students to attempt a problem before seeing one. Their initial difficulties reveal which features require explanation, and the later example can answer questions they now recognize. He does not claim that unsupported struggle is always productive.",
+    "prompt": "How do the teachers’ views primarily differ?",
+    "choices": [
+      "One believes examples can help, while the other rejects every use of examples.",
+      "They emphasize different possible benefits of the order in which attempts and examples occur.",
+      "They disagree about whether students can encounter difficulty.",
+      "Both insist on giving a completed solution before every attempt."
+    ],
+    "answer": 1,
+    "explanation": "The second view changes sequencing while retaining examples and qualifications. The disagreement is not a wholesale rejection of worked solutions."
+  },
+  {
+    "id": "rw-original-cross-071",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nIn a hypothetical discussion, an analyst treats a stable average income as evidence that a community’s economic circumstances did not change. She assumes that any important change would appear in the average.\n\nText 2\nA second analyst notes that increases for some households can offset decreases for others. He recommends examining the distribution and identifying which households gained or lost before characterizing the community as unchanged. A stable aggregate, he argues, can coexist with substantial changes in individual circumstances.",
+    "prompt": "What does Text 2 identify as a limitation of Text 1’s reasoning?",
+    "choices": [
+      "The average cannot be computed when households have different incomes.",
+      "A stable average proves that every household lost income.",
+      "An unchanged average can conceal offsetting changes within the population.",
+      "Important economic changes always move every household in the same direction."
+    ],
+    "answer": 2,
+    "explanation": "The second analyst supplies a mechanism for hidden individual change. He does not infer a particular direction for every household from the aggregate alone."
+  },
+  {
+    "id": "rw-original-cross-072",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional essayist calls an old recording an exact preservation of a performance because the same sounds can be replayed years later. She describes listening as returning to the original occasion.\n\nText 2\nAnother essayist values the preserved sound but notes that a recording does not reproduce the listeners’ knowledge, the room’s social setting, or expectations on that evening. Replaying the sound creates a new encounter with a surviving trace rather than transporting the present audience back unchanged.",
+    "prompt": "Which statement best captures the disagreement?",
+    "choices": [
+      "Whether a recording can retain any audible information",
+      "Whether the original performance occurred in the past",
+      "Whether later listeners can hear the recording at all",
+      "Whether preserving audible information also preserves the full experience of its original occasion"
+    ],
+    "answer": 3,
+    "explanation": "The second essayist accepts preserved sound but distinguishes it from the entire situated experience. The first equates playback with return more broadly."
+  },
+  {
+    "id": "rw-original-cross-073",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nA hypothetical researcher credits a new scheduling system with reducing missed appointments, based on a comparison before and after its introduction. The system is the most visible change in the office during that period.\n\nText 2\nAnother researcher notes that the office also began sending free transport vouchers. She proposes comparing groups with and without the scheduling system while keeping voucher access the same. Visibility of one change, she argues, does not distinguish its contribution from that of a simultaneous change.",
+    "prompt": "What is the purpose of the comparison proposed in Text 2?",
+    "choices": [
+      "To separate the scheduling system’s contribution from the effect of transport assistance",
+      "To prove that the office made no changes during the period",
+      "To compare the appearance of the two programs’ publicity",
+      "To ensure that every participant misses an appointment"
+    ],
+    "answer": 0,
+    "explanation": "Holding vouchers similar while varying scheduling isolates the scheduling contrast. The initial before-after comparison bundles the changes together."
+  },
+  {
+    "id": "rw-original-cross-074",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional editor removes every repeated phrase from a speech, arguing that repetition always wastes time by adding no new factual content. She favors stating each proposition once.\n\nText 2\nA speaker agrees that repetition can be excessive but notes that a recurring phrase can signal the connection among separate examples. Listeners cannot turn back a page during a live speech, so repeated language may help them follow its organization even when it introduces no new fact.",
+    "prompt": "How would the speaker most likely respond to the editor’s rule?",
+    "choices": [
+      "It is wrong because every repetition necessarily introduces a new fact.",
+      "It overlooks an organizational function that repetition can serve for listeners.",
+      "It correctly treats all forms of repetition as equally helpful.",
+      "It proves that live listeners can reread earlier pages."
+    ],
+    "answer": 1,
+    "explanation": "The speaker identifies a function beyond adding facts and qualifies it as possible, not universal. That directly challenges removing repetition solely for factual redundancy."
+  },
+  {
+    "id": "rw-original-cross-075",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "Text 1\nIn a hypothetical discussion, a researcher describes a species as absent from a site because none was detected during a brief visual survey. She argues that additional observation would be unnecessary.\n\nText 2\nAnother researcher notes that the species often remains hidden during the surveyed hours. She recommends repeated surveys using a method suited to its active period. A negative observation, she argues, is more informative when the method would have had a high chance of detecting the species if it were present.",
+    "prompt": "Which principle underlies Text 2’s response?",
+    "choices": [
+      "Failure to detect a species always proves it is present.",
+      "Visual surveys necessarily detect every species at every hour.",
+      "The strength of evidence from non-detection depends partly on the sensitivity of the observation method.",
+      "Additional observation cannot change an inference about presence."
+    ],
+    "answer": 2,
+    "explanation": "The second researcher evaluates how likely detection would be under presence. This distinguishes a weak negative survey from proof of absence without asserting presence."
+  },
+  {
+    "id": "rw-original-cross-076",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "medium",
+    "passage": "Text 1\nA fictional poet says that an inherited phrase belongs in a new poem exactly as it was received. Changing it, she argues, would break the connection with the voice that first spoke it.\n\nText 2\nAnother poet describes altering an inherited phrase so that it answers a question its original speaker never faced. She retains enough of its rhythm to make the relation audible, treating transformation as one way a voice can continue in a changed setting rather than disappear.",
+    "prompt": "What issue is central to the poets’ disagreement?",
+    "choices": [
+      "Whether poems can contain phrases heard from other people",
+      "Whether rhythm can be heard in spoken language",
+      "Whether new poems are written in different settings from old ones.",
+      "Whether continuity with an inherited voice requires keeping its wording unchanged"
+    ],
+    "answer": 3,
+    "explanation": "One poet locates continuity in unchanged wording, while the other locates it partly in recognizable transformation. Both acknowledge inherited language."
   }
 ]

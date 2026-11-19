@@ -1,7 +1,7 @@
 {
-  "provenance": "Original controlled grammar practice: 16 authored rule patterns and 64 original contexts. Construction tags and controlled subject numbers are checked; these checks are not independent natural-language certification.",
+  "provenance": "Original controlled grammar practice: 24 authored rule patterns and 64 original contexts. Construction tags and controlled subject numbers are checked; these checks are not independent natural-language certification.",
   "contexts": 64,
-  "total": 1024,
+  "total": 1536,
   "families": [
     {
       "family": "singular-subject-attractor",
@@ -97,6 +97,54 @@
       "family": "complex-list-separators",
       "skill": "Boundaries",
       "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "relative-clause-plural-verb",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "hard",
+      "questions": 64
+    },
+    {
+      "family": "one-of-plural-subject",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "passive-participle-after-was",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "parallel-gerunds-after-by",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "plural-possessive-their",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "easy",
+      "questions": 64
+    },
+    {
+      "family": "subject-who-relative-clause",
+      "skill": "Form, Structure, and Sense",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "closing-parenthesis",
+      "skill": "Boundaries",
+      "difficulty": "medium",
+      "questions": 64
+    },
+    {
+      "family": "comma-coordinating-conjunction",
+      "skill": "Boundaries",
+      "difficulty": "medium",
       "questions": 64
     }
   ]

@@ -1,9 +1,10 @@
-// Controlled grammar practice: 16 rule families applied to 64 original contexts.
+// Controlled grammar practice: 24 rule families applied to 64 original contexts.
 import assert from 'node:assert/strict'
 import { readdirSync,readFileSync,writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { join } from 'node:path'
 import { conventionsContexts } from './conventions-contexts.mjs'
+import { registerConventionsExpansion } from './conventions-expansion.mjs'
 const root=fileURLToPath(new URL('../../',import.meta.url)),directory=join(root,'src/data/questions')
 const check=process.argv.includes('--check'),families=[]
 const splitLast=s=>{const i=s.lastIndexOf(' ');return [s.slice(0,i),s.slice(i+1)]}
@@ -108,6 +109,7 @@ add('complex-list-separators',BOUND,'hard',c=>item(
   opt(`${c.role};`,'complex-list-semicolon'),opt(`${c.role}, which`,'incomplete-relative-clause'),opt(`${c.role}.`,'fragmenting-period'),opt(`${c.role}; and;`,'broken-conjunction')],
  `The three compared items each contain an internal comma. A semicolon after “${c.role}” separates the first item from the second and parallels the existing separator before the third. A period fragments the list, which cannot introduce the following noun phrase as a complete relative clause, and an extra semicolon after and is invalid.`))
 
+registerConventionsExpansion({add,item,opt,FORM,BOUND,splitLast})
 const seen=new Set(),questions=[],report=[]
 for(const file of readdirSync(directory).filter(f=>f.endsWith('.json')&&f!=='generated-rw-conventions.json'))for(const q of JSON.parse(readFileSync(join(directory,file),'utf8')))seen.add(`${q.passage??''}\n${q.prompt}`.replace(/\s+/g,' ').trim())
 for(const [familyIndex,family] of families.entries()) {
@@ -127,8 +129,9 @@ for(const [familyIndex,family] of families.entries()) {
  }
  report.push({family:family.key,skill:family.skill,difficulty:family.difficulty,questions:questions.length-first})
 }
-assert.equal(questions.length,1024)
+assert.equal(families.length,24)
+assert.equal(questions.length,1536)
 const save=(path,value)=>{const text=JSON.stringify(value,null,2)+'\n';if(check)assert.equal(readFileSync(path,'utf8'),text,`${path}: regenerate content`);else writeFileSync(path,text)}
 save(join(directory,'generated-rw-conventions.json'),questions)
-save(join(root,'docs/conventions-generation-report.json'),{provenance:'Original controlled grammar practice: 16 authored rule patterns and 64 original contexts. Construction tags and controlled subject numbers are checked; these checks are not independent natural-language certification.',contexts:contexts.length,total:questions.length,families:report})
+save(join(root,'docs/conventions-generation-report.json'),{provenance:'Original controlled grammar practice: 24 authored rule patterns and 64 original contexts. Construction tags and controlled subject numbers are checked; these checks are not independent natural-language certification.',contexts:contexts.length,total:questions.length,families:report})
 console.log(`${check?'Verified':'Generated'} ${questions.length} grammar variants across ${families.length} rule families and ${contexts.length} original contexts.`)

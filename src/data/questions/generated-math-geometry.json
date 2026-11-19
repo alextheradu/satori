@@ -27961,11 +27961,11 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $160$ and $300$ and hypotenuse of length $340$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $2720$ and $5100$ and hypotenuse of length $5780$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "answer": [
-      "2400/17"
+      "2400"
     ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(160)(300)=\\frac{1}{2}(340)h$. Therefore $h=\\frac{2400}{17}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(2720)(5100)=\\frac{1}{2}(5780)h$. Therefore $h=\\frac{40800}{17}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-002",
@@ -27973,11 +27973,11 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $50$ and $120$ and hypotenuse of length $130$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $650$ and $1560$ and hypotenuse of length $1690$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "answer": [
-      "600/13"
+      "600"
     ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(50)(120)=\\frac{1}{2}(130)h$. Therefore $h=\\frac{600}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(650)(1560)=\\frac{1}{2}(1690)h$. Therefore $h=\\frac{7800}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-003",
@@ -27985,11 +27985,11 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $81$ and $108$ and hypotenuse of length $135$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $405$ and $540$ and hypotenuse of length $675$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "answer": [
-      "324/5"
+      "324"
     ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(81)(108)=\\frac{1}{2}(135)h$. Therefore $h=\\frac{324}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(405)(540)=\\frac{1}{2}(675)h$. Therefore $h=\\frac{1620}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-004",
@@ -27997,15 +27997,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $184$ and $345$ and hypotenuse of length $391$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $3128$ and $5865$ and hypotenuse of length $6647$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$184$",
-      "$345$",
-      "$\\frac{391}{2}$",
-      "$\\frac{2760}{17}$"
+      "$3128$",
+      "$5865$",
+      "$\\frac{6647}{2}$",
+      "$2760$"
     ],
     "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(184)(345)=\\frac{1}{2}(391)h$. Therefore $h=\\frac{2760}{17}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(3128)(5865)=\\frac{1}{2}(6647)h$. Therefore $h=\\frac{46920}{17}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-005",
@@ -28013,15 +28013,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $45$ and $108$ and hypotenuse of length $117$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $585$ and $1404$ and hypotenuse of length $1521$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$\\frac{540}{13}$",
-      "$45$",
-      "$108$",
-      "$\\frac{117}{2}$"
+      "$540$",
+      "$585$",
+      "$1404$",
+      "$\\frac{1521}{2}$"
     ],
     "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(45)(108)=\\frac{1}{2}(117)h$. Therefore $h=\\frac{540}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(585)(1404)=\\frac{1}{2}(1521)h$. Therefore $h=\\frac{7020}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-006",
@@ -28029,15 +28029,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $15$ and $20$ and hypotenuse of length $25$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $75$ and $100$ and hypotenuse of length $125$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$15$",
-      "$12$",
-      "$20$",
-      "$\\frac{25}{2}$"
+      "$75$",
+      "$60$",
+      "$100$",
+      "$\\frac{125}{2}$"
     ],
     "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(15)(20)=\\frac{1}{2}(25)h$. Therefore $h=\\frac{60}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(75)(100)=\\frac{1}{2}(125)h$. Therefore $h=\\frac{300}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-007",
@@ -28045,15 +28045,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $30$ and $40$ and hypotenuse of length $50$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $150$ and $200$ and hypotenuse of length $250$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$30$",
-      "$40$",
-      "$24$",
-      "$25$"
+      "$150$",
+      "$200$",
+      "$120$",
+      "$125$"
     ],
     "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(30)(40)=\\frac{1}{2}(50)h$. Therefore $h=\\frac{120}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(150)(200)=\\frac{1}{2}(250)h$. Therefore $h=\\frac{600}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-008",
@@ -28061,15 +28061,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $27$ and $36$ and hypotenuse of length $45$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $135$ and $180$ and hypotenuse of length $225$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$27$",
-      "$36$",
-      "$\\frac{45}{2}$",
-      "$\\frac{108}{5}$"
+      "$135$",
+      "$180$",
+      "$\\frac{225}{2}$",
+      "$108$"
     ],
     "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(27)(36)=\\frac{1}{2}(45)h$. Therefore $h=\\frac{108}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(135)(180)=\\frac{1}{2}(225)h$. Therefore $h=\\frac{540}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-009",
@@ -28077,15 +28077,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $70$ and $168$ and hypotenuse of length $182$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $910$ and $2184$ and hypotenuse of length $2366$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$\\frac{840}{13}$",
-      "$70$",
-      "$168$",
-      "$91$"
+      "$840$",
+      "$910$",
+      "$2184$",
+      "$1183$"
     ],
     "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(70)(168)=\\frac{1}{2}(182)h$. Therefore $h=\\frac{840}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(910)(2184)=\\frac{1}{2}(2366)h$. Therefore $h=\\frac{10920}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-010",
@@ -28093,15 +28093,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $216$ and $405$ and hypotenuse of length $459$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $3672$ and $6885$ and hypotenuse of length $7803$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$216$",
-      "$\\frac{3240}{17}$",
-      "$405$",
-      "$\\frac{459}{2}$"
+      "$3672$",
+      "$3240$",
+      "$6885$",
+      "$\\frac{7803}{2}$"
     ],
     "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(216)(405)=\\frac{1}{2}(459)h$. Therefore $h=\\frac{3240}{17}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(3672)(6885)=\\frac{1}{2}(7803)h$. Therefore $h=\\frac{55080}{17}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-011",
@@ -28109,15 +28109,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $55$ and $132$ and hypotenuse of length $143$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $715$ and $1716$ and hypotenuse of length $1859$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$55$",
-      "$132$",
-      "$\\frac{660}{13}$",
-      "$\\frac{143}{2}$"
+      "$715$",
+      "$1716$",
+      "$660$",
+      "$\\frac{1859}{2}$"
     ],
     "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(55)(132)=\\frac{1}{2}(143)h$. Therefore $h=\\frac{660}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(715)(1716)=\\frac{1}{2}(1859)h$. Therefore $h=\\frac{8580}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-012",
@@ -28125,15 +28125,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $145$ and $348$ and hypotenuse of length $377$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1885$ and $4524$ and hypotenuse of length $4901$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$145$",
-      "$348$",
-      "$\\frac{377}{2}$",
-      "$\\frac{1740}{13}$"
+      "$1885$",
+      "$4524$",
+      "$\\frac{4901}{2}$",
+      "$1740$"
     ],
     "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(145)(348)=\\frac{1}{2}(377)h$. Therefore $h=\\frac{1740}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1885)(4524)=\\frac{1}{2}(4901)h$. Therefore $h=\\frac{22620}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-013",
@@ -28141,15 +28141,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $48$ and $90$ and hypotenuse of length $102$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $816$ and $1530$ and hypotenuse of length $1734$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$\\frac{720}{17}$",
-      "$48$",
-      "$90$",
-      "$51$"
+      "$720$",
+      "$816$",
+      "$1530$",
+      "$867$"
     ],
     "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(48)(90)=\\frac{1}{2}(102)h$. Therefore $h=\\frac{720}{17}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(816)(1530)=\\frac{1}{2}(1734)h$. Therefore $h=\\frac{12240}{17}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-014",
@@ -28157,11 +28157,11 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $75$ and $100$ and hypotenuse of length $125$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $375$ and $500$ and hypotenuse of length $625$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "answer": [
-      "60"
+      "300"
     ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(75)(100)=\\frac{1}{2}(125)h$. Therefore $h=\\frac{300}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(375)(500)=\\frac{1}{2}(625)h$. Therefore $h=\\frac{1500}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-015",
@@ -28169,11 +28169,11 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $20$ and $48$ and hypotenuse of length $52$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $260$ and $624$ and hypotenuse of length $676$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "answer": [
-      "240/13"
+      "240"
     ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(20)(48)=\\frac{1}{2}(52)h$. Therefore $h=\\frac{240}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(260)(624)=\\frac{1}{2}(676)h$. Therefore $h=\\frac{3120}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-016",
@@ -28181,11 +28181,11 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $120$ and $225$ and hypotenuse of length $255$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $2040$ and $3825$ and hypotenuse of length $4335$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "answer": [
-      "1800/17"
+      "1800"
     ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(120)(225)=\\frac{1}{2}(255)h$. Therefore $h=\\frac{1800}{17}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(2040)(3825)=\\frac{1}{2}(4335)h$. Therefore $h=\\frac{30600}{17}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-017",
@@ -28193,15 +28193,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $40$ and $75$ and hypotenuse of length $85$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $680$ and $1275$ and hypotenuse of length $1445$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$\\frac{600}{17}$",
-      "$40$",
-      "$75$",
-      "$\\frac{85}{2}$"
+      "$600$",
+      "$680$",
+      "$1275$",
+      "$\\frac{1445}{2}$"
     ],
     "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(40)(75)=\\frac{1}{2}(85)h$. Therefore $h=\\frac{600}{17}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(680)(1275)=\\frac{1}{2}(1445)h$. Therefore $h=\\frac{10200}{17}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-018",
@@ -28209,15 +28209,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $90$ and $216$ and hypotenuse of length $234$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1170$ and $2808$ and hypotenuse of length $3042$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$90$",
-      "$\\frac{1080}{13}$",
-      "$216$",
-      "$117$"
+      "$1170$",
+      "$1080$",
+      "$2808$",
+      "$1521$"
     ],
     "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(90)(216)=\\frac{1}{2}(234)h$. Therefore $h=\\frac{1080}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1170)(2808)=\\frac{1}{2}(3042)h$. Therefore $h=\\frac{14040}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-019",
@@ -28225,15 +28225,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $36$ and $48$ and hypotenuse of length $60$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $180$ and $240$ and hypotenuse of length $300$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$36$",
-      "$48$",
-      "$\\frac{144}{5}$",
-      "$30$"
+      "$180$",
+      "$240$",
+      "$144$",
+      "$150$"
     ],
     "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(36)(48)=\\frac{1}{2}(60)h$. Therefore $h=\\frac{144}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(180)(240)=\\frac{1}{2}(300)h$. Therefore $h=\\frac{720}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-020",
@@ -28241,15 +28241,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $125$ and $300$ and hypotenuse of length $325$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1625$ and $3900$ and hypotenuse of length $4225$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$125$",
-      "$300$",
-      "$\\frac{325}{2}$",
-      "$\\frac{1500}{13}$"
+      "$1625$",
+      "$3900$",
+      "$\\frac{4225}{2}$",
+      "$1500$"
     ],
     "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(125)(300)=\\frac{1}{2}(325)h$. Therefore $h=\\frac{1500}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1625)(3900)=\\frac{1}{2}(4225)h$. Therefore $h=\\frac{19500}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-021",
@@ -28257,15 +28257,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $12$ and $16$ and hypotenuse of length $20$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $60$ and $80$ and hypotenuse of length $100$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$\\frac{48}{5}$",
-      "$12$",
-      "$16$",
-      "$10$"
+      "$48$",
+      "$60$",
+      "$80$",
+      "$50$"
     ],
     "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(12)(16)=\\frac{1}{2}(20)h$. Therefore $h=\\frac{48}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(60)(80)=\\frac{1}{2}(100)h$. Therefore $h=\\frac{240}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-022",
@@ -28273,15 +28273,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $56$ and $105$ and hypotenuse of length $119$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $952$ and $1785$ and hypotenuse of length $2023$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$56$",
-      "$\\frac{840}{17}$",
-      "$105$",
-      "$\\frac{119}{2}$"
+      "$952$",
+      "$840$",
+      "$1785$",
+      "$\\frac{2023}{2}$"
     ],
     "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(56)(105)=\\frac{1}{2}(119)h$. Therefore $h=\\frac{840}{17}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(952)(1785)=\\frac{1}{2}(2023)h$. Therefore $h=\\frac{14280}{17}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-023",
@@ -28289,15 +28289,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $80$ and $192$ and hypotenuse of length $208$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1040$ and $2496$ and hypotenuse of length $2704$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$80$",
-      "$192$",
-      "$\\frac{960}{13}$",
-      "$104$"
+      "$1040$",
+      "$2496$",
+      "$960$",
+      "$1352$"
     ],
     "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(80)(192)=\\frac{1}{2}(208)h$. Therefore $h=\\frac{960}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1040)(2496)=\\frac{1}{2}(2704)h$. Therefore $h=\\frac{12480}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-024",
@@ -28305,15 +28305,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $150$ and $360$ and hypotenuse of length $390$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1950$ and $4680$ and hypotenuse of length $5070$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$150$",
-      "$360$",
-      "$195$",
-      "$\\frac{1800}{13}$"
+      "$1950$",
+      "$4680$",
+      "$2535$",
+      "$1800$"
     ],
     "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(150)(360)=\\frac{1}{2}(390)h$. Therefore $h=\\frac{1800}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1950)(4680)=\\frac{1}{2}(5070)h$. Therefore $h=\\frac{23400}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-025",
@@ -28321,15 +28321,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $33$ and $44$ and hypotenuse of length $55$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $165$ and $220$ and hypotenuse of length $275$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$\\frac{132}{5}$",
-      "$33$",
-      "$44$",
-      "$\\frac{55}{2}$"
+      "$132$",
+      "$165$",
+      "$220$",
+      "$\\frac{275}{2}$"
     ],
     "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(33)(44)=\\frac{1}{2}(55)h$. Therefore $h=\\frac{132}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(165)(220)=\\frac{1}{2}(275)h$. Therefore $h=\\frac{660}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-026",
@@ -28337,15 +28337,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $105$ and $252$ and hypotenuse of length $273$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1365$ and $3276$ and hypotenuse of length $3549$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$105$",
-      "$\\frac{1260}{13}$",
-      "$252$",
-      "$\\frac{273}{2}$"
+      "$1365$",
+      "$1260$",
+      "$3276$",
+      "$\\frac{3549}{2}$"
     ],
     "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(105)(252)=\\frac{1}{2}(273)h$. Therefore $h=\\frac{1260}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1365)(3276)=\\frac{1}{2}(3549)h$. Therefore $h=\\frac{16380}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-027",
@@ -28353,11 +28353,11 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $224$ and $420$ and hypotenuse of length $476$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $3808$ and $7140$ and hypotenuse of length $8092$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "answer": [
-      "3360/17"
+      "3360"
     ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(224)(420)=\\frac{1}{2}(476)h$. Therefore $h=\\frac{3360}{17}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(3808)(7140)=\\frac{1}{2}(8092)h$. Therefore $h=\\frac{57120}{17}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-028",
@@ -28365,11 +28365,11 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $130$ and $312$ and hypotenuse of length $338$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1690$ and $4056$ and hypotenuse of length $4394$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "answer": [
-      "120"
+      "1560"
     ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(130)(312)=\\frac{1}{2}(338)h$. Therefore $h=\\frac{1560}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1690)(4056)=\\frac{1}{2}(4394)h$. Therefore $h=\\frac{20280}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-029",
@@ -28377,11 +28377,11 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $140$ and $336$ and hypotenuse of length $364$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1820$ and $4368$ and hypotenuse of length $4732$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "answer": [
-      "1680/13"
+      "1680"
     ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(140)(336)=\\frac{1}{2}(364)h$. Therefore $h=\\frac{1680}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1820)(4368)=\\frac{1}{2}(4732)h$. Therefore $h=\\frac{21840}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-030",
@@ -28389,15 +28389,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $54$ and $72$ and hypotenuse of length $90$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $270$ and $360$ and hypotenuse of length $450$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$54$",
-      "$\\frac{216}{5}$",
-      "$72$",
-      "$45$"
+      "$270$",
+      "$216$",
+      "$360$",
+      "$225$"
     ],
     "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(54)(72)=\\frac{1}{2}(90)h$. Therefore $h=\\frac{216}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(270)(360)=\\frac{1}{2}(450)h$. Therefore $h=\\frac{1080}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-031",
@@ -28405,15 +28405,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $66$ and $88$ and hypotenuse of length $110$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $330$ and $440$ and hypotenuse of length $550$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$66$",
-      "$88$",
-      "$\\frac{264}{5}$",
-      "$55$"
+      "$330$",
+      "$440$",
+      "$264$",
+      "$275$"
     ],
     "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(66)(88)=\\frac{1}{2}(110)h$. Therefore $h=\\frac{264}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(330)(440)=\\frac{1}{2}(550)h$. Therefore $h=\\frac{1320}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-032",
@@ -28421,15 +28421,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $60$ and $80$ and hypotenuse of length $100$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $300$ and $400$ and hypotenuse of length $500$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$60$",
-      "$80$",
-      "$50$",
-      "$48$"
+      "$300$",
+      "$400$",
+      "$250$",
+      "$240$"
     ],
     "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(60)(80)=\\frac{1}{2}(100)h$. Therefore $h=\\frac{240}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(300)(400)=\\frac{1}{2}(500)h$. Therefore $h=\\frac{1200}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-033",
@@ -28437,15 +28437,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $84$ and $112$ and hypotenuse of length $140$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $420$ and $560$ and hypotenuse of length $700$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$\\frac{336}{5}$",
-      "$84$",
-      "$112$",
-      "$70$"
+      "$336$",
+      "$420$",
+      "$560$",
+      "$350$"
     ],
     "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(84)(112)=\\frac{1}{2}(140)h$. Therefore $h=\\frac{336}{5}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(420)(560)=\\frac{1}{2}(700)h$. Therefore $h=\\frac{1680}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-034",
@@ -28453,15 +28453,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $100$ and $240$ and hypotenuse of length $260$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1300$ and $3120$ and hypotenuse of length $3380$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$100$",
-      "$\\frac{1200}{13}$",
-      "$240$",
-      "$130$"
+      "$1300$",
+      "$1200$",
+      "$3120$",
+      "$1690$"
     ],
     "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(100)(240)=\\frac{1}{2}(260)h$. Therefore $h=\\frac{1200}{13}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1300)(3120)=\\frac{1}{2}(3380)h$. Therefore $h=\\frac{15600}{13}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-035",
@@ -28469,18 +28469,426 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $72$ and $135$ and hypotenuse of length $153$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1224$ and $2295$ and hypotenuse of length $2601$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$72$",
-      "$135$",
-      "$\\frac{1080}{17}$",
-      "$\\frac{153}{2}$"
+      "$1224$",
+      "$2295$",
+      "$1080$",
+      "$\\frac{2601}{2}$"
     ],
     "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(72)(135)=\\frac{1}{2}(153)h$. Therefore $h=\\frac{1080}{17}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1224)(2295)=\\frac{1}{2}(2601)h$. Therefore $h=\\frac{18360}{17}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-036",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $225$ and $300$ and hypotenuse of length $375$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$225$",
+      "$300$",
+      "$\\frac{375}{2}$",
+      "$180$"
+    ],
+    "answer": 3,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(225)(300)=\\frac{1}{2}(375)h$. Therefore $h=\\frac{900}{5}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-037",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $390$ and $520$ and hypotenuse of length $650$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$312$",
+      "$390$",
+      "$520$",
+      "$325$"
+    ],
+    "answer": 0,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(390)(520)=\\frac{1}{2}(650)h$. Therefore $h=\\frac{1560}{5}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-038",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $3944$ and $7395$ and hypotenuse of length $8381$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$3944$",
+      "$3480$",
+      "$7395$",
+      "$\\frac{8381}{2}$"
+    ],
+    "answer": 1,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(3944)(7395)=\\frac{1}{2}(8381)h$. Therefore $h=\\frac{59160}{17}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-039",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $1560$ and $3744$ and hypotenuse of length $4056$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$1560$",
+      "$3744$",
+      "$1440$",
+      "$2028$"
+    ],
+    "answer": 2,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1560)(3744)=\\frac{1}{2}(4056)h$. Therefore $h=\\frac{18720}{13}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-040",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $780$ and $1872$ and hypotenuse of length $2028$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "answer": [
+      "720"
+    ],
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(780)(1872)=\\frac{1}{2}(2028)h$. Therefore $h=\\frac{9360}{13}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-041",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $450$ and $600$ and hypotenuse of length $750$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "answer": [
+      "360"
+    ],
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(450)(600)=\\frac{1}{2}(750)h$. Therefore $h=\\frac{1800}{5}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-042",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $975$ and $2340$ and hypotenuse of length $2535$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "answer": [
+      "900"
+    ],
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(975)(2340)=\\frac{1}{2}(2535)h$. Therefore $h=\\frac{11700}{13}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-043",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $3536$ and $6630$ and hypotenuse of length $7514$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$3536$",
+      "$6630$",
+      "$3120$",
+      "$3757$"
+    ],
+    "answer": 2,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(3536)(6630)=\\frac{1}{2}(7514)h$. Therefore $h=\\frac{53040}{17}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-044",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $4080$ and $7650$ and hypotenuse of length $8670$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$4080$",
+      "$7650$",
+      "$4335$",
+      "$3600$"
+    ],
+    "answer": 3,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(4080)(7650)=\\frac{1}{2}(8670)h$. Therefore $h=\\frac{61200}{17}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-045",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $210$ and $280$ and hypotenuse of length $350$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$168$",
+      "$210$",
+      "$280$",
+      "$175$"
+    ],
+    "answer": 0,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(210)(280)=\\frac{1}{2}(350)h$. Therefore $h=\\frac{840}{5}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-046",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $105$ and $140$ and hypotenuse of length $175$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$105$",
+      "$84$",
+      "$140$",
+      "$\\frac{175}{2}$"
+    ],
+    "answer": 1,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(105)(140)=\\frac{1}{2}(175)h$. Therefore $h=\\frac{420}{5}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-047",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $3400$ and $6375$ and hypotenuse of length $7225$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$3400$",
+      "$6375$",
+      "$3000$",
+      "$\\frac{7225}{2}$"
+    ],
+    "answer": 2,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(3400)(6375)=\\frac{1}{2}(7225)h$. Therefore $h=\\frac{51000}{17}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-048",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $1430$ and $3432$ and hypotenuse of length $3718$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$1430$",
+      "$3432$",
+      "$1859$",
+      "$1320$"
+    ],
+    "answer": 3,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1430)(3432)=\\frac{1}{2}(3718)h$. Therefore $h=\\frac{17160}{13}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-049",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $272$ and $510$ and hypotenuse of length $578$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$240$",
+      "$272$",
+      "$510$",
+      "$289$"
+    ],
+    "answer": 0,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(272)(510)=\\frac{1}{2}(578)h$. Therefore $h=\\frac{4080}{17}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-050",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $130$ and $312$ and hypotenuse of length $338$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$130$",
+      "$120$",
+      "$312$",
+      "$169$"
+    ],
+    "answer": 1,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(130)(312)=\\frac{1}{2}(338)h$. Therefore $h=\\frac{1560}{13}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-051",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $2992$ and $5610$ and hypotenuse of length $6358$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$2992$",
+      "$5610$",
+      "$2640$",
+      "$3179$"
+    ],
+    "answer": 2,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(2992)(5610)=\\frac{1}{2}(6358)h$. Therefore $h=\\frac{44880}{17}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-052",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $90$ and $120$ and hypotenuse of length $150$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$90$",
+      "$120$",
+      "$75$",
+      "$72$"
+    ],
+    "answer": 3,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(90)(120)=\\frac{1}{2}(150)h$. Therefore $h=\\frac{360}{5}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-053",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $30$ and $40$ and hypotenuse of length $50$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "answer": [
+      "24"
+    ],
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(30)(40)=\\frac{1}{2}(50)h$. Therefore $h=\\frac{120}{5}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-054",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $3264$ and $6120$ and hypotenuse of length $6936$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "answer": [
+      "2880"
+    ],
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(3264)(6120)=\\frac{1}{2}(6936)h$. Therefore $h=\\frac{48960}{17}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-055",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $255$ and $340$ and hypotenuse of length $425$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "answer": [
+      "204"
+    ],
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(255)(340)=\\frac{1}{2}(425)h$. Therefore $h=\\frac{1020}{5}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-056",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $1495$ and $3588$ and hypotenuse of length $3887$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$1495$",
+      "$3588$",
+      "$\\frac{3887}{2}$",
+      "$1380$"
+    ],
+    "answer": 3,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1495)(3588)=\\frac{1}{2}(3887)h$. Therefore $h=\\frac{17940}{13}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-057",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $315$ and $420$ and hypotenuse of length $525$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$252$",
+      "$315$",
+      "$420$",
+      "$\\frac{525}{2}$"
+    ],
+    "answer": 0,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(315)(420)=\\frac{1}{2}(525)h$. Therefore $h=\\frac{1260}{5}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-058",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $455$ and $1092$ and hypotenuse of length $1183$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$455$",
+      "$420$",
+      "$1092$",
+      "$\\frac{1183}{2}$"
+    ],
+    "answer": 1,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(455)(1092)=\\frac{1}{2}(1183)h$. Therefore $h=\\frac{5460}{13}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-059",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $1088$ and $2040$ and hypotenuse of length $2312$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$1088$",
+      "$2040$",
+      "$960$",
+      "$1156$"
+    ],
+    "answer": 2,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1088)(2040)=\\frac{1}{2}(2312)h$. Therefore $h=\\frac{16320}{17}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-060",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $2584$ and $4845$ and hypotenuse of length $5491$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$2584$",
+      "$4845$",
+      "$\\frac{5491}{2}$",
+      "$2280$"
+    ],
+    "answer": 3,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(2584)(4845)=\\frac{1}{2}(5491)h$. Therefore $h=\\frac{38760}{17}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-061",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $845$ and $2028$ and hypotenuse of length $2197$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$780$",
+      "$845$",
+      "$2028$",
+      "$\\frac{2197}{2}$"
+    ],
+    "answer": 0,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(845)(2028)=\\frac{1}{2}(2197)h$. Therefore $h=\\frac{10140}{13}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-062",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A right triangle has legs of lengths $1360$ and $2550$ and hypotenuse of length $2890$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "choices": [
+      "$1360$",
+      "$1200$",
+      "$2550$",
+      "$1445$"
+    ],
+    "answer": 1,
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1360)(2550)=\\frac{1}{2}(2890)h$. Therefore $h=\\frac{20400}{17}$. The altitude is not generally equal to either leg."
+  },
+  {
+    "id": "m-gen-hypotenuse-altitude-063",
     "section": "math",
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
@@ -28489,419 +28897,11 @@
     "choices": [
       "$45$",
       "$60$",
-      "$\\frac{75}{2}$",
-      "$36$"
+      "$36$",
+      "$\\frac{75}{2}$"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Compute the area in two ways: $\\frac{1}{2}(45)(60)=\\frac{1}{2}(75)h$. Therefore $h=\\frac{180}{5}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-037",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $78$ and $104$ and hypotenuse of length $130$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$\\frac{312}{5}$",
-      "$78$",
-      "$104$",
-      "$65$"
-    ],
-    "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(78)(104)=\\frac{1}{2}(130)h$. Therefore $h=\\frac{312}{5}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-038",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $232$ and $435$ and hypotenuse of length $493$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$232$",
-      "$\\frac{3480}{17}$",
-      "$435$",
-      "$\\frac{493}{2}$"
-    ],
-    "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(232)(435)=\\frac{1}{2}(493)h$. Therefore $h=\\frac{3480}{17}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-039",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $120$ and $288$ and hypotenuse of length $312$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$120$",
-      "$288$",
-      "$\\frac{1440}{13}$",
-      "$156$"
-    ],
-    "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(120)(288)=\\frac{1}{2}(312)h$. Therefore $h=\\frac{1440}{13}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-040",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $60$ and $144$ and hypotenuse of length $156$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "answer": [
-      "720/13"
-    ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(60)(144)=\\frac{1}{2}(156)h$. Therefore $h=\\frac{720}{13}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-041",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $90$ and $120$ and hypotenuse of length $150$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "answer": [
-      "72"
-    ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(90)(120)=\\frac{1}{2}(150)h$. Therefore $h=\\frac{360}{5}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-042",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $75$ and $180$ and hypotenuse of length $195$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "answer": [
-      "900/13"
-    ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(75)(180)=\\frac{1}{2}(195)h$. Therefore $h=\\frac{900}{13}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-043",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $208$ and $390$ and hypotenuse of length $442$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$208$",
-      "$390$",
-      "$\\frac{3120}{17}$",
-      "$221$"
-    ],
-    "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(208)(390)=\\frac{1}{2}(442)h$. Therefore $h=\\frac{3120}{17}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-044",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $240$ and $450$ and hypotenuse of length $510$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$240$",
-      "$450$",
-      "$255$",
-      "$\\frac{3600}{17}$"
-    ],
-    "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(240)(450)=\\frac{1}{2}(510)h$. Therefore $h=\\frac{3600}{17}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-045",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $42$ and $56$ and hypotenuse of length $70$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$\\frac{168}{5}$",
-      "$42$",
-      "$56$",
-      "$35$"
-    ],
-    "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(42)(56)=\\frac{1}{2}(70)h$. Therefore $h=\\frac{168}{5}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-046",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $21$ and $28$ and hypotenuse of length $35$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$21$",
-      "$\\frac{84}{5}$",
-      "$28$",
-      "$\\frac{35}{2}$"
-    ],
-    "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(21)(28)=\\frac{1}{2}(35)h$. Therefore $h=\\frac{84}{5}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-047",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $200$ and $375$ and hypotenuse of length $425$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$200$",
-      "$375$",
-      "$\\frac{3000}{17}$",
-      "$\\frac{425}{2}$"
-    ],
-    "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(200)(375)=\\frac{1}{2}(425)h$. Therefore $h=\\frac{3000}{17}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-048",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $110$ and $264$ and hypotenuse of length $286$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$110$",
-      "$264$",
-      "$143$",
-      "$\\frac{1320}{13}$"
-    ],
-    "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(110)(264)=\\frac{1}{2}(286)h$. Therefore $h=\\frac{1320}{13}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-049",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $16$ and $30$ and hypotenuse of length $34$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$\\frac{240}{17}$",
-      "$16$",
-      "$30$",
-      "$17$"
-    ],
-    "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(16)(30)=\\frac{1}{2}(34)h$. Therefore $h=\\frac{240}{17}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-050",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $10$ and $24$ and hypotenuse of length $26$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$10$",
-      "$\\frac{120}{13}$",
-      "$24$",
-      "$13$"
-    ],
-    "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(10)(24)=\\frac{1}{2}(26)h$. Therefore $h=\\frac{120}{13}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-051",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $176$ and $330$ and hypotenuse of length $374$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$176$",
-      "$330$",
-      "$\\frac{2640}{17}$",
-      "$187$"
-    ],
-    "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(176)(330)=\\frac{1}{2}(374)h$. Therefore $h=\\frac{2640}{17}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-052",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $18$ and $24$ and hypotenuse of length $30$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$18$",
-      "$24$",
-      "$15$",
-      "$\\frac{72}{5}$"
-    ],
-    "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(18)(24)=\\frac{1}{2}(30)h$. Therefore $h=\\frac{72}{5}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-053",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $6$ and $8$ and hypotenuse of length $10$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "answer": [
-      "24/5"
-    ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(6)(8)=\\frac{1}{2}(10)h$. Therefore $h=\\frac{24}{5}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-054",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $192$ and $360$ and hypotenuse of length $408$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "answer": [
-      "2880/17"
-    ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(192)(360)=\\frac{1}{2}(408)h$. Therefore $h=\\frac{2880}{17}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-055",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $51$ and $68$ and hypotenuse of length $85$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "answer": [
-      "204/5"
-    ],
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(51)(68)=\\frac{1}{2}(85)h$. Therefore $h=\\frac{204}{5}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-056",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $115$ and $276$ and hypotenuse of length $299$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$115$",
-      "$276$",
-      "$\\frac{299}{2}$",
-      "$\\frac{1380}{13}$"
-    ],
-    "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(115)(276)=\\frac{1}{2}(299)h$. Therefore $h=\\frac{1380}{13}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-057",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $63$ and $84$ and hypotenuse of length $105$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$\\frac{252}{5}$",
-      "$63$",
-      "$84$",
-      "$\\frac{105}{2}$"
-    ],
-    "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(63)(84)=\\frac{1}{2}(105)h$. Therefore $h=\\frac{252}{5}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-058",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $35$ and $84$ and hypotenuse of length $91$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$35$",
-      "$\\frac{420}{13}$",
-      "$84$",
-      "$\\frac{91}{2}$"
-    ],
-    "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(35)(84)=\\frac{1}{2}(91)h$. Therefore $h=\\frac{420}{13}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-059",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $64$ and $120$ and hypotenuse of length $136$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$64$",
-      "$120$",
-      "$\\frac{960}{17}$",
-      "$68$"
-    ],
-    "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(64)(120)=\\frac{1}{2}(136)h$. Therefore $h=\\frac{960}{17}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-060",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $152$ and $285$ and hypotenuse of length $323$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$152$",
-      "$285$",
-      "$\\frac{323}{2}$",
-      "$\\frac{2280}{17}$"
-    ],
-    "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(152)(285)=\\frac{1}{2}(323)h$. Therefore $h=\\frac{2280}{17}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-061",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $65$ and $156$ and hypotenuse of length $169$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$60$",
-      "$65$",
-      "$156$",
-      "$\\frac{169}{2}$"
-    ],
-    "answer": 0,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(65)(156)=\\frac{1}{2}(169)h$. Therefore $h=\\frac{780}{13}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-062",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $80$ and $150$ and hypotenuse of length $170$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$80$",
-      "$\\frac{1200}{17}$",
-      "$150$",
-      "$85$"
-    ],
-    "answer": 1,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(80)(150)=\\frac{1}{2}(170)h$. Therefore $h=\\frac{1200}{17}$. The altitude is not generally equal to either leg."
-  },
-  {
-    "id": "m-gen-hypotenuse-altitude-063",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Right triangles and trigonometry",
-    "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $9$ and $12$ and hypotenuse of length $15$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
-    "choices": [
-      "$9$",
-      "$12$",
-      "$\\frac{36}{5}$",
-      "$\\frac{15}{2}$"
-    ],
-    "answer": 2,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(9)(12)=\\frac{1}{2}(15)h$. Therefore $h=\\frac{36}{5}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-hypotenuse-altitude-064",
@@ -28909,15 +28909,15 @@
     "domain": "Geometry and Trigonometry",
     "skill": "Right triangles and trigonometry",
     "difficulty": "hard",
-    "prompt": "A right triangle has legs of lengths $88$ and $165$ and hypotenuse of length $187$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
+    "prompt": "A right triangle has legs of lengths $1496$ and $2805$ and hypotenuse of length $3179$. What is the length of the altitude drawn from the right-angle vertex to the hypotenuse?",
     "choices": [
-      "$88$",
-      "$165$",
-      "$\\frac{187}{2}$",
-      "$\\frac{1320}{17}$"
+      "$1496$",
+      "$2805$",
+      "$\\frac{3179}{2}$",
+      "$1320$"
     ],
     "answer": 3,
-    "explanation": "Compute the area in two ways: $\\frac{1}{2}(88)(165)=\\frac{1}{2}(187)h$. Therefore $h=\\frac{1320}{17}$. The altitude is not generally equal to either leg."
+    "explanation": "Compute the area in two ways: $\\frac{1}{2}(1496)(2805)=\\frac{1}{2}(3179)h$. Therefore $h=\\frac{22440}{17}$. The altitude is not generally equal to either leg."
   },
   {
     "id": "m-gen-similar-perimeter-difference-001",

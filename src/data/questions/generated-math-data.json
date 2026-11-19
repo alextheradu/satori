@@ -33937,11 +33937,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $24$ values has mean $44$. Exactly $6$ values, each equal to $12$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $12$ values has mean $48$. Exactly $4$ values, each equal to $16$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "164/3"
+      "64"
     ],
-    "explanation": "The original sum is $24(44)=1056$. Remove $6(12)=72$, leaving sum $984$ across $18$ values. The new mean is $\\frac{984}{18}$. Both sum and count change."
+    "explanation": "The original sum is $12(48)=576$. Remove $4(16)=64$, leaving sum $512$ across $8$ values. The new mean is $\\frac{512}{8}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-002",
@@ -33949,11 +33949,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $31$ values has mean $34$. Exactly $2$ values, each equal to $5$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $27$ values has mean $29$. Exactly $4$ values, each equal to $6$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "36"
+      "33"
     ],
-    "explanation": "The original sum is $31(34)=1054$. Remove $2(5)=10$, leaving sum $1044$ across $29$ values. The new mean is $\\frac{1044}{29}$. Both sum and count change."
+    "explanation": "The original sum is $27(29)=783$. Remove $4(6)=24$, leaving sum $759$ across $23$ values. The new mean is $\\frac{759}{23}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-003",
@@ -33961,11 +33961,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $18$ values has mean $40$. Exactly $7$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $11$ values has mean $36$. Exactly $4$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "615/11"
+      "48"
     ],
-    "explanation": "The original sum is $18(40)=720$. Remove $7(15)=105$, leaving sum $615$ across $11$ values. The new mean is $\\frac{615}{11}$. Both sum and count change."
+    "explanation": "The original sum is $11(36)=396$. Remove $4(15)=60$, leaving sum $336$ across $7$ values. The new mean is $\\frac{336}{7}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-004",
@@ -33973,15 +33973,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $35$ values has mean $35$. Exactly $5$ values, each equal to $12$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $29$ values has mean $101$. Exactly $7$ values, each equal to $13$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{233}{7}$",
-      "$\\frac{233}{6}$",
-      "$23$",
-      "$35$"
+      "$\\frac{2838}{29}$",
+      "$129$",
+      "$88$",
+      "$101$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $35(35)=1225$. Remove $5(12)=60$, leaving sum $1165$ across $30$ values. The new mean is $\\frac{1165}{30}$. Both sum and count change."
+    "explanation": "The original sum is $29(101)=2929$. Remove $7(13)=91$, leaving sum $2838$ across $22$ values. The new mean is $\\frac{2838}{22}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-005",
@@ -33989,15 +33989,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $29$ values has mean $57$. Exactly $7$ values, each equal to $18$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $16$ values has mean $32$. Exactly $8$ values, each equal to $16$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{1527}{29}$",
-      "$39$",
-      "$\\frac{1527}{22}$",
-      "$57$"
+      "$24$",
+      "$16$",
+      "$48$",
+      "$32$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $29(57)=1653$. Remove $7(18)=126$, leaving sum $1527$ across $22$ values. The new mean is $\\frac{1527}{22}$. Both sum and count change."
+    "explanation": "The original sum is $16(32)=512$. Remove $8(16)=128$, leaving sum $384$ across $8$ values. The new mean is $\\frac{384}{8}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-006",
@@ -34005,15 +34005,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $18$ values has mean $42$. Exactly $3$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $22$ values has mean $85$. Exactly $3$ values, each equal to $9$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{116}{3}$",
-      "$22$",
-      "$42$",
-      "$\\frac{232}{5}$"
+      "$\\frac{1843}{22}$",
+      "$76$",
+      "$85$",
+      "$97$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $18(42)=756$. Remove $3(20)=60$, leaving sum $696$ across $15$ values. The new mean is $\\frac{696}{15}$. Both sum and count change."
+    "explanation": "The original sum is $22(85)=1870$. Remove $3(9)=27$, leaving sum $1843$ across $19$ values. The new mean is $\\frac{1843}{19}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-007",
@@ -34021,15 +34021,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $17$ values has mean $42$. Exactly $7$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $15$ values has mean $28$. Exactly $8$ values, each equal to $7$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{609}{10}$",
-      "$\\frac{609}{17}$",
-      "$27$",
-      "$42$"
+      "$52$",
+      "$\\frac{364}{15}$",
+      "$21$",
+      "$28$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $17(42)=714$. Remove $7(15)=105$, leaving sum $609$ across $10$ values. The new mean is $\\frac{609}{10}$. Both sum and count change."
+    "explanation": "The original sum is $15(28)=420$. Remove $8(7)=56$, leaving sum $364$ across $7$ values. The new mean is $\\frac{364}{7}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-008",
@@ -34037,15 +34037,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $18$ values has mean $31$. Exactly $4$ values, each equal to $12$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $31$ values has mean $100$. Exactly $8$ values, each equal to $8$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{85}{3}$",
-      "$\\frac{255}{7}$",
-      "$19$",
-      "$31$"
+      "$\\frac{3036}{31}$",
+      "$132$",
+      "$92$",
+      "$100$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $18(31)=558$. Remove $4(12)=48$, leaving sum $510$ across $14$ values. The new mean is $\\frac{510}{14}$. Both sum and count change."
+    "explanation": "The original sum is $31(100)=3100$. Remove $8(8)=64$, leaving sum $3036$ across $23$ values. The new mean is $\\frac{3036}{23}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-009",
@@ -34053,15 +34053,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $19$ values has mean $51$. Exactly $5$ values, each equal to $11$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $16$ values has mean $55$. Exactly $2$ values, each equal to $13$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{914}{19}$",
-      "$40$",
-      "$\\frac{457}{7}$",
-      "$51$"
+      "$\\frac{427}{8}$",
+      "$42$",
+      "$61$",
+      "$55$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $19(51)=969$. Remove $5(11)=55$, leaving sum $914$ across $14$ values. The new mean is $\\frac{914}{14}$. Both sum and count change."
+    "explanation": "The original sum is $16(55)=880$. Remove $2(13)=26$, leaving sum $854$ across $14$ values. The new mean is $\\frac{854}{14}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-010",
@@ -34069,15 +34069,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $18$ values has mean $45$. Exactly $2$ values, each equal to $14$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $20$ values has mean $52$. Exactly $4$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{391}{9}$",
-      "$31$",
-      "$45$",
-      "$\\frac{391}{8}$"
+      "$48$",
+      "$32$",
+      "$52$",
+      "$60$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $18(45)=810$. Remove $2(14)=28$, leaving sum $782$ across $16$ values. The new mean is $\\frac{782}{16}$. Both sum and count change."
+    "explanation": "The original sum is $20(52)=1040$. Remove $4(20)=80$, leaving sum $960$ across $16$ values. The new mean is $\\frac{960}{16}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-011",
@@ -34085,15 +34085,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $25$ values has mean $46$. Exactly $4$ values, each equal to $10$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $21$ values has mean $41$. Exactly $5$ values, each equal to $9$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{370}{7}$",
-      "$\\frac{222}{5}$",
-      "$36$",
-      "$46$"
+      "$51$",
+      "$\\frac{272}{7}$",
+      "$32$",
+      "$41$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $25(46)=1150$. Remove $4(10)=40$, leaving sum $1110$ across $21$ values. The new mean is $\\frac{1110}{21}$. Both sum and count change."
+    "explanation": "The original sum is $21(41)=861$. Remove $5(9)=45$, leaving sum $816$ across $16$ values. The new mean is $\\frac{816}{16}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-012",
@@ -34101,15 +34101,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $19$ values has mean $27$. Exactly $2$ values, each equal to $19$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $26$ values has mean $65$. Exactly $8$ values, each equal to $11$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$25$",
-      "$\\frac{475}{17}$",
-      "$8$",
-      "$27$"
+      "$\\frac{801}{13}$",
+      "$89$",
+      "$54$",
+      "$65$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $19(27)=513$. Remove $2(19)=38$, leaving sum $475$ across $17$ values. The new mean is $\\frac{475}{17}$. Both sum and count change."
+    "explanation": "The original sum is $26(65)=1690$. Remove $8(11)=88$, leaving sum $1602$ across $18$ values. The new mean is $\\frac{1602}{18}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-013",
@@ -34117,15 +34117,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $27$ values has mean $33$. Exactly $3$ values, each equal to $13$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $11$ values has mean $17$. Exactly $5$ values, each equal to $11$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{284}{9}$",
-      "$20$",
-      "$\\frac{71}{2}$",
-      "$33$"
+      "$12$",
+      "$6$",
+      "$22$",
+      "$17$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $27(33)=891$. Remove $3(13)=39$, leaving sum $852$ across $24$ values. The new mean is $\\frac{852}{24}$. Both sum and count change."
+    "explanation": "The original sum is $11(17)=187$. Remove $5(11)=55$, leaving sum $132$ across $6$ values. The new mean is $\\frac{132}{6}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-014",
@@ -34133,11 +34133,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $35$ values has mean $52$. Exactly $3$ values, each equal to $7$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $19$ values has mean $48$. Exactly $8$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "1799/32"
+      "72"
     ],
-    "explanation": "The original sum is $35(52)=1820$. Remove $3(7)=21$, leaving sum $1799$ across $32$ values. The new mean is $\\frac{1799}{32}$. Both sum and count change."
+    "explanation": "The original sum is $19(48)=912$. Remove $8(15)=120$, leaving sum $792$ across $11$ values. The new mean is $\\frac{792}{11}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-015",
@@ -34145,11 +34145,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $19$ values has mean $33$. Exactly $4$ values, each equal to $14$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $11$ values has mean $19$. Exactly $4$ values, each equal to $5$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "571/15"
+      "27"
     ],
-    "explanation": "The original sum is $19(33)=627$. Remove $4(14)=56$, leaving sum $571$ across $15$ values. The new mean is $\\frac{571}{15}$. Both sum and count change."
+    "explanation": "The original sum is $11(19)=209$. Remove $4(5)=20$, leaving sum $189$ across $7$ values. The new mean is $\\frac{189}{7}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-016",
@@ -34157,11 +34157,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $25$ values has mean $53$. Exactly $5$ values, each equal to $12$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $29$ values has mean $112$. Exactly $6$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "253/4"
+      "136"
     ],
-    "explanation": "The original sum is $25(53)=1325$. Remove $5(12)=60$, leaving sum $1265$ across $20$ values. The new mean is $\\frac{1265}{20}$. Both sum and count change."
+    "explanation": "The original sum is $29(112)=3248$. Remove $6(20)=120$, leaving sum $3128$ across $23$ values. The new mean is $\\frac{3128}{23}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-017",
@@ -34169,15 +34169,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $17$ values has mean $25$. Exactly $5$ values, each equal to $16$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $14$ values has mean $55$. Exactly $3$ values, each equal to $11$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{345}{17}$",
-      "$9$",
-      "$\\frac{115}{4}$",
-      "$25$"
+      "$\\frac{737}{14}$",
+      "$44$",
+      "$67$",
+      "$55$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $17(25)=425$. Remove $5(16)=80$, leaving sum $345$ across $12$ values. The new mean is $\\frac{345}{12}$. Both sum and count change."
+    "explanation": "The original sum is $14(55)=770$. Remove $3(11)=33$, leaving sum $737$ across $11$ values. The new mean is $\\frac{737}{11}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-018",
@@ -34185,15 +34185,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $26$ values has mean $56$. Exactly $5$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $28$ values has mean $91$. Exactly $4$ values, each equal to $19$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{1381}{26}$",
-      "$41$",
-      "$56$",
-      "$\\frac{1381}{21}$"
+      "$\\frac{618}{7}$",
+      "$72$",
+      "$91$",
+      "$103$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $26(56)=1456$. Remove $5(15)=75$, leaving sum $1381$ across $21$ values. The new mean is $\\frac{1381}{21}$. Both sum and count change."
+    "explanation": "The original sum is $28(91)=2548$. Remove $4(19)=76$, leaving sum $2472$ across $24$ values. The new mean is $\\frac{2472}{24}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-019",
@@ -34201,15 +34201,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $35$ values has mean $53$. Exactly $5$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $28$ values has mean $70$. Exactly $8$ values, each equal to $10$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{178}{3}$",
-      "$\\frac{356}{7}$",
-      "$38$",
-      "$53$"
+      "$94$",
+      "$\\frac{470}{7}$",
+      "$60$",
+      "$70$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $35(53)=1855$. Remove $5(15)=75$, leaving sum $1780$ across $30$ values. The new mean is $\\frac{1780}{30}$. Both sum and count change."
+    "explanation": "The original sum is $28(70)=1960$. Remove $8(10)=80$, leaving sum $1880$ across $20$ values. The new mean is $\\frac{1880}{20}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-020",
@@ -34217,15 +34217,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $30$ values has mean $41$. Exactly $2$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $15$ values has mean $46$. Exactly $8$ values, each equal to $18$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{119}{3}$",
-      "$\\frac{85}{2}$",
-      "$21$",
-      "$41$"
+      "$\\frac{182}{5}$",
+      "$78$",
+      "$28$",
+      "$46$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $30(41)=1230$. Remove $2(20)=40$, leaving sum $1190$ across $28$ values. The new mean is $\\frac{1190}{28}$. Both sum and count change."
+    "explanation": "The original sum is $15(46)=690$. Remove $8(18)=144$, leaving sum $546$ across $7$ values. The new mean is $\\frac{546}{7}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-021",
@@ -34233,15 +34233,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $30$ values has mean $40$. Exactly $3$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $27$ values has mean $82$. Exactly $4$ values, each equal to $13$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{77}{2}$",
-      "$25$",
-      "$\\frac{385}{9}$",
-      "$40$"
+      "$\\frac{2162}{27}$",
+      "$69$",
+      "$94$",
+      "$82$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $30(40)=1200$. Remove $3(15)=45$, leaving sum $1155$ across $27$ values. The new mean is $\\frac{1155}{27}$. Both sum and count change."
+    "explanation": "The original sum is $27(82)=2214$. Remove $4(13)=52$, leaving sum $2162$ across $23$ values. The new mean is $\\frac{2162}{23}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-022",
@@ -34249,15 +34249,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $20$ values has mean $30$. Exactly $3$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $15$ values has mean $43$. Exactly $5$ values, each equal to $13$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{111}{4}$",
-      "$15$",
+      "$\\frac{116}{3}$",
       "$30$",
-      "$\\frac{555}{17}$"
+      "$43$",
+      "$58$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $20(30)=600$. Remove $3(15)=45$, leaving sum $555$ across $17$ values. The new mean is $\\frac{555}{17}$. Both sum and count change."
+    "explanation": "The original sum is $15(43)=645$. Remove $5(13)=65$, leaving sum $580$ across $10$ values. The new mean is $\\frac{580}{10}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-023",
@@ -34265,15 +34265,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $15$ values has mean $33$. Exactly $4$ values, each equal to $7$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $19$ values has mean $46$. Exactly $8$ values, each equal to $13$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{467}{11}$",
-      "$\\frac{467}{15}$",
-      "$26$",
-      "$33$"
+      "$70$",
+      "$\\frac{770}{19}$",
+      "$33$",
+      "$46$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $15(33)=495$. Remove $4(7)=28$, leaving sum $467$ across $11$ values. The new mean is $\\frac{467}{11}$. Both sum and count change."
+    "explanation": "The original sum is $19(46)=874$. Remove $8(13)=104$, leaving sum $770$ across $11$ values. The new mean is $\\frac{770}{11}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-024",
@@ -34281,15 +34281,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $34$ values has mean $36$. Exactly $5$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $22$ values has mean $82$. Exactly $5$ values, each equal to $14$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{562}{17}$",
-      "$\\frac{1124}{29}$",
-      "$16$",
-      "$36$"
+      "$\\frac{867}{11}$",
+      "$102$",
+      "$68$",
+      "$82$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $34(36)=1224$. Remove $5(20)=100$, leaving sum $1124$ across $29$ values. The new mean is $\\frac{1124}{29}$. Both sum and count change."
+    "explanation": "The original sum is $22(82)=1804$. Remove $5(14)=70$, leaving sum $1734$ across $17$ values. The new mean is $\\frac{1734}{17}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-025",
@@ -34297,15 +34297,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $20$ values has mean $51$. Exactly $2$ values, each equal to $16$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $27$ values has mean $112$. Exactly $3$ values, each equal to $16$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{247}{5}$",
-      "$35$",
-      "$\\frac{494}{9}$",
-      "$51$"
+      "$\\frac{992}{9}$",
+      "$96$",
+      "$124$",
+      "$112$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $20(51)=1020$. Remove $2(16)=32$, leaving sum $988$ across $18$ values. The new mean is $\\frac{988}{18}$. Both sum and count change."
+    "explanation": "The original sum is $27(112)=3024$. Remove $3(16)=48$, leaving sum $2976$ across $24$ values. The new mean is $\\frac{2976}{24}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-026",
@@ -34313,15 +34313,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $23$ values has mean $49$. Exactly $7$ values, each equal to $17$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $26$ values has mean $26$. Exactly $6$ values, each equal to $6$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{1008}{23}$",
-      "$32$",
-      "$49$",
-      "$63$"
+      "$\\frac{320}{13}$",
+      "$20$",
+      "$26$",
+      "$32$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $23(49)=1127$. Remove $7(17)=119$, leaving sum $1008$ across $16$ values. The new mean is $\\frac{1008}{16}$. Both sum and count change."
+    "explanation": "The original sum is $26(26)=676$. Remove $6(6)=36$, leaving sum $640$ across $20$ values. The new mean is $\\frac{640}{20}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-027",
@@ -34329,11 +34329,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $30$ values has mean $34$. Exactly $7$ values, each equal to $17$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $17$ values has mean $32$. Exactly $5$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "901/23"
+      "37"
     ],
-    "explanation": "The original sum is $30(34)=1020$. Remove $7(17)=119$, leaving sum $901$ across $23$ values. The new mean is $\\frac{901}{23}$. Both sum and count change."
+    "explanation": "The original sum is $17(32)=544$. Remove $5(20)=100$, leaving sum $444$ across $12$ values. The new mean is $\\frac{444}{12}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-028",
@@ -34341,11 +34341,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $30$ values has mean $28$. Exactly $5$ values, each equal to $7$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $22$ values has mean $70$. Exactly $2$ values, each equal to $10$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "161/5"
+      "76"
     ],
-    "explanation": "The original sum is $30(28)=840$. Remove $5(7)=35$, leaving sum $805$ across $25$ values. The new mean is $\\frac{805}{25}$. Both sum and count change."
+    "explanation": "The original sum is $22(70)=1540$. Remove $2(10)=20$, leaving sum $1520$ across $20$ values. The new mean is $\\frac{1520}{20}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-029",
@@ -34353,11 +34353,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $12$ values has mean $37$. Exactly $7$ values, each equal to $17$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $23$ values has mean $34$. Exactly $7$ values, each equal to $18$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "65"
+      "41"
     ],
-    "explanation": "The original sum is $12(37)=444$. Remove $7(17)=119$, leaving sum $325$ across $5$ values. The new mean is $\\frac{325}{5}$. Both sum and count change."
+    "explanation": "The original sum is $23(34)=782$. Remove $7(18)=126$, leaving sum $656$ across $16$ values. The new mean is $\\frac{656}{16}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-030",
@@ -34365,15 +34365,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $14$ values has mean $63$. Exactly $5$ values, each equal to $10$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $25$ values has mean $66$. Exactly $2$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{416}{7}$",
-      "$53$",
-      "$63$",
-      "$\\frac{832}{9}$"
+      "$\\frac{322}{5}$",
+      "$46$",
+      "$66$",
+      "$70$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $14(63)=882$. Remove $5(10)=50$, leaving sum $832$ across $9$ values. The new mean is $\\frac{832}{9}$. Both sum and count change."
+    "explanation": "The original sum is $25(66)=1650$. Remove $2(20)=40$, leaving sum $1610$ across $23$ values. The new mean is $\\frac{1610}{23}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-031",
@@ -34381,15 +34381,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $12$ values has mean $53$. Exactly $5$ values, each equal to $10$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $32$ values has mean $61$. Exactly $8$ values, each equal to $13$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{586}{7}$",
-      "$\\frac{293}{6}$",
-      "$43$",
-      "$53$"
+      "$77$",
+      "$\\frac{231}{4}$",
+      "$48$",
+      "$61$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $12(53)=636$. Remove $5(10)=50$, leaving sum $586$ across $7$ values. The new mean is $\\frac{586}{7}$. Both sum and count change."
+    "explanation": "The original sum is $32(61)=1952$. Remove $8(13)=104$, leaving sum $1848$ across $24$ values. The new mean is $\\frac{1848}{24}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-032",
@@ -34397,15 +34397,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $24$ values has mean $51$. Exactly $4$ values, each equal to $11$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $28$ values has mean $76$. Exactly $6$ values, each equal to $10$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{295}{6}$",
-      "$59$",
-      "$40$",
-      "$51$"
+      "$\\frac{517}{7}$",
+      "$94$",
+      "$66$",
+      "$76$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $24(51)=1224$. Remove $4(11)=44$, leaving sum $1180$ across $20$ values. The new mean is $\\frac{1180}{20}$. Both sum and count change."
+    "explanation": "The original sum is $28(76)=2128$. Remove $6(10)=60$, leaving sum $2068$ across $22$ values. The new mean is $\\frac{2068}{22}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-033",
@@ -34413,15 +34413,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $16$ values has mean $46$. Exactly $2$ values, each equal to $10$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $23$ values has mean $56$. Exactly $5$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{179}{4}$",
+      "$\\frac{1188}{23}$",
       "$36$",
-      "$\\frac{358}{7}$",
-      "$46$"
+      "$66$",
+      "$56$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $16(46)=736$. Remove $2(10)=20$, leaving sum $716$ across $14$ values. The new mean is $\\frac{716}{14}$. Both sum and count change."
+    "explanation": "The original sum is $23(56)=1288$. Remove $5(20)=100$, leaving sum $1188$ across $18$ values. The new mean is $\\frac{1188}{18}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-034",
@@ -34429,15 +34429,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $32$ values has mean $47$. Exactly $5$ values, each equal to $14$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $17$ values has mean $50$. Exactly $2$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{717}{16}$",
-      "$33$",
-      "$47$",
-      "$\\frac{478}{9}$"
+      "$\\frac{810}{17}$",
+      "$30$",
+      "$50$",
+      "$54$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $32(47)=1504$. Remove $5(14)=70$, leaving sum $1434$ across $27$ values. The new mean is $\\frac{1434}{27}$. Both sum and count change."
+    "explanation": "The original sum is $17(50)=850$. Remove $2(20)=40$, leaving sum $810$ across $15$ values. The new mean is $\\frac{810}{15}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-035",
@@ -34445,15 +34445,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $12$ values has mean $31$. Exactly $5$ values, each equal to $6$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $24$ values has mean $41$. Exactly $6$ values, each equal to $5$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{342}{7}$",
-      "$\\frac{57}{2}$",
-      "$25$",
-      "$31$"
+      "$53$",
+      "$\\frac{159}{4}$",
+      "$36$",
+      "$41$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $12(31)=372$. Remove $5(6)=30$, leaving sum $342$ across $7$ values. The new mean is $\\frac{342}{7}$. Both sum and count change."
+    "explanation": "The original sum is $24(41)=984$. Remove $6(5)=30$, leaving sum $954$ across $18$ values. The new mean is $\\frac{954}{18}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-036",
@@ -34461,15 +34461,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $28$ values has mean $34$. Exactly $5$ values, each equal to $5$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $11$ values has mean $12$. Exactly $4$ values, each equal to $5$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{927}{28}$",
-      "$\\frac{927}{23}$",
-      "$29$",
-      "$34$"
+      "$\\frac{112}{11}$",
+      "$16$",
+      "$7$",
+      "$12$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $28(34)=952$. Remove $5(5)=25$, leaving sum $927$ across $23$ values. The new mean is $\\frac{927}{23}$. Both sum and count change."
+    "explanation": "The original sum is $11(12)=132$. Remove $4(5)=20$, leaving sum $112$ across $7$ values. The new mean is $\\frac{112}{7}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-037",
@@ -34477,15 +34477,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $12$ values has mean $56$. Exactly $4$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $12$ values has mean $47$. Exactly $5$ values, each equal to $19$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{148}{3}$",
-      "$36$",
-      "$74$",
-      "$56$"
+      "$\\frac{469}{12}$",
+      "$28$",
+      "$67$",
+      "$47$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $12(56)=672$. Remove $4(20)=80$, leaving sum $592$ across $8$ values. The new mean is $\\frac{592}{8}$. Both sum and count change."
+    "explanation": "The original sum is $12(47)=564$. Remove $5(19)=95$, leaving sum $469$ across $7$ values. The new mean is $\\frac{469}{7}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-038",
@@ -34493,15 +34493,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $22$ values has mean $45$. Exactly $3$ values, each equal to $16$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $15$ values has mean $36$. Exactly $8$ values, each equal to $8$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{471}{11}$",
-      "$29$",
-      "$45$",
-      "$\\frac{942}{19}$"
+      "$\\frac{476}{15}$",
+      "$28$",
+      "$36$",
+      "$68$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $22(45)=990$. Remove $3(16)=48$, leaving sum $942$ across $19$ values. The new mean is $\\frac{942}{19}$. Both sum and count change."
+    "explanation": "The original sum is $15(36)=540$. Remove $8(8)=64$, leaving sum $476$ across $7$ values. The new mean is $\\frac{476}{7}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-039",
@@ -34509,15 +34509,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $12$ values has mean $41$. Exactly $3$ values, each equal to $8$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $10$ values has mean $39$. Exactly $2$ values, each equal to $7$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$52$",
-      "$39$",
-      "$33$",
-      "$41$"
+      "$47$",
+      "$\\frac{188}{5}$",
+      "$32$",
+      "$39$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $12(41)=492$. Remove $3(8)=24$, leaving sum $468$ across $9$ values. The new mean is $\\frac{468}{9}$. Both sum and count change."
+    "explanation": "The original sum is $10(39)=390$. Remove $2(7)=14$, leaving sum $376$ across $8$ values. The new mean is $\\frac{376}{8}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-040",
@@ -34525,11 +34525,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $24$ values has mean $34$. Exactly $7$ values, each equal to $8$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $28$ values has mean $91$. Exactly $7$ values, each equal to $7$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "760/17"
+      "119"
     ],
-    "explanation": "The original sum is $24(34)=816$. Remove $7(8)=56$, leaving sum $760$ across $17$ values. The new mean is $\\frac{760}{17}$. Both sum and count change."
+    "explanation": "The original sum is $28(91)=2548$. Remove $7(7)=49$, leaving sum $2499$ across $21$ values. The new mean is $\\frac{2499}{21}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-041",
@@ -34537,11 +34537,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $14$ values has mean $63$. Exactly $6$ values, each equal to $8$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $16$ values has mean $71$. Exactly $3$ values, each equal to $19$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "417/4"
+      "83"
     ],
-    "explanation": "The original sum is $14(63)=882$. Remove $6(8)=48$, leaving sum $834$ across $8$ values. The new mean is $\\frac{834}{8}$. Both sum and count change."
+    "explanation": "The original sum is $16(71)=1136$. Remove $3(19)=57$, leaving sum $1079$ across $13$ values. The new mean is $\\frac{1079}{13}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-042",
@@ -34549,11 +34549,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $12$ values has mean $51$. Exactly $4$ values, each equal to $7$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $23$ values has mean $75$. Exactly $2$ values, each equal to $12$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "73"
+      "81"
     ],
-    "explanation": "The original sum is $12(51)=612$. Remove $4(7)=28$, leaving sum $584$ across $8$ values. The new mean is $\\frac{584}{8}$. Both sum and count change."
+    "explanation": "The original sum is $23(75)=1725$. Remove $2(12)=24$, leaving sum $1701$ across $21$ values. The new mean is $\\frac{1701}{21}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-043",
@@ -34561,15 +34561,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $33$ values has mean $56$. Exactly $4$ values, each equal to $19$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $13$ values has mean $50$. Exactly $3$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{1772}{29}$",
-      "$\\frac{1772}{33}$",
-      "$37$",
-      "$56$"
+      "$59$",
+      "$\\frac{590}{13}$",
+      "$30$",
+      "$50$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $33(56)=1848$. Remove $4(19)=76$, leaving sum $1772$ across $29$ values. The new mean is $\\frac{1772}{29}$. Both sum and count change."
+    "explanation": "The original sum is $13(50)=650$. Remove $3(20)=60$, leaving sum $590$ across $10$ values. The new mean is $\\frac{590}{10}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-044",
@@ -34577,15 +34577,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $28$ values has mean $49$. Exactly $7$ values, each equal to $6$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $20$ values has mean $43$. Exactly $8$ values, each equal to $19$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{95}{2}$",
-      "$\\frac{190}{3}$",
-      "$43$",
-      "$49$"
+      "$\\frac{177}{5}$",
+      "$59$",
+      "$24$",
+      "$43$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $28(49)=1372$. Remove $7(6)=42$, leaving sum $1330$ across $21$ values. The new mean is $\\frac{1330}{21}$. Both sum and count change."
+    "explanation": "The original sum is $20(43)=860$. Remove $8(19)=152$, leaving sum $708$ across $12$ values. The new mean is $\\frac{708}{12}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-045",
@@ -34593,15 +34593,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $26$ values has mean $31$. Exactly $2$ values, each equal to $17$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $16$ values has mean $16$. Exactly $8$ values, each equal to $8$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{386}{13}$",
-      "$14$",
-      "$\\frac{193}{6}$",
-      "$31$"
+      "$12$",
+      "$8$",
+      "$24$",
+      "$16$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $26(31)=806$. Remove $2(17)=34$, leaving sum $772$ across $24$ values. The new mean is $\\frac{772}{24}$. Both sum and count change."
+    "explanation": "The original sum is $16(16)=256$. Remove $8(8)=64$, leaving sum $192$ across $8$ values. The new mean is $\\frac{192}{8}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-046",
@@ -34609,15 +34609,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $20$ values has mean $48$. Exactly $2$ values, each equal to $20$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $26$ values has mean $91$. Exactly $7$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$46$",
-      "$28$",
-      "$48$",
-      "$\\frac{460}{9}$"
+      "$\\frac{2261}{26}$",
+      "$76$",
+      "$91$",
+      "$119$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $20(48)=960$. Remove $2(20)=40$, leaving sum $920$ across $18$ values. The new mean is $\\frac{920}{18}$. Both sum and count change."
+    "explanation": "The original sum is $26(91)=2366$. Remove $7(15)=105$, leaving sum $2261$ across $19$ values. The new mean is $\\frac{2261}{19}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-047",
@@ -34625,15 +34625,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $25$ values has mean $49$. Exactly $7$ values, each equal to $19$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $25$ values has mean $71$. Exactly $5$ values, each equal to $11$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{182}{3}$",
-      "$\\frac{1092}{25}$",
-      "$30$",
-      "$49$"
+      "$86$",
+      "$\\frac{344}{5}$",
+      "$60$",
+      "$71$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $25(49)=1225$. Remove $7(19)=133$, leaving sum $1092$ across $18$ values. The new mean is $\\frac{1092}{18}$. Both sum and count change."
+    "explanation": "The original sum is $25(71)=1775$. Remove $5(11)=55$, leaving sum $1720$ across $20$ values. The new mean is $\\frac{1720}{20}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-048",
@@ -34641,15 +34641,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $27$ values has mean $63$. Exactly $3$ values, each equal to $9$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $27$ values has mean $29$. Exactly $8$ values, each equal to $10$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$62$",
-      "$\\frac{279}{4}$",
-      "$54$",
-      "$63$"
+      "$\\frac{703}{27}$",
+      "$37$",
+      "$19$",
+      "$29$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $27(63)=1701$. Remove $3(9)=27$, leaving sum $1674$ across $24$ values. The new mean is $\\frac{1674}{24}$. Both sum and count change."
+    "explanation": "The original sum is $27(29)=783$. Remove $8(10)=80$, leaving sum $703$ across $19$ values. The new mean is $\\frac{703}{19}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-049",
@@ -34657,15 +34657,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $27$ values has mean $28$. Exactly $5$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $28$ values has mean $77$. Exactly $4$ values, each equal to $5$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{227}{9}$",
-      "$13$",
-      "$\\frac{681}{22}$",
-      "$28$"
+      "$\\frac{534}{7}$",
+      "$72$",
+      "$89$",
+      "$77$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $27(28)=756$. Remove $5(15)=75$, leaving sum $681$ across $22$ values. The new mean is $\\frac{681}{22}$. Both sum and count change."
+    "explanation": "The original sum is $28(77)=2156$. Remove $4(5)=20$, leaving sum $2136$ across $24$ values. The new mean is $\\frac{2136}{24}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-050",
@@ -34673,15 +34673,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $12$ values has mean $26$. Exactly $7$ values, each equal to $17$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $15$ values has mean $25$. Exactly $8$ values, each equal to $18$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{193}{12}$",
-      "$9$",
-      "$26$",
-      "$\\frac{193}{5}$"
+      "$\\frac{77}{5}$",
+      "$7$",
+      "$25$",
+      "$33$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $12(26)=312$. Remove $7(17)=119$, leaving sum $193$ across $5$ values. The new mean is $\\frac{193}{5}$. Both sum and count change."
+    "explanation": "The original sum is $15(25)=375$. Remove $8(18)=144$, leaving sum $231$ across $7$ values. The new mean is $\\frac{231}{7}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-051",
@@ -34689,15 +34689,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $15$ values has mean $30$. Exactly $7$ values, each equal to $16$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $22$ values has mean $91$. Exactly $2$ values, each equal to $11$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{169}{4}$",
-      "$\\frac{338}{15}$",
-      "$14$",
-      "$30$"
+      "$99$",
+      "$90$",
+      "$80$",
+      "$91$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $15(30)=450$. Remove $7(16)=112$, leaving sum $338$ across $8$ values. The new mean is $\\frac{338}{8}$. Both sum and count change."
+    "explanation": "The original sum is $22(91)=2002$. Remove $2(11)=22$, leaving sum $1980$ across $20$ values. The new mean is $\\frac{1980}{20}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-052",
@@ -34705,15 +34705,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $21$ values has mean $53$. Exactly $3$ values, each equal to $5$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $13$ values has mean $25$. Exactly $6$ values, each equal to $18$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{366}{7}$",
-      "$61$",
-      "$48$",
-      "$53$"
+      "$\\frac{217}{13}$",
+      "$31$",
+      "$7$",
+      "$25$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $21(53)=1113$. Remove $3(5)=15$, leaving sum $1098$ across $18$ values. The new mean is $\\frac{1098}{18}$. Both sum and count change."
+    "explanation": "The original sum is $13(25)=325$. Remove $6(18)=108$, leaving sum $217$ across $7$ values. The new mean is $\\frac{217}{7}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-053",
@@ -34721,11 +34721,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $18$ values has mean $53$. Exactly $6$ values, each equal to $13$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $21$ values has mean $26$. Exactly $2$ values, each equal to $7$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "73"
+      "28"
     ],
-    "explanation": "The original sum is $18(53)=954$. Remove $6(13)=78$, leaving sum $876$ across $12$ values. The new mean is $\\frac{876}{12}$. Both sum and count change."
+    "explanation": "The original sum is $21(26)=546$. Remove $2(7)=14$, leaving sum $532$ across $19$ values. The new mean is $\\frac{532}{19}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-054",
@@ -34733,11 +34733,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $13$ values has mean $44$. Exactly $4$ values, each equal to $18$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $13$ values has mean $30$. Exactly $7$ values, each equal to $18$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "500/9"
+      "44"
     ],
-    "explanation": "The original sum is $13(44)=572$. Remove $4(18)=72$, leaving sum $500$ across $9$ values. The new mean is $\\frac{500}{9}$. Both sum and count change."
+    "explanation": "The original sum is $13(30)=390$. Remove $7(18)=126$, leaving sum $264$ across $6$ values. The new mean is $\\frac{264}{6}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-055",
@@ -34745,11 +34745,11 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $34$ values has mean $62$. Exactly $4$ values, each equal to $6$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $25$ values has mean $48$. Exactly $7$ values, each equal to $12$, are removed. What is the mean of the remaining values?",
     "answer": [
-      "1042/15"
+      "62"
     ],
-    "explanation": "The original sum is $34(62)=2108$. Remove $4(6)=24$, leaving sum $2084$ across $30$ values. The new mean is $\\frac{2084}{30}$. Both sum and count change."
+    "explanation": "The original sum is $25(48)=1200$. Remove $7(12)=84$, leaving sum $1116$ across $18$ values. The new mean is $\\frac{1116}{18}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-056",
@@ -34757,15 +34757,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $31$ values has mean $48$. Exactly $3$ values, each equal to $10$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $23$ values has mean $50$. Exactly $2$ values, each equal to $8$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{1458}{31}$",
-      "$\\frac{729}{14}$",
-      "$38$",
-      "$48$"
+      "$\\frac{1134}{23}$",
+      "$54$",
+      "$42$",
+      "$50$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $31(48)=1488$. Remove $3(10)=30$, leaving sum $1458$ across $28$ values. The new mean is $\\frac{1458}{28}$. Both sum and count change."
+    "explanation": "The original sum is $23(50)=1150$. Remove $2(8)=16$, leaving sum $1134$ across $21$ values. The new mean is $\\frac{1134}{21}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-057",
@@ -34773,15 +34773,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $23$ values has mean $44$. Exactly $7$ values, each equal to $14$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $25$ values has mean $52$. Exactly $3$ values, each equal to $8$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{914}{23}$",
-      "$30$",
-      "$\\frac{457}{8}$",
-      "$44$"
+      "$\\frac{1276}{25}$",
+      "$44$",
+      "$58$",
+      "$52$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $23(44)=1012$. Remove $7(14)=98$, leaving sum $914$ across $16$ values. The new mean is $\\frac{914}{16}$. Both sum and count change."
+    "explanation": "The original sum is $25(52)=1300$. Remove $3(8)=24$, leaving sum $1276$ across $22$ values. The new mean is $\\frac{1276}{22}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-058",
@@ -34789,15 +34789,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $35$ values has mean $25$. Exactly $5$ values, each equal to $14$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $20$ values has mean $41$. Exactly $5$ values, each equal to $11$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$23$",
-      "$11$",
-      "$25$",
-      "$\\frac{161}{6}$"
+      "$\\frac{153}{4}$",
+      "$30$",
+      "$41$",
+      "$51$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $35(25)=875$. Remove $5(14)=70$, leaving sum $805$ across $30$ values. The new mean is $\\frac{805}{30}$. Both sum and count change."
+    "explanation": "The original sum is $20(41)=820$. Remove $5(11)=55$, leaving sum $765$ across $15$ values. The new mean is $\\frac{765}{15}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-059",
@@ -34805,15 +34805,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $28$ values has mean $36$. Exactly $7$ values, each equal to $5$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $19$ values has mean $34$. Exactly $3$ values, each equal to $18$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{139}{3}$",
-      "$\\frac{139}{4}$",
-      "$31$",
-      "$36$"
+      "$37$",
+      "$\\frac{592}{19}$",
+      "$16$",
+      "$34$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $28(36)=1008$. Remove $7(5)=35$, leaving sum $973$ across $21$ values. The new mean is $\\frac{973}{21}$. Both sum and count change."
+    "explanation": "The original sum is $19(34)=646$. Remove $3(18)=54$, leaving sum $592$ across $16$ values. The new mean is $\\frac{592}{16}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-060",
@@ -34821,15 +34821,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $12$ values has mean $63$. Exactly $7$ values, each equal to $16$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $11$ values has mean $39$. Exactly $4$ values, each equal to $11$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{161}{3}$",
-      "$\\frac{644}{5}$",
-      "$47$",
-      "$63$"
+      "$35$",
+      "$55$",
+      "$28$",
+      "$39$"
     ],
     "answer": 1,
-    "explanation": "The original sum is $12(63)=756$. Remove $7(16)=112$, leaving sum $644$ across $5$ values. The new mean is $\\frac{644}{5}$. Both sum and count change."
+    "explanation": "The original sum is $11(39)=429$. Remove $4(11)=44$, leaving sum $385$ across $7$ values. The new mean is $\\frac{385}{7}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-061",
@@ -34837,15 +34837,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $22$ values has mean $53$. Exactly $4$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $25$ values has mean $82$. Exactly $3$ values, each equal to $16$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{553}{11}$",
-      "$38$",
-      "$\\frac{553}{9}$",
-      "$53$"
+      "$\\frac{2002}{25}$",
+      "$66$",
+      "$91$",
+      "$82$"
     ],
     "answer": 2,
-    "explanation": "The original sum is $22(53)=1166$. Remove $4(15)=60$, leaving sum $1106$ across $18$ values. The new mean is $\\frac{1106}{18}$. Both sum and count change."
+    "explanation": "The original sum is $25(82)=2050$. Remove $3(16)=48$, leaving sum $2002$ across $22$ values. The new mean is $\\frac{2002}{22}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-062",
@@ -34853,15 +34853,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $30$ values has mean $40$. Exactly $7$ values, each equal to $17$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $24$ values has mean $31$. Exactly $6$ values, each equal to $13$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{1081}{30}$",
-      "$23$",
-      "$40$",
-      "$47$"
+      "$\\frac{111}{4}$",
+      "$18$",
+      "$31$",
+      "$37$"
     ],
     "answer": 3,
-    "explanation": "The original sum is $30(40)=1200$. Remove $7(17)=119$, leaving sum $1081$ across $23$ values. The new mean is $\\frac{1081}{23}$. Both sum and count change."
+    "explanation": "The original sum is $24(31)=744$. Remove $6(13)=78$, leaving sum $666$ across $18$ values. The new mean is $\\frac{666}{18}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-063",
@@ -34869,15 +34869,15 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $28$ values has mean $61$. Exactly $7$ values, each equal to $8$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $14$ values has mean $43$. Exactly $8$ values, each equal to $19$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{236}{3}$",
-      "$59$",
-      "$53$",
-      "$61$"
+      "$75$",
+      "$\\frac{225}{7}$",
+      "$24$",
+      "$43$"
     ],
     "answer": 0,
-    "explanation": "The original sum is $28(61)=1708$. Remove $7(8)=56$, leaving sum $1652$ across $21$ values. The new mean is $\\frac{1652}{21}$. Both sum and count change."
+    "explanation": "The original sum is $14(43)=602$. Remove $8(19)=152$, leaving sum $450$ across $6$ values. The new mean is $\\frac{450}{6}$. Both sum and count change."
   },
   {
     "id": "m-gen-mean-after-removal-064",
@@ -34885,1043 +34885,1043 @@
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "prompt": "A data set of $14$ values has mean $40$. Exactly $6$ values, each equal to $15$, are removed. What is the mean of the remaining values?",
+    "prompt": "A data set of $29$ values has mean $26$. Exactly $8$ values, each equal to $5$, are removed. What is the mean of the remaining values?",
     "choices": [
-      "$\\frac{235}{7}$",
-      "$\\frac{235}{4}$",
-      "$25$",
-      "$40$"
-    ],
-    "answer": 1,
-    "explanation": "The original sum is $14(40)=560$. Remove $6(15)=90$, leaving sum $470$ across $8$ values. The new mean is $\\frac{470}{8}$. Both sum and count change."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-001",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 12 | 9 |\n| 17 | $k$ |\n| 22 | 9 |",
-    "prompt": "The table describes a data set with $25$ values. Its median is $17$. What is the missing frequency $k$?",
-    "answer": [
-      "7"
-    ],
-    "explanation": "Frequencies count all observations, so $9+k+9=25$. Thus $k=7$. The middle observations fall within the block of $17$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-002",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 4 | 5 |\n| 9 | $k$ |\n| 14 | 6 |",
-    "prompt": "The table describes a data set with $22$ values. Its median is $9$. What is the missing frequency $k$?",
-    "answer": [
-      "11"
-    ],
-    "explanation": "Frequencies count all observations, so $5+k+6=22$. Thus $k=11$. The middle observations fall within the block of $9$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-003",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 4 | 8 |\n| 7 | $k$ |\n| 10 | 10 |",
-    "prompt": "The table describes a data set with $23$ values. Its median is $7$. What is the missing frequency $k$?",
-    "answer": [
-      "5"
-    ],
-    "explanation": "Frequencies count all observations, so $8+k+10=23$. Thus $k=5$. The middle observations fall within the block of $7$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-004",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 15 | 4 |\n| 17 | $k$ |\n| 19 | 11 |",
-    "prompt": "The table describes a data set with $23$ values. Its median is $17$. What is the missing frequency $k$?",
-    "choices": [
-      "$23$",
-      "$15$",
-      "$8$",
-      "$17$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $4+k+11=23$. Thus $k=8$. The middle observations fall within the block of $17$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-005",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 11 | 12 |\n| 20 | $k$ |\n| 29 | 7 |",
-    "prompt": "The table describes a data set with $27$ values. Its median is $20$. What is the missing frequency $k$?",
-    "choices": [
-      "$27$",
-      "$19$",
-      "$20$",
-      "$8$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $12+k+7=27$. Thus $k=8$. The middle observations fall within the block of $20$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-006",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 11 |\n| 13 | $k$ |\n| 20 | 12 |",
-    "prompt": "The table describes a data set with $28$ values. Its median is $13$. What is the missing frequency $k$?",
-    "choices": [
-      "$5$",
-      "$28$",
-      "$23$",
-      "$13$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $11+k+12=28$. Thus $k=5$. The middle observations fall within the block of $13$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-007",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 11 | 10 |\n| 13 | $k$ |\n| 15 | 6 |",
-    "prompt": "The table describes a data set with $24$ values. Its median is $13$. What is the missing frequency $k$?",
-    "choices": [
-      "$24$",
-      "$8$",
-      "$16$",
-      "$13$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $10+k+6=24$. Thus $k=8$. The middle observations fall within the block of $13$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-008",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 9 |\n| 10 | $k$ |\n| 17 | 4 |",
-    "prompt": "The table describes a data set with $20$ values. Its median is $10$. What is the missing frequency $k$?",
-    "choices": [
-      "$20$",
-      "$13$",
-      "$7$",
-      "$10$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $9+k+4=20$. Thus $k=7$. The middle observations fall within the block of $10$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-009",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 6 |\n| 18 | $k$ |\n| 22 | 8 |",
-    "prompt": "The table describes a data set with $23$ values. Its median is $18$. What is the missing frequency $k$?",
-    "choices": [
-      "$23$",
-      "$14$",
-      "$18$",
-      "$9$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $6+k+8=23$. Thus $k=9$. The middle observations fall within the block of $18$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-010",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 9 |\n| 12 | $k$ |\n| 16 | 10 |",
-    "prompt": "The table describes a data set with $25$ values. Its median is $12$. What is the missing frequency $k$?",
-    "choices": [
-      "$6$",
-      "$25$",
-      "$19$",
-      "$12$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $9+k+10=25$. Thus $k=6$. The middle observations fall within the block of $12$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-011",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 3 |\n| 10 | $k$ |\n| 14 | 3 |",
-    "prompt": "The table describes a data set with $11$ values. Its median is $10$. What is the missing frequency $k$?",
-    "choices": [
-      "$11$",
-      "$5$",
-      "$6$",
-      "$10$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $3+k+3=11$. Thus $k=5$. The middle observations fall within the block of $10$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-012",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 11 |\n| 10 | $k$ |\n| 14 | 5 |",
-    "prompt": "The table describes a data set with $30$ values. Its median is $10$. What is the missing frequency $k$?",
-    "choices": [
-      "$30$",
-      "$16$",
-      "$14$",
-      "$10$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $11+k+5=30$. Thus $k=14$. The middle observations fall within the block of $10$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-013",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 12 |\n| 16 | $k$ |\n| 22 | 10 |",
-    "prompt": "The table describes a data set with $25$ values. Its median is $16$. What is the missing frequency $k$?",
-    "choices": [
-      "$25$",
-      "$22$",
-      "$16$",
-      "$3$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $12+k+10=25$. Thus $k=3$. The middle observations fall within the block of $16$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-014",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 7 |\n| 23 | $k$ |\n| 32 | 8 |",
-    "prompt": "The table describes a data set with $23$ values. Its median is $23$. What is the missing frequency $k$?",
-    "answer": [
-      "8"
-    ],
-    "explanation": "Frequencies count all observations, so $7+k+8=23$. Thus $k=8$. The middle observations fall within the block of $23$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-015",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 5 | 12 |\n| 7 | $k$ |\n| 9 | 6 |",
-    "prompt": "The table describes a data set with $26$ values. Its median is $7$. What is the missing frequency $k$?",
-    "answer": [
-      "8"
-    ],
-    "explanation": "Frequencies count all observations, so $12+k+6=26$. Thus $k=8$. The middle observations fall within the block of $7$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-016",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 5 | 9 |\n| 9 | $k$ |\n| 13 | 11 |",
-    "prompt": "The table describes a data set with $24$ values. Its median is $9$. What is the missing frequency $k$?",
-    "answer": [
-      "4"
-    ],
-    "explanation": "Frequencies count all observations, so $9+k+11=24$. Thus $k=4$. The middle observations fall within the block of $9$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-017",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 4 | 3 |\n| 6 | $k$ |\n| 8 | 11 |",
-    "prompt": "The table describes a data set with $27$ values. Its median is $6$. What is the missing frequency $k$?",
-    "choices": [
-      "$27$",
-      "$14$",
-      "$6$",
-      "$13$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $3+k+11=27$. Thus $k=13$. The middle observations fall within the block of $6$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-018",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 5 | 3 |\n| 7 | $k$ |\n| 9 | 7 |",
-    "prompt": "The table describes a data set with $25$ values. Its median is $7$. What is the missing frequency $k$?",
-    "choices": [
-      "$15$",
-      "$25$",
-      "$10$",
-      "$7$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $3+k+7=25$. Thus $k=15$. The middle observations fall within the block of $7$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-019",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 10 |\n| 15 | $k$ |\n| 22 | 8 |",
-    "prompt": "The table describes a data set with $21$ values. Its median is $15$. What is the missing frequency $k$?",
-    "choices": [
+      "$\\frac{714}{29}$",
+      "$34$",
       "$21$",
-      "$3$",
-      "$18$",
-      "$15$"
+      "$26$"
     ],
     "answer": 1,
-    "explanation": "Frequencies count all observations, so $10+k+8=21$. Thus $k=3$. The middle observations fall within the block of $15$ values, consistent with the stated median; the median itself is not a frequency."
+    "explanation": "The original sum is $29(26)=754$. Remove $8(5)=40$, leaving sum $714$ across $21$ values. The new mean is $\\frac{714}{21}$. Both sum and count change."
   },
   {
-    "id": "m-gen-median-frequency-missing-count-020",
+    "id": "m-gen-mean-frequency-missing-count-001",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 9 |\n| 10 | $k$ |\n| 12 | 7 |",
-    "prompt": "The table describes a data set with $28$ values. Its median is $10$. What is the missing frequency $k$?",
-    "choices": [
-      "$28$",
-      "$16$",
-      "$12$",
-      "$10$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $9+k+7=28$. Thus $k=12$. The middle observations fall within the block of $10$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-021",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 5 |\n| 17 | $k$ |\n| 20 | 12 |",
-    "prompt": "The table describes a data set with $27$ values. Its median is $17$. What is the missing frequency $k$?",
-    "choices": [
-      "$27$",
-      "$17$",
-      "$11$",
-      "$10$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $5+k+12=27$. Thus $k=10$. The middle observations fall within the block of $17$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-022",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 2 | 11 |\n| 4 | $k$ |\n| 6 | 3 |",
-    "prompt": "The table describes a data set with $27$ values. Its median is $4$. What is the missing frequency $k$?",
-    "choices": [
-      "$13$",
-      "$27$",
-      "$14$",
-      "$4$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $11+k+3=27$. Thus $k=13$. The middle observations fall within the block of $4$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-023",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 3 |\n| 8 | $k$ |\n| 10 | 4 |",
-    "prompt": "The table describes a data set with $10$ values. Its median is $8$. What is the missing frequency $k$?",
-    "choices": [
-      "$10$",
-      "$3$",
-      "$7$",
-      "$8$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $3+k+4=10$. Thus $k=3$. The middle observations fall within the block of $8$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-024",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 15 | 11 |\n| 24 | $k$ |\n| 33 | 4 |",
-    "prompt": "The table describes a data set with $26$ values. Its median is $24$. What is the missing frequency $k$?",
-    "choices": [
-      "$26$",
-      "$15$",
-      "$11$",
-      "$24$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $11+k+4=26$. Thus $k=11$. The middle observations fall within the block of $24$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-025",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 7 | 6 |\n| 11 | $k$ |\n| 15 | 7 |",
-    "prompt": "The table describes a data set with $16$ values. Its median is $11$. What is the missing frequency $k$?",
-    "choices": [
-      "$16$",
-      "$13$",
-      "$11$",
-      "$3$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $6+k+7=16$. Thus $k=3$. The middle observations fall within the block of $11$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-026",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 9 | 7 |\n| 17 | $k$ |\n| 25 | 5 |",
-    "prompt": "The table describes a data set with $22$ values. Its median is $17$. What is the missing frequency $k$?",
-    "choices": [
-      "$10$",
-      "$22$",
-      "$12$",
-      "$17$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $7+k+5=22$. Thus $k=10$. The middle observations fall within the block of $17$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-027",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 6 |\n| 23 | $k$ |\n| 32 | 5 |",
-    "prompt": "The table describes a data set with $15$ values. Its median is $23$. What is the missing frequency $k$?",
+    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 10 |\n| 11 | $k$ |\n| 19 | 13 |",
+    "prompt": "The mean of the data described in the table is $\\frac{343}{29}$. What is the missing frequency $k$?",
     "answer": [
-      "4"
+      "6"
     ],
-    "explanation": "Frequencies count all observations, so $6+k+5=15$. Thus $k=4$. The middle observations fall within the block of $23$ values, consistent with the stated median; the median itself is not a frequency."
+    "explanation": "The total is $277+11k$ and the count is $23+k$. Set their quotient equal to $\\frac{343}{29}$ and cross multiply. Solving gives $k=6$. A frequency weights its value in the sum and also contributes to the number of observations."
   },
   {
-    "id": "m-gen-median-frequency-missing-count-028",
+    "id": "m-gen-mean-frequency-missing-count-002",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 11 | 9 |\n| 17 | $k$ |\n| 23 | 12 |",
-    "prompt": "The table describes a data set with $26$ values. Its median is $17$. What is the missing frequency $k$?",
-    "answer": [
-      "5"
-    ],
-    "explanation": "Frequencies count all observations, so $9+k+12=26$. Thus $k=5$. The middle observations fall within the block of $17$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-029",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 12 | 11 |\n| 20 | $k$ |\n| 28 | 6 |",
-    "prompt": "The table describes a data set with $25$ values. Its median is $20$. What is the missing frequency $k$?",
-    "answer": [
-      "8"
-    ],
-    "explanation": "Frequencies count all observations, so $11+k+6=25$. Thus $k=8$. The middle observations fall within the block of $20$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-030",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 9 | 10 |\n| 14 | $k$ |\n| 19 | 11 |",
-    "prompt": "The table describes a data set with $32$ values. Its median is $14$. What is the missing frequency $k$?",
-    "choices": [
-      "$11$",
-      "$32$",
-      "$21$",
-      "$14$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $10+k+11=32$. Thus $k=11$. The middle observations fall within the block of $14$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-031",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 6 |\n| 19 | $k$ |\n| 24 | 7 |",
-    "prompt": "The table describes a data set with $21$ values. Its median is $19$. What is the missing frequency $k$?",
-    "choices": [
-      "$21$",
-      "$8$",
-      "$13$",
-      "$19$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $6+k+7=21$. Thus $k=8$. The middle observations fall within the block of $19$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-032",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 12 | 5 |\n| 17 | $k$ |\n| 22 | 5 |",
-    "prompt": "The table describes a data set with $15$ values. Its median is $17$. What is the missing frequency $k$?",
-    "choices": [
-      "$15$",
-      "$10$",
-      "$5$",
-      "$17$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $5+k+5=15$. Thus $k=5$. The middle observations fall within the block of $17$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-033",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 2 | 7 |\n| 9 | $k$ |\n| 16 | 11 |",
-    "prompt": "The table describes a data set with $28$ values. Its median is $9$. What is the missing frequency $k$?",
-    "choices": [
-      "$28$",
-      "$18$",
-      "$9$",
-      "$10$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $7+k+11=28$. Thus $k=10$. The middle observations fall within the block of $9$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-034",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 6 |\n| 10 | $k$ |\n| 14 | 9 |",
-    "prompt": "The table describes a data set with $27$ values. Its median is $10$. What is the missing frequency $k$?",
-    "choices": [
-      "$12$",
-      "$27$",
-      "$15$",
-      "$10$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $6+k+9=27$. Thus $k=12$. The middle observations fall within the block of $10$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-035",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 11 | 12 |\n| 15 | $k$ |\n| 19 | 7 |",
-    "prompt": "The table describes a data set with $27$ values. Its median is $15$. What is the missing frequency $k$?",
-    "choices": [
-      "$27$",
-      "$8$",
-      "$19$",
-      "$15$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $12+k+7=27$. Thus $k=8$. The middle observations fall within the block of $15$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-036",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 13 | 6 |\n| 22 | $k$ |\n| 31 | 4 |",
-    "prompt": "The table describes a data set with $20$ values. Its median is $22$. What is the missing frequency $k$?",
-    "choices": [
-      "$20$",
-      "$22$",
-      "$10$",
-      "$11$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $6+k+4=20$. Thus $k=10$. The middle observations fall within the block of $22$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-037",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 2 | 4 |\n| 4 | $k$ |\n| 6 | 4 |",
-    "prompt": "The table describes a data set with $14$ values. Its median is $4$. What is the missing frequency $k$?",
-    "choices": [
-      "$14$",
-      "$8$",
-      "$4$",
-      "$6$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $4+k+4=14$. Thus $k=6$. The middle observations fall within the block of $4$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-038",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 2 | 7 |\n| 5 | $k$ |\n| 8 | 12 |",
-    "prompt": "The table describes a data set with $35$ values. Its median is $5$. What is the missing frequency $k$?",
-    "choices": [
-      "$16$",
-      "$35$",
-      "$19$",
-      "$5$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $7+k+12=35$. Thus $k=16$. The middle observations fall within the block of $5$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-039",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 3 |\n| 15 | $k$ |\n| 20 | 11 |",
-    "prompt": "The table describes a data set with $25$ values. Its median is $15$. What is the missing frequency $k$?",
-    "choices": [
-      "$25$",
-      "$11$",
-      "$14$",
-      "$15$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $3+k+11=25$. Thus $k=11$. The middle observations fall within the block of $15$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-040",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 4 | 8 |\n| 11 | $k$ |\n| 18 | 10 |",
-    "prompt": "The table describes a data set with $29$ values. Its median is $11$. What is the missing frequency $k$?",
-    "answer": [
-      "11"
-    ],
-    "explanation": "Frequencies count all observations, so $8+k+10=29$. Thus $k=11$. The middle observations fall within the block of $11$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-041",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 8 |\n| 19 | $k$ |\n| 28 | 12 |",
-    "prompt": "The table describes a data set with $35$ values. Its median is $19$. What is the missing frequency $k$?",
+    "passage": "| Value | Frequency |\n|---|---|\n| 15 | 9 |\n| 18 | $k$ |\n| 21 | 14 |",
+    "prompt": "The mean of the data described in the table is $\\frac{699}{38}$. What is the missing frequency $k$?",
     "answer": [
       "15"
     ],
-    "explanation": "Frequencies count all observations, so $8+k+12=35$. Thus $k=15$. The middle observations fall within the block of $19$ values, consistent with the stated median; the median itself is not a frequency."
+    "explanation": "The total is $429+18k$ and the count is $23+k$. Set their quotient equal to $\\frac{699}{38}$ and cross multiply. Solving gives $k=15$. A frequency weights its value in the sum and also contributes to the number of observations."
   },
   {
-    "id": "m-gen-median-frequency-missing-count-042",
+    "id": "m-gen-mean-frequency-missing-count-003",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 15 | 10 |\n| 22 | $k$ |\n| 29 | 9 |",
-    "prompt": "The table describes a data set with $31$ values. Its median is $22$. What is the missing frequency $k$?",
+    "passage": "| Value | Frequency |\n|---|---|\n| 15 | 3 |\n| 24 | $k$ |\n| 33 | 9 |",
+    "prompt": "The mean of the data described in the table is $\\frac{750}{29}$. What is the missing frequency $k$?",
     "answer": [
-      "12"
+      "17"
     ],
-    "explanation": "Frequencies count all observations, so $10+k+9=31$. Thus $k=12$. The middle observations fall within the block of $22$ values, consistent with the stated median; the median itself is not a frequency."
+    "explanation": "The total is $342+24k$ and the count is $12+k$. Set their quotient equal to $\\frac{750}{29}$ and cross multiply. Solving gives $k=17$. A frequency weights its value in the sum and also contributes to the number of observations."
   },
   {
-    "id": "m-gen-median-frequency-missing-count-043",
+    "id": "m-gen-mean-frequency-missing-count-004",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
     "skill": "One-variable data: distributions and measures of center and spread",
     "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 5 |\n| 5 | $k$ |\n| 7 | 11 |",
-    "prompt": "The table describes a data set with $31$ values. Its median is $5$. What is the missing frequency $k$?",
-    "choices": [
-      "$31$",
-      "$15$",
-      "$16$",
-      "$5$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $5+k+11=31$. Thus $k=15$. The middle observations fall within the block of $5$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-044",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 8 |\n| 15 | $k$ |\n| 22 | 4 |",
-    "prompt": "The table describes a data set with $18$ values. Its median is $15$. What is the missing frequency $k$?",
-    "choices": [
-      "$18$",
-      "$12$",
-      "$6$",
-      "$15$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $8+k+4=18$. Thus $k=6$. The middle observations fall within the block of $15$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-045",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 8 |\n| 13 | $k$ |\n| 18 | 12 |",
-    "prompt": "The table describes a data set with $28$ values. Its median is $13$. What is the missing frequency $k$?",
-    "choices": [
-      "$28$",
-      "$20$",
-      "$13$",
-      "$8$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $8+k+12=28$. Thus $k=8$. The middle observations fall within the block of $13$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-046",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 11 |\n| 9 | $k$ |\n| 15 | 5 |",
-    "prompt": "The table describes a data set with $28$ values. Its median is $9$. What is the missing frequency $k$?",
-    "choices": [
-      "$12$",
-      "$28$",
-      "$16$",
-      "$9$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $11+k+5=28$. Thus $k=12$. The middle observations fall within the block of $9$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-047",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 13 | 12 |\n| 16 | $k$ |\n| 19 | 11 |",
-    "prompt": "The table describes a data set with $26$ values. Its median is $16$. What is the missing frequency $k$?",
-    "choices": [
-      "$26$",
-      "$3$",
-      "$23$",
-      "$16$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $12+k+11=26$. Thus $k=3$. The middle observations fall within the block of $16$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-048",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 5 | 5 |\n| 14 | $k$ |\n| 23 | 10 |",
-    "prompt": "The table describes a data set with $30$ values. Its median is $14$. What is the missing frequency $k$?",
-    "choices": [
-      "$30$",
-      "$14$",
-      "$15$",
-      "$16$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $5+k+10=30$. Thus $k=15$. The middle observations fall within the block of $14$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-049",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 4 |\n| 22 | $k$ |\n| 30 | 6 |",
-    "prompt": "The table describes a data set with $20$ values. Its median is $22$. What is the missing frequency $k$?",
-    "choices": [
-      "$20$",
-      "$22$",
-      "$11$",
-      "$10$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $4+k+6=20$. Thus $k=10$. The middle observations fall within the block of $22$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-050",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 4 |\n| 15 | $k$ |\n| 22 | 7 |",
-    "prompt": "The table describes a data set with $19$ values. Its median is $15$. What is the missing frequency $k$?",
-    "choices": [
-      "$8$",
-      "$19$",
-      "$11$",
-      "$15$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $4+k+7=19$. Thus $k=8$. The middle observations fall within the block of $15$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-051",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 6 |\n| 13 | $k$ |\n| 16 | 5 |",
-    "prompt": "The table describes a data set with $19$ values. Its median is $13$. What is the missing frequency $k$?",
-    "choices": [
-      "$19$",
-      "$8$",
-      "$11$",
-      "$13$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $6+k+5=19$. Thus $k=8$. The middle observations fall within the block of $13$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-052",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 2 | 12 |\n| 8 | $k$ |\n| 14 | 5 |",
-    "prompt": "The table describes a data set with $33$ values. Its median is $8$. What is the missing frequency $k$?",
-    "choices": [
-      "$33$",
-      "$17$",
-      "$16$",
-      "$8$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $12+k+5=33$. Thus $k=16$. The middle observations fall within the block of $8$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-053",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 13 | 10 |\n| 17 | $k$ |\n| 21 | 9 |",
-    "prompt": "The table describes a data set with $28$ values. Its median is $17$. What is the missing frequency $k$?",
-    "answer": [
-      "9"
-    ],
-    "explanation": "Frequencies count all observations, so $10+k+9=28$. Thus $k=9$. The middle observations fall within the block of $17$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-054",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 9 |\n| 12 | $k$ |\n| 21 | 8 |",
-    "prompt": "The table describes a data set with $25$ values. Its median is $12$. What is the missing frequency $k$?",
-    "answer": [
-      "8"
-    ],
-    "explanation": "Frequencies count all observations, so $9+k+8=25$. Thus $k=8$. The middle observations fall within the block of $12$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-055",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 6 |\n| 22 | $k$ |\n| 30 | 11 |",
-    "prompt": "The table describes a data set with $25$ values. Its median is $22$. What is the missing frequency $k$?",
-    "answer": [
-      "8"
-    ],
-    "explanation": "Frequencies count all observations, so $6+k+11=25$. Thus $k=8$. The middle observations fall within the block of $22$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-056",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 10 |\n| 7 | $k$ |\n| 11 | 10 |",
-    "prompt": "The table describes a data set with $23$ values. Its median is $7$. What is the missing frequency $k$?",
+    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 7 |\n| 7 | $k$ |\n| 11 | 9 |",
+    "prompt": "The mean of the data described in the table is $\\frac{169}{23}$. What is the missing frequency $k$?",
     "choices": [
       "$23$",
-      "$20$",
-      "$3$",
-      "$7$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $10+k+10=23$. Thus $k=3$. The middle observations fall within the block of $7$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-057",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 4 | 8 |\n| 6 | $k$ |\n| 8 | 4 |",
-    "prompt": "The table describes a data set with $26$ values. Its median is $6$. What is the missing frequency $k$?",
-    "choices": [
-      "$26$",
-      "$12$",
-      "$6$",
-      "$14$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $8+k+4=26$. Thus $k=14$. The middle observations fall within the block of $6$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-058",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 9 |\n| 11 | $k$ |\n| 16 | 7 |",
-    "prompt": "The table describes a data set with $29$ values. Its median is $11$. What is the missing frequency $k$?",
-    "choices": [
-      "$13$",
-      "$29$",
-      "$16$",
-      "$11$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $9+k+7=29$. Thus $k=13$. The middle observations fall within the block of $11$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-059",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 7 | 11 |\n| 9 | $k$ |\n| 11 | 3 |",
-    "prompt": "The table describes a data set with $30$ values. Its median is $9$. What is the missing frequency $k$?",
-    "choices": [
-      "$30$",
-      "$16$",
-      "$14$",
-      "$9$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $11+k+3=30$. Thus $k=16$. The middle observations fall within the block of $9$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-060",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 3 |\n| 17 | $k$ |\n| 26 | 5 |",
-    "prompt": "The table describes a data set with $13$ values. Its median is $17$. What is the missing frequency $k$?",
-    "choices": [
-      "$13$",
-      "$8$",
-      "$5$",
-      "$17$"
-    ],
-    "answer": 2,
-    "explanation": "Frequencies count all observations, so $3+k+5=13$. Thus $k=5$. The middle observations fall within the block of $17$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-061",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 7 | 8 |\n| 13 | $k$ |\n| 19 | 4 |",
-    "prompt": "The table describes a data set with $24$ values. Its median is $13$. What is the missing frequency $k$?",
-    "choices": [
-      "$24$",
-      "$13$",
-      "$11$",
-      "$12$"
-    ],
-    "answer": 3,
-    "explanation": "Frequencies count all observations, so $8+k+4=24$. Thus $k=12$. The middle observations fall within the block of $13$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-062",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 11 | 3 |\n| 18 | $k$ |\n| 25 | 12 |",
-    "prompt": "The table describes a data set with $29$ values. Its median is $18$. What is the missing frequency $k$?",
-    "choices": [
-      "$14$",
-      "$29$",
-      "$15$",
-      "$18$"
-    ],
-    "answer": 0,
-    "explanation": "Frequencies count all observations, so $3+k+12=29$. Thus $k=14$. The middle observations fall within the block of $18$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-063",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 8 |\n| 12 | $k$ |\n| 14 | 6 |",
-    "prompt": "The table describes a data set with $23$ values. Its median is $12$. What is the missing frequency $k$?",
-    "choices": [
-      "$23$",
-      "$9$",
-      "$14$",
-      "$12$"
-    ],
-    "answer": 1,
-    "explanation": "Frequencies count all observations, so $8+k+6=23$. Thus $k=9$. The middle observations fall within the block of $12$ values, consistent with the stated median; the median itself is not a frequency."
-  },
-  {
-    "id": "m-gen-median-frequency-missing-count-064",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "One-variable data: distributions and measures of center and spread",
-    "difficulty": "hard",
-    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 3 |\n| 16 | $k$ |\n| 22 | 4 |",
-    "prompt": "The table describes a data set with $14$ values. Its median is $16$. What is the missing frequency $k$?",
-    "choices": [
-      "$14$",
       "$16$",
       "$7$",
       "$8$"
     ],
     "answer": 2,
-    "explanation": "Frequencies count all observations, so $3+k+4=14$. Thus $k=7$. The middle observations fall within the block of $16$ values, consistent with the stated median; the median itself is not a frequency."
+    "explanation": "The total is $120+7k$ and the count is $16+k$. Set their quotient equal to $\\frac{169}{23}$ and cross multiply. Solving gives $k=7$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-005",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 6 |\n| 13 | $k$ |\n| 18 | 9 |",
+    "prompt": "The mean of the data described in the table is $\\frac{444}{33}$. What is the missing frequency $k$?",
+    "choices": [
+      "$33$",
+      "$15$",
+      "$13$",
+      "$18$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $210+13k$ and the count is $15+k$. Set their quotient equal to $\\frac{444}{33}$ and cross multiply. Solving gives $k=18$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-006",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 12 |\n| 19 | $k$ |\n| 24 | 16 |",
+    "prompt": "The mean of the data described in the table is $\\frac{704}{36}$. What is the missing frequency $k$?",
+    "choices": [
+      "$8$",
+      "$36$",
+      "$28$",
+      "$19$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $552+19k$ and the count is $28+k$. Set their quotient equal to $\\frac{704}{36}$ and cross multiply. Solving gives $k=8$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-007",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 11 | 8 |\n| 14 | $k$ |\n| 17 | 16 |",
+    "prompt": "The mean of the data described in the table is $\\frac{570}{39}$. What is the missing frequency $k$?",
+    "choices": [
+      "$39$",
+      "$15$",
+      "$24$",
+      "$14$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $360+14k$ and the count is $24+k$. Set their quotient equal to $\\frac{570}{39}$ and cross multiply. Solving gives $k=15$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-008",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 6 |\n| 13 | $k$ |\n| 18 | 13 |",
+    "prompt": "The mean of the data described in the table is $\\frac{516}{37}$. What is the missing frequency $k$?",
+    "choices": [
+      "$37$",
+      "$19$",
+      "$18$",
+      "$13$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $282+13k$ and the count is $19+k$. Set their quotient equal to $\\frac{516}{37}$ and cross multiply. Solving gives $k=18$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-009",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 13 | 4 |\n| 17 | $k$ |\n| 21 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{406}{22}$. What is the missing frequency $k$?",
+    "choices": [
+      "$22$",
+      "$16$",
+      "$17$",
+      "$6$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $304+17k$ and the count is $16+k$. Set their quotient equal to $\\frac{406}{22}$ and cross multiply. Solving gives $k=6$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-010",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 4 | 11 |\n| 7 | $k$ |\n| 10 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{234}{33}$. What is the missing frequency $k$?",
+    "choices": [
+      "$10$",
+      "$33$",
+      "$23$",
+      "$7$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $164+7k$ and the count is $23+k$. Set their quotient equal to $\\frac{234}{33}$ and cross multiply. Solving gives $k=10$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-011",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 6 |\n| 14 | $k$ |\n| 18 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{500}{34}$. What is the missing frequency $k$?",
+    "choices": [
+      "$34$",
+      "$16$",
+      "$18$",
+      "$14$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $276+14k$ and the count is $18+k$. Set their quotient equal to $\\frac{500}{34}$ and cross multiply. Solving gives $k=16$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-012",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 13 | 12 |\n| 16 | $k$ |\n| 19 | 17 |",
+    "prompt": "The mean of the data described in the table is $\\frac{719}{44}$. What is the missing frequency $k$?",
+    "choices": [
+      "$44$",
+      "$29$",
+      "$15$",
+      "$16$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $479+16k$ and the count is $29+k$. Set their quotient equal to $\\frac{719}{44}$ and cross multiply. Solving gives $k=15$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-013",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 10 |\n| 15 | $k$ |\n| 20 | 17 |",
+    "prompt": "The mean of the data described in the table is $\\frac{500}{31}$. What is the missing frequency $k$?",
+    "choices": [
+      "$31$",
+      "$27$",
+      "$15$",
+      "$4$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $440+15k$ and the count is $27+k$. Set their quotient equal to $\\frac{500}{31}$ and cross multiply. Solving gives $k=4$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-014",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 4 |\n| 23 | $k$ |\n| 32 | 6 |",
+    "prompt": "The mean of the data described in the table is $\\frac{501}{21}$. What is the missing frequency $k$?",
+    "answer": [
+      "11"
+    ],
+    "explanation": "The total is $248+23k$ and the count is $10+k$. Set their quotient equal to $\\frac{501}{21}$ and cross multiply. Solving gives $k=11$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-015",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 8 |\n| 11 | $k$ |\n| 16 | 13 |",
+    "prompt": "The mean of the data described in the table is $\\frac{454}{39}$. What is the missing frequency $k$?",
+    "answer": [
+      "18"
+    ],
+    "explanation": "The total is $256+11k$ and the count is $21+k$. Set their quotient equal to $\\frac{454}{39}$ and cross multiply. Solving gives $k=18$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-016",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 9 |\n| 12 | $k$ |\n| 21 | 11 |",
+    "prompt": "The mean of the data described in the table is $\\frac{342}{27}$. What is the missing frequency $k$?",
+    "answer": [
+      "7"
+    ],
+    "explanation": "The total is $258+12k$ and the count is $20+k$. Set their quotient equal to $\\frac{342}{27}$ and cross multiply. Solving gives $k=7$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-017",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 6 |\n| 20 | $k$ |\n| 26 | 10 |",
+    "prompt": "The mean of the data described in the table is $\\frac{604}{29}$. What is the missing frequency $k$?",
+    "choices": [
+      "$29$",
+      "$16$",
+      "$20$",
+      "$13$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $344+20k$ and the count is $16+k$. Set their quotient equal to $\\frac{604}{29}$ and cross multiply. Solving gives $k=13$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-018",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 12 |\n| 9 | $k$ |\n| 15 | 17 |",
+    "prompt": "The mean of the data described in the table is $\\frac{408}{42}$. What is the missing frequency $k$?",
+    "choices": [
+      "$13$",
+      "$42$",
+      "$29$",
+      "$9$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $291+9k$ and the count is $29+k$. Set their quotient equal to $\\frac{408}{42}$ and cross multiply. Solving gives $k=13$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-019",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 3 |\n| 20 | $k$ |\n| 26 | 4 |",
+    "prompt": "The mean of the data described in the table is $\\frac{406}{20}$. What is the missing frequency $k$?",
+    "choices": [
+      "$20$",
+      "$13$",
+      "$7$",
+      "$14$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $146+20k$ and the count is $7+k$. Set their quotient equal to $\\frac{406}{20}$ and cross multiply. Solving gives $k=13$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-020",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 10 |\n| 13 | $k$ |\n| 16 | 13 |",
+    "prompt": "The mean of the data described in the table is $\\frac{386}{29}$. What is the missing frequency $k$?",
+    "choices": [
+      "$29$",
+      "$23$",
+      "$6$",
+      "$13$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $308+13k$ and the count is $23+k$. Set their quotient equal to $\\frac{386}{29}$ and cross multiply. Solving gives $k=6$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-021",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 10 |\n| 22 | $k$ |\n| 30 | 17 |",
+    "prompt": "The mean of the data described in the table is $\\frac{870}{37}$. What is the missing frequency $k$?",
+    "choices": [
+      "$37$",
+      "$27$",
+      "$22$",
+      "$10$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $650+22k$ and the count is $27+k$. Set their quotient equal to $\\frac{870}{37}$ and cross multiply. Solving gives $k=10$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-022",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 7 |\n| 10 | $k$ |\n| 12 | 15 |",
+    "prompt": "The mean of the data described in the table is $\\frac{416}{40}$. What is the missing frequency $k$?",
+    "choices": [
+      "$18$",
+      "$40$",
+      "$22$",
+      "$10$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $236+10k$ and the count is $22+k$. Set their quotient equal to $\\frac{416}{40}$ and cross multiply. Solving gives $k=18$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-023",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 7 | 5 |\n| 15 | $k$ |\n| 23 | 10 |",
+    "prompt": "The mean of the data described in the table is $\\frac{385}{23}$. What is the missing frequency $k$?",
+    "choices": [
+      "$23$",
+      "$8$",
+      "$15$",
+      "$9$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $265+15k$ and the count is $15+k$. Set their quotient equal to $\\frac{385}{23}$ and cross multiply. Solving gives $k=8$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-024",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 11 |\n| 9 | $k$ |\n| 12 | 13 |",
+    "prompt": "The mean of the data described in the table is $\\frac{276}{30}$. What is the missing frequency $k$?",
+    "choices": [
+      "$30$",
+      "$24$",
+      "$6$",
+      "$9$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $222+9k$ and the count is $24+k$. Set their quotient equal to $\\frac{276}{30}$ and cross multiply. Solving gives $k=6$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-025",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 4 | 7 |\n| 10 | $k$ |\n| 16 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{250}{22}$. What is the missing frequency $k$?",
+    "choices": [
+      "$22$",
+      "$19$",
+      "$10$",
+      "$3$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $220+10k$ and the count is $19+k$. Set their quotient equal to $\\frac{250}{22}$ and cross multiply. Solving gives $k=3$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-026",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 12 |\n| 10 | $k$ |\n| 17 | 16 |",
+    "prompt": "The mean of the data described in the table is $\\frac{358}{33}$. What is the missing frequency $k$?",
+    "choices": [
+      "$5$",
+      "$33$",
+      "$28$",
+      "$10$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $308+10k$ and the count is $28+k$. Set their quotient equal to $\\frac{358}{33}$ and cross multiply. Solving gives $k=5$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-027",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 12 | 11 |\n| 16 | $k$ |\n| 20 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{580}{36}$. What is the missing frequency $k$?",
+    "answer": [
+      "13"
+    ],
+    "explanation": "The total is $372+16k$ and the count is $23+k$. Set their quotient equal to $\\frac{580}{36}$ and cross multiply. Solving gives $k=13$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-028",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 4 | 5 |\n| 13 | $k$ |\n| 22 | 11 |",
+    "prompt": "The mean of the data described in the table is $\\frac{470}{32}$. What is the missing frequency $k$?",
+    "answer": [
+      "16"
+    ],
+    "explanation": "The total is $262+13k$ and the count is $16+k$. Set their quotient equal to $\\frac{470}{32}$ and cross multiply. Solving gives $k=16$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-029",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 7 |\n| 15 | $k$ |\n| 20 | 15 |",
+    "prompt": "The mean of the data described in the table is $\\frac{460}{28}$. What is the missing frequency $k$?",
+    "answer": [
+      "6"
+    ],
+    "explanation": "The total is $370+15k$ and the count is $22+k$. Set their quotient equal to $\\frac{460}{28}$ and cross multiply. Solving gives $k=6$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-030",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 15 | 6 |\n| 17 | $k$ |\n| 19 | 14 |",
+    "prompt": "The mean of the data described in the table is $\\frac{526}{30}$. What is the missing frequency $k$?",
+    "choices": [
+      "$10$",
+      "$30$",
+      "$20$",
+      "$17$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $356+17k$ and the count is $20+k$. Set their quotient equal to $\\frac{526}{30}$ and cross multiply. Solving gives $k=10$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-031",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 7 | 5 |\n| 11 | $k$ |\n| 15 | 9 |",
+    "prompt": "The mean of the data described in the table is $\\frac{346}{30}$. What is the missing frequency $k$?",
+    "choices": [
+      "$30$",
+      "$16$",
+      "$14$",
+      "$11$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $170+11k$ and the count is $14+k$. Set their quotient equal to $\\frac{346}{30}$ and cross multiply. Solving gives $k=16$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-032",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 10 |\n| 12 | $k$ |\n| 14 | 17 |",
+    "prompt": "The mean of the data described in the table is $\\frac{506}{41}$. What is the missing frequency $k$?",
+    "choices": [
+      "$41$",
+      "$27$",
+      "$14$",
+      "$12$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $338+12k$ and the count is $27+k$. Set their quotient equal to $\\frac{506}{41}$ and cross multiply. Solving gives $k=14$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-033",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 11 |\n| 13 | $k$ |\n| 16 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{523}{40}$. What is the missing frequency $k$?",
+    "choices": [
+      "$40$",
+      "$23$",
+      "$13$",
+      "$17$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $302+13k$ and the count is $23+k$. Set their quotient equal to $\\frac{523}{40}$ and cross multiply. Solving gives $k=17$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-034",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 9 |\n| 15 | $k$ |\n| 24 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{432}{27}$. What is the missing frequency $k$?",
+    "choices": [
+      "$6$",
+      "$27$",
+      "$21$",
+      "$15$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $342+15k$ and the count is $21+k$. Set their quotient equal to $\\frac{432}{27}$ and cross multiply. Solving gives $k=6$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-035",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 12 |\n| 13 | $k$ |\n| 20 | 20 |",
+    "prompt": "The mean of the data described in the table is $\\frac{537}{37}$. What is the missing frequency $k$?",
+    "choices": [
+      "$37$",
+      "$5$",
+      "$32$",
+      "$13$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $472+13k$ and the count is $32+k$. Set their quotient equal to $\\frac{537}{37}$ and cross multiply. Solving gives $k=5$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-036",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 11 |\n| 13 | $k$ |\n| 20 | 18 |",
+    "prompt": "The mean of the data described in the table is $\\frac{595}{42}$. What is the missing frequency $k$?",
+    "choices": [
+      "$42$",
+      "$29$",
+      "$13$",
+      "$14$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $426+13k$ and the count is $29+k$. Set their quotient equal to $\\frac{595}{42}$ and cross multiply. Solving gives $k=13$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-037",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 3 |\n| 12 | $k$ |\n| 21 | 7 |",
+    "prompt": "The mean of the data described in the table is $\\frac{192}{13}$. What is the missing frequency $k$?",
+    "choices": [
+      "$13$",
+      "$10$",
+      "$12$",
+      "$3$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $156+12k$ and the count is $10+k$. Set their quotient equal to $\\frac{192}{13}$ and cross multiply. Solving gives $k=3$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-038",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 7 | 10 |\n| 12 | $k$ |\n| 17 | 14 |",
+    "prompt": "The mean of the data described in the table is $\\frac{452}{36}$. What is the missing frequency $k$?",
+    "choices": [
+      "$12$",
+      "$36$",
+      "$24$",
+      "$13$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $308+12k$ and the count is $24+k$. Set their quotient equal to $\\frac{452}{36}$ and cross multiply. Solving gives $k=12$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-039",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 11 | 11 |\n| 15 | $k$ |\n| 19 | 16 |",
+    "prompt": "The mean of the data described in the table is $\\frac{515}{33}$. What is the missing frequency $k$?",
+    "choices": [
+      "$33$",
+      "$6$",
+      "$27$",
+      "$15$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $425+15k$ and the count is $27+k$. Set their quotient equal to $\\frac{515}{33}$ and cross multiply. Solving gives $k=6$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-040",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 9 | 4 |\n| 11 | $k$ |\n| 13 | 9 |",
+    "prompt": "The mean of the data described in the table is $\\frac{263}{23}$. What is the missing frequency $k$?",
+    "answer": [
+      "10"
+    ],
+    "explanation": "The total is $153+11k$ and the count is $13+k$. Set their quotient equal to $\\frac{263}{23}$ and cross multiply. Solving gives $k=10$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-041",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 7 |\n| 15 | $k$ |\n| 24 | 13 |",
+    "prompt": "The mean of the data described in the table is $\\frac{609}{37}$. What is the missing frequency $k$?",
+    "answer": [
+      "17"
+    ],
+    "explanation": "The total is $354+15k$ and the count is $20+k$. Set their quotient equal to $\\frac{609}{37}$ and cross multiply. Solving gives $k=17$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-042",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 15 | 4 |\n| 23 | $k$ |\n| 31 | 7 |",
+    "prompt": "The mean of the data described in the table is $\\frac{691}{29}$. What is the missing frequency $k$?",
+    "answer": [
+      "18"
+    ],
+    "explanation": "The total is $277+23k$ and the count is $11+k$. Set their quotient equal to $\\frac{691}{29}$ and cross multiply. Solving gives $k=18$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-043",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 12 | 7 |\n| 15 | $k$ |\n| 18 | 8 |",
+    "prompt": "The mean of the data described in the table is $\\frac{288}{19}$. What is the missing frequency $k$?",
+    "choices": [
+      "$19$",
+      "$4$",
+      "$15$",
+      "$5$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $228+15k$ and the count is $15+k$. Set their quotient equal to $\\frac{288}{19}$ and cross multiply. Solving gives $k=4$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-044",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 7 | 8 |\n| 12 | $k$ |\n| 17 | 9 |",
+    "prompt": "The mean of the data described in the table is $\\frac{413}{34}$. What is the missing frequency $k$?",
+    "choices": [
+      "$34$",
+      "$12$",
+      "$17$",
+      "$18$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $209+12k$ and the count is $17+k$. Set their quotient equal to $\\frac{413}{34}$ and cross multiply. Solving gives $k=17$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-045",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 5 | 5 |\n| 8 | $k$ |\n| 11 | 6 |",
+    "prompt": "The mean of the data described in the table is $\\frac{163}{20}$. What is the missing frequency $k$?",
+    "choices": [
+      "$20$",
+      "$11$",
+      "$8$",
+      "$9$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $91+8k$ and the count is $11+k$. Set their quotient equal to $\\frac{163}{20}$ and cross multiply. Solving gives $k=9$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-046",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 12 | 7 |\n| 14 | $k$ |\n| 16 | 8 |",
+    "prompt": "The mean of the data described in the table is $\\frac{352}{25}$. What is the missing frequency $k$?",
+    "choices": [
+      "$10$",
+      "$25$",
+      "$15$",
+      "$14$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $212+14k$ and the count is $15+k$. Set their quotient equal to $\\frac{352}{25}$ and cross multiply. Solving gives $k=10$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-047",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 7 |\n| 20 | $k$ |\n| 26 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{770}{37}$. What is the missing frequency $k$?",
+    "choices": [
+      "$37$",
+      "$18$",
+      "$19$",
+      "$20$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $410+20k$ and the count is $19+k$. Set their quotient equal to $\\frac{770}{37}$ and cross multiply. Solving gives $k=18$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-048",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 5 | 5 |\n| 10 | $k$ |\n| 15 | 11 |",
+    "prompt": "The mean of the data described in the table is $\\frac{370}{34}$. What is the missing frequency $k$?",
+    "choices": [
+      "$34$",
+      "$16$",
+      "$18$",
+      "$10$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $190+10k$ and the count is $16+k$. Set their quotient equal to $\\frac{370}{34}$ and cross multiply. Solving gives $k=18$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-049",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 15 | 11 |\n| 22 | $k$ |\n| 29 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{667}{30}$. What is the missing frequency $k$?",
+    "choices": [
+      "$30$",
+      "$23$",
+      "$22$",
+      "$7$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $513+22k$ and the count is $23+k$. Set their quotient equal to $\\frac{667}{30}$ and cross multiply. Solving gives $k=7$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-050",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 7 | 7 |\n| 16 | $k$ |\n| 25 | 8 |",
+    "prompt": "The mean of the data described in the table is $\\frac{409}{25}$. What is the missing frequency $k$?",
+    "choices": [
+      "$10$",
+      "$25$",
+      "$15$",
+      "$16$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $249+16k$ and the count is $15+k$. Set their quotient equal to $\\frac{409}{25}$ and cross multiply. Solving gives $k=10$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-051",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 11 |\n| 11 | $k$ |\n| 16 | 17 |",
+    "prompt": "The mean of the data described in the table is $\\frac{415}{35}$. What is the missing frequency $k$?",
+    "choices": [
+      "$35$",
+      "$7$",
+      "$28$",
+      "$11$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $338+11k$ and the count is $28+k$. Set their quotient equal to $\\frac{415}{35}$ and cross multiply. Solving gives $k=7$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-052",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 6 |\n| 18 | $k$ |\n| 22 | 10 |",
+    "prompt": "The mean of the data described in the table is $\\frac{394}{21}$. What is the missing frequency $k$?",
+    "choices": [
+      "$21$",
+      "$16$",
+      "$5$",
+      "$18$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $304+18k$ and the count is $16+k$. Set their quotient equal to $\\frac{394}{21}$ and cross multiply. Solving gives $k=5$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-053",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 4 |\n| 15 | $k$ |\n| 22 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{461}{27}$. What is the missing frequency $k$?",
+    "answer": [
+      "11"
+    ],
+    "explanation": "The total is $296+15k$ and the count is $16+k$. Set their quotient equal to $\\frac{461}{27}$ and cross multiply. Solving gives $k=11$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-054",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 7 | 9 |\n| 10 | $k$ |\n| 13 | 11 |",
+    "prompt": "The mean of the data described in the table is $\\frac{256}{25}$. What is the missing frequency $k$?",
+    "answer": [
+      "5"
+    ],
+    "explanation": "The total is $206+10k$ and the count is $20+k$. Set their quotient equal to $\\frac{256}{25}$ and cross multiply. Solving gives $k=5$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-055",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 6 | 11 |\n| 15 | $k$ |\n| 24 | 18 |",
+    "prompt": "The mean of the data described in the table is $\\frac{588}{35}$. What is the missing frequency $k$?",
+    "answer": [
+      "6"
+    ],
+    "explanation": "The total is $498+15k$ and the count is $29+k$. Set their quotient equal to $\\frac{588}{35}$ and cross multiply. Solving gives $k=6$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-056",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 4 | 5 |\n| 10 | $k$ |\n| 16 | 13 |",
+    "prompt": "The mean of the data described in the table is $\\frac{298}{25}$. What is the missing frequency $k$?",
+    "choices": [
+      "$25$",
+      "$18$",
+      "$7$",
+      "$10$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $228+10k$ and the count is $18+k$. Set their quotient equal to $\\frac{298}{25}$ and cross multiply. Solving gives $k=7$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-057",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 14 | 10 |\n| 23 | $k$ |\n| 32 | 13 |",
+    "prompt": "The mean of the data described in the table is $\\frac{717}{30}$. What is the missing frequency $k$?",
+    "choices": [
+      "$30$",
+      "$23$",
+      "$8$",
+      "$7$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $556+23k$ and the count is $23+k$. Set their quotient equal to $\\frac{717}{30}$ and cross multiply. Solving gives $k=7$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-058",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 3 | 7 |\n| 7 | $k$ |\n| 11 | 10 |",
+    "prompt": "The mean of the data described in the table is $\\frac{250}{34}$. What is the missing frequency $k$?",
+    "choices": [
+      "$17$",
+      "$34$",
+      "$7$",
+      "$18$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $131+7k$ and the count is $17+k$. Set their quotient equal to $\\frac{250}{34}$ and cross multiply. Solving gives $k=17$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-059",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 9 |\n| 16 | $k$ |\n| 22 | 12 |",
+    "prompt": "The mean of the data described in the table is $\\frac{642}{39}$. What is the missing frequency $k$?",
+    "choices": [
+      "$39$",
+      "$18$",
+      "$21$",
+      "$16$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $354+16k$ and the count is $21+k$. Set their quotient equal to $\\frac{642}{39}$ and cross multiply. Solving gives $k=18$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-060",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 2 | 6 |\n| 10 | $k$ |\n| 18 | 14 |",
+    "prompt": "The mean of the data described in the table is $\\frac{444}{38}$. What is the missing frequency $k$?",
+    "choices": [
+      "$38$",
+      "$20$",
+      "$18$",
+      "$10$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $264+10k$ and the count is $20+k$. Set their quotient equal to $\\frac{444}{38}$ and cross multiply. Solving gives $k=18$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-061",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 10 | 8 |\n| 15 | $k$ |\n| 20 | 9 |",
+    "prompt": "The mean of the data described in the table is $\\frac{515}{34}$. What is the missing frequency $k$?",
+    "choices": [
+      "$34$",
+      "$15$",
+      "$18$",
+      "$17$"
+    ],
+    "answer": 3,
+    "explanation": "The total is $260+15k$ and the count is $17+k$. Set their quotient equal to $\\frac{515}{34}$ and cross multiply. Solving gives $k=17$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-062",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 11 |\n| 14 | $k$ |\n| 20 | 18 |",
+    "prompt": "The mean of the data described in the table is $\\frac{672}{45}$. What is the missing frequency $k$?",
+    "choices": [
+      "$16$",
+      "$45$",
+      "$29$",
+      "$14$"
+    ],
+    "answer": 0,
+    "explanation": "The total is $448+14k$ and the count is $29+k$. Set their quotient equal to $\\frac{672}{45}$ and cross multiply. Solving gives $k=16$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-063",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 2 | 4 |\n| 11 | $k$ |\n| 20 | 6 |",
+    "prompt": "The mean of the data described in the table is $\\frac{326}{28}$. What is the missing frequency $k$?",
+    "choices": [
+      "$28$",
+      "$18$",
+      "$10$",
+      "$11$"
+    ],
+    "answer": 1,
+    "explanation": "The total is $128+11k$ and the count is $10+k$. Set their quotient equal to $\\frac{326}{28}$ and cross multiply. Solving gives $k=18$. A frequency weights its value in the sum and also contributes to the number of observations."
+  },
+  {
+    "id": "m-gen-mean-frequency-missing-count-064",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "passage": "| Value | Frequency |\n|---|---|\n| 8 | 11 |\n| 16 | $k$ |\n| 24 | 19 |",
+    "prompt": "The mean of the data described in the table is $\\frac{816}{47}$. What is the missing frequency $k$?",
+    "choices": [
+      "$47$",
+      "$30$",
+      "$17$",
+      "$16$"
+    ],
+    "answer": 2,
+    "explanation": "The total is $544+16k$ and the count is $30+k$. Set their quotient equal to $\\frac{816}{47}$ and cross multiply. Solving gives $k=17$. A frequency weights its value in the sum and also contributes to the number of observations."
   },
   {
     "id": "m-gen-model-unit-change-slope-001",

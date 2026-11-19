@@ -10,6 +10,7 @@ import { writingAdditional } from './writing-additional.mjs'
 import { readingLiterary } from './reading-literary.mjs'
 import { writingExpression } from './writing-expression.mjs'
 import { readingReasoning } from './reading-reasoning.mjs'
+import { readingExtended } from './reading-extended.mjs'
 const groups={
  'Words in Context':['craft','Craft and Structure','vocab'],
  'Text Structure and Purpose':['craft','Craft and Structure','structure'],
@@ -23,12 +24,12 @@ const groups={
  'Boundaries':['conventions','Standard English Conventions','boundary'],
  'Form, Structure, and Sense':['conventions','Standard English Conventions','form'],
 }
-for (const row of [...readingLiterary,...writingExpression,...readingReasoning]) {
+for (const row of [...readingLiterary,...writingExpression,...readingReasoning,...readingExtended]) {
  const words=row.passage.trim().split(/\s+/).length
  assert(words>=25&&words<=150,`${row.skill}: new short passage must contain 25–150 words, got ${words}`)
 }
 const counts={}, files={}, seen=new Set()
-const rows=[...reading,...writing,...readingExpansion,...writingExpansion,...readingAdditional,...writingAdditional,...readingLiterary,...writingExpression,...readingReasoning]
+const rows=[...reading,...writing,...readingExpansion,...writingExpansion,...readingAdditional,...writingAdditional,...readingLiterary,...writingExpression,...readingReasoning,...readingExtended]
 for(const [i,row] of rows.entries()) {
  const [file,domain,key]=groups[row.skill]
  counts[key]=(counts[key]??0)+1
@@ -63,4 +64,12 @@ const reasoningReport=JSON.stringify({provenance:'Individually authored original
 const reasoningReportPath=fileURLToPath(new URL('../../docs/reading-reasoning-report.json',import.meta.url))
 if(process.argv.includes('--check'))assert.equal(readFileSync(reasoningReportPath,'utf8'),reasoningReport)
 else writeFileSync(reasoningReportPath,reasoningReport)
+const extendedWords=readingExtended.map(row=>row.passage.trim().split(/\s+/).length)
+for(const words of extendedWords)assert(words>=70&&words<=150,`Extended reading passage must contain 70–150 words, got ${words}`)
+const extendedSkills={}
+for(const row of readingExtended)extendedSkills[row.skill]=(extendedSkills[row.skill]??0)+1
+const extendedReport=JSON.stringify({provenance:'Individually authored original extended reading passages; no numerical or context-swapping variants.',total:readingExtended.length,skills:extendedSkills,passageWords:{minimum:Math.min(...extendedWords),maximum:Math.max(...extendedWords)},originalPoemPassages:readingExtended.filter(row=>/original poem/.test(row.passage)).length,supportEvidenceQuestions:readingExtended.filter(row=>row.prompt.includes('support the researcher')).length,weakenEvidenceQuestions:readingExtended.filter(row=>row.prompt.includes('weaken the researcher')).length},null,2)+'\n'
+const extendedReportPath=fileURLToPath(new URL('../../docs/extended-reading-report.json',import.meta.url))
+if(process.argv.includes('--check'))assert.equal(readFileSync(extendedReportPath,'utf8'),extendedReport)
+else writeFileSync(extendedReportPath,extendedReport)
 console.log(`${process.argv.includes('--check')?'Verified':'Wrote'} ${rows.length} original Reading and Writing questions across ${Object.keys(counts).length} skills.`)

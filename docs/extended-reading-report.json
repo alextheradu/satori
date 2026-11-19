@@ -1,0 +1,17 @@
+{
+  "provenance": "Individually authored original extended reading passages; no numerical or context-swapping variants.",
+  "total": 64,
+  "skills": {
+    "Central Ideas and Details": 16,
+    "Inferences": 16,
+    "Command of Evidence (Textual)": 16,
+    "Cross-Text Connections": 16
+  },
+  "passageWords": {
+    "minimum": 71,
+    "maximum": 88
+  },
+  "originalPoemPassages": 3,
+  "supportEvidenceQuestions": 8,
+  "weakenEvidenceQuestions": 8
+}

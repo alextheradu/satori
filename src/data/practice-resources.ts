@@ -1,4 +1,4 @@
-/** Publisher pages checked on 2026-11-18. External questions are not bundled. */
+/** Publisher pages checked on 2026-11-18–19. External questions are not bundled. */
 export const PRACTICE_RESOURCES = [
   { href: 'https://satsuite.collegeboard.org/practice/practice-tests/bluebook', title: 'College Board: Bluebook practice tests', desc: 'Official adaptive full-length tests. Uses the free Bluebook app and a College Board account.' },
   { href: 'https://satsuite.collegeboard.org/practice/student-question-bank', title: 'College Board: Student Question Bank', desc: 'Official questions selected by section, domain, skill, and difficulty. Free College Board account.' },
@@ -60,4 +60,10 @@ export const PRACTICE_RESOURCES = [
   { href: 'https://www.aniko.ai/free-resources/sat/question-bank/reading/expression-of-ideas/rhetorical-synthesis', title: 'Aniko: synthesis topic bank', desc: 'Free topic catalog lists 250 synthesis questions with explanations. Check access details for the broader platform and account features.' },
   { href: 'https://www.sophiclearning.com/sat/question-bank', title: 'Sophic: explained question bank', desc: 'Publisher lists 180 digital SAT questions across both sections. Public question pages include explanations for all choices; a free account saves practice results.' },
   { href: 'https://singlestepsat.com/sat/math/', title: 'SingleStepSAT: Math skill practice', desc: 'Public skill pages across all four Math domains, with worked examples and explanations of incorrect choices. Its statistical-claims page includes 12 exercises.' },
+  { href: 'https://marginsat.com/sat-practice-tests/', title: 'Margin: five full practice tests', desc: 'Publisher lists five original 98-question tests and printable versions, free without an account. Module 2 always uses the harder route; these are not fully adaptive rehearsals.' },
+  { href: 'https://perfect1600.com/free-sat-practice-pdfs', title: 'Perfect1600: printable mixed practice', desc: 'Seven public 20-question PDFs are listed, each with 10 Math and 10 Reading and Writing questions plus answers. Original supplementary sets; email subscription is optional.' },
+  { href: 'https://www.testprepkart.com/sat/blog/sat-practice-questions', title: 'TestPrepKart: 50-question sampler', desc: 'Public original questions across all eight domains, with answers and explanations. No registration required for the article’s practice; coaching offers are separate.' },
+  { href: 'https://brighterly.com/reading-test/sat-reading-practice-test/', title: 'Brighterly: reading-focused practice', desc: 'Fifteen public multiple-choice questions covering vocabulary, main ideas, inference, purpose, evidence, and paired texts. An unofficial short assessment rather than a full SAT section.' },
+  { href: 'https://freetestprep.com/sat-reading-writing/hard-inferences/', title: 'FreeTestPrep: hard inference drills', desc: 'Publisher lists 150 original questions in 30 free drills, with explanations. Focused on conclusions that logically complete short passages.' },
+  { href: 'https://openpracticetests.org/sat/english/information-and-ideas/inferences/practice/', title: 'Open Practice Tests: inference practice', desc: 'Sixteen public untimed exercises with choice explanations. JavaScript enables answer checking; progress is stored on your browser and device.' },
 ]

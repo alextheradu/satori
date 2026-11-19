@@ -977,7 +977,7 @@
       "questions": 64
     },
     {
-      "family": "median-frequency-missing-count",
+      "family": "mean-frequency-missing-count",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "hard",

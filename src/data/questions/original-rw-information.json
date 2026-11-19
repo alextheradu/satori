@@ -3126,5 +3126,821 @@
     ],
     "answer": 3,
     "explanation": "Stable independent noise measurements paired with more abandoned reports supports the reporting-barrier explanation. The alternatives do not directly distinguish noise change from reporting change."
+  },
+  {
+    "id": "rw-original-central-053",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "In a hypothetical study of scientific diagrams, two groups learn the same process from different illustrations. One illustration shows every component in realistic detail; the other omits surface features and emphasizes connections. The detailed version helps participants recognize the equipment in photographs, while the simplified version helps them explain what would happen if a connection were interrupted. The researchers decline to rank either illustration as universally better. Instead, they argue that a representation should be assessed in relation to the question its users need to answer.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Different representations can support different kinds of understanding, making their value dependent on the intended task.",
+      "Simplifying a diagram necessarily makes every aspect of a process easier to learn.",
+      "Realistic details prevent viewers from recognizing equipment outside the diagram.",
+      "The study establishes that all scientific illustrations should omit connections."
+    ],
+    "answer": 0,
+    "explanation": "The two versions support different outcomes. The researchers’ recommendation concerns matching representation to purpose, not universally favoring realism or simplification."
+  },
+  {
+    "id": "rw-original-central-054",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "In this original story, a carpenter is asked to make a second table identical to one she built years earlier. She retrieves her measurements but finds that the available wood bends differently beneath her tools. Matching the measurements exactly would leave the new table less stable. She alters two joints, then places the finished piece beside the first. The customer notices no difference until she explains her changes. She says that repeating a result sometimes requires changing the actions that first produced it.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The carpenter discovers that measurements are never useful in making furniture.",
+      "Achieving a familiar result can require adapting a method to changed materials.",
+      "The customer requests a table with a completely different appearance.",
+      "The new wood allows the carpenter to avoid making any joints."
+    ],
+    "answer": 1,
+    "explanation": "Different material properties require changed joints to achieve stability and a matching appearance. The measurements remain useful but are not a complete recipe."
+  },
+  {
+    "id": "rw-original-central-055",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "A fictional historian studies a commercial ledger whose entries appear to show a sudden increase in sales. An accompanying instruction sheet reveals that the clerk began recording individual purchases where earlier entries combined an entire week’s trade. The historian does not conclude that business stayed constant; total quantities might still have risen. She concludes only that the greater number of entries cannot itself establish growth. Understanding a record, she argues, requires knowing how its units were defined and whether those definitions changed.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The ledger proves that sales remained identical in every week.",
+      "Individual purchases are inherently less reliable records than weekly totals.",
+      "Changes in recording practices can complicate conclusions drawn from apparent changes in historical data.",
+      "Historical records are useful only when every entry represents one customer."
+    ],
+    "answer": 2,
+    "explanation": "The change in units undermines one inference without settling the actual sales trend. The text emphasizes understanding the recording convention."
+  },
+  {
+    "id": "rw-original-central-056",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "In a hypothetical building project, engineers evaluate a shade that reduces indoor temperatures during sunny afternoons. They initially describe the shade as energy-saving. A yearlong assessment shows that, during cold months, the same shade blocks sunlight that would otherwise warm the rooms. Total heating and cooling costs depend on the building’s location and seasonal use. The engineers retain the shade as an option but replace their universal recommendation with guidance about climate, orientation, and the months when each building is occupied.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The shade increases indoor temperatures during sunny afternoons.",
+      "The yearlong assessment shows that shades are never useful.",
+      "The engineers stop considering heating and cooling costs.",
+      "A design’s overall benefit may depend on conditions omitted from an initial evaluation."
+    ],
+    "answer": 3,
+    "explanation": "The seasonal tradeoff qualifies an initial general recommendation. The shade’s observed afternoon effect remains valid, but its overall value is contextual."
+  },
+  {
+    "id": "rw-original-central-057",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "In this original essay, a narrator describes learning a traditional knot from an uncle who never explained it in words. Years later, she writes instructions so others can learn without him. Her first draft records the movements but not the moment when tension must be felt through the cord. Revising it, she realizes that documenting a practice requires discovering which parts she had learned without noticing. The written account does not merely preserve what she already knew consciously; composing it changes her understanding of her own skill.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Explaining a learned practice can reveal knowledge that the practitioner had not previously made explicit.",
+      "The narrator concludes that writing instructions cannot help anyone learn a knot.",
+      "The uncle taught the knot entirely through written explanations.",
+      "The first draft fully captures every aspect of the practice."
+    ],
+    "answer": 0,
+    "explanation": "The missing sensation prompts reflection on tacit knowledge. Writing changes the narrator’s understanding rather than simply duplicating an already explicit account."
+  },
+  {
+    "id": "rw-original-central-058",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "A hypothetical team tests a program that suggests routes through a warehouse. Workers following its suggestions walk shorter distances, but some repeatedly wait at narrow passages because the program directs everyone toward the same shortcuts. The team adds a measure of congestion to the next evaluation. It argues that minimizing each person’s route separately is not sufficient when many people must move through a shared space. A route that is best for one worker alone may contribute to delays when assigned to an entire shift.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Shorter routes always require more walking than longer ones.",
+      "Optimizing individual routes can overlook interactions that affect the performance of the whole system.",
+      "The program’s suggestions lengthen every worker’s individual route.",
+      "Congestion occurs only when workers ignore the suggested shortcuts."
+    ],
+    "answer": 1,
+    "explanation": "Short individual paths can create shared bottlenecks. The recommendation addresses interaction between simultaneous users, not errors in measuring path length."
+  },
+  {
+    "id": "rw-original-central-059",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "A fictional critic examines a set of travel essays written before their author learned the local language. The essays vividly describe unfamiliar sounds and gestures but repeatedly mistake ordinary exchanges for ceremonies. In later essays, accurate explanations replace those misunderstandings, while some sensory detail disappears. The critic values both collections for different reasons. The early essays reveal the traveler’s act of interpretation; the later essays provide better accounts of local practices. Neither collection, she argues, should be treated as an unmediated view from nowhere.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The early essays are more accurate descriptions of local practices than the later essays.",
+      "Learning a language prevents all sensory description.",
+      "Different kinds of knowledge shape what an observer records and how readers should interpret the resulting account.",
+      "Both collections describe exchanges without any interpretive influence."
+    ],
+    "answer": 2,
+    "explanation": "The critic distinguishes vivid observation from accurate interpretation and values each collection accordingly. Both reflect an observer’s position."
+  },
+  {
+    "id": "rw-original-central-060",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "In a hypothetical test of reusable containers, one design survives more washing cycles than another but requires substantially more material to manufacture. Researchers estimate the resources used over many actual uses rather than comparing durability alone. The more durable design becomes preferable only when customers return it often enough. The team therefore recommends pairing its introduction with a reliable return system. A feature that appears beneficial in isolation, the report concludes, may depend on a supporting pattern of use to deliver its expected advantage.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The less durable container necessarily uses more material to manufacture.",
+      "The researchers conclude that return systems have no effect on resource use.",
+      "The durable container is preferable regardless of how often it is returned.",
+      "A durable product’s overall resource benefit can depend on how consistently it is reused."
+    ],
+    "answer": 3,
+    "explanation": "The tradeoff between manufacturing inputs and repeated use drives the conditional recommendation. Durability alone does not settle overall resource efficiency."
+  },
+  {
+    "id": "rw-original-central-061",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "In this original story, an apprentice copies a master calligrapher’s damaged letter exactly, including an accidental break in one stroke. The master asks her to copy it again, this time imagining how the hand had moved before the paper tore. Her second attempt looks less like the surviving mark but follows its motion more closely. She keeps both sheets. One preserves the appearance of a particular object; the other records her attempt to recover a practice from that object’s imperfect evidence.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Copying an artifact’s visible form and reconstructing the action behind it can be different undertakings.",
+      "The apprentice discovers that the original letter was never damaged.",
+      "The master asks for two perfectly identical copies of the surviving mark.",
+      "The second copy is valuable only because it exactly duplicates the tear."
+    ],
+    "answer": 0,
+    "explanation": "The two sheets distinguish surface resemblance from reconstruction of motion. Neither is described as erasing the distinction or proving the original undamaged."
+  },
+  {
+    "id": "rw-original-central-062",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "A hypothetical city introduces a single website for several public services. Residents who already know the name of the office they need complete requests faster. Residents who describe a problem without knowing its administrative category still struggle to select a form. The designers add a problem-based guide alongside the office directory. Their report explains that placing services in one location does not automatically make the underlying organization understandable. A useful entrance must help people translate their needs into the categories the system requires.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The website makes requests slower for every resident.",
+      "Bringing services together does not eliminate the need to help users navigate unfamiliar categories.",
+      "The designers remove every office name from the directory.",
+      "Residents’ needs are always expressed in the same terms as administrative categories."
+    ],
+    "answer": 1,
+    "explanation": "Different users need different navigational support. The added guide bridges a category gap that consolidation alone leaves unresolved."
+  },
+  {
+    "id": "rw-original-central-063",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "A fictional biographer finds that an inventor’s notebooks contain many sketches of devices never built. Earlier accounts treated these as failed projects. The biographer notices that several sketches deliberately combine incompatible parts and appear beside questions about why those combinations would not work. She proposes reading some drawings as tools for investigating limits, rather than as plans awaiting construction. The notebooks may document thinking through impossibility as well as attempts to produce functioning objects; deciding which requires attention to the surrounding notes.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Every sketch in the notebooks depicts a device that was eventually built.",
+      "The notes prove that the inventor never intended to construct anything.",
+      "Some unbuilt designs may record exploratory reasoning rather than unsuccessful attempts at construction.",
+      "An impossible design cannot contribute to understanding a technical problem."
+    ],
+    "answer": 2,
+    "explanation": "The incompatible combinations and questions support a new interpretation of some sketches. The qualification some avoids reclassifying every drawing."
+  },
+  {
+    "id": "rw-original-central-064",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "In a hypothetical study, people use two interfaces to compare insurance policies. One presents all details at once; the other reveals information in stages. The staged version feels easier initially, but some users fail to discover exclusions hidden in later screens. Researchers add a test requiring users to identify which policy would cover a particular event. They argue that a pleasant first impression and an informed decision are related but distinct outcomes, both of which should be considered when evaluating the interface.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The staged interface makes every exclusion visible on its first screen.",
+      "Users’ first impressions always predict accurate decisions.",
+      "The researchers stop measuring whether users understand policy coverage.",
+      "An interface’s apparent ease should be evaluated alongside whether it supports informed choices."
+    ],
+    "answer": 3,
+    "explanation": "The missing exclusions expose a gap between initial ease and decision quality. The report proposes measuring both rather than replacing understanding with preference."
+  },
+  {
+    "id": "rw-original-central-065",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "In this original poem, a speaker visits a workshop after its owner has retired.\n\nThe hammer hangs where daylight ends;\nthe bench remembers every cut.\nI lift a tool and set it down,\nthen leave the narrow window shut.\nNo hand has moved the things for weeks,\nyet nothing here seems still to me:\nthe room keeps giving back the work\nI came expecting not to see.\n\nThe speaker finds activity perceptible through traces even in the absence of someone actively working.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Material traces can make past activity feel present in an apparently inactive place.",
+      "The speaker repairs the window and begins working at the bench.",
+      "The poem argues that the room contains no evidence of its former use.",
+      "The retired owner returns and explains every mark on the bench."
+    ],
+    "answer": 0,
+    "explanation": "The tools and cuts evoke work despite the owner’s absence. The poem’s stillness is complicated by memory and traces, not a literal return to work."
+  },
+  {
+    "id": "rw-original-central-066",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "A hypothetical report compares two emergency supply plans. One stores everything in a central depot, reducing ordinary storage costs. The other distributes smaller stocks across several sites, making supplies easier to reach if a road closes. The report does not declare a single winner. It asks planners to evaluate expected disruptions, travel routes, and the value of maintaining access during rare events. Lower routine cost and resilience under unusual conditions, it argues, are different advantages that a decision should weigh explicitly.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The distributed plan has lower ordinary storage costs in the report.",
+      "Supply planning involves weighing routine efficiency against access under possible disruptions.",
+      "A central depot guarantees access regardless of road closures.",
+      "The report concludes that rare disruptions should never influence planning."
+    ],
+    "answer": 1,
+    "explanation": "The two plans offer different benefits under different circumstances. The main claim concerns an explicit tradeoff rather than one universally dominant plan."
+  },
+  {
+    "id": "rw-original-central-067",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "A fictional researcher studies corrections in a composer’s draft. A crossed-out passage sounds more elaborate than its replacement, so an earlier critic described the revision as a loss of ambition. The researcher reads the surrounding pages and finds that the simpler passage allows a previously hidden melody to remain audible. She proposes assessing a revision by its effect on the whole work, rather than assuming that greater local complexity always represents greater artistic achievement. The apparent subtraction can serve a larger compositional purpose.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The replacement contains more notes than the crossed-out passage.",
+      "The researcher proves that elaborate music has no artistic value.",
+      "A simpler local revision can support a broader artistic goal that isolated comparison would miss.",
+      "The revision removes the previously hidden melody from the work."
+    ],
+    "answer": 2,
+    "explanation": "The whole-work role explains why simplification can be purposeful. The passage does not equate all complexity with failure or reject ambition."
+  },
+  {
+    "id": "rw-original-central-068",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "In a hypothetical learning program, participants choose how often to receive progress notifications. Many initially request frequent messages, then reduce the frequency after several weeks. Interviews show that reminders help establish a routine early but later interrupt work participants already perform regularly. The designers introduce settings that can change over time. They argue that preferences recorded at the beginning of a program need not remain suitable after users gain experience and their behavior changes. A helpful design should accommodate that development.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Participants request progressively more notifications throughout the program.",
+      "The interviews show that reminders never help establish routines.",
+      "The designers decide that initial preferences must remain permanently fixed.",
+      "Support that is useful at an early stage may need to change as users develop a routine."
+    ],
+    "answer": 3,
+    "explanation": "Changing needs explain both the reduced notification requests and adaptable settings. The passage describes development, not a universal rejection of reminders."
+  },
+  {
+    "id": "rw-original-inference-057",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher evaluates a method for detecting equipment faults using a collection containing equal numbers of faulty and functioning machines. The method identifies most faults but also flags some functioning machines. A factory wants to use it where faults are rare. The researcher notes that detection accuracy for each type of machine could remain unchanged while the composition of flagged machines changes substantially. She recommends testing the proportion of actual faults among alerts under the factory’s conditions before estimating the workload for inspectors.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "A test set’s mix of faulty and functioning machines can affect how informative an alert appears.",
+      "The factory must contain equal numbers of faulty and functioning machines.",
+      "An unchanged fault-detection rate guarantees the same proportion of genuine faults among alerts.",
+      "The method cannot flag a functioning machine."
+    ],
+    "answer": 0,
+    "explanation": "The proportion among alerts depends on the prevalence of actual faults as well as each conditional error rate. The balanced test mix may not reflect factory alert composition."
+  },
+  {
+    "id": "rw-original-inference-058",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In this original story, a librarian asks volunteers to arrange donated books by subject. One volunteer puts a gardening manual beside a book of family letters because both contain pressed flowers. The librarian begins to correct her, then asks her to explain. By evening they have made two displays: one organized by content and another by what previous readers left between the pages. The librarian keeps the original subject labels in a drawer for the following week’s regular shelving.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The volunteer follows the original subject instruction exactly.",
+      "The librarian recognizes a temporary alternative way of interpreting the books without abandoning the ordinary classification.",
+      "The librarian decides that subject labels can never be useful again.",
+      "Every donated book contains a pressed flower."
+    ],
+    "answer": 1,
+    "explanation": "The second display legitimizes the volunteer’s connection, while keeping the labels for regular shelving shows that subject classification retains a role."
+  },
+  {
+    "id": "rw-original-inference-059",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "In a hypothetical trial, a new surface coating prevents a stain from appearing during a short exposure. A longer exposure eventually produces the same stain as on an untreated surface, though it appears later. The manufacturer describes the coating as stain-proof. The researchers distinguish preventing the process entirely from delaying a visible result and note that the intended cleaning schedule may determine whether the delay is useful in practice. They have not tested other substances that could cause staining.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The coating delays stains from every possible substance.",
+      "The long exposure proves that the short-exposure observations were fabricated.",
+      "The coating may have practical value even though the claim of complete stain prevention is unsupported.",
+      "A delayed visible result is identical to preventing staining permanently."
+    ],
+    "answer": 2,
+    "explanation": "Delay can be useful relative to cleaning intervals, but it does not establish permanent prevention or performance against untested substances."
+  },
+  {
+    "id": "rw-original-inference-060",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In a fictional interview project, participants are first asked to describe their working day in their own words. Later they answer a standard list of questions. Several subjects mention cooperation spontaneously but do not discuss it in the structured portion because none of the questions addresses it. A researcher who reads only the structured answers concludes that cooperation is unimportant to participants. The project director asks that the earlier accounts be considered before making that judgment.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Participants never mention cooperation in any part of the interviews.",
+      "The spontaneous accounts prove cooperation is the only important feature of work.",
+      "Every structured question was answered dishonestly.",
+      "The structured questions may omit a topic that participants themselves consider relevant."
+    ],
+    "answer": 3,
+    "explanation": "Spontaneous mention supplies evidence the structured list does not capture. Omission from that portion need not indicate lack of importance or dishonesty."
+  },
+  {
+    "id": "rw-original-inference-061",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "A hypothetical forecasting tool predicts demand accurately when the price of a service remains near its historical range. A company proposes using the tool to predict demand after a very large price increase. The training records contain no comparable changes, and the model treats the relationship between price and demand as unchanged across all prices. The developers recommend a limited pilot before relying on its forecast for the proposed increase, even though its historical prediction errors are small.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "Strong performance within the observed range does not directly verify the model’s assumption outside that range.",
+      "Small historical errors prove the model will be equally accurate at every price.",
+      "The training records already contain many comparable price increases.",
+      "The developers know that demand will remain exactly constant."
+    ],
+    "answer": 0,
+    "explanation": "The recommendation concerns extrapolation beyond observed changes. Historical fit alone does not validate an assumed relationship in a new price range."
+  },
+  {
+    "id": "rw-original-inference-062",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In this original poem, a speaker visits a childhood home that has been rebuilt.\n\nThey moved the door, replaced the stair,\nand took the pear tree from the yard.\nI found no mark I meant to find,\nno name upon the paving stone.\nThen someone laughed beyond the wall,\nand I turned first toward the place\nwhere once the kitchen window was,\nbefore I knew the sound was strange.\n\nThe speaker’s bodily response precedes recognition that the present setting and people have changed.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The rebuilt house retains every original feature.",
+      "A remembered spatial habit can persist after the physical features that formed it have disappeared.",
+      "The laughter comes from someone the speaker immediately recognizes.",
+      "The speaker deliberately reenacts a response after analyzing the sound."
+    ],
+    "answer": 1,
+    "explanation": "The automatic turn toward the former window shows persistence of habit despite reconstruction. Recognition comes afterward, and the sound is unfamiliar."
+  },
+  {
+    "id": "rw-original-inference-063",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "A hypothetical study finds that learners who explain a solution perform better on a later test than learners who merely reread it. The explanation group also spends longer with the material. The authors acknowledge that their design does not separate the benefit of explaining from the benefit of additional study time. A school cites the study as proof that explaining is better than any equally long alternative. The researchers propose a comparison in which time is held constant before endorsing that conclusion.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The study demonstrates that explanation has no possible benefit.",
+      "The groups spent exactly equal amounts of time in the original study.",
+      "The reported result leaves open whether extra time accounts for some or all of the advantage.",
+      "The proposed time-matched comparison has already confirmed the school’s claim."
+    ],
+    "answer": 2,
+    "explanation": "Because method and time differ together, the result cannot isolate explanation. This uncertainty is not evidence that explanation is ineffective."
+  },
+  {
+    "id": "rw-original-inference-064",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "A fictional theater company advertises a performance as accessible because it provides a written transcript afterward. A deaf audience member explains that the transcript helps review the dialogue but does not allow her to follow its timing during the performance. The company begins testing live captions while keeping the transcript available. Its director notes that the two formats support different moments of participation, and that the later document does not replace access to the unfolding event itself.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The audience member finds the transcript entirely useless.",
+      "The company removes the transcript when it starts caption testing.",
+      "Live captions and later transcripts necessarily serve identical purposes.",
+      "Providing information afterward need not give someone the same access as providing it during an event."
+    ],
+    "answer": 3,
+    "explanation": "Review and real-time participation are distinct uses. The text retains the transcript’s value while identifying a need it does not satisfy."
+  },
+  {
+    "id": "rw-original-inference-065",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "In a hypothetical comparison, a machine performs a repetitive task faster than a worker when every input is correctly arranged. The worker performs better when inputs arrive in unexpected positions because she reorients them before proceeding. The evaluation report includes preparation time only for the worker; an assistant’s time arranging the machine’s inputs is excluded. A reviewer asks for an assessment covering the entire workflow rather than the central action alone.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The reported speed comparison may understate the human work needed to make the machine’s performance possible.",
+      "The assistant performs no work before the machine runs.",
+      "The machine handles unexpected input positions better than the worker.",
+      "The reviewer has established that the machine must be slower in every complete workflow."
+    ],
+    "answer": 0,
+    "explanation": "The excluded preparation contributes to machine operation. Counting it may change the comparison, but the passage gives no totals proving a universal ranking."
+  },
+  {
+    "id": "rw-original-inference-066",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In this original story, a boy asks his grandmother why she keeps a recipe whose quantities are crossed out. She says she wrote it when she cooked for twelve people, then changed it for six, then two. He offers to copy the final version neatly. She asks him to leave the crossings visible and shows him which change followed each departure from the household. He puts the recipe back without replacing the sheet.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The recipe’s final quantities are impossible to read.",
+      "The grandmother values the recipe partly as a record of changes in the household.",
+      "The grandmother has forgotten why any quantities were changed.",
+      "The boy destroys the sheet after copying it."
+    ],
+    "answer": 1,
+    "explanation": "Her explanation ties visible revisions to departures and her request preserves that history. Practical readability is not the only value of the sheet."
+  },
+  {
+    "id": "rw-original-inference-067",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "A hypothetical survey asks residents whether a new park is easy to reach. Most respondents who currently visit it say yes. People who stopped visiting because a bus route was removed are not included, since interviewers recruit only inside the park. The report accurately summarizes the visitors’ answers. A planner nevertheless questions using the percentage to describe access for all residents. She requests responses from people who do not currently come to the site, including former visitors.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The visitors’ answers must all be false.",
+      "Removing a bus route necessarily improves access for every resident.",
+      "An accurate summary of current users can still omit people whose access difficulties prevent their inclusion.",
+      "The original sample includes all former visitors."
+    ],
+    "answer": 2,
+    "explanation": "The concern is coverage, not inaccurate transcription of answers. Recruiting at the site can exclude those kept away by the very difficulty being measured."
+  },
+  {
+    "id": "rw-original-inference-068",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "A fictional critic reads two editions of a memoir. The second omits several descriptions of the author’s early embarrassment but retains the same sequence of public events. The author calls the revision a correction of tone rather than fact. The critic notes that a reader could accept the chronology in both editions while gaining different impressions of the narrator’s younger self. She therefore compares not only what events remain but also how the narrator positions herself in relation to them.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The second edition replaces every public event with a different one.",
+      "The critic concludes that both chronologies are necessarily false.",
+      "Descriptions of emotion cannot affect a reader’s impression.",
+      "An unchanged chronology does not guarantee an unchanged portrayal of the narrator."
+    ],
+    "answer": 3,
+    "explanation": "The omitted embarrassment changes self-presentation without changing event order. The inference separates chronology from interpretive portrayal."
+  },
+  {
+    "id": "rw-original-inference-069",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "A hypothetical laboratory develops a detector that responds to a substance only above a certain concentration. Samples from an early stage of a process produce no response; later samples do. A report concludes that the substance first appears at the later stage. The detector’s developers caution that an earlier amount below its detection threshold would also produce no response. They recommend a more sensitive measurement before treating the first positive result as the moment the substance began to exist.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "A first detectable appearance may occur after the substance is already present at a lower concentration.",
+      "The substance certainly existed at the same concentration in every sample.",
+      "The detector responds equally at all concentrations.",
+      "The developers conclude that every positive result is false."
+    ],
+    "answer": 0,
+    "explanation": "A threshold separates detectable from undetectable quantities, not necessarily presence from absence. The proposed further measurement addresses that distinction."
+  },
+  {
+    "id": "rw-original-inference-070",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In this original story, a ferry operator knows the crossing so well that she seldom looks at the shore. Asked to teach a replacement, she begins naming landmarks and realizes that several familiar reference points have disappeared behind new buildings. She can still navigate by subtler changes in the current, but her spoken instructions describe the landscape as she first learned it. She spends the next week revising the instructions while making the crossings with her trainee.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "She has lost the ability to make the crossing.",
+      "Her ability to perform the task has adapted in ways her explicit description has not kept up with.",
+      "All of the landmarks remain visible in their original positions.",
+      "Her trainee has already memorized every change in the current."
+    ],
+    "answer": 1,
+    "explanation": "Continued successful navigation contrasts with outdated verbal landmarks. Teaching exposes a gap between current practical skill and its explicit account."
+  },
+  {
+    "id": "rw-original-inference-071",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "A hypothetical report compares two routes through a regional delivery network. One route is faster for ordinary loads but cannot carry unusually tall packages. The other is slower but accepts every package size in the company’s current inventory. The report lists average journey time only for packages that each route actually carried. A manager proposes sending every package by the route with the lower listed average, without checking package dimensions. The analysts recommend separating eligibility from travel-time comparisons.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The slower route cannot carry any tall packages.",
+      "Every package in the inventory has identical dimensions.",
+      "The faster listed route may not be available for some packages covered by the manager’s proposal.",
+      "The listed average proves that the faster route can carry all package sizes."
+    ],
+    "answer": 2,
+    "explanation": "The eligibility restriction persists regardless of the average among eligible loads. The proposal extends the route beyond its stated capability."
+  },
+  {
+    "id": "rw-original-inference-072",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In this original poem, a speaker describes an unused ticket.\n\nThe date has passed. The ink is clear.\nNo train will take this paper now.\nI keep it where the letters lie,\nnot for a journey still to come,\nbut for the hour I had believed\nthat going was a thing I chose.\n\nThe ticket no longer grants passage, yet the speaker places it with personal correspondence rather than discarding it among expired papers. Its value is connected to the remembered possibility of leaving.",
+    "prompt": "Which choice is most logically supported by the text?",
+    "choices": [
+      "The ticket remains valid for an upcoming train.",
+      "The speaker keeps it only because the ink is illegible.",
+      "The speaker expects the expired date to change.",
+      "The speaker preserves the ticket as evidence of a past expectation rather than a usable travel document."
+    ],
+    "answer": 3,
+    "explanation": "The poem explicitly distinguishes future travel from remembrance of an earlier belief. The ticket’s personal value survives its practical expiration."
+  },
+  {
+    "id": "rw-original-textual-057",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "In a hypothetical study of insect navigation, a researcher hypothesizes that insects locate a shelter by the geometric arrangement of nearby objects rather than by the objects’ individual colors. She proposes testing the same trained insects after changing one feature at a time. The shelter itself can be moved without adding a visible marker. To distinguish the explanations, the tests must separate the arrangement that was associated with shelter from the particular colors that originally occupied its positions, while keeping other cues as similar as possible.",
+    "prompt": "Which finding, if true, would most directly support the researcher’s hypothesis?",
+    "choices": [
+      "After the colors are exchanged among objects, insects search at the position predicted by the original arrangement rather than at the position predicted by the original colors.",
+      "Insects spend equal time resting before each trial.",
+      "The objects can be repainted without changing their sizes.",
+      "Insects sometimes enter the shelter during training."
+    ],
+    "answer": 0,
+    "explanation": "Following arrangement when color and arrangement predictions conflict directly supports the proposed cue. The other findings concern feasibility or basic behavior, not the competing explanations."
+  },
+  {
+    "id": "rw-original-textual-058",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A hypothetical researcher studies why some people understand assembly instructions better when each step includes a picture. She hypothesizes that the pictures help users identify how components should be oriented, rather than merely making the page more appealing. She compares otherwise identical instructions and plans a practical test that separately records orientation errors and other errors. The components have similar shapes but must face particular directions. A favorable overall rating alone would not distinguish her explanation from an effect of visual attractiveness.",
+    "prompt": "Which finding, if true, would most directly support the researcher’s hypothesis?",
+    "choices": [
+      "Participants prefer a colorful cover to a plain one.",
+      "Adding orientation diagrams reduces errors in which components face the wrong direction, even when page-attractiveness ratings remain similar.",
+      "The instructions contain the same number of steps in both versions.",
+      "Some components are made from the same material."
+    ],
+    "answer": 1,
+    "explanation": "The outcome is specific to the proposed orientation mechanism and is separated from attractiveness. Equal step counts alone do not show the predicted effect."
+  },
+  {
+    "id": "rw-original-textual-059",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher hypothesizes that a decline in a machine’s accuracy comes from changes in the sensor’s calibration rather than deterioration of the object being measured. The machine repeatedly measures the same stable reference object, and its readings drift over time. The researcher can recalibrate the sensor without replacing either the machine’s other components or the reference object. A useful test should show whether correcting the proposed source of error reverses the drift while the alternative source remains unchanged.",
+    "prompt": "Which finding, if true, would most directly support the researcher’s hypothesis?",
+    "choices": [
+      "The machine’s casing becomes warmer during use.",
+      "A different machine has a different display size.",
+      "Recalibrating the sensor restores the expected readings for the unchanged reference object.",
+      "The reference object remains in the same room throughout the study."
+    ],
+    "answer": 2,
+    "explanation": "Restoration after the specific calibration intervention supports sensor drift as the cause. The unchanged object helps distinguish it from deterioration."
+  },
+  {
+    "id": "rw-original-textual-060",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "In a fictional study of reading, a researcher hypothesizes that headings help readers organize information rather than simply reminding them of individual terms. Participants read passages containing the same facts, with or without headings. The researcher distinguishes memory for isolated details from understanding relationships among sections. She predicts a benefit on tasks that require locating and connecting related claims, even when participants remember comparable numbers of individual facts. A test of the proposed explanation therefore needs more than a count of recalled words.",
+    "prompt": "Which finding, if true, would most directly support the researcher’s hypothesis?",
+    "choices": [
+      "Readers in both groups recognize the passage’s title.",
+      "The headings use a slightly larger font than the main text.",
+      "Participants report having read books before the experiment.",
+      "Readers given headings connect related claims from different sections more accurately, despite recalling about the same number of isolated facts as other readers."
+    ],
+    "answer": 3,
+    "explanation": "The selective benefit for organization matches the hypothesis while isolated recall is held similar. The other findings do not measure relational understanding."
+  },
+  {
+    "id": "rw-original-textual-061",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher proposes that a protective fabric works by trapping a layer of still air, not solely because its fibers resist heat transfer. The fabric can be tested in its usual form and in a compressed form made of the same fibers. Compression greatly reduces the spaces that can hold air. The researcher controls the amount of fiber and tests both forms under comparable temperature conditions. She seeks a result that links the spaces between fibers to insulation performance rather than merely showing that fabric can insulate.",
+    "prompt": "Which finding, if true, would most directly support the researcher’s hypothesis?",
+    "choices": [
+      "The compressed fabric loses substantially more insulating ability than would be expected from the unchanged amount of fiber alone.",
+      "Both forms are manufactured from the same batch of fibers.",
+      "The fabric can be folded before testing.",
+      "The temperature instruments display values in the same units."
+    ],
+    "answer": 0,
+    "explanation": "Reduced performance when air spaces are collapsed supports their role. Shared materials and units are controls, not themselves evidence for the proposed mechanism."
+  },
+  {
+    "id": "rw-original-textual-062",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A fictional researcher hypothesizes that a neighborhood notice board draws participation because residents can see that other residents have contributed. She distinguishes this social cue from the amount of useful information posted. Two boards display identical announcements in equally visible locations. On one, contributor names are shown; on the other, they are omitted. The researcher wants evidence that identifiable local participation influences whether a reader chooses to add an announcement, rather than assuming every difference in use comes from informational content.",
+    "prompt": "Which finding, if true, would most directly support the researcher’s hypothesis?",
+    "choices": [
+      "The two boards have the same dimensions.",
+      "Residents who see familiar contributor names are more likely to add notices than residents seeing the identical unsigned announcements.",
+      "Some announcements mention events occurring next month.",
+      "Residents can read both boards without assistance."
+    ],
+    "answer": 1,
+    "explanation": "Holding announcements similar while varying contributor visibility directly tests the social cue. Dimensions and readability alone do not show the behavioral influence."
+  },
+  {
+    "id": "rw-original-textual-063",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher suspects that a species appears rare in a visual survey because its active period has shifted, rather than because its population has sharply declined. The traditional survey always takes place at midday. She proposes repeating observations at several times while maintaining comparable locations and observation effort. To favor her explanation, the new observations must indicate a redistribution of detectable activity over the day, not merely show that the species can occasionally be found outside the old survey period.",
+    "prompt": "Which finding, if true, would most directly support the researcher’s hypothesis?",
+    "choices": [
+      "The species is photographed once at sunset.",
+      "The survey team uses the same notebooks as before.",
+      "Counts fall at midday but rise by a similar amount at another time, leaving the total across equally sampled periods roughly unchanged.",
+      "Midday temperatures can be measured at the survey sites."
+    ],
+    "answer": 2,
+    "explanation": "A shift with a stable overall count fits changed timing more directly than a single isolated sighting. Equal observation effort makes the period comparison meaningful."
+  },
+  {
+    "id": "rw-original-textual-064",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A hypothetical researcher argues that a reusable checklist helps workers detect omissions while completing a task, rather than teaching them information they did not previously know. She first verifies that participants can name every required step without the checklist. During the task, interruptions sometimes cause a step to be skipped. The researcher predicts that making the checklist available will reduce these missed steps even among participants whose knowledge is already complete. Her design separates having the information from reliably applying it under interruption.",
+    "prompt": "Which finding, if true, would most directly support the researcher’s hypothesis?",
+    "choices": [
+      "Some workers prefer a checklist printed on thick paper.",
+      "The checklist lists all the required steps.",
+      "Workers can pronounce the name of each tool used.",
+      "Knowledgeable workers randomly assigned a checklist omit fewer steps during interruptions than equally knowledgeable workers without one."
+    ],
+    "answer": 3,
+    "explanation": "The comparison tests execution support among people already shown to know the steps. Merely listing the steps does not demonstrate an effect on omissions."
+  },
+  {
+    "id": "rw-original-textual-065",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher hypothesizes that a bright display improves performance solely by making symbols easier to distinguish. Participants perform better with the bright display than with a dim one. However, the bright condition also includes a sound at the beginning of each task. The researcher argues that the sound is irrelevant and attributes the entire benefit to visual clarity. To assess that exclusive explanation, another team separately varies brightness and the sound while keeping symbols and task difficulty the same across conditions.",
+    "prompt": "Which finding, if true, would most directly weaken the researcher’s hypothesis?",
+    "choices": [
+      "The sound improves performance at either brightness, while changing brightness without changing the sound produces no improvement.",
+      "Participants can see symbols in the bright condition.",
+      "The task uses the same symbols in both conditions.",
+      "The bright display uses more electricity than the dim display."
+    ],
+    "answer": 0,
+    "explanation": "The independent sound effect and absent brightness effect contradict an explanation assigning the entire benefit to visual clarity. Visibility alone does not distinguish causes."
+  },
+  {
+    "id": "rw-original-textual-066",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A fictional researcher hypothesizes that readers prefer a particular edition of a story because its paragraphs are shorter. In the original comparison, that edition also uses a larger, more familiar typeface. She claims the paragraph length alone explains the preference and plans to recommend shortening paragraphs in every edition. A follow-up study compares paragraph lengths while holding typeface constant and also compares typefaces while holding paragraph length constant. The story’s wording and order remain unchanged in all versions.",
+    "prompt": "Which finding, if true, would most directly weaken the researcher’s hypothesis?",
+    "choices": [
+      "The story has the same ending in every version.",
+      "Readers’ preferences track the typeface but do not change when paragraph length changes within either typeface.",
+      "Some readers finish the story faster than others.",
+      "The shorter-paragraph edition contains several pages."
+    ],
+    "answer": 1,
+    "explanation": "The controlled pattern attributes preference to the alternative feature and finds no paragraph-length effect. The unchanged ending is a control, not a contradiction of the hypothesis."
+  },
+  {
+    "id": "rw-original-textual-067",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher attributes declining water readings in a storage tank entirely to a leak. The readings come from a sensor newly installed at the start of the decline. The researcher notes that the tank has no scheduled withdrawals during the measured period. Another team checks the actual water quantity independently and tests the sensor against known volumes. The proposed leak should reduce the independently measured quantity as well as the sensor’s displayed estimate, if it is the sole cause of the reported change.",
+    "prompt": "Which finding, if true, would most directly weaken the researcher’s hypothesis?",
+    "choices": [
+      "The sensor displays measurements at regular intervals.",
+      "No scheduled withdrawals occur during the observation period.",
+      "Independent measurements show a stable water quantity, while the new sensor reports progressively lower values for a fixed known volume.",
+      "The tank is located outside the laboratory."
+    ],
+    "answer": 2,
+    "explanation": "Stable actual quantity and drifting measurements point to sensor error instead of the proposed leak. The absence of scheduled withdrawals does not eliminate measurement error."
+  },
+  {
+    "id": "rw-original-textual-068",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A fictional researcher proposes that a decline in attendance at a discussion group results solely from loss of interest in its topic. During the same period, meetings move from evenings to weekday afternoons. The group continues to draw positive topic ratings from people who attend. To test the scheduling alternative, organizers offer an additional evening session with the same topic, speaker, and publicity. The researcher predicts that restoring the old time will not bring back former participants if interest alone explains their absence.",
+    "prompt": "Which finding, if true, would most directly weaken the researcher’s hypothesis?",
+    "choices": [
+      "The afternoon meetings take place in the same room.",
+      "The speaker’s biography appears on the announcement.",
+      "Some current attendees still rate the topic positively.",
+      "Many former participants return to the evening session and report that work prevented them from attending the afternoon meetings."
+    ],
+    "answer": 3,
+    "explanation": "Return under the restored schedule, accompanied by a relevant access explanation, directly challenges loss of interest as the sole cause. Ratings by current attendees alone are less direct."
+  },
+  {
+    "id": "rw-original-textual-069",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher hypothesizes that a plant extract slows bacterial growth because of a particular dissolved compound. The extraction procedure also makes the liquid more acidic, and the researcher has not separated these features. A second team compares the extract with a compound-free liquid matched in acidity and with extract whose acidity has been neutralized. All other growth conditions are held similar. The proposed compound explanation predicts an effect beyond what acidity alone produces, provided the neutralization does not alter the compound.",
+    "prompt": "Which finding, if true, would most directly weaken the researcher’s hypothesis?",
+    "choices": [
+      "Acid-matched liquid without the compound slows growth equally, while neutralized extract containing the unchanged compound does not.",
+      "The extract is stored in labeled containers.",
+      "The bacteria grow in an untreated comparison liquid.",
+      "The dissolved compound can be detected in the original extract."
+    ],
+    "answer": 0,
+    "explanation": "The controlled result tracks acidity rather than the unchanged compound. Mere presence of the compound does not establish its causal role."
+  },
+  {
+    "id": "rw-original-textual-070",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A fictional researcher claims that a new suggestion box reveals a genuine increase in workplace problems because it collects more complaints than the old process. The box allows anonymous submissions, whereas the old process required a signed appointment with a supervisor. The researcher treats the reporting change as irrelevant. A follow-up project independently tracks the problems mentioned and asks employees how they previously handled the same difficulties. Evidence that more existing problems are now reported would challenge the claim that the larger count proves worsening conditions.",
+    "prompt": "Which finding, if true, would most directly weaken the researcher’s hypothesis?",
+    "choices": [
+      "The new box has a different shape from the old appointment desk.",
+      "Independent problem rates remain stable, while employees report using the new box for difficulties they previously kept unreported.",
+      "Employees can submit more than one complaint.",
+      "The researcher counts the submissions each week."
+    ],
+    "answer": 1,
+    "explanation": "Stable independent rates plus newly reported old problems supports a reporting change rather than a genuine increase. Counting submissions alone cannot distinguish those possibilities."
+  },
+  {
+    "id": "rw-original-textual-071",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher proposes that animals choose a marked feeding station because they recognize a particular geometric symbol. In training, that symbol is always attached to the same physical container, which may retain an odor. The researcher claims the visual symbol alone controls choice. Another team cleans both containers, then exchanges the symbols while preserving the containers’ other identifying features. A separate trial exchanges only the containers’ positions. These comparisons are intended to distinguish symbol, container, and location cues rather than simply repeat the original arrangement.",
+    "prompt": "Which finding, if true, would most directly weaken the researcher’s hypothesis?",
+    "choices": [
+      "Animals approach the marked station during the original training.",
+      "The symbols can be seen under the test lighting.",
+      "Animals continue choosing the original container after the symbols are exchanged, even when that container is moved to a different position.",
+      "The two containers have the same capacity."
+    ],
+    "answer": 2,
+    "explanation": "Choice follows container identity against both changed symbol and changed location. That challenges exclusive control by the visual symbol without uniquely identifying which remaining container feature matters."
+  },
+  {
+    "id": "rw-original-textual-072",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A fictional researcher hypothesizes that a museum’s longer average visit duration reflects increased engagement with exhibits. A renovation occurred before the increase, and the researcher assumes the added time is spent looking at displays. The new layout also places the exit beyond a long corridor containing no exhibits. The museum records total entry-to-exit time but initially does not separate viewing from movement. A follow-up tracks how visitors allocate their time while preserving the same definition of a visit used in the earlier records.",
+    "prompt": "Which finding, if true, would most directly weaken the researcher’s hypothesis?",
+    "choices": [
+      "The renovation changes the color of the entrance walls.",
+      "The museum continues to record entry and exit times.",
+      "Some visitors arrive in groups rather than alone.",
+      "Exhibit-viewing time is unchanged, and the entire increase in visit duration is accounted for by walking through the new exit corridor."
+    ],
+    "answer": 3,
+    "explanation": "The additional time is attributed to nonviewing movement rather than greater engagement. The result directly addresses the interpretation of the aggregate duration."
   }
 ]

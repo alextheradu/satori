@@ -1,30 +1,30 @@
 # Question bank expansion and practice sources
 
-The app now contains **10,920 questions**, up from 512. All bundled additions are original SAT-style practice, with answers, explanations, domain/skill labels, and difficulty labels. Difficulty labels are editorial estimates, not calibrated College Board difficulty ratings.
+The app now contains **13,032 questions**, up from 512. All bundled additions are original SAT-style practice, with answers, explanations, domain/skill labels, and difficulty labels. Difficulty labels are editorial estimates, not calibrated College Board difficulty ratings.
 
 | Bundled material | Count | What the count represents |
 |---|---:|---|
 | Existing questions | 512 | Original bank retained with stable IDs |
-| New generated math | 7,680 | 64 numerical variants for each of 120 authored problem families |
+| New generated math | 9,728 | 64 numerical variants for each of 152 authored problem families |
 | New conceptual statistics | 88 | Individually written questions, including sampling, causation, experiments, and spread |
-| New individually written Reading and Writing | 592 | Individually written questions with distinct passages or sentence-completion contexts across all 11 skills |
+| New individually written Reading and Writing | 656 | Individually written questions with distinct passages or sentence-completion contexts across all 11 skills |
 | New table-evidence Reading and Writing | 512 | 32 numerical variants for each of 16 authored evidence families |
 | New grammar and punctuation variants | 1,024 | 16 rule families applied to 64 original contexts |
 | New Expression of Ideas variants | 512 | 16 task patterns applied to 32 original fictional project comparisons |
-| Total | **10,920** | Questions available in practice and test selection |
+| Total | **13,032** | Questions available in practice and test selection |
 
-The 7,680 generated math items and 512 table-evidence reading items are numerical variants. The 1,024 grammar additions apply 16 controlled rule patterns to 64 original contexts. The additional 512 Expression of Ideas variants apply 16 task patterns to 32 fictional project comparisons. These 9,728 variants are not 9,728 independently invented problem structures. They are useful for repetition of a skill. The separate 592 individually written Reading and Writing additions use distinct authored contexts rather than swapping names into a repeated passage. Studies, institutions, stories, and named people invented for these passages are identified as hypothetical or fictional.
+The 9,728 generated math items and 512 table-evidence reading items are numerical variants. The 1,024 grammar additions apply 16 controlled rule patterns to 64 original contexts. The additional 512 Expression of Ideas variants apply 16 task patterns to 32 fictional project comparisons. These 11,776 variants are not 11,776 independently invented problem structures. They are useful for repetition of a skill. The separate 656 individually written Reading and Writing additions use distinct authored contexts rather than swapping names into a repeated passage. Studies, institutions, stories, and named people invented for these passages are identified as hypothetical or fictional.
 
 ## Coverage
 
 | Section | Domain | Questions |
 |---|---|---:|
-| Math | Algebra | 1,664 |
-| Math | Advanced Math | 2,176 |
-| Math | Problem-Solving and Data Analysis | 2,264 |
-| Math | Geometry and Trigonometry | 1,920 |
-| Reading and Writing | Craft and Structure | 264 |
-| Reading and Writing | Information and Ideas | 760 |
+| Math | Algebra | 2,176 |
+| Math | Advanced Math | 2,688 |
+| Math | Problem-Solving and Data Analysis | 2,776 |
+| Math | Geometry and Trigonometry | 2,432 |
+| Reading and Writing | Craft and Structure | 280 |
+| Reading and Writing | Information and Ideas | 808 |
 | Reading and Writing | Expression of Ideas | 710 |
 | Reading and Writing | Standard English Conventions | 1,162 |
 
@@ -42,7 +42,7 @@ Automated checks do not replace an independent editorial review of passage inter
 
 ## Practice sources found on the web
 
-Publisher pages were checked on **2026-11-18**. External questions are linked in the app's Reference page; they are not included in the bundled count. Reported external collection sizes below are publishers' descriptions, not independently counted question inventories. Several official resources reuse questions, so their counts must not be added as if they were distinct questions.
+Publisher pages were checked on **2026-11-18–19**. External questions are linked in the app's Reference page; they are not included in the bundled count. Reported external collection sizes below are publishers' descriptions, not independently counted question inventories. Several official resources reuse questions, so their counts must not be added as if they were distinct questions.
 
 | Resource | Practice available | Access and scope |
 |---|---|---|
@@ -111,8 +111,14 @@ Publisher pages were checked on **2026-11-18**. External questions are linked in
 | [Aniko synthesis bank](https://www.aniko.ai/free-resources/sat/question-bank/reading/expression-of-ideas/rhetorical-synthesis) | Free topic catalog lists 250 questions with explanations | Check broader platform/account access separately |
 | [Sophic question bank](https://www.sophiclearning.com/sat/question-bank) | Publisher lists 180 questions across Math and Reading and Writing | Questions and choice explanations publicly readable; free account for saved practice |
 | [SingleStepSAT Math](https://singlestepsat.com/sat/math/) | Skill pages across four domains; statistical-claims page contains 12 exercises | Public worked examples and practice with distractor explanations |
+| [Margin full tests](https://marginsat.com/sat-practice-tests/) | Publisher lists five original 98-question tests, 490 questions total, with PDFs | Free, no signup; always the harder Module 2 rather than adaptive routing |
+| [Perfect1600 PDFs](https://perfect1600.com/free-sat-practice-pdfs) | Seven listed 20-question mixed sets with answers and short explanations | Public PDFs; original supplementary sets, not released official exams; optional email subscription |
+| [TestPrepKart sampler](https://www.testprepkart.com/sat/blog/sat-practice-questions) | Publisher lists 50 original questions across eight domains | Questions, answers, and explanations public without registration; coaching separate |
+| [Brighterly reading assessment](https://brighterly.com/reading-test/sat-reading-practice-test/) | 15 multiple-choice reading questions | Public short unofficial assessment; not a full SAT section |
+| [FreeTestPrep inferences](https://freetestprep.com/sat-reading-writing/hard-inferences/) | Publisher lists 150 original questions in 30 drills | Free harder passage-completion practice with explanations |
+| [Open Practice Tests inferences](https://openpracticetests.org/sat/english/information-and-ideas/inferences/practice/) | 16 untimed exercises with explanations | Public questions; JavaScript for checking; local browser/device progress |
 
-The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 10,920-question total. Free-test offers and account requirements can change.
+The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 13,032-question total. Free-test offers and account requirements can change.
 
 ## Additional Reading and Writing batch
 
@@ -153,6 +159,14 @@ A further 160 individually written questions add 64 on evaluating statistical cl
 The reading additions use original informational passages, paired arguments, stories, and three poems. Passages contain 30–60 whitespace-delimited words. `docs/reading-reasoning-report.json` records the reading batch; `docs/statistics-generation-report.json` records all 88 authored statistics additions, including this batch. Generation checks their counts, passage lengths for reading, and reproducibility. These checks do not independently certify passage interpretation or difficulty.
 
 All 10,760 earlier records were compared with a saved baseline and remain unchanged, including IDs, answers, and choice order. The bank now has 8,024 Math and 2,896 Reading and Writing questions. The Reference page now links 60 external resources after adding publicly readable Sophic and SingleStepSAT practice; external questions are not bundled or added to the app’s question count.
+
+## Additional math structures and extended reading
+
+A further 2,112 questions add 2,048 numerical variants from 32 new math families and 64 individually written reading questions. The math families include tiered fees, strict integer bounds, counting solutions of a compound inequality, exceptional system parameters, translated intercepts, function composition, average-cost constraints, line-parabola tangency, exponential vertical offsets, three-sided enclosure optimization, biquadratic roots, cubic identities, unknown frequencies inferred from a mean, drain-and-refill concentration, hypotenuse altitudes, and cyclic quadrilaterals. Each of the four Math domains receives eight families and 512 questions. Of the math additions, 1,728 are labeled hard and 320 medium.
+
+The reading batch adds 16 each in Central Ideas and Details, Inferences, Command of Evidence (Textual), and Cross-Text Connections. Its passages contain 71–88 whitespace-delimited words, including three original poems and eight support/eight weaken evidence tasks. `docs/extended-reading-report.json` records the counts and word range. The new texts and options are individually written rather than generated by changing names or numbers.
+
+All 10,920 earlier records remain identical to a saved baseline, including IDs, answers, explanations, and choice order. Numerical checks include substitution and exactly one valid numeric choice. Every new grid-in has an exact fraction or decimal entry fitting the usual five-character positive or six-character negative entry limit. The bank now contains 10,072 Math and 2,960 Reading and Writing questions. The Reference page links 66 external resources after adding the six sources above; their questions remain outside the bundled count. Automated integration and numeric checks do not constitute independent editorial or psychometric certification.
 
 ## Further expansion
 

@@ -31,9 +31,9 @@ export function registerMathReasoning({f,A,N,D,G,int,pick,numeric,near,fmt,term,
    `The translated line is $y=${m}(x-${h})${term(b)}+${k}$. Set $y=0$ and solve: $x=${h}-${B}-${K}=${h-B-K}$. A rightward translation changes the input, while an upward translation changes the output.`,v=>near(-k,m*(v-h)+b),[h+B+K,-B,h-B+K])
  })
  f('linear-self-composition',A,'linear','medium',()=>{
-  const m=int(2,12),b=int(-18,25)
+  const m=int(2,12),b=int(-18,25),evaluate=x=>m*x+b
   return numeric(`The function $f$ is defined by $f(x)=${m}x${term(b)}$. What is $f(f(0))$?`,m*b+b,
-   `First, $f(0)=${b}$. Use this output as the next input: $f(${b})=${m}(${b})${term(b)}=${m*b+b}$. The notation means applying the function twice, not squaring its first output.`,v=>near(v,m*(m*0+b)+b),[b,b*b,m*b])
+   `First, $f(0)=${b}$. Use this output as the next input: $f(${b})=${m}(${b})${term(b)}=${m*b+b}$. The notation means applying the function twice, not squaring its first output.`,v=>near(v,evaluate(evaluate(0))),[b,b*b,m*b])
  })
  f('average-cost-minimum-count',A,'one','hard',()=>{
   const per=int(2,12),gap=int(2,9),minimum=int(5,30),fixed=gap*minimum-int(1,gap-1)
