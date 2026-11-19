@@ -39,7 +39,7 @@ export default function PracticeSetup() {
         description="Untimed questions with instant feedback and a worked explanation after every answer."
       />
 
-      <div className="grid gap-6 lg:grid-cols-[1fr_340px]">
+      <div className="grid gap-6 lg:grid-cols-[1fr_21.25rem]">
         <FadeIn className="flex flex-col gap-6">
           <Card>
             <CardHeader>

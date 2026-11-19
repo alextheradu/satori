@@ -143,6 +143,8 @@
     @apply border-border outline-ring/50;
   }
   html {
+    /* 110% base: every rem-based size (Tailwind spacing, text, radii) scales together. */
+    font-size: 110%;
     @apply font-sans;
     -webkit-tap-highlight-color: transparent;
     overscroll-behavior: none;

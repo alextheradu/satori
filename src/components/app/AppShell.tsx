@@ -40,7 +40,7 @@ export function AppShell() {
 
   return (
     <div className="relative flex min-h-dvh flex-col">
-      <div className="bg-grid pointer-events-none absolute inset-x-0 top-0 -z-10 h-[520px] [mask-image:linear-gradient(to_bottom,black,transparent)]" />
+      <div className="bg-grid pointer-events-none absolute inset-x-0 top-0 -z-10 h-[32.5rem] [mask-image:linear-gradient(to_bottom,black,transparent)]" />
 
       <header className="chrome-translucent sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">

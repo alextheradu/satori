@@ -48,7 +48,7 @@ export function BBPrimary({ className, ...p }: React.ButtonHTMLAttributes<HTMLBu
       type="button"
       {...p}
       className={cn(
-        'h-10 min-w-[78px] rounded-full bg-[var(--bb-blue)] px-5 text-base font-bold text-white hover:bg-[var(--bb-blue-hover)] disabled:opacity-50',
+        'h-10 min-w-[4.875rem] rounded-full bg-[var(--bb-blue)] px-5 text-base font-bold text-white hover:bg-[var(--bb-blue-hover)] disabled:opacity-50',
         className,
       )}
     />
@@ -72,17 +72,17 @@ export function BBOutline({ className, ...p }: React.ButtonHTMLAttributes<HTMLBu
 
 export function BBLegend({ current = true }: { current?: boolean }) {
   return (
-    <div className="flex flex-wrap items-center justify-center gap-x-7 gap-y-2 text-[15px]">
+    <div className="flex flex-wrap items-center justify-center gap-x-7 gap-y-2 text-[0.9375rem]">
       {current && (
         <span className="flex items-center gap-1.5">
-          <MapPin className="size-[18px] fill-[var(--bb-ink)] text-[var(--bb-ink)] [&>circle]:fill-white" /> Current
+          <MapPin className="size-[1.125rem] fill-[var(--bb-ink)] text-[var(--bb-ink)] [&>circle]:fill-white" /> Current
         </span>
       )}
       <span className="flex items-center gap-1.5">
-        <span className="size-[18px] border border-dashed border-[var(--bb-ink)]" /> Unanswered
+        <span className="size-[1.125rem] border border-dashed border-[var(--bb-ink)]" /> Unanswered
       </span>
       <span className="flex items-center gap-1.5">
-        <Bookmark className="size-[18px] fill-[var(--bb-red)] text-[var(--bb-red)]" /> For Review
+        <Bookmark className="size-[1.125rem] fill-[var(--bb-red)] text-[var(--bb-red)]" /> For Review
       </span>
     </div>
   )
@@ -102,7 +102,7 @@ export function BBGrid({
   onGo: (i: number) => void
 }) {
   return (
-    <div className="flex flex-wrap justify-center gap-x-[18px] gap-y-6 pt-4">
+    <div className="flex flex-wrap justify-center gap-x-[1.125rem] gap-y-6 pt-4">
       {Array.from({ length: count }, (_, i) => {
         const a = isAnswered(i)
         const m = isMarked(i)
@@ -113,15 +113,15 @@ export function BBGrid({
             onClick={() => onGo(i)}
             aria-label={`Question ${i + 1}${a ? ', answered' : ', unanswered'}${m ? ', marked for review' : ''}`}
             className={cn(
-              'relative grid size-[34px] place-items-center text-[17px] font-bold',
+              'relative grid size-[2.125rem] place-items-center text-[1.0625rem] font-bold',
               a ? 'bg-[var(--bb-blue)] text-white' : 'border border-dashed border-[var(--bb-ink)] text-[var(--bb-blue)] hover:bg-[#eef1fb]',
             )}
           >
             {i + 1}
             {i === cursor && (
-              <MapPin className="absolute -top-[22px] left-1/2 size-[18px] -translate-x-1/2 fill-[var(--bb-ink)] text-[var(--bb-ink)] [&>circle]:fill-white" />
+              <MapPin className="absolute -top-[1.375rem] left-1/2 size-[1.125rem] -translate-x-1/2 fill-[var(--bb-ink)] text-[var(--bb-ink)] [&>circle]:fill-white" />
             )}
-            {m && <Bookmark className="absolute -top-[7px] -right-[7px] size-[15px] fill-[var(--bb-red)] text-white" strokeWidth={1.5} />}
+            {m && <Bookmark className="absolute -top-[0.4375rem] -right-[0.4375rem] size-[0.9375rem] fill-[var(--bb-red)] text-white" strokeWidth={1.5} />}
           </button>
         )
       })}
@@ -155,23 +155,23 @@ export function BBReference({ onClose }: { onClose: () => void }) {
 
   return (
     <div
-      className="fixed z-40 flex max-h-[75dvh] w-[min(600px,calc(100vw-32px))] flex-col overflow-hidden rounded-[6px] bg-white shadow-[0_4px_24px_rgba(0,0,0,0.25)]"
+      className="fixed z-40 flex max-h-[75dvh] w-[min(600px,calc(100vw-32px))] flex-col overflow-hidden rounded-[0.375rem] bg-white shadow-[0_4px_24px_rgba(0,0,0,0.25)]"
       style={{ left: pos.x, top: pos.y }}
       role="dialog"
       aria-label="Reference sheet"
     >
-      <div onPointerDown={onDown} className="flex h-[52px] shrink-0 cursor-move items-center bg-[#151515] px-4 text-white select-none">
-        <span className="text-[17px] font-bold">Reference Sheet</span>
+      <div onPointerDown={onDown} className="flex h-[3.25rem] shrink-0 cursor-move items-center bg-[#151515] px-4 text-white select-none">
+        <span className="text-[1.0625rem] font-bold">Reference Sheet</span>
         <span className="mx-auto grid grid-cols-3 gap-[3px]" aria-hidden>
           {Array.from({ length: 6 }, (_, i) => (
-            <span key={i} className="size-[4px] rounded-full bg-white" />
+            <span key={i} className="size-[0.25rem] rounded-full bg-white" />
           ))}
         </span>
         <button type="button" onClick={onClose} aria-label="Close reference sheet" className="grid size-8 place-items-center">
           <X className="size-6" strokeWidth={1.75} />
         </button>
       </div>
-      <div className="bb-scroll overflow-y-auto p-5 [&_.rounded-xl]:rounded-[4px] [&_.rounded-xl]:border-[#c4c4c4] [&_.rounded-xl]:bg-white [&_.text-muted-foreground]:text-[#505050]">
+      <div className="bb-scroll overflow-y-auto p-5 [&_.rounded-xl]:rounded-[0.25rem] [&_.rounded-xl]:border-[#c4c4c4] [&_.rounded-xl]:bg-white [&_.text-muted-foreground]:text-[#505050]">
         <MathReference />
       </div>
     </div>

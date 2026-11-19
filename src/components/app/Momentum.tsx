@@ -43,7 +43,7 @@ export function Momentum({ className, compact }: { className?: string; compact?:
             >
               {d.active ? <Check className="size-3.5" strokeWidth={3} /> : null}
             </span>
-            <span className={cn('text-[11px] text-muted-foreground', d.today && 'font-semibold text-foreground')}>{d.label}</span>
+            <span className={cn('text-[0.6875rem] text-muted-foreground', d.today && 'font-semibold text-foreground')}>{d.label}</span>
           </li>
         ))}
       </ol>

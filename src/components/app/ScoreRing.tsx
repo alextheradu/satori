@@ -57,7 +57,7 @@ export function ScoreRing({
           <div className="font-display text-5xl leading-none tabular-nums" style={{ fontSize: size / 3.6 }}>
             {value === null ? <span className="text-muted-foreground">–</span> : value}
           </div>
-          <div className="mt-1 text-[11px] font-medium uppercase tracking-wider text-muted-foreground">{label}</div>
+          <div className="mt-1 text-[0.6875rem] font-medium uppercase tracking-wider text-muted-foreground">{label}</div>
         </div>
       </div>
     </div>

@@ -96,15 +96,15 @@ export function BBCalculator({ open, width, onWidth, onClose }: { open: boolean;
       style={{ width }}
       aria-label="Calculator"
     >
-      <div className="flex h-[62px] shrink-0 items-center bg-[#151515] px-2.5">
-        <div className="flex overflow-hidden rounded-[6px] border border-[#555]">
+      <div className="flex h-[3.875rem] shrink-0 items-center bg-[#151515] px-2.5">
+        <div className="flex overflow-hidden rounded-[0.375rem] border border-[#555]">
           {(['graphing', 'scientific'] as const).map((m) => (
             <button
               key={m}
               type="button"
               onClick={() => setMode(m)}
               className={cn(
-                'flex h-[30px] items-center gap-1.5 px-2.5 text-[15px] font-medium capitalize',
+                'flex h-[1.875rem] items-center gap-1.5 px-2.5 text-[0.9375rem] font-medium capitalize',
                 mode === m ? 'bg-white text-[var(--bb-ink)] underline underline-offset-2' : 'bg-[#151515] text-white',
               )}
             >
@@ -124,7 +124,7 @@ export function BBCalculator({ open, width, onWidth, onClose }: { open: boolean;
         </div>
         <span className="mx-auto grid grid-cols-3 gap-[3px]" aria-hidden>
           {Array.from({ length: 6 }, (_, i) => (
-            <span key={i} className="size-[4px] rounded-full bg-white" />
+            <span key={i} className="size-[0.25rem] rounded-full bg-white" />
           ))}
         </span>
         <button type="button" onClick={onClose} aria-label="Close calculator" className="grid size-9 place-items-center text-white">
@@ -150,7 +150,7 @@ export function BBCalculator({ open, width, onWidth, onClose }: { open: boolean;
         type="button"
         aria-label="Resize calculator"
         onPointerDown={onResize}
-        className="absolute -right-[11px] bottom-1 z-10 grid size-[22px] cursor-ew-resize place-items-center rounded-full border border-[#c4c4c4] bg-white"
+        className="absolute -right-[0.6875rem] bottom-1 z-10 grid size-[1.375rem] cursor-ew-resize place-items-center rounded-full border border-[#c4c4c4] bg-white"
       >
         <svg viewBox="0 0 12 12" className="size-3 fill-none stroke-[var(--bb-ink)] stroke-[1.6]" aria-hidden>
           <path d="M2 2l8 8M2 2h3.5M2 2v3.5M10 10H6.5M10 10V6.5" />

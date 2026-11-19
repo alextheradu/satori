@@ -25,7 +25,7 @@ export function MathReference() {
       <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
         {FORMULAS.map(([name, f]) => (
           <div key={name} className="rounded-xl border bg-card px-4 py-3">
-            <p className="text-[11px] font-medium uppercase tracking-wider text-muted-foreground">{name}</p>
+            <p className="text-[0.6875rem] font-medium uppercase tracking-wider text-muted-foreground">{name}</p>
             <Markup text={f} className="mt-1.5" />
           </div>
         ))}

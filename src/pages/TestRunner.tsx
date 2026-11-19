@@ -261,19 +261,19 @@ function Runner() {
 
       {/* Header */}
       <header className="relative z-20 shrink-0 bg-[var(--bb-chrome)]">
-        <div className="grid h-[78px] grid-cols-[1fr_auto_1fr] items-center gap-4 px-[38px]">
+        <div className="grid h-[4.875rem] grid-cols-[1fr_auto_1fr] items-center gap-4 px-[2.375rem]">
           <div className="min-w-0">
-            <h1 className="truncate text-[20px] leading-tight">{title}</h1>
+            <h1 className="truncate text-[1.25rem] leading-tight">{title}</h1>
             <Popover open={dirOpen} onOpenChange={setDirOpen}>
               <PopoverTrigger asChild>
-                <button type="button" className="mt-1.5 flex items-center gap-1.5 text-[16px] font-medium">
+                <button type="button" className="mt-1.5 flex items-center gap-1.5 text-[1rem] font-medium">
                   Directions <ChevronDown className={cn('size-5 transition-transform', dirOpen && 'rotate-180')} strokeWidth={1.75} />
                 </button>
               </PopoverTrigger>
               <PopoverContent
                 align="start"
                 sideOffset={14}
-                className="bb w-[min(880px,calc(100vw-48px))] gap-0 rounded-[8px] p-0 text-[16px] shadow-[0_6px_28px_rgba(0,0,0,0.28)] ring-0"
+                className="bb w-[min(880px,calc(100vw-48px))] gap-0 rounded-[0.5rem] p-0 text-[1rem] shadow-[0_6px_28px_rgba(0,0,0,0.28)] ring-0"
               >
                 <div className="bb-scroll max-h-[60dvh] space-y-4 overflow-y-auto px-8 pt-7 pb-2 leading-[1.6]">{BB_DIRECTIONS[mod.section]}</div>
                 <div className="flex justify-end px-8 pt-3 pb-6">
@@ -291,17 +291,17 @@ function Runner() {
 
           <div className="flex flex-col items-center">
             {showTimer ? (
-              <span className={cn('text-[22px] leading-none font-bold tabular-nums', lowTime && 'text-[var(--bb-red)]')}>
+              <span className={cn('text-[1.375rem] leading-none font-bold tabular-nums', lowTime && 'text-[var(--bb-red)]')}>
                 {fmtDuration(remaining)}
               </span>
             ) : (
-              <Clock className="size-[22px]" strokeWidth={2} aria-label="Timer hidden" />
+              <Clock className="size-[1.375rem]" strokeWidth={2} aria-label="Timer hidden" />
             )}
             {!lowTime && (
               <button
                 type="button"
                 onClick={() => setHideTimer((h) => !h)}
-                className="mt-2 h-[22px] rounded-full border-[1.5px] border-[var(--bb-ink)] px-3 text-[14px] leading-none font-bold hover:bg-white"
+                className="mt-2 h-[1.375rem] rounded-full border-[1.5px] border-[var(--bb-ink)] px-3 text-[0.875rem] leading-none font-bold hover:bg-white"
               >
                 {hideTimer ? 'Show' : 'Hide'}
               </button>
@@ -312,35 +312,35 @@ function Runner() {
             {mod.section === 'math' ? (
               <>
                 <Tool label="Calculator" active={calcOpen} onClick={() => setCalcOpen((o) => !o)}>
-                  <Calculator className="size-[22px]" strokeWidth={1.5} />
+                  <Calculator className="size-[1.375rem]" strokeWidth={1.5} />
                 </Tool>
                 <Tool label="Reference" active={refOpen} onClick={() => setRefOpen((o) => !o)}>
-                  <span className="bb-serif text-[22px] leading-none font-bold italic">
-                    x<sup className="text-[10px]">2</sup>
+                  <span className="bb-serif text-[1.375rem] leading-none font-bold italic">
+                    x<sup className="text-[0.625rem]">2</sup>
                   </span>
                 </Tool>
               </>
             ) : (
               <Tool label="Highlights & Notes" onClick={() => toast('Highlights & Notes isn’t available in practice tests yet.')}>
                 <span className="flex items-center gap-1">
-                  <Highlighter className="size-[19px]" strokeWidth={1.5} />
-                  <StickyNote className="size-[19px]" strokeWidth={1.5} />
+                  <Highlighter className="size-[1.1875rem]" strokeWidth={1.5} />
+                  <StickyNote className="size-[1.1875rem]" strokeWidth={1.5} />
                 </span>
               </Tool>
             )}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <button type="button" className="flex flex-col items-center gap-1.5 text-[15px] font-medium">
-                  <EllipsisVertical className="size-[24px]" strokeWidth={2.5} />
+                <button type="button" className="flex flex-col items-center gap-1.5 text-[0.9375rem] font-medium">
+                  <EllipsisVertical className="size-[1.5rem]" strokeWidth={2.5} />
                   More
                 </button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" sideOffset={10} className="bb w-56 rounded-[8px] p-1 text-[15px] shadow-[0_6px_28px_rgba(0,0,0,0.22)] ring-0">
-                <DropdownMenuItem className="px-3 py-2.5 text-[15px]" onSelect={paused ? resume : pause}>
+              <DropdownMenuContent align="end" sideOffset={10} className="bb w-56 rounded-[0.5rem] p-1 text-[0.9375rem] shadow-[0_6px_28px_rgba(0,0,0,0.22)] ring-0">
+                <DropdownMenuItem className="px-3 py-2.5 text-[0.9375rem]" onSelect={paused ? resume : pause}>
                   {paused ? 'Resume Testing' : 'Unscheduled Break'}
                 </DropdownMenuItem>
                 <DropdownMenuItem
-                  className="px-3 py-2.5 text-[15px]"
+                  className="px-3 py-2.5 text-[0.9375rem]"
                   onSelect={() => {
                     if (!paused) pause()
                     nav('/tests')
@@ -355,8 +355,8 @@ function Runner() {
         <div className="bb-dash-thick" />
       </header>
 
-      <div className="relative z-10 shrink-0 px-[38px]">
-        <div className="-mt-[3px] grid h-[33px] place-items-center rounded-b-[16px] bg-[var(--bb-navy)] text-[14px] font-bold tracking-[0.01em] text-white uppercase">
+      <div className="relative z-10 shrink-0 px-[2.375rem]">
+        <div className="-mt-[3px] grid h-[2.0625rem] place-items-center rounded-b-[1rem] bg-[var(--bb-navy)] text-[0.875rem] font-bold tracking-[0.01em] text-white uppercase">
           This is a practice test
         </div>
       </div>
@@ -366,10 +366,10 @@ function Runner() {
         {paused ? (
           <div className="grid h-full place-items-center px-6 text-center">
             <div>
-              <h2 className="text-[30px]">Unscheduled Break</h2>
-              <p className="mt-3 text-[17px]">Your timer is paused. On test day, the clock keeps running during an unscheduled break.</p>
-              <p className="mt-6 text-[15px]">Remaining time in this module</p>
-              <p className="text-[44px] font-bold tabular-nums">{fmtDuration(remaining)}</p>
+              <h2 className="text-[1.875rem]">Unscheduled Break</h2>
+              <p className="mt-3 text-[1.0625rem]">Your timer is paused. On test day, the clock keeps running during an unscheduled break.</p>
+              <p className="mt-6 text-[0.9375rem]">Remaining time in this module</p>
+              <p className="text-[2.75rem] font-bold tabular-nums">{fmtDuration(remaining)}</p>
               <BBPrimary className="mt-6 px-7" onClick={resume}>
                 Resume Testing
               </BBPrimary>
@@ -377,15 +377,15 @@ function Runner() {
           </div>
         ) : reviewing ? (
           <div className="bb-scroll h-full overflow-y-auto px-6 pt-12 pb-16">
-            <div className="mx-auto max-w-[900px] text-center">
-              <h2 className="text-[32px]">Check Your Work</h2>
-              <p className="mt-4 text-[17px]">On test day, you won’t be able to move on to the next module until time expires.</p>
-              <p className="mt-1 text-[17px]">
+            <div className="mx-auto max-w-[56.25rem] text-center">
+              <h2 className="text-[2rem]">Check Your Work</h2>
+              <p className="mt-4 text-[1.0625rem]">On test day, you won’t be able to move on to the next module until time expires.</p>
+              <p className="mt-1 text-[1.0625rem]">
                 For these practice questions, you can click <b>Next</b> when you’re ready to move on to the next module.
               </p>
-              <div className="mt-10 rounded-[8px] bg-white px-10 pt-7 pb-10 text-left shadow-[0_2px_16px_rgba(0,0,0,0.18)]">
+              <div className="mt-10 rounded-[0.5rem] bg-white px-10 pt-7 pb-10 text-left shadow-[0_2px_16px_rgba(0,0,0,0.18)]">
                 <div className="flex flex-wrap items-center justify-between gap-4 border-b border-[#c4c4c4] pb-5">
-                  <h3 className="text-[18px] font-bold">{title} Questions</h3>
+                  <h3 className="text-[1.125rem] font-bold">{title} Questions</h3>
                   <BBLegend current={false} />
                 </div>
                 <div className="pt-4">{grid(-1)}</div>
@@ -412,14 +412,14 @@ function Runner() {
       {/* Footer */}
       <footer className="relative z-20 shrink-0 bg-[var(--bb-chrome)]">
         <div className="bb-dash-thick" />
-        <div className="grid h-[68px] grid-cols-[1fr_auto_1fr] items-center gap-4 px-10">
-          <span className="truncate text-[20px] font-medium">{userName || 'Student'}</span>
+        <div className="grid h-[4.25rem] grid-cols-[1fr_auto_1fr] items-center gap-4 px-10">
+          <span className="truncate text-[1.25rem] font-medium">{userName || 'Student'}</span>
           {!paused && !reviewing ? (
             <Popover open={navOpen} onOpenChange={setNavOpen}>
               <PopoverTrigger asChild>
                 <button
                   type="button"
-                  className="flex h-[38px] items-center gap-2 rounded-[6px] bg-[var(--bb-ink)] px-4 text-[17px] font-bold text-white hover:bg-black"
+                  className="flex h-[2.375rem] items-center gap-2 rounded-[0.375rem] bg-[var(--bb-ink)] px-4 text-[1.0625rem] font-bold text-white hover:bg-black"
                 >
                   Question {cursor + 1} of {mod.qids.length}
                   <ChevronUp className={cn('size-5 transition-transform', navOpen && 'rotate-180')} strokeWidth={2.5} />
@@ -428,10 +428,10 @@ function Runner() {
               <PopoverContent
                 side="top"
                 sideOffset={18}
-                className="bb w-[min(640px,calc(100vw-32px))] gap-0 overflow-visible rounded-[8px] p-0 shadow-[0_4px_28px_rgba(0,0,0,0.3)] ring-0"
+                className="bb w-[min(640px,calc(100vw-32px))] gap-0 overflow-visible rounded-[0.5rem] p-0 shadow-[0_4px_28px_rgba(0,0,0,0.3)] ring-0"
               >
                 <div className="relative px-6 pt-5 pb-4 text-center">
-                  <h3 className="text-[17px] font-bold">{title} Questions</h3>
+                  <h3 className="text-[1.0625rem] font-bold">{title} Questions</h3>
                   <button type="button" onClick={() => setNavOpen(false)} aria-label="Close" className="absolute top-4 right-4 grid size-8 place-items-center">
                     <X className="size-6" strokeWidth={1.75} />
                   </button>
@@ -445,7 +445,7 @@ function Runner() {
                 <div className="flex justify-center pt-5 pb-6">
                   <BBOutline onClick={() => go(mod.qids.length)}>Go to Review Page</BBOutline>
                 </div>
-                <span className="absolute -bottom-[9px] left-1/2 size-[18px] -translate-x-1/2 rotate-45 bg-white shadow-[4px_4px_6px_rgba(0,0,0,0.08)]" />
+                <span className="absolute -bottom-[0.5625rem] left-1/2 size-[1.125rem] -translate-x-1/2 rotate-45 bg-white shadow-[4px_4px_6px_rgba(0,0,0,0.08)]" />
               </PopoverContent>
             </Popover>
           ) : (
@@ -467,10 +467,10 @@ function Runner() {
 
 function Tool({ label, active, onClick, children }: { label: string; active?: boolean; onClick: () => void; children: React.ReactNode }) {
   return (
-    <button type="button" onClick={onClick} aria-pressed={active} className="group relative flex flex-col items-center gap-1.5 text-[15px] font-medium">
+    <button type="button" onClick={onClick} aria-pressed={active} className="group relative flex flex-col items-center gap-1.5 text-[0.9375rem] font-medium">
       <span className="grid h-6 place-items-center">{children}</span>
       {label}
-      <span className={cn('absolute -bottom-[7px] h-[3px] w-full rounded-full bg-[var(--bb-ink)]', active ? 'block' : 'hidden')} />
+      <span className={cn('absolute -bottom-[0.4375rem] h-[3px] w-full rounded-full bg-[var(--bb-ink)]', active ? 'block' : 'hidden')} />
     </button>
   )
 }

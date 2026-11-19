@@ -113,7 +113,7 @@ function Choices({
               >
                 <span
                   className={cn(
-                    'grid size-7 shrink-0 place-items-center rounded-full border text-[13px] font-semibold transition-colors',
+                    'grid size-7 shrink-0 place-items-center rounded-full border text-[0.8125rem] font-semibold transition-colors',
                     selected && 'border-primary bg-primary text-primary-foreground',
                     right && 'border-success bg-success text-white dark:text-background',
                     wrong && 'border-destructive bg-destructive text-white dark:text-background',

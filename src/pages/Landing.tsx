@@ -29,7 +29,7 @@ const SAMPLES = [
 
 export function HackClubButton({ size = 'lg', label = 'Sign in with Hack Club' }: { size?: 'lg' | 'default'; label?: string }) {
   return (
-    <Button size={size} className="h-11 gap-2.5 rounded-full pr-6 pl-2 text-[15px]" onClick={() => signIn()}>
+    <Button size={size} className="h-11 gap-2.5 rounded-full pr-6 pl-2 text-[0.9375rem]" onClick={() => signIn()}>
       <img src="https://assets.hackclub.com/icon-rounded.svg" alt="" className="size-7 rounded-full bg-white" />
       {label}
     </Button>
@@ -51,7 +51,7 @@ export default function Landing() {
   return (
     <div className="relative flex min-h-dvh flex-col overflow-x-clip">
       {/* Aurora wash behind the hero, fading into the page */}
-      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[760px] [mask-image:linear-gradient(to_bottom,black_55%,transparent)]">
+      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[47.5rem] [mask-image:linear-gradient(to_bottom,black_55%,transparent)]">
         <AuroraBg className="!absolute inset-0" />
       </div>
 
@@ -222,49 +222,49 @@ function TestScreenMock() {
     <div className="bb pointer-events-none overflow-hidden rounded-2xl border shadow-[0_24px_60px_-20px_rgba(20,24,60,0.35)] select-none" aria-hidden>
       <div className="grid grid-cols-[1fr_auto_1fr] items-center bg-[var(--bb-chrome)] px-4 py-2.5">
         <div className="min-w-0">
-          <p className="truncate text-[11px]">Section 1, Module 1: Reading and Writing</p>
-          <p className="mt-0.5 text-[9px] font-medium">Directions ⌄</p>
+          <p className="truncate text-[0.6875rem]">Section 1, Module 1: Reading and Writing</p>
+          <p className="mt-0.5 text-[0.5625rem] font-medium">Directions ⌄</p>
         </div>
         <div className="flex flex-col items-center">
-          <span className="text-[13px] font-bold tabular-nums">31:53</span>
-          <span className="mt-0.5 rounded-full border border-[var(--bb-ink)] px-1.5 text-[8px] leading-tight font-bold">Hide</span>
+          <span className="text-[0.8125rem] font-bold tabular-nums">31:53</span>
+          <span className="mt-0.5 rounded-full border border-[var(--bb-ink)] px-1.5 text-[0.5rem] leading-tight font-bold">Hide</span>
         </div>
-        <p className="text-right text-[9px] font-medium">Highlights &amp; Notes · More</p>
+        <p className="text-right text-[0.5625rem] font-medium">Highlights &amp; Notes · More</p>
       </div>
       <div className="bb-dash" />
-      <div className="mx-4 grid h-4 place-items-center rounded-b-lg bg-[var(--bb-navy)] text-[7px] font-bold tracking-wide text-white uppercase">
+      <div className="mx-4 grid h-4 place-items-center rounded-b-lg bg-[var(--bb-navy)] text-[0.4375rem] font-bold tracking-wide text-white uppercase">
         This is a practice test
       </div>
       <div className="grid grid-cols-2 bg-white">
-        <p className="bb-serif border-r-2 border-[var(--bb-divider)] p-4 text-[9.5px] leading-[1.6]">
+        <p className="bb-serif border-r-2 border-[var(--bb-divider)] p-4 text-[0.5938rem] leading-[1.6]">
           Although critics believed that customers would never agree to pay to pick their own produce on farms, such concerns didn’t ______
           Booker T. Whatley’s efforts to promote the practice.
         </p>
         <div className="p-4">
           <div className="flex h-4 items-stretch bg-[var(--bb-bar)]">
-            <span className="grid w-4 place-items-center bg-[var(--bb-ink)] text-[8px] font-bold text-white">1</span>
-            <span className="ml-1.5 self-center text-[8px]">Mark for Review</span>
+            <span className="grid w-4 place-items-center bg-[var(--bb-ink)] text-[0.5rem] font-bold text-white">1</span>
+            <span className="ml-1.5 self-center text-[0.5rem]">Mark for Review</span>
           </div>
           <div className="bb-dash" />
-          <p className="bb-serif mt-2 text-[8.5px]">Which choice completes the text with the most logical and precise word?</p>
+          <p className="bb-serif mt-2 text-[0.5312rem]">Which choice completes the text with the most logical and precise word?</p>
           <div className="mt-2 flex flex-col gap-1.5">
             {choices.map((c, i) => (
               <div
                 key={c}
                 className={cn(
-                  'flex items-center gap-2 rounded-[4px] border px-1.5 py-1',
+                  'flex items-center gap-2 rounded-[0.25rem] border px-1.5 py-1',
                   i === 1 ? 'border-[var(--bb-blue)] shadow-[inset_0_0_0_1px_var(--bb-blue)]' : 'border-[var(--bb-ink)]',
                 )}
               >
                 <span
                   className={cn(
-                    'grid size-3 place-items-center rounded-full border text-[6.5px] font-medium',
+                    'grid size-3 place-items-center rounded-full border text-[0.4062rem] font-medium',
                     i === 1 ? 'border-[var(--bb-blue)] bg-[var(--bb-blue)] text-white' : 'border-[var(--bb-ink)]',
                   )}
                 >
                   {'ABCD'[i]}
                 </span>
-                <span className="bb-serif text-[8.5px]">{c}</span>
+                <span className="bb-serif text-[0.5312rem]">{c}</span>
               </div>
             ))}
           </div>
@@ -272,9 +272,9 @@ function TestScreenMock() {
       </div>
       <div className="bb-dash" />
       <div className="flex items-center justify-between bg-[var(--bb-chrome)] px-4 py-2">
-        <span className="text-[10px] font-medium">Student</span>
-        <span className="rounded-[4px] bg-[var(--bb-ink)] px-2 py-1 text-[9px] font-bold text-white">Question 1 of 27 ⌃</span>
-        <span className="rounded-full bg-[var(--bb-blue)] px-3 py-1 text-[9px] font-bold text-white">Next</span>
+        <span className="text-[0.625rem] font-medium">Student</span>
+        <span className="rounded-[0.25rem] bg-[var(--bb-ink)] px-2 py-1 text-[0.5625rem] font-bold text-white">Question 1 of 27 ⌃</span>
+        <span className="rounded-full bg-[var(--bb-blue)] px-3 py-1 text-[0.5625rem] font-bold text-white">Next</span>
       </div>
     </div>
   )

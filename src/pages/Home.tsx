@@ -64,13 +64,13 @@ export default function Home() {
               : 'Pick up a timed module, or let smart practice serve the questions you missed and the ones you haven’t seen.'}
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Button asChild size="lg" className="h-11 rounded-full px-6 text-[15px]">
+            <Button asChild size="lg" className="h-11 rounded-full px-6 text-[0.9375rem]">
               <Link to={fresh ? '/tests?start=diagnostic' : practiceUrl({ mode: 'smart' })}>
                 {fresh ? 'Start the diagnostic' : 'Smart practice'}
                 <ArrowRight />
               </Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="h-11 rounded-full px-6 text-[15px]">
+            <Button asChild size="lg" variant="outline" className="h-11 rounded-full px-6 text-[0.9375rem]">
               <Link to={fresh ? '/practice' : '/tests'}>{fresh ? 'Practice by skill' : 'Take a timed test'}</Link>
             </Button>
           </div>
