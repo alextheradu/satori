@@ -1,8 +1,8 @@
 {
-  "scope": "48 original Problem-Solving and Data Analysis questions in m-psda-2.json only.",
+  "scope": "48 original Problem-Solving and Data Analysis questions from m-psda-2.json across active and historical records.",
   "method": "Independent manually transcribed givens with exact arithmetic, weighted data, probability, model comparisons and reported uncertainty intervals. English choices and study-design features have explicit editorial interpretations; these are not automatically inferred from natural language.",
   "engine": "SymPy 1.14.0",
-  "solverSha256": "608a10bd2749f991181906a472358e08dbc754c32e1de43c5e29391b4103dc95",
+  "solverSha256": "4230250cba0a71bf78d6bda0cb1933aff1395951561a4ae4cb2a707c8dc797eb",
   "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
   "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
   "questionsReviewed": 48,

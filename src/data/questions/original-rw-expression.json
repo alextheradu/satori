@@ -2718,5 +2718,56 @@
     ],
     "answer": 3,
     "explanation": "The definition gives the term’s category and the information it records. The alternatives provide background, describe a different record, or state only what the ledger excludes."
+  },
+  {
+    "id": "rw-original-synthesis-081",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n- NASA sent two Viking missions to Mars, each with an orbiter and a lander.\n- Images taken from orbit indicated that the terrain at Viking 1’s originally targeted site was unsuitable.\n- Orbital photographs also showed rough terrain at the site originally chosen for Viking 2.\n- Planners selected new landing sites for both spacecraft.\n- The landers reached Chryse Planitia and Utopia Planitia, respectively, in 1976.",
+    "prompt": "The student wants to explain how the orbiters influenced the landers’ destinations. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "For both Viking missions, photographs taken from orbit revealed problems with the proposed terrain, prompting planners to choose different landing sites.",
+      "Viking 1 landed at Chryse Planitia, and Viking 2 landed at Utopia Planitia.",
+      "NASA sent an orbiter and a lander to Mars on each of the two Viking missions.",
+      "By the end of 1976, the two Viking landers had reached different regions of Mars."
+    ],
+    "answer": 0,
+    "explanation": "The orbital images provided evidence about the original locations that led planners to select new ones. The other choices identify equipment, destinations, or timing without explaining the change."
+  },
+  {
+    "id": "rw-original-transition-081",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "A fictional theater publishes its weekly rehearsal updates as new files. The stage manager asks actors to use the date printed in the header when deciding which file is newest. ______, actors who rely on the order in which messages appear could follow an older schedule, since an old attachment may be forwarded after a new one.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "For example",
+      "Otherwise",
+      "Likewise",
+      "Previously"
+    ],
+    "answer": 1,
+    "explanation": "The final sentence describes a possible consequence of ignoring the stage manager’s instruction. Otherwise introduces that alternative condition."
+  },
+  {
+    "id": "rw-original-synthesis-082",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n- A fictional design team made a tactile alphabet embossed on metal cards.\n- The first prototype used raised circles for both punctuation and letter features.\n- Readers sometimes mistook the circles that marked punctuation for parts of letters.\n- The revised prototype represented punctuation with raised horizontal bars.\n- It retained the original circles within letters.",
+    "prompt": "The student wants to explain how the revision addressed the readers’ specific confusion. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The team used horizontal bars for punctuation and kept circles within letters, giving readers distinct shapes for marks they had previously confused.",
+      "The original prototype used raised circles for punctuation and for certain features of letters.",
+      "The team revised its metal cards after readers tried the first prototype.",
+      "The revised cards still included the original raised circles."
+    ],
+    "answer": 0,
+    "explanation": "The correct choice connects the new punctuation shape to the mistaken grouping of punctuation with letters. The other choices give individual facts without explaining how the two roles became distinguishable."
   }
 ]

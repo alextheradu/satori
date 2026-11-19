@@ -1,12 +1,12 @@
 {
-  "scope": "28 active individually authored math questions and one retired question preserved for historical attempts.",
+  "scope": "38 active individually authored math questions and one retired question preserved for historical attempts.",
   "method": "Fresh exact models of all prompt constraints, symbolic solutions and comparison of every option. English choices and geometric descriptions are translated into mathematical statements editorially; the program does not infer diagrams or natural language automatically.",
   "engine": "SymPy 1.14.0",
-  "solverSha256": "251558e942e28acdc61edc953ebeb55163196e00c414322d49ac33a714b861e1",
+  "solverSha256": "5f9b72fc308a6ec4b7b3c414595cdc05c1c47b18370971db610e6ed2cf124522",
   "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
   "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
-  "questionsReviewed": 29,
-  "activeQuestionsReviewed": 28,
+  "questionsReviewed": 39,
+  "activeQuestionsReviewed": 38,
   "archivedQuestionsReviewed": 1,
   "items": [
     {
@@ -347,6 +347,121 @@
         true,
         false,
         false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-030",
+      "sourceSha256": "471fb6229a6f478d3e7135630a5ab33072335ac53e828c66a06bccdf8f8df4bd",
+      "model": "Solve the squared magnitude equality and the given output simultaneously, retaining the negative slope.",
+      "derivedResult": "12",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-031",
+      "sourceSha256": "8aae6992677561820a55f5c4f8ff7be3ab5ea119b9e7226fded364de8daf8d91",
+      "model": "Recover the root progression from its sum and product, then multiply the monic linear factors to obtain the requested coefficient.",
+      "derivedResult": "44",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-032",
+      "sourceSha256": "2cce4cd9c2b96d72652e253f724eb6df7c83a3277dee28766774d95b1b6ff441",
+      "model": "Locate the pole along segment AB by solving both specified slope ratios simultaneously.",
+      "derivedResult": "9",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-033",
+      "sourceSha256": "aa450f3d6d520a47c313c71ebfbd85beb3279dd4f66739d357cc18b7f9c45165",
+      "model": "Put the common tangent at y=0 and solve for the positive horizontal offset of two externally tangent circle centers.",
+      "derivedResult": "12",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-034",
+      "sourceSha256": "36e784385674c80d0d994471d7cff0d8725e86588f92e4e5b1f5e325bd29f41c",
+      "model": "Parameterize the hinge crossing height, minimize the sum of the two within-panel distances, and compare with the endpoints.",
+      "derivedResult": "15",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-035",
+      "sourceSha256": "02c27f21e7b72aa902c576b15c5ff2b6ddefad1ec3eeb5c08cd809c773fa247d",
+      "model": "Use the specified order statistics of the two four-value halves, check that feasible p and q exist, and substitute q=p+7.",
+      "derivedResult": "21/2",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-036",
+      "sourceSha256": "a99d5381916bda74f8187347a3ed3afcb81aa67c79c8315104e87ee3ee9edfcf",
+      "model": "Use a ≠ b to obtain the slope from the two swapped coordinates, then write the line through (4,9). On this line the ordinate at x=a is b.",
+      "derivedResult": "13",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-037",
+      "sourceSha256": "61d75068653daf2ce547cf26ef0d5ba987e53f8bedaa84196e99cac4f0a8b6be",
+      "model": "Check the slopes on the three intervals split by the absolute-value breakpoints, then compare the values at the finite boundaries.",
+      "derivedResult": "5",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-038",
+      "sourceSha256": "a39a930aca00e046d00142509c1359d30f3181b3e0a8f1afbbda66277500f1d4",
+      "model": "Place the two legs along the axes, so the center is (r,r). Solve for equality with the distance to the hypotenuse, keeping the center inside the triangle.",
+      "derivedResult": "3",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-039",
+      "sourceSha256": "34d8cda52523c196df2eb6b2320c60832e0ed531dfedaa28874d7634f16ad190",
+      "model": "Count the equally likely ordered draws in the conditioned sample space and the subset that contains 5.",
+      "derivedResult": "3/4",
+      "validChoices": [
+        false,
+        false,
+        true,
         false
       ],
       "editorialNotes": []

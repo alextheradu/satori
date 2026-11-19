@@ -456,38 +456,6 @@
     "explanation": "Tangent gives the opposite-to-adjacent leg ratio $3:4$. With hypotenuse ratio $5$, the scale factor is $9$, so the legs are $27$ and $36$. Area is $\\frac{1}{2}(27)(36)=486$."
   },
   {
-    "id": "m-gen-same-side-interior-angle-parameter-004",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Lines, angles, and triangles",
-    "difficulty": "medium",
-    "prompt": "Two parallel lines are cut by a transversal. A pair of same-side interior angles measures $(7x+14)^\\circ$ and $(2x+121)^\\circ$. What is $x$?",
-    "choices": [
-      "$10$",
-      "$6$",
-      "$5$",
-      "$\\frac{107}{5}$"
-    ],
-    "answer": 2,
-    "explanation": "Same-side interior angles formed by parallel lines are supplementary. Add the expressions and set the sum equal to $180$: $9x+135=180$. Solving gives $x=5$. These angles are not generally equal."
-  },
-  {
-    "id": "m-gen-similar-cone-cut-volume-004",
-    "section": "math",
-    "domain": "Geometry and Trigonometry",
-    "skill": "Area and volume",
-    "difficulty": "hard",
-    "prompt": "A cone has height $4$ and volume $128$. A plane parallel to its base cuts off a smaller cone at the vertex with height $2$. What is the volume of the remaining solid?",
-    "choices": [
-      "$64$",
-      "$16$",
-      "$96$",
-      "$112$"
-    ],
-    "answer": 3,
-    "explanation": "The smaller cone is similar to the original with length scale $1/2$. Its volume scale is $1/8$, so its volume is $128/8=16$. Subtract to get $128-16=112$. Volume scales cubically, not linearly."
-  },
-  {
     "id": "m-gen-cylinder-radius-two-measures-004",
     "section": "math",
     "domain": "Geometry and Trigonometry",

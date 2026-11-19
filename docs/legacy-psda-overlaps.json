@@ -1,0 +1,27 @@
+[
+  {
+    "retiredQuestionId": "m-psda-109",
+    "retainedQuestionId": "m-psda-108",
+    "reason": "Both find a specified percentage of a known total directly."
+  },
+  {
+    "retiredQuestionId": "m-psda-114",
+    "retainedQuestionId": "m-psda-005",
+    "reason": "Both divide a known final amount by the two multipliers for a percentage increase followed by a percentage decrease."
+  },
+  {
+    "retiredQuestionId": "m-psda-133",
+    "retainedQuestionId": "m-psda-012",
+    "reason": "Both select a column in a contingency table by a stated category and use its total to find the conditional probability of a specified grade."
+  },
+  {
+    "retiredQuestionId": "m-psda-141",
+    "retainedQuestionId": "m-psda-014",
+    "reason": "Both construct a margin-of-error interval for a sample proportion and identify the population to which the resulting plausible range applies."
+  },
+  {
+    "retiredQuestionId": "m-psda-015",
+    "retainedQuestionId": "m-psda-137",
+    "reason": "Both estimate a population count by multiplying the known population size by the observed fraction with a characteristic in a random sample."
+  }
+]

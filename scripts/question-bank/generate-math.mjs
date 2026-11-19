@@ -546,6 +546,7 @@ for (const [familyIndex, family] of families.entries()) {
   assert(representative,`${family.key}: no nonduplicate representative`)
   const overlap=overlaps.get(family.key)
   const partition=partitionReviewedFamily(questions,representative,overlap,sourceById)
+  for(const q of partition.active)sourceById.set(q.id,q)
   const slug=family.domain===A?'algebra':family.domain===N?'advanced':family.domain===D?'data':'geometry'
   const name=`generated-math-${slug}.json`
   outputs.set(name,[...(outputs.get(name)??[]),...partition.active])

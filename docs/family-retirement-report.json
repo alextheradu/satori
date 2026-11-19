@@ -1,15 +1,15 @@
 {
   "policy": "At most one generated active representative per declared family or pattern. A reviewed overlap can instead be represented by an existing active question; its source-bound reason is recorded in the generation report. Sibling versions remain historical only.",
-  "activeFamilyRepresentatives": 209,
-  "familiesRepresentedByExistingQuestions": 31,
-  "retiredFamilyVariants": 14127,
+  "activeFamilyRepresentatives": 190,
+  "familiesRepresentedByExistingQuestions": 50,
+  "retiredFamilyVariants": 14146,
   "collections": [
     {
       "collection": "math-generation-report.json",
       "families": 184,
-      "active": 154,
-      "representedByExistingQuestions": 30,
-      "retired": 11622,
+      "active": 135,
+      "representedByExistingQuestions": 49,
+      "retired": 11641,
       "candidates": 11776
     },
     {

@@ -952,6 +952,18 @@
     "explanation": "There are $11$ ratio parts altogether, each worth $32$ beads. Red beads occupy $2$ parts, giving $64$. The ratio compares the two categories, not red to the total."
   },
   {
+    "id": "m-gen-unit-rate-001",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "easy",
+    "prompt": "A machine produces $92$ parts in $4$ minutes at a constant rate. How many parts will it produce in $40$ minutes?",
+    "answer": [
+      "920"
+    ],
+    "explanation": "The rate is $92/4=23$ parts per minute. Multiply by $40$ minutes to get $920$ parts. Direct proportionality requires the same rate for both time periods."
+  },
+  {
     "id": "m-gen-unit-rate-002",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -4784,6 +4796,22 @@
     "explanation": "Convert the percent to a decimal and multiply: $0.9(2400)=2160$. A percent is a fraction out of 100."
   },
   {
+    "id": "m-gen-percent-of-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "easy",
+    "prompt": "What is $70\\%$ of $960$?",
+    "choices": [
+      "$672$",
+      "$67200$",
+      "$890$",
+      "$\\frac{288}{1}$"
+    ],
+    "answer": 0,
+    "explanation": "Convert the percent to a decimal and multiply: $0.7(960)=672$. A percent is a fraction out of 100."
+  },
+  {
     "id": "m-gen-percent-of-005",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -6678,6 +6706,22 @@
       "1530"
     ],
     "explanation": "The fraction of the price remaining is $1-0.1=0.9$. Multiply by $1700$ to get $1530$ dollars. The discount amount alone is not the sale price."
+  },
+  {
+    "id": "m-gen-discount-price-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "easy",
+    "prompt": "An item originally costs \\$1300. Its price is reduced by $35\\%$. What is the sale price, in dollars?",
+    "choices": [
+      "$455$",
+      "$1755$",
+      "$845$",
+      "$1265$"
+    ],
+    "answer": 2,
+    "explanation": "The fraction of the price remaining is $1-0.35=0.65$. Multiply by $1300$ to get $845$ dollars. The discount amount alone is not the sale price."
   },
   {
     "id": "m-gen-discount-price-005",
@@ -8576,6 +8620,22 @@
     "explanation": "The increase is $294$. Divide by the original $420$ and multiply by 100: $\\frac{294}{420}\\cdot100=70\\%$. Dividing by the final attendance uses the wrong base."
   },
   {
+    "id": "m-gen-percent-change-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "medium",
+    "prompt": "Attendance rose from $640$ to $1120$. What was the percent increase?",
+    "choices": [
+      "$75$",
+      "$480$",
+      "$175$",
+      "$\\frac{300}{7}$"
+    ],
+    "answer": 0,
+    "explanation": "The increase is $480$. Divide by the original $640$ and multiply by 100: $\\frac{480}{640}\\cdot100=75\\%$. Dividing by the final attendance uses the wrong base."
+  },
+  {
     "id": "m-gen-percent-change-005",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -9522,6 +9582,22 @@
       "45"
     ],
     "explanation": "A mean of $45$ for five values requires a total of $225$. The four known values sum to $180$, leaving $45$. A mean is based on all five values."
+  },
+  {
+    "id": "m-gen-mean-missing-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "medium",
+    "prompt": "Five measurements have mean $32$. Four are $31, 36, 33, 28$. What is the fifth measurement?",
+    "choices": [
+      "$160$",
+      "$32$",
+      "$128$",
+      "$33$"
+    ],
+    "answer": 1,
+    "explanation": "A mean of $32$ for five values requires a total of $160$. The four known values sum to $128$, leaving $32$. A mean is based on all five values."
   },
   {
     "id": "m-gen-mean-missing-005",
@@ -10472,6 +10548,22 @@
     "explanation": "Order the seven values: $26, 34, 42, 50, 58, 66, 74$. The fourth value is $50$, with three values on either side. The data must be ordered before selecting the middle."
   },
   {
+    "id": "m-gen-median-unsorted-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "easy",
+    "prompt": "What is the median of $47, 23, 59, 35, 41, 29, 53$?",
+    "choices": [
+      "$35$",
+      "$47$",
+      "$41$",
+      "$59$"
+    ],
+    "answer": 2,
+    "explanation": "Order the seven values: $23, 29, 35, 41, 47, 53, 59$. The fourth value is $41$, with three values on either side. The data must be ordered before selecting the middle."
+  },
+  {
     "id": "m-gen-median-unsorted-005",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -11382,6 +11474,18 @@
     ],
     "answer": 2,
     "explanation": "Order the seven values: $27, 35, 43, 51, 59, 67, 75$. The fourth value is $51$, with three values on either side. The data must be ordered before selecting the middle."
+  },
+  {
+    "id": "m-gen-weighted-mean-001",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "medium",
+    "prompt": "A data set contains $4$ values equal to $13$ and $9$ values equal to $14$. What is its mean?",
+    "answer": [
+      "178/13"
+    ],
+    "explanation": "The sum is $4(13)+9(14)=178$ across $13$ values. Divide to obtain $\\frac{178}{13}$. Averaging the two distinct values without their frequencies is generally wrong."
   },
   {
     "id": "m-gen-weighted-mean-002",
@@ -14339,6 +14443,22 @@
     "explanation": "Insert $x=13$: $y=9(13)+33=150$. Include the intercept as well as the change associated with practice hours."
   },
   {
+    "id": "m-gen-linear-prediction-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "easy",
+    "prompt": "A model predicts $y=4x+11$, where $x$ is hours of practice and $y$ is a score. What score does the model predict after $6$ hours?",
+    "choices": [
+      "$24$",
+      "$90$",
+      "$35$",
+      "$13$"
+    ],
+    "answer": 2,
+    "explanation": "Insert $x=6$: $y=4(6)+11=35$. Include the intercept as well as the change associated with practice hours."
+  },
+  {
     "id": "m-gen-linear-prediction-005",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -15287,6 +15407,22 @@
     "explanation": "The prediction is $9(3)+22=49$. Subtract it from the observation: $40-49=-9$. Reversing this subtraction reverses the sign."
   },
   {
+    "id": "m-gen-residual-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "medium",
+    "prompt": "A model is $y=2x+31$. An observation has $x=10$ and $y=63$. Residual is observed value minus predicted value. What is this observation's residual?",
+    "choices": [
+      "$-12$",
+      "$63$",
+      "$51$",
+      "$12$"
+    ],
+    "answer": 3,
+    "explanation": "The prediction is $2(10)+31=51$. Subtract it from the observation: $63-51=12$. Reversing this subtraction reverses the sign."
+  },
+  {
     "id": "m-gen-residual-005",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -16233,6 +16369,22 @@
       "12"
     ],
     "explanation": "The model's slope is $\\frac{72}{6}=12$. This is the predicted increase per one unit of $x$. The total rise between the points covers $6$ units, not one."
+  },
+  {
+    "id": "m-gen-model-slope-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Two-variable data: models and scatterplots",
+    "difficulty": "medium",
+    "prompt": "A linear model passes through $(4,64)$ and $(11,99)$. What increase in predicted $y$ corresponds to a one-unit increase in $x$?",
+    "choices": [
+      "$5$",
+      "$35$",
+      "$44$",
+      "$7$"
+    ],
+    "answer": 0,
+    "explanation": "The model's slope is $\\frac{35}{7}=5$. This is the predicted increase per one unit of $x$. The total rise between the points covers $7$ units, not one."
   },
   {
     "id": "m-gen-model-slope-005",
@@ -18131,6 +18283,22 @@
     "explanation": "There are $49$ equally likely counters, of which $10$ are red. The probability is $\\frac{10}{49}$. The denominator counts every possible counter, not just the other colors."
   },
   {
+    "id": "m-gen-probability-basic-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "easy",
+    "prompt": "A bag contains $21$ red, $10$ blue, and $23$ green counters. One counter is selected at random. What is the probability that it is red?",
+    "choices": [
+      "$\\frac{5}{27}$",
+      "$\\frac{23}{54}$",
+      "$\\frac{7}{18}$",
+      "$\\frac{11}{18}$"
+    ],
+    "answer": 2,
+    "explanation": "There are $54$ equally likely counters, of which $21$ are red. The probability is $\\frac{21}{54}$. The denominator counts every possible counter, not just the other colors."
+  },
+  {
     "id": "m-gen-probability-basic-005",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -19080,6 +19248,23 @@
       "22/27"
     ],
     "explanation": "Conditioning on taking art restricts the sample space to the first row: $27$ students. Of these, $22$ take music, so the probability is $\\frac{22}{27}$. The whole-school total is not the relevant denominator."
+  },
+  {
+    "id": "m-gen-conditional-table-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "medium",
+    "passage": "|  | Music | No music |\n|---|---|---|\n| Art | 10 | 20 |\n| No art | 15 | 17 |",
+    "prompt": "One student is selected at random from the students who take art. What is the probability that this student also takes music?",
+    "choices": [
+      "$\\frac{5}{31}$",
+      "$\\frac{2}{5}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{1}{3}$"
+    ],
+    "answer": 3,
+    "explanation": "Conditioning on taking art restricts the sample space to the first row: $30$ students. Of these, $10$ take music, so the probability is $\\frac{10}{30}$. The whole-school total is not the relevant denominator."
   },
   {
     "id": "m-gen-conditional-table-005",
@@ -21984,6 +22169,22 @@
       "6724"
     ],
     "explanation": "The sample proportion is $\\frac{164}{200}$. Multiply by the town population: $\\frac{164}{200}(8200)=6724$. The estimate scales the proportion, not just the sample count plus population."
+  },
+  {
+    "id": "m-gen-sample-estimate-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "medium",
+    "prompt": "In a random sample of $100$ residents, $66$ support a proposal. The town has $2200$ residents. Using the sample proportion, what is the estimated number of supporters in the town?",
+    "choices": [
+      "$66$",
+      "$748$",
+      "$1452$",
+      "$2266$"
+    ],
+    "answer": 2,
+    "explanation": "The sample proportion is $\\frac{66}{100}$. Multiply by the town population: $\\frac{66}{100}(2200)=1452$. The estimate scales the proportion, not just the sample count plus population."
   },
   {
     "id": "m-gen-sample-estimate-005",
@@ -25786,6 +25987,22 @@
     "explanation": "Let the unknown count be $m$. Total sums give $119+44m=35(7+m)$. Thus $9m=126$ and $m=14$. Group means must be weighted by group sizes."
   },
   {
+    "id": "m-gen-combined-mean-group-size-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "A group of $10$ measurements has mean $17$. A second group has mean $57$. The combined mean is $49$. How many measurements are in the second group?",
+    "choices": [
+      "$10$",
+      "$40$",
+      "$50$",
+      "$4$"
+    ],
+    "answer": 1,
+    "explanation": "Let the unknown count be $m$. Total sums give $170+57m=49(10+m)$. Thus $8m=320$ and $m=40$. Group means must be weighted by group sizes."
+  },
+  {
     "id": "m-gen-combined-mean-group-size-005",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -28657,6 +28874,18 @@
     "explanation": "Sum the residuals: $(34+8+66)-8(2+4+6)-3b=0$. Therefore $3b=12$ and $b=4$. A zero sum permits individual residuals to be positive or negative; it does not require every point to lie on the line."
   },
   {
+    "id": "m-gen-bayes-two-groups-001",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "hard",
+    "prompt": "A shipment contains $50\\%$ items from factory A and the rest from factory B. Of A's items, $20\\%$ pass a test; of B's items, $60\\%$ pass. An item is selected at random from all items that pass. What is the probability that it came from A?",
+    "answer": [
+      "1/4"
+    ],
+    "explanation": "In a representative batch of 10,000 items, A contributes $1000$ passing items and B contributes $3000$. Restrict the denominator to passing items: $P(A\\mid\\text{pass})=\\frac{1000}{4000}$. The original factory share is not the conditional share among passing items."
+  },
+  {
     "id": "m-gen-bayes-two-groups-002",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -30559,6 +30788,18 @@
     ],
     "answer": 1,
     "explanation": "One square meter contains $100^2=10{,}000$ square centimeters. Multiply $\\frac{11}{8}$ grams per square centimeter by $10{,}000$ to obtain $\\frac{110000}{8}$ grams per square meter. Area conversion squares the length-conversion factor."
+  },
+  {
+    "id": "m-gen-reverse-two-price-changes-001",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": "hard",
+    "prompt": "An item's price first increased by $30\\%$ and then decreased by $30\\%$ of the increased price. Its final price was \\$5096. What was the original price, in dollars?",
+    "answer": [
+      "5600"
+    ],
+    "explanation": "If the original price is $P$, then $P(1.3)(0.7)=5096$. Divide by both multipliers to obtain $P=5600$. Applying the opposite percentages in reverse does not undo a percent change; division does."
   },
   {
     "id": "m-gen-reverse-two-price-changes-002",
@@ -38210,6 +38451,18 @@
     ],
     "answer": 1,
     "explanation": "Initially the concentrate volume is $36$ liters. Removing $r$ liters removes $0.2r$ liters of concentrate. The final volume stays $180$, so $36-0.2r=9$. Solving gives $r=135$. Removal takes out both water and concentrate."
+  },
+  {
+    "id": "m-gen-ratio-after-adding-one-group-001",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios, rates, proportional relationships, and units",
+    "difficulty": "hard",
+    "prompt": "A box initially has red and blue counters in the ratio $5:9$. After $72$ blue counters are added, the ratio of red counters to blue counters is $65:189$. How many red counters are in the box?",
+    "answer": [
+      "65"
+    ],
+    "explanation": "Write the original counts as $5u$ and $9u$. Then $\\frac{5u}{9u+72}=\\frac{65}{189}$. Cross multiplication gives $u=13$, so the unchanged red count is $65$. The added counters change only the blue count."
   },
   {
     "id": "m-gen-ratio-after-adding-one-group-002",

@@ -39,16 +39,16 @@
     "domain": "Expression of Ideas",
     "skill": "Rhetorical Synthesis",
     "difficulty": "hard",
-    "passage": "While researching a topic, a student has taken the following notes:\n- Urban noise, such as the rumble of traffic, is concentrated at low sound frequencies.\n- A team led by biologist Lena Ostrowski recorded the songs of white-crowned sparrows in a city and in a nearby rural area.\n- City sparrows sang at higher minimum frequencies than rural sparrows did.\n- The team concluded that singing at higher frequencies helps city birds keep their songs from being masked by low-frequency noise.\n- Songs that are masked by noise may be less effective at attracting mates.",
+    "passage": "While researching a topic, a student has taken the following notes:\n- Elizabeth P. Derryberry and colleagues studied white-crowned sparrow songs at urban and rural sites in California.\n- They compared the lowest frequencies in the birds' songs with background noise levels.\n- Songs tended to have higher minimum frequencies where background noise was greater.\n- Low-frequency noise can mask the low-frequency parts of a song.\n- The researchers proposed that higher minimum frequencies can reduce this overlap.",
     "prompt": "The student wants to present the explanation the research team offered for its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
     "choices": [
-      "Ostrowski's team recorded the songs of white-crowned sparrows living in a city and in a nearby rural area.",
-      "Recordings made by Ostrowski's team showed that city sparrows sang at higher minimum frequencies than rural sparrows did.",
-      "Urban noise is concentrated at low frequencies, and songs masked by noise may be less effective at attracting mates.",
-      "Ostrowski's team proposed that city sparrows sing at higher minimum frequencies because doing so keeps their songs from being masked by low-frequency urban noise."
+      "Derryberry and colleagues studied white-crowned sparrow songs at both urban and rural sites in California.",
+      "Derryberry and colleagues found that songs tended to have higher minimum frequencies where there was more background noise.",
+      "Low-frequency noise can make parts of a song difficult to hear.",
+      "Derryberry and colleagues proposed that sparrows sing at higher minimum frequencies in noisier places because this reduces overlap with the low-frequency noise that can mask their songs."
     ],
     "answer": 3,
-    "explanation": "Choice D gives the team's explanation for why city sparrows sing higher: it keeps their songs from being masked by low-frequency noise. Choice B is the main trap because it reports the finding itself, not the explanation the team offered for it. Choice A describes the study's method, and Choice C combines background facts without attributing any explanation to the team or mentioning its findings."
+    "explanation": "Choice D connects the observed pattern to the researchers' proposed mechanism, reduced overlap between song and noise. A identifies the study sites, B reports the association, and C gives only the background on masking."
   },
   {
     "id": "rw-ei-004",

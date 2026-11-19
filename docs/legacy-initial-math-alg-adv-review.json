@@ -1,8 +1,8 @@
 {
-  "scope": "32 original math questions in math-alg-adv.json only.",
+  "scope": "32 original math questions from math-alg-adv.json across active and historical records.",
   "method": "Fresh manually transcribed givens, exact arithmetic and symbolic comparisons of every mathematical option and typed answer. English interpretations, geometry and study-design implications are specified editorially; the program does not automatically understand all natural-language givens.",
   "engine": "SymPy 1.14.0",
-  "solverSha256": "29a20e72c956017803a0224118114195638e99eb6afda0e90ffd378a2075e4ee",
+  "solverSha256": "13b47015bad06f1c543a95571aa31a681a438fa0d1eda50d7b1f6ca094c11e7a",
   "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
   "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
   "questionsReviewed": 32,

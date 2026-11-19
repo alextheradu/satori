@@ -422,5 +422,153 @@
       "$(8,20)$"
     ],
     "answer": 0
+  },
+  {
+    "id": "m-original-distinct-030",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "hard",
+    "prompt": "The linear function $f$ has a negative slope and satisfies $|f(-2)|=|f(4)|$. If $f(7)=-18$, what is $f(-3)$?",
+    "explanation": "A nonconstant linear function takes different values at $-2$ and $4$. Equal magnitudes therefore make those values opposites. At the midpoint $x=1$, the output is $0$. From $(1,0)$ to $(7,-18)$, the slope is $-3$, so $f(-3)=-3(-3-1)=12$.",
+    "choices": [
+      "$-12$",
+      "$12$",
+      "$18$",
+      "$30$"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "m-original-distinct-031",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "hard",
+    "prompt": "A monic cubic polynomial has three distinct real roots, with equal spacing between consecutive roots. The sum of its roots is $12$, and its constant term is $-48$. What is the coefficient of $x$?",
+    "explanation": "The middle root is $12/3=4$. Write the roots as $4-d$, $4$, and $4+d$, with $d>0$. Their product is $48$, since the constant term of the monic cubic is the negative of the product. Thus $4(16-d^2)=48$, giving $d=2$. In $(x-2)(x-4)(x-6)$, the coefficient of $x$ is $2(4)+2(6)+4(6)=44$.",
+    "choices": [
+      "$12$",
+      "$32$",
+      "$44$",
+      "$48$"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "m-original-distinct-032",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "A vertical light pole stands on level ground between points $A$ and $B$. Its base lies on segment $\\overline{AB}$, which is $30$ meters long. The tangents of the angles of elevation to the top of the pole from $A$ and $B$ are $\\frac{3}{4}$ and $\\frac{1}{2}$, respectively. How tall is the pole, in meters?",
+    "explanation": "Let $h$ be the height. Tangent is height over horizontal distance, so the two distances from the points to the base are $4h/3$ and $2h$. Since the base is between the points, their sum is $30$. Solving $(4/3+2)h=30$ gives $h=9$.",
+    "answer": [
+      "9"
+    ]
+  },
+  {
+    "id": "m-original-distinct-033",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "Two circles with radii $4$ and $9$ are tangent to each other externally. Both are also tangent to the same straight line and lie on the same side of that line. What is the distance between the two points where the circles touch the line?",
+    "explanation": "The centers lie $4$ and $9$ units perpendicularly from the line, so their perpendicular separation is $5$. External tangency makes the center-to-center distance $4+9=13$. The separation along the line is the other leg of a right triangle with hypotenuse $13$ and one leg $5$. Its length is $\\sqrt{13^2-5^2}=12$.",
+    "choices": [
+      "$12$",
+      "$5$",
+      "$13$",
+      "$\\sqrt{65}$"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "m-original-distinct-034",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "hard",
+    "prompt": "Two vertical rectangular panels are hinged along a common vertical edge. Each panel is $12$ meters tall. The panels have widths of $5$ and $4$ meters. A cable runs along the panel surfaces from the lower corner of the wider panel farthest from the hinge to the upper corner of the narrower panel farthest from the hinge. What is the shortest possible cable length, in meters?",
+    "explanation": "Unfold the two panels into a flat rectangle. Length along the surfaces is preserved, and the start and end are opposite corners of a rectangle of width $5+4=9$ and height $12$. Its diagonal crosses the hinge segment and has length $\\sqrt{9^2+12^2}=15$, the shortest distance in the unfolded rectangle.",
+    "answer": [
+      "15"
+    ]
+  },
+  {
+    "id": "m-original-distinct-035",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "A data set has values $2,3,p,8,10,12,q,17,20$ listed in nondecreasing order, where $q-p=7$. For this question, the lower quartile is the median of the first four values, and the upper quartile is the median of the last four values. What is the interquartile range, or upper quartile minus lower quartile, of this data set?",
+    "explanation": "The lower quartile is $(3+p)/2$, and the upper quartile is $(q+17)/2$. Subtracting gives $(q-p+14)/2=(7+14)/2=10.5$. Only the difference $q-p$ is needed.",
+    "choices": [
+      "$7$",
+      "$14$",
+      "$10.5$",
+      "$21$"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "m-original-distinct-036",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "medium",
+    "prompt": "A line in the $xy$-plane passes through the distinct points $(a,b)$ and $(b,a)$. It also passes through $(4,9)$. What is the value of $a+b$?",
+    "explanation": "Both $(a,b)$ and $(b,a)$ satisfy the equation $x+y=a+b$. The two distinct points determine a unique line, so the line has that equation. Substituting $(4,9)$ gives $a+b=4+9=13$.",
+    "answer": [
+      "13"
+    ]
+  },
+  {
+    "id": "m-original-distinct-037",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "medium",
+    "prompt": "The function $f$ is defined for every real number $x$ by $f(x)=|x-2|+2|x-7|$. What is the minimum value of $f(x)$?",
+    "explanation": "The total distance $|x-2|+|x-7|$ is at least the distance between $2$ and $7$, which is $5$. The remaining term $|x-7|$ is nonnegative. At $x=7$, the first two distances sum to $5$ and the remaining term is $0$, so the lower bound is attained.",
+    "choices": [
+      "$5$",
+      "$0$",
+      "$7.5$",
+      "$10$"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "m-original-distinct-038",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "hard",
+    "prompt": "A circle inside a right triangle is tangent to all three sides of the triangle. The triangle’s legs have lengths $9$ and $12$. What is the radius of the circle?",
+    "explanation": "The hypotenuse is $15$, and the triangle’s area is $54$. Joining the circle’s center to the three vertices partitions the triangle into three smaller triangles. Each has height $r$, the perpendicular distance from the center to its base, and their bases have lengths $9$, $12$, and $15$. Thus $54=\\frac{1}{2}(9+12+15)r$, so $r=3$.",
+    "choices": [
+      "$4.5$",
+      "$3$",
+      "$6$",
+      "$7.5$"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "m-original-distinct-039",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "hard",
+    "prompt": "Five tokens are labeled $1$, $2$, $3$, $4$, and $5$, with one token per label. Two tokens are selected at random without replacement. Given that the sum of their labels is greater than $6$, what is the probability that one of the tokens is labeled $5$?",
+    "explanation": "The equally likely unordered pairs whose labels sum to more than $6$ are $(2,5)$, $(3,4)$, $(3,5)$, and $(4,5)$. Three of these four pairs include the token labeled $5$. The conditional probability is therefore $3/4$.",
+    "choices": [
+      "$\\frac{2}{5}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{4}{5}$"
+    ],
+    "answer": 2
   }
 ]

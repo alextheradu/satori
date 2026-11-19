@@ -5761,5 +5761,90 @@
     ],
     "answer": 3,
     "explanation": "Sensor A’s errors sum to −3 + 2 + 1 = 0, so their signed average is zero even though none of its readings was exact. Sensor B’s constant positive error illustrates a bias that remains visible in the average."
+  },
+  {
+    "id": "rw-original-inference-110",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "The Sanborn Map Company sometimes updated published fire insurance maps by pasting correction slips onto the sheets. The Library of Congress describes a Chicago volume marked “1912–May 1950.” The first date identifies the original edition, while the second identifies the latest revision shown in the correction record. The slips allowed information to be revised without printing a new edition.",
+    "prompt": "Which inference about the Chicago volume is best supported by the text?",
+    "choices": [
+      "Every building pictured in the volume was constructed between 1912 and 1950.",
+      "A building depicted on a sheet from the volume may reflect a revision made after 1912.",
+      "The date 1950 gives the year the original sheets were printed.",
+      "The two dates refer to separate maps of the same buildings printed thirty-eight years apart."
+    ],
+    "answer": 1,
+    "explanation": "A sheet printed for the 1912 edition could later receive a correction slip. The dates identify the original edition and the latest revision of the volume, with no building construction dates specified."
+  },
+  {
+    "id": "rw-original-central-105",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "In this original poem, the speaker describes replacing a garden gate.\n\nI fitted new wood where the old boards fell\nand moved the brass latch one hand lower.\nThe child next door has been growing tall,\nbut her small brother comes by now.\nAt dusk I hear him lift the latch,\nthen call my name before he closes it.",
+    "prompt": "According to the poem, what change did the speaker make when replacing the gate?",
+    "choices": [
+      "The speaker painted the new wood a darker color.",
+      "The speaker placed the latch lower than it had been.",
+      "The speaker made the gate narrower than it had been.",
+      "The speaker replaced the brass latch with a wooden one."
+    ],
+    "answer": 1,
+    "explanation": "The second line says the latch moved one hand lower. The poem gives no change in color, width, or latch material."
+  },
+  {
+    "id": "rw-original-textual-105",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "The following text is from an original story. In the school’s shadow play, Celia was assigned to hold the paper bird above the lantern. She had practiced making its shadow sweep grandly across the curtain. On opening night, she saw Milo kneel to retrieve a fallen prop just behind the screen. Celia held the bird low so its shadow would cover the outline of his hand. After he slid back out of view, she let the bird rise.",
+    "prompt": "Which quotation most directly supports the claim that Celia changes the performance to keep a mishap from being visible?",
+    "choices": [
+      "She had practiced making its shadow sweep grandly across the curtain.",
+      "On opening night, she saw Milo kneel to retrieve a fallen prop just behind the screen.",
+      "Celia held the bird low so its shadow would cover the outline of his hand.",
+      "After he slid back out of view, she let the bird rise."
+    ],
+    "answer": 2,
+    "explanation": "The low position is the intentional adjustment, and the purpose clause explains what it hides. The other lines show the original plan, the mishap, or the later movement."
+  },
+  {
+    "id": "rw-original-inference-111",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In an original story, Rafi helps pack the contents of a café that is moving. He turns over six serving trays and finds a different number on the underside of each, from one through six. Along the counter stand six empty padded boxes bearing those same numbers. The trays and boxes look alike at a glance, but the trays vary slightly in width, and the boxes’ padding differs in thickness.",
+    "prompt": "What is most reasonably inferred about the purpose of the numbers?",
+    "choices": [
+      "They help the movers match each tray to the box prepared for it.",
+      "They record how many trays are meant to fit inside each box.",
+      "They allow customers to identify the ordering counter from across the café.",
+      "They show the number of times each tray has been used."
+    ],
+    "answer": 0,
+    "explanation": "Each tray number appears on one box, and slight differences in width and padding give the movers a reason to make the correct match."
+  },
+  {
+    "id": "rw-original-quantitative-023",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "A hypothetical exhibit can run either of two fans at constant power during a daily demonstration. The total energy a fan uses equals its power in watts multiplied by its running time in hours. A technician argues that choosing the fan with the lower wattage would increase the energy used each day under the proposed schedules.\n\n| Fan | Power (watts) | Hours per day |\n|---|---|---|\n| M | 80 | 4 |\n| N | 50 | 8 |",
+    "prompt": "Which choice uses the table to support the technician’s argument?",
+    "choices": [
+      "Fan N draws 30 fewer watts and uses 80 fewer watt-hours per day.",
+      "Fan N draws 30 fewer watts but uses 400 watt-hours per day, 80 more than Fan M.",
+      "Fan M runs four fewer hours per day but uses 80 more watt-hours.",
+      "Fan N uses 400 watt-hours per day, the same daily total as Fan M."
+    ],
+    "answer": 1,
+    "explanation": "Multiplying each wattage by its own running time gives 80 × 4 = 320 watt-hours for M and 50 × 8 = 400 for N. The difference is 80 watt-hours per day."
   }
 ]

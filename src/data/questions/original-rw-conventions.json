@@ -1358,5 +1358,39 @@
     ],
     "answer": 3,
     "explanation": "The introductory participial phrase describes the person doing the peering. The surveyor is therefore the appropriate grammatical subject; a tripod, its height, or an adjustment cannot peer through a scope."
+  },
+  {
+    "id": "rw-original-boundary-041",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "medium",
+    "passage": "In an original story, two neighbors inspect a cabinet they found at a market. “The cabinet will fit,” Mara ______ the hinges will need replacing.” Jules measures the cabinet to confirm her estimate.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "said, “Although",
+      "said. “Although",
+      "said, “although",
+      "said “although"
+    ],
+    "answer": 2,
+    "explanation": "Mara speaks one sentence whose dependent clause begins with although. The reporting clause interrupts the quotation, so it takes a comma after said and the continued quotation begins with lowercase although."
+  },
+  {
+    "id": "rw-original-form-041",
+    "section": "rw",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "hard",
+    "passage": "At a fictional workshop, volunteers were preparing to dismantle several window frames. To prevent a piece from going back into the wrong opening, the conservator directed that each volunteer ______ the parts with their location codes before removing them.",
+    "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "choices": [
+      "to label",
+      "labeling",
+      "having labeled",
+      "label"
+    ],
+    "answer": 3,
+    "explanation": "The directive uses a that-clause with the subject each volunteer and the base-form verb label. The infinitive and participial choices cannot serve as the verb of that clause."
   }
 ]

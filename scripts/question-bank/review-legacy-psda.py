@@ -13,6 +13,7 @@ from review_math_common import expression
 
 ROOT=Path(__file__).resolve().parents[2]
 QUESTIONS=json.loads((ROOT/'src/data/questions/m-psda-2.json').read_text())
+QUESTIONS+=json.loads((ROOT/'src/data/retired/m-psda-2.json').read_text())
 BY_ID={q['id']:q for q in QUESTIONS}
 x=s.Symbol('x',real=True)
 reviews=[]
@@ -217,6 +218,6 @@ interpreted(148,'Random country-wide sampling supports generalizing an associati
 assert len(reviews)==len(QUESTIONS)==48
 assert {row['id'] for row in reviews}==set(BY_ID)
 hashfile=lambda path:hashlib.sha256(path.read_bytes()).hexdigest()
-report={'scope':'48 original Problem-Solving and Data Analysis questions in m-psda-2.json only.','method':'Independent manually transcribed givens with exact arithmetic, weighted data, probability, model comparisons and reported uncertainty intervals. English choices and study-design features have explicit editorial interpretations; these are not automatically inferred from natural language.','engine':f'SymPy {s.__version__}','solverSha256':hashfile(Path(__file__)),'helperSha256':hashfile(Path(__file__).with_name('review_math_common.py')),'requirementsSha256':hashfile(ROOT/'scripts/question-bank/requirements-review.txt'),'questionsReviewed':len(reviews),'items':reviews}
+report={'scope':'48 original Problem-Solving and Data Analysis questions from m-psda-2.json across active and historical records.','method':'Independent manually transcribed givens with exact arithmetic, weighted data, probability, model comparisons and reported uncertainty intervals. English choices and study-design features have explicit editorial interpretations; these are not automatically inferred from natural language.','engine':f'SymPy {s.__version__}','solverSha256':hashfile(Path(__file__)),'helperSha256':hashfile(Path(__file__).with_name('review_math_common.py')),'requirementsSha256':hashfile(ROOT/'scripts/question-bank/requirements-review.txt'),'questionsReviewed':len(reviews),'items':reviews}
 (ROOT/'docs/legacy-psda-review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(f'Independently checked {len(reviews)} original PSDA questions; recorded calculations, editorial interpretations, and source hashes.')

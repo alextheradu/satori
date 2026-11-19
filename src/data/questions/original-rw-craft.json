@@ -6067,5 +6067,73 @@
     ],
     "answer": 0,
     "explanation": "Both texts report a benefit from distinct textures on a five-path map. Text 2 also reports that selective texturing worked better in the sixteen-path comparison, giving a reason to account for the number of paths."
+  },
+  {
+    "id": "rw-original-vocab-135",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "After exposure to ultraviolet light, the Hope Diamond gives off a red glow. In a study of blue diamonds, researchers compared both the colors of the emitted light and the _decay_ of the glow after the ultraviolet source was switched off. How quickly the light weakened helped distinguish individual diamonds.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Breakdown of the stone",
+      "Change in direction",
+      "Fading",
+      "Sudden appearance"
+    ],
+    "answer": 2,
+    "explanation": "The text explains that researchers tracked how quickly the emitted light weakened. The decay is the fading of that light."
+  },
+  {
+    "id": "rw-original-structure-115",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "Years after a sudden release of carbon dioxide from Lake Nyos in Cameroon in 1986, researchers documented ongoing replenishment of dissolved gas in its deep waters. A controlled project began removing gas in 2001. _The natural supply of carbon dioxide persisted while the project was removing it._ Researchers therefore assessed both the removal rate and the continuing input of gas when estimating how the lake’s gas content would change.",
+    "prompt": "Which choice best describes the function of the underlined sentence?",
+    "choices": [
+      "It identifies the exact process that initiated the sudden gas release in 1986.",
+      "It describes how the researchers measured the depth of the lake before removal began.",
+      "It establishes that removing gas necessarily increases the lake’s total gas content.",
+      "It explains why estimates of future gas levels had to account for ongoing replenishment as well as removal."
+    ],
+    "answer": 3,
+    "explanation": "The sentence identifies a second process affecting the amount of gas in the lake. Gas enters and leaves, so forecasting the amount requires accounting for both processes."
+  },
+  {
+    "id": "rw-original-vocab-136",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "In a fictional exhibition, visitors can run their fingers over a model of the carved doorway. Its rosettes are in _relief_. Their petals stand above the flat stone behind them, so a visitor can trace each petal’s outline by touch.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Projection from a surface",
+      "Freedom from distress",
+      "Replacement of a worker",
+      "Variation in color"
+    ],
+    "answer": 0,
+    "explanation": "The petals stand above their background, so relief describes a raised design that projects from a surface."
+  },
+  {
+    "id": "rw-original-cross-110",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "The texts describe a hypothetical community language program.\n\n**Text 1**\nA project records many speakers pronouncing the same list of words. Repeating a fixed prompt makes it possible to compare how speakers pronounce the same sounds across generations.\n\n**Text 2**\nA project instead records conversations among neighbors. Because speakers choose their own words, the collection reveals routines that readers of isolated examples seldom demonstrate, such as how they enter a conversation politely or disagree without interrupting.",
+    "prompt": "How would the author of Text 2 most likely respond to the approach described in Text 1?",
+    "choices": [
+      "A fixed list is suitable only if every generation pronounces each word identically.",
+      "Spontaneous conversation is preferable because it guarantees that every speaker will use the same vocabulary.",
+      "Recording isolated words directly reveals more about turn-taking than recording interactions does.",
+      "A fixed list can support comparisons of pronunciation, while spontaneous dialogue can document social uses of language that the list may miss."
+    ],
+    "answer": 3,
+    "explanation": "The two methods answer different questions. Text 1 values comparable pronunciations, while Text 2 identifies patterns of interaction that become available when people converse."
   }
 ]

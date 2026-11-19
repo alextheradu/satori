@@ -1,0 +1,629 @@
+{
+  "scope": "49 selected Problem-Solving and Data Analysis family candidates, including 17 retired overlaps.",
+  "method": "Exact models using manually transcribed givens, event counts, signed predictions, and bounded integer checks. All options and typed aliases were compared to the derived values.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "62cc3a01b4afda950bed4ef33fe7a3a2ba0534d9cb8a581e87e4e3e265aae47c",
+  "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "selectionSha256": "fb7bfc939243aba1d84d8502e9598c019a8996938c6647c593ca49339e024e93",
+  "questionsReviewed": 49,
+  "activeQuestionsReviewed": 32,
+  "items": [
+    {
+      "id": "m-gen-ratio-part-001",
+      "sourceSha256": "4b1bd6300bb7e0c95d4a8a153d7201ac987b24dbb3c93fbe186806bbd3adf9a8",
+      "model": "The red group occupies 8 of the 12 ratio parts.",
+      "derivedResult": "104",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-unit-rate-001",
+      "sourceSha256": "691c8304780e8ca416e8d7464ff31836733040c56b9040b8d350dbdc972c5272",
+      "model": "Scale the earlier output by the ratio of production times.",
+      "derivedResult": "920",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-speed-conversion-004",
+      "sourceSha256": "72c03f60815deeffc49ee19f3ae8ac19b82ef4204940e4b5e5763f2826a4fce0",
+      "model": "Convert the duration to seconds and multiply by meters per second.",
+      "derivedResult": "5040",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-density-004",
+      "sourceSha256": "fabed82094cbe50cb90673fe56b15d358da978213c16f2ffd8155f8801dc4b78",
+      "model": "The mass equation is 3 grams per cubic centimeter times the unknown volume.",
+      "derivedResult": "65",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-combined-rate-004",
+      "sourceSha256": "3f3542a950216cd61c251d544a6a75d4b39275e3ed9ed8b81930fb9b2bec6be8",
+      "model": "Solve the total delivered volume with both pumps running for the same time.",
+      "derivedResult": "17",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-percent-of-004",
+      "sourceSha256": "82072f0a445b266fb481a19a8adf870aa4ff3c79d3ed1444c937632a6daecab0",
+      "model": "Take exactly 70 hundredths of 960.",
+      "derivedResult": "672",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-reverse-percent-004",
+      "sourceSha256": "fb04f1e471ca95ff79469d78098f81fefa94dc93ceeedafa3f17e74391853bd9",
+      "model": "Find the original amount by solving the proportional equation.",
+      "derivedResult": "1600",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-discount-price-004",
+      "sourceSha256": "8a4b4194a753f211f07b9e81c9b6a4a0a232d1c26d0401ec4b806e09bd736a55",
+      "model": "Subtract the dollar amount of the discount from the original price.",
+      "derivedResult": "845",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-successive-percent-004",
+      "sourceSha256": "a6bc737ad8fd354f4da071185f5c8a63318e780d3c8763b958ef622a28107d7a",
+      "model": "Compute both dollar changes using their corresponding price bases.",
+      "derivedResult": "4324",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-percent-change-004",
+      "sourceSha256": "ac077c30a553062a0d991f21e7563d997091397643c7f19331a73bc61d219a97",
+      "model": "The final-to-initial ratio minus one is the proportional increase.",
+      "derivedResult": "75",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-mean-missing-004",
+      "sourceSha256": "60195b288e1edc750b33846888c13ced502fbf87a2959793dfb3c8b649500c34",
+      "model": "Solve the exact mean equation with the unknown fifth observation.",
+      "derivedResult": "32",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-median-unsorted-004",
+      "sourceSha256": "62f8e1d9b471c41aa55361f38896dc95cc4011437107aaf37208437c5cc483fc",
+      "model": "Sort all seven observations and return the fourth.",
+      "derivedResult": "41",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-weighted-mean-001",
+      "sourceSha256": "fb240e8a4116f2b259e563ca4b6b171959778b3f3664f54f8a581cd3e2697205",
+      "model": "Expand the frequencies into individual observations before averaging.",
+      "derivedResult": "178/13",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-mean-shift-001",
+      "sourceSha256": "8cfc585a7dce67b008a42eb25b1884ab70643a0e33f444e0529922fc0d6623df",
+      "model": "A translation adds the same constant to the mean by linearity, so the result is determined by the mean alone.",
+      "derivedResult": "62",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-frequency-median-001",
+      "sourceSha256": "8323db9429623d679fe4892e70f7513e6fffd5e757fb4f09e2eeee82ffb034f6",
+      "model": "Expand the frequency table and locate its middle observation.",
+      "derivedResult": "34",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-linear-prediction-004",
+      "sourceSha256": "fbd13749ee602ef3c82067620ba818c444e9ba801de1e4aafe8c4f5b6fa48cad",
+      "model": "Evaluate the model at the stated six hours.",
+      "derivedResult": "35",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-residual-004",
+      "sourceSha256": "8c82699f261028a046b07a2abdb2d918d49f06efa704da711cf6ca9bea762a67",
+      "model": "Take the signed difference of observed and predicted values at x=10.",
+      "derivedResult": "12",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-model-slope-004",
+      "sourceSha256": "b5a6a8e24e4b2430948f0ac31e335e305d0c1ade7b482bac80e2cb92d24b527e",
+      "model": "Interpolate the line, then compare its predictions one input unit apart.",
+      "derivedResult": "5",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-inverse-prediction-004",
+      "sourceSha256": "b8601783b2eb3ba062d3d174ae41ca8b7cdbf5aa43088cb7e47d6119d617c59b",
+      "model": "Invert the model for the required prediction of 195.",
+      "derivedResult": "37",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-probability-basic-004",
+      "sourceSha256": "21553728d66be72e48024e8dd9011a66b49dce1ef9501535b3fe93afe4edf633",
+      "model": "Count all equally likely counters, with red as the favorable event.",
+      "derivedResult": "7/18",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-conditional-table-004",
+      "sourceSha256": "bd55313ea6319e592e437ff01dc51e8bdb776babdfe996da69975138c7fc5606",
+      "model": "Use only the two cells in the art row as the conditional sample space.",
+      "derivedResult": "1/3",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-without-replacement-004",
+      "sourceSha256": "3fadc1dd57dc2fb7494de3aa8729f9decfe15454f4c512336057c586ee9b5a85",
+      "model": "Count every unordered pair of distinct counters and the pairs with two reds.",
+      "derivedResult": "3/11",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-probability-union-004",
+      "sourceSha256": "2310c3c3a1b95f26ff120007f23fe81828705b4596a28d6d7b2f49ca2dfeecde",
+      "model": "Count the disjoint categories of chess only, soccer only, and both.",
+      "derivedResult": "35/44",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-sample-estimate-004",
+      "sourceSha256": "1d970e8442dca0e374a328e04e1a9ad4226a3c85303ef84bcad63b11293852e4",
+      "model": "Multiply the proportion supporting the proposal in the random sample by the population size.",
+      "derivedResult": "1452",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-margin-interval-004",
+      "sourceSha256": "71c2cbbe7c26c98da9627d54a9a5a5378d5c943c07f58a8bc39841b8cde3bb4a",
+      "model": "The upper endpoint adds the margin in percentage points to the estimate.",
+      "derivedResult": "42",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-interval-width-001",
+      "sourceSha256": "a67786d7b9418fb3436e148059383b0247f2fd311dcfe839f34701cea85765e6",
+      "model": "Construct the two endpoints around the given center, then subtract.",
+      "derivedResult": "12",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-sample-size-margin-001",
+      "sourceSha256": "526ac2302f17aa0cd69334d8d6913f2dd89d2ba35cf59ba339d5ef348d7fa117",
+      "model": "Determine the constant in the inverse-square-root model from the original sample.",
+      "derivedResult": "15/2",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-combined-mean-group-size-004",
+      "sourceSha256": "8366e5e729e6000ce90f232a70821d125c1d1769845593bf72f334abfcf57cfb",
+      "model": "Solve the exact ratio of total measurement sum to total count.",
+      "derivedResult": "40",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-dilution-to-target-004",
+      "sourceSha256": "878744be31e3a3844cbae43fd1c444d6b7471c09b4b8a1b3f27da68ce75ca15c",
+      "model": "Conserve the salt amount while increasing the final volume by the added water.",
+      "derivedResult": "380",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-mean-zero-residual-intercept-004",
+      "sourceSha256": "81cdb826ba21ae389c74eb3e2d64c3ec7a4a3274e4c0a70c2c6efe3e3e0eb798",
+      "model": "Use the signed residuals of all three observations and require their average to vanish.",
+      "derivedResult": "15",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-bayes-two-groups-001",
+      "sourceSha256": "239019942a473c75dbd8f8984ffc23fec606e4c73820a4c920de0a898386d9fd",
+      "model": "Normalize the factory A passing share by the overall passing share.",
+      "derivedResult": "1/4",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-area-unit-density-001",
+      "sourceSha256": "d58f38a802114e752ca6442b4012d366b9f320544947104f9dd7ba953ec48e72",
+      "model": "Convert the given area to square meters before dividing the mass by that area.",
+      "derivedResult": "2000",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-reverse-two-price-changes-001",
+      "sourceSha256": "38878fd94c7908009cc1c121565657163e1384eb4ca7c3744b85edbeec6b6f48",
+      "model": "Apply both exact forward multipliers to the unknown original price and solve.",
+      "derivedResult": "5600",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-independent-at-least-one-004",
+      "sourceSha256": "6396f93d718befac81830a66c809e5c9fbbf9eca4b9887ae98f39f67705962c8",
+      "model": "Add the event probabilities and subtract their intersection, which factors by independence.",
+      "derivedResult": "7/25",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-conditional-count-from-percent-004",
+      "sourceSha256": "6f15c471845a54eb909a8a96d4a0e1271f016612cd5cbcf6523ddd04ee3b1f85",
+      "model": "Count the joint event with the train proportion and the conditional bicycle proportion.",
+      "derivedResult": "240",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-mean-after-removal-004",
+      "sourceSha256": "f0c4eaaef3d21c89b210dcb9563e2ed84ca5e671ca96149f928b08ae8e739b0d",
+      "model": "Use the sum and count of the remaining observations.",
+      "derivedResult": "129",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-mean-frequency-missing-count-004",
+      "sourceSha256": "9267c856ff86671332e70841efa659c11724f360ad644a49fd35a9f66c7664b5",
+      "model": "Solve the ratio including the unknown frequency in both numerator and denominator.",
+      "derivedResult": "7",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-model-unit-change-slope-004",
+      "sourceSha256": "43139a60e68c5fc16d0ce7441d1c3b6873871e70d0c358208fa6c5095d9f047a",
+      "model": "Compare converted distance predictions one minute apart.",
+      "derivedResult": "11/1000",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-interval-center-recovery-004",
+      "sourceSha256": "8ce43e1eab8685e62e151a4e3af0924885d4f1a060908c18bcb62fc8967f9174",
+      "model": "A symmetric interval has its center at the average of the endpoints.",
+      "derivedResult": "24",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-drain-refill-concentration-004",
+      "sourceSha256": "9645d00e12bc2e8a54483e3650224e3a5f371d49b13c8c12a9452c913ac6977e",
+      "model": "Infer the amount of original solution left after draining from the concentrate in the refilled tank.",
+      "derivedResult": "30",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-ratio-after-adding-one-group-001",
+      "sourceSha256": "305891e3fe25451b283dd9520ef0007d4c1292c1de29dbd48decf8392b4c8052",
+      "model": "Use a common scale for the original counts and solve the changed ratio.",
+      "derivedResult": "65",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-same-color-with-replacement-004",
+      "sourceSha256": "de28ea74bf8db08ddecad007203fdb2ab99b2af66a7412a89642011e821b1c67",
+      "model": "Count ordered pairs with the same color in two independent draws from the original bag.",
+      "derivedResult": "5/8",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-equal-distance-average-speed-001",
+      "sourceSha256": "27322618dc5a4b09b47625816e94bc7534b2f10ff65e2d5b0399da1466429c33",
+      "model": "Use a unit-length segment for each leg and divide total length by total time.",
+      "derivedResult": "20",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-changing-share-and-population-001",
+      "sourceSha256": "cc844b765d0965861c3911482d387414c779b4ff3bd56c3c7b142ea8518d9b4d",
+      "model": "Express both user counts as fractions of the original population before subtracting.",
+      "derivedResult": "38",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-negative-affine-standard-deviation-001",
+      "sourceSha256": "11e6bee1bc3a7d934f614d1a5371d3f661316b579b9da032a6672ac08081d22d",
+      "model": "Translations leave variance invariant and scaling multiplies it by the square of the scale.",
+      "derivedResult": "40",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-observed-value-from-model-residual-004",
+      "sourceSha256": "671809f8ff886dc42881b0054265029cb3e1472c2b42463dd80c0beca3e4dfa1",
+      "model": "Solve the signed residual equation for the observed output.",
+      "derivedResult": "35",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-stratified-population-count-estimate-004",
+      "sourceSha256": "a084a35deb35ee303e1ada3690802de3dfe6fa9c0e5fe8d508edc72931c8c384",
+      "model": "Apply each random-sample estimate to the population count of its own group.",
+      "derivedResult": "860",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-minimum-sample-for-margin-004",
+      "sourceSha256": "3084bd796cdef3f6e8b4e33e9c6853eab31693b480a387fddd40d4908bba6f06",
+      "model": "Invert the monotone square-root model. Check that the preceding integer still exceeds the target margin.",
+      "derivedResult": "8125",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-map-area-scale-conversion-004",
+      "sourceSha256": "f27b3967b7d35d37032e515e314e7430ab72b886f66510b2d78def562c86261c",
+      "model": "Each square centimeter on the map represents a square 10 meters on a side.",
+      "derivedResult": "1300",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    }
+  ]
+}

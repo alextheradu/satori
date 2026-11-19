@@ -3,8 +3,8 @@
   "maximumActivePerFamily": 1,
   "candidatesPerFamily": 64,
   "duplicatesRemoved": 26,
-  "archivedTotal": 11622,
-  "total": 154,
+  "archivedTotal": 11641,
+  "total": 135,
   "families": [
     {
       "family": "distribute",
@@ -550,11 +550,19 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Ratios, rates, proportional relationships, and units",
       "difficulty": "easy",
-      "questions": 1,
-      "representative": "m-gen-unit-rate-001",
+      "questions": 0,
+      "representative": "m-psda-102",
       "reviewCandidate": "m-gen-unit-rate-001",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "unit-rate",
+        "candidateQuestionId": "m-gen-unit-rate-001",
+        "candidateSha256": "691c8304780e8ca416e8d7464ff31836733040c56b9040b8d350dbdc972c5272",
+        "retainedQuestionId": "m-psda-102",
+        "retainedSha256": "1c70abbb333d86d5180fd4bf64661b0a2144ebb3d22dcda5e49421df3369376d",
+        "reason": "Both recover a machine’s constant output per minute from one run and multiply by a new duration in minutes."
+      }
     },
     {
       "family": "speed-conversion",
@@ -594,11 +602,19 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "easy",
-      "questions": 1,
-      "representative": "m-gen-percent-of-004",
+      "questions": 0,
+      "representative": "m-psda-108",
       "reviewCandidate": "m-gen-percent-of-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "percent-of",
+        "candidateQuestionId": "m-gen-percent-of-004",
+        "candidateSha256": "82072f0a445b266fb481a19a8adf870aa4ff3c79d3ed1444c937632a6daecab0",
+        "retainedQuestionId": "m-psda-108",
+        "retainedSha256": "de240d24f5eaa539d5c0142e2428b280f2f816217f668ee9f7d231facacd1a19",
+        "reason": "Both directly compute a given percentage of a specified total."
+      }
     },
     {
       "family": "reverse-percent",
@@ -616,11 +632,19 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "easy",
-      "questions": 1,
-      "representative": "m-gen-discount-price-004",
+      "questions": 0,
+      "representative": "m-psda-004",
       "reviewCandidate": "m-gen-discount-price-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "discount-price",
+        "candidateQuestionId": "m-gen-discount-price-004",
+        "candidateSha256": "8a4b4194a753f211f07b9e81c9b6a4a0a232d1c26d0401ec4b806e09bd736a55",
+        "retainedQuestionId": "m-psda-004",
+        "retainedSha256": "6acd56540973ffc343ce165aec2b19805aaf670440c3e06e6160c337a572137f",
+        "reason": "Both multiply an original price by the fraction remaining after one stated percentage discount."
+      }
     },
     {
       "family": "successive-percent",
@@ -638,44 +662,76 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-percent-change-004",
+      "questions": 0,
+      "representative": "m-psda-110",
       "reviewCandidate": "m-gen-percent-change-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "percent-change",
+        "candidateQuestionId": "m-gen-percent-change-004",
+        "candidateSha256": "ac077c30a553062a0d991f21e7563d997091397643c7f19331a73bc61d219a97",
+        "retainedQuestionId": "m-psda-110",
+        "retainedSha256": "233c671b2b4111d9298ca8f4669a5a35c19aabb6e2bb94edd4a67326773b4754",
+        "reason": "Both compute a percentage increase from the original value and the larger final value."
+      }
     },
     {
       "family": "mean-missing",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-mean-missing-004",
+      "questions": 0,
+      "representative": "m-psda-008",
       "reviewCandidate": "m-gen-mean-missing-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "mean-missing",
+        "candidateQuestionId": "m-gen-mean-missing-004",
+        "candidateSha256": "60195b288e1edc750b33846888c13ced502fbf87a2959793dfb3c8b649500c34",
+        "retainedQuestionId": "m-psda-008",
+        "retainedSha256": "e4f93ebc61f02fa896b8f1c4664252d0a77d4c84ce6c40ad10a4bc4fa63f6acc",
+        "reason": "Both infer the missing or added observation by subtracting the known subtotal from the total implied by the new mean and count."
+      }
     },
     {
       "family": "median-unsorted",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "easy",
-      "questions": 1,
-      "representative": "m-gen-median-unsorted-004",
+      "questions": 0,
+      "representative": "m-psda-115",
       "reviewCandidate": "m-gen-median-unsorted-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "median-unsorted",
+        "candidateQuestionId": "m-gen-median-unsorted-004",
+        "candidateSha256": "62f8e1d9b471c41aa55361f38896dc95cc4011437107aaf37208437c5cc483fc",
+        "retainedQuestionId": "m-psda-115",
+        "retainedSha256": "cdd6e8ef5d6453d0c8247f4d0e3ca2b3161416d8daf9e4be59d75bfc99991b95",
+        "reason": "Both sort seven given observations and report the fourth value as the median."
+      }
     },
     {
       "family": "weighted-mean",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-weighted-mean-001",
+      "questions": 0,
+      "representative": "m-psda-119",
       "reviewCandidate": "m-gen-weighted-mean-001",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "weighted-mean",
+        "candidateQuestionId": "m-gen-weighted-mean-001",
+        "candidateSha256": "fb240e8a4116f2b259e563ca4b6b171959778b3f3664f54f8a581cd3e2697205",
+        "retainedQuestionId": "m-psda-119",
+        "retainedSha256": "72775b2625e072e25e2ba5dd910dc3056e99950a4dba0cff6b44de0c54f42f17",
+        "reason": "Both compute a mean using given value frequencies and divide by the total frequency."
+      }
     },
     {
       "family": "mean-shift",
@@ -704,33 +760,57 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Two-variable data: models and scatterplots",
       "difficulty": "easy",
-      "questions": 1,
-      "representative": "m-gen-linear-prediction-004",
+      "questions": 0,
+      "representative": "m-psda-123",
       "reviewCandidate": "m-gen-linear-prediction-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "linear-prediction",
+        "candidateQuestionId": "m-gen-linear-prediction-004",
+        "candidateSha256": "fbd13749ee602ef3c82067620ba818c444e9ba801de1e4aafe8c4f5b6fa48cad",
+        "retainedQuestionId": "m-psda-123",
+        "retainedSha256": "ce54ac010babb5ddcfb7b9597d51fea119cb5a2f4a15eae26025133bd3a97cca",
+        "reason": "Both evaluate a given affine practice-time score model at a specified time."
+      }
     },
     {
       "family": "residual",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Two-variable data: models and scatterplots",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-residual-004",
+      "questions": 0,
+      "representative": "m-psda-127",
       "reviewCandidate": "m-gen-residual-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "residual",
+        "candidateQuestionId": "m-gen-residual-004",
+        "candidateSha256": "8c82699f261028a046b07a2abdb2d918d49f06efa704da711cf6ca9bea762a67",
+        "retainedQuestionId": "m-psda-127",
+        "retainedSha256": "935b9b8f4486b95d1bff54c7a6e9a30070b9fc10a4e08023e80d77f70221b7c2",
+        "reason": "Both evaluate an explicitly given affine prediction at one observed input and subtract the prediction from the observed output."
+      }
     },
     {
       "family": "model-slope",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Two-variable data: models and scatterplots",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-model-slope-004",
+      "questions": 0,
+      "representative": "m-gen-slope-points-004",
       "reviewCandidate": "m-gen-model-slope-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "model-slope",
+        "candidateQuestionId": "m-gen-model-slope-004",
+        "candidateSha256": "b5a6a8e24e4b2430948f0ac31e335e305d0c1ade7b482bac80e2cb92d24b527e",
+        "retainedQuestionId": "m-gen-slope-points-004",
+        "retainedSha256": "d3b644d73441485d083037839ea029e40ba9957514b8e6e2e67f0ef62ab40fa3",
+        "reason": "Both compute the change in y per unit change in x from two given points on the same line."
+      }
     },
     {
       "family": "inverse-prediction",
@@ -748,22 +828,38 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
       "difficulty": "easy",
-      "questions": 1,
-      "representative": "m-gen-probability-basic-004",
+      "questions": 0,
+      "representative": "m-psda-130",
       "reviewCandidate": "m-gen-probability-basic-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "probability-basic",
+        "candidateQuestionId": "m-gen-probability-basic-004",
+        "candidateSha256": "21553728d66be72e48024e8dd9011a66b49dce1ef9501535b3fe93afe4edf633",
+        "retainedQuestionId": "m-psda-130",
+        "retainedSha256": "ff605630fd687921f00c0a3c3d962a3477f750b28854739d7c6732e602e86901",
+        "reason": "Both divide the count of one color by the total count of three colors for one random draw."
+      }
     },
     {
       "family": "conditional-table",
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-conditional-table-004",
+      "questions": 0,
+      "representative": "m-psda-132",
       "reviewCandidate": "m-gen-conditional-table-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "conditional-table",
+        "candidateQuestionId": "m-gen-conditional-table-004",
+        "candidateSha256": "bd55313ea6319e592e437ff01dc51e8bdb776babdfe996da69975138c7fc5606",
+        "retainedQuestionId": "m-psda-132",
+        "retainedSha256": "4aa11cbee73af7156f4ed6b5aef8a65472e637e1b73bc712aa53b412babc1620",
+        "reason": "Both restrict a contingency table to a given row and divide one cell count by that row total."
+      }
     },
     {
       "family": "without-replacement",
@@ -792,11 +888,19 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Inference from sample statistics and margin of error",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-sample-estimate-004",
+      "questions": 0,
+      "representative": "m-psda-137",
       "reviewCandidate": "m-gen-sample-estimate-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "sample-estimate",
+        "candidateQuestionId": "m-gen-sample-estimate-004",
+        "candidateSha256": "1d970e8442dca0e374a328e04e1a9ad4226a3c85303ef84bcad63b11293852e4",
+        "retainedQuestionId": "m-psda-137",
+        "retainedSha256": "b30880f79a8945454067c66546ffdbc2bbcdc567c714309669dc99a51ec7025b",
+        "reason": "Both scale the fraction of sampled units with a trait by the known population size to estimate a population count."
+      }
     },
     {
       "family": "margin-interval",
@@ -1465,11 +1569,19 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "One-variable data: distributions and measures of center and spread",
       "difficulty": "hard",
-      "questions": 1,
-      "representative": "m-gen-combined-mean-group-size-004",
+      "questions": 0,
+      "representative": "m-psda-121",
       "reviewCandidate": "m-gen-combined-mean-group-size-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "combined-mean-group-size",
+        "candidateQuestionId": "m-gen-combined-mean-group-size-004",
+        "candidateSha256": "8366e5e729e6000ce90f232a70821d125c1d1769845593bf72f334abfcf57cfb",
+        "retainedQuestionId": "m-psda-121",
+        "retainedSha256": "0dd4de3cfc4411a7c773d280dedd48aa24d3f0ca242a9e6015e619a34d57bc7c",
+        "reason": "Both solve for the size of the second group given both group means, the first group’s size, and the combined mean."
+      }
     },
     {
       "family": "dilution-to-target",
@@ -1498,11 +1610,19 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Probability and conditional probability",
       "difficulty": "hard",
-      "questions": 1,
-      "representative": "m-gen-bayes-two-groups-001",
+      "questions": 0,
+      "representative": "m-psda-134",
       "reviewCandidate": "m-gen-bayes-two-groups-001",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "bayes-two-groups",
+        "candidateQuestionId": "m-gen-bayes-two-groups-001",
+        "candidateSha256": "239019942a473c75dbd8f8984ffc23fec606e4c73820a4c920de0a898386d9fd",
+        "retainedQuestionId": "m-psda-134",
+        "retainedSha256": "d683fe9af59d3a808fd928f07cb2d04305d6de3f8d64d01f2a4c19a4125b8488",
+        "reason": "Both multiply group shares by their outcome rates and divide one group’s joint share by the total outcome share to reverse the conditioning."
+      }
     },
     {
       "family": "area-unit-density",
@@ -1520,11 +1640,19 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Percentages",
       "difficulty": "hard",
-      "questions": 1,
-      "representative": "m-gen-reverse-two-price-changes-001",
+      "questions": 0,
+      "representative": "m-psda-005",
       "reviewCandidate": "m-gen-reverse-two-price-changes-001",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "reverse-two-price-changes",
+        "candidateQuestionId": "m-gen-reverse-two-price-changes-001",
+        "candidateSha256": "38878fd94c7908009cc1c121565657163e1384eb4ca7c3744b85edbeec6b6f48",
+        "retainedQuestionId": "m-psda-005",
+        "retainedSha256": "459decb2503f434e651f2874e1df0c381285757dea55a11aaf74c72e522376aa",
+        "reason": "Both recover an initial amount from the exact final amount by reversing one percentage increase and one percentage decrease."
+      }
     },
     {
       "family": "tiered-usage-fee",
@@ -1816,11 +1944,19 @@
       "domain": "Problem-Solving and Data Analysis",
       "skill": "Ratios, rates, proportional relationships, and units",
       "difficulty": "hard",
-      "questions": 1,
-      "representative": "m-gen-ratio-after-adding-one-group-001",
+      "questions": 0,
+      "representative": "m-psda-107",
       "reviewCandidate": "m-gen-ratio-after-adding-one-group-001",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "ratio-after-adding-one-group",
+        "candidateQuestionId": "m-gen-ratio-after-adding-one-group-001",
+        "candidateSha256": "305891e3fe25451b283dd9520ef0007d4c1292c1de29dbd48decf8392b4c8052",
+        "retainedQuestionId": "m-psda-107",
+        "retainedSha256": "b2c470edd06904170b99c90d8359a661c02d21138dc0e3c8fd61c59437da7ec4",
+        "reason": "Both recover the unchanged first group size from the initial ratio, the final ratio, and the number added only to the second group."
+      }
     },
     {
       "family": "hypotenuse-altitude",
@@ -2220,22 +2356,38 @@
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-same-side-interior-angle-parameter-004",
+      "questions": 0,
+      "representative": "m-geo-006",
       "reviewCandidate": "m-gen-same-side-interior-angle-parameter-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "same-side-interior-angle-parameter",
+        "candidateQuestionId": "m-gen-same-side-interior-angle-parameter-004",
+        "candidateSha256": "b5a648a503fe6e4c558ae749d20b6f86479a72d0b28cf0688eecc72107cb6f35",
+        "retainedQuestionId": "m-geo-006",
+        "retainedSha256": "58c46b727b85e36836e835fd4e0d9338720f1580c732976ca150dcf3fdc6cee8",
+        "reason": "Both add two affine expressions for same-side interior angles between parallel lines, set the sum equal to 180 degrees, and solve for the parameter."
+      }
     },
     {
       "family": "similar-cone-cut-volume",
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "hard",
-      "questions": 1,
-      "representative": "m-gen-similar-cone-cut-volume-004",
+      "questions": 0,
+      "representative": "m-gen-truncated-cone-volume-004",
       "reviewCandidate": "m-gen-similar-cone-cut-volume-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "similar-cone-cut-volume",
+        "candidateQuestionId": "m-gen-similar-cone-cut-volume-004",
+        "candidateSha256": "8d7bb015ae4943eb4be4ebf96167596eb64bc1b56bdff83c4fe0bb9797972faa",
+        "retainedQuestionId": "m-gen-truncated-cone-volume-004",
+        "retainedSha256": "8df7d11dab4071e3cdc2c5788ee8c2448901af1ce19f42511dbdd48ec0e278ef",
+        "reason": "Both find the volume left after removing the tip from a cone by cubing the linear scale of the smaller similar cone and subtracting its volume."
+      }
     },
     {
       "family": "cylinder-radius-two-measures",

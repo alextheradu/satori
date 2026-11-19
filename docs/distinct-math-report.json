@@ -1,13 +1,13 @@
 {
   "provenance": "Individually authored SAT-style math questions; one question per authored structure, with no numerical or context-swapping variants. Skill reuse is not a claim of entirely new mathematical concepts.",
-  "total": 28,
+  "total": 38,
   "domains": {
-    "Algebra": 4,
-    "Advanced Math": 8,
-    "Problem-Solving and Data Analysis": 7,
-    "Geometry and Trigonometry": 9
+    "Algebra": 6,
+    "Advanced Math": 10,
+    "Problem-Solving and Data Analysis": 9,
+    "Geometry and Trigonometry": 13
   },
-  "studentProducedResponses": 6,
+  "studentProducedResponses": 9,
   "independentReview": "docs/distinct-math-review.json; scripts/question-bank/review-distinct-math.py",
   "retirements": [
     {

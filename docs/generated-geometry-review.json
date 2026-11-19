@@ -1,0 +1,598 @@
+{
+  "scope": "45 selected Geometry and Trigonometry family candidates, including 12 retired overlaps.",
+  "method": "Independently transcribed givens and exact models using coordinates, symbolic constraints, areas and volumes, and angle relationships. Every mathematical option and typed alias is checked.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "e503ffe9261a38e92229cc269a132f1c1d2b26ef3aed7eba4bfa5151cf385399",
+  "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "selectionSha256": "fe620837d6a28d2ce0b7850e0061ecfd3ce9fd88e3828c03ac1d9c7c28096a8b",
+  "questionsReviewed": 45,
+  "activeQuestionsReviewed": 33,
+  "items": [
+    {
+      "id": "m-gen-rectangle-area-001",
+      "sourceSha256": "d8e53868a7a15e83fe81de4da250b732834550b0ff3d8abbe464a54ec94e768e",
+      "model": "Evaluate the area of a coordinate rectangle with the stated dimensions.",
+      "derivedResult": "1116",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-triangle-area-004",
+      "sourceSha256": "58b80fa69ec170f2c13630390ece507f489641502870857b9e7e64498fcba377",
+      "model": "Place the base on an axis and take the stated perpendicular height. Horizontal placement of the apex does not affect area.",
+      "derivedResult": "184",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-prism-height-004",
+      "sourceSha256": "7ac277c70849966c4d1cf6ba6157a9e743112d2563ae17b654c6423d43eb5554",
+      "model": "Equate the base area times the unknown height to the given volume.",
+      "derivedResult": "3",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-cylinder-volume-004",
+      "sourceSha256": "327c280a1d8de4150cb296056e577dcce06a5824212569a3d281d625b6bc1cf8",
+      "model": "Integrate a constant cross-sectional area coefficient over the height.",
+      "derivedResult": "7225",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-cone-volume-004",
+      "sourceSha256": "d86ce7c5be3a87fbe7fd25b01140265c82f09caffac7b6628c08034efa4a0e66",
+      "model": "Use horizontal circular sections whose radii grow linearly from the tip.",
+      "derivedResult": "128",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-scale-volume-004",
+      "sourceSha256": "50c428b212821009c06615a13d30a8734d99d00dfd93fe2b5710aa38734e03f8",
+      "model": "Uniform scaling changes volume by the determinant of the three-dimensional dilation.",
+      "derivedResult": "7128",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-triangle-angle-004",
+      "sourceSha256": "e0630892f8ce8fd5426d1b9b68b8c4321728e8b95a074435c8df7a4502ff41c2",
+      "model": "Subtract the two stated interior angles from the triangle angle sum.",
+      "derivedResult": "81",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-exterior-angle-004",
+      "sourceSha256": "322a3dad1819af0acb1e21d06c951dff3254dccef2424de9996c4a7e1d0523fc",
+      "model": "Find the adjacent interior angle from the linear pair and subtract the known interior angles from 180.",
+      "derivedResult": "57",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-isosceles-angle-004",
+      "sourceSha256": "b951623fbd530a935b88ed3e4c386c3500658be66f3731b82280b6dedd6dc5e2",
+      "model": "The vertex angle and two base angles together sum to 180.",
+      "derivedResult": "116",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-similar-side-004",
+      "sourceSha256": "fd8b6126f4b0d89ad28fab7a6a4193ec240c9e1110c24a36cf2d3b8ae76cb15d",
+      "model": "Scale the side corresponding to BC by the ratio DE to AB.",
+      "derivedResult": "160",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-parallel-angle-004",
+      "sourceSha256": "0705b91d0b2bf5c29058254e8cbe90bce1f066d55cee01d318f2c3512eef117a",
+      "model": "The transversal makes equal corresponding angles on parallel lines.",
+      "derivedResult": "8",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-pythagorean-leg-001",
+      "sourceSha256": "a3254e07038ecd4e4e4a2b8e906d158122afa6106d2f8a9bc4015e63eccaa894",
+      "model": "Use the positive root of the squared-distance constraint.",
+      "derivedResult": "360",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-sine-ratio-001",
+      "sourceSha256": "d7463263913759a7cc31a1e220af7ecee71fc9276e65d0d85b36cc76f72238a8",
+      "model": "The given lengths form a right triangle. Divide the opposite length by the hypotenuse.",
+      "derivedResult": "7/25",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-tangent-side-001",
+      "sourceSha256": "a2130162eba90fe834ea91969d45571fab3aade26d72dcc60ee466a1cb59e6dc",
+      "model": "The ray describing the hypotenuse has slope equal to the tangent, so its run of 96 gives the rise.",
+      "derivedResult": "96",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-special-triangle-004",
+      "sourceSha256": "9af581fd4de3f34503668a7f669ed6b4c707c2dd7f1b0559f9b00e56603ab2e3",
+      "model": "Project the hypotenuse onto the leg opposite the 30 degree angle.",
+      "derivedResult": "8",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-circle-area-004",
+      "sourceSha256": "db4478e108dd3a496aafe8c8536266cff95af917351133da317c8693f023eb20",
+      "model": "Use the diameter to construct its circle and evaluate the area coefficient.",
+      "derivedResult": "100",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-circle-radius-equation-004",
+      "sourceSha256": "86ca54d0ee058ce7a2924ae0d7f5c87de47963ab45bf73a1cacb38bb1427fce5",
+      "model": "In center-radius form the right side is the squared positive radius.",
+      "derivedResult": "10",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-circle-complete-square-004",
+      "sourceSha256": "5abd40306a4f0a194d8dd95a00d1e9cca7531e9a9bf7a98712bbd43b181f9c70",
+      "model": "Locate the center as the minimum of the expanded distance polynomial, then recover its radius from the level set.",
+      "derivedResult": "21",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-arc-length-004",
+      "sourceSha256": "7c11e92392f903079dd6a51bf6a2249cc16b28ae050a5e93aadbdce827a2421c",
+      "model": "Multiply the radius by the central angle expressed in radians and remove the requested pi factor.",
+      "derivedResult": "9",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-sector-area-004",
+      "sourceSha256": "4d596fb24f70872f33fa74860dd18ce788fa1a5eed112e6069c4e97be5ad6431",
+      "model": "Take the angular fraction of the whole circular area coefficient.",
+      "derivedResult": "375/4",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-radians-004",
+      "sourceSha256": "a95ec2c3623312688cd7b775d234cbe2898fd2c66b75ab9ff6b7ab17487403a9",
+      "model": "Count revolutions, then multiply by 2 pi radians per revolution.",
+      "derivedResult": "10/3",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-chord-distance-001",
+      "sourceSha256": "3cf9daa47ed01ff4f230dae6e3874f9ece991804e3251f1320de159b00abfd6a",
+      "model": "Place the chord horizontally with endpoints at x=±48. Intersect the circle with x=48 to recover the positive level of that chord.",
+      "derivedResult": "20",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-tangent-segment-004",
+      "sourceSha256": "c157c80204ddfaa8879ed1b552ffceee94d20e09c14f23e2b4cdd02729c17c66",
+      "model": "Use orthogonality of the radius and the tangent segment at their contact.",
+      "derivedResult": "270",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-circle-axis-tangency-004",
+      "sourceSha256": "2563ce0f4108eae3c8eea45eace9d4673b1f83818db36f57eef3939b9c13ec47",
+      "model": "Set y=0 and require one double intersection of the resulting quadratic with the axis.",
+      "derivedResult": "289",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-inscribed-angle-004",
+      "sourceSha256": "38a2c3117d42c65b4c1b95a59222c3e8ef7eef7afb5b6fb27adfcfd486a05043",
+      "model": "The inscribed angle subtends half the measure of the same intercepted arc.",
+      "derivedResult": "53",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-complementary-trig-parameter-004",
+      "sourceSha256": "9a2ba9c751336c726e70a16590d33567d34c35f095370e6f99a73b0f01343c20",
+      "model": "Cosine of an acute angle equals sine of its complement, and sine is injective on acute angles.",
+      "derivedResult": "4",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-similar-area-to-side-004",
+      "sourceSha256": "f8d888c8f3c7689d5f529eb5002e4a1e90946777028f52837f1f65785c1fd12f",
+      "model": "Take the positive square root of the ratio of the areas to obtain the side scale.",
+      "derivedResult": "64",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-truncated-cone-volume-004",
+      "sourceSha256": "8df7d11dab4071e3cdc2c5788ee8c2448901af1ce19f42511dbdd48ec0e278ef",
+      "model": "Integrate the square of the cross-section radius over the original height and subtract the tip integral.",
+      "derivedResult": "7936",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-sphere-area-to-volume-ratio-004",
+      "sourceSha256": "550619ccfc0261c96cf43b4cd40a826b9d77f1e078c6bb21dab91e588fcf2e47",
+      "model": "Recover the radius from the surface area and use a cross-sectional volume integral.",
+      "derivedResult": "68/3",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-hypotenuse-altitude-001",
+      "sourceSha256": "1b6a7c99123f9fdd363dbba2c96cf8789b245e8c8a076bea762ac24aa5bba1ed",
+      "model": "The altitude is the perpendicular distance from the right-angle vertex to the hypotenuse line.",
+      "derivedResult": "2400",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-similar-perimeter-difference-001",
+      "sourceSha256": "5842ff9fa3a8b7a929d44dad3e5079786133d4ba07165886207c079329020097",
+      "model": "Write the smaller perimeter as seven eighths of the larger and impose the difference.",
+      "derivedResult": "120",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-regular-polygon-perimeter-004",
+      "sourceSha256": "510af9e199df1932ca34d5ce0d4af05e38a44b78a5f295c191975fb198dd3d32",
+      "model": "Use the interior angle sum of a polygon to derive the number of sides.",
+      "derivedResult": "81",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-annulus-outer-radius-004",
+      "sourceSha256": "eace037552780f7ac7cd1d9f058f6b79978f589c5ca93aafc369039dcbfe8165",
+      "model": "The difference of disk areas determines the positive outer radius.",
+      "derivedResult": "29",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-sphere-inscribed-cube-004",
+      "sourceSha256": "6b967d66cc6ad05a70a363361a6953ff76c05aa89097e6bcf345b6c95c326262",
+      "model": "Recover the sphere radius and use the distance between opposite tangent faces of the cube.",
+      "derivedResult": "160",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-equal-volume-cone-cylinder-004",
+      "sourceSha256": "ef728bb3fc4e87b2bf6ea637b5a890e35032764b7b9e7550ce8ff58985bff092",
+      "model": "Equate the two volumes after canceling the common pi factor.",
+      "derivedResult": "72",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-sector-perimeter-radius-004",
+      "sourceSha256": "1774757cfae1aca3f54ae3746d6ff6a305cc3144324c8e9e0e085bf319e870af",
+      "model": "Use two radial segments and the 30 degree arc to form the perimeter.",
+      "derivedResult": "37",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-cyclic-opposite-angle-parameter-004",
+      "sourceSha256": "8f617f81cacc5bd9aed1e803e51b8aa15da01cade856dbca6e872b36b08e0433",
+      "model": "Opposite inscribed angles intercept arcs with total measure 360, so their measures sum to 180.",
+      "derivedResult": "10",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-rectangle-in-circle-perimeter-004",
+      "sourceSha256": "49e4a16ab6727a998eec943b365437f86eda9cdbf8de2a93838565d50e817085",
+      "model": "Use the given aspect ratio and the circle diameter as the diagonal, then compute the perimeter.",
+      "derivedResult": "408",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-inscribed-square-from-circle-area-004",
+      "sourceSha256": "63ffaf2c1f3fbc547527bc68b230ecea6c4f2ea8d67c349249d47f4b0346cbe8",
+      "model": "Put the square vertices at the four cardinal points of the circle and evaluate its area.",
+      "derivedResult": "5832",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-right-triangle-area-from-tangent-004",
+      "sourceSha256": "0ec8bfd6c7bcbbfb6578647cfd4f6fba95381621ac07e346b05afd9b30ab2756",
+      "model": "Use the hypotenuse and leg ratio to recover both legs, then compute the area.",
+      "derivedResult": "486",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-same-side-interior-angle-parameter-004",
+      "sourceSha256": "b5a648a503fe6e4c558ae749d20b6f86479a72d0b28cf0688eecc72107cb6f35",
+      "model": "Same-side interior angles of parallel lines are supplementary.",
+      "derivedResult": "5",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-similar-cone-cut-volume-004",
+      "sourceSha256": "8d7bb015ae4943eb4be4ebf96167596eb64bc1b56bdff83c4fe0bb9797972faa",
+      "model": "Use the cube of the tip-to-original height ratio to get the removed share.",
+      "derivedResult": "112",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-cylinder-radius-two-measures-004",
+      "sourceSha256": "5f35c757accf6a04b9c6c15b1f4cb7f95a24b7bb253759d22437cb1365b5801c",
+      "model": "Solve the exact volume and lateral area constraints for positive radius and height.",
+      "derivedResult": "19",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-nested-similar-triangle-side-001",
+      "sourceSha256": "932c9cda79c7696ecba16b21e3f4123f445015541c86dbb7abc5ee0e68b4d0cc",
+      "model": "Use the full side AB to scale the parallel segment DE back to the large triangle.",
+      "derivedResult": "90",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-two-tangents-minor-arc-001",
+      "sourceSha256": "99f4fda9a7955e9c9b2d4eeead2f8bc35f1d6c9abfa9d224ca23c9e7c3b819cb",
+      "model": "Two perpendicular tangencies determine two angles of the quadrilateral with the center and the exterior point.",
+      "derivedResult": "118",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    }
+  ]
+}

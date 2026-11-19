@@ -1,20 +1,20 @@
 # Question bank expansion and practice sources
 
-The app contains **1,773 active questions**. Each declared generated family or task pattern contributes at most one active representative. Existing questions cover 31 reviewed overlaps. Another **14,128 records** preserve saved attempts and review. Difficulty labels are editorial estimates. Broader correctness and semantic-repeat review remains open.
+The app contains **1,776 active questions**. Each declared generated family or task pattern contributes at most one active representative. Existing questions cover 48 reviewed overlaps. Another **14,145 records** preserve saved attempts and review. Difficulty labels are editorial estimates. Broader correctness and semantic-repeat review remains open.
 
 | Active material | Count | What the count represents |
 |---|---:|---|
 | Existing questions | 512 | Original bank retained with stable IDs |
-| Math family representatives | 154 | Active generated items, with 30 overlaps covered by existing questions |
+| Math family representatives | 137 | Active generated items, with 47 overlaps covered by existing questions |
 | Conceptual statistics | 88 | Individually written questions about study design, inference, and spread |
-| Individually written math | 28 | Active individually written items, all independently reviewed |
-| Individually written Reading and Writing | 936 | Distinct authored stimuli across all 11 skills, including 48 questions with cited public-domain literary excerpts |
+| Individually written math | 34 | Active individually written items, all independently reviewed |
+| Individually written Reading and Writing | 950 | Distinct authored stimuli across all 11 skills, including 48 questions with cited public-domain literary excerpts |
 | Table-evidence representatives | 15 | Active generated items, with one overlap covered by an existing question |
 | Grammar representatives | 24 | One active item per controlled rule pattern |
 | Expression of Ideas representatives | 16 | One active item per declared rhetorical task pattern |
-| Total | **1,773** | Questions available in new automatically selected practice and tests |
+| Total | **1,776** | Questions available in new automatically selected practice and tests |
 
-The generated sets supply 209 active representatives and 14,127 historical versions. Historical IDs and keys remain available in `src/data/retired/`, which also contains one retired authored overlap. The archive includes 26 equivalent math records restored for saved attempts after earlier fingerprint filtering omitted them. The 936 individually authored Reading and Writing additions include 888 original passages or contexts and 48 public-domain excerpts. Passages identify invented people, institutions, studies, and stories as fictional or hypothetical.
+The generated sets supply 192 active representatives and 14,144 historical versions. Historical IDs and keys remain available in `src/data/retired/`, which also contains one retired authored overlap. The archive includes 26 equivalent math records restored for saved attempts after earlier fingerprint filtering omitted them. The 950 individually authored Reading and Writing additions include 902 original passages or contexts and 48 public-domain excerpts. Passages identify invented people, institutions, studies, and stories as fictional or hypothetical.
 
 The family policy removes known repeated generation patterns; it does not claim that every remaining question is conceptually unrelated to all others. Reusing a SAT skill is expected. Cross-family and individually authored overlaps still require editorial review.
 
@@ -22,14 +22,14 @@ The family policy removes known repeated generation patterns; it does not claim 
 
 | Section | Domain | Questions |
 |---|---|---:|
-| Math | Algebra | 101 |
-| Math | Advanced Math | 109 |
-| Math | Problem-Solving and Data Analysis | 208 |
-| Math | Geometry and Trigonometry | 108 |
-| Reading and Writing | Craft and Structure | 421 |
-| Reading and Writing | Information and Ideas | 418 |
-| Reading and Writing | Expression of Ideas | 238 |
-| Reading and Writing | Standard English Conventions | 170 |
+| Math | Algebra | 102 |
+| Math | Advanced Math | 110 |
+| Math | Problem-Solving and Data Analysis | 192 |
+| Math | Geometry and Trigonometry | 111 |
+| Reading and Writing | Craft and Structure | 425 |
+| Reading and Writing | Information and Ideas | 423 |
+| Reading and Writing | Expression of Ideas | 241 |
+| Reading and Writing | Standard English Conventions | 172 |
 
 All 19 math skills and all 11 Reading and Writing skills used by this bank receive new questions. Family count measures distinct templates rather than skill count.
 
@@ -41,7 +41,7 @@ All 19 math skills and all 11 Reading and Writing skills used by this bank recei
 - `npm run questions:runtime`, after building, loads the actual production bank, checks it against the source JSON, exercises the app's grader, renders every question's text using the app's markup component, checks table and blank rendering, and exercises balanced module selection with exclusions for both sections and all three difficulty routes, including skill balance within each domain.
 - `npm run questions:spr` checks the typed-answer grader against College Board's published accepted/rejected examples and regressions for large fractional answers. Both answer-entry screens enforce five characters for positive entries and six including a minus sign for negative entries.
 - `npm run questions:audit` refreshes `docs/question-format-audit.json`; validation checks that the report is current and that its format/repeat screens have no findings. Repeat checks normalize math spacing and supported integer quadratic zero equations in expanded, factored, and squared-linear form, including missing terms and nonzero integer scale factors, as well as whitespace. Word and variable case are preserved. Regression cases ensure that different targets and case-sensitive variables are not incorrectly merged. This is not a complete semantic-equivalence detector.
-- Validation checks source hashes in nine math review manifests against 375 reviewed records, their solvers, the shared mathematical parser where used, and the pinned dependency. Reviews cover all 256 original math questions, 28 active authored additions, one retired authored item, 41 selected Algebra candidates, and 49 selected Advanced Math candidates. These include all 101 active Algebra and all 109 active Advanced Math questions.
+- Validation checks source hashes in ten math review manifests against 430 reviewed records, their solvers, the shared mathematical parser where used, and the pinned dependency. Reviews cover all 256 original math questions, 34 active authored additions, one retired authored item, and 139 generated candidates in Algebra, Advanced Math, and Data Analysis. These include all 102 active Algebra and all 110 active Advanced Math questions.
 - The four generation reports identify each active representative and its candidate and archived counts. Grammar checks validate controlled head numbers, choice-construction tags, completed blanks, distinct choices, and unique stimuli. The table generator checks numeric assertions and authored relevance classifications. [Family retirement totals](family-retirement-report.json)
 
 Automated checks do not replace an independent editorial review of passage interpretation, distractor quality, or difficulty. They do check mathematical consistency, integration, and structural/rendering correctness.
@@ -131,7 +131,7 @@ Publisher pages were checked on **2026-11-18–19**. External questions are link
 | [SAT Math Practice monthly sampler](https://satmathpractice.com/free-questions) | 12 public questions, three per Math domain, with choice and typed responses | Public set with scoring/explanations after completion; broader account features separate |
 | [Brighterly Math assessment](https://brighterly.com/math-test/sat-math-practice-test/) | 15 original multiple-choice questions across Math domains | Public short unofficial assessment rather than a full Math section |
 
-Publisher pages provide the resource descriptions and collection sizes. The app's 1,773-question total counts only bundled practice items. Free-test offers and account requirements can change.
+Publisher pages provide the resource descriptions and collection sizes. The app's 1,776-question total counts only bundled practice items. Free-test offers and account requirements can change.
 
 ## Historical batch notes
 
@@ -366,12 +366,37 @@ Eight new math problems use independently written constraints. They cover a sum 
 
 Eight new Reading and Writing questions use original passages across five skills. Each keyed choice and distractor was reviewed against its stimulus. The table questions use timing overlap to explain a shorter sequence and distinguish cancellation in signed error from accuracy in individual readings. [Authored Reading and Writing source](../scripts/question-bank/reading-measurement.mjs)
 
-Ten generated Geometry and Trigonometry representatives repeated older tasks. A generated Reading and Writing table-evidence item also repeated an existing math problem about the effect of unequal task counts on pooled success rates. Each overlap record gives the shared method and binds both question records by hash. The production bank retains all 11 IDs for historical review. The active bank has 526 Math and 1,247 Reading and Writing questions. [Documented overlap decisions](../scripts/question-bank/family-overlaps.json)
+Ten generated Geometry and Trigonometry representatives repeated older tasks. A generated Reading and Writing table-evidence item also repeated an existing math problem about the effect of unequal task counts on pooled success rates. Each overlap record gives the shared method and binds both question records by hash. The production bank retains all 11 IDs for historical review. This batch left 526 active Math questions and 1,247 active Reading and Writing questions. [Documented overlap decisions](../scripts/question-bank/family-overlaps.json)
 
 Reproduce the exact reviews in the pinned environment.
 
 ```sh
 /tmp/satori-symbolic-review/bin/python scripts/question-bank/review-generated-advanced.py
+/tmp/satori-symbolic-review/bin/python scripts/question-bank/review-distinct-math.py
+node scripts/question-bank/check-editorial-reviews.mjs
+```
+
+## Data Analysis review and 20 new questions
+
+The selected Problem-Solving and Data Analysis candidates now have 49 independent exact models. These check all keyed responses and distractors, including conditional event counts, signed residuals, and the minimum sample-size boundary. The overlap audit moved 17 selected questions to historical lookup, so 32 of the reviewed candidates remain active. The bank preserves the original content and keys of all 17. [Exact review](generated-psda-review.json), [overlap decisions](../scripts/question-bank/family-overlaps.json)
+
+Six new authored math questions cover an absolute-value constraint on a linear function, an equally spaced set of cubic roots, two angles of elevation, externally tangent circles sharing a line, the shortest path across hinged panels, and a quartile range determined by a difference of two observations. All six keys passed independent exact checks. [Authored math review](distinct-math-review.json)
+
+Fourteen new Reading and Writing questions use four fact-checked passages and ten fictional or hypothetical passages. The answer review evaluated all alternatives in context. It also matched each quotation against the original passage and recomputed the table’s fan-energy totals as 320 and 400 watt-hours. [Reading and Writing items](../scripts/question-bank/reading-source-review.mjs)
+
+| Question | Source |
+|---|---|
+| `rw-original-synthesis-081` | [NASA Viking 1](https://science.nasa.gov/mission/viking-1/) and [NASA Viking 2](https://science.nasa.gov/mission/viking-2/) |
+| `rw-original-inference-110` | [Library of Congress guidance on corrected Sanborn editions](https://guides.loc.gov/fire-insurance-maps/sanborn-interpreting) |
+| `rw-original-vocab-135` | [Eaton-Magaña and colleagues’ blue-diamond study](https://www.si.edu/object/using-phosphorescence-fingerprint-hope-and-other-blue-diamonds%3Aslasro_21408) and [Penn State account by the researchers’ institution](https://www.psu.edu/news/research/story/hope-diamonds-phosphorescence-key-fingerprinting) |
+| `rw-original-structure-115` | [USGS record of the Lake Nyos and Lake Monoun degassing study](https://pubs.usgs.gov/publication/70027642) |
+
+The existing item `rw-ei-003` now names the published authors and describes the association between noise and song frequency. The answer remains the researchers’ proposed masking mechanism, with the original ID and keyed choice position preserved. [Derryberry and colleagues’ published study](https://doi.org/10.1371/journal.pone.0154456)
+
+Reproduce the exact reviews in the pinned symbolic environment.
+
+```sh
+/tmp/satori-symbolic-review/bin/python scripts/question-bank/review-generated-psda.py
 /tmp/satori-symbolic-review/bin/python scripts/question-bank/review-distinct-math.py
 node scripts/question-bank/check-editorial-reviews.mjs
 ```

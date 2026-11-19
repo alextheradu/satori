@@ -121,18 +121,6 @@
     "explanation": "$0.35(260) = 91$. Choice C is $65\\%$ of 260, and choice A misplaces the decimal point."
   },
   {
-    "id": "m-psda-109",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "easy",
-    "prompt": "A middle school has 400 students. Of these students, 18% walk to school. How many students at the school walk to school?",
-    "answer": [
-      "72"
-    ],
-    "explanation": "$18\\%$ of 400 is $0.18(400) = 72$."
-  },
-  {
     "id": "m-psda-110",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -187,22 +175,6 @@
       "60"
     ],
     "explanation": "$x = 1.5y$ and $y = 0.4z$, so $x = 1.5(0.4z) = 0.6z$. Thus $x$ is $60\\%$ of $z$."
-  },
-  {
-    "id": "m-psda-114",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Percentages",
-    "difficulty": "hard",
-    "prompt": "A store sets the regular price of a jacket by increasing the wholesale cost by 60%. During a sale, the regular price is reduced by 25%, and the sale price of the jacket is 96 dollars. What is the wholesale cost of the jacket, in dollars?",
-    "choices": [
-      "76.8",
-      "80",
-      "96",
-      "115.2"
-    ],
-    "answer": 1,
-    "explanation": "If the wholesale cost is $c$, the sale price is $c(1.6)(0.75) = 1.2c$. So $1.2c = 96$ and $c = 80$. Choice A treats the overall change as a $20\\%$ decrease from 96, and choice D multiplies 96 by 1.2."
   },
   {
     "id": "m-psda-115",
@@ -476,20 +448,6 @@
     "explanation": "Restrict to the 120 engineering employees, 24 of whom bicycle: $\\frac{24}{120} = \\frac{1}{5}$. Choice A divides by all 200 employees, and choice D gives the probability that a bicycle commuter is in engineering."
   },
   {
-    "id": "m-psda-133",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Probability and conditional probability",
-    "difficulty": "medium",
-    "prompt": "The table summarizes the favorite sport of 160 students.\n\n| Grade | Soccer | Basketball | Tennis | Total |\n|---|---|---|---|---|\n| Grade 10 | 28 | 22 | 14 | 64 |\n| Grade 11 | 36 | 30 | 30 | 96 |\n| Total | 64 | 52 | 44 | 160 |\n\nIf a student whose favorite sport is soccer is selected at random, what is the probability that the student is in grade 10?",
-    "answer": [
-      "7/16",
-      ".4375",
-      "0.4375"
-    ],
-    "explanation": "There are $28 + 36 = 64$ students whose favorite sport is soccer, and 28 of them are in grade 10. The probability is $\\frac{28}{64} = \\frac{7}{16}$."
-  },
-  {
     "id": "m-psda-134",
     "section": "math",
     "domain": "Problem-Solving and Data Analysis",
@@ -596,22 +554,6 @@
     ],
     "answer": 3,
     "explanation": "The plausible values for Field 1 are 40.7 to 44.3 cm, and for Field 2 are 43.9 to 46.3 cm. These intervals overlap (for example, 44 cm is plausible for both), so the population means could be equal. The estimates do not establish which mean is greater or by exactly how much, and they say nothing about individual plants."
-  },
-  {
-    "id": "m-psda-141",
-    "section": "math",
-    "domain": "Problem-Solving and Data Analysis",
-    "skill": "Inference from sample statistics and margin of error",
-    "difficulty": "hard",
-    "prompt": "A researcher surveyed a random sample of 900 adults in a state and found that 10% of them own an electric vehicle. The associated margin of error is 2 percentage points. Which of the following is the most appropriate conclusion?",
-    "choices": [
-      "It is plausible that between 8% and 12% of all adults in the state own an electric vehicle.",
-      "The proportion of adults in the sample who own an electric vehicle is unknown and could be any value from 8% to 12%.",
-      "Exactly 10% of all adults in the state own an electric vehicle.",
-      "Between 8% and 12% of all adults in the country own an electric vehicle."
-    ],
-    "answer": 0,
-    "explanation": "The margin of error describes uncertainty about the population proportion: plausible values are $10\\% \\pm 2\\%$, or 8% to 12% of all adults in the state. The sample proportion is already known to be 10%; the margin of error does not make it an unknown value between 8% and 12%. The population value is not known exactly, and the sample was drawn only from the state, not the whole country."
   },
   {
     "id": "m-psda-142",

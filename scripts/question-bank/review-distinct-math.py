@@ -160,9 +160,80 @@ finish(28,'Enumerate every sorted insertion position for a nonnegative input, so
 observed=s.solve([y-(2*x+8)+4,y-(5*x-7)-5],(x,y))
 finish(29,'Impose both signed residual equations on the same observed ordered pair and solve them simultaneously.',s.Tuple(observed[x],observed[y]))
 
-assert len(reviews)==len(questions)==29
+slope, intercept = s.symbols('m b', real=True)
+function = slope*x + intercept
+constraints = [
+    function.subs(x,-2)**2 - function.subs(x,4)**2,
+    function.subs(x,7) + 18,
+]
+solutions = [pair for pair in s.solve(constraints, (slope,intercept)) if pair[0] < 0]
+assert len(solutions)==1
+finish(30,'Solve the squared magnitude equality and the given output simultaneously, retaining the negative slope.',function.subs(dict(zip((slope,intercept),solutions[0]))).subs(x,-3))
+
+spacing = s.Symbol('d', positive=True)
+middle = s.solve((x-spacing)+x+(x+spacing)-12,x)[0]
+gap = s.solve((middle-spacing)*middle*(middle+spacing)-48,spacing)
+assert len(gap)==1
+roots = [middle-gap[0],middle,middle+gap[0]]
+monic_cubic = s.Poly(s.prod(x-root for root in roots),x)
+finish(31,'Recover the root progression from its sum and product, then multiply the monic linear factors to obtain the requested coefficient.',monic_cubic.coeff_monomial(x))
+
+height = s.Symbol('h', positive=True)
+pole = s.solve([height-s.Rational(3,4)*x,height-s.Rational(1,2)*(30-x)],(x,height))
+assert 0 < pole[x] < 30
+finish(32,'Locate the pole along segment AB by solving both specified slope ratios simultaneously.',pole[height])
+
+offset = s.Symbol('u', positive=True)
+separation = s.Point(0,4).distance(s.Point(offset,9))
+finish(33,'Put the common tangent at y=0 and solve for the positive horizontal offset of two externally tangent circle centers.',s.solve(separation-13,offset)[0])
+
+hinge = s.Symbol('z', real=True)
+cable = s.sqrt(5**2+hinge**2)+s.sqrt(4**2+(12-hinge)**2)
+crossings = s.solveset(s.diff(cable,hinge),hinge,domain=s.Interval(0,12))
+assert len(crossings)==1
+shortest_cable = min(cable.subs(hinge,z) for z in [0,12,*crossings])
+finish(34,'Parameterize the hinge crossing height, minimize the sum of the two within-panel distances, and compare with the endpoints.',shortest_cable)
+
+p,q = s.symbols('p q', real=True)
+lower_four, upper_four = [2,3,p,8], [12,q,17,20]
+quartile_range = (sum(upper_four[1:3]) - sum(lower_four[1:3])) / 2
+possible_p = s.Intersection(s.Interval(3,8),s.Interval(12-7,17-7))
+assert possible_p == s.Interval(5,8)
+finish(35,'Use the specified order statistics of the two four-value halves, check that feasible p and q exist, and substitute q=p+7.',s.simplify(quartile_range.subs(q,p+7)))
+
+a,b = s.symbols('a b', real=True)
+swapped_slope = s.cancel((a-b)/(b-a))
+assert swapped_slope == -1
+line_through_known_point = 9 + swapped_slope*(x-4)
+finish(36,'Use a ≠ b to obtain the slope from the two swapped coordinates, then write the line through (4,9). On this line the ordinate at x=a is b.',s.simplify(a+line_through_known_point.subs(x,a)))
+
+branches = [
+    (s.Interval(-s.oo,2), (2-x)+2*(7-x)),
+    (s.Interval(2,7), (x-2)+2*(7-x)),
+    (s.Interval(7,s.oo), (x-2)+2*(x-7)),
+]
+assert [s.diff(formula,x) for _,formula in branches] == [-3,-1,3]
+weighted_distance = s.Abs(x-2)+2*s.Abs(x-7)
+minimum = min(weighted_distance.subs(x,point) for point in [2,7])
+finish(37,'Check the slopes on the three intervals split by the absolute-value breakpoints, then compare the values at the finite boundaries.',minimum)
+
+radius = s.Symbol('r', positive=True)
+hypotenuse = s.Line((9,0),(0,12))
+distance = hypotenuse.distance(s.Point(radius,radius))
+inradius = [
+    value for value in s.solve(s.expand(distance**2-radius**2),radius)
+    if 0 < value < s.Rational(36,7) and distance.subs(radius,value) == value
+]
+assert len(inradius) == 1
+finish(38,'Place the two legs along the axes, so the center is (r,r). Solve for equality with the distance to the hypotenuse, keeping the center inside the triangle.',inradius[0])
+
+admissible = [(first,second) for first in range(1,6) for second in range(1,6) if first != second and first+second>6]
+includes_five = sum(5 in pair for pair in admissible)
+finish(39,'Count the equally likely ordered draws in the conditioned sample space and the subset that contains 5.',s.Rational(includes_five,len(admissible)))
+
+assert len(reviews)==len(questions)==39
 assert {row['id'] for row in reviews}==set(by_id)
 hashfile=lambda path:hashlib.sha256(path.read_bytes()).hexdigest()
-report={'scope':'28 active individually authored math questions and one retired question preserved for historical attempts.','method':'Fresh exact models of all prompt constraints, symbolic solutions and comparison of every option. English choices and geometric descriptions are translated into mathematical statements editorially; the program does not infer diagrams or natural language automatically.','engine':f'SymPy {s.__version__}','solverSha256':hashfile(Path(__file__)),'helperSha256':hashfile(Path(__file__).with_name('review_math_common.py')),'requirementsSha256':hashfile(ROOT/'scripts/question-bank/requirements-review.txt'),'questionsReviewed':len(reviews),'activeQuestionsReviewed':len(questions)-len(archived),'archivedQuestionsReviewed':len(archived),'items':reviews}
+report={'scope':'38 active individually authored math questions and one retired question preserved for historical attempts.','method':'Fresh exact models of all prompt constraints, symbolic solutions and comparison of every option. English choices and geometric descriptions are translated into mathematical statements editorially; the program does not infer diagrams or natural language automatically.','engine':f'SymPy {s.__version__}','solverSha256':hashfile(Path(__file__)),'helperSha256':hashfile(Path(__file__).with_name('review_math_common.py')),'requirementsSha256':hashfile(ROOT/'scripts/question-bank/requirements-review.txt'),'questionsReviewed':len(reviews),'activeQuestionsReviewed':len(questions)-len(archived),'archivedQuestionsReviewed':len(archived),'items':reviews}
 (ROOT/'docs/distinct-math-review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(f'Independently checked {len(reviews)} authored math records, including {len(archived)} retired item; every option and typed answer passed.')

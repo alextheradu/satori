@@ -130,6 +130,48 @@ add(D,'Two-variable data: models and scatterplots','hard',
  '$(2,8)$',['$(2,12)$','$(5,14)$','$(8,20)$'],
  'The observed $y$ is $2x+8-4$ under the first residual calculation and $5x-7+5$ under the second. Thus $2x+4=5x-2$, so $x=2$ and the observed $y$ is $8$. The predictions are $12$ and $3$, giving residuals $8-12=-4$ and $8-3=5$.')
 
+add(A,'Linear functions','hard',
+ 'The linear function $f$ has a negative slope and satisfies $|f(-2)|=|f(4)|$. If $f(7)=-18$, what is $f(-3)$?',
+ '$12$',['$-12$','$18$','$30$'],
+ 'A nonconstant linear function takes different values at $-2$ and $4$. Equal magnitudes therefore make those values opposites. At the midpoint $x=1$, the output is $0$. From $(1,0)$ to $(7,-18)$, the slope is $-3$, so $f(-3)=-3(-3-1)=12$.')
+add(N,'Equivalent expressions','hard',
+ 'A monic cubic polynomial has three distinct real roots, with equal spacing between consecutive roots. The sum of its roots is $12$, and its constant term is $-48$. What is the coefficient of $x$?',
+ '$44$',['$12$','$32$','$48$'],
+ 'The middle root is $12/3=4$. Write the roots as $4-d$, $4$, and $4+d$, with $d>0$. Their product is $48$, since the constant term of the monic cubic is the negative of the product. Thus $4(16-d^2)=48$, giving $d=2$. In $(x-2)(x-4)(x-6)$, the coefficient of $x$ is $2(4)+2(6)+4(6)=44$.')
+add(G,'Right triangles and trigonometry','hard',
+ 'A vertical light pole stands on level ground between points $A$ and $B$. Its base lies on segment $\\overline{AB}$, which is $30$ meters long. The tangents of the angles of elevation to the top of the pole from $A$ and $B$ are $\\frac{3}{4}$ and $\\frac{1}{2}$, respectively. How tall is the pole, in meters?',
+ ['9'],null,
+ 'Let $h$ be the height. Tangent is height over horizontal distance, so the two distances from the points to the base are $4h/3$ and $2h$. Since the base is between the points, their sum is $30$. Solving $(4/3+2)h=30$ gives $h=9$.')
+add(G,'Circles','medium',
+ 'Two circles with radii $4$ and $9$ are tangent to each other externally. Both are also tangent to the same straight line and lie on the same side of that line. What is the distance between the two points where the circles touch the line?',
+ '$12$',['$5$','$13$','$\\sqrt{65}$'],
+ 'The centers lie $4$ and $9$ units perpendicularly from the line, so their perpendicular separation is $5$. External tangency makes the center-to-center distance $4+9=13$. The separation along the line is the other leg of a right triangle with hypotenuse $13$ and one leg $5$. Its length is $\\sqrt{13^2-5^2}=12$.')
+add(G,'Right triangles and trigonometry','hard',
+ 'Two vertical rectangular panels are hinged along a common vertical edge. Each panel is $12$ meters tall. The panels have widths of $5$ and $4$ meters. A cable runs along the panel surfaces from the lower corner of the wider panel farthest from the hinge to the upper corner of the narrower panel farthest from the hinge. What is the shortest possible cable length, in meters?',
+ ['15'],null,
+ 'Unfold the two panels into a flat rectangle. Length along the surfaces is preserved, and the start and end are opposite corners of a rectangle of width $5+4=9$ and height $12$. Its diagonal crosses the hinge segment and has length $\\sqrt{9^2+12^2}=15$, the shortest distance in the unfolded rectangle.')
+add(D,'One-variable data: distributions and measures of center and spread','hard',
+ 'A data set has values $2,3,p,8,10,12,q,17,20$ listed in nondecreasing order, where $q-p=7$. For this question, the lower quartile is the median of the first four values, and the upper quartile is the median of the last four values. What is the interquartile range, or upper quartile minus lower quartile, of this data set?',
+ '$10.5$',['$7$','$14$','$21$'],
+ 'The lower quartile is $(3+p)/2$, and the upper quartile is $(q+17)/2$. Subtracting gives $(q-p+14)/2=(7+14)/2=10.5$. Only the difference $q-p$ is needed.')
+
+add(A,'Linear equations in two variables','medium',
+ 'A line in the $xy$-plane passes through the distinct points $(a,b)$ and $(b,a)$. It also passes through $(4,9)$. What is the value of $a+b$?',
+ ['13'],null,
+ 'Both $(a,b)$ and $(b,a)$ satisfy the equation $x+y=a+b$. The two distinct points determine a unique line, so the line has that equation. Substituting $(4,9)$ gives $a+b=4+9=13$.')
+add(N,'Nonlinear functions','medium',
+ 'The function $f$ is defined for every real number $x$ by $f(x)=|x-2|+2|x-7|$. What is the minimum value of $f(x)$?',
+ '$5$',['$0$','$7.5$','$10$'],
+ 'The total distance $|x-2|+|x-7|$ is at least the distance between $2$ and $7$, which is $5$. The remaining term $|x-7|$ is nonnegative. At $x=7$, the first two distances sum to $5$ and the remaining term is $0$, so the lower bound is attained.')
+add(G,'Circles','hard',
+ 'A circle inside a right triangle is tangent to all three sides of the triangle. The triangle’s legs have lengths $9$ and $12$. What is the radius of the circle?',
+ '$3$',['$4.5$','$6$','$7.5$'],
+ 'The hypotenuse is $15$, and the triangle’s area is $54$. Joining the circle’s center to the three vertices partitions the triangle into three smaller triangles. Each has height $r$, the perpendicular distance from the center to its base, and their bases have lengths $9$, $12$, and $15$. Thus $54=\\frac{1}{2}(9+12+15)r$, so $r=3$.')
+add(D,'Probability and conditional probability','hard',
+ 'Five tokens are labeled $1$, $2$, $3$, $4$, and $5$, with one token per label. Two tokens are selected at random without replacement. Given that the sum of their labels is greater than $6$, what is the probability that one of the tokens is labeled $5$?',
+ '$\\frac{3}{4}$',['$\\frac{2}{5}$','$\\frac{1}{2}$','$\\frac{4}{5}$'],
+ 'The equally likely unordered pairs whose labels sum to more than $6$ are $(2,5)$, $(3,4)$, $(3,5)$, and $(4,5)$. Three of these four pairs include the token labeled $5$. The conditional probability is therefore $3/4$.')
+
 const allQuestions=rows.map((row,index)=>{
  const {correct,wrong,...content}=row
  const q={id:`m-original-distinct-${String(index+1).padStart(3,'0')}`,section:'math',...content}

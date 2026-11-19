@@ -14,6 +14,7 @@ from review_math_common import expression,solution_choice
 ROOT=Path(__file__).resolve().parents[2]
 FILES=['math-alg-adv','math-psda-geo']
 SOURCES={name:json.loads((ROOT/f'src/data/questions/{name}.json').read_text()) for name in FILES}
+SOURCES['math-psda-geo']+=json.loads((ROOT/'src/data/retired/math-psda-geo.json').read_text())
 QUESTIONS=[q for rows in SOURCES.values() for q in rows]
 BY_ID={q['id']:q for q in QUESTIONS}
 symbols={name:s.Symbol(name,real=True) for name in 'xyabskmpqnt'}
@@ -225,6 +226,6 @@ for filename in FILES:
     ids={q['id'] for q in SOURCES[filename]}
     items=[row for row in reviews if row['id'] in ids]
     assert len(items)==32
-    report={'scope':f'32 original math questions in {filename}.json only.','method':'Fresh manually transcribed givens, exact arithmetic and symbolic comparisons of every mathematical option and typed answer. English interpretations, geometry and study-design implications are specified editorially; the program does not automatically understand all natural-language givens.','engine':f'SymPy {s.__version__}','solverSha256':hashfile(Path(__file__)),'helperSha256':hashfile(Path(__file__).with_name('review_math_common.py')),'requirementsSha256':hashfile(ROOT/'scripts/question-bank/requirements-review.txt'),'questionsReviewed':len(items),'items':items}
+    report={'scope':f'32 original math questions from {filename}.json across active and historical records.','method':'Fresh manually transcribed givens, exact arithmetic and symbolic comparisons of every mathematical option and typed answer. English interpretations, geometry and study-design implications are specified editorially; the program does not automatically understand all natural-language givens.','engine':f'SymPy {s.__version__}','solverSha256':hashfile(Path(__file__)),'helperSha256':hashfile(Path(__file__).with_name('review_math_common.py')),'requirementsSha256':hashfile(ROOT/'scripts/question-bank/requirements-review.txt'),'questionsReviewed':len(items),'items':items}
     (ROOT/f'docs/legacy-initial-{filename}-review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print('Independently checked all 64 initial legacy math questions and wrote two source-bound review manifests.')
