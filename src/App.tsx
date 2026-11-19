@@ -10,7 +10,6 @@ const TestRunner = lazy(() => import('@/pages/TestRunner'))
 const TestResult = lazy(() => import('@/pages/TestResult'))
 const Review = lazy(() => import('@/pages/Review'))
 const Reference = lazy(() => import('@/pages/Reference'))
-const DataPage = lazy(() => import('@/pages/DataPage'))
 const NotFound = lazy(() => import('@/pages/NotFound'))
 
 export default function App() {
@@ -29,7 +28,6 @@ export default function App() {
           <Route path="tests/:id" element={<TestResult />} />
           <Route path="review" element={<Review />} />
           <Route path="reference" element={<Reference />} />
-          <Route path="data" element={<DataPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

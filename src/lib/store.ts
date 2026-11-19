@@ -341,27 +341,10 @@ export function saveTest(rec: TestRecord, list: Attempt[], rev?: number) {
   enqueue({ method: 'POST', path: '/tests', body: { test: rec, attempts: list, rev } })
 }
 
-export function exportData(): string {
-  const { attempts, bookmarks, tests } = state
-  return JSON.stringify({ app: 'satori', version: 2, exportedAt: new Date().toISOString(), attempts, bookmarks, tests }, null, 2)
-}
-
 async function importPayload(p: { attempts: Attempt[]; bookmarks: string[]; tests: TestRecord[] }) {
   await api('/import', { method: 'POST', body: JSON.stringify({ attempts: p.attempts, bookmarks: p.bookmarks, tests: p.tests }) })
   const data = await api<Pick<StoreState, 'attempts' | 'bookmarks' | 'tests' | 'active'>>('/state')
   setState((s) => ({ ...s, ...data }))
-}
-
-/** Restore a downloaded backup into the account (merges). */
-export async function importData(json: string) {
-  let parsed: { attempts?: Attempt[]; bookmarks?: string[]; tests?: TestRecord[] }
-  try {
-    parsed = JSON.parse(json)
-  } catch {
-    throw new Error('That file is not valid JSON.')
-  }
-  if (!Array.isArray(parsed?.attempts) || !Array.isArray(parsed?.tests)) throw new Error('That file does not look like a Satori backup.')
-  await importPayload({ attempts: parsed.attempts, bookmarks: parsed.bookmarks ?? [], tests: parsed.tests })
 }
 
 /** Move progress saved by the old browser-only version into the account. */

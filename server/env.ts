@@ -16,7 +16,7 @@ export const env = {
     issuer: (process.env.HCA_ISSUER ?? 'https://auth.hackclub.com').replace(/\/$/, ''),
     clientId: required('HCA_CLIENT_ID'),
     clientSecret: required('HCA_CLIENT_SECRET'),
-    scopes: process.env.HCA_SCOPES ?? 'openid profile email',
+    scopes: process.env.HCA_SCOPES ?? 'openid profile email slack_id',
     /** Hack Club Auth's docs don't mention PKCE; enable once confirmed. */
     usePkce: process.env.HCA_USE_PKCE === 'true',
   },

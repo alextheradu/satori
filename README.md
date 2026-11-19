@@ -10,7 +10,7 @@ Digital SAT practice platform. Sign in with **Hack Club Auth**; progress is stor
 - **Results**: estimated 200–800 section scores, domain breakdown, per-question review.
 - **Home**: score estimate, accuracy by domain, streak, weakest skills.
 - **Review**: missed / saved / full history.
-- **Backup**: download progress as JSON, merge a backup into your account, reset.
+- **Account**: profile picture from your Hack Club Slack (via Cachet), reset progress from the account menu.
 - 6,296 original SAT-style questions covering every Digital SAT domain and skill, with KaTeX math. Includes 5,632 numerical math variants from 88 problem families, 128 additional Reading and Writing questions, and 24 additional conceptual statistics questions. Light/dark themes.
 
 Score estimates are rough approximations, not official College Board scoring.
@@ -89,7 +89,7 @@ Create a *Compose* service pointing at `docker-compose.yml` (app + `postgres:18`
 | `APP_URL` | yes | `http://localhost:5173` | Public URL; must match the redirect URI host. `https://` enables secure `__Host-` cookies |
 | `HCA_CLIENT_ID` / `HCA_CLIENT_SECRET` | yes | | From Hack Club Auth |
 | `HCA_ISSUER` | no | `https://auth.hackclub.com` | |
-| `HCA_SCOPES` | no | `openid profile email` | |
+| `HCA_SCOPES` | no | `openid profile email slack_id` | `slack_id` powers profile pictures; enable it on your HCA app |
 | `HCA_USE_PKCE` | no | `false` | Hack Club Auth's docs don't mention PKCE; turn on once confirmed |
 | `PORT` | no | `3000` | |
 | `SESSION_DAYS` | no | `30` | |
