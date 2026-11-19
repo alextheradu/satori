@@ -22,7 +22,8 @@ reviews=[]
 def finish(number,model,result,predicate=None,interpretations=None):
     q=by_id[f'm-original-distinct-{number:03}']
     if 'choices' in q:
-        if predicate is None:predicate=lambda value:s.simplify(value-result)==0
+        if predicate is None:
+            predicate=lambda value:value==result if isinstance(result,s.Tuple) else s.simplify(value-result)==0
         if interpretations is not None:assert set(interpretations)==set(q['choices']),q['id']
         flags=[bool(predicate(interpretations[z] if interpretations is not None else expression(z,symbols))) for z in q['choices']]
         assert sum(flags)==1 and flags[q['answer']],(q['id'],flags)
@@ -105,9 +106,63 @@ vertex=s.Point(2*1-(-2),2*4-1)
 area=s.Polygon(s.Point(-2,1),s.Point(6,1),vertex).area
 finish(21,'Recover C from the given midpoint and A, then compute the coordinate triangle area.',abs(area))
 
-assert len(reviews)==len(questions)==21
+solutions=s.solve([x+y-6,x*x+y*y-20],(x,y))
+assert len(solutions)==2
+cube_sums={left**3+right**3 for left,right in solutions}
+assert len(cube_sums)==1
+finish(22,'Solve the sum and square-sum conditions for every ordered pair, then cube the entries and check that all pairs give the same sum.',cube_sums.pop())
+
+def lamp_a(hour):
+    return 150*s.Rational(1,2)**hour
+
+def lamp_b(hour):
+    return 200*s.Rational(3,4)**hour
+
+hour=next(t for t in range(1,10) if 5*lamp_a(t)<lamp_b(t))
+finish(23,'Compare the original exact intensities at positive integer hours in order, stopping at the first strict inequality.',s.Integer(hour))
+
+radius=s.Symbol('R',positive=True)
+u,v=s.symbols('u v',real=True)
+sphere=u*u+v*v+x*x-radius**2
+area_difference=s.pi*(sphere.subs(x,6)-sphere.subs(x,0))
+finish(24,'Intersect a coordinate sphere with the planes z=0 and z=6. The difference of the squared planar radii is the constant shift between the two equations.',area_difference)
+
+center=s.Point(3,4)
+outer=s.Circle(s.Point(0,0),9)
+inner=s.Circle(center,9-center.distance(outer.center))
+points=outer.intersection(inner)
+assert len(points)==1
+finish(25,'Internal tangency fixes the small radius at the outer radius minus the center distance; intersect the two exact circles.',s.Tuple(*points[0]))
+
+vertices=[s.Point(s.cos(i*s.pi/3),s.sin(i*s.pi/3)) for i in range(6)]
+hexagon=s.Polygon(*vertices)
+alternate_triangle=s.Polygon(*vertices[::2])
+finish(26,'Compute both polygon areas by their exact unit-circle coordinates. Changing the circumradius scales the two areas equally.',s.simplify(alternate_triangle.area/hexagon.area))
+
+possible_overlaps=[
+    overlap for overlap in range(1+min(31,29))
+    if min(31-overlap,29-overlap,52-(31+29-overlap))>=0
+]
+finish(27,'Enumerate nonnegative four-cell contingency tables consistent with the class size and both visit counts, then divide the minimum intersection by the total.',s.Rational(min(possible_overlaps),52))
+
+original=[2,4,8,11,15]
+mean=(sum(original)+x)/(len(original)+1)
+equal_values=s.EmptySet
+for insertion in range(len(original)+1):
+    low=original[insertion-1] if insertion else 0
+    high=original[insertion] if insertion<len(original) else s.oo
+    ordered=original[:insertion]+[x]+original[insertion:]
+    midpoint=(s.sympify(ordered[2])+ordered[3])/2
+    equal_values|=s.solveset(mean-midpoint,x,domain=s.Interval(low,high))
+assert equal_values==s.FiniteSet(8,17)
+finish(28,'Enumerate every sorted insertion position for a nonnegative input, solve the equality on its own interval, and count the union of distinct solutions.',len(equal_values))
+
+observed=s.solve([y-(2*x+8)+4,y-(5*x-7)-5],(x,y))
+finish(29,'Impose both signed residual equations on the same observed ordered pair and solve them simultaneously.',s.Tuple(observed[x],observed[y]))
+
+assert len(reviews)==len(questions)==29
 assert {row['id'] for row in reviews}==set(by_id)
 hashfile=lambda path:hashlib.sha256(path.read_bytes()).hexdigest()
-report={'scope':'20 active individually authored math questions and one retired question preserved for historical attempts.','method':'Fresh exact models of all prompt constraints, symbolic solutions and comparison of every option. English choices and geometric descriptions are translated into mathematical statements editorially; the program does not infer diagrams or natural language automatically.','engine':f'SymPy {s.__version__}','solverSha256':hashfile(Path(__file__)),'helperSha256':hashfile(Path(__file__).with_name('review_math_common.py')),'requirementsSha256':hashfile(ROOT/'scripts/question-bank/requirements-review.txt'),'questionsReviewed':len(reviews),'activeQuestionsReviewed':len(questions)-len(archived),'archivedQuestionsReviewed':len(archived),'items':reviews}
+report={'scope':'28 active individually authored math questions and one retired question preserved for historical attempts.','method':'Fresh exact models of all prompt constraints, symbolic solutions and comparison of every option. English choices and geometric descriptions are translated into mathematical statements editorially; the program does not infer diagrams or natural language automatically.','engine':f'SymPy {s.__version__}','solverSha256':hashfile(Path(__file__)),'helperSha256':hashfile(Path(__file__).with_name('review_math_common.py')),'requirementsSha256':hashfile(ROOT/'scripts/question-bank/requirements-review.txt'),'questionsReviewed':len(reviews),'activeQuestionsReviewed':len(questions)-len(archived),'archivedQuestionsReviewed':len(archived),'items':reviews}
 (ROOT/'docs/distinct-math-review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(f'Independently checked {len(reviews)} authored math records, including {len(archived)} retired item; every option and typed answer passed.')

@@ -2,8 +2,8 @@
   "provenance": "One active representative per table-evidence family; numerical siblings are historical only. Arithmetic and answer-relevance tags are checked; not independent editorial certification.",
   "maximumActivePerFamily": 1,
   "candidatesPerFamily": 32,
-  "archivedTotal": 496,
-  "total": 16,
+  "archivedTotal": 497,
+  "total": 15,
   "families": [
     {
       "family": "gain-comparison",
@@ -106,9 +106,18 @@
     {
       "family": "aggregate-reversal",
       "difficulty": "hard",
-      "questions": 1,
-      "representative": "rw-gen-quant-aggregate-reversal-001",
-      "archived": 31
+      "questions": 0,
+      "representative": "m-original-distinct-018",
+      "archived": 32,
+      "reviewCandidate": "rw-gen-quant-aggregate-reversal-001",
+      "overlap": {
+        "family": "aggregate-reversal",
+        "candidateQuestionId": "rw-gen-quant-aggregate-reversal-001",
+        "candidateSha256": "8eb66cbfe38327c75c7abf2a113cfa2d1c6a1dc21a4fb6c13e6b9be841e36d97",
+        "retainedQuestionId": "m-original-distinct-018",
+        "retainedSha256": "1e4a93c7bfc0b4d4198a8abdb150f621755fa1a94802a287f5d8157d62888eef",
+        "reason": "Both compare success rates for two methods on easy and difficult tasks, then use the unequal task counts to establish the opposite ranking in the pooled rates."
+      }
     },
     {
       "family": "accuracy-without-delay",

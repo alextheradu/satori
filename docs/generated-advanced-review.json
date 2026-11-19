@@ -1,0 +1,648 @@
+{
+  "scope": "49 selected Advanced Math family candidates, including 12 now-retired overlaps; other unreviewed generated domains are outside this review.",
+  "method": "Fresh exact models of manually transcribed givens, symbolic solutions, domain restrictions, extrema and comparisons against every listed mathematical option or typed alias. Natural-language interpretations are editorially supplied.",
+  "engine": "SymPy 1.14.0",
+  "solverSha256": "2abf6364a0ad1793de6f91318791692cc5745626ae59cd253c9046d865c74579",
+  "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
+  "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
+  "selectionSha256": "9073ed6503cc9ab1b625aa8d14ff39f7a69845582d236bc8d2a3948c8f41e751",
+  "questionsReviewed": 49,
+  "activeQuestionsReviewed": 37,
+  "items": [
+    {
+      "id": "m-gen-binomial-middle-004",
+      "sourceSha256": "0a996f4b878830556fae872852e87351ad28b6242a220d685e3c32610a5a1bb8",
+      "model": "Expand the squared binomial and extract its linear coefficient.",
+      "derivedResult": "-198",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-factor-coefficient-004",
+      "sourceSha256": "e05ef8541c98eb9b786fa14f0f2dd26b64f5c34efc217eabaf8017932c9d4fb9",
+      "model": "Require every coefficient of the factorization identity to agree.",
+      "derivedResult": "16",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-rational-cancel-004",
+      "sourceSha256": "c7480ea13b384da8b0e5da7c52d12c16ec5b6636a42efa96ab23ae223368d4ab",
+      "model": "Evaluate the original rational expression at 21, an allowed input.",
+      "derivedResult": "29",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-exponent-quotient-004",
+      "sourceSha256": "19d5c820d9929f529e4d5df5ae47ef633aa1b01bf20bf738f515faa293d2789b",
+      "model": "Divide coefficients and subtract the exponents on nonzero x.",
+      "derivedResult": "5",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-remainder-004",
+      "sourceSha256": "bf7b8935a1b0adb65fe96a543f63bddfee8b389a87bb1f44991fe6de1ae0cd3f",
+      "model": "Compute the polynomial-division remainder directly; the divisor is x.",
+      "derivedResult": "29",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-quadratic-roots-001",
+      "sourceSha256": "dca6ffacb8be2f127e3d046323e0ddb215893eed330088c62f4f8886a3064bf0",
+      "model": "Solve both zero-product branches and return the greater root.",
+      "derivedResult": "8",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-root-sum-001",
+      "sourceSha256": "e581c3b91e41d0e3a19e235cd641e9dbd64cbb957549d819f5eb11ba7077a3ee",
+      "model": "Solve the quadratic exactly and add its two roots.",
+      "derivedResult": "36",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-root-product-001",
+      "sourceSha256": "ca80f188a03abac6d77471b853c2cb09832549f1c4ee5ea3d723b47ba363a31c",
+      "model": "Solve the quadratic exactly and multiply its roots.",
+      "derivedResult": "60",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-one-real-root-004",
+      "sourceSha256": "701f737da4108e091fefc83ce3e32011f27b8719cc4e23be83a23b54a0618b7c",
+      "model": "A genuine quadratic has one distinct real root exactly when its discriminant is zero.",
+      "derivedResult": "432",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-radical-equation-004",
+      "sourceSha256": "8cfc15e49a0664a03ee4b3c2229351ce425b030d8ec34a9b57cf7db421c12b61",
+      "model": "Solve the original principal-root equation on the real domain.",
+      "derivedResult": "8",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-rational-equation-004",
+      "sourceSha256": "7ec04b93f1459fa1e99580f686eb68bc762a52f2d530c45d39a861a1a8ef1ca6",
+      "model": "Solve on the domain excluding the denominator zero.",
+      "derivedResult": "58",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-quadratic-line-system-004",
+      "sourceSha256": "61d0df89ff8e79ba0a5ef2a7211e146ab05998a14ad82840a1d412ef2dfa99fc",
+      "model": "Set both y-values equal, solve both real x-values, and select the greater.",
+      "derivedResult": "23",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-vertex-minimum-004",
+      "sourceSha256": "90b788e594f78013b109dd520b0342b9aea2995555cb822419d79023fb04e5b7",
+      "model": "Find the minimum of the upward quadratic independently from its derivative.",
+      "derivedResult": "6",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-vertex-input-004",
+      "sourceSha256": "19d3907f2fa37b17f66321c3f64306260b320f227de0a0930cc75484bc787993",
+      "model": "The positive leading coefficient makes the zero-derivative input the minimizer.",
+      "derivedResult": "4",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-exponential-evaluate-004",
+      "sourceSha256": "3fa703a05335555a574c8ed7ff3cb14b94eadf92e61fbea7d6d5e3556e47b3dd",
+      "model": "Substitute the stated input into the exponential model.",
+      "derivedResult": "3564",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-growth-percent-004",
+      "sourceSha256": "ff06a032d278ed9ee5d43406fb7c43726b1f384a82ee6f9615f3b43e55fdf9a4",
+      "model": "Convert the annual growth multiplier to a percent increase.",
+      "derivedResult": "25",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-decay-percent-004",
+      "sourceSha256": "294b1310f9318f354aa9526bfdf604437a4760de6541f4107230c416327694dd",
+      "model": "Convert annual retention to the percent lost.",
+      "derivedResult": "38",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-exponential-period-004",
+      "sourceSha256": "804dbe91a5a159fb43651b60da731da0583b85769df9afbc082ce2825ebbbabb",
+      "model": "Solve the original exponential time equation exactly.",
+      "derivedResult": "20",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-function-shift-001",
+      "sourceSha256": "85b9cc4ee9959099997ade77c1c4957f51c64fb301d82c4d93b28d3b5d51a8cf",
+      "model": "Evaluate the shifted input before the quadratic.",
+      "derivedResult": "55",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-quadratic-root-distance-001",
+      "sourceSha256": "dd64b7c9ff64204c05e9b872184e82b7da9ff3081b1aba7b571eec8484ea1795",
+      "model": "Solve both roots and take the positive ordered difference.",
+      "derivedResult": "17",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-quadratic-root-square-sum-001",
+      "sourceSha256": "ad25849b9914f9b961aa6807153c1db2284784f1281593f7e3ced3c47641b650",
+      "model": "Solve the quadratic and add the squared roots.",
+      "derivedResult": "164",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-quadratic-root-ratio-004",
+      "sourceSha256": "015b4a82e9912490cc0499bc826ad23330216a8f89f3db48d4fa99eeab0d0c26",
+      "model": "The roots are positive with ratio 2 and product 90/5. Recover the smaller root and use the sum coefficient.",
+      "derivedResult": "-45",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-discriminant-integer-bound-004",
+      "sourceSha256": "71d20052654aabac817b482330aa663ca98c091f63c0d0d00bbf73786808449c",
+      "model": "Two distinct real roots require k below the zero-discriminant threshold; take the greatest integer strictly below it.",
+      "derivedResult": "191",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-radical-extraneous-root-004",
+      "sourceSha256": "2b94ad0917713b60eff9116ff815346484a09130ae067152b7205b3eb0fb4614",
+      "model": "Solve the original radical equation, retaining the sign condition on its right side.",
+      "derivedResult": "19",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-absolute-root-sum-004",
+      "sourceSha256": "42bf87e469c3ed582a0701d35825fcc1d46463a291cfbc8adc396f012b11886c",
+      "model": "Solve both branches of the original absolute-value equation and add their roots.",
+      "derivedResult": "30",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-quadratic-input-translation-004",
+      "sourceSha256": "4574b63436ec44e63a4598f6295967f59d240470751b65ffe8b8abb58d082603",
+      "model": "Expand the translated quadratic and extract its linear coefficient, checking the stated other coefficients.",
+      "derivedResult": "46",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-vertex-parameter-from-point-004",
+      "sourceSha256": "7595e7568750bc7ecad35edf1e2cf8b9807a469b28699c228bd2ecb1f5856144",
+      "model": "Use the given nonvertex point in vertex form to recover the scale.",
+      "derivedResult": "11",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-quadratic-second-difference-004",
+      "sourceSha256": "32b0ee386e4ac8ecaef110ebdb7e7a838bc686070f65539877ce9a29ab9cc42b",
+      "model": "Interpolate the exact quadratic from all three table points and read its leading coefficient.",
+      "derivedResult": "3",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-exponential-nonzero-inputs-004",
+      "sourceSha256": "960f7cbd8944384d10ccc8013fbcd30bc9544dd87ee8c3b531cfc2e7cd7d2493",
+      "model": "The output ratio is b^3; use positive b to recover the initial scale.",
+      "derivedResult": "25",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-rational-hole-extension-004",
+      "sourceSha256": "53075e981971765d8e972eeca5bede6f56db885d1a5c219be047e57b0b7554c1",
+      "model": "A linear function agreeing off the excluded point is uniquely the canceled linear expression; evaluate that extension.",
+      "derivedResult": "8",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-rational-identity-coefficient-004",
+      "sourceSha256": "79f75d0ab717617436053d972b4fa94a8922ed2b629bcd5295ca2c9ce527ce9a",
+      "model": "Multiply by the nonzero divisor and match every polynomial coefficient.",
+      "derivedResult": "-66",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-reciprocal-root-sum-001",
+      "sourceSha256": "2408746be7f0394e7f07fa7660f283490cda0bd2d9bebdaf995fd5c0a4f4f728",
+      "model": "Solve both nonzero roots and sum their reciprocals directly.",
+      "derivedResult": "30/209",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-transformed-quadratic-roots-001",
+      "sourceSha256": "22f50f3115231826230ab86c3484eccc782532de12365e65df37b8dca15fb861",
+      "model": "Compose the affine input into the factored quadratic and solve its new zeros.",
+      "derivedResult": "38/5",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-quadratic-tangent-intercept-004",
+      "sourceSha256": "cddda975acc57256430a14b026172aab16cfd16c52566b6a8a4d1c35c4028216",
+      "model": "Equate the original line and parabola and require the discriminant to vanish.",
+      "derivedResult": "367",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": false,
+      "editorialNotes": [
+        "Parenthesized negative shifts and signed constants in the explanation to avoid adjacent minus signs."
+      ]
+    },
+    {
+      "id": "m-gen-exponential-vertical-offset-004",
+      "sourceSha256": "29ab121e092d06b5cc33bf0cb4a10967287d45eae6c3a60402cd89a09b839ff8",
+      "model": "Use successive output differences to recover the base and scale, then the vertical offset.",
+      "derivedResult": "4",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-three-sided-enclosure-maximum-001",
+      "sourceSha256": "0cc5c2986acf1670758cc90981c37644f9a24776db841595a07332745bd54a3d",
+      "model": "Use the three-side fencing constraint, find the downward quadratic maximum, and check the physical width domain.",
+      "derivedResult": "5202",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-biquadratic-positive-root-001",
+      "sourceSha256": "10ce291e8825a49256622967af0f4194763bb7b8e6df0537839420a11d4a3dbd",
+      "model": "Solve the original quartic over positive reals and select the smaller root.",
+      "derivedResult": "5",
+      "validChoices": null,
+      "active": false,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-difference-cubes-identity-001",
+      "sourceSha256": "704619041bbb1931d5751b4dac0c1834e7e9925871bd55d45391a3ec2dc13f2e",
+      "model": "Expand the full identity and require every coefficient difference to be zero.",
+      "derivedResult": "18",
+      "validChoices": null,
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-cubic-coefficient-from-values-004",
+      "sourceSha256": "746ced77db19b2caa16e039218f62c2da57db8915e10df2a4dbc7907ee9a7ff0",
+      "model": "Solve both polynomial-value constraints simultaneously for the unknown coefficients.",
+      "derivedResult": "-6",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-reciprocal-cancellation-equation-004",
+      "sourceSha256": "58e40a4801b4e831eb1d92234aaedbdd6f1192b5fa433844440d486a1c21ec87",
+      "model": "Solve the original rational equation on its full stated domain.",
+      "derivedResult": "-4",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-quadratic-equal-output-axis-004",
+      "sourceSha256": "793dda0fbee7fde3542ca4d37ec4c73f387eb180c9d93abf27406159de1ded41",
+      "model": "Write an arbitrary upward quadratic and impose the equal-output condition; derive its axis independently of scale and constant.",
+      "derivedResult": "-9",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-shared-smaller-root-parameter-004",
+      "sourceSha256": "dbfe7e0f840c43547c02b3e5ad987054ebc983151810c56af49a40dc769d3b3f",
+      "model": "Solve the first quadratic, select its specified smaller root, and substitute into the second.",
+      "derivedResult": "-45",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-absolute-distance-outer-solution-004",
+      "sourceSha256": "bbc35693ccc8c3e8e8c5e0e55f8eaede3f865ad0bbecf4c1b6a9e2b1f721b3b1",
+      "model": "Solve the original two-distance equation over the reals and select its greater solution.",
+      "derivedResult": "19",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-exponential-base-rewrite-equation-004",
+      "sourceSha256": "99904aa5fa70bf1f409abe6c676a007600ae1c4be55a018f14fc4e4f5248fa3b",
+      "model": "Rewrite 49 as 7^2, equate exponents, then verify the result in the original equation.",
+      "derivedResult": "14",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-negative-branch-radical-identity-004",
+      "sourceSha256": "8fa0405fae6bacc94facbc22a2320284144ce4b9b0bca3aa38b46dc77fb70619",
+      "model": "Parameterize the strict domain as x=-6-u with u>0; simplify the principal square root and recover the coefficient without forcing a sign identity.",
+      "derivedResult": "-3",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-repeated-root-cubic-coefficient-004",
+      "sourceSha256": "4fe7955bb379ab354ca55521adaa801ce28cd5d483aed5946916ecf9f78339ef",
+      "model": "Expand the original cubic product and extract the linear coefficient.",
+      "derivedResult": "-126",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-reflected-quadratic-minimum-004",
+      "sourceSha256": "6f06c9dbdefca90d673a6e41c1d7ccf95b1b75acca34dc425dfa2587d2ebda3e",
+      "model": "Compose the output reflection and scaling, then independently minimize the resulting upward quadratic.",
+      "derivedResult": "-155",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-two-denominator-rational-equation-004",
+      "sourceSha256": "31534e7885e7709b248d25a6e3f94384f41865763654fc69ee606cf3dbfa87f0",
+      "model": "Solve on the real domain excluding both original denominator zeros.",
+      "derivedResult": "15",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "active": true,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-gen-parabola-line-intersection-count-004",
+      "sourceSha256": "3d409feb7361e6358bf5e871edd812c92fb7c19068d609a3ad6cc5453e1265a0",
+      "model": "Solve the intersection equation exactly and count distinct real x-values, each determining one y.",
+      "derivedResult": "1",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "active": false,
+      "editorialNotes": [
+        "Corrected singular/plural wording in the generated explanation."
+      ]
+    }
+  ]
+}

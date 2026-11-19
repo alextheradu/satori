@@ -3,8 +3,8 @@
   "maximumActivePerFamily": 1,
   "candidatesPerFamily": 64,
   "duplicatesRemoved": 26,
-  "archivedTotal": 11612,
-  "total": 164,
+  "archivedTotal": 11622,
+  "total": 154,
   "families": [
     {
       "family": "distribute",
@@ -858,11 +858,19 @@
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-prism-height-004",
+      "questions": 0,
+      "representative": "m-geo-101",
       "reviewCandidate": "m-gen-prism-height-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "prism-height",
+        "candidateQuestionId": "m-gen-prism-height-004",
+        "candidateSha256": "7ac277c70849966c4d1cf6ba6157a9e743112d2563ae17b654c6423d43eb5554",
+        "retainedQuestionId": "m-geo-101",
+        "retainedSha256": "0166972f8f2d1642c0c1696990623741ef9bf7f0c0cc6a2449f83a4914ff69dd",
+        "reason": "Both divide the volume of a right rectangular prism by the area of its rectangular base to find its height."
+      }
     },
     {
       "family": "cylinder-volume",
@@ -891,11 +899,19 @@
       "domain": "Geometry and Trigonometry",
       "skill": "Area and volume",
       "difficulty": "hard",
-      "questions": 1,
-      "representative": "m-gen-scale-volume-004",
+      "questions": 0,
+      "representative": "m-geo-108",
       "reviewCandidate": "m-gen-scale-volume-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "scale-volume",
+        "candidateQuestionId": "m-gen-scale-volume-004",
+        "candidateSha256": "50c428b212821009c06615a13d30a8734d99d00dfd93fe2b5710aa38734e03f8",
+        "retainedQuestionId": "m-geo-108",
+        "retainedSha256": "c021472b389ab1b7d1c28015bb4e895e0b060c5efa631d3fb0abbcdbdbd17d9f",
+        "reason": "Both cube a uniform linear scale factor and multiply the original volume by the result to find the scaled volume."
+      }
     },
     {
       "family": "triangle-angle",
@@ -913,11 +929,19 @@
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-exterior-angle-004",
+      "questions": 0,
+      "representative": "m-geo-115",
       "reviewCandidate": "m-gen-exterior-angle-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "exterior-angle",
+        "candidateQuestionId": "m-gen-exterior-angle-004",
+        "candidateSha256": "322a3dad1819af0acb1e21d06c951dff3254dccef2424de9996c4a7e1d0523fc",
+        "retainedQuestionId": "m-geo-115",
+        "retainedSha256": "f499caf13c261c54050e27500c7389bbd633453f1a6de46093adfdd1a41d7d93",
+        "reason": "Both subtract the known remote interior angle from a given exterior angle to find the other remote interior angle."
+      }
     },
     {
       "family": "isosceles-angle",
@@ -935,11 +959,19 @@
       "domain": "Geometry and Trigonometry",
       "skill": "Lines, angles, and triangles",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-similar-side-004",
+      "questions": 0,
+      "representative": "m-geo-116",
       "reviewCandidate": "m-gen-similar-side-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "similar-side",
+        "candidateQuestionId": "m-gen-similar-side-004",
+        "candidateSha256": "fd8b6126f4b0d89ad28fab7a6a4193ec240c9e1110c24a36cf2d3b8ae76cb15d",
+        "retainedQuestionId": "m-geo-116",
+        "retainedSha256": "da1fa40116244721be15b0381a25dcf2428195636b7312928de486ec8339fd32",
+        "reason": "Both use the same correspondence and the ratio of a known pair of sides to find the missing side of the second similar triangle."
+      }
     },
     {
       "family": "parallel-angle",
@@ -968,11 +1000,19 @@
       "domain": "Geometry and Trigonometry",
       "skill": "Right triangles and trigonometry",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-sine-ratio-001",
+      "questions": 0,
+      "representative": "m-geo-128",
       "reviewCandidate": "m-gen-sine-ratio-001",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "sine-ratio",
+        "candidateQuestionId": "m-gen-sine-ratio-001",
+        "candidateSha256": "d7463263913759a7cc31a1e220af7ecee71fc9276e65d0d85b36cc76f72238a8",
+        "retainedQuestionId": "m-geo-128",
+        "retainedSha256": "da213485bda27240ad4f33865a89ffc057f694b3dc3135ac368647ee3d9e1042",
+        "reason": "Both obtain the sine of an acute angle by dividing a given opposite side by a given hypotenuse."
+      }
     },
     {
       "family": "tangent-side",
@@ -1012,44 +1052,76 @@
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-circle-radius-equation-004",
+      "questions": 0,
+      "representative": "m-geo-013",
       "reviewCandidate": "m-gen-circle-radius-equation-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "circle-radius-equation",
+        "candidateQuestionId": "m-gen-circle-radius-equation-004",
+        "candidateSha256": "86ca54d0ee058ce7a2924ae0d7f5c87de47963ab45bf73a1cacb38bb1427fce5",
+        "retainedQuestionId": "m-geo-013",
+        "retainedSha256": "91e556c1cbf35b58caeb91b6fc8feebd9bd43e3e39d6ceeea600ccbc1d64a605",
+        "reason": "Both read the positive radius from the constant in a circle equation already in center-radius form; the retained question also asks for the center."
+      }
     },
     {
       "family": "circle-complete-square",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "hard",
-      "questions": 1,
-      "representative": "m-gen-circle-complete-square-004",
+      "questions": 0,
+      "representative": "m-geo-014",
       "reviewCandidate": "m-gen-circle-complete-square-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "circle-complete-square",
+        "candidateQuestionId": "m-gen-circle-complete-square-004",
+        "candidateSha256": "5abd40306a4f0a194d8dd95a00d1e9cca7531e9a9bf7a98712bbd43b181f9c70",
+        "retainedQuestionId": "m-geo-014",
+        "retainedSha256": "3ab755b0f44b99b294889570f595276117f31b725382d0b952a935eb01a6b1e4",
+        "reason": "Both complete the horizontal and vertical squares of an expanded circle equation and return the positive radius."
+      }
     },
     {
       "family": "arc-length",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-arc-length-004",
+      "questions": 0,
+      "representative": "m-geo-139",
       "reviewCandidate": "m-gen-arc-length-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "arc-length",
+        "candidateQuestionId": "m-gen-arc-length-004",
+        "candidateSha256": "7c11e92392f903079dd6a51bf6a2249cc16b28ae050a5e93aadbdce827a2421c",
+        "retainedQuestionId": "m-geo-139",
+        "retainedSha256": "f9c8471d01084d472532b74ae9cba216fb92a5e917a96879e7ee4da97b5123a4",
+        "reason": "Both multiply the circumference by the given degree angle as a fraction of 360 and ask for the coefficient of pi."
+      }
     },
     {
       "family": "sector-area",
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-sector-area-004",
+      "questions": 0,
+      "representative": "m-geo-142",
       "reviewCandidate": "m-gen-sector-area-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "sector-area",
+        "candidateQuestionId": "m-gen-sector-area-004",
+        "candidateSha256": "4d596fb24f70872f33fa74860dd18ce788fa1a5eed112e6069c4e97be5ad6431",
+        "retainedQuestionId": "m-geo-142",
+        "retainedSha256": "e959c1d3dbf9cfffe78f4efbe7cef2a1e83c73cc92830bc7f0323eaa50d00cfb",
+        "reason": "Both multiply the circle area from a given radius by a given degree angle as a fraction of 360 to find the sector area."
+      }
     },
     {
       "family": "radians",
@@ -1330,11 +1402,19 @@
       "domain": "Geometry and Trigonometry",
       "skill": "Circles",
       "difficulty": "medium",
-      "questions": 1,
-      "representative": "m-gen-inscribed-angle-004",
+      "questions": 0,
+      "representative": "m-geo-140",
       "reviewCandidate": "m-gen-inscribed-angle-004",
-      "archived": 63,
-      "equivalentRepeats": 0
+      "archived": 64,
+      "equivalentRepeats": 0,
+      "overlap": {
+        "family": "inscribed-angle",
+        "candidateQuestionId": "m-gen-inscribed-angle-004",
+        "candidateSha256": "38a2c3117d42c65b4c1b95a59222c3e8ef7eef7afb5b6fb27adfcfd486a05043",
+        "retainedQuestionId": "m-geo-140",
+        "retainedSha256": "510986b3d80a6ae61250f90398eda1176afad1bd0c9dd7e5652d28c8a615237e",
+        "reason": "Both find an inscribed angle by halving the given measure of the same intercepted arc, whether stated as the arc or its central angle."
+      }
     },
     {
       "family": "complementary-trig-parameter",

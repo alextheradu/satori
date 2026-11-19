@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { join } from 'node:path'
-import { partitionFamily } from './partition-family.mjs'
+import { familyOverlapsByName, partitionReviewedFamily } from './partition-family.mjs'
 const root=fileURLToPath(new URL('../../',import.meta.url)),directory=join(root,'src/data/questions')
 const check=process.argv.includes('--check'),families=[]
 let state
@@ -162,8 +162,14 @@ add('accuracy-without-delay','medium',()=>{
  ],`The table supports both required outcomes: fewer errors and no added time. Reporting only the original time is insufficient, and the other options reverse the directions of change.`)
 })
 
-const seen=new Set(),all=[],archived=[],report=[]
-for(const file of readdirSync(directory).filter(f=>f.endsWith('.json')&&f!=='generated-rw-quantitative.json'))for(const q of JSON.parse(readFileSync(join(directory,file),'utf8')))seen.add(`${q.passage??''}\n${q.prompt}`)
+const seen=new Set(),all=[],archived=[],report=[],sourceById=new Map()
+const overlaps=familyOverlapsByName('rw-gen-quant-')
+for(const file of readdirSync(directory).filter(f=>f.endsWith('.json')&&f!=='generated-rw-quantitative.json')){
+ for(const q of JSON.parse(readFileSync(join(directory,file),'utf8'))){
+  seen.add(`${q.passage??''}\n${q.prompt}`)
+  sourceById.set(q.id,q)
+ }
+}
 for(const [familyIndex,family] of families.entries()) {
  state=0x75faca19;for(const ch of family.key)state=Math.imul(state^ch.charCodeAt(0),16777619)
  const items=[]
@@ -182,10 +188,12 @@ for(const [familyIndex,family] of families.entries()) {
   seen.add(fingerprint)
  }
  assert.equal(items.length,32,`${family.key}: not enough unique variants`)
- const partition=partitionFamily(items)
+ const representative=items[0],overlap=overlaps.get(family.key)
+ const partition=partitionReviewedFamily(items,representative,overlap,sourceById)
  all.push(...partition.active);archived.push(...partition.retired)
- report.push({family:family.key,difficulty:family.difficulty,questions:1,representative:partition.active[0].id,archived:partition.retired.length})
+ report.push({family:family.key,difficulty:family.difficulty,questions:partition.active.length,representative:overlap?.retainedQuestionId??representative.id,archived:partition.retired.length,...(overlap?{reviewCandidate:representative.id,overlap}: {})})
 }
+assert.equal(report.filter(row=>row.overlap).length,overlaps.size,'Every quantitative overlap must resolve to a generated family')
 const save=(path,value)=>{const text=JSON.stringify(value,null,2)+'\n';if(check)assert.equal(readFileSync(path,'utf8'),text,`${path}: regenerate question content`);else writeFileSync(path,text)}
 save(join(directory,'generated-rw-quantitative.json'),all)
 save(join(root,'src/data/retired/generated-rw-quantitative.json'),archived)

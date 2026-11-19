@@ -1,12 +1,12 @@
 {
-  "scope": "20 active individually authored math questions and one retired question preserved for historical attempts.",
+  "scope": "28 active individually authored math questions and one retired question preserved for historical attempts.",
   "method": "Fresh exact models of all prompt constraints, symbolic solutions and comparison of every option. English choices and geometric descriptions are translated into mathematical statements editorially; the program does not infer diagrams or natural language automatically.",
   "engine": "SymPy 1.14.0",
-  "solverSha256": "bb519ff572b3d65fb9b9de071b84ce91cf258ce3970aebbda5e68445e6b6f599",
+  "solverSha256": "251558e942e28acdc61edc953ebeb55163196e00c414322d49ac33a714b861e1",
   "helperSha256": "845e5d3e3f40692911175638f2762eb8079af46309c60648e3958434a6cb5eea",
   "requirementsSha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc",
-  "questionsReviewed": 21,
-  "activeQuestionsReviewed": 20,
+  "questionsReviewed": 29,
+  "activeQuestionsReviewed": 28,
   "archivedQuestionsReviewed": 1,
   "items": [
     {
@@ -250,6 +250,105 @@
       "model": "Recover C from the given midpoint and A, then compute the coordinate triangle area.",
       "derivedResult": "24",
       "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-022",
+      "sourceSha256": "a1048edc9b371684375e53ad4626f22b4df3cda51c2be3e9013d0d7af12cd42e",
+      "model": "Solve the sum and square-sum conditions for every ordered pair, then cube the entries and check that all pairs give the same sum.",
+      "derivedResult": "72",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-023",
+      "sourceSha256": "d3840b299b13880621312b0928c1fbd3ff89a33a12512c3da3dfe18773a36433",
+      "model": "Compare the original exact intensities at positive integer hours in order, stopping at the first strict inequality.",
+      "derivedResult": "4",
+      "validChoices": null,
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-024",
+      "sourceSha256": "053a11cb43f50a04ab8f83dd56d8b642f3c16670fddbe0dfcc226bc40b9c2ce0",
+      "model": "Intersect a coordinate sphere with the planes z=0 and z=6. The difference of the squared planar radii is the constant shift between the two equations.",
+      "derivedResult": "36*pi",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-025",
+      "sourceSha256": "35a14cd2fd42df226f23cbec394da1978823fa3cff6f49e23aa50af867fc79a2",
+      "model": "Internal tangency fixes the small radius at the outer radius minus the center distance; intersect the two exact circles.",
+      "derivedResult": "(27/5, 36/5)",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-026",
+      "sourceSha256": "459342aa2d2aef9de604abef8b46c53a810a3a6c03cc49f3b2f87c5e32eee8a2",
+      "model": "Compute both polygon areas by their exact unit-circle coordinates. Changing the circumradius scales the two areas equally.",
+      "derivedResult": "1/2",
+      "validChoices": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-027",
+      "sourceSha256": "c2008e4f9094d92bffbe0360d64583769f98cde410d2e0bf2c9d4e7350c585b7",
+      "model": "Enumerate nonnegative four-cell contingency tables consistent with the class size and both visit counts, then divide the minimum intersection by the total.",
+      "derivedResult": "2/13",
+      "validChoices": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-028",
+      "sourceSha256": "0c67314254a4bc7fc5b47398bbd9eb1531bbe1a68a85f6b017faeaa548eea875",
+      "model": "Enumerate every sorted insertion position for a nonnegative input, solve the equality on its own interval, and count the union of distinct solutions.",
+      "derivedResult": "2",
+      "validChoices": [
+        false,
+        false,
+        false,
+        true
+      ],
+      "editorialNotes": []
+    },
+    {
+      "id": "m-original-distinct-029",
+      "sourceSha256": "39be657e66e498cc696b617c49c2c3a09d9e3dbbbd69b0188108e41497e0008b",
+      "model": "Impose both signed residual equations on the same observed ordered pair and solve them simultaneously.",
+      "derivedResult": "(2, 8)",
+      "validChoices": [
+        true,
+        false,
+        false,
+        false
+      ],
       "editorialNotes": []
     }
   ]

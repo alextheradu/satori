@@ -96,6 +96,40 @@ add(G,'Lines, angles, and triangles','medium',
  ['24'],null,
  'The midpoint relations give $C=(2(1)-(-2),2(4)-1)=(4,7)$. The horizontal base $AB$ has length $8$, and the height from $C$ to the line $y=1$ is $7-1=6$. Therefore the area is $\\frac12(8)(6)=24$. The distance from $M$ to the base is only half the triangle’s height.')
 
+add(N,'Equivalent expressions','hard',
+ 'The real numbers $x$ and $y$ satisfy $x+y=6$ and $x^2+y^2=20$. What is the value of $x^3+y^3$?',
+ '$72$',['$48$','$120$','$216$'],
+ 'Since $36=(x+y)^2=x^2+y^2+2xy$, the product $xy$ is $8$. Then $x^3+y^3=(x+y)(x^2-xy+y^2)=6(20-8)=72$. The value $120$ comes from leaving out the $-xy$ term, and $216$ is the cube of the sum.')
+add(N,'Nonlinear functions','hard',
+ 'The light intensities from two test lamps are modeled by $A(t)=150(1/2)^t$ and $B(t)=200(3/4)^t$, where $t$ is the number of hours since both measurements began. What is the first positive whole number of hours at which the model gives $A(t)<B(t)/5$?',
+ ['4'],null,
+ 'The ratio $A(t)/B(t)$ is $(3/4)(2/3)^t$, so it decreases as $t$ increases. At $t=3$ the ratio is $2/9$, greater than $1/5$. At $t=4$ it is $4/27$, less than $1/5$. Since earlier whole hours give ratios at least as large as the ratio at hour $3$, hour $4$ is the first to satisfy the inequality.')
+add(G,'Area and volume','medium',
+ 'One plane passes through the center of a sphere. A second plane is parallel to the first and lies $6$ centimeters from it. Both planes cut the sphere in circles. By how many square centimeters is the area of the first circular cross section greater than that of the second?',
+ '$36\\pi$',['$6\\pi$','$12\\pi$','$72\\pi$'],
+ 'Let $R$ be the sphere’s radius and $r$ the radius of the smaller cross section. The segment from the sphere’s center to the center of the smaller circle is perpendicular to the plane and has length $6$. A radius to the edge of that circle forms the hypotenuse of a right triangle, so $R^2=r^2+36$. The difference of the two areas is $\\pi(R^2-r^2)=36\\pi$, regardless of the sphere’s radius.')
+add(G,'Circles','hard',
+ 'In the $xy$-plane, a circle with center $(0,0)$ and radius $9$ contains a smaller circle with center $(3,4)$. The two circles are tangent. Which point is their point of tangency?',
+ '$(\\frac{27}{5},\\frac{36}{5})$',
+ ['$(3,4)$','$(\\frac{12}{5},\\frac{16}{5})$','$(\\frac{-27}{5},\\frac{-36}{5})$'],
+ 'The tangent point lies on the ray from $(0,0)$ through $(3,4)$. The distance between the centers is $5$, so the point $9$ units from the origin on that ray is $\\frac{9}{5}(3,4)=(\\frac{27}{5},\\frac{36}{5})$. The point on the opposite ray is also on the larger circle, but it lies beyond the reach of the smaller circle.')
+add(G,'Lines, angles, and triangles','hard',
+ 'The vertices of a regular hexagon are labeled $A,B,C,D,E,F$ in order. What fraction of the hexagon’s area is the area of triangle $ACE$?',
+ '$\\frac{1}{2}$',['$\\frac{1}{3}$','$\\frac{2}{3}$','$\\frac{3}{4}$'],
+ 'Join the hexagon’s center to all six vertices, creating six congruent equilateral triangles. For any pair of neighboring triangles, such as the pair with bases $AB$ and $BC$, the segment $AC$ divides their combined region into congruent triangles $ABC$ and $AOC$, where $O$ is the center. They share $AC$, and their other sides all equal the hexagon’s side length. The three cut-off corner triangles $ABC$, $CDE$, and $EFA$ therefore each have one-sixth of the hexagon’s area. The area of $ACE$ is the remaining half.')
+add(D,'Probability and conditional probability','hard',
+ 'A class of $52$ students was surveyed. Exactly $31$ said they had visited the science museum, and exactly $29$ said they had visited the history museum. One student from the class is chosen at random. What is the least possible probability that the student had visited both museums?',
+ '$\\frac{2}{13}$',['$\\frac{1}{26}$','$\\frac{5}{13}$','$\\frac{29}{52}$'],
+ 'Counting visits to the two museums separately gives $31+29=60$ students counted with repetition. At most $52$ different students could appear in those counts, so at least $8$ visited both. This minimum is possible with $23$ science-only, $21$ history-only, and $8$ visiting both. The least possible probability is $8/52=2/13$.')
+add(D,'One-variable data: distributions and measures of center and spread','hard',
+ 'A nonnegative number $x$ is added to the data set $2,4,8,11,15$. For how many distinct values of $x$ are the mean and median of the resulting six-value data set equal?',
+ '$2$',['$0$','$1$','$3$'],
+ 'The mean is $(40+x)/6$. For $0\\le x\\le4$, the middle pair is $4,8$, so equality would require $x=-4$, outside that interval. For $4\\le x\\le11$, the middle pair consists of $x$ and $8$, so $(40+x)/6=(x+8)/2$ gives $x=8$. For $x\\ge11$, the middle pair is $8,11$, so equality gives $x=17$. Both $8$ and $17$ satisfy their interval conditions.')
+add(D,'Two-variable data: models and scatterplots','hard',
+ 'Models A and B predict $y=2x+8$ and $y=5x-7$, respectively. For the same observed data point, the residual is $-4$ under model A and $5$ under model B. If residual means observed value minus predicted value, which is that data point?',
+ '$(2,8)$',['$(2,12)$','$(5,14)$','$(8,20)$'],
+ 'The observed $y$ is $2x+8-4$ under the first residual calculation and $5x-7+5$ under the second. Thus $2x+4=5x-2$, so $x=2$ and the observed $y$ is $8$. The predictions are $12$ and $3$, giving residuals $8-12=-4$ and $8-3=5$.')
+
 const allQuestions=rows.map((row,index)=>{
  const {correct,wrong,...content}=row
  const q={id:`m-original-distinct-${String(index+1).padStart(3,'0')}`,section:'math',...content}

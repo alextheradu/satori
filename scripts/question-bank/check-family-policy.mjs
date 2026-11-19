@@ -2,6 +2,7 @@ import assert from 'node:assert/strict'
 import {readFileSync,readdirSync,writeFileSync} from 'node:fs'
 import {join} from 'node:path'
 import {fileURLToPath} from 'node:url'
+import {loadFamilyOverlaps} from './partition-family.mjs'
 
 const root=fileURLToPath(new URL('../../',import.meta.url))
 const readQuestions=directory=>readdirSync(directory).filter(name=>name.endsWith('.json')).flatMap(name=>JSON.parse(readFileSync(join(directory,name),'utf8')))
@@ -12,7 +13,7 @@ const collections=[
  ['conventions-generation-report.json','rw-gen-conventions-',64],
  ['expression-generation-report.json','rw-gen-expression-',32],
 ]
-const summaries=[]
+const summaries=[],recordedOverlaps=[]
 for(const [filename,prefix,candidates] of collections){
  const report=JSON.parse(readFileSync(join(root,'docs',filename),'utf8'))
  assert.equal(report.maximumActivePerFamily,1,filename)
@@ -32,6 +33,7 @@ for(const [filename,prefix,candidates] of collections){
   const expected=row.overlap?0:1
   assert.equal(current.length,expected,`${row.family}: active count violates the reviewed family policy`)
   if(row.overlap){
+   recordedOverlaps.push(row.overlap)
    assert(active.some(q=>q.id===row.representative),`${row.family}: retained existing question is not active`)
    assert.equal(row.representative,row.overlap.retainedQuestionId,row.family)
    assert.equal(row.reviewCandidate,row.overlap.candidateQuestionId,row.family)
@@ -48,6 +50,8 @@ for(const [filename,prefix,candidates] of collections){
  assert.equal(report.archivedTotal,history.length,filename)
  summaries.push({collection:filename,families:familyNames.size,active:live.length,representedByExistingQuestions:report.families.filter(row=>row.overlap).length,retired:history.length,candidates:live.length+history.length})
 }
+const byCandidate=(a,b)=>a.candidateQuestionId.localeCompare(b.candidateQuestionId)
+assert.deepEqual(recordedOverlaps.sort(byCandidate),loadFamilyOverlaps().sort(byCandidate),'Family reports must include every reviewed overlap')
 const report={policy:'At most one generated active representative per declared family or pattern. A reviewed overlap can instead be represented by an existing active question; its source-bound reason is recorded in the generation report. Sibling versions remain historical only.',activeFamilyRepresentatives:summaries.reduce((sum,row)=>sum+row.active,0),familiesRepresentedByExistingQuestions:summaries.reduce((sum,row)=>sum+row.representedByExistingQuestions,0),retiredFamilyVariants:summaries.reduce((sum,row)=>sum+row.retired,0),collections:summaries,scope:'Enforces declared family boundaries and recorded editorial overlaps. It does not independently detect every remaining overlap or certify every reading interpretation.'}
 const path=join(root,'docs/family-retirement-report.json'),content=JSON.stringify(report,null,2)+'\n'
 if(process.argv.includes('--write'))writeFileSync(path,content)

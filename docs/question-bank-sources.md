@@ -1,20 +1,20 @@
 # Question bank expansion and practice sources
 
-The app now contains **1,780 active questions**, up from the original 512. To honor the no-repeat requirement, each declared generated family or task pattern contributes at most one active representative, with eight reviewed overlaps covered by existing questions. Its numerical or contextual siblings are historical only. Another **14,105 records** preserve saved attempts and review; they do not inflate the active practice count. Difficulty labels are editorial estimates rather than calibrated College Board ratings. Broader correctness and cross-family semantic-repeat review remains open.
+The app contains **1,773 active questions**. Each declared generated family or task pattern contributes at most one active representative. Existing questions cover 31 reviewed overlaps. Another **14,128 records** preserve saved attempts and review. Difficulty labels are editorial estimates. Broader correctness and semantic-repeat review remains open.
 
 | Active material | Count | What the count represents |
 |---|---:|---|
 | Existing questions | 512 | Original bank retained with stable IDs |
-| Math family representatives | 176 | Active generated items; eight other declared patterns are covered by existing questions |
+| Math family representatives | 154 | Active generated items, with 30 overlaps covered by existing questions |
 | Conceptual statistics | 88 | Individually written questions about study design, inference, and spread |
-| Individually written math | 20 | Active individually written items, all independently reviewed |
-| Individually written Reading and Writing | 928 | Distinct authored stimuli across all 11 skills; 48 questions use cited public-domain literary excerpts |
-| Table-evidence representatives | 16 | One active item per declared evidence family |
+| Individually written math | 28 | Active individually written items, all independently reviewed |
+| Individually written Reading and Writing | 936 | Distinct authored stimuli across all 11 skills, including 48 questions with cited public-domain literary excerpts |
+| Table-evidence representatives | 15 | Active generated items, with one overlap covered by an existing question |
 | Grammar representatives | 24 | One active item per controlled rule pattern |
 | Expression of Ideas representatives | 16 | One active item per declared rhetorical task pattern |
-| Total | **1,780** | Questions available in new automatically selected practice and tests |
+| Total | **1,773** | Questions available in new automatically selected practice and tests |
 
-The generated sets now supply 232 active representatives. Eight declared patterns are covered by existing active questions instead. Their 14,104 historical versions retain their IDs and answer keys in `src/data/retired/`; two families have explanation corrections described in the latest batch below. One separately retired authored overlap brings the historical total to 14,105. This includes restoring the 26 equivalent math records that earlier fingerprint filtering had omitted, so their IDs can again resolve in saved attempts. The generators still reconstruct and check all historical candidates before selecting representatives, but they do not add their siblings to the active bank. The 928 individually authored Reading and Writing additions include 880 original passages or contexts and 48 sourced public-domain excerpts. Invented people, institutions, studies, and stories are identified as fictional or hypothetical.
+The generated sets supply 209 active representatives and 14,127 historical versions. Historical IDs and keys remain available in `src/data/retired/`, which also contains one retired authored overlap. The archive includes 26 equivalent math records restored for saved attempts after earlier fingerprint filtering omitted them. The 936 individually authored Reading and Writing additions include 888 original passages or contexts and 48 public-domain excerpts. Passages identify invented people, institutions, studies, and stories as fictional or hypothetical.
 
 The family policy removes known repeated generation patterns; it does not claim that every remaining question is conceptually unrelated to all others. Reusing a SAT skill is expected. Cross-family and individually authored overlaps still require editorial review.
 
@@ -23,11 +23,11 @@ The family policy removes known repeated generation patterns; it does not claim 
 | Section | Domain | Questions |
 |---|---|---:|
 | Math | Algebra | 101 |
-| Math | Advanced Math | 119 |
-| Math | Problem-Solving and Data Analysis | 205 |
-| Math | Geometry and Trigonometry | 115 |
-| Reading and Writing | Craft and Structure | 416 |
-| Reading and Writing | Information and Ideas | 416 |
+| Math | Advanced Math | 109 |
+| Math | Problem-Solving and Data Analysis | 208 |
+| Math | Geometry and Trigonometry | 108 |
+| Reading and Writing | Craft and Structure | 421 |
+| Reading and Writing | Information and Ideas | 418 |
 | Reading and Writing | Expression of Ideas | 238 |
 | Reading and Writing | Standard English Conventions | 170 |
 
@@ -41,8 +41,8 @@ All 19 math skills and all 11 Reading and Writing skills used by this bank recei
 - `npm run questions:runtime`, after building, loads the actual production bank, checks it against the source JSON, exercises the app's grader, renders every question's text using the app's markup component, checks table and blank rendering, and exercises balanced module selection with exclusions for both sections and all three difficulty routes, including skill balance within each domain.
 - `npm run questions:spr` checks the typed-answer grader against College Board's published accepted/rejected examples and regressions for large fractional answers. Both answer-entry screens enforce five characters for positive entries and six including a minus sign for negative entries.
 - `npm run questions:audit` refreshes `docs/question-format-audit.json`; validation checks that the report is current and that its format/repeat screens have no findings. Repeat checks normalize math spacing and supported integer quadratic zero equations in expanded, factored, and squared-linear form, including missing terms and nonzero integer scale factors, as well as whitespace. Word and variable case are preserved. Regression cases ensure that different targets and case-sensitive variables are not incorrectly merged. This is not a complete semantic-equivalence detector.
-- Validation checks the source hashes in the eight math review manifests against all 318 reviewed records, their solvers, the shared mathematical parser where used, and the pinned dependency. These comprise all 256 original math questions, 20 active individually authored math additions, one retired authored item, and 41 selected Algebra-family candidates (33 active, eight retired). All 101 active Algebra questions are included. Other bank questions remain outside these reviews.
-- The four generation reports identify each active representative, its candidate count, and its archived sibling count. `docs/family-retirement-report.json` aggregates the 232 generated representatives, eight patterns represented by existing questions, and 14,104 historical family versions. Grammar checks validate controlled head numbers, choice-construction tags, completed blanks, distinct choices, and unique stimuli; they do not independently certify natural-language interpretation. The table generator checks numeric assertions and its authored relevance classifications; it does not independently certify natural-language interpretation.
+- Validation checks source hashes in nine math review manifests against 375 reviewed records, their solvers, the shared mathematical parser where used, and the pinned dependency. Reviews cover all 256 original math questions, 28 active authored additions, one retired authored item, 41 selected Algebra candidates, and 49 selected Advanced Math candidates. These include all 101 active Algebra and all 109 active Advanced Math questions.
+- The four generation reports identify each active representative and its candidate and archived counts. Grammar checks validate controlled head numbers, choice-construction tags, completed blanks, distinct choices, and unique stimuli. The table generator checks numeric assertions and authored relevance classifications. [Family retirement totals](family-retirement-report.json)
 
 Automated checks do not replace an independent editorial review of passage interpretation, distractor quality, or difficulty. They do check mathematical consistency, integration, and structural/rendering correctness.
 
@@ -131,7 +131,7 @@ Publisher pages were checked on **2026-11-18–19**. External questions are link
 | [SAT Math Practice monthly sampler](https://satmathpractice.com/free-questions) | 12 public questions, three per Math domain, with choice and typed responses | Public set with scoring/explanations after completion; broader account features separate |
 | [Brighterly Math assessment](https://brighterly.com/math-test/sat-math-practice-test/) | 15 original multiple-choice questions across Math domains | Public short unofficial assessment rather than a full Math section |
 
-The publisher pages are the sources for the resource descriptions, not sources of the bundled original questions. None of the provider-reported external counts is included in the app's 1,780-question active total. Free-test offers and account requirements can change. Linking a collection does not certify every external answer or imply that its questions are unique relative to all other collections.
+Publisher pages provide the resource descriptions and collection sizes. The app's 1,773-question total counts only bundled practice items. Free-test offers and account requirements can change.
 
 ## Historical batch notes
 
@@ -349,12 +349,30 @@ Eight generated patterns were manually judged to repeat older tasks. Their entir
 
 Two Algebra explanation templates were corrected. The intercept calculation in linear-from-values now parenthesizes a signed slope instead of producing adjacent minus signs. The two-resource-bound explanation no longer claims that material requirements differ when a particular item happens to use equal amounts for both sizes. These changes affect 64 explanations per family, including two active questions and 126 historical records. No older prompt, answer, or option changed, and no ID was removed.
 
-The active total is now 1,780: 540 Math and 1,240 Reading and Writing. There are 14,105 historical records, including the eight newly retired representatives. The eight review manifests cover 318 records; broader reading and cross-family semantic-repeat review remains open.
+This batch brought the active total to 1,780, with 540 Math and 1,240 Reading and Writing questions. There were 14,105 historical records, including the eight newly retired representatives. At that stage eight review manifests covered 318 records.
 
 Reproduce the new exact review in the pinned environment:
 
 ```sh
 /tmp/satori-symbolic-review/bin/python scripts/question-bank/review-generated-algebra.py
+node scripts/question-bank/check-editorial-reviews.mjs
+```
+
+## Advanced Math review, Geometry overlap audit, and new questions
+
+The 49 selected Advanced Math candidates were independently solved and every option or typed alias was checked. Thirty-seven remain active. Twelve duplicate tasks had already been moved to the historical bank. The review binds each result to its question and candidate selection. [Generated Advanced Math review](generated-advanced-review.json)
+
+Eight new math problems use independently written constraints. They cover a sum of cubes from two symmetric quantities, a threshold between two exponential models, a difference of spherical cross-section areas, internal circle tangency, an area ratio in a hexagon, minimum overlap given two totals, equality of the mean and median after inserting a value, and recovery of a point from two residuals. Each key and distractor was checked against an exact model. [Authored math review](distinct-math-review.json)
+
+Eight new Reading and Writing questions use original passages across five skills. Each keyed choice and distractor was reviewed against its stimulus. The table questions use timing overlap to explain a shorter sequence and distinguish cancellation in signed error from accuracy in individual readings. [Authored Reading and Writing source](../scripts/question-bank/reading-measurement.mjs)
+
+Ten generated Geometry and Trigonometry representatives repeated older tasks. A generated Reading and Writing table-evidence item also repeated an existing math problem about the effect of unequal task counts on pooled success rates. Each overlap record gives the shared method and binds both question records by hash. The production bank retains all 11 IDs for historical review. The active bank has 526 Math and 1,247 Reading and Writing questions. [Documented overlap decisions](../scripts/question-bank/family-overlaps.json)
+
+Reproduce the exact reviews in the pinned environment.
+
+```sh
+/tmp/satori-symbolic-review/bin/python scripts/question-bank/review-generated-advanced.py
+/tmp/satori-symbolic-review/bin/python scripts/question-bank/review-distinct-math.py
 node scripts/question-bank/check-editorial-reviews.mjs
 ```
 

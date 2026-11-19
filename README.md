@@ -11,7 +11,7 @@ Digital SAT practice platform. Sign in with **Hack Club Auth**; progress is stor
 - **Home**: score estimate, accuracy by domain, streak, weakest skills.
 - **Review**: missed / saved / full history.
 - **Account**: profile picture from your Hack Club Slack (via Cachet), reset progress from the account menu.
-- 1,780 active SAT-style questions covering every Digital SAT domain and skill, with KaTeX math. Includes the original 512, 928 additional individually written Reading and Writing questions (48 with cited public-domain excerpts), 88 conceptual statistics questions, 20 additional individually written math problems, and 232 active generated representatives, with eight other patterns covered by existing questions. Another 14,105 retired records preserve saved attempts without appearing in new automatically selected practice. Light/dark themes.
+- 1,773 active SAT-style questions covering every Digital SAT domain and skill, with KaTeX math. Includes the original 512, 936 additional individually written Reading and Writing questions (48 with cited public-domain excerpts), 88 conceptual statistics questions, 28 additional individually written math problems, and 209 active generated representatives. Existing questions cover 31 more generated patterns. Another 14,128 retired records preserve saved attempts. Light/dark themes.
 
 Score estimates are rough approximations, not official College Board scoring.
 
@@ -103,7 +103,7 @@ The [question bank report and source directory](docs/question-bank-sources.md) r
 
 Validation also checks the current format audit and published SAT typed-response examples. `npm run questions:audit` refreshes the repeat and passage-length screening report. These automated checks do not certify every natural-language answer or rule out all semantic repeats; editorial review remains ongoing.
 
-Independent reviews cover all 256 original math questions, all 20 active individually authored math additions, and one retired math item preserved for saved attempts. Additional independent checks cover 41 selected generated Algebra candidates, including eight retired overlaps; all 101 active Algebra items are now covered. The [question-bank report](docs/question-bank-sources.md) links derivations, editorial interpretations, and reproduction instructions. Validation invalidates a review if its questions, solver, or parser change; other bank questions remain outside these reviews.
+Independent reviews cover all 256 original math questions, all 28 active individually authored math additions, one retired authored item, and 90 selected generated Algebra and Advanced Math candidates. They cover every active question in those two domains. Validation requires a fresh review if its questions, solver, or parser change. [Derivations, editorial interpretations, and reproduction instructions](docs/question-bank-sources.md)
 
 All bundled questions are original. College Board questions are copyrighted and aren't included; the app links to the free official [SAT Suite Question Bank](https://satsuiteeducatorquestionbank.collegeboard.org/digital/search) and [Bluebook](https://bluebook.collegeboard.org).
 

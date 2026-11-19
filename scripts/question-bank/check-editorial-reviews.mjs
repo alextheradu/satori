@@ -11,7 +11,7 @@ for(const [reportName,file,solver,helper,count,selectedDomain] of [
  ['legacy-geometry-review','m-geo-2','review-legacy-geometry.py','review_math_common.py',48],
  ['legacy-initial-math-alg-adv-review','math-alg-adv','review-legacy-initial.py','review_math_common.py',32],
  ['legacy-initial-math-psda-geo-review','math-psda-geo','review-legacy-initial.py','review_math_common.py',32],
- ['distinct-math-review',['original-math-distinct','../retired/original-math-distinct'],'review-distinct-math.py','review_math_common.py',21],
+ ['distinct-math-review',['original-math-distinct','../retired/original-math-distinct'],'review-distinct-math.py','review_math_common.py',29],
  ['generated-algebra-review',['generated-math-algebra','../retired/generated-math-algebra'],'review-generated-algebra.py','review_math_common.py',41,'Algebra'],
  ['generated-advanced-review',['generated-math-advanced','../retired/generated-math-advanced'],'review-generated-advanced.py','review_math_common.py',49,'Advanced Math'],
 ]) {

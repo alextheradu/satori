@@ -103,7 +103,7 @@ area=x*(204-2*x)
 critical=s.solve(s.diff(area,x),x)[0]
 assert 0<critical<102 and s.diff(area,x,2)<0
 finish('three-sided-enclosure-maximum',area.subs(x,critical),'Use the three-side fencing constraint, find the downward quadratic maximum, and check the physical width domain.')
-finish('biquadratic-positive-root',min(real_roots(x**4-146*x*x+3025,s.Interval.open(0,s.oo)))),'Solve the original quartic over positive reals and select the smaller root.')
+finish('biquadratic-positive-root',min(real_roots(x**4-146*x*x+3025,s.Interval.open(0,s.oo))),'Solve the original quartic over positive reals and select the smaller root.')
 coefficients=s.Poly((2*x-9)*(4*x*x+k*x+81)-(8*x**3-729),x).all_coeffs()
 finish('difference-cubes-identity',s.solve(coefficients,k)[k],'Expand the full identity and require every coefficient difference to be zero.')
 p=x**3+8*x*x+b*x+c

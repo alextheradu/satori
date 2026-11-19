@@ -1,6 +1,6 @@
 {
   "status": "Audit in progress; not a certification of every answer or interpretation.",
-  "total": 1780,
+  "total": 1773,
   "duplicateScope": "Whitespace, canonical Unicode, math spacing, and supported integer quadratic zero equations in expanded, factored, or squared-linear form, including missing terms and nonzero integer scale factors. Surrounding wording, requested targets, and variable/word case are preserved; other semantic repeats require review.",
   "duplicates": [],
   "passageLengthScreen": {

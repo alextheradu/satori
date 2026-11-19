@@ -5982,5 +5982,90 @@
     ],
     "answer": 2,
     "explanation": "Mrs. van der Luyden initially appears inclined toward a favorable, merciful response rather than an outright refusal. Clemency names that apparent leniency, although her habitual reply defers the decision to consultation with her husband."
+  },
+  {
+    "id": "rw-original-vocab-133",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "In a hypothetical museum exhibit, a mechanical indicator turns when the platform beneath it moves. The indicator can _register_ a shift of less than a millimeter: even a displacement too small for most visitors to see causes its needle to move.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "Detect",
+      "Authorize",
+      "Prevent",
+      "Generate"
+    ],
+    "answer": 0,
+    "explanation": "The moving needle signals a shift that has already occurred. The indicator detects the shift."
+  },
+  {
+    "id": "rw-original-vocab-134",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "medium",
+    "passage": "Reviewing an imaginary play, a critic admires the stage designer’s _economy_. Two boards and a length of rope suggest a river crossing in one scene and a factory entrance in the next. The designer establishes both locations with just a few objects.",
+    "prompt": "As used in the text, what does the underlined word most nearly mean?",
+    "choices": [
+      "System of trade",
+      "Sparing use of resources",
+      "Dependence on tradition",
+      "Precision of measurements"
+    ],
+    "answer": 1,
+    "explanation": "The critic singles out the designer’s ability to evoke two places with very few objects. Economy here describes restraint in the use of materials."
+  },
+  {
+    "id": "rw-original-structure-113",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "A hypothetical experiment measures whether stage musicians’ gestures affect listeners’ judgments of a performance. All listeners hear the same recording. _Half watch a silent video of the musicians synchronized to the recording, while the others face a blank screen._ Researchers then compare the groups’ ratings.",
+    "prompt": "Which choice best describes the function of the underlined sentence?",
+    "choices": [
+      "It presents evidence that listeners prefer recordings made without an audience.",
+      "It explains how the researchers corrected a timing error in the recording.",
+      "It describes how the experiment varies visual information while keeping the sound constant.",
+      "It identifies a source of background noise that differed across performances."
+    ],
+    "answer": 2,
+    "explanation": "Both groups hear the same audio. The sentence specifies that only one group can see the performers’ gestures, creating the visual comparison used to answer the research question."
+  },
+  {
+    "id": "rw-original-structure-114",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "hard",
+    "passage": "In an original story, Mai brings a dented lunch tin to a repair stall. “It still closes,” she tells the repairer, before he has even looked up. While he works, she keeps repeating the words she plans to say to her brother when she returns the tin. After the repairer hands it back, she opens and closes it three times.",
+    "prompt": "What is the main effect of placing Mai’s remark before the repairer has looked at the tin?",
+    "choices": [
+      "It establishes that the repairer has already offered to replace the tin.",
+      "It identifies the precise method the repairer will use.",
+      "It shows that Mai has forgotten why she brought the tin.",
+      "It suggests that Mai feels an immediate need to explain the tin’s condition."
+    ],
+    "answer": 3,
+    "explanation": "Mai volunteers that the tin works before the repairer has examined it or asked a question. Her timing makes the remark sound like an explanation she is already eager to give."
+  },
+  {
+    "id": "rw-original-cross-109",
+    "section": "rw",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "hard",
+    "passage": "The following texts describe a hypothetical trial of raised-line maps.\n\n**Text 1**\nOn a map of five paths, readers using touch located intersections faster when each path had a different texture. The designer recommends giving every path its own texture on all maps of the park.\n\n**Text 2**\nOn maps with five paths, individually textured paths helped readers. On a map showing sixteen paths at the same scale, however, readers confused several of the textures and located intersections faster when textures were used only for the major paths.",
+    "prompt": "How would the author of Text 2 most likely respond to the recommendation in Text 1?",
+    "choices": [
+      "Whether to give every path a distinct texture should depend on how many paths the map shows.",
+      "The five-path trial establishes that textures help only readers unfamiliar with the park.",
+      "Distinct textures should be reserved for maps that show at least sixteen paths.",
+      "Including textures for major paths prevents readers from ever finding minor paths."
+    ],
+    "answer": 0,
+    "explanation": "Both texts report a benefit from distinct textures on a five-path map. Text 2 also reports that selective texturing worked better in the sixteen-path comparison, giving a reason to account for the number of paths."
   }
 ]

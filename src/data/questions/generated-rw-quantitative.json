@@ -238,23 +238,6 @@
     "explanation": "An unchanged location is an exception to the claim of an increase everywhere. Gains in A or B support a narrower claim, but cannot remove the counterexample at C."
   },
   {
-    "id": "rw-gen-quant-aggregate-reversal-001",
-    "section": "rw",
-    "domain": "Information and Ideas",
-    "skill": "Command of Evidence (Quantitative)",
-    "difficulty": "hard",
-    "passage": "In a hypothetical test of two methods, a researcher claims that the overall success rate alone can hide a different ranking within each task type.\n\n| Method and task | Trials | Success rate (%) |\n|---|---|---|\n| A, easy | 10 | 83 |\n| B, easy | 90 | 73 |\n| A, difficult | 90 | 33 |\n| B, difficult | 10 | 23 |",
-    "prompt": "Which choice most effectively uses data from the table to support the researcher’s claim?",
-    "choices": [
-      "Method A had 90 difficult trials.",
-      "B had higher success within both task types.",
-      "A outperformed B within both task types, although the weighted overall rate was 38% for A and 68% for B.",
-      "The unweighted average of the two percentages equals each method’s overall rate."
-    ],
-    "answer": 2,
-    "explanation": "Weight success rates by trial counts. A was tested mainly on difficult tasks and B mainly on easy tasks, so B’s aggregate rate can be higher even though A’s rate is higher within both types. Ignoring the unequal trial mix conceals that distinction."
-  },
-  {
     "id": "rw-gen-quant-accuracy-without-delay-001",
     "section": "rw",
     "domain": "Information and Ideas",

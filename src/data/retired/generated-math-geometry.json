@@ -1936,6 +1936,22 @@
     "explanation": "Volume is base area times height: $2964=(13)(12)h$. Divide by $156$ to find $h=19$. Adding the base dimensions does not give its area."
   },
   {
+    "id": "m-gen-prism-height-004",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "medium",
+    "prompt": "A rectangular prism has volume $858$ cubic centimeters and base dimensions $22$ centimeters by $13$ centimeters. What is its height, in centimeters?",
+    "choices": [
+      "$3$",
+      "$286$",
+      "$66$",
+      "$39$"
+    ],
+    "answer": 0,
+    "explanation": "Volume is base area times height: $858=(22)(13)h$. Divide by $286$ to find $h=3$. Adding the base dimensions does not give its area."
+  },
+  {
     "id": "m-gen-prism-height-005",
     "section": "math",
     "domain": "Geometry and Trigonometry",
@@ -4780,6 +4796,22 @@
     "explanation": "Volumes of similar solids scale by the cube of the length factor: $7^3=343$. Therefore the volume is $15(343)=5145$. Squaring the factor is appropriate for areas, not volumes."
   },
   {
+    "id": "m-gen-scale-volume-004",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "hard",
+    "prompt": "Two solids are similar. Every length in the larger solid is $6$ times the corresponding length in the smaller. The smaller solid has volume $33$ cubic units. What is the larger volume?",
+    "choices": [
+      "$198$",
+      "$1188$",
+      "$39$",
+      "$7128$"
+    ],
+    "answer": 3,
+    "explanation": "Volumes of similar solids scale by the cube of the length factor: $6^3=216$. Therefore the volume is $33(216)=7128$. Squaring the factor is appropriate for areas, not volumes."
+  },
+  {
     "id": "m-gen-scale-volume-005",
     "section": "math",
     "domain": "Geometry and Trigonometry",
@@ -6676,6 +6708,22 @@
     "explanation": "An exterior angle equals the sum of the two remote interior angles. Thus $119=50+b$, giving $b=69^\\circ$. The adjacent interior angle is supplementary to the exterior angle, but it is not a remote angle."
   },
   {
+    "id": "m-gen-exterior-angle-004",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "medium",
+    "prompt": "An exterior angle of a triangle measures $97^\\circ$. One remote interior angle measures $40^\\circ$. What is the other remote interior angle's measure, in degrees?",
+    "choices": [
+      "$83$",
+      "$57$",
+      "$140$",
+      "$97$"
+    ],
+    "answer": 1,
+    "explanation": "An exterior angle equals the sum of the two remote interior angles. Thus $97=40+b$, giving $b=57^\\circ$. The adjacent interior angle is supplementary to the exterior angle, but it is not a remote angle."
+  },
+  {
     "id": "m-gen-exterior-angle-005",
     "section": "math",
     "domain": "Geometry and Trigonometry",
@@ -8570,6 +8618,22 @@
       "171"
     ],
     "explanation": "The scale from $ABC$ to $DEF$ is $DE/AB=45/5=9$. Corresponding side $EF$ is therefore $19(9)=171$. The correspondence fixes which sides should be compared."
+  },
+  {
+    "id": "m-gen-similar-side-004",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "medium",
+    "prompt": "Triangles $ABC$ and $DEF$ are similar, with $A$, $B$, and $C$ corresponding to $D$, $E$, and $F$, respectively. If $AB=12$, $DE=96$, and $BC=20$, what is $EF$?",
+    "choices": [
+      "$\\frac{5}{2}$",
+      "$96$",
+      "$116$",
+      "$160$"
+    ],
+    "answer": 3,
+    "explanation": "The scale from $ABC$ to $DEF$ is $DE/AB=96/12=8$. Corresponding side $EF$ is therefore $20(8)=160$. The correspondence fixes which sides should be compared."
   },
   {
     "id": "m-gen-similar-side-005",
@@ -11382,6 +11446,18 @@
     ],
     "answer": 1,
     "explanation": "The Pythagorean theorem gives $b^2=(325)^2-(91)^2=97344$. Taking the positive square root gives $b=312$. The hypotenuse is opposite the right angle and is the longest side."
+  },
+  {
+    "id": "m-gen-sine-ratio-001",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "medium",
+    "prompt": "In a right triangle, acute angle $\\theta$ has opposite side $196$, adjacent side $672$, and hypotenuse $700$. What is $\\sin\\theta$?",
+    "answer": [
+      "7/25"
+    ],
+    "explanation": "Sine is opposite divided by hypotenuse: $\\sin\\theta=\\frac{196}{700}=\\frac{7}{25}$. Adjacent over hypotenuse is cosine; opposite over adjacent is tangent."
   },
   {
     "id": "m-gen-sine-ratio-002",
@@ -15220,6 +15296,22 @@
     "explanation": "A circle in standard form is $(x-h)^2+(y-k)^2=r^2$. Here $r^2=225$, so $r=15$. The right side is the radius squared, not the radius."
   },
   {
+    "id": "m-gen-circle-radius-equation-004",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "The equation $(x+ 10)^2+(y- 12)^2=100$ represents a circle. What is its radius?",
+    "choices": [
+      "$100$",
+      "$20$",
+      "$10$",
+      "$-10$"
+    ],
+    "answer": 2,
+    "explanation": "A circle in standard form is $(x-h)^2+(y-k)^2=r^2$. Here $r^2=100$, so $r=10$. The right side is the radius squared, not the radius."
+  },
+  {
     "id": "m-gen-circle-radius-equation-005",
     "section": "math",
     "domain": "Geometry and Trigonometry",
@@ -16166,6 +16258,22 @@
       "10"
     ],
     "explanation": "Complete both squares: $(x-18)^2+(y-14)^2=324+196-420=100$. Thus the radius is $10$. The squared terms added to the left must also be added to the right."
+  },
+  {
+    "id": "m-gen-circle-complete-square-004",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "hard",
+    "prompt": "A circle is represented by $x^2+y^2-26x-36y+ 52=0$. What is its radius?",
+    "choices": [
+      "$13$",
+      "$18$",
+      "$441$",
+      "$21$"
+    ],
+    "answer": 3,
+    "explanation": "Complete both squares: $(x-13)^2+(y-18)^2=169+324-52=441$. Thus the radius is $21$. The squared terms added to the left must also be added to the right."
   },
   {
     "id": "m-gen-circle-complete-square-005",
@@ -17116,6 +17224,22 @@
     "explanation": "Arc length is the angle's fraction of the circumference: $\\frac{270}{360}(2\\pi\\cdot6)=\\frac{1620}{180}\\pi$. Thus $k=\\frac{1620}{180}$. Using $\\pi r^2$ instead computes a sector area."
   },
   {
+    "id": "m-gen-arc-length-004",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "A circle has radius $12$ and a central angle of $135^\\circ$. The intercepted arc has length $k\\pi$. What is $k$?",
+    "choices": [
+      "$9$",
+      "$\\frac{9}{2}$",
+      "$54$",
+      "$24$"
+    ],
+    "answer": 0,
+    "explanation": "Arc length is the angle's fraction of the circumference: $\\frac{135}{360}(2\\pi\\cdot12)=\\frac{1620}{180}\\pi$. Thus $k=\\frac{1620}{180}$. Using $\\pi r^2$ instead computes a sector area."
+  },
+  {
     "id": "m-gen-arc-length-005",
     "section": "math",
     "domain": "Geometry and Trigonometry",
@@ -18062,6 +18186,22 @@
       "841/6"
     ],
     "explanation": "A sector occupies $\\frac{60}{360}$ of the circle. Multiply by $\\pi r^2$ to get $\\frac{50460}{360}\\pi$, so $k=\\frac{50460}{360}$. Arc length instead uses circumference."
+  },
+  {
+    "id": "m-gen-sector-area-004",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "A sector in a circle of radius $15$ has central angle $150^\\circ$. Its area is $k\\pi$. What is $k$?",
+    "choices": [
+      "$\\frac{25}{2}$",
+      "$\\frac{375}{4}$",
+      "$\\frac{375}{2}$",
+      "$225$"
+    ],
+    "answer": 1,
+    "explanation": "A sector occupies $\\frac{150}{360}$ of the circle. Multiply by $\\pi r^2$ to get $\\frac{33750}{360}\\pi$, so $k=\\frac{33750}{360}$. Arc length instead uses circumference."
   },
   {
     "id": "m-gen-sector-area-005",
@@ -22806,6 +22946,22 @@
       "68"
     ],
     "explanation": "An inscribed angle is half the central angle intercepting the same arc. Its measure is $136/2=68^\\circ$. The radius does not affect this angular relationship."
+  },
+  {
+    "id": "m-gen-inscribed-angle-004",
+    "section": "math",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Circles",
+    "difficulty": "medium",
+    "prompt": "In a circle of radius $9$, an inscribed angle intercepts the same arc as a central angle measuring $106^\\circ$. What is the inscribed angle's measure, in degrees?",
+    "choices": [
+      "$53$",
+      "$106$",
+      "$212$",
+      "$127$"
+    ],
+    "answer": 0,
+    "explanation": "An inscribed angle is half the central angle intercepting the same arc. Its measure is $106/2=53^\\circ$. The radius does not affect this angular relationship."
   },
   {
     "id": "m-gen-inscribed-angle-005",

@@ -5710,5 +5710,56 @@
     ],
     "answer": 3,
     "explanation": "Archer wonders nervously how she will manage the occasion, but she enters without haste or embarrassment. The contrast supports outward composure rather than an assertion about her private feelings."
+  },
+  {
+    "id": "rw-original-inference-109",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "In a fictional print shop that uses movable type, a curator examines an undated book and finds a capital R with a chipped leg on page 16 and the same distinctive mark on page 24. The records show that the type in the press was dismantled and returned to its case after each page was printed. Only one capital R in that case had the chip.",
+    "prompt": "Which inference about the two pages is best supported by the text?",
+    "choices": [
+      "Page 24 must have been printed before page 16.",
+      "The same piece of type was likely used to print both pages.",
+      "The printer replaced all of the capital Rs between the two pages.",
+      "The distinctive mark most likely appeared after the book was bound."
+    ],
+    "answer": 1,
+    "explanation": "Returning type to the case made the chipped R available for another page. The repeated distinctive mark and the presence of just one chipped R support reuse. The evidence gives no printing order."
+  },
+  {
+    "id": "rw-original-quantitative-021",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "A fictional stage crew tests two timings for a lighting cue and a sound cue. The table shows when each cue starts and ends, in seconds since the start of each trial. The sequence is complete when both cues have ended. The director observes that Trial B ended sooner even though each of its cues lasted longer than its counterpart in Trial A.\n\n| Trial | Lighting start | Lighting end | Sound start | Sound end |\n|---|---|---|---|---|\n| A | 0 | 12 | 9 | 20 |\n| B | 0 | 14 | 6 | 18 |",
+    "prompt": "Which choice uses data from the table to explain the director’s observation?",
+    "choices": [
+      "The sound cue lasted 2 seconds less in Trial B because it ended at 18 seconds rather than 20 seconds.",
+      "The lighting cue started 2 seconds earlier in Trial B, allowing the whole sequence to finish earlier.",
+      "The cues overlapped for 8 seconds in Trial B and 3 seconds in Trial A, so less time elapsed before both cues were complete in Trial B.",
+      "The two cues were separated by a 6-second gap in Trial B but had no gap in Trial A."
+    ],
+    "answer": 2,
+    "explanation": "In A, lighting lasted 12 seconds and sound lasted 11, with 3 seconds of overlap, for a total of 20 seconds. In B, they lasted 14 and 12 seconds, with 8 seconds of overlap, for a total of 18 seconds. The greater overlap more than offset the increase in cue durations."
+  },
+  {
+    "id": "rw-original-quantitative-022",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "In a hypothetical test, two temperature sensors take readings at three known temperatures. A positive error means the reading was too high, and a negative error means it was too low. A technician claims that averaging signed errors can hide errors in individual readings.\n\n| Reference temperature | Sensor A error | Sensor B error |\n|---|---|---|\n| 10°C | −3°C | +1°C |\n| 20°C | +2°C | +1°C |\n| 30°C | +1°C | +1°C |",
+    "prompt": "Which statement uses data from the table to best illustrate the technician’s claim?",
+    "choices": [
+      "Sensor B had the same signed error at all three reference temperatures.",
+      "The sensors had equal signed errors at 10°C.",
+      "Both sensors had negative average signed errors.",
+      "Sensor A’s average signed error was 0°C even though every individual reading had an error."
+    ],
+    "answer": 3,
+    "explanation": "Sensor A’s errors sum to −3 + 2 + 1 = 0, so their signed average is zero even though none of its readings was exact. Sensor B’s constant positive error illustrates a bias that remains visible in the average."
   }
 ]

@@ -19,6 +19,7 @@ import { readingPublicDomain } from './reading-public-domain.mjs'
 import { readingEvidenceFresh } from './reading-evidence-fresh.mjs'
 import { writingFresh } from './writing-fresh.mjs'
 import { readingPublicDomainMore } from './reading-public-domain-more.mjs'
+import { readingMeasurement } from './reading-measurement.mjs'
 const groups={
  'Words in Context':['craft','Craft and Structure','vocab'],
  'Text Structure and Purpose':['craft','Craft and Structure','structure'],
@@ -32,12 +33,12 @@ const groups={
  'Boundaries':['conventions','Standard English Conventions','boundary'],
  'Form, Structure, and Sense':['conventions','Standard English Conventions','form'],
 }
-for (const row of [...readingLiterary,...writingExpression,...readingReasoning,...readingExtended,...readingLanguage,...readingInterpretation,...readingFresh,...readingPublicDomain,...readingEvidenceFresh,...writingFresh,...readingPublicDomainMore]) {
+for (const row of [...readingLiterary,...writingExpression,...readingReasoning,...readingExtended,...readingLanguage,...readingInterpretation,...readingFresh,...readingPublicDomain,...readingEvidenceFresh,...writingFresh,...readingPublicDomainMore,...readingMeasurement]) {
  const words=row.passage.trim().split(/\s+/).length
  assert(words>=25&&words<=150,`${row.skill}: new short passage must contain 25–150 words, got ${words}`)
 }
 const counts={}, files={}, seen=new Set(), publicDomainItems=[]
-const rows=[...reading,...writing,...readingExpansion,...writingExpansion,...readingAdditional,...writingAdditional,...readingLiterary,...writingExpression,...readingReasoning,...readingExtended,...readingLanguage,...readingInterpretation,...readingFresh,...readingPublicDomain,...readingEvidenceFresh,...writingFresh,...readingPublicDomainMore]
+const rows=[...reading,...writing,...readingExpansion,...writingExpansion,...readingAdditional,...writingAdditional,...readingLiterary,...writingExpression,...readingReasoning,...readingExtended,...readingLanguage,...readingInterpretation,...readingFresh,...readingPublicDomain,...readingEvidenceFresh,...writingFresh,...readingPublicDomainMore,...readingMeasurement]
 for(const [i,row] of rows.entries()) {
  const [file,domain,key]=groups[row.skill]
  counts[key]=(counts[key]??0)+1

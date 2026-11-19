@@ -8,8 +8,7 @@ import { registerMathExpansion } from './math-expansion.mjs'
 import { registerMathReasoning } from './math-reasoning.mjs'
 import { registerMathApplications } from './math-applications.mjs'
 import { questionFingerprint } from './question-fingerprint.mjs'
-import { partitionFamily } from './partition-family.mjs'
-import { createHash } from 'node:crypto'
+import { familyOverlapsByName, partitionReviewedFamily } from './partition-family.mjs'
 
 const root = fileURLToPath(new URL('../../', import.meta.url))
 const out = join(root, 'src/data/questions')
@@ -497,11 +496,7 @@ const answerText = (value) => {
   }
   throw Error(`No exact rational representation for ${value}`)
 }
-const canonical=value=>Array.isArray(value)?value.map(canonical):value&&typeof value==='object'?Object.fromEntries(Object.keys(value).sort().map(key=>[key,canonical(value[key])])):value
-const digest=value=>createHash('sha256').update(JSON.stringify(canonical(value))).digest('hex')
-const overlapRows=JSON.parse(readFileSync(join(root,'scripts/question-bank/family-overlaps.json'),'utf8'))
-const overlaps=new Map(overlapRows.map(row=>[row.family,row]))
-assert.equal(overlaps.size,overlapRows.length)
+const overlaps=familyOverlapsByName('m-gen-')
 const outputs = new Map(), retiredOutputs = new Map(), counts = [], seen = new Set(), uniqueStimuli = new Set(), sourceById = new Map()
 for (const file of readdirSync(out).filter(f=>f.endsWith('.json')&&!f.startsWith('generated-math-'))) {
   for(const q of JSON.parse(readFileSync(join(out,file),'utf8'))) {seen.add(`${q.passage??''}\n${q.prompt}`);uniqueStimuli.add(questionFingerprint(q));sourceById.set(q.id,q)}
@@ -550,14 +545,7 @@ for (const [familyIndex, family] of families.entries()) {
   const representative=uniqueQuestions.find(q=>Array.isArray(q.answer)===wantsSpr)??uniqueQuestions[0]
   assert(representative,`${family.key}: no nonduplicate representative`)
   const overlap=overlaps.get(family.key)
-  if(overlap){
-   assert.equal(representative.id,overlap.candidateQuestionId,`${family.key}: recheck the overlap after changing its candidate`)
-   assert.equal(digest(representative),overlap.candidateSha256,`${family.key}: candidate changed since overlap review`)
-   const retained=sourceById.get(overlap.retainedQuestionId)
-   assert(retained,`${family.key}: retained question must remain active`)
-   assert.equal(digest(retained),overlap.retainedSha256,`${family.key}: retained question changed since overlap review`)
-  }
-  const partition=overlap?{active:[],retired:questions}:partitionFamily(questions,representative.id)
+  const partition=partitionReviewedFamily(questions,representative,overlap,sourceById)
   const slug=family.domain===A?'algebra':family.domain===N?'advanced':family.domain===D?'data':'geometry'
   const name=`generated-math-${slug}.json`
   outputs.set(name,[...(outputs.get(name)??[]),...partition.active])
