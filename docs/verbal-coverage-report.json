@@ -1,0 +1,19 @@
+{
+  "provenance": "Individually authored original vocabulary, structure, detail, inference, evidence, and paired-text questions; no numerical or context-swapping variants.",
+  "total": 128,
+  "skills": {
+    "Words in Context": 32,
+    "Text Structure and Purpose": 32,
+    "Central Ideas and Details": 16,
+    "Inferences": 16,
+    "Command of Evidence (Textual)": 16,
+    "Cross-Text Connections": 16
+  },
+  "passageWords": {
+    "minimum": 37,
+    "maximum": 69
+  },
+  "originalPoemPassages": 5,
+  "explicitDetailQuestions": 8,
+  "quotationEvidenceQuestions": 4
+}

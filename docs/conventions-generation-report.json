@@ -147,5 +147,13 @@
       "difficulty": "medium",
       "questions": 64
     }
-  ]
+  ],
+  "expandedBatch": {
+    "families": 8,
+    "questions": 512,
+    "passageWords": {
+      "minimum": 25,
+      "maximum": 35
+    }
+  }
 }

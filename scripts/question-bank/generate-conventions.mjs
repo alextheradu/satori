@@ -119,6 +119,7 @@ for(const [familyIndex,family] of families.entries()) {
   assert.equal(valid.filter(Boolean).length,1,`${family.key}: rule model needs exactly one valid construction`)
   assert.equal(new Set(row.options.map(o=>o.text)).size,4)
   assert.equal((row.passage.match(/______/g)||[]).length,1)
+  if(familyIndex>=16){const words=row.passage.trim().split(/\s+/).length;assert(words>=25&&words<=150,`${family.key}/${c.index}: new passage needs 25–150 words, got ${words}`)}
   const prompt='Which choice completes the text so that it conforms to the conventions of Standard English?'
   const fingerprint=`${row.passage}\n${prompt}`.replace(/\s+/g,' ').trim()
   assert(!seen.has(fingerprint),`${family.key}/${c.index}: repeated stimulus`);seen.add(fingerprint)
@@ -133,5 +134,6 @@ assert.equal(families.length,24)
 assert.equal(questions.length,1536)
 const save=(path,value)=>{const text=JSON.stringify(value,null,2)+'\n';if(check)assert.equal(readFileSync(path,'utf8'),text,`${path}: regenerate content`);else writeFileSync(path,text)}
 save(join(directory,'generated-rw-conventions.json'),questions)
-save(join(root,'docs/conventions-generation-report.json'),{provenance:'Original controlled grammar practice: 24 authored rule patterns and 64 original contexts. Construction tags and controlled subject numbers are checked; these checks are not independent natural-language certification.',contexts:contexts.length,total:questions.length,families:report})
+const expandedQuestions=questions.slice(16*contexts.length),expandedWords=expandedQuestions.map(q=>q.passage.trim().split(/\s+/).length)
+save(join(root,'docs/conventions-generation-report.json'),{provenance:'Original controlled grammar practice: 24 authored rule patterns and 64 original contexts. Construction tags and controlled subject numbers are checked; these checks are not independent natural-language certification.',contexts:contexts.length,total:questions.length,families:report,expandedBatch:{families:8,questions:expandedQuestions.length,passageWords:{minimum:Math.min(...expandedWords),maximum:Math.max(...expandedWords)}}})
 console.log(`${check?'Verified':'Generated'} ${questions.length} grammar variants across ${families.length} rule families and ${contexts.length} original contexts.`)

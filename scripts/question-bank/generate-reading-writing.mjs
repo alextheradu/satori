@@ -11,6 +11,8 @@ import { readingLiterary } from './reading-literary.mjs'
 import { writingExpression } from './writing-expression.mjs'
 import { readingReasoning } from './reading-reasoning.mjs'
 import { readingExtended } from './reading-extended.mjs'
+import { readingLanguage } from './reading-language.mjs'
+import { readingInterpretation } from './reading-interpretation.mjs'
 const groups={
  'Words in Context':['craft','Craft and Structure','vocab'],
  'Text Structure and Purpose':['craft','Craft and Structure','structure'],
@@ -24,12 +26,12 @@ const groups={
  'Boundaries':['conventions','Standard English Conventions','boundary'],
  'Form, Structure, and Sense':['conventions','Standard English Conventions','form'],
 }
-for (const row of [...readingLiterary,...writingExpression,...readingReasoning,...readingExtended]) {
+for (const row of [...readingLiterary,...writingExpression,...readingReasoning,...readingExtended,...readingLanguage,...readingInterpretation]) {
  const words=row.passage.trim().split(/\s+/).length
  assert(words>=25&&words<=150,`${row.skill}: new short passage must contain 25–150 words, got ${words}`)
 }
 const counts={}, files={}, seen=new Set()
-const rows=[...reading,...writing,...readingExpansion,...writingExpansion,...readingAdditional,...writingAdditional,...readingLiterary,...writingExpression,...readingReasoning,...readingExtended]
+const rows=[...reading,...writing,...readingExpansion,...writingExpansion,...readingAdditional,...writingAdditional,...readingLiterary,...writingExpression,...readingReasoning,...readingExtended,...readingLanguage,...readingInterpretation]
 for(const [i,row] of rows.entries()) {
  const [file,domain,key]=groups[row.skill]
  counts[key]=(counts[key]??0)+1
@@ -72,4 +74,12 @@ const extendedReport=JSON.stringify({provenance:'Individually authored original 
 const extendedReportPath=fileURLToPath(new URL('../../docs/extended-reading-report.json',import.meta.url))
 if(process.argv.includes('--check'))assert.equal(readFileSync(extendedReportPath,'utf8'),extendedReport)
 else writeFileSync(extendedReportPath,extendedReport)
+const coverageRows=[...readingLanguage,...readingInterpretation]
+const coverageWords=coverageRows.map(row=>row.passage.trim().split(/\s+/).length)
+const coverageSkills={}
+for(const row of coverageRows)coverageSkills[row.skill]=(coverageSkills[row.skill]??0)+1
+const coverageReport=JSON.stringify({provenance:'Individually authored original vocabulary, structure, detail, inference, evidence, and paired-text questions; no numerical or context-swapping variants.',total:coverageRows.length,skills:coverageSkills,passageWords:{minimum:Math.min(...coverageWords),maximum:Math.max(...coverageWords)},originalPoemPassages:coverageRows.filter(row=>/original poem/.test(row.passage)&&row.passage.includes('\n\n')).length,explicitDetailQuestions:coverageRows.filter(row=>row.prompt.startsWith('According to the text')).length,quotationEvidenceQuestions:coverageRows.filter(row=>row.prompt.startsWith('Which quotation')).length},null,2)+'\n'
+const coverageReportPath=fileURLToPath(new URL('../../docs/verbal-coverage-report.json',import.meta.url))
+if(process.argv.includes('--check'))assert.equal(readFileSync(coverageReportPath,'utf8'),coverageReport)
+else writeFileSync(coverageReportPath,coverageReport)
 console.log(`${process.argv.includes('--check')?'Verified':'Wrote'} ${rows.length} original Reading and Writing questions across ${Object.keys(counts).length} skills.`)
