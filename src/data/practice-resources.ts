@@ -1,0 +1,23 @@
+/** Publisher pages checked on 2026-11-18. External questions are not bundled. */
+export const PRACTICE_RESOURCES = [
+  { href: 'https://satsuite.collegeboard.org/practice/practice-tests/bluebook', title: 'College Board: Bluebook practice tests', desc: 'Official adaptive full-length tests. Uses the free Bluebook app and a College Board account.' },
+  { href: 'https://satsuite.collegeboard.org/practice/student-question-bank', title: 'College Board: Student Question Bank', desc: 'Official questions selected by section, domain, skill, and difficulty. Free College Board account.' },
+  { href: 'https://satsuiteeducatorquestionbank.collegeboard.org/digital/search', title: 'College Board: Educator Question Bank', desc: 'Search and export official SAT Suite questions. Content can overlap the student bank and practice tests.' },
+  { href: 'https://satsuite.collegeboard.org/practice/practice-tests/paper', title: 'College Board: downloadable practice tests', desc: 'Free nonadaptive SAT and PSAT test PDFs with answer keys and explanations. Some content overlaps Bluebook.' },
+  { href: 'https://qotd.collegeboard.org/', title: 'College Board: Question of the Day', desc: 'Free official Math and Reading and Writing questions for a short daily practice session.' },
+  { href: 'https://www.khanacademy.org/test-prep/v2-sat-math', title: 'Khan Academy: SAT Math', desc: 'Free official skill practice, worked examples, and lessons across the four math domains.' },
+  { href: 'https://www.khanacademy.org/test-prep/sat-reading-and-writing', title: 'Khan Academy: SAT Reading and Writing', desc: 'Free official lessons and practice covering vocabulary, reading, grammar, and expression of ideas.' },
+  { href: 'https://www.satmathguide.com/practice/', title: 'SAT Math Guide: topic practice', desc: 'Publisher lists 350 original math questions, with difficulty filters and explanations. No account required.' },
+  { href: 'https://www.woodlogos.net/sat/', title: 'Woodlogos: Reading and Writing practice', desc: 'Free original short-passage questions across all 11 skills, with explanations. No account required.' },
+  { href: 'https://studyglen.com/exams/sat', title: 'StudyGlen: digital SAT questions', desc: 'Original questions across all eight domains. Public sample questions; free account for additional practice.' },
+  { href: 'https://magoosh.com/sat/sat-practice-questions-diagnostic-quiz/', title: 'Magoosh: diagnostic question set', desc: 'Free short Math and Reading and Writing quiz with explanations. Useful when you have less time than a full test.' },
+  { href: 'https://sat.magoosh.com/practice_tests/free', title: 'Magoosh: free practice test', desc: 'Free digital SAT practice test. Registration may be required; additional Magoosh prep is paid.' },
+  { href: 'https://www.kaptest.com/sat/free/sat-20-minute-workout', title: 'Kaplan: 20-minute question workout', desc: 'Free short SAT practice set with explanations. Registration may be required.' },
+  { href: 'https://www.kaptest.com/sat/free/sat-practice', title: 'Kaplan: free practice test', desc: 'Free practice test and score feedback. Account required; additional Kaplan courses are paid.' },
+  { href: 'https://www.princetonreview.com/college/free-sat-practice-test', title: 'The Princeton Review: free practice test', desc: 'Free full-length digital practice and score feedback. Registration required; other prep products may be paid.' },
+  { href: 'https://www.manhattanreview.com/sat-practice-questions/', title: 'Manhattan Review: practice questions', desc: 'Free online SAT question collection with answer explanations. Check individual exercises for current-format relevance.' },
+  { href: 'https://www.manhattanreview.com/free-sat-math-question-bank/', title: 'Manhattan Review: math question-bank book', desc: 'Publisher offers a free book containing about 300 math questions. A request or registration may be required.' },
+  { href: 'https://testinnovators.com/sat/', title: 'Test Innovators: practice platform', desc: 'Adaptive practice with a free starting option and paid expanded access. Check current free-plan limits.' },
+  { href: 'https://www.erikthered.com/tutor/practice.html', title: 'Erik the Red: legacy math quizzes', desc: 'Free printable math drills with solutions. Designed for the 2005–2016 SAT; use for extra math practice, not current test simulation.' },
+  { href: 'https://www.cracksat.net/digital/index.html', title: 'CrackSAT: digital SAT practice index', desc: 'Third-party index of practice sets and PDFs. Check the original publisher and the format of each linked resource.' },
+]

@@ -1,0 +1,546 @@
+[
+  {
+    "id": "rw-original-central-001",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "A fictional town archive began digitizing its newspapers by scanning only front pages. Volunteers soon discovered that local theater, neighborhood disputes, and small businesses appeared chiefly on interior pages. The archive expanded its scanning plan accordingly, even though doing so meant completing fewer issues each month.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The archive broadened its digitization plan after recognizing the historical value of material its original plan omitted.",
+      "The archive stopped digitization because volunteers could not meet monthly targets.",
+      "Front pages contain more local history than interior pages do.",
+      "The archive expanded to preserve only articles about local businesses."
+    ],
+    "answer": 0,
+    "explanation": "The passage describes an initial limit, the overlooked material it excluded, and the resulting expansion. Slower completion is a tradeoff, not abandonment; the omitted material covers several topics."
+  },
+  {
+    "id": "rw-original-central-002",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "In a hypothetical study of public benches, planners initially counted how many seats each square contained. They later recorded shade, nearby traffic, and whether strangers could sit without facing one another. Squares with equal seat counts supported very different lengths of stay. The planners concluded that a useful inventory must describe how seating is experienced, not merely how much exists.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Increasing the number of benches always lengthens visits to public squares.",
+      "The usefulness of public seating depends on contextual features that a simple count does not capture.",
+      "The planners proved that shade is the only feature that affects seating use.",
+      "Seat counts are impossible to measure accurately in busy squares."
+    ],
+    "answer": 1,
+    "explanation": "The main point is that equal quantities can produce different experiences due to context. No single feature is isolated as the sole cause, and counting accuracy is not questioned."
+  },
+  {
+    "id": "rw-original-central-003",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "easy",
+    "passage": "In this original story, Marisol repairs a kite with her younger brother. She reaches for the string whenever his knot slips, then stops herself. By sunset the kite has several crooked seams and a knot he can tie without help. She carries the spare paper home, leaving the string in his hands.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Marisol decides that repairing kites is too difficult for her brother.",
+      "Marisol secretly repairs the kite after her brother gives up.",
+      "Marisol learns to let her brother develop a skill even when doing so produces imperfect results.",
+      "Marisol is disappointed that they have no spare paper left."
+    ],
+    "answer": 2,
+    "explanation": "Her decision not to intervene and her leaving him the string show support for his learning. The imperfect seams remain, and the brother does not give up."
+  },
+  {
+    "id": "rw-original-central-004",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "A hypothetical museum asked visitors to choose between two labels for the same object. One label listed the object’s materials; the other explained how those materials limited the maker’s choices. Visitors reading the second label were more likely to discuss the making process, though they remembered no more material names than other visitors did.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The second label helped visitors remember substantially more technical vocabulary.",
+      "Visitors preferred objects made from fewer materials.",
+      "Museum labels prevent visitors from forming their own interpretations.",
+      "Explaining the implications of materials changed visitors’ discussion without improving their recall of the materials’ names."
+    ],
+    "answer": 3,
+    "explanation": "The passage distinguishes discussion of process from factual recall. The other options assert preferences or broad effects that were not measured."
+  },
+  {
+    "id": "rw-original-central-005",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "In an imagined coastal settlement, flood maps were updated using residents’ observations of paths water took through courtyards and alleys. These observations could not replace elevation measurements, but they identified several blocked drains missing from the engineering records. The revised maps combined both sources rather than declaring either one sufficient.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Combining local observations with technical measurements improved the flood maps because each supplied information the other lacked.",
+      "Residents’ observations made all engineering measurements unnecessary.",
+      "Engineering records accurately identified every blocked drain.",
+      "The settlement abandoned flood mapping after discovering inconsistent information."
+    ],
+    "answer": 0,
+    "explanation": "The text explicitly retains both evidence sources and describes the missing drains that local knowledge added. Claims that one source replaced the other contradict the final sentence."
+  },
+  {
+    "id": "rw-original-central-006",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "medium",
+    "passage": "A fictional publisher released an author’s drafts beside the completed poems. Some readers expected the drafts to reveal a steady progression toward better lines. Instead, they found that images removed from one poem often appeared in another. The collection therefore showed revision as a process of redistributing possibilities, not simply eliminating failures.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "Every abandoned image was eventually published in a completed poem.",
+      "The drafts reveal that revision can involve moving useful material between works rather than merely discarding weak writing.",
+      "The poet wrote all the drafts after finishing the poems.",
+      "Readers unanimously preferred the drafts to the finished poems."
+    ],
+    "answer": 1,
+    "explanation": "Redistribution of images is the passage’s central interpretation. It does not say every image was reused or make a comparison of reader preferences."
+  },
+  {
+    "id": "rw-original-central-007",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "hard",
+    "passage": "A hypothetical language-learning study measured both response speed and accuracy. Learners using one method answered faster but made more errors; those using another were slower but more accurate. Reporting a single combined score concealed this difference. The researchers recommended displaying both measures so teachers could select a method suited to their immediate goals.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "One learning method was superior on every outcome.",
+      "Teachers should always value speed above accuracy.",
+      "Separate measures can reveal a learning tradeoff that one aggregate score obscures.",
+      "Combining scores makes it impossible to calculate either original measure."
+    ],
+    "answer": 2,
+    "explanation": "The faster-but-less-accurate pattern is a tradeoff. The recommendation concerns reporting and goal-sensitive choice, not an unconditional ranking."
+  },
+  {
+    "id": "rw-original-central-008",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "easy",
+    "passage": "In this original narrative, a baker keeps the first misshapen loaf from every new apprentice. Customers assume the loaves are warnings about poor workmanship. The baker says they remind her how much practice hides behind the neat loaves displayed each morning.",
+    "prompt": "Which choice best states the main idea of the text?",
+    "choices": [
+      "The baker sells damaged loaves at a lower price.",
+      "Customers refuse to buy bread made by apprentices.",
+      "The baker believes apprentices cannot improve their work.",
+      "The baker preserves imperfect loaves to acknowledge the learning behind skilled work."
+    ],
+    "answer": 3,
+    "explanation": "Her own explanation establishes the meaning of the display. The customers’ assumption is explicitly corrected, and the text says nothing about prices or refusals to buy."
+  },
+  {
+    "id": "rw-original-inference-001",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "In a hypothetical excavation, identical clay seals appear in storage rooms at three sites. The containers associated with them hold different goods. Researchers know that stamps can be transported and copied, so they decline to attribute all three storage rooms to one administrator on the basis of the seals alone.",
+    "prompt": "Which choice most logically follows from the text?",
+    "choices": [
+      "Shared seal designs do not by themselves establish shared administration.",
+      "The three sites had no contact with one another.",
+      "Every seal was produced by a different administrator.",
+      "Clay seals were used only to identify stored goods."
+    ],
+    "answer": 0,
+    "explanation": "The researchers identify alternative ways identical designs could arise. This limits the inference from design to administration without proving independence, specific makers, or exclusive functions."
+  },
+  {
+    "id": "rw-original-inference-002",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "A fictional transit agency moved a bus stop closer to a clinic. Passenger surveys conducted before and after the move included only riders who boarded at that stop. Afterward, more respondents named the clinic as their destination. The agency did not count former riders who began using another stop.",
+    "prompt": "Which choice most logically follows from the text?",
+    "choices": [
+      "The move reduced the total number of clinic patients.",
+      "The surveys cannot establish how the move affected all of the stop’s former users.",
+      "All former riders benefited from the new stop location.",
+      "Nobody switched to a different stop after the move."
+    ],
+    "answer": 1,
+    "explanation": "The surveys omit former riders who switched stops, so they cannot describe the full former-user group. The other conclusions require uncollected information."
+  },
+  {
+    "id": "rw-original-inference-003",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "In an imagined experiment, two insulation panels slow heat loss equally when dry. After repeated wetting, panel A loses more insulating ability than panel B. The manufacturer advertises the panels using only dry-condition results.",
+    "prompt": "Which choice most logically follows from the text?",
+    "choices": [
+      "Panel B always prevents all heat loss.",
+      "Panel A performs better than panel B when wet.",
+      "The advertised comparison does not reveal a performance difference relevant to wet conditions.",
+      "Dry testing cannot provide any useful information about insulation."
+    ],
+    "answer": 2,
+    "explanation": "Equal dry performance and unequal wet performance mean the dry-only advertisement omits a relevant distinction. It does not make dry tests worthless or establish perfect insulation."
+  },
+  {
+    "id": "rw-original-inference-004",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In this original story, Arun declines every invitation to rehearse on the main stage, explaining that the empty auditorium distracts him. Yet on performance night he arrives early, sits in its last row, and listens while the lighting crew works.",
+    "prompt": "Which choice most logically follows from the text?",
+    "choices": [
+      "Arun intends to withdraw from the performance.",
+      "Arun is secretly a member of the lighting crew.",
+      "Arun never enters the auditorium before an audience arrives.",
+      "Arun’s relationship with the auditorium is more complicated than his refusals alone suggest."
+    ],
+    "answer": 3,
+    "explanation": "His voluntary early visit complicates the impression created by avoiding rehearsals. Neither withdrawal nor a crew role follows, and the last option contradicts his arrival."
+  },
+  {
+    "id": "rw-original-inference-005",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "A hypothetical survey finds that residents who use a neighborhood tool library buy fewer tools. However, the library opened only recently, and many members already owned extensive collections before joining. The researchers plan to compare changes in purchasing over time rather than ownership totals alone.",
+    "prompt": "Which choice most logically follows from the text?",
+    "choices": [
+      "Existing ownership may obscure how library use affects new purchases.",
+      "Every member sold all previously owned tools after joining.",
+      "The library caused members to buy fewer tools before it opened.",
+      "Ownership totals alone can precisely measure the effect on purchasing."
+    ],
+    "answer": 0,
+    "explanation": "Older collections persist even if new purchasing changes, motivating the longitudinal measure. The passage does not establish causation or disposal of existing tools."
+  },
+  {
+    "id": "rw-original-inference-006",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "easy",
+    "passage": "A fictional library tests an evening pickup locker. The locker’s hours begin after the building closes, and every book placed there has already been checked out online. Staff report that some users collect books without entering the building at all.",
+    "prompt": "Which choice most logically follows from the text?",
+    "choices": [
+      "The locker allows anyone to borrow books without a library account.",
+      "Some users can collect borrowed books outside the building’s opening hours.",
+      "The library no longer needs an indoor checkout desk.",
+      "Books in the locker have not yet been checked out."
+    ],
+    "answer": 1,
+    "explanation": "The locker is open after closure and holds pre-checked-out books, supporting after-hours collection. Account rules and elimination of indoor service are not given."
+  },
+  {
+    "id": "rw-original-inference-007",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "hard",
+    "passage": "Two hypothetical translation systems receive similar overall ratings. System A preserves technical terms better, while system B preserves jokes better. The test collection contains equal numbers of technical manuals and comic scenes, but a publisher plans to translate only technical manuals.",
+    "prompt": "Which choice most logically follows from the text?",
+    "choices": [
+      "System B will necessarily translate every technical term incorrectly.",
+      "Equal overall ratings prove equal performance on every text type.",
+      "The publisher should examine category-specific results rather than rely solely on the equal overall ratings.",
+      "Technical terminology cannot be assessed in translation tests."
+    ],
+    "answer": 2,
+    "explanation": "The publisher’s use case differs from the equally weighted mixed test. Category results are relevant, but they do not establish that a system always fails."
+  },
+  {
+    "id": "rw-original-inference-008",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "medium",
+    "passage": "In a fictional seed bank, every packet carries a collection date and location. A researcher groups packets by location but ignores date. Samples from the same location then appear to have highly inconsistent germination rates; older packets tend to germinate less often than newer ones.",
+    "prompt": "Which choice most logically follows from the text?",
+    "choices": [
+      "Location has no possible relationship to germination.",
+      "Every newer packet germinates successfully.",
+      "Grouping by date would prove that age causes the difference.",
+      "Collection date is a variable worth considering when interpreting the differences within each location."
+    ],
+    "answer": 3,
+    "explanation": "The age pattern suggests a potentially relevant variable. It does not eliminate location effects or establish universal success or causality."
+  },
+  {
+    "id": "rw-original-textual-001",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "In a hypothetical experiment, researchers propose that a flower’s pale markings help night-flying insects locate nectar by reflecting dim light. They predict that obscuring the markings will reduce visits at night even if scent and nectar quantity remain unchanged.",
+    "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
+    "choices": [
+      "Flowers with markings covered by an odorless coating receive fewer nighttime visits than untreated flowers with the same nectar supply.",
+      "The markings appear on flowers in several different habitats.",
+      "Researchers can detect the markings in photographs taken in daylight.",
+      "Flowers with more nectar generally attract more insects."
+    ],
+    "answer": 0,
+    "explanation": "The correct result changes the markings while controlling scent and nectar, directly testing the proposed visual mechanism. The other observations do not isolate the markings’ effect."
+  },
+  {
+    "id": "rw-original-textual-002",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "In an imagined classroom study, researchers hypothesize that generating an explanation improves later recall more than copying an explanation does. Students receive the same facts and equal study time.",
+    "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
+    "choices": [
+      "Students copy provided explanations more quickly than they write original ones.",
+      "Students who write explanations in their own words recall more facts a week later than students who copy provided explanations.",
+      "Both groups prefer studying in the morning.",
+      "Some facts are longer than others."
+    ],
+    "answer": 1,
+    "explanation": "The hypothesis predicts a difference in later recall between generating and copying under equal conditions. Speed, preferences, and fact length do not directly establish that outcome."
+  },
+  {
+    "id": "rw-original-textual-003",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "A hypothetical team proposes that a coastal plant survives salt exposure partly by moving salt into older leaves, which it later sheds.",
+    "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
+    "choices": [
+      "The plant has older and younger leaves at the same time.",
+      "Salt concentration varies among seawater samples.",
+      "After controlled salt exposure, salt concentration rises in older leaves before those leaves are shed, while younger leaves retain lower concentrations.",
+      "The plant’s flowers open at different times of day."
+    ],
+    "answer": 2,
+    "explanation": "The prediction concerns salt relocation and shedding, both reflected in the correct finding. Merely having leaves of different ages does not establish the mechanism."
+  },
+  {
+    "id": "rw-original-textual-004",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "In a fictional archive study, historians hypothesize that merchants reused shipping crates across several voyages rather than discarding them after each trip.",
+    "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
+    "choices": [
+      "One merchant owned more crates than another merchant did.",
+      "Crates were made in more than one size.",
+      "Certain goods required more padding than others.",
+      "Some crates bear layers of destination labels dated to successive voyages."
+    ],
+    "answer": 3,
+    "explanation": "Successive dated labels on the same crates directly indicate use on multiple voyages. Counts, sizes, and packing requirements do not show reuse."
+  },
+  {
+    "id": "rw-original-textual-005",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "In a hypothetical design trial, researchers suggest that a website’s unfamiliar icons slow navigation because users cannot infer the icons’ meanings, rather than because the icons are difficult to see.",
+    "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
+    "choices": [
+      "Adding short labels to the icons improves navigation speed even though icon size and contrast remain unchanged.",
+      "Making the page load faster reduces total session time.",
+      "Users with larger monitors navigate the site more frequently.",
+      "Some participants prefer dark backgrounds."
+    ],
+    "answer": 0,
+    "explanation": "Labels clarify meaning while leaving visibility unchanged, isolating the hypothesized problem. The other results involve performance, device use, or preferences without testing icon interpretation."
+  },
+  {
+    "id": "rw-original-textual-006",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "An imagined ecologist hypothesizes that foot traffic, rather than shade, explains why seedlings survive poorly near a path.",
+    "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
+    "choices": [
+      "The path is shaded during part of the afternoon.",
+      "Fenced plots next to the path have higher seedling survival than unfenced plots receiving the same amount of shade.",
+      "Seedlings of several species grow in the region.",
+      "People visit the park more often during holidays."
+    ],
+    "answer": 1,
+    "explanation": "Blocking foot traffic while matching shade directly separates the proposed cause from the alternative. Background observations do not establish the survival effect."
+  },
+  {
+    "id": "rw-original-textual-007",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "hard",
+    "passage": "In a hypothetical language study, researchers propose that listeners use a speaker’s hand gestures to resolve ambiguous spatial descriptions.",
+    "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
+    "choices": [
+      "Speakers sometimes gesture even when talking alone.",
+      "Some descriptions contain no spatial information.",
+      "When gestures point to different possible locations, listeners’ interpretations shift accordingly despite hearing identical words.",
+      "Listeners recognize the speaker’s voice."
+    ],
+    "answer": 2,
+    "explanation": "Different gestures paired with the same words producing different interpretations directly supports using gestures to resolve ambiguity. The other findings do not test listeners’ use of gesture."
+  },
+  {
+    "id": "rw-original-textual-008",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Textual)",
+    "difficulty": "medium",
+    "passage": "A fictional historian proposes that a local newspaper reached readers outside its home town through organized sharing rather than through individual subscriptions alone.",
+    "prompt": "Which finding, if true, would most directly support the researchers’ hypothesis?",
+    "choices": [
+      "The newspaper sometimes printed notices about distant towns.",
+      "The printer used the same typeface for several years.",
+      "Some subscribers saved complete annual collections.",
+      "Letters from neighboring villages describe reading each issue aloud at scheduled community meetings."
+    ],
+    "answer": 3,
+    "explanation": "Organized group reading beyond the home town directly supports the proposed sharing route. Distant content and printing choices do not establish circulation."
+  },
+  {
+    "id": "rw-original-quantitative-001",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "medium",
+    "passage": "In a hypothetical trial, a researcher claims that adding shade improved seedling survival under both watering schedules.\n\n| Watering schedule | Survival without shade (%) | Survival with shade (%) |\n|---|---|---|\n| Daily | 72 | 88 |\n| Every third day | 40 | 65 |",
+    "prompt": "Which choice most effectively uses data from the table to support the stated claim?",
+    "choices": [
+      "Survival rose from 72% to 88% with daily watering and from 40% to 65% with watering every third day.",
+      "Daily watering without shade produced 72% survival.",
+      "Shaded seedlings watered daily had higher survival than shaded seedlings watered every third day.",
+      "Every-third-day watering resulted in 40% survival without shade."
+    ],
+    "answer": 0,
+    "explanation": "The claim requires a within-schedule shade comparison for both schedules. Only the correct choice reports both improvements; comparing schedules under shade tests a different question."
+  },
+  {
+    "id": "rw-original-quantitative-002",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "A hypothetical transit study claims that express service shortened typical journeys more on the longer route than on the shorter route.\n\n| Route | Median time before (min) | Median time after (min) |\n|---|---|---|\n| Short | 24 | 20 |\n| Long | 52 | 41 |",
+    "prompt": "Which choice most effectively uses data from the table to support the stated claim?",
+    "choices": [
+      "The short route had a lower median time before the change.",
+      "The median dropped by 11 minutes on the long route, compared with 4 minutes on the short route.",
+      "The long route’s median time was 41 minutes after the change.",
+      "Both routes had median times below 60 minutes before the change."
+    ],
+    "answer": 1,
+    "explanation": "The claim compares the size of changes: 52−41=11 versus 24−20=4. Single measurements or route rankings do not establish the comparative reduction."
+  },
+  {
+    "id": "rw-original-quantitative-003",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "medium",
+    "passage": "In a hypothetical exhibit study, a curator claims that interactive labels improved visitors’ recall but did not increase visit length.\n\n| Label | Mean facts recalled | Mean visit length (min) |\n|---|---|---|\n| Static | 3.2 | 18 |\n| Interactive | 5.1 | 18 |",
+    "prompt": "Which choice most effectively uses data from the table to support the stated claim?",
+    "choices": [
+      "Visitors stayed 18 minutes with static labels.",
+      "The interactive group recalled more than five facts on average, so it must have stayed longer.",
+      "Visitors recalled 5.1 facts with interactive labels versus 3.2 with static labels, while both groups stayed 18 minutes on average.",
+      "The static group recalled fewer facts and stayed for less time."
+    ],
+    "answer": 2,
+    "explanation": "The correct choice accurately reports both higher recall and unchanged duration. The final distractor contradicts the equal visit lengths."
+  },
+  {
+    "id": "rw-original-quantitative-004",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "A hypothetical researcher claims that the effect of reminder messages was larger for returning participants than for new participants.\n\n| Participant type | Attendance without reminder (%) | Attendance with reminder (%) |\n|---|---|---|\n| New | 46 | 53 |\n| Returning | 58 | 76 |",
+    "prompt": "Which choice most effectively uses data from the table to support the stated claim?",
+    "choices": [
+      "Returning participants had higher attendance even without reminders.",
+      "Attendance for new participants exceeded 50% with reminders.",
+      "The reminder attendance rate was 76% for returning participants.",
+      "Attendance increased by 18 percentage points among returning participants and by 7 among new participants."
+    ],
+    "answer": 3,
+    "explanation": "The claim compares treatment-related changes, not starting levels or isolated endpoints. The increases are 76−58=18 and 53−46=7 percentage points."
+  },
+  {
+    "id": "rw-original-quantitative-005",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "medium",
+    "passage": "In a fictional materials trial, a team claims that coating B retained more strength after repeated wetting than coating A, even though both had the same initial strength.\n\n| Coating | Initial strength (units) | Strength after wetting (units) |\n|---|---|---|\n| A | 100 | 62 |\n| B | 100 | 84 |",
+    "prompt": "Which choice most effectively uses data from the table to support the stated claim?",
+    "choices": [
+      "Both coatings began at 100 units, but B retained 84 units after wetting compared with A’s 62.",
+      "Coating A lost 38 units after wetting.",
+      "Both coatings retained some strength after wetting.",
+      "Coating B began with more strength than A."
+    ],
+    "answer": 0,
+    "explanation": "The correct statement includes both the matched baseline and the different retained strength. The last choice contradicts the baseline data."
+  },
+  {
+    "id": "rw-original-quantitative-006",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "A hypothetical library study claims that longer opening hours increased evening borrowing while morning borrowing remained nearly unchanged.\n\n| Time | Loans before | Loans after |\n|---|---|---|\n| Morning | 206 | 209 |\n| Evening | 118 | 191 |",
+    "prompt": "Which choice most effectively uses data from the table to support the stated claim?",
+    "choices": [
+      "Morning loans exceeded evening loans before the change.",
+      "Evening loans increased by 73, whereas morning loans increased by only 3.",
+      "There were 209 morning loans after the change.",
+      "Evening loans remained lower than morning loans after the change."
+    ],
+    "answer": 1,
+    "explanation": "The claim concerns different changes across times. The correct comparison gives 191−118=73 and 209−206=3; rankings alone do not demonstrate this pattern."
+  },
+  {
+    "id": "rw-original-quantitative-007",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "medium",
+    "passage": "In a hypothetical plant trial, a team claims that both treatments improved average growth compared with the control, but combining the treatments did not improve growth beyond treatment B alone.\n\n| Condition | Average growth (cm) |\n|---|---|\n| Control | 8 |\n| A | 12 |\n| B | 16 |\n| A and B | 16 |",
+    "prompt": "Which choice most effectively uses data from the table to support the stated claim?",
+    "choices": [
+      "Treatment A produced 12 cm of growth.",
+      "The combined treatment doubled growth compared with A alone.",
+      "A and B alone produced 12 and 16 cm versus the control’s 8 cm, while the combined treatment matched B at 16 cm.",
+      "The control and treatment B differed by 8 cm, proving that combining treatments was harmful."
+    ],
+    "answer": 2,
+    "explanation": "The full pattern supports both parts of the claim. Combined growth equals B, is not twice A, and does not show harm relative to B."
+  },
+  {
+    "id": "rw-original-quantitative-008",
+    "section": "rw",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence (Quantitative)",
+    "difficulty": "hard",
+    "passage": "A hypothetical accessibility study claims that a redesign narrowed the completion-rate gap between first-time and experienced users.\n\n| User group | Before redesign (%) | After redesign (%) |\n|---|---|---|\n| First-time | 48 | 74 |\n| Experienced | 82 | 88 |",
+    "prompt": "Which choice most effectively uses data from the table to support the stated claim?",
+    "choices": [
+      "Experienced users had the higher completion rate after redesign.",
+      "Both groups had completion rates above 40% before redesign.",
+      "The experienced group improved by 6 percentage points.",
+      "The gap fell from 34 percentage points before redesign to 14 afterward."
+    ],
+    "answer": 3,
+    "explanation": "Compute both gaps: 82−48=34 and 88−74=14. The other statements are true but do not directly establish narrowing of the between-group gap."
+  }
+]

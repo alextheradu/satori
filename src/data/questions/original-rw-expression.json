@@ -1,0 +1,546 @@
+[
+  {
+    "id": "rw-original-transition-001",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "The fictional gallery initially displayed each sculpture behind glass. Visitors could see the surfaces but not the undersides. ______, the curators installed angled mirrors beneath the cases.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "To address this limitation",
+      "Nevertheless",
+      "For instance",
+      "Meanwhile"
+    ],
+    "answer": 0,
+    "explanation": "The mirrors solve the stated viewing problem, so a phrase introducing a response fits. Nevertheless signals contrast, for instance introduces an example, and meanwhile indicates simultaneous events."
+  },
+  {
+    "id": "rw-original-transition-002",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "In a hypothetical trial, two filters removed the same proportion of visible particles. ______, one filter allowed far more dissolved material to pass through than the other.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Accordingly",
+      "However",
+      "Similarly",
+      "For example"
+    ],
+    "answer": 1,
+    "explanation": "The first sentence identifies similarity and the second introduces a significant difference. However signals that contrast; accordingly would incorrectly suggest a consequence."
+  },
+  {
+    "id": "rw-original-transition-003",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "The fictional cooperative published every expenditure in a monthly bulletin. Members could therefore track how fees were used. ______, they could question a purchase before the next budget was approved.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Conversely",
+      "Instead",
+      "In addition",
+      "Regardless"
+    ],
+    "answer": 2,
+    "explanation": "The second benefit adds to the first. In addition fits; conversely reverses a relationship, instead replaces an action, and regardless dismisses a consideration."
+  },
+  {
+    "id": "rw-original-transition-004",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "An imagined critic describes the novel’s short chapters as fragmentary. Their repeated images, though, connect scenes that initially seem unrelated. ______, the fragmentation is part of a larger pattern rather than an absence of structure.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Even so",
+      "For example",
+      "Meanwhile",
+      "In other words"
+    ],
+    "answer": 3,
+    "explanation": "The final sentence restates the interpretation of repeated connections. In other words introduces that reformulation; it is not a counterpoint or a concrete example."
+  },
+  {
+    "id": "rw-original-transition-005",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "In a fictional experiment, the seedlings received no water for two weeks. ______, most wilted before the next measurement.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "As a result",
+      "By comparison",
+      "Nevertheless",
+      "For example"
+    ],
+    "answer": 0,
+    "explanation": "Wilting is presented as a consequence of lacking water. As a result expresses cause and effect; nevertheless would suggest wilting was unexpected despite the lack."
+  },
+  {
+    "id": "rw-original-transition-006",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "The first archival search focused on official meeting minutes. A second search examined personal letters. ______, the third search turned to account books and shipping records.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Previously",
+      "Finally",
+      "Instead",
+      "Similarly"
+    ],
+    "answer": 1,
+    "explanation": "First, second, and third form an ordered sequence, so finally introduces its last step. Instead would imply abandoning rather than adding to the searches."
+  },
+  {
+    "id": "rw-original-transition-007",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "A fictional city tried charging less for buses during quiet hours, hoping to attract new riders. Total ridership barely changed. ______, some existing passengers shifted their trips to the discounted periods.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Therefore",
+      "Likewise",
+      "Instead",
+      "For example"
+    ],
+    "answer": 2,
+    "explanation": "The observed shift replaced the hoped-for increase in riders. Instead captures the difference between intended and actual outcome. The shift is not an example of increased total ridership."
+  },
+  {
+    "id": "rw-original-transition-008",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "An imagined historian argues that household objects can document political change. ______, plates bearing a new state emblem show how official imagery entered daily routines.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Nevertheless",
+      "In conclusion",
+      "On the contrary",
+      "For example"
+    ],
+    "answer": 3,
+    "explanation": "The plates are a specific illustration of the general claim about household objects. There is no disagreement or conclusion from multiple prior examples."
+  },
+  {
+    "id": "rw-original-transition-009",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "The fictional workshop could not afford a new kiln. ______, members repaired the existing kiln and postponed replacing it.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Consequently",
+      "Conversely",
+      "Nevertheless",
+      "Similarly"
+    ],
+    "answer": 0,
+    "explanation": "Repair and postponement follow from the funding limit. Consequently signals this result; nevertheless would imply acting against the limit."
+  },
+  {
+    "id": "rw-original-transition-010",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "A hypothetical report distinguishes a device’s peak capacity from its typical output. Peak capacity describes the maximum under ideal conditions. ______, typical output reflects performance during ordinary use.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Consequently",
+      "By contrast",
+      "For instance",
+      "In fact"
+    ],
+    "answer": 1,
+    "explanation": "The sentences define two contrasting measures. By contrast makes that distinction clear; typical output is neither a result nor an example of peak capacity."
+  },
+  {
+    "id": "rw-original-transition-011",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "The fictional library installed a return box near the station. It also placed smaller boxes at two supermarkets. ______, readers gained several ways to return books without visiting the main building.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Nonetheless",
+      "For example",
+      "Taken together",
+      "Earlier"
+    ],
+    "answer": 2,
+    "explanation": "The final sentence combines the effects of the two preceding actions. Taken together marks that synthesis. For example would incorrectly introduce the combined outcome as one instance."
+  },
+  {
+    "id": "rw-original-transition-012",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "A hypothetical survey links garden membership with stronger neighborhood ties. It does not establish whether gardening created those ties or sociable residents were more likely to join. ______, a causal claim would go beyond the evidence.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Nevertheless",
+      "Similarly",
+      "Incidentally",
+      "Therefore"
+    ],
+    "answer": 3,
+    "explanation": "The inability to determine causal direction justifies the stated limit on interpretation. Therefore signals that inference; nevertheless would frame the limit as contrary to the evidence."
+  },
+  {
+    "id": "rw-original-transition-013",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "In a fictional orchestra, the rehearsal recording made a balance problem audible to everyone. ______, the conductor had struggled to describe that same problem using words alone.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "Previously",
+      "Subsequently",
+      "Consequently",
+      "Likewise"
+    ],
+    "answer": 0,
+    "explanation": "The conductor’s earlier difficulty precedes the successful recording. Previously establishes that time relationship. Subsequently reverses it."
+  },
+  {
+    "id": "rw-original-transition-014",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "hard",
+    "passage": "An imagined editor accepts that extensive footnotes can interrupt a story. ______, she argues that brief notes at chapter ends can preserve context without breaking the narrative.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "For that reason alone",
+      "Even so",
+      "For instance",
+      "Similarly"
+    ],
+    "answer": 1,
+    "explanation": "The editor concedes a drawback but still defends a different way of supplying notes. Even so marks this concessive movement. The proposal is not an example of interruption."
+  },
+  {
+    "id": "rw-original-transition-015",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "easy",
+    "passage": "The fictional school’s reading room has broad windows and low shelves. Its music room, ______, has no windows and uses tall storage cabinets.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "therefore",
+      "for example",
+      "by contrast",
+      "in addition"
+    ],
+    "answer": 2,
+    "explanation": "The rooms have opposing features, so by contrast fits. Therefore implies one room’s design caused the other’s; for example implies the second illustrates the first."
+  },
+  {
+    "id": "rw-original-transition-016",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "medium",
+    "passage": "A hypothetical navigation test measured accuracy, not speed. ______, a participant who reached the right destination slowly could receive the same score as one who arrived quickly.",
+    "prompt": "Which choice completes the text with the most logical transition?",
+    "choices": [
+      "However",
+      "Meanwhile",
+      "Alternatively",
+      "Thus"
+    ],
+    "answer": 3,
+    "explanation": "Equal accuracy scores despite different speeds follow from the scoring rule. Thus introduces the implication. However would imply a contradiction."
+  },
+  {
+    "id": "rw-original-synthesis-001",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- In the fictional town of Lenwick, a library opened a seed exchange in 2022.\n- Members borrow seeds and may later return seeds from the resulting plants.\n- The exchange helps preserve locally grown varieties.\n- The library also lends books and tools.",
+    "prompt": "The student wants to explain how the seed exchange works. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Members of Lenwick’s seed exchange borrow seeds and may replenish the collection with seeds from plants they grow.",
+      "Lenwick’s library opened a seed exchange in 2022 and also lends tools.",
+      "Locally grown varieties are among the plants grown in Lenwick.",
+      "The library’s collections extend beyond books."
+    ],
+    "answer": 0,
+    "explanation": "The goal is the process: borrowing and returning seeds. The other choices provide dates, context, or a broad category without explaining the mechanism."
+  },
+  {
+    "id": "rw-original-synthesis-002",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- Fictional artist Mina Vale makes prints using carved wooden blocks.\n- Fictional artist Oren Bell makes prints using etched metal plates.\n- Both artists work in the same studio.\n- Vale began exhibiting in 2019.",
+    "prompt": "The student wants to emphasize a similarity between the artists. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Mina Vale uses wooden blocks, whereas Oren Bell uses metal plates.",
+      "Mina Vale and Oren Bell both make prints and work in the same studio.",
+      "Mina Vale began exhibiting in 2019.",
+      "Oren Bell’s printing plates are made of metal."
+    ],
+    "answer": 1,
+    "explanation": "The correct choice identifies shared medium and workplace. The first distractor emphasizes difference; the others describe only one artist."
+  },
+  {
+    "id": "rw-original-synthesis-003",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- A hypothetical survey compared two delivery methods.\n- Bicycle delivery averaged 22 minutes over short routes.\n- Van delivery averaged 31 minutes over the same short routes.\n- Vans carried more parcels per trip.",
+    "prompt": "The student wants to compare the methods’ average times on short routes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Vans carried more parcels per trip than bicycles.",
+      "The study compared bicycles and vans as delivery methods.",
+      "On the short routes studied, bicycle delivery averaged 22 minutes, compared with 31 minutes for van delivery.",
+      "Bicycle delivery averaged 22 minutes, and vans carried many parcels."
+    ],
+    "answer": 2,
+    "explanation": "Only the correct option provides both average times on the same routes. Capacity and study scope do not accomplish the requested time comparison."
+  },
+  {
+    "id": "rw-original-synthesis-004",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- A fictional archivist, Lian Cho, studies handwritten corrections in printed cookbooks.\n- Corrections sometimes replace ingredients with locally available substitutes.\n- Cho argues that owners adapted printed recipes to local conditions.\n- The cookbooks were printed in several cities.",
+    "prompt": "The student wants to present Cho’s argument and a specific observation supporting it. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Cookbooks in Cho’s study were printed in several cities and corrected by hand.",
+      "Handwritten corrections are one subject that archivists can study.",
+      "Cho studies cookbooks and argues that printed texts matter.",
+      "Cho argues that owners adapted printed recipes to local conditions, pointing to corrections that substitute locally available ingredients."
+    ],
+    "answer": 3,
+    "explanation": "The correct sentence pairs the precise adaptation claim with ingredient substitutions as evidence. The distractors omit either the argument, the supporting observation, or both."
+  },
+  {
+    "id": "rw-original-synthesis-005",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- In a hypothetical engineering trial, panel A and panel B had equal strength when dry.\n- After wetting, panel A retained 60% of its initial strength.\n- Panel B retained 85%.\n- Both panels weighed the same.",
+    "prompt": "The student wants to highlight a difference observed after wetting. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "After wetting, panel B retained 85% of its initial strength, compared with 60% for panel A.",
+      "Panels A and B weighed the same.",
+      "Both panels had equal dry strength before wetting.",
+      "The trial tested panels under dry and wet conditions."
+    ],
+    "answer": 0,
+    "explanation": "The specified difference is wet-strength retention, and the correct option compares the two relevant percentages. The other sentences give similarities or broad procedure."
+  },
+  {
+    "id": "rw-original-synthesis-006",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- The fictional Harbor Choir was founded in 2008.\n- It performs in schools, hospitals, and public squares.\n- Members rehearse on Thursdays.\n- Its director is Samira Holt.",
+    "prompt": "The student wants to describe the range of places where the choir performs. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The Harbor Choir was founded in 2008.",
+      "The Harbor Choir performs in schools, hospitals, and public squares.",
+      "Samira Holt directs the Harbor Choir.",
+      "Choir members rehearse every Thursday."
+    ],
+    "answer": 1,
+    "explanation": "Only the correct option addresses performance locations; the other facts concern history, leadership, and rehearsal scheduling."
+  },
+  {
+    "id": "rw-original-synthesis-007",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- A hypothetical research team tested whether labels affected snack choices.\n- The team randomly assigned participants to view labels with or without ingredient illustrations.\n- All participants saw the same ingredient information.\n- The illustration group selected a wider variety of snacks.",
+    "prompt": "The student wants to describe a feature of the study that helps isolate the effect of illustrations. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Participants in the illustration group chose a wider variety of snacks.",
+      "The team tested snack labels in a hypothetical study.",
+      "The team varied the presence of illustrations while keeping ingredient information the same for all participants.",
+      "Some labels contained illustrations of ingredients."
+    ],
+    "answer": 2,
+    "explanation": "Keeping the written information constant while changing illustrations isolates the design feature. Reporting the outcome alone does not identify that methodological control."
+  },
+  {
+    "id": "rw-original-synthesis-008",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- Fictional historian Pavel Neri studies a port’s account books.\n- The books list recurring payments to interpreters.\n- The payments appear in routine transactions as well as major negotiations.\n- Neri argues that translation was part of everyday commercial activity.",
+    "prompt": "The student wants to support Neri’s claim about the everyday role of translation. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The account books record major negotiations at the port.",
+      "Pavel Neri studies historical account books.",
+      "Commercial ports sometimes hosted large negotiations.",
+      "Recurring interpreter payments in routine transactions support Neri’s view that translation was part of everyday commerce."
+    ],
+    "answer": 3,
+    "explanation": "Routine, recurring payments directly support the everyday-role claim. Major negotiations alone would not establish ordinary use."
+  },
+  {
+    "id": "rw-original-synthesis-009",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- In a hypothetical trial, navigation app A gave the shortest routes.\n- App B gave slightly longer routes with fewer staircases.\n- Participants with wheeled luggage completed app B’s routes more quickly.\n- The trial included twelve station journeys.",
+    "prompt": "The student wants to illustrate why route length alone may not predict practical travel time. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Although app B’s routes were longer, travelers with wheeled luggage completed them faster because they involved fewer staircases.",
+      "App A always gave shorter routes than app B in the trial.",
+      "Twelve station journeys were included in a navigation study.",
+      "App B’s routes differed from app A’s routes."
+    ],
+    "answer": 0,
+    "explanation": "The correct sentence links the apparent length disadvantage to faster practical completion and the accessibility feature. The alternatives omit that comparison or explanation."
+  },
+  {
+    "id": "rw-original-synthesis-010",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- The fictional Eastbank Garden opened in 2015.\n- It contains 40 plots.\n- The fictional Westbank Garden opened in 2020.\n- It contains 65 plots.",
+    "prompt": "The student wants to compare the gardens’ sizes in terms of plot count. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Eastbank Garden opened five years before Westbank Garden.",
+      "Westbank Garden has 65 plots, 25 more than Eastbank Garden’s 40.",
+      "Westbank Garden opened in 2020 and has 65 plots.",
+      "Both gardens opened after 2010."
+    ],
+    "answer": 1,
+    "explanation": "The goal is a size comparison, correctly expressed through both counts and their difference. Opening dates address a different comparison."
+  },
+  {
+    "id": "rw-original-synthesis-011",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- Fictional ceramicist Dalia Fen uses locally collected clay.\n- The clay’s mineral content varies by collection site.\n- Fen leaves fired surfaces unglazed so the clay colors remain visible.\n- Her studio opened in 2018.",
+    "prompt": "The student wants to explain Fen’s reason for leaving surfaces unglazed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Fen opened a ceramics studio in 2018.",
+      "Clay mineral content varies across the sites where Fen collects it.",
+      "Fen leaves her ceramics unglazed to keep the natural colors of the locally collected clay visible.",
+      "Fen makes ceramics from local clay in her studio."
+    ],
+    "answer": 2,
+    "explanation": "The correct option states the purpose of omitting glaze. Mineral variability alone does not explain her surface-treatment decision."
+  },
+  {
+    "id": "rw-original-synthesis-012",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- A fictional city widened a riverside walkway.\n- The widened path accommodates more pedestrians.\n- The project retained a narrow band of vegetation along the water.\n- Planners intended that vegetation to reduce bank erosion.",
+    "prompt": "The student wants to describe how the project addressed two different goals. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The city completed a project beside a river.",
+      "Planners retained vegetation near the widened walkway.",
+      "More pedestrians can use the widened path.",
+      "The wider path accommodates more pedestrians, while the retained vegetation is intended to reduce riverbank erosion."
+    ],
+    "answer": 3,
+    "explanation": "The correct option identifies both circulation and erosion-control goals and connects each to a specific project feature. Other options omit a goal or do not explain either."
+  },
+  {
+    "id": "rw-original-synthesis-013",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- A hypothetical museum study compared two label designs.\n- One design listed dates and names.\n- The other asked visitors to compare two visible features.\n- Visitors using the comparison labels discussed the objects more often.",
+    "prompt": "The student wants to summarize the study’s principal finding. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Visitors discussed objects more often when labels prompted comparison of visible features than when labels listed dates and names.",
+      "One label design included dates and names.",
+      "Museums can use different label designs.",
+      "The researchers studied visitors in a hypothetical museum."
+    ],
+    "answer": 0,
+    "explanation": "The principal finding is the difference in discussion frequency associated with the two designs. Method descriptions alone do not state it."
+  },
+  {
+    "id": "rw-original-synthesis-014",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "hard",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- Fictional scholar Ira Mehta studies marginal notes in borrowed books.\n- Some notes respond to earlier readers’ comments.\n- Those exchanges appear across multiple dated loans.\n- Mehta calls the annotations a conversation extending across time.",
+    "prompt": "The student wants to provide an example that clarifies Mehta’s description. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Mehta studies books that contain marginal notes.",
+      "Notes that answer comments left during earlier loans illustrate Mehta’s description of annotations as a conversation across time.",
+      "Some borrowed books were loaned more than once.",
+      "Mehta’s research concerns books and their readers."
+    ],
+    "answer": 1,
+    "explanation": "The response to earlier comments makes the conversation metaphor concrete and establishes its temporal dimension. The other facts do not illustrate exchange."
+  },
+  {
+    "id": "rw-original-synthesis-015",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "easy",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- The fictional Riverton Observatory holds public viewings.\n- Clouds can prevent telescope use.\n- On cloudy nights, staff offer indoor demonstrations instead.\n- The building has two telescopes.",
+    "prompt": "The student wants to explain what visitors can do when clouds prevent viewing. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "Riverton Observatory has two telescopes.",
+      "The observatory offers public viewings.",
+      "When clouds prevent telescope viewing at Riverton Observatory, visitors can attend indoor demonstrations.",
+      "Clouds sometimes prevent staff from using telescopes."
+    ],
+    "answer": 2,
+    "explanation": "The correct sentence states the alternative activity available under the specified condition. The other sentences do not answer what visitors can do."
+  },
+  {
+    "id": "rw-original-synthesis-016",
+    "section": "rw",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "medium",
+    "passage": "While researching a topic, a student has taken the following notes.\n\n- In a hypothetical survey, riders were asked how often buses arrived late.\n- The survey recruited respondents through a complaint webpage.\n- People who had experienced delays were especially likely to visit that page.\n- Researchers cautioned against generalizing to all riders.",
+    "prompt": "The student wants to explain the researchers’ caution. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "choices": [
+      "The researchers asked riders about bus delays.",
+      "People can file complaints on a webpage.",
+      "The survey found that buses sometimes arrived late.",
+      "Recruiting through a complaint webpage may overrepresent riders who experienced delays, limiting generalization to all riders."
+    ],
+    "answer": 3,
+    "explanation": "The recruitment source creates potential selection bias. The correct option connects that mechanism to the warning about generalization."
+  }
+]

@@ -5,6 +5,7 @@ import { Item, ItemActions, ItemContent, ItemDescription, ItemGroup, ItemTitle }
 import { FadeIn, PageHeader, Tile } from '@/components/app/common'
 import { MathReference } from '@/components/app/MathReference'
 import { Inline } from '@/lib/Markup'
+import { PRACTICE_RESOURCES } from '@/data/practice-resources'
 
 const FORMAT = [
   { s: 'Reading & Writing', icon: BookOpenText, q: 54, min: 64, mods: '2 modules · 27 questions · 32 min each' },
@@ -28,11 +29,6 @@ const MATH_TIPS = [
   ['Grid-in answers', 'Fractions and decimals are both accepted. Negatives are allowed; mixed numbers like 3 1/2 are not.'],
 ]
 
-const LINKS = [
-  { href: 'https://bluebook.collegeboard.org', title: 'Bluebook', desc: 'Official full-length adaptive practice tests in the real testing app.' },
-  { href: 'https://satsuiteeducatorquestionbank.collegeboard.org/digital/search', title: 'SAT Suite Question Bank', desc: 'Thousands of official questions, filterable by domain, skill and difficulty.' },
-  { href: 'https://www.khanacademy.org/test-prep/digital-sat', title: 'Khan Academy', desc: 'Free official SAT lessons and practice.' },
-]
 
 export default function Reference() {
   return (
@@ -85,10 +81,10 @@ export default function Reference() {
       </div>
 
       <section>
-        <h2 className="mb-1 text-lg font-semibold">Official practice</h2>
-        <p className="mb-4 text-sm text-muted-foreground">Pair this site with College Board’s free official materials.</p>
+        <h2 className="mb-1 text-lg font-semibold">More practice questions</h2>
+        <p className="mb-4 text-sm text-muted-foreground">Official question banks, free quizzes, and extra practice found across the web. Access details are listed with each resource.</p>
         <ItemGroup className="gap-2">
-          {LINKS.map((l) => (
+          {PRACTICE_RESOURCES.map((l) => (
             <Item key={l.href} variant="outline" asChild className="bg-card">
               <a href={l.href} target="_blank" rel="noreferrer">
                 <ItemContent>

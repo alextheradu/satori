@@ -1,0 +1,386 @@
+[
+  {
+    "id": "m-original-statistics-001",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A school randomly selects 120 students from its complete enrollment list and asks how they travel to school. To which population can the results most reasonably be generalized?",
+    "choices": [
+      "Students enrolled at that school",
+      "All students in the country",
+      "Only students who travel by bus",
+      "All residents of the school’s town"
+    ],
+    "answer": 0,
+    "explanation": "Random selection from the full enrollment list supports inference to that school’s students, subject to sampling uncertainty. It does not sample other schools or nonstudent residents."
+  },
+  {
+    "id": "m-original-statistics-002",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A shop posts an optional online survey asking whether its prices should be reduced. Which issue most directly limits using the responses to estimate the opinion of all customers?",
+    "choices": [
+      "The survey is online, so every response must be incorrect.",
+      "Customers who choose to respond may differ systematically from other customers.",
+      "The sample cannot contain more than one customer with the same opinion.",
+      "A voluntary survey necessarily includes every customer."
+    ],
+    "answer": 1,
+    "explanation": "Voluntary response can favor customers with especially strong views. It does not guarantee false answers or a census."
+  },
+  {
+    "id": "m-original-statistics-003",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "Researchers randomly assign 200 volunteers to use either a new study schedule or their usual schedule. Both groups take the same examination. The new-schedule group scores higher on average. Which statement best describes what random assignment contributes?",
+    "choices": [
+      "It guarantees that the volunteers represent every student in the country.",
+      "It guarantees identical scores within each group.",
+      "It helps make the groups comparable, strengthening a causal interpretation of the schedule’s effect.",
+      "It makes measuring examination scores unnecessary."
+    ],
+    "answer": 2,
+    "explanation": "Random assignment reduces systematic group differences before treatment and supports causal comparison. It is distinct from random sampling and does not guarantee population representativeness or identical outcomes."
+  },
+  {
+    "id": "m-original-statistics-004",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A study finds that adults who own bicycles exercise more than adults who do not. No treatment is assigned. Which conclusion is justified?",
+    "choices": [
+      "Bicycle ownership necessarily causes every adult to exercise more.",
+      "Exercise cannot influence the decision to buy a bicycle.",
+      "Giving bicycles to any population will reproduce the observed difference.",
+      "Bicycle ownership is associated with greater exercise in the observed group."
+    ],
+    "answer": 3,
+    "explanation": "This observational association does not establish causation. Motivation or other variables might affect both bicycle ownership and exercise."
+  },
+  {
+    "id": "m-original-statistics-005",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A district randomly samples 300 students, then randomly assigns half to each of two tutoring programs. Which statement about the design is most accurate?",
+    "choices": [
+      "Random sampling supports district-wide inference, and random assignment supports comparing the programs’ causal effects.",
+      "Random sampling alone establishes that one program causes higher scores.",
+      "Random assignment guarantees that the sample represents all districts.",
+      "Neither random sampling nor assignment affects the conclusions that can be drawn."
+    ],
+    "answer": 0,
+    "explanation": "Sampling concerns representativeness of the selected population; assignment concerns comparability of treatment groups. The design uses both for different purposes."
+  },
+  {
+    "id": "m-original-statistics-006",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A city surveys every fifth person entering a downtown gym about exercise habits. The city uses the results to estimate the habits of all residents. What is the main concern?",
+    "choices": [
+      "Selecting every fifth person automatically makes the sample a census.",
+      "Gym visitors may not represent all city residents’ exercise habits.",
+      "Exercise habits cannot be measured with a survey.",
+      "Every gym visitor exercises exactly the same amount."
+    ],
+    "answer": 1,
+    "explanation": "The sampling frame excludes many residents and may overrepresent frequent exercisers. Systematic selection within the gym does not remove this coverage bias."
+  },
+  {
+    "id": "m-original-statistics-007",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "Two classes try different review methods. One class is taught by an experienced teacher and the other by a new teacher. Students were not randomly assigned. Which variable is confounded with review method?",
+    "choices": [
+      "The number of review methods, which is two",
+      "The fact that the students attend classes",
+      "Teacher experience",
+      "The use of an examination as an outcome"
+    ],
+    "answer": 2,
+    "explanation": "Teacher experience varies together with method, so the score difference cannot be cleanly attributed to review method. A confound is an alternative explanatory difference between groups."
+  },
+  {
+    "id": "m-original-statistics-008",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "easy",
+    "prompt": "Researchers give one group of plants fertilizer and leave another group untreated. Both groups receive equal light and water. What is the untreated group’s role?",
+    "choices": [
+      "It ensures every plant grows to the same height.",
+      "It eliminates the need to measure growth.",
+      "It proves fertilizer is harmful before the experiment begins.",
+      "It provides a comparison for evaluating the effect of fertilizer."
+    ],
+    "answer": 3,
+    "explanation": "A control group provides a baseline against which the treatment outcome can be compared. It does not predetermine the result or replace measurement."
+  },
+  {
+    "id": "m-original-statistics-009",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A company tests a new app using only employees who volunteered. Employees are randomly assigned to new or old versions. Which limitation remains even if the comparison between versions is well controlled?",
+    "choices": [
+      "The volunteers may not represent the app’s wider user population.",
+      "Random assignment cannot support any comparison between app versions.",
+      "Every employee must use both versions simultaneously.",
+      "The two versions must produce identical outcomes."
+    ],
+    "answer": 0,
+    "explanation": "Random assignment can strengthen internal causal inference, but volunteer recruitment may limit generalization. Assignment does not repair a nonrepresentative sampling frame."
+  },
+  {
+    "id": "m-original-statistics-010",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A pollster randomly contacts 1,000 residents, but only 150 respond. Which question is most relevant when evaluating possible nonresponse bias?",
+    "choices": [
+      "Did every respondent choose a different answer?",
+      "Do respondents differ from nonrespondents in opinions related to the poll’s topic?",
+      "Was the original contact list longer than the final sample?",
+      "Can the 150 responses be added together?"
+    ],
+    "answer": 1,
+    "explanation": "Nonresponse bias concerns systematic topic-related differences between those who respond and those who do not. Merely knowing that the sample shrank does not identify the direction or existence of bias."
+  },
+  {
+    "id": "m-original-statistics-011",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "An experiment compares two instruction manuals. Participants know which is advertised as the improved manual, and they rate ease of use afterward. Which change would most directly reduce expectation-related bias?",
+    "choices": [
+      "Tell all participants that the new manual must be superior.",
+      "Allow only participants who helped write the new manual.",
+      "Conceal which manual is the advertised improved version.",
+      "Remove every question about ease of use."
+    ],
+    "answer": 2,
+    "explanation": "Blinding the advertised status reduces the influence of expectations while preserving the outcome being evaluated. The other choices either increase bias or eliminate the intended assessment."
+  },
+  {
+    "id": "m-original-statistics-012",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "A researcher records that towns with more public parks also have higher property prices and concludes that building any park will increase nearby prices. What most directly weakens this causal conclusion?",
+    "choices": [
+      "Public parks can be counted.",
+      "Property prices differ from one home to another.",
+      "The researcher recorded information from more than one town.",
+      "Income or other town characteristics could influence both park availability and property prices."
+    ],
+    "answer": 3,
+    "explanation": "A common cause could create the association without parks alone causing the price difference. Basic measurability and ordinary variation do not by themselves explain the causal limitation."
+  },
+  {
+    "id": "m-original-statistics-013",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "medium",
+    "prompt": "A factory wants an estimate of the proportion of defective items in today’s full production. Which plan best supports a representative estimate?",
+    "choices": [
+      "Randomly select items throughout today’s entire production run.",
+      "Inspect only the first ten items made after maintenance.",
+      "Inspect only items a worker thinks look unusual.",
+      "Inspect only items that customers have returned."
+    ],
+    "answer": 0,
+    "explanation": "Random coverage throughout the target run avoids selecting only special periods or visibly unusual cases. The other plans systematically favor particular items."
+  },
+  {
+    "id": "m-original-statistics-014",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "Researchers randomly assign students to one of two practice routines, but many students do not follow their assigned routine. Why does this matter when interpreting the experiment?",
+    "choices": [
+      "Noncompliance proves both routines are identical.",
+      "Noncompliance can make the effect of assignment differ from the effect of actually following the routine.",
+      "Random assignment means following the routine is irrelevant.",
+      "Noncompliance guarantees a representative national sample."
+    ],
+    "answer": 1,
+    "explanation": "Randomization defines an assignment comparison. When actual behavior differs from assignment, that comparison does not directly identify the effect of consistently following a routine without additional assumptions."
+  },
+  {
+    "id": "m-original-statistics-015",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "easy",
+    "prompt": "A survey asks, “Do you agree that our excellent new library deserves more funding?” What is the main concern about this wording?",
+    "choices": [
+      "It requires respondents to calculate a percentage.",
+      "It randomly assigns respondents to funding plans.",
+      "It may encourage favorable responses by describing the library positively.",
+      "It prevents anyone from expressing an opinion."
+    ],
+    "answer": 2,
+    "explanation": "Calling the library excellent introduces a leading evaluation that may affect responses. Neutral wording would better separate respondents’ views from the question’s framing."
+  },
+  {
+    "id": "m-original-statistics-016",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Evaluating statistical claims: observational studies and experiments",
+    "difficulty": "hard",
+    "prompt": "An observational study finds a positive association between tutoring hours and test scores. A separate randomized experiment also finds that assigned tutoring raises average scores. Which statement is best supported?",
+    "choices": [
+      "Both studies prove tutoring raises every individual’s score by the same amount.",
+      "The observational study is automatically more causal because it observes real behavior.",
+      "The experiment proves that prior motivation cannot affect test scores.",
+      "The randomized experiment supplies stronger evidence for a causal tutoring effect than the observational association alone."
+    ],
+    "answer": 3,
+    "explanation": "Random assignment better separates tutoring from preexisting differences. An average causal effect does not imply identical individual effects or rule out other influences on scores."
+  },
+  {
+    "id": "m-original-statistics-017",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "medium",
+    "prompt": "Data set A is 10, 12, 14, 16, 18. Data set B is 30, 32, 34, 36, 38. How do their standard deviations compare?",
+    "choices": [
+      "They are equal.",
+      "B’s standard deviation is 20 greater.",
+      "B’s standard deviation is three times A’s.",
+      "A’s standard deviation is zero."
+    ],
+    "answer": 0,
+    "explanation": "B adds 20 to each value in A. Both the values and the mean shift equally, leaving every deviation from the mean unchanged."
+  },
+  {
+    "id": "m-original-statistics-018",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "medium",
+    "prompt": "Data set B is formed by multiplying every value in data set A by 3. Data set A has standard deviation 4. What is B’s standard deviation?",
+    "choices": [
+      "4",
+      "12",
+      "7",
+      "36"
+    ],
+    "answer": 1,
+    "explanation": "Scaling each observation by 3 scales all distances from the mean by 3, so the standard deviation becomes 3×4=12. Variance, rather than standard deviation, scales by 9."
+  },
+  {
+    "id": "m-original-statistics-019",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "easy",
+    "prompt": "Which data set has a standard deviation of zero?",
+    "choices": [
+      "4, 6, 8, 10",
+      "0, 0, 1, 1",
+      "7, 7, 7, 7",
+      "3, 3, 3, 5"
+    ],
+    "answer": 2,
+    "explanation": "Standard deviation is zero exactly when every observation equals the mean. Only the all-7 data set has no spread."
+  },
+  {
+    "id": "m-original-statistics-020",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "A data set is 8, 9, 10, 11, 12. A second data set replaces 12 with 120. Which statement is true?",
+    "choices": [
+      "The mean and median both remain unchanged.",
+      "The median increases to 11.",
+      "The mean decreases because the range increases.",
+      "The mean increases, but the median remains 10."
+    ],
+    "answer": 3,
+    "explanation": "The ordered middle value is still 10. The sum increases by 108, so the mean increases by 108/5. The extreme replacement changes mean and spread without changing the median."
+  },
+  {
+    "id": "m-original-statistics-021",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "medium",
+    "prompt": "Two five-value data sets both have mean 20. Set A is 18, 19, 20, 21, 22. Set B is 10, 15, 20, 25, 30. Which has greater standard deviation?",
+    "choices": [
+      "Set B",
+      "Set A",
+      "Their standard deviations must be equal because their means are equal.",
+      "Both standard deviations are zero."
+    ],
+    "answer": 0,
+    "explanation": "Every deviation in B is five times the corresponding deviation in A, so B has five times the standard deviation. Equal centers do not imply equal spread."
+  },
+  {
+    "id": "m-original-statistics-022",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "easy",
+    "prompt": "A data set has minimum 14 and maximum 53. What is its range?",
+    "choices": [
+      "67",
+      "39",
+      "14",
+      "53"
+    ],
+    "answer": 1,
+    "explanation": "Range is maximum minus minimum: 53−14=39. It describes the span between the extreme observations."
+  },
+  {
+    "id": "m-original-statistics-023",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "hard",
+    "prompt": "A data set has mean 15. Every value is transformed by the rule y = 2x + 7. Which statement correctly describes the transformed data?",
+    "choices": [
+      "Its mean is 30, and its standard deviation increases by 7.",
+      "Its mean is 22, and its standard deviation is unchanged.",
+      "Its mean is 37, and its standard deviation is twice the original standard deviation.",
+      "Its mean is 37, and its standard deviation increases by 7."
+    ],
+    "answer": 2,
+    "explanation": "The mean transforms as 2(15)+7=37. Multiplication by 2 doubles spread; adding 7 shifts all values without changing spread."
+  },
+  {
+    "id": "m-original-statistics-024",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "One-variable data: distributions and measures of center and spread",
+    "difficulty": "medium",
+    "prompt": "A frequency table gives value 2 with frequency 4, value 5 with frequency 7, and value 9 with frequency 3. What is the mode?",
+    "choices": [
+      "7",
+      "9",
+      "2",
+      "5"
+    ],
+    "answer": 3,
+    "explanation": "The mode is the observed value with greatest frequency. Value 5 appears 7 times, more than the other values. Frequency 7 is not itself the modal data value."
+  }
+]
